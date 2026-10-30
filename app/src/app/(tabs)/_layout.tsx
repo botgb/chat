@@ -19,8 +19,9 @@ export default function TabsLayout() {
       }}
     >
       <Tabs.Screen name="index" options={{ title: 'Trilha', tabBarIcon: icon('🗺️') }} />
-      <Tabs.Screen name="revisar" options={{ title: 'Revisar', tabBarIcon: icon('🔁') }} />
-      <Tabs.Screen name="provas" options={{ title: 'Provas', tabBarIcon: icon('📚') }} />
+      <Tabs.Screen name="missoes" options={{ title: 'Missões', tabBarIcon: icon('🎯') }} />
+      <Tabs.Screen name="ranking" options={{ title: 'Ranking', tabBarIcon: icon('🏆') }} />
+      <Tabs.Screen name="assinatura" options={{ title: 'Assinatura', tabBarIcon: icon('👑') }} />
       <Tabs.Screen name="perfil" options={{ title: 'Perfil', tabBarIcon: icon('👤') }} />
     </Tabs>
   );

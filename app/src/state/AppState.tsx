@@ -5,17 +5,21 @@ import {
   AnswerInput,
   AnswerResult,
   completeLesson,
+  dayKey,
   initialProgress,
   Progress,
   recordAnswer,
+  refillHearts,
 } from '../lib/gamification';
+import { claim } from '../lib/missions';
 import { recordLevel } from '../lib/levels';
 import { ExamPack, Manifest } from '../lib/types';
 
 const PROGRESS_KEY = 'progress:v1';
 const PREFS_KEY = 'prefs:v1';
 
-export type Prefs = { vestibular: string | null; subjects: string[] };
+/** examId null = todas as provas baixadas do vestibular. */
+export type Prefs = { vestibular: string | null; examId: string | null; subjects: string[] };
 
 type AppState = {
   ready: boolean;
@@ -28,6 +32,8 @@ type AppState = {
   answer: (input: AnswerInput) => AnswerResult;
   /** Conclui a lição; se for uma fase do mapa, devolve as estrelas ganhas. */
   finishLesson: (level?: { id: string; correct: number; total: number }) => number;
+  claimMission: (id: string) => boolean;
+  buyHeartRefill: () => boolean;
   setPrefs: (prefs: Prefs) => void;
   setDailyGoal: (goal: number) => void;
   refreshManifest: () => Promise<void>;
@@ -40,7 +46,7 @@ const Ctx = createContext<AppState | null>(null);
 export function AppStateProvider({ children }: { children: ReactNode }) {
   const [ready, setReady] = useState(false);
   const [progress, setProgress] = useState<Progress>(() => initialProgress(Date.now()));
-  const [prefs, setPrefsState] = useState<Prefs>({ vestibular: null, subjects: [] });
+  const [prefs, setPrefsState] = useState<Prefs>({ vestibular: null, examId: null, subjects: [] });
   const [manifest, setManifest] = useState<Manifest | null>(null);
   const [offline, setOffline] = useState(false);
   const [packs, setPacks] = useState<ExamPack[]>([]);
@@ -64,7 +70,7 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
         AsyncStorage.getItem(PREFS_KEY),
       ]);
       if (p) setProgress({ ...initialProgress(Date.now()), ...JSON.parse(p) });
-      if (pr) setPrefsState(JSON.parse(pr));
+      if (pr) setPrefsState({ vestibular: null, examId: null, subjects: [], ...JSON.parse(pr) });
       await reloadPacks();
       setReady(true);
       await refreshManifest();
@@ -95,15 +101,24 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
     installed,
     answer,
     finishLesson: (level) => {
-      let next = completeLesson(progress);
-      let stars = 0;
-      if (level) {
-        const r = recordLevel(next.levels, level.id, level.correct, level.total);
-        next = { ...next, levels: r.results };
-        stars = r.stars;
+      const now = new Date();
+      if (!level) {
+        save(completeLesson(progress, now));
+        return 0;
       }
-      save(next);
-      return stars;
+      const r = recordLevel(progress.levels, level.id, level.correct, level.total);
+      save(completeLesson({ ...progress, levels: r.results }, now, { newStars: r.newStars, passed: r.stars > 0 }));
+      return r.stars;
+    },
+    claimMission: (id) => {
+      const next = claim(progress, dayKey(new Date()), id);
+      if (next) save(next);
+      return !!next;
+    },
+    buyHeartRefill: () => {
+      const next = refillHearts(progress, Date.now());
+      if (next) save(next);
+      return !!next;
     },
     setPrefs: (next) => {
       setPrefsState(next);

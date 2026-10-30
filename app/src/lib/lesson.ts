@@ -7,12 +7,13 @@ export type LessonMode = 'pratica' | 'revisao' | 'simulado';
 
 export type LessonFilter = {
   vestibular: string;
+  examId?: string | null; // null/ausente = todas as provas do vestibular
   subjects: string[]; // vazio = todas
 };
 
 export function filterQuestions(packs: ExamPack[], filter: LessonFilter): Question[] {
   return packs
-    .filter((p) => p.vestibular === filter.vestibular)
+    .filter((p) => p.vestibular === filter.vestibular && (!filter.examId || p.id === filter.examId))
     .flatMap((p) => p.questions)
     .filter((q) => q.answer !== null)
     .filter((q) => filter.subjects.length === 0 || filter.subjects.includes(q.subject));

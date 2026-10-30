@@ -5,13 +5,13 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Button } from '../components/Button';
 import { QuestionView } from '../components/QuestionView';
 import { Timer, useCountdown } from '../components/Timer';
-import { currentHearts, dayKey, XP_LESSON_COMPLETE } from '../lib/gamification';
+import { currentHearts, dayKey, HEART_REFILL_COST, XP_LESSON_COMPLETE } from '../lib/gamification';
 import { buildLesson, filterQuestions, LessonMode } from '../lib/lesson';
 import { Question } from '../lib/types';
 import { useApp } from '../state/AppState';
 import { colors, fonts, space, type } from '../theme';
 
-type Params = { mode: LessonMode; vestibular: string; level?: string; ids?: string };
+type Params = { mode: LessonMode; vestibular: string; exam?: string; level?: string; ids?: string };
 
 function BigStars({ count }: { count: number }) {
   const anims = useRef([0, 1, 2].map(() => new Animated.Value(0))).current;
@@ -47,7 +47,7 @@ export default function Licao() {
   // A lição é montada uma vez ao abrir a tela: a fase do mapa ou a revisão do dia.
   const lessonRef = useRef<Question[] | null>(null);
   if (!lessonRef.current) {
-    const pool = filterQuestions(app.packs, { vestibular: params.vestibular, subjects: [] });
+    const pool = filterQuestions(app.packs, { vestibular: params.vestibular, examId: params.exam || null, subjects: [] });
     if (params.ids) {
       const byId = new Map(pool.map((q) => [q.id, q]));
       lessonRef.current = params.ids.split('|').map((id) => byId.get(id)).filter((q): q is Question => !!q);
@@ -77,7 +77,7 @@ export default function Licao() {
   const confirm = () => {
     if (!selected || !question) return;
     const correct = selected === question.answer;
-    const r = app.answer({ questionId: question.id, subject: question.subject, correct, inTime: timer.inTime, useHearts });
+    const r = app.answer({ questionId: question.id, subject: question.subject, correct, inTime: timer.inTime, useHearts, review: mode === 'revisao' });
     setResults((rs) => [...rs, { correct, xp: r.xpGained }]);
     setRevealed(true);
   };
@@ -133,7 +133,7 @@ export default function Licao() {
             {passed
               ? right === results.length
                 ? 'Tudo certo nesta fase.'
-                : 'As erradas voltam amanhã na aba Revisar.'
+                : 'As erradas voltam amanhã para revisão.'
               : 'Acerte pelo menos 3 de 5 para liberar a próxima fase.'}
           </Text>
           <Button label="Continuar" variant="success" onPress={() => router.back()} />
@@ -148,8 +148,14 @@ export default function Licao() {
         <View style={styles.center}>
           <Text style={styles.emoji}>💔</Text>
           <Text style={styles.big}>Suas vidas acabaram</Text>
-          <Text style={styles.muted}>Elas voltam com o tempo, 1 a cada 30 minutos. Enquanto isso, use a aba Revisar: revisar não gasta vidas.</Text>
-          <Button label="Voltar" onPress={() => router.back()} />
+          <Text style={styles.muted}>Elas voltam com o tempo, 1 a cada 30 minutos. Revisar seus erros não gasta vidas.</Text>
+          <Button
+            label={`Recarregar por ${HEART_REFILL_COST} 💎`}
+            disabled={app.progress.diamonds < HEART_REFILL_COST}
+            onPress={app.buyHeartRefill}
+          />
+          <Text style={[styles.muted, { textAlign: 'center' }]}>Você tem {app.progress.diamonds} 💎</Text>
+          <Button label="Voltar" variant="ghost" onPress={() => router.back()} />
         </View>
       </SafeAreaView>
     );

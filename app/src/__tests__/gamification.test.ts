@@ -1,5 +1,9 @@
 import {
   addDays,
+  completeLesson,
+  DIAMONDS_PER_STAR,
+  HEART_REFILL_COST,
+  refillHearts,
   currentHearts,
   dueQuestionIds,
   HEART_REFILL_MS,
@@ -13,6 +17,7 @@ import {
 } from '../lib/gamification';
 import { buildLesson, buildTrail, filterQuestions } from '../lib/lesson';
 import { buildMap, recordLevel, starsFor } from '../lib/levels';
+import { CHEST_ID, CHEST_REWARD, claim, dailyMissions, missionStatus } from '../lib/missions';
 import { ExamPack, Question } from '../lib/types';
 
 const at = (day: string, hour = 12) => {
@@ -162,5 +167,45 @@ describe('mapa de fases', () => {
     // Repetir com resultado pior não tira estrelas.
     r = recordLevel(r.results, id, 1, 5);
     expect(r.results[id].stars).toBe(2);
+  });
+});
+
+describe('missões e diamantes', () => {
+  const day = '2026-03-10';
+
+  it('sorteia 3 missões diferentes e iguais para o mesmo dia', () => {
+    const a = dailyMissions(day);
+    expect(a).toHaveLength(3);
+    expect(new Set(a.map((m) => m.kind)).size).toBe(3);
+    expect(dailyMissions(day)).toEqual(a);
+  });
+
+  it('só resgata missão concluída, uma vez, e libera o baú no fim', () => {
+    let p: Progress = initialProgress(0);
+    const [m0] = dailyMissions(day);
+    expect(claim(p, day, m0.id)).toBeNull();
+    // Enche todos os contadores do dia.
+    p = { ...p, daily: { [day]: { answered: 99, correct: 99, inTime: 99, reviews: 99, levels: 99, stars: 99, xp: 999 } } };
+    let total = 0;
+    for (const { mission } of missionStatus(p, day).missions) {
+      expect(missionStatus(p, day).chestReady).toBe(false);
+      p = claim(p, day, mission.id)!;
+      total += mission.reward;
+      expect(claim(p, day, mission.id)).toBeNull();
+    }
+    p = claim(p, day, CHEST_ID)!;
+    expect(p.diamonds).toBe(total + CHEST_REWARD);
+    expect(missionStatus(p, day).chestClaimed).toBe(true);
+  });
+
+  it('dá diamantes por estrela nova e gasta para recarregar vidas', () => {
+    let p = completeLesson(initialProgress(0), at(day), { newStars: 3, passed: true });
+    expect(p.diamonds).toBe(3 * DIAMONDS_PER_STAR);
+    expect(p.daily[day].levels).toBe(1);
+    p = { ...p, diamonds: HEART_REFILL_COST, hearts: 1, heartsUpdatedAt: at(day).getTime() };
+    const r = refillHearts(p, at(day).getTime())!;
+    expect(r.hearts).toBe(MAX_HEARTS);
+    expect(r.diamonds).toBe(0);
+    expect(refillHearts(r, at(day).getTime())).toBeNull();
   });
 });

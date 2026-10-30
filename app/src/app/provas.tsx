@@ -1,10 +1,10 @@
+import { router } from 'expo-router';
 import { useState } from 'react';
-import { ActivityIndicator, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { Button } from '../../components/Button';
-import { TopBar } from '../../components/TopBar';
-import { useApp } from '../../state/AppState';
-import { colors, fonts, space, type } from '../../theme';
+import { Button } from '../components/Button';
+import { useApp } from '../state/AppState';
+import { colors, fonts, space, type } from '../theme';
 
 export default function Provas() {
   const app = useApp();
@@ -27,9 +27,14 @@ export default function Provas() {
 
   return (
     <SafeAreaView style={styles.screen} edges={['top']}>
-      <TopBar />
+      <View style={styles.header}>
+        <Pressable onPress={() => router.back()} accessibilityRole="button" accessibilityLabel="Voltar" hitSlop={12}>
+          <Text style={styles.back}>‹</Text>
+        </Pressable>
+        <Text style={styles.headerTitle}>Provas</Text>
+      </View>
       <ScrollView contentContainerStyle={{ padding: space(4), gap: space(6), paddingBottom: space(12) }}>
-        <Text style={styles.hero}>Provas</Text>
+        <Text style={styles.lead}>Baixe as provas que você vai prestar. Depois de baixadas, funcionam sem internet.</Text>
         {error && <Text style={styles.error}>Não foi possível concluir: {error}</Text>}
         {!manifest && (
           <View style={{ gap: space(4) }}>
@@ -82,7 +87,9 @@ export default function Provas() {
 
 const styles = StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.bg },
-  hero: { fontFamily: fonts.display, fontSize: type.hero, color: colors.ink },
+  header: { flexDirection: 'row', alignItems: 'center', gap: space(3), paddingHorizontal: space(4), paddingVertical: space(2), borderBottomWidth: 2, borderBottomColor: colors.line },
+  back: { fontFamily: fonts.display, fontSize: 36, color: colors.inkSoft, lineHeight: 38 },
+  headerTitle: { fontFamily: fonts.display, fontSize: type.lead + 2, color: colors.ink },
   lead: { fontFamily: fonts.body, fontSize: type.lead - 2, color: colors.inkSoft },
   section: { fontFamily: fonts.display, fontSize: type.title, color: colors.ink },
   title: { fontFamily: fonts.displayMedium, fontSize: type.lead, color: colors.ink, flexShrink: 1 },

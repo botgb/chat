@@ -1,10 +1,10 @@
 import { useMemo } from 'react';
 import { filterQuestions } from '../lib/lesson';
 import { buildMap } from '../lib/levels';
-import { Vestibular } from '../lib/types';
+import { ExamPack, Vestibular } from '../lib/types';
 import { useApp } from './AppState';
 
-/** Vestibular escolhido, matérias filtradas e o mapa de fases correspondente. */
+/** Vestibular e prova escolhidos, matérias filtradas e o mapa de fases correspondente. */
 export function useStudy() {
   const app = useApp();
   const { packs, prefs, manifest, progress } = app;
@@ -18,19 +18,68 @@ export function useStudy() {
 
   const vestibular =
     prefs.vestibular && vestibulares.some((v) => v.id === prefs.vestibular) ? prefs.vestibular : vestibulares[0]?.id ?? null;
-
-  const all = useMemo(() => (vestibular ? filterQuestions(packs, { vestibular, subjects: [] }) : []), [packs, vestibular]);
-  const subjects = useMemo(() => [...new Set(all.map((q) => q.subject))].sort((a, b) => a.localeCompare(b, 'pt-BR')), [all]);
-  const pool = useMemo(
-    () => all.filter((q) => prefs.subjects.length === 0 || prefs.subjects.includes(q.subject)),
-    [all, prefs.subjects],
+  const exams: ExamPack[] = useMemo(
+    () => packs.filter((p) => p.vestibular === vestibular).sort((a, b) => b.year - a.year || a.title.localeCompare(b.title)),
+    [packs, vestibular],
   );
-  const units = useMemo(() => (vestibular ? buildMap(pool, vestibular, progress.levels) : []), [pool, vestibular, progress.levels]);
+  const examId = prefs.examId && exams.some((e) => e.id === prefs.examId) ? prefs.examId : null;
 
-  const toggleSubject = (s: string) => {
-    const next = prefs.subjects.includes(s) ? prefs.subjects.filter((x) => x !== s) : [...prefs.subjects, s];
-    app.setPrefs({ vestibular, subjects: next });
+  const all = useMemo(
+    () => (vestibular ? filterQuestions(packs, { vestibular, examId, subjects: [] }) : []),
+    [packs, vestibular, examId],
+  );
+  const subjects = useMemo(() => [...new Set(all.map((q) => q.subject))].sort((a, b) => a.localeCompare(b, 'pt-BR')), [all]);
+  const activeSubjects = useMemo(() => prefs.subjects.filter((s) => subjects.includes(s)), [prefs.subjects, subjects]);
+  const pool = useMemo(
+    () => all.filter((q) => activeSubjects.length === 0 || activeSubjects.includes(q.subject)),
+    [all, activeSubjects],
+  );
+  // As fases de uma prova específica são diferentes das de "todas as provas".
+  const scope = examId ?? vestibular ?? '';
+  const units = useMemo(() => (vestibular ? buildMap(pool, scope, progress.levels) : []), [pool, scope, vestibular, progress.levels]);
+
+  const vestibularInfo = vestibulares.find((v) => v.id === vestibular);
+  const exam = exams.find((e) => e.id === examId);
+  const examLabel = exam ? exam.title : vestibularInfo ? `${vestibularInfo.name}: todas` : '';
+
+  const selectExam = (v: string, id: string | null) => app.setPrefs({ vestibular: v, examId: id, subjects: prefs.subjects });
+  const setSubjects = (s: string[]) => app.setPrefs({ vestibular, examId, subjects: s });
+  const toggleSubject = (s: string) =>
+    setSubjects(activeSubjects.includes(s) ? activeSubjects.filter((x) => x !== s) : [...activeSubjects, s]);
+
+  return {
+    vestibulares,
+    vestibular,
+    vestibularInfo,
+    exams,
+    examId,
+    examLabel,
+    subjects,
+    activeSubjects,
+    pool,
+    units,
+    selectExam,
+    setSubjects,
+    toggleSubject,
   };
-
-  return { vestibulares, vestibular, subjects, pool, units, toggleSubject };
 }
+
+export const SUBJECT_ICONS: Record<string, string> = {
+  Matemática: '➗',
+  Biologia: '🧬',
+  Química: '⚗️',
+  Física: '🧲',
+  História: '🏛️',
+  Geografia: '🌎',
+  Português: '📖',
+  'Língua Portuguesa': '📖',
+  Literatura: '📚',
+  Inglês: '🇬🇧',
+  Espanhol: '🇪🇸',
+  Filosofia: '🤔',
+  Sociologia: '👥',
+  Artes: '🎨',
+  Redação: '✍️',
+};
+
+export const subjectIcon = (s: string) => SUBJECT_ICONS[s] ?? '📘';

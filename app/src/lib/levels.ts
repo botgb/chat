@@ -72,11 +72,12 @@ export function recordLevel(
   id: string,
   correct: number,
   total: number,
-): { results: Record<string, LevelResult>; stars: number } {
+): { results: Record<string, LevelResult>; stars: number; newStars: number } {
   const stars = starsFor(correct, total);
   const prev = results[id] ?? { stars: 0, bestCorrect: 0 };
   return {
     stars,
+    newStars: Math.max(0, stars - prev.stars),
     results: {
       ...results,
       [id]: { stars: Math.max(prev.stars, stars), bestCorrect: Math.max(prev.bestCorrect, correct) },

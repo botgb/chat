@@ -1,5 +1,7 @@
+import { router } from 'expo-router';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { Button } from '../../components/Button';
 import { Chip } from '../../components/Chip';
 import { TopBar } from '../../components/TopBar';
 import { dayKey, visibleStreak } from '../../lib/gamification';
@@ -52,16 +54,7 @@ export default function Perfil() {
           </View>
         </View>
 
-        {study.vestibulares.length > 1 && (
-          <View style={{ gap: space(3) }}>
-            <Text style={styles.section}>Vestibular</Text>
-            <View style={styles.wrap}>
-              {study.vestibulares.map((v) => (
-                <Chip key={v.id} label={v.name} active={v.id === study.vestibular} onPress={() => app.setPrefs({ vestibular: v.id, subjects: [] })} />
-              ))}
-            </View>
-          </View>
-        )}
+        <Button label="Gerenciar provas baixadas" variant="ghost" onPress={() => router.push('/provas')} />
 
         <View style={{ gap: space(3) }}>
           <Text style={styles.section}>Acerto por matéria</Text>

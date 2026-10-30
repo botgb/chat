@@ -7,6 +7,8 @@ export const HEART_REFILL_MS = 30 * 60 * 1000; // 1 vida a cada 30 min
 export const XP_CORRECT = 10;
 export const XP_IN_TIME_BONUS = 5;
 export const XP_LESSON_COMPLETE = 5;
+export const DIAMONDS_PER_STAR = 2;
+export const HEART_REFILL_COST = 50; // diamantes para encher as vidas
 
 // Intervalos (em dias) das caixas de Leitner.
 export const REVIEW_INTERVALS_DAYS = [1, 3, 7, 14, 30];
@@ -18,8 +20,25 @@ export type QuestionStat = {
   correct: number;
 };
 
+/** Contadores do dia, usados pelas missões e pelos recordes. */
+export type DailyStats = {
+  answered: number;
+  correct: number;
+  inTime: number; // acertos dentro do tempo da prova
+  reviews: number; // respostas no modo revisão
+  levels: number; // fases concluídas
+  stars: number; // estrelas novas conquistadas
+  xp: number;
+};
+
+export const emptyDaily = (): DailyStats => ({ answered: 0, correct: 0, inTime: 0, reviews: 0, levels: 0, stars: 0, xp: 0 });
+
 export type Progress = {
   xp: number;
+  diamonds: number;
+  bestStreak: number;
+  daily: Record<string, DailyStats>;
+  claimed: Record<string, string[]>; // missões resgatadas por dia
   dailyGoal: number; // questões por dia
   streak: number;
   lastStreakDay: string | null; // último dia em que a meta foi cumprida
@@ -35,6 +54,10 @@ export type Progress = {
 export function initialProgress(now: number): Progress {
   return {
     xp: 0,
+    diamonds: 0,
+    bestStreak: 0,
+    daily: {},
+    claimed: {},
     dailyGoal: 10,
     streak: 0,
     lastStreakDay: null,
@@ -89,6 +112,7 @@ export type AnswerInput = {
   correct: boolean;
   inTime: boolean;
   useHearts: boolean;
+  review?: boolean;
 };
 
 export type AnswerResult = { progress: Progress; xpGained: number; goalJustMet: boolean };
@@ -140,12 +164,24 @@ export function recordAnswer(p: Progress, input: AnswerInput, now: Date): Answer
     if (streak % 7 === 0) freezes = Math.min(2, freezes + 1);
   }
 
+  const d = p.daily[today] ?? emptyDaily();
+  const daily: DailyStats = {
+    ...d,
+    answered: d.answered + 1,
+    correct: d.correct + (input.correct ? 1 : 0),
+    inTime: d.inTime + (input.correct && input.inTime ? 1 : 0),
+    reviews: d.reviews + (input.review ? 1 : 0),
+    xp: d.xp + xpGained,
+  };
+
   return {
     xpGained,
     goalJustMet,
     progress: {
       ...p,
       xp: p.xp + xpGained,
+      bestStreak: Math.max(p.bestStreak, streak),
+      daily: { ...p.daily, [today]: daily },
       streak,
       lastStreakDay,
       freezes,
@@ -164,8 +200,38 @@ export function recordAnswer(p: Progress, input: AnswerInput, now: Date): Answer
   };
 }
 
-export function completeLesson(p: Progress): Progress {
-  return { ...p, xp: p.xp + XP_LESSON_COMPLETE };
+/** Fim de lição: XP de conclusão e, em fases do mapa, diamantes pelas estrelas novas. */
+export function completeLesson(p: Progress, now: Date, level?: { newStars: number; passed: boolean }): Progress {
+  const today = dayKey(now);
+  const d = p.daily[today] ?? emptyDaily();
+  const newStars = level?.newStars ?? 0;
+  return {
+    ...p,
+    xp: p.xp + XP_LESSON_COMPLETE,
+    diamonds: p.diamonds + newStars * DIAMONDS_PER_STAR,
+    daily: {
+      ...p.daily,
+      [today]: {
+        ...d,
+        xp: d.xp + XP_LESSON_COMPLETE,
+        levels: d.levels + (level?.passed ? 1 : 0),
+        stars: d.stars + newStars,
+      },
+    },
+  };
+}
+
+export function refillHearts(p: Progress, now: number): Progress | null {
+  if (p.diamonds < HEART_REFILL_COST || currentHearts(p, now) >= MAX_HEARTS) return null;
+  return { ...p, diamonds: p.diamonds - HEART_REFILL_COST, hearts: MAX_HEARTS, heartsUpdatedAt: now };
+}
+
+/** XP de cada um dos últimos `n` dias, do mais antigo para hoje. */
+export function xpHistory(p: Progress, today: string, n: number): { day: string; xp: number }[] {
+  return Array.from({ length: n }, (_, i) => {
+    const day = addDays(today, i - n + 1);
+    return { day, xp: p.daily[day]?.xp ?? 0 };
+  });
 }
 
 export function dueQuestionIds(p: Progress, today: string): string[] {
