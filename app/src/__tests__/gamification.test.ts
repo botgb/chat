@@ -12,6 +12,7 @@ import {
   XP_IN_TIME_BONUS,
 } from '../lib/gamification';
 import { buildLesson, buildTrail, filterQuestions } from '../lib/lesson';
+import { buildMap, recordLevel, starsFor } from '../lib/levels';
 import { ExamPack, Question } from '../lib/types';
 
 const at = (day: string, hour = 12) => {
@@ -133,5 +134,33 @@ describe('lições', () => {
       { subject: 'Biologia', total: 2, done: 0 },
       { subject: 'Matemática', total: 2, done: 1 },
     ]);
+  });
+});
+
+describe('mapa de fases', () => {
+  const many: Question[] = Array.from({ length: 12 }, (_, i) => q(`mat-q${i + 1}`, 'Matemática', i + 1));
+
+  it('divide a matéria em fases de 5 e libera só a primeira', () => {
+    const [unit] = buildMap(many, 'enem', {});
+    expect(unit.levels.map((l) => l.questionIds.length)).toEqual([5, 5, 2]);
+    expect(unit.levels.map((l) => l.unlocked)).toEqual([true, false, false]);
+    expect(unit.levels[0].current).toBe(true);
+    // Ordem numérica estável: q2 vem antes de q10.
+    expect(unit.levels[0].questionIds[1]).toBe('mat-q2');
+  });
+
+  it('dá estrelas pelo acerto e libera a próxima fase com pelo menos 1 estrela', () => {
+    expect([5, 4, 3, 2].map((c) => starsFor(c, 5))).toEqual([3, 2, 1, 0]);
+    const id = buildMap(many, 'enem', {})[0].levels[0].id;
+    let r = recordLevel({}, id, 2, 5);
+    expect(buildMap(many, 'enem', r.results)[0].levels[1].unlocked).toBe(false);
+    r = recordLevel(r.results, id, 4, 5);
+    const unit = buildMap(many, 'enem', r.results)[0];
+    expect(unit.levels[0].stars).toBe(2);
+    expect(unit.levels[1].unlocked).toBe(true);
+    expect(unit.levels[1].current).toBe(true);
+    // Repetir com resultado pior não tira estrelas.
+    r = recordLevel(r.results, id, 1, 5);
+    expect(r.results[id].stars).toBe(2);
   });
 });

@@ -29,7 +29,7 @@ export function Timer({ remaining, total }: { remaining: number; total: number }
         {fmt(remaining)}
       </Text>
       <View style={styles.track}>
-        <View style={[styles.bar, { width: `${pct * 100}%`, backgroundColor: pct < 0.2 ? colors.wrong : colors.ink }]} />
+        <View style={[styles.bar, { width: `${pct * 100}%`, backgroundColor: pct < 0.2 ? colors.wrong : colors.primary }]} />
       </View>
     </View>
   );
@@ -38,6 +38,6 @@ export function Timer({ remaining, total }: { remaining: number; total: number }
 const styles = StyleSheet.create({
   wrap: { alignItems: 'flex-end', minWidth: 72 },
   text: { fontFamily: fonts.bodyBold, fontSize: type.lead, color: colors.ink, fontVariant: ['tabular-nums'] },
-  track: { width: 72, height: 4, backgroundColor: colors.sheetLine, borderRadius: 2, marginTop: 4, overflow: 'hidden' },
+  track: { width: 72, height: 4, backgroundColor: colors.line, borderRadius: 2, marginTop: 4, overflow: 'hidden' },
   bar: { height: 4 },
 });

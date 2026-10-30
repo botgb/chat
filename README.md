@@ -25,14 +25,27 @@ O único recurso remoto é **arquivos estáticos** em `content/` (GitHub Pages, 
 
 A URL do conteúdo fica em `app/app.json` → `expo.extra.contentBaseUrl`.
 
-## Rodar localmente
+## Abrir no celular (Expo Go)
 
-```bash
-cd content && python3 serve.py 8787        # serve o conteúdo de teste
-cd app && npm install && npx expo start    # abra no Expo Go pelo QR code
-```
+1. Instale o **Expo Go** no celular (Play Store ou App Store).
+2. No computador, com [Node.js](https://nodejs.org) 20 ou mais novo instalado:
 
-No celular, troque `contentBaseUrl` pelo IP do computador na rede (ex.: `http://192.168.0.10:8787`).
+   ```bash
+   git clone https://github.com/botgb/chat.git
+   cd chat/app
+   npm install
+   npx expo start
+   ```
+
+3. Aparece um QR code no terminal. **Android:** abra o Expo Go e toque em "Scan QR code".
+   **iPhone:** aponte a câmera para o QR code.
+
+Computador e celular precisam estar na mesma rede Wi-Fi. Se não estiverem (ou a rede bloquear),
+use `npx expo start --tunnel`.
+
+O conteúdo vem direto deste repositório no GitHub (`content/`), então não precisa de servidor.
+Para testar conteúdo local: `cd content && python3 serve.py 8787` e rode o app com
+`EXPO_PUBLIC_CONTENT_URL=http://IP-DO-COMPUTADOR:8787 npx expo start`.
 
 ## Testes
 

@@ -6,8 +6,11 @@ import { Image } from 'expo-image';
 import { Platform } from 'react-native';
 import { Block, ExamPack, Manifest } from './types';
 
+// EXPO_PUBLIC_CONTENT_URL permite apontar para um servidor local durante o desenvolvimento.
 export const CONTENT_BASE_URL: string =
-  (Constants.expoConfig?.extra?.contentBaseUrl as string | undefined) ?? '';
+  process.env.EXPO_PUBLIC_CONTENT_URL ??
+  (Constants.expoConfig?.extra?.contentBaseUrl as string | undefined) ??
+  '';
 
 const MANIFEST_KEY = 'content:manifest';
 const PACK_INDEX_KEY = 'content:packs'; // { [examId]: version }

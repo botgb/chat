@@ -9,6 +9,7 @@ import {
   Progress,
   recordAnswer,
 } from '../lib/gamification';
+import { recordLevel } from '../lib/levels';
 import { ExamPack, Manifest } from '../lib/types';
 
 const PROGRESS_KEY = 'progress:v1';
@@ -25,7 +26,8 @@ type AppState = {
   packs: ExamPack[];
   installed: Record<string, number>;
   answer: (input: AnswerInput) => AnswerResult;
-  finishLesson: () => void;
+  /** Conclui a lição; se for uma fase do mapa, devolve as estrelas ganhas. */
+  finishLesson: (level?: { id: string; correct: number; total: number }) => number;
   setPrefs: (prefs: Prefs) => void;
   setDailyGoal: (goal: number) => void;
   refreshManifest: () => Promise<void>;
@@ -92,7 +94,17 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
     packs,
     installed,
     answer,
-    finishLesson: () => save(completeLesson(progress)),
+    finishLesson: (level) => {
+      let next = completeLesson(progress);
+      let stars = 0;
+      if (level) {
+        const r = recordLevel(next.levels, level.id, level.correct, level.total);
+        next = { ...next, levels: r.results };
+        stars = r.stars;
+      }
+      save(next);
+      return stars;
+    },
     setPrefs: (next) => {
       setPrefsState(next);
       AsyncStorage.setItem(PREFS_KEY, JSON.stringify(next));

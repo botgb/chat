@@ -1,6 +1,18 @@
-import { Pressable, StyleSheet, Text } from 'react-native';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { colors, fonts, space, type } from '../theme';
 
+type Variant = 'primary' | 'success' | 'danger' | 'ghost';
+
+const palette: Record<Variant, { bg: string; edge: string; text: string }> = {
+  primary: { bg: colors.primary, edge: colors.primaryDark, text: '#fff' },
+  success: { bg: colors.right, edge: colors.rightDark, text: '#fff' },
+  danger: { bg: colors.wrong, edge: colors.wrongDark, text: '#fff' },
+  ghost: { bg: colors.bg, edge: colors.line, text: colors.inkSoft },
+};
+
+const EDGE = 4;
+
+/** Botão com "degrau" sólido embaixo que afunda ao tocar. */
 export function Button({
   label,
   onPress,
@@ -9,31 +21,34 @@ export function Button({
 }: {
   label: string;
   onPress: () => void;
-  variant?: 'primary' | 'secondary';
+  variant?: Variant;
   disabled?: boolean;
 }) {
-  const primary = variant === 'primary';
+  const p = disabled ? { bg: colors.locked, edge: colors.lockedDark, text: colors.inkSoft } : palette[variant];
   return (
-    <Pressable
-      onPress={onPress}
-      disabled={disabled}
-      accessibilityRole="button"
-      accessibilityState={{ disabled }}
-      style={({ pressed }) => [
-        styles.base,
-        primary ? styles.primary : styles.secondary,
-        disabled && { opacity: 0.35 },
-        pressed && { transform: [{ translateY: 2 }] },
-      ]}
-    >
-      <Text style={[styles.label, { color: primary ? colors.paper : colors.ink }]}>{label}</Text>
+    <Pressable onPress={onPress} disabled={disabled} accessibilityRole="button" accessibilityState={{ disabled }}>
+      {({ pressed }) => (
+        <View style={{ paddingTop: pressed ? EDGE : 0 }}>
+          <View
+            style={[
+              styles.base,
+              {
+                backgroundColor: p.bg,
+                borderColor: variant === 'ghost' ? colors.line : p.bg,
+                borderBottomColor: p.edge,
+                borderBottomWidth: pressed ? 2 : EDGE + 2,
+              },
+            ]}
+          >
+            <Text style={[styles.label, { color: p.text }]}>{label}</Text>
+          </View>
+        </View>
+      )}
     </Pressable>
   );
 }
 
 const styles = StyleSheet.create({
-  base: { paddingVertical: space(4), paddingHorizontal: space(5), borderRadius: 14, alignItems: 'center' },
-  primary: { backgroundColor: colors.ink },
-  secondary: { backgroundColor: colors.paper, borderWidth: 2, borderColor: colors.ink },
-  label: { fontFamily: fonts.displayMedium, fontSize: type.lead - 2 },
+  base: { paddingVertical: space(3.5), paddingHorizontal: space(5), borderRadius: 16, borderWidth: 2, alignItems: 'center' },
+  label: { fontFamily: fonts.display, fontSize: type.lead - 2, letterSpacing: 0.3 },
 });

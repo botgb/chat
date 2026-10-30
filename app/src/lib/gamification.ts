@@ -1,5 +1,6 @@
 // Regras do jogo: funções puras, sem I/O, para serem testadas isoladamente.
 // Estratégias e fontes em docs/estrategias.md.
+import type { LevelResult } from './levels';
 
 export const MAX_HEARTS = 5;
 export const HEART_REFILL_MS = 30 * 60 * 1000; // 1 vida a cada 30 min
@@ -28,6 +29,7 @@ export type Progress = {
   heartsUpdatedAt: number;
   questions: Record<string, QuestionStat>;
   subjectStats: Record<string, { attempts: number; correct: number }>;
+  levels: Record<string, LevelResult>;
 };
 
 export function initialProgress(now: number): Progress {
@@ -42,6 +44,7 @@ export function initialProgress(now: number): Progress {
     heartsUpdatedAt: now,
     questions: {},
     subjectStats: {},
+    levels: {},
   };
 }
 

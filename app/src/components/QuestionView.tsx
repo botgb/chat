@@ -3,7 +3,6 @@ import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { resolveUrl } from '../lib/content';
 import { Question } from '../lib/types';
 import { colors, fonts, space, type } from '../theme';
-import { Bubble, BubbleState } from './Bubble';
 
 function ContentImage({ src, w, h }: { src: string; w?: number; h?: number }) {
   return (
@@ -17,6 +16,16 @@ function ContentImage({ src, w, h }: { src: string; w?: number; h?: number }) {
   );
 }
 
+type AltState = 'idle' | 'selected' | 'right' | 'wrong' | 'dim';
+
+const altColors: Record<AltState, { border: string; bg: string; letterBg: string; letter: string }> = {
+  idle: { border: colors.line, bg: colors.bg, letterBg: colors.surface, letter: colors.inkSoft },
+  selected: { border: colors.primary, bg: '#EAF1FF', letterBg: colors.primary, letter: '#fff' },
+  right: { border: colors.right, bg: colors.rightBg, letterBg: colors.right, letter: '#fff' },
+  wrong: { border: colors.wrong, bg: colors.wrongBg, letterBg: colors.wrong, letter: '#fff' },
+  dim: { border: colors.line, bg: colors.bg, letterBg: colors.surface, letter: colors.lockedDark },
+};
+
 export function QuestionView({
   question,
   selected,
@@ -29,7 +38,7 @@ export function QuestionView({
   onSelect: (letter: string) => void;
 }) {
   return (
-    <View style={{ gap: space(4) }}>
+    <View style={{ gap: space(5) }}>
       <View style={{ gap: space(3) }}>
         {question.statement.map((b, i) =>
           b.type === 'text' ? (
@@ -42,32 +51,40 @@ export function QuestionView({
         )}
       </View>
 
-      <View style={{ gap: space(2) }} accessibilityRole="radiogroup">
+      <View style={{ gap: space(3) }} accessibilityRole="radiogroup">
         {question.alternatives.map((alt) => {
-          let state: BubbleState = selected === alt.letter ? 'filled' : 'empty';
+          let state: AltState = selected === alt.letter ? 'selected' : 'idle';
           if (revealed) {
             if (alt.letter === question.answer) state = 'right';
             else if (alt.letter === selected) state = 'wrong';
+            else state = 'dim';
           }
+          const c = altColors[state];
           return (
             <Pressable
               key={alt.letter}
               onPress={() => !revealed && onSelect(alt.letter)}
               accessibilityRole="radio"
               accessibilityState={{ checked: selected === alt.letter, disabled: revealed }}
-              style={({ pressed }) => [
-                styles.alt,
-                selected === alt.letter && !revealed && styles.altSelected,
-                revealed && alt.letter === question.answer && { backgroundColor: colors.rightBg },
-                revealed && state === 'wrong' && { backgroundColor: colors.wrongBg },
-                pressed && { opacity: 0.7 },
-              ]}
             >
-              <Bubble label={alt.letter} state={state} />
-              <View style={{ flex: 1, gap: space(2) }}>
-                {alt.text ? <Text style={styles.altText}>{alt.text}</Text> : null}
-                {alt.image ? <ContentImage src={alt.image} w={alt.imageW} h={alt.imageH} /> : null}
-              </View>
+              {({ pressed }) => (
+                <View style={{ paddingTop: pressed && !revealed ? 3 : 0 }}>
+                  <View
+                    style={[
+                      styles.alt,
+                      { borderColor: c.border, backgroundColor: c.bg, borderBottomWidth: pressed && !revealed ? 2 : 5 },
+                    ]}
+                  >
+                    <View style={[styles.letter, { backgroundColor: c.letterBg }]}>
+                      <Text style={[styles.letterText, { color: c.letter }]}>{alt.letter}</Text>
+                    </View>
+                    <View style={{ flex: 1, gap: space(2) }}>
+                      {alt.text ? <Text style={[styles.altText, state === 'dim' && { color: colors.inkSoft }]}>{alt.text}</Text> : null}
+                      {alt.image ? <ContentImage src={alt.image} w={alt.imageW} h={alt.imageH} /> : null}
+                    </View>
+                  </View>
+                </View>
+              )}
             </Pressable>
           );
         })}
@@ -77,17 +94,10 @@ export function QuestionView({
 }
 
 const styles = StyleSheet.create({
-  statement: { fontFamily: fonts.body, fontSize: type.body, lineHeight: type.body * 1.5, color: colors.ink },
-  image: { width: '100%', backgroundColor: colors.paper },
-  alt: {
-    flexDirection: 'row',
-    alignItems: 'flex-start',
-    gap: space(3),
-    padding: space(3),
-    borderRadius: 12,
-    borderWidth: 1.5,
-    borderColor: 'transparent',
-  },
-  altSelected: { borderColor: colors.ink, backgroundColor: colors.paper },
-  altText: { fontFamily: fonts.body, fontSize: type.body, lineHeight: type.body * 1.4, color: colors.ink, paddingTop: 4 },
+  statement: { fontFamily: fonts.body, fontSize: type.body + 1, lineHeight: (type.body + 1) * 1.5, color: colors.ink },
+  image: { width: '100%', borderRadius: 12, backgroundColor: colors.surface },
+  alt: { flexDirection: 'row', alignItems: 'center', gap: space(3), padding: space(3), borderRadius: 16, borderWidth: 2 },
+  letter: { width: 34, height: 34, borderRadius: 10, alignItems: 'center', justifyContent: 'center' },
+  letterText: { fontFamily: fonts.display, fontSize: type.body },
+  altText: { fontFamily: fonts.body, fontSize: type.body, lineHeight: type.body * 1.4, color: colors.ink },
 });

@@ -29,7 +29,7 @@
     ],
     "scheme": "aprova",
     "extra": {
-      "contentBaseUrl": "http://localhost:8787"
+      "contentBaseUrl": "https://raw.githubusercontent.com/botgb/chat/main/content"
     }
   }
 }

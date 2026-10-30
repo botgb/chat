@@ -1,46 +1,78 @@
 import { router, useLocalSearchParams } from 'expo-router';
-import { useMemo, useRef, useState } from 'react';
-import { Pressable, ScrollView, ScrollViewInstance, StyleSheet, Text, View } from 'react-native';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import { Animated, Pressable, ScrollView, ScrollViewInstance, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Button } from '../components/Button';
 import { QuestionView } from '../components/QuestionView';
 import { Timer, useCountdown } from '../components/Timer';
 import { currentHearts, dayKey, XP_LESSON_COMPLETE } from '../lib/gamification';
 import { buildLesson, filterQuestions, LessonMode } from '../lib/lesson';
+import { Question } from '../lib/types';
 import { useApp } from '../state/AppState';
 import { colors, fonts, space, type } from '../theme';
 
+type Params = { mode: LessonMode; vestibular: string; level?: string; ids?: string };
+
+function BigStars({ count }: { count: number }) {
+  const anims = useRef([0, 1, 2].map(() => new Animated.Value(0))).current;
+  useEffect(() => {
+    Animated.stagger(
+      220,
+      anims.map((a) => Animated.spring(a, { toValue: 1, friction: 4, useNativeDriver: true })),
+    ).start();
+  }, [anims]);
+  return (
+    <View style={styles.bigStars} accessibilityLabel={`${count} de 3 estrelas`}>
+      {anims.map((a, i) => (
+        <Animated.Text
+          key={i}
+          style={[
+            styles.bigStar,
+            { color: i < count ? colors.gold : colors.locked, transform: [{ scale: a }, { translateY: i === 1 ? -14 : 0 }] },
+          ]}
+        >
+          ★
+        </Animated.Text>
+      ))}
+    </View>
+  );
+}
+
 export default function Licao() {
   const app = useApp();
-  const params = useLocalSearchParams<{ mode: LessonMode; vestibular: string; subjects: string }>();
+  const params = useLocalSearchParams<Params>();
   const mode: LessonMode = params.mode ?? 'pratica';
   const useHearts = mode === 'pratica';
 
-  // A lição é montada uma vez ao abrir a tela.
-  const lessonRef = useRef<ReturnType<typeof buildLesson> | null>(null);
+  // A lição é montada uma vez ao abrir a tela: a fase do mapa ou a revisão do dia.
+  const lessonRef = useRef<Question[] | null>(null);
   if (!lessonRef.current) {
-    const subjects = params.subjects ? params.subjects.split('|').filter(Boolean) : [];
-    const pool = filterQuestions(app.packs, { vestibular: params.vestibular, subjects });
-    lessonRef.current = buildLesson(pool, app.progress, dayKey(new Date()), mode);
+    const pool = filterQuestions(app.packs, { vestibular: params.vestibular, subjects: [] });
+    if (params.ids) {
+      const byId = new Map(pool.map((q) => [q.id, q]));
+      lessonRef.current = params.ids.split('|').map((id) => byId.get(id)).filter((q): q is Question => !!q);
+    } else {
+      lessonRef.current = buildLesson(pool, app.progress, dayKey(new Date()), mode);
+    }
   }
   const lesson = lessonRef.current;
 
-  const seconds = useMemo(() => {
-    const v = app.manifest?.vestibulares.find((x) => x.id === params.vestibular);
-    return v?.secondsPerQuestion ?? 180;
-  }, [app.manifest, params.vestibular]);
+  const seconds = useMemo(
+    () => app.manifest?.vestibulares.find((x) => x.id === params.vestibular)?.secondsPerQuestion ?? 180,
+    [app.manifest, params.vestibular],
+  );
 
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<string | null>(null);
   const [revealed, setRevealed] = useState(false);
   const [results, setResults] = useState<{ correct: boolean; xp: number }[]>([]);
-  const [finished, setFinished] = useState(false);
+  const [finished, setFinished] = useState<{ stars: number } | null>(null);
   const scroll = useRef<ScrollViewInstance>(null);
 
   const question = lesson[index];
   const timer = useCountdown(seconds, !revealed && !finished, index);
   const hearts = currentHearts(app.progress, Date.now());
-  const outOfHearts = useHearts && hearts === 0 && !revealed;
+  const outOfHearts = useHearts && hearts === 0 && !revealed && !finished;
 
   const confirm = () => {
     if (!selected || !question) return;
@@ -52,8 +84,9 @@ export default function Licao() {
 
   const next = () => {
     if (index + 1 >= lesson.length) {
-      app.finishLesson();
-      setFinished(true);
+      const correct = results.filter((r) => r.correct).length;
+      const stars = app.finishLesson(params.level ? { id: params.level, correct, total: lesson.length } : undefined);
+      setFinished({ stars });
       return;
     }
     setIndex(index + 1);
@@ -66,8 +99,8 @@ export default function Licao() {
     return (
       <SafeAreaView style={styles.screen}>
         <View style={styles.center}>
-          <Text style={styles.big}>{mode === 'revisao' ? 'Nenhuma revisão pendente' : 'Sem questões para estes filtros'}</Text>
-          <Button label="Voltar ao início" onPress={() => router.back()} />
+          <Text style={styles.big}>{mode === 'revisao' ? 'Nenhuma revisão pendente' : 'Sem questões nesta fase'}</Text>
+          <Button label="Voltar" onPress={() => router.back()} />
         </View>
       </SafeAreaView>
     );
@@ -76,19 +109,34 @@ export default function Licao() {
   if (finished) {
     const right = results.filter((r) => r.correct).length;
     const xp = results.reduce((s, r) => s + r.xp, 0) + XP_LESSON_COMPLETE;
+    const passed = !params.level || finished.stars > 0;
     return (
       <SafeAreaView style={styles.screen}>
         <View style={styles.center}>
-          <Text style={styles.big}>
-            {right} de {results.length} certas
+          {params.level ? <BigStars count={finished.stars} /> : <Text style={styles.emoji}>🔁</Text>}
+          <Text style={[styles.big, { textAlign: 'center' }]}>
+            {params.level ? (passed ? 'Fase concluída!' : 'Quase lá') : 'Revisão concluída!'}
           </Text>
-          <Text style={[styles.xp]}>+{xp} XP</Text>
-          <Text style={styles.muted}>
-            {right === results.length
-              ? 'Lição perfeita.'
-              : 'As questões erradas voltam amanhã na revisão.'}
+          <View style={styles.summary}>
+            <View style={[styles.summaryBox, { borderColor: colors.right }]}>
+              <Text style={[styles.summaryLabel, { backgroundColor: colors.right }]}>Acertos</Text>
+              <Text style={[styles.summaryValue, { color: colors.right }]}>
+                {right}/{results.length}
+              </Text>
+            </View>
+            <View style={[styles.summaryBox, { borderColor: colors.gold }]}>
+              <Text style={[styles.summaryLabel, { backgroundColor: colors.gold }]}>XP</Text>
+              <Text style={[styles.summaryValue, { color: colors.goldDark }]}>+{xp}</Text>
+            </View>
+          </View>
+          <Text style={[styles.muted, { textAlign: 'center' }]}>
+            {passed
+              ? right === results.length
+                ? 'Tudo certo nesta fase.'
+                : 'As erradas voltam amanhã na aba Revisar.'
+              : 'Acerte pelo menos 3 de 5 para liberar a próxima fase.'}
           </Text>
-          <Button label="Continuar" onPress={() => router.back()} />
+          <Button label="Continuar" variant="success" onPress={() => router.back()} />
         </View>
       </SafeAreaView>
     );
@@ -98,9 +146,10 @@ export default function Licao() {
     return (
       <SafeAreaView style={styles.screen}>
         <View style={styles.center}>
+          <Text style={styles.emoji}>💔</Text>
           <Text style={styles.big}>Suas vidas acabaram</Text>
-          <Text style={styles.muted}>Elas voltam com o tempo (1 a cada 30 min). Enquanto isso, revise seus erros: a revisão não gasta vidas.</Text>
-          <Button label="Voltar ao início" onPress={() => router.back()} />
+          <Text style={styles.muted}>Elas voltam com o tempo, 1 a cada 30 minutos. Enquanto isso, use a aba Revisar: revisar não gasta vidas.</Text>
+          <Button label="Voltar" onPress={() => router.back()} />
         </View>
       </SafeAreaView>
     );
@@ -118,41 +167,59 @@ export default function Licao() {
         <View style={styles.progressTrack}>
           <View style={[styles.progressBar, { width: `${((index + (revealed ? 1 : 0)) / lesson.length) * 100}%` }]} />
         </View>
-        {useHearts && <Text style={styles.hearts}>♥ {hearts}</Text>}
-        <Timer remaining={timer.remaining} total={seconds} />
+        {useHearts && <Text style={styles.hearts}>❤️ {hearts}</Text>}
       </View>
 
       <ScrollView ref={scroll} contentContainerStyle={{ padding: space(5), paddingBottom: space(8), gap: space(4) }}>
-        <Text style={styles.source}>
-          {exam?.title ?? ''}, questão {question.number}. {question.subject}
-        </Text>
+        <View style={styles.metaRow}>
+          <Text style={styles.source}>
+            {question.subject}
+            {exam ? `, ${exam.title}, questão ${question.number}` : ''}
+          </Text>
+          <Timer remaining={timer.remaining} total={seconds} />
+        </View>
         <QuestionView question={question} selected={selected} revealed={revealed} onSelect={setSelected} />
       </ScrollView>
 
-      <View style={[styles.footer, revealed && { backgroundColor: correct ? colors.rightBg : colors.wrongBg }]}>
+      <View style={[styles.footer, revealed && { backgroundColor: correct ? colors.rightBg : colors.wrongBg, borderTopColor: 'transparent' }]}>
         {revealed && (
-          <Text style={[styles.feedback, { color: correct ? colors.right : colors.wrong }]}>
-            {correct ? (timer.inTime ? 'Certa, e dentro do tempo.' : 'Certa.') : `Resposta: ${question.answer}`}
-          </Text>
+          <View style={{ gap: 2 }}>
+            <Text style={[styles.feedback, { color: correct ? colors.rightDark : colors.wrongDark }]}>
+              {correct ? (timer.inTime ? 'Mandou bem, e no tempo!' : 'Correta!') : 'Resposta correta:'}
+            </Text>
+            {!correct && <Text style={[styles.feedbackSub, { color: colors.wrongDark }]}>Alternativa {question.answer}</Text>}
+          </View>
         )}
-        {revealed ? <Button label="Continuar" onPress={next} /> : <Button label="Confirmar" onPress={confirm} disabled={!selected} />}
+        {revealed ? (
+          <Button label="Continuar" variant={correct ? 'success' : 'danger'} onPress={next} />
+        ) : (
+          <Button label="Verificar" variant="success" onPress={confirm} disabled={!selected} />
+        )}
       </View>
     </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
-  screen: { flex: 1, backgroundColor: colors.sheet },
-  center: { flex: 1, justifyContent: 'center', padding: space(6), gap: space(4) },
+  screen: { flex: 1, backgroundColor: colors.bg },
+  center: { flex: 1, justifyContent: 'center', padding: space(6), gap: space(5) },
+  emoji: { fontSize: 72, textAlign: 'center' },
   big: { fontFamily: fonts.display, fontSize: type.title + 6, color: colors.ink },
-  xp: { fontFamily: fonts.display, fontSize: type.hero, color: colors.ink, backgroundColor: colors.highlight, alignSelf: 'flex-start', paddingHorizontal: 4 },
   muted: { fontFamily: fonts.body, fontSize: type.body, color: colors.inkSoft, lineHeight: type.body * 1.4 },
-  header: { flexDirection: 'row', alignItems: 'center', gap: space(3), paddingHorizontal: space(5), paddingVertical: space(3) },
-  close: { fontSize: type.lead, color: colors.inkSoft },
-  progressTrack: { flex: 1, height: 10, borderRadius: 5, backgroundColor: colors.sheetLine, overflow: 'hidden' },
-  progressBar: { height: 10, backgroundColor: colors.sheetInk },
-  hearts: { fontFamily: fonts.bodyBold, fontSize: type.body, color: colors.wrong },
-  source: { fontFamily: fonts.bodyBold, fontSize: type.small, color: colors.sheetInk },
-  footer: { padding: space(5), gap: space(3), borderTopWidth: 1, borderTopColor: colors.sheetLine, backgroundColor: colors.sheet },
-  feedback: { fontFamily: fonts.displayMedium, fontSize: type.lead },
+  bigStars: { flexDirection: 'row', justifyContent: 'center', gap: space(2) },
+  bigStar: { fontSize: 72 },
+  summary: { flexDirection: 'row', gap: space(3) },
+  summaryBox: { flex: 1, borderWidth: 2, borderRadius: 16, overflow: 'hidden', alignItems: 'center' },
+  summaryLabel: { alignSelf: 'stretch', textAlign: 'center', fontFamily: fonts.display, fontSize: type.small + 1, color: '#fff', paddingVertical: space(1) },
+  summaryValue: { fontFamily: fonts.display, fontSize: type.title, paddingVertical: space(3) },
+  header: { flexDirection: 'row', alignItems: 'center', gap: space(4), paddingHorizontal: space(5), paddingVertical: space(3) },
+  close: { fontSize: type.title, color: colors.lockedDark, fontFamily: fonts.display },
+  progressTrack: { flex: 1, height: 16, borderRadius: 8, backgroundColor: colors.surface, overflow: 'hidden' },
+  progressBar: { height: 16, borderRadius: 8, backgroundColor: colors.right },
+  hearts: { fontFamily: fonts.display, fontSize: type.lead, color: colors.heart },
+  metaRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', gap: space(3) },
+  source: { flex: 1, fontFamily: fonts.displayMedium, fontSize: type.small + 1, color: colors.primary },
+  footer: { padding: space(5), gap: space(4), borderTopWidth: 2, borderTopColor: colors.line, backgroundColor: colors.bg },
+  feedback: { fontFamily: fonts.display, fontSize: type.title - 2 },
+  feedbackSub: { fontFamily: fonts.displayMedium, fontSize: type.body },
 });
