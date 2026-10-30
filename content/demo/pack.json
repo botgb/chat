@@ -1,0 +1,253 @@
+{
+ "id": "demo",
+ "vestibular": "demo",
+ "title": "Exemplo (não é prova real)",
+ "year": 2026,
+ "version": 1,
+ "questions": [
+  {
+   "id": "demo-q1",
+   "number": 1,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Uma função f é dada por f(x) = 2x + 3. Qual é o valor de f(4)?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "8"
+    },
+    {
+     "letter": "B",
+     "text": "9"
+    },
+    {
+     "letter": "C",
+     "text": "11"
+    },
+    {
+     "letter": "D",
+     "text": "14"
+    },
+    {
+     "letter": "E",
+     "text": "16"
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "demo-q2",
+   "number": 2,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O gráfico mostra o crescimento de uma grandeza ao longo do tempo. Que tipo de função melhor descreve a curva?"
+    },
+    {
+     "type": "image",
+     "src": "demo/img/grafico.png",
+     "w": 600,
+     "h": 360
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Constante"
+    },
+    {
+     "letter": "B",
+     "text": "Linear decrescente"
+    },
+    {
+     "letter": "C",
+     "text": "Linear crescente"
+    },
+    {
+     "letter": "D",
+     "text": "Quadrática"
+    },
+    {
+     "letter": "E",
+     "text": "Logarítmica"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "demo-q3",
+   "number": 3,
+   "subject": "Biologia",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Qual organela é a principal responsável pela produção de ATP na respiração celular?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Ribossomo"
+    },
+    {
+     "letter": "B",
+     "text": "Mitocôndria"
+    },
+    {
+     "letter": "C",
+     "text": "Complexo golgiense"
+    },
+    {
+     "letter": "D",
+     "text": "Lisossomo"
+    },
+    {
+     "letter": "E",
+     "text": "Vacúolo"
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "demo-q4",
+   "number": 4,
+   "subject": "Biologia",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em uma cadeia alimentar, os organismos que produzem a própria matéria orgânica são chamados de:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Decompositores"
+    },
+    {
+     "letter": "B",
+     "text": "Consumidores primários"
+    },
+    {
+     "letter": "C",
+     "text": "Produtores"
+    },
+    {
+     "letter": "D",
+     "text": "Consumidores secundários"
+    },
+    {
+     "letter": "E",
+     "text": "Parasitas"
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "demo-q5",
+   "number": 5,
+   "subject": "História",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A Lei Áurea, que aboliu a escravidão no Brasil, foi assinada em qual ano?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "1822"
+    },
+    {
+     "letter": "B",
+     "text": "1850"
+    },
+    {
+     "letter": "C",
+     "text": "1871"
+    },
+    {
+     "letter": "D",
+     "text": "1888"
+    },
+    {
+     "letter": "E",
+     "text": "1889"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "demo-q6",
+   "number": 6,
+   "subject": "História",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O período conhecido como Era Vargas teve início com qual acontecimento?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Proclamação da República"
+    },
+    {
+     "letter": "B",
+     "text": "Revolução de 1930"
+    },
+    {
+     "letter": "C",
+     "text": "Golpe de 1964"
+    },
+    {
+     "letter": "D",
+     "text": "Independência"
+    },
+    {
+     "letter": "E",
+     "text": "Diretas Já"
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "demo-q7",
+   "number": 7,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Se 3 cadernos custam R$ 24,00, quanto custam 5 cadernos de mesmo preço?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "R$ 30,00"
+    },
+    {
+     "letter": "B",
+     "text": "R$ 35,00"
+    },
+    {
+     "letter": "C",
+     "text": "R$ 40,00"
+    },
+    {
+     "letter": "D",
+     "text": "R$ 45,00"
+    },
+    {
+     "letter": "E",
+     "text": "R$ 48,00"
+    }
+   ],
+   "answer": "C"
+  }
+ ]
+}

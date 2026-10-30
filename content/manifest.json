@@ -1,0 +1,26 @@
+{
+ "version": 1,
+ "vestibulares": [
+  {
+   "id": "demo",
+   "name": "Demonstração",
+   "secondsPerQuestion": 180
+  }
+ ],
+ "exams": [
+  {
+   "id": "demo",
+   "vestibular": "demo",
+   "title": "Exemplo (não é prova real)",
+   "year": 2026,
+   "packUrl": "demo/pack.json",
+   "packVersion": 1,
+   "questionCount": 7,
+   "subjects": [
+    "Biologia",
+    "História",
+    "Matemática"
+   ]
+  }
+ ]
+}
