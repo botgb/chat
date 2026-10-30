@@ -1,10 +1,13 @@
 import { router } from 'expo-router';
-import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { useRef, useState } from 'react';
+import { Pressable, ScrollView, ScrollViewInstance, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Button } from '../../components/Button';
-import { LevelMap } from '../../components/LevelMap';
+import { LevelMap, unitColor } from '../../components/LevelMap';
+import { Sheet } from '../../components/Sheet';
 import { TopBar } from '../../components/TopBar';
-import { dayKey, dueQuestionIds } from '../../lib/gamification';
+import { dayKey, dueQuestionIds, PATH_CHEST_DIAMONDS } from '../../lib/gamification';
+import { LEVEL_SIZE } from '../../lib/levels';
 import { useApp } from '../../state/AppState';
 import { useStudy } from '../../state/useStudy';
 import { colors, fonts, space, type } from '../../theme';
@@ -13,11 +16,16 @@ export default function Trilha() {
   const app = useApp();
   const study = useStudy();
   const { progress } = app;
-  const today = dayKey(new Date());
-  const doneToday = progress.dayCounts[today] ?? 0;
-  const goalPct = Math.min(1, doneToday / progress.dailyGoal);
+  const scroll = useRef<ScrollViewInstance>(null);
+  const unitTops = useRef<number[]>([]);
+  const currentY = useRef<number | null>(null);
+  const [unitIndex, setUnitIndex] = useState(0);
+  const [showJump, setShowJump] = useState(false);
+  const [guide, setGuide] = useState(false);
+  const [chestOpened, setChestOpened] = useState(false);
+
   const poolIds = new Set(study.pool.map((q) => q.id));
-  const due = dueQuestionIds(progress, today).filter((id) => poolIds.has(id)).length;
+  const due = dueQuestionIds(progress, dayKey(new Date())).filter((id) => poolIds.has(id)).length;
 
   if (!app.ready) return null;
 
@@ -34,54 +42,115 @@ export default function Trilha() {
     );
   }
 
+  const units = study.units;
+  const unit = units[Math.min(unitIndex, units.length - 1)];
+  const color = unitColor(Math.min(unitIndex, units.length - 1));
+  const unitDone = unit ? unit.levels.filter((l) => l.stars > 0).length : 0;
+  const unitStars = unit ? unit.levels.reduce((s, l) => s + l.stars, 0) : 0;
+  const st = unit ? progress.subjectStats[unit.subject] : undefined;
+
+  const onScroll = (y: number) => {
+    // A faixa mostra a unidade que está passando pelo topo da tela.
+    let idx = 0;
+    unitTops.current.forEach((top, i) => {
+      if (top <= y + 40) idx = i;
+    });
+    if (idx !== unitIndex) setUnitIndex(idx);
+    const cy = currentY.current;
+    setShowJump(cy !== null && Math.abs(cy - y - 200) > 400);
+  };
+
   return (
     <SafeAreaView style={styles.screen} edges={['top']}>
       <TopBar />
-      <ScrollView contentContainerStyle={{ paddingBottom: space(12) }}>
-        <View style={styles.cards}>
-          <View style={styles.card}>
-            <View style={styles.row}>
-              <Text style={styles.cardTitle}>Meta de hoje</Text>
-              <Text style={[styles.cardTitle, { color: colors.streak }]}>
-                {Math.min(doneToday, progress.dailyGoal)}/{progress.dailyGoal}
+      {unit && (
+        <View style={styles.bannerWrap}>
+          <View style={[styles.banner, { backgroundColor: color.main, borderBottomColor: color.dark }]}>
+            <View style={{ flex: 1 }}>
+              <Text style={styles.bannerSmall}>
+                Unidade {unitIndex + 1}, {unitDone} de {unit.levels.length} fases
+              </Text>
+              <Text style={styles.bannerTitle} numberOfLines={1}>
+                {unit.subject}
               </Text>
             </View>
-            <View style={styles.track}>
-              <View style={[styles.fill, { width: `${goalPct * 100}%` }]} />
-            </View>
-          </View>
-
-          {due > 0 && (
-            <Pressable
-              style={[styles.card, styles.review]}
-              accessibilityRole="button"
-              onPress={() =>
-                router.push({ pathname: '/licao', params: { mode: 'revisao', vestibular: study.vestibular ?? '', exam: study.examId ?? '' } })
-              }
-            >
-              <Text style={styles.reviewIcon}>🔁</Text>
-              <View style={{ flex: 1 }}>
-                <Text style={styles.cardTitle}>Revisar {due} {due === 1 ? 'erro' : 'erros'}</Text>
-                <Text style={styles.muted}>Não gasta vidas</Text>
-              </View>
-              <Text style={styles.go}>›</Text>
+            <View style={[styles.bannerSep, { backgroundColor: color.dark }]} />
+            <Pressable onPress={() => setGuide(true)} accessibilityRole="button" accessibilityLabel="Guia da unidade" style={styles.guideBtn}>
+              <Text style={styles.guideIcon}>📒</Text>
             </Pressable>
-          )}
+          </View>
         </View>
+      )}
 
-        <View style={{ paddingHorizontal: space(4), paddingTop: space(6) }}>
-          <LevelMap
-            units={study.units}
-            onPlay={(l) =>
-              router.push({
-                pathname: '/licao',
-                params: { mode: 'pratica', vestibular: study.vestibular ?? '', level: l.id, ids: l.questionIds.join('|') },
-              })
-            }
-          />
-        </View>
+      <ScrollView
+        ref={scroll}
+        onScroll={(e) => onScroll(e.nativeEvent.contentOffset.y)}
+        scrollEventThrottle={32}
+        contentContainerStyle={{ paddingBottom: space(24) }}
+      >
+        <LevelMap
+          units={units}
+          openedChests={progress.chests}
+          onUnitLayout={(i, y) => {
+            unitTops.current[i] = y;
+          }}
+          onCurrentLayout={(y) => {
+            currentY.current = y;
+          }}
+          onPlay={(l) =>
+            router.push({
+              pathname: '/licao',
+              params: { mode: 'pratica', vestibular: study.vestibular ?? '', level: l.id, ids: l.questionIds.join('|') },
+            })
+          }
+          onOpenChest={(id) => app.openChest(id) && setChestOpened(true)}
+        />
         {app.offline && <Text style={styles.offline}>Sem internet: usando as provas já baixadas.</Text>}
       </ScrollView>
+
+      {due > 0 && (
+        <Pressable
+          style={[styles.fab, styles.fabReview]}
+          accessibilityRole="button"
+          accessibilityLabel={`Revisar ${due} erros`}
+          onPress={() => router.push({ pathname: '/licao', params: { mode: 'revisao', vestibular: study.vestibular ?? '', exam: study.examId ?? '' } })}
+        >
+          <Text style={styles.fabIcon}>🔁</Text>
+          <Text style={styles.fabText}>Revisar {due}</Text>
+        </Pressable>
+      )}
+      {showJump && (
+        <Pressable
+          style={[styles.fab, styles.fabJump]}
+          accessibilityRole="button"
+          accessibilityLabel="Ir para a fase atual"
+          onPress={() => currentY.current !== null && scroll.current?.scrollTo({ y: Math.max(0, currentY.current - 200), animated: true })}
+        >
+          <Text style={styles.jump}>↑</Text>
+        </Pressable>
+      )}
+
+      <Sheet visible={guide} title={unit ? `Guia: ${unit.subject}` : 'Guia'} onClose={() => setGuide(false)}>
+        {unit && (
+          <View style={{ gap: space(3) }}>
+            <Text style={styles.info}>
+              {unit.levels.length} fases de até {LEVEL_SIZE} questões. A última é o desafio da unidade 🏆.
+            </Text>
+            <Text style={styles.info}>
+              Fases concluídas: {unitDone} de {unit.levels.length}. Estrelas: {unitStars} de {unit.levels.length * 3}.
+            </Text>
+            <Text style={styles.info}>
+              Seu acerto em {unit.subject}: {st?.attempts ? `${Math.round((st.correct / st.attempts) * 100)}% em ${st.attempts} questões` : 'ainda sem respostas'}.
+            </Text>
+            <Text style={styles.info}>Acerte 3 de 5 para passar de fase, 4 para 2 estrelas e 5 para 3 estrelas. Os baús 🎁 dão diamantes.</Text>
+          </View>
+        )}
+      </Sheet>
+
+      <Sheet visible={chestOpened} title="Baú aberto!" onClose={() => setChestOpened(false)}>
+        <Text style={styles.chestReward}>+{PATH_CHEST_DIAMONDS} 💎</Text>
+        <Button label="Continuar" variant="success" onPress={() => setChestOpened(false)} />
+      </Sheet>
     </SafeAreaView>
   );
 }
@@ -92,15 +161,20 @@ const styles = StyleSheet.create({
   emptyEmoji: { fontSize: 64 },
   hero: { fontFamily: fonts.display, fontSize: type.hero, lineHeight: type.hero * 1.1, color: colors.ink },
   lead: { fontFamily: fonts.body, fontSize: type.lead - 2, lineHeight: (type.lead - 2) * 1.4, color: colors.inkSoft },
-  cards: { paddingHorizontal: space(4), paddingTop: space(4), gap: space(3) },
-  card: { padding: space(4), borderRadius: 16, borderWidth: 2, borderBottomWidth: 4, borderColor: colors.line, gap: space(2) },
-  row: { flexDirection: 'row', justifyContent: 'space-between' },
-  cardTitle: { fontFamily: fonts.display, fontSize: type.body, color: colors.ink },
-  muted: { fontFamily: fonts.body, fontSize: type.small, color: colors.inkSoft },
-  track: { height: 14, borderRadius: 7, backgroundColor: colors.surface, overflow: 'hidden' },
-  fill: { height: 14, borderRadius: 7, backgroundColor: colors.streak },
-  review: { flexDirection: 'row', alignItems: 'center', gap: space(3), borderColor: colors.right, backgroundColor: colors.rightBg },
-  reviewIcon: { fontSize: 28 },
-  go: { fontFamily: fonts.display, fontSize: 32, color: colors.rightDark },
+  bannerWrap: { paddingHorizontal: space(4), paddingTop: space(3), paddingBottom: space(1), backgroundColor: colors.bg, zIndex: 2 },
+  banner: { flexDirection: 'row', alignItems: 'center', borderRadius: 16, borderBottomWidth: 5, paddingLeft: space(4), minHeight: 72 },
+  bannerSmall: { fontFamily: fonts.ui, fontSize: type.small, color: 'rgba(255,255,255,0.85)' },
+  bannerTitle: { fontFamily: fonts.display, fontSize: type.lead + 2, color: '#fff' },
+  bannerSep: { width: 2, alignSelf: 'stretch', marginVertical: 0 },
+  guideBtn: { width: 64, alignSelf: 'stretch', alignItems: 'center', justifyContent: 'center' },
+  guideIcon: { fontSize: 26 },
   offline: { fontFamily: fonts.body, fontSize: type.small, color: colors.inkSoft, textAlign: 'center', marginTop: space(4) },
+  fab: { position: 'absolute', bottom: space(4), borderRadius: 16, borderWidth: 2, borderBottomWidth: 5, backgroundColor: colors.bg, alignItems: 'center', justifyContent: 'center' },
+  fabJump: { right: space(4), width: 52, height: 52, borderColor: colors.line },
+  jump: { fontFamily: fonts.display, fontSize: 26, color: colors.primary },
+  fabReview: { left: space(4), height: 52, flexDirection: 'row', gap: space(2), paddingHorizontal: space(3), borderColor: colors.right, backgroundColor: colors.rightBg },
+  fabIcon: { fontSize: 20 },
+  fabText: { fontFamily: fonts.display, fontSize: type.body, color: colors.rightDark },
+  info: { fontFamily: fonts.body, fontSize: type.body, lineHeight: type.body * 1.45, color: colors.inkSoft },
+  chestReward: { fontFamily: fonts.display, fontSize: type.hero + 8, color: colors.gem, textAlign: 'center', paddingVertical: space(4) },
 });

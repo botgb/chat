@@ -10,6 +10,7 @@ export type LevelResult = { stars: number; bestCorrect: number };
 export type Level = {
   id: string;
   index: number; // posição dentro da unidade (0..)
+  last: boolean; // última fase da unidade: o "desafio"
   questionIds: string[];
   stars: number; // 0 = não concluída
   unlocked: boolean;
@@ -58,9 +59,11 @@ export function buildMap(
           questionIds: sorted.slice(i * LEVEL_SIZE, (i + 1) * LEVEL_SIZE).map((q) => q.id),
           stars,
           unlocked,
+          last: false,
           current: false,
         });
       }
+      if (levels.length) levels[levels.length - 1].last = true;
       const next = levels.find((l) => l.unlocked && l.stars === 0);
       if (next) next.current = true;
       return { subject, levels };
@@ -83,4 +86,23 @@ export function recordLevel(
       [id]: { stars: Math.max(prev.stars, stars), bestCorrect: Math.max(prev.bestCorrect, correct) },
     },
   };
+}
+
+export const CHEST_EVERY = 3;
+
+export type PathItem =
+  | { kind: 'level'; level: Level }
+  | { kind: 'chest'; id: string; unlocked: boolean; opened: boolean };
+
+/** Caminho de uma unidade: as fases, com um baú depois de cada CHEST_EVERY fases. */
+export function buildPath(unit: Unit, openedChests: string[]): PathItem[] {
+  const items: PathItem[] = [];
+  unit.levels.forEach((level, i) => {
+    items.push({ kind: 'level', level });
+    if ((i + 1) % CHEST_EVERY === 0 && i < unit.levels.length - 1) {
+      const id = `${level.id}:bau`;
+      items.push({ kind: 'chest', id, unlocked: level.stars > 0, opened: openedChests.includes(id) });
+    }
+  });
+  return items;
 }

@@ -9,6 +9,7 @@ export const XP_IN_TIME_BONUS = 5;
 export const XP_LESSON_COMPLETE = 5;
 export const DIAMONDS_PER_STAR = 2;
 export const HEART_REFILL_COST = 50; // diamantes para encher as vidas
+export const PATH_CHEST_DIAMONDS = 10; // baú no caminho da trilha
 
 // Intervalos (em dias) das caixas de Leitner.
 export const REVIEW_INTERVALS_DAYS = [1, 3, 7, 14, 30];
@@ -39,6 +40,7 @@ export type Progress = {
   bestStreak: number;
   daily: Record<string, DailyStats>;
   claimed: Record<string, string[]>; // missões resgatadas por dia
+  chests: string[]; // baús da trilha já abertos
   dailyGoal: number; // questões por dia
   streak: number;
   lastStreakDay: string | null; // último dia em que a meta foi cumprida
@@ -58,6 +60,7 @@ export function initialProgress(now: number): Progress {
     bestStreak: 0,
     daily: {},
     claimed: {},
+    chests: [],
     dailyGoal: 10,
     streak: 0,
     lastStreakDay: null,
@@ -219,6 +222,11 @@ export function completeLesson(p: Progress, now: Date, level?: { newStars: numbe
       },
     },
   };
+}
+
+export function openPathChest(p: Progress, id: string): Progress | null {
+  if (p.chests.includes(id)) return null;
+  return { ...p, diamonds: p.diamonds + PATH_CHEST_DIAMONDS, chests: [...p.chests, id] };
 }
 
 export function refillHearts(p: Progress, now: number): Progress | null {

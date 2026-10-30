@@ -3,6 +3,7 @@ import {
   completeLesson,
   DIAMONDS_PER_STAR,
   HEART_REFILL_COST,
+  openPathChest,
   refillHearts,
   currentHearts,
   dueQuestionIds,
@@ -16,7 +17,7 @@ import {
   XP_IN_TIME_BONUS,
 } from '../lib/gamification';
 import { buildLesson, buildTrail, filterQuestions } from '../lib/lesson';
-import { buildMap, recordLevel, starsFor } from '../lib/levels';
+import { buildMap, buildPath, recordLevel, starsFor } from '../lib/levels';
 import { CHEST_ID, CHEST_REWARD, claim, dailyMissions, missionStatus } from '../lib/missions';
 import { ExamPack, Question } from '../lib/types';
 
@@ -207,5 +208,22 @@ describe('missões e diamantes', () => {
     expect(r.hearts).toBe(MAX_HEARTS);
     expect(r.diamonds).toBe(0);
     expect(refillHearts(r, at(day).getTime())).toBeNull();
+  });
+});
+
+describe('caminho da trilha', () => {
+  const many: Question[] = Array.from({ length: 35 }, (_, i) => q(`bio-q${i + 1}`, 'Biologia', i + 1));
+
+  it('marca o desafio e põe um baú a cada 3 fases', () => {
+    const [unit] = buildMap(many, 'enem', {});
+    expect(unit.levels.map((l) => l.last)).toEqual([false, false, false, false, false, false, true]);
+    const kinds = buildPath(unit, []).map((x) => x.kind);
+    expect(kinds).toEqual(['level', 'level', 'level', 'chest', 'level', 'level', 'level', 'chest', 'level']);
+  });
+
+  it('baú abre uma vez só e dá diamantes', () => {
+    const p = openPathChest(initialProgress(0), 'x:bau')!;
+    expect(p.diamonds).toBeGreaterThan(0);
+    expect(openPathChest(p, 'x:bau')).toBeNull();
   });
 });

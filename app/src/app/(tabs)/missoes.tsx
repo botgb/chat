@@ -16,6 +16,8 @@ export default function Missoes() {
   const app = useApp();
   const day = dayKey(new Date());
   const status = missionStatus(app.progress, day);
+  const goal = app.progress.dailyGoal;
+  const doneToday = Math.min(goal, app.progress.dayCounts[day] ?? 0);
 
   return (
     <SafeAreaView style={styles.screen} edges={['top']}>
@@ -24,6 +26,20 @@ export default function Missoes() {
         <View style={styles.hero}>
           <Text style={styles.heroTitle}>Missões do dia</Text>
           <Text style={styles.heroSub}>Novas missões em {hoursLeft()} h</Text>
+        </View>
+
+        <View style={[styles.card, styles.goalCard]}>
+          <Text style={styles.icon}>🔥</Text>
+          <View style={{ flex: 1, gap: space(2) }}>
+            <Text style={styles.title}>Meta diária: {goal} questões</Text>
+            <View style={styles.track}>
+              <View style={[styles.fill, { width: `${(doneToday / goal) * 100}%`, backgroundColor: colors.streak }]} />
+              <Text style={styles.trackText}>
+                {doneToday} / {goal}
+              </Text>
+            </View>
+            <Text style={styles.muted}>{doneToday >= goal ? 'Cumprida! A ofensiva de hoje está garantida.' : 'Cumpra para manter a ofensiva.'}</Text>
+          </View>
         </View>
 
         {status.missions.map(({ mission, value, done, claimed }) => (
@@ -85,6 +101,7 @@ const styles = StyleSheet.create({
   heroSub: { fontFamily: fonts.ui, fontSize: type.body - 1, color: 'rgba(255,255,255,0.9)' },
   card: { flexDirection: 'row', alignItems: 'center', gap: space(3), padding: space(4), borderRadius: 16, borderWidth: 2, borderBottomWidth: 4, borderColor: colors.line },
   chest: { borderColor: colors.gold, backgroundColor: '#FFF8E1' },
+  goalCard: { borderColor: colors.streak, backgroundColor: '#FFF1E3' },
   icon: { fontSize: 32 },
   title: { fontFamily: fonts.displayMedium, fontSize: type.body, color: colors.ink },
   muted: { fontFamily: fonts.body, fontSize: type.small, color: colors.inkSoft },

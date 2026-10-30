@@ -8,6 +8,7 @@ import {
   dayKey,
   initialProgress,
   Progress,
+  openPathChest,
   recordAnswer,
   refillHearts,
 } from '../lib/gamification';
@@ -34,6 +35,7 @@ type AppState = {
   finishLesson: (level?: { id: string; correct: number; total: number }) => number;
   claimMission: (id: string) => boolean;
   buyHeartRefill: () => boolean;
+  openChest: (id: string) => boolean;
   setPrefs: (prefs: Prefs) => void;
   setDailyGoal: (goal: number) => void;
   refreshManifest: () => Promise<void>;
@@ -112,6 +114,11 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
     },
     claimMission: (id) => {
       const next = claim(progress, dayKey(new Date()), id);
+      if (next) save(next);
+      return !!next;
+    },
+    openChest: (id) => {
+      const next = openPathChest(progress, id);
       if (next) save(next);
       return !!next;
     },
