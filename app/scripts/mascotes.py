@@ -141,6 +141,48 @@ MASCOTES['passarinho'] = body('#14A090', '#0E7A6E', '#2B2D42', Y) + f'''
 <path d="M38 56 Q38 30 60 30 Q82 30 82 56" fill="none" stroke="{INK}" stroke-width="3.4"/>
 <rect x="31" y="50" width="9" height="14" rx="4" fill="{INK}"/><rect x="80" y="50" width="9" height="14" rx="4" fill="{INK}"/>'''
 
+# Quadros de fala: a mesma figura com a boca aberta. O app alterna entre os dois enquanto o
+# personagem fala. Cada par troca o trecho da boca fechada pelo da boca aberta.
+TONGUE = '#E86A7A'
+FALA = {
+    'gabaritatu': [(
+        f'<path d="M58 73 Q66 77 73 70" fill="none" stroke="{INK}" stroke-width="2.4" stroke-linecap="round"/>',
+        f'<path d="M57 71 Q66 84 74 69 Q66 74 57 71 Z" fill="{INK}"/><path d="M62 77 Q66 80 70 76 Q66 75 62 77 Z" fill="{TONGUE}"/>',
+    )],
+    'gabamico': [(
+        f'<path d="M51 71 Q60 76 70 69" fill="none" stroke="{INK}" stroke-width="2.6" stroke-linecap="round"/>',
+        f'<path d="M50 69 Q60 84 71 68 Q60 72 50 69 Z" fill="{INK}"/><path d="M55 76 Q60 80 66 75 Q60 74 55 76 Z" fill="{TONGUE}"/>',
+    )],
+    'aprovaca': [(
+        '<path d="M54 79 Q60 82 66 79" fill="none" stroke="#9E3F59" stroke-width="2.4" stroke-linecap="round"/>',
+        '<ellipse cx="60" cy="79.5" rx="5.5" ry="3.6" fill="#7A2C42"/>',
+    )],
+    'radacao': [(
+        f'<path d="M50 62 H70" stroke="{INK}" stroke-width="2.6" stroke-linecap="round"/>',
+        f'<path d="M49 61 Q60 74 71 61 Q60 63 49 61 Z" fill="{INK}"/><path d="M55 66 Q60 70 65 66 Q60 65 55 66 Z" fill="{TONGUE}"/>',
+    )],
+    'simulaguia': [(
+        f'<path d="M52 60 Q60 54 70 60 Q66 74 58 76 Q55 70 52 60 Z" fill="{BEAK}"/>',
+        f'<path d="M55 64 Q62 66 68 62 Q65 76 58 79 Q56 72 55 64 Z" fill="#B87F05"/>'
+        f'<path d="M52 60 Q60 54 70 60 Q66 66 58 67 Q55 65 52 60 Z" fill="{BEAK}"/>',
+    ), (
+        '<path d="M58 70 Q62 72 65 68" fill="none" stroke="#C48F06" stroke-width="2" stroke-linecap="round"/>',
+        '',
+    )],
+    'passarinho': [(
+        f'<path d="M55 61 L65 61 L60 69 Z" fill="{O}" stroke="{O}" stroke-width="2.4" stroke-linejoin="round"/>',
+        f'<path d="M57 66 L63 66 L60 72 Z" fill="#C25E0C" stroke="#C25E0C" stroke-width="2.4" stroke-linejoin="round"/>'
+        f'<path d="M55 60 L65 60 L60 64 Z" fill="{O}" stroke="{O}" stroke-width="2.4" stroke-linejoin="round"/>',
+    )],
+}
+FALANDO = {}
+for k, trocas in FALA.items():
+    b = MASCOTES[k]
+    for fechada, aberta in trocas:
+        assert fechada in b, (k, fechada)
+        b = b.replace(fechada, aberta)
+    FALANDO[k] = b
+
 NOMES = {
     'gabaritatu': ('Gabaritatu', 'O confiante', 'Gabarito + tatu'),
     'gabamico': ('Gabamico', 'O zoeiro', 'Gabarito + mico'),
@@ -163,7 +205,11 @@ if __name__ == '__main__':
     ts = ['// Gerado por scripts/mascotes.py. Não edite à mão.', 'export const MASCOTS = {']
     for k, body_ in MASCOTES.items():
         ts.append(f'  {k}: {json.dumps(" ".join(svg(body_).split()), ensure_ascii=False)},')
-    ts += ['} as const;', '', 'export type MascotName = keyof typeof MASCOTS;', '',
+    ts += ['} as const;', '', '/** Mesma figura com a boca aberta, para animar a fala. */',
+           'export const MASCOTS_TALK: Record<keyof typeof MASCOTS, string> = {']
+    for k, body_ in FALANDO.items():
+        ts.append(f'  {k}: {json.dumps(" ".join(svg(body_).split()), ensure_ascii=False)},')
+    ts += ['};', '', 'export type MascotName = keyof typeof MASCOTS;', '',
            'export const MASCOT_NAMES: Record<MascotName, string> = {']
     ts += [f"  {k}: '{NOMES[k][0]}'," for k in MASCOTES]
     ts += ['};', '']
@@ -174,6 +220,7 @@ if __name__ == '__main__':
         f'<figcaption><b>{NOMES[k][0]}</b><i>{NOMES[k][1]}</i><span>{NOMES[k][2]}</span></figcaption></figure>'
         for k in MASCOTES
     )
+    fala = ''.join(f'<span>{svg(MASCOTES[k], 90)}{svg(FALANDO[k], 90)}</span>' for k in MASCOTES)
     dark = ''.join(f'<span>{svg(MASCOTES[k], 64)}</span>' for k in MASCOTES)
     html = f'''<!doctype html><html><head><meta charset="utf-8"><style>
 body{{margin:0;padding:32px 36px;background:#fff;font-family:system-ui,sans-serif;color:#2B2D42;width:760px}}
@@ -186,6 +233,6 @@ figcaption i{{font-style:normal;font-size:14px;font-weight:600;color:#2F6FE8}} f
 figure.main figcaption b{{font-size:30px}} figure.main figcaption{{align-items:flex-start}}
 .dark{{margin-top:22px;background:#141826;border-radius:20px;padding:16px;display:flex;justify-content:space-around}}
 </style></head><body><h1>Mascotes, versão 2</h1><p>Mais adultos: corpo inteiro, expressões seguras e roupas de jovem. Prévia, ainda não estão no app.</p>
-<div class="grid">{cards}</div><div class="dark">{dark}</div></body></html>'''
+<div class="grid">{cards}</div><div class="dark">{dark}</div><h1 style="margin-top:22px">Falando</h1><div class="grid">{fala}</div></body></html>'''
     open(os.path.join(OUT, 'previa.html'), 'w').write(html)
     print(len(MASCOTES), 'mascotes')

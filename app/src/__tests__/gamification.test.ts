@@ -16,7 +16,9 @@ import {
   XP_CORRECT,
   XP_IN_TIME_BONUS,
 } from '../lib/gamification';
-import { pickPromo, PROMOS } from '../components/PromoPlayer';
+jest.mock('expo-audio', () => ({ createAudioPlayer: jest.fn(), setAudioModeAsync: jest.fn() }));
+jest.mock('../state/AppState', () => ({ useApp: jest.fn() }));
+import { FINAL_AT, pickPromo, promoCues, PROMOS } from '../components/PromoPlayer';
 import { buildLesson, buildTrail, filterQuestions } from '../lib/lesson';
 import { buildMap, buildPath, recordLevel, starsFor } from '../lib/levels';
 import { CHEST_ID, CHEST_REWARD, claim, dailyMissions, missionStatus } from '../lib/missions';
@@ -262,6 +264,26 @@ describe('vídeos do Plus', () => {
       const next = pickPromo(Math.random).id;
       expect(next).not.toBe(last);
       last = next;
+    }
+  });
+
+  it('cada vídeo tem falas de personagens do elenco, em ordem e antes do fechamento', () => {
+    for (const p of PROMOS) {
+      expect(p.cast.length).toBeGreaterThanOrEqual(1);
+      expect(p.cast.length).toBeLessThanOrEqual(2);
+      let prev = 0;
+      for (const l of p.lines) {
+        expect(l.who).toBeLessThan(p.cast.length);
+        expect(l.from).toBeGreaterThanOrEqual(prev);
+        expect(l.to).toBeGreaterThan(l.from);
+        expect(l.to).toBeLessThanOrEqual(FINAL_AT);
+        prev = l.to;
+      }
+      // em diálogo, os dois personagens falam
+      if (p.cast.length === 2) expect(new Set(p.lines.map((l) => l.who)).size).toBe(2);
+      const cues = promoCues(p);
+      expect(cues.map((c) => c.at)).toEqual([...cues.map((c) => c.at)].sort((a, b) => a - b));
+      expect(cues.some((c) => c.sfx === 'vinheta')).toBe(true);
     }
   });
 });
