@@ -394,7 +394,7 @@
 16037;Instituto Superior de Ciencias Policiais;ISCP;Faculdade;Pública;Federal;DF;Brasília;ENEM;não
 2948;REAL FACULDADE DE BRASÍLIA;FU;Faculdade;Privada;Privada com fins lucrativos;DF;Brasília;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 403;UNIVERSIDADE CATÓLICA DE BRASÍLIA;UCB;Universidade;Privada;Privada sem fins lucrativos;DF;Brasília;Vestibular próprio ou ENEM (particulares) | ENEM;sim
-2;UNIVERSIDADE DE BRASÍLIA;UNB;Universidade;Pública;Federal;DF;Brasília;PAS-UnB | ENEM;sim
+2;UNIVERSIDADE DE BRASÍLIA;UNB;Universidade;Pública;Federal;DF;Brasília;Vestibular UnB | PAS-UnB | ENEM;não
 27103;UNIVERSIDADE DO DISTRITO FEDERAL;UnDF;Universidade;Pública;Estadual;DF;Brasília;ENEM;sim
 1159;CENTRO DE ENSINO SUPERIOR DE VITÓRIA;CESV;Faculdade;Privada;Privada com fins lucrativos;ES;Vitória;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 1840;CENTRO UNIVERSITÁRIO CASTELO BRANCO;UNICB;Centro Universitário;Privada;Privada sem fins lucrativos;ES;Colatina;Vestibular próprio ou ENEM (particulares) | ENEM;sim
@@ -586,7 +586,7 @@
 3319;Instituto Universitário Una de Catalão;Catalana;Faculdade;Privada;Privada com fins lucrativos;GO;Catalão;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 527;PONTIFÍCIA UNIVERSIDADE CATÓLICA DE GOIÁS;PUC GOIÁS;Universidade;Privada;Privada sem fins lucrativos;GO;Goiânia;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 3974;UNIVERSIDADE DE RIO VERDE;FESURV;Universidade;Pública;Municipal;GO;Rio Verde;ENEM;sim
-47;UNIVERSIDADE ESTADUAL DE GOIÁS;UEG;Universidade;Pública;Estadual;GO;Anápolis;Vestibular próprio (estaduais diversas) | ENEM;sim
+47;UNIVERSIDADE ESTADUAL DE GOIÁS;UEG;Universidade;Pública;Estadual;GO;Anápolis;Vestibular UEG | ENEM;sim
 25274;UNIVERSIDADE FEDERAL DE CATALÃO;UFCAT;Universidade;Pública;Federal;GO;Catalão;ENEM;não
 584;UNIVERSIDADE FEDERAL DE GOIÁS;UFG;Universidade;Pública;Federal;GO;Goiânia;ENEM;não
 25282;UNIVERSIDADE FEDERAL DE JATAÍ;UFJ;Universidade;Pública;Federal;GO;Jataí;ENEM;não
@@ -655,7 +655,7 @@
 22405;SVT FACULDADE DE ENSINO SUPERIOR;SVT;Faculdade;Privada;Privada com fins lucrativos;MA;São Luís;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 823;UNIVERSIDADE CEUMA;UNICEUMA;Universidade;Privada;Privada sem fins lucrativos;MA;São Luís;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 23410;UNIVERSIDADE ESTADUAL DA REGIÃO TOCANTINA DO MARANHÃO;UEMASUL;Universidade;Pública;Estadual;MA;Imperatriz;ENEM;sim
-568;UNIVERSIDADE ESTADUAL DO MARANHÃO;UEMA;Universidade;Pública;Estadual;MA;São Luís;PAES (UEMA) | ENEM;sim
+568;UNIVERSIDADE ESTADUAL DO MARANHÃO;UEMA;Universidade;Pública;Estadual;MA;São Luís;PAES (UEMA) | ENEM;não
 548;UNIVERSIDADE FEDERAL DO MARANHÃO;UFMA;Universidade;Pública;Federal;MA;São Luís;ENEM;não
 25613;ACADEMIA DE POLÍCIA MILITAR DE MINAS GERAIS;APM;Faculdade;Pública;Estadual;MG;Belo Horizonte;ENEM;sim
 23331;ALFA - Faculdade de Teófilo Otoni;ALFA - TO;Faculdade;Privada;Privada com fins lucrativos;MG;Teófilo Otoni;Vestibular próprio ou ENEM (particulares) | ENEM;sim
@@ -1064,7 +1064,7 @@
 780;UNIVERSIDADE DE CUIABÁ;UNIC/UNIME;Universidade;Privada;Privada com fins lucrativos;MT;Cuiabá;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 1;UNIVERSIDADE FEDERAL DE MATO GROSSO;UFMT;Universidade;Pública;Federal;MT;Cuiabá;ENEM;não
 25352;Universidade Federal de Rondonópolis;UFR;Universidade;Pública;Federal;MT;Rondonópolis;ENEM;não
-719;Universidade do Estado de Mato Grosso Carlos Alberto Reyes Maldonado - UNEMAT;UNEMAT;Universidade;Pública;Estadual;MT;Cáceres;Vestibular próprio (estaduais diversas) | ENEM;sim
+719;Universidade do Estado de Mato Grosso Carlos Alberto Reyes Maldonado - UNEMAT;UNEMAT;Universidade;Pública;Estadual;MT;Cáceres;Vestibular Unemat | ENEM;não
 25307;AFYA FACULDADE DE CIÊNCIAS MÉDICAS DE ABAETETUBA;AFYA ABAETETUBA;Faculdade;Privada;Privada com fins lucrativos;PA;Abaetetuba;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 25261;AFYA Faculdade de Ciências Médicas de Bragança;AFYA Bragança;Faculdade;Privada;Privada com fins lucrativos;PA;Bragança;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 4452;CENTRO UNIVERSITÁRIO ANHANGUERA DE MARABÁ;;Centro Universitário;Privada;Privada com fins lucrativos;PA;Marabá;Vestibular próprio ou ENEM (particulares) | ENEM;sim
@@ -1509,13 +1509,13 @@
 20667;UNETRI FACULDADES;UNETRI;Faculdade;Privada;Privada com fins lucrativos;PR;Barracão;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 4661;UNIBF CENTRO UNIVERSITÁRIO;;Centro Universitário;Privada;Privada com fins lucrativos;PR;Paraíso do Norte;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 1196;UNIVERSIDADE CESUMAR;UNICESUMAR;Universidade;Privada;Privada com fins lucrativos;PR;Maringá;Vestibular próprio ou ENEM (particulares) | ENEM;sim
-9;UNIVERSIDADE ESTADUAL DE LONDRINA;UEL;Universidade;Pública;Estadual;PR;Londrina;Vestibular UEL | ENEM;sim
-57;UNIVERSIDADE ESTADUAL DE MARINGÁ;UEM;Universidade;Pública;Estadual;PR;Maringá;Vestibular UEM | ENEM;sim
-730;UNIVERSIDADE ESTADUAL DE PONTA GROSSA;UEPG;Universidade;Pública;Estadual;PR;Ponta Grossa;Vestibular UEPG | ENEM;sim
+9;UNIVERSIDADE ESTADUAL DE LONDRINA;UEL;Universidade;Pública;Estadual;PR;Londrina;Vestibular UEL | ENEM;não
+57;UNIVERSIDADE ESTADUAL DE MARINGÁ;UEM;Universidade;Pública;Estadual;PR;Maringá;Vestibular UEM | PAS-UEM | ENEM;não
+730;UNIVERSIDADE ESTADUAL DE PONTA GROSSA;UEPG;Universidade;Pública;Estadual;PR;Ponta Grossa;Vestibular UEPG | PSS-UEPG | ENEM;não
 1126;UNIVERSIDADE ESTADUAL DO CENTRO OESTE;UNICENTRO;Universidade;Pública;Estadual;PR;Guarapuava;Vestibular Unicentro | ENEM;sim
 609;UNIVERSIDADE ESTADUAL DO OESTE DO PARANÁ;UNIOESTE;Universidade;Pública;Estadual;PR;Cascavel;Vestibular Unioeste | ENEM;sim
 15001;UNIVERSIDADE FEDERAL DA INTEGRAÇÃO LATINO-AMERICANA;UNILA;Universidade;Pública;Federal;PR;Foz do Iguaçu;ENEM;não
-571;UNIVERSIDADE FEDERAL DO PARANÁ;UFPR;Universidade;Pública;Federal;PR;Curitiba;Vestibular UFPR | ENEM;sim
+571;UNIVERSIDADE FEDERAL DO PARANÁ;UFPR;Universidade;Pública;Federal;PR;Curitiba;Vestibular UFPR | ENEM;não
 437;UNIVERSIDADE PARANAENSE;UNIPAR;Universidade;Privada;Privada com fins lucrativos;PR;Umuarama;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 1042;UNIVERSIDADE POSITIVO;UP;Universidade;Privada;Privada com fins lucrativos;PR;Curitiba;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 588;UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ;UTFPR;Universidade;Pública;Federal;PR;Curitiba;ENEM;não
@@ -1526,7 +1526,7 @@
 298;Universidade Pitágoras Unopar Anhanguera;Unopar;Universidade;Privada;Privada com fins lucrativos;PR;Londrina;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 2565;ABEU - CENTRO UNIVERSITÁRIO;UNIABEU;Centro Universitário;Privada;Privada sem fins lucrativos;RJ;Belford Roxo;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 21095;Academia Militar das Agulhas Negras;AMAN;Centro Universitário;Pública;Federal;RJ;Resende;EsPCEx;não
-593;CENTRO FEDERAL DE EDUCAÇÃO TECNOLÓGICA CELSO SUCKOW DA FONSECA;CEFET/RJ;CEFET;Pública;Federal;RJ;Rio de Janeiro;ENEM;não
+593;CENTRO FEDERAL DE EDUCAÇÃO TECNOLÓGICA CELSO SUCKOW DA FONSECA;CEFET/RJ;CEFET;Pública;Federal;RJ;Rio de Janeiro;Vestibular Cederj (EaD) | ENEM;não
 1080;CENTRO UNIVERSITÁRIO ARTHUR SÁ EARP NETO;UNIFASE;Centro Universitário;Privada;Privada sem fins lucrativos;RJ;Petrópolis;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 277;CENTRO UNIVERSITÁRIO AUGUSTO MOTTA;UNISUAM;Centro Universitário;Privada;Privada sem fins lucrativos;RJ;Rio de Janeiro;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 522;CENTRO UNIVERSITÁRIO CELSO LISBOA;UCL;Centro Universitário;Privada;Privada sem fins lucrativos;RJ;Rio de Janeiro;Vestibular próprio ou ENEM (particulares) | ENEM;sim
@@ -1638,14 +1638,14 @@
 15;UNIVERSIDADE CATÓLICA DE PETRÓPOLIS;UCP;Universidade;Privada;Privada sem fins lucrativos;RJ;Petrópolis;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 1153;UNIVERSIDADE CÂNDIDO MENDES;UCAM;Universidade;Privada;Privada sem fins lucrativos;RJ;Rio de Janeiro;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 140;UNIVERSIDADE DE VASSOURAS;UNIVASSOURAS;Universidade;Privada;Privada sem fins lucrativos;RJ;Vassouras;Vestibular próprio ou ENEM (particulares) | ENEM;sim
-547;UNIVERSIDADE DO ESTADO DO RIO DE JANEIRO;UERJ;Universidade;Pública;Estadual;RJ;Rio de Janeiro;Vestibular Estadual UERJ | ENEM;sim
+547;UNIVERSIDADE DO ESTADO DO RIO DE JANEIRO;UERJ;Universidade;Pública;Estadual;RJ;Rio de Janeiro;Vestibular Estadual UERJ | Vestibular Cederj (EaD) | ENEM;não
 472;UNIVERSIDADE DO GRANDE RIO PROFESSOR JOSÉ DE SOUZA HERDY;UNIGRANRIO;Universidade;Privada;Privada com fins lucrativos;RJ;Duque de Caxias;Vestibular próprio ou ENEM (particulares) | ENEM;sim
-1027;UNIVERSIDADE ESTADUAL DO NORTE FLUMINENSE DARCY RIBEIRO;UENF;Universidade;Pública;Estadual;RJ;Campos dos Goytacazes;Vestibular Estadual UERJ | ENEM;sim
+1027;UNIVERSIDADE ESTADUAL DO NORTE FLUMINENSE DARCY RIBEIRO;UENF;Universidade;Pública;Estadual;RJ;Campos dos Goytacazes;Vestibular Cederj (EaD) | ENEM;não
 163;UNIVERSIDADE ESTÁCIO DE SÁ;UNESA;Universidade;Privada;Privada com fins lucrativos;RJ;Rio de Janeiro;Vestibular próprio ou ENEM (particulares) | ENEM;sim
-693;UNIVERSIDADE FEDERAL DO ESTADO DO RIO DE JANEIRO;UNIRIO;Universidade;Pública;Federal;RJ;Rio de Janeiro;ENEM;não
-586;UNIVERSIDADE FEDERAL DO RIO DE JANEIRO;UFRJ;Universidade;Pública;Federal;RJ;Rio de Janeiro;ENEM;não
-572;UNIVERSIDADE FEDERAL FLUMINENSE;UFF;Universidade;Pública;Federal;RJ;Niterói;ENEM;não
-574;UNIVERSIDADE FEDERAL RURAL DO RIO DE JANEIRO;UFRRJ;Universidade;Pública;Federal;RJ;Seropédica;ENEM;não
+693;UNIVERSIDADE FEDERAL DO ESTADO DO RIO DE JANEIRO;UNIRIO;Universidade;Pública;Federal;RJ;Rio de Janeiro;Vestibular Cederj (EaD) | ENEM;não
+586;UNIVERSIDADE FEDERAL DO RIO DE JANEIRO;UFRJ;Universidade;Pública;Federal;RJ;Rio de Janeiro;Vestibular Cederj (EaD) | ENEM;não
+572;UNIVERSIDADE FEDERAL FLUMINENSE;UFF;Universidade;Pública;Federal;RJ;Niterói;Vestibular Cederj (EaD) | ENEM;não
+574;UNIVERSIDADE FEDERAL RURAL DO RIO DE JANEIRO;UFRRJ;Universidade;Pública;Federal;RJ;Seropédica;Vestibular Cederj (EaD) | ENEM;não
 330;UNIVERSIDADE IGUAÇU;UNIG;Universidade;Privada;Privada sem fins lucrativos;RJ;Nova Iguaçu;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 663;UNIVERSIDADE SALGADO DE OLIVEIRA;UNIVERSO;Universidade;Privada;Privada sem fins lucrativos;RJ;São Gonçalo;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 240;UNIVERSIDADE SANTA ÚRSULA;USU;Universidade;Privada;Privada sem fins lucrativos;RJ;Rio de Janeiro;Vestibular próprio ou ENEM (particulares) | ENEM;sim
@@ -1829,7 +1829,7 @@
 634;UNIVERSIDADE FEDERAL DE PELOTAS;UFPEL;Universidade;Pública;Federal;RS;Pelotas;ENEM;não
 582;UNIVERSIDADE FEDERAL DE SANTA MARIA;UFSM;Universidade;Pública;Federal;RS;Santa Maria;ENEM;não
 12;UNIVERSIDADE FEDERAL DO RIO GRANDE;FURG;Universidade;Pública;Federal;RS;Rio Grande;ENEM;não
-581;UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL;UFRGS;Universidade;Pública;Federal;RS;Porto Alegre;Vestibular UFRGS | ENEM;sim
+581;UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL;UFRGS;Universidade;Pública;Federal;RS;Porto Alegre;Vestibular UFRGS | ENEM;não
 23;UNIVERSIDADE FEEVALE;FEEVALE;Universidade;Privada;Privada sem fins lucrativos;RS;Novo Hamburgo;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 426;UNIVERSIDADE FRANCISCANA;UFN;Universidade;Privada;Privada sem fins lucrativos;RS;Santa Maria;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 641;UNIVERSIDADE LA SALLE;UNILASALLE;Universidade;Privada;Privada sem fins lucrativos;RS;Canoas;Vestibular próprio ou ENEM (particulares) | ENEM;sim
@@ -1934,7 +1934,7 @@
 494;UNIVERSIDADE DO SUL DE SANTA CATARINA;UNISUL;Universidade;Privada;Privada sem fins lucrativos;SC;Tubarão;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 83;UNIVERSIDADE DO VALE DO ITAJAÍ;UNIVALI;Universidade;Privada;Privada sem fins lucrativos;SC;Itajaí;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 15121;UNIVERSIDADE FEDERAL DA FRONTEIRA SUL;UFFS;Universidade;Pública;Federal;SC;Chapecó;ENEM;não
-585;UNIVERSIDADE FEDERAL DE SANTA CATARINA;UFSC;Universidade;Pública;Federal;SC;Florianópolis;Vestibular UFSC | ENEM;sim
+585;UNIVERSIDADE FEDERAL DE SANTA CATARINA;UFSC;Universidade;Pública;Federal;SC;Florianópolis;Vestibular UFSC | ENEM;não
 76;UNIVERSIDADE REGIONAL DE BLUMENAU;FURB;Universidade;Pública;Municipal;SC;Blumenau;ENEM;sim
 2122;CENTRO UNIVERSITÁRIO ESTÁCIO DE SERGIPE;;Centro Universitário;Privada;Privada com fins lucrativos;SE;Aracaju;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 4121;CENTRO UNIVERSITÁRIO MAURICIO DE NASSAU DE ARACAJU;;Centro Universitário;Privada;Privada sem fins lucrativos;SE;Aracaju;Vestibular próprio ou ENEM (particulares) | ENEM;sim
@@ -2472,7 +2472,7 @@
 15714;Fatec Arthur Azevedo - Mogi Mirim;FATECMM;Faculdade;Pública;Estadual;SP;Mogi Mirim;ENEM;sim
 15680;Fatec Cruzeiro - Prof. Waldomiro May;;Faculdade;Pública;Estadual;SP;Cruzeiro;ENEM;sim
 22862;FranklinCovey Business School;FCBS;Faculdade;Privada;Privada com fins lucrativos;SP;São Paulo;Vestibular próprio ou ENEM (particulares) | ENEM;sim
-18165;Fundação Universidade Virtual do Estado de São Paulo;UNIVESP;Universidade;Pública;Estadual;SP;São Paulo;Provão Paulista Seriado | ENEM;sim
+18165;Fundação Universidade Virtual do Estado de São Paulo;UNIVESP;Universidade;Pública;Estadual;SP;São Paulo;Provão Paulista Seriado | ENEM;não
 23118;IBPTECH FACULDADE DE CIÊNCIAS FORENSES E TECNOLOGIA;;Faculdade;Privada;Privada com fins lucrativos;SP;São Paulo;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 24525;ILUM ESCOLA DE CIÊNCIA;;Faculdade;Privada;Privada sem fins lucrativos;SP;Campinas;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 1161;INSPER INSTITUTO DE ENSINO E PESQUISA;;Faculdade;Privada;Privada sem fins lucrativos;SP;São Paulo;Vestibular Insper | ENEM;sim
@@ -2515,11 +2515,11 @@
 521;UNIVERSIDADE DE MOGI DAS CRUZES;UMC;Universidade;Privada;Privada com fins lucrativos;SP;Mogi das Cruzes;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 208;UNIVERSIDADE DE RIBEIRÃO PRETO;UNAERP;Universidade;Privada;Privada sem fins lucrativos;SP;Ribeirão Preto;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 150;UNIVERSIDADE DE SOROCABA;UNISO;Universidade;Privada;Privada sem fins lucrativos;SP;Sorocaba;Vestibular próprio ou ENEM (particulares) | ENEM;sim
-55;UNIVERSIDADE DE SÃO PAULO;USP;Universidade;Pública;Estadual;SP;São Paulo;Fuvest | Provão Paulista Seriado | ENEM;sim
+55;UNIVERSIDADE DE SÃO PAULO;USP;Universidade;Pública;Estadual;SP;São Paulo;Fuvest | Provão Paulista Seriado | ENEM;não
 665;UNIVERSIDADE DE TAUBATÉ;UNITAU;Universidade;Pública;Especial;SP;Taubaté;ENEM;sim
 271;UNIVERSIDADE DO OESTE PAULISTA;UNOESTE;Universidade;Privada;Privada sem fins lucrativos;SP;Presidente Prudente;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 275;UNIVERSIDADE DO VALE DO PARAÍBA;UNIVAP;Universidade;Privada;Privada sem fins lucrativos;SP;São José dos Campos;Vestibular próprio ou ENEM (particulares) | ENEM;sim
-54;UNIVERSIDADE ESTADUAL DE CAMPINAS;UNICAMP;Universidade;Pública;Estadual;SP;Campinas;Vestibular Unicamp (Comvest) | Provão Paulista Seriado | ENEM;sim
+54;UNIVERSIDADE ESTADUAL DE CAMPINAS;UNICAMP;Universidade;Pública;Estadual;SP;Campinas;Vestibular Unicamp (Comvest) | Provão Paulista Seriado | ENEM;não
 56;UNIVERSIDADE ESTADUAL PAULISTA JÚLIO DE MESQUITA FILHO;UNESP;Universidade;Pública;Estadual;SP;São Paulo;Vunesp | Provão Paulista Seriado | ENEM;sim
 7;UNIVERSIDADE FEDERAL DE SÃO CARLOS;UFSCAR;Universidade;Pública;Federal;SP;São Carlos;ENEM;não
 591;UNIVERSIDADE FEDERAL DE SÃO PAULO;UNIFESP;Universidade;Pública;Federal;SP;São Paulo;ENEM;não
@@ -2558,5 +2558,5 @@
 16759;Faculdade do Bico;FABIC;Faculdade;Privada;Privada com fins lucrativos;TO;Augustinópolis;Vestibular próprio ou ENEM (particulares) | ENEM;sim
 4786;INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO TOCANTINS;IFTO;Instituto Federal;Pública;Federal;TO;Palmas;ENEM;não
 750;UNIVERSIDADE DE GURUPI;UnirG;Universidade;Pública;Especial;TO;Gurupi;ENEM;sim
-829;UNIVERSIDADE ESTADUAL DO TOCANTINS;UNITINS;Universidade;Pública;Estadual;TO;Palmas;Vestibular próprio (estaduais diversas) | ENEM;sim
+829;UNIVERSIDADE ESTADUAL DO TOCANTINS;UNITINS;Universidade;Pública;Estadual;TO;Palmas;Vestibular Unitins | ENEM;não
 29118;Universidade Federal do Norte do Tocantins;UFNT;Universidade;Pública;Federal;TO;Araguaína;ENEM;não

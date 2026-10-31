@@ -30,19 +30,20 @@ CATEGORIA = {
 # Catálogo de provas. "confirmar": o processo existe, mas formato/uso precisam de checagem no edital.
 PROVAS = [
     ('enem', 'ENEM', 'INEP', 'nacional', None, False, 'Usado no SISU, Prouni, FIES e pela maioria das instituições.'),
-    ('provao-paulista', 'Provão Paulista Seriado', 'Governo de SP', 'seriado', 'SP', True, 'Para alunos da rede pública paulista.'),
+    ('provao-paulista', 'Provão Paulista Seriado', 'Governo de SP', 'seriado', 'SP', False, 'Para alunos da rede pública paulista.'),
     ('fuvest', 'Fuvest', 'Fuvest', 'vestibular', 'SP', False, None),
     ('comvest', 'Vestibular Unicamp (Comvest)', 'Comvest', 'vestibular', 'SP', False, None),
     ('vunesp', 'Vunesp', 'Vunesp', 'vestibular', 'SP', True, None),
     ('fatec', 'Vestibular Fatec', 'Centro Paula Souza', 'vestibular', 'SP', True, None),
-    ('uerj', 'Vestibular Estadual UERJ', 'UERJ', 'vestibular', 'RJ', True, None),
+    ('uerj', 'Vestibular Estadual UERJ', 'UERJ', 'vestibular', 'RJ', False, 'A UEZO foi incorporada à UERJ em 2022.'),
+    ('cederj', 'Vestibular Cederj (EaD)', 'Fundação Cecierj', 'vestibular', 'RJ', False, 'Consórcio de graduação a distância.'),
     ('ufpr', 'Vestibular UFPR', 'NC-UFPR', 'vestibular', 'PR', False, None),
     ('ufsc', 'Vestibular UFSC', 'Coperve', 'vestibular', 'SC', False, None),
     ('ufrgs', 'Vestibular UFRGS', 'Coperse', 'vestibular', 'RS', False, None),
     ('udesc', 'Vestibular Udesc', 'Udesc', 'vestibular', 'SC', True, None),
-    ('uel', 'Vestibular UEL', 'Cops-UEL', 'vestibular', 'PR', True, None),
-    ('uem', 'Vestibular UEM', 'CVU-UEM', 'vestibular', 'PR', True, None),
-    ('uepg', 'Vestibular UEPG', 'UEPG', 'vestibular', 'PR', True, None),
+    ('uel', 'Vestibular UEL', 'Cops-UEL', 'vestibular', 'PR', False, None),
+    ('uem', 'Vestibular UEM', 'CVU-UEM', 'vestibular', 'PR', False, None),
+    ('uepg', 'Vestibular UEPG', 'UEPG', 'vestibular', 'PR', False, None),
     ('unioeste', 'Vestibular Unioeste', 'Unioeste', 'vestibular', 'PR', True, None),
     ('unicentro', 'Vestibular Unicentro', 'Unicentro', 'vestibular', 'PR', True, None),
     ('uneb', 'Vestibular UNEB', 'UNEB', 'vestibular', 'BA', True, None),
@@ -53,15 +54,21 @@ PROVAS = [
     ('urca', 'Vestibular URCA', 'URCA', 'vestibular', 'CE', True, None),
     ('uva-ce', 'Vestibular UVA', 'UVA', 'vestibular', 'CE', True, None),
     ('uea', 'Vestibular UEA', 'UEA', 'vestibular', 'AM', True, None),
+    ('unemat', 'Vestibular Unemat', 'Unemat', 'vestibular', 'MT', False, 'No 2º semestre usa só o SISU.'),
+    ('unitins', 'Vestibular Unitins', 'Unitins', 'vestibular', 'TO', False, None),
+    ('ueg', 'Vestibular UEG', 'UEG', 'vestibular', 'GO', True, None),
     ('outras-estaduais', 'Vestibular próprio (estaduais diversas)', 'cada instituição', 'vestibular', None, True,
      'Parte dessas instituições já seleciona só pelo ENEM.'),
-    ('pas-unb', 'PAS-UnB', 'Cebraspe', 'seriado', 'DF', True, None),
+    ('pas-unb', 'PAS-UnB', 'Cebraspe', 'seriado', 'DF', False, None),
+    ('vestibular-unb', 'Vestibular UnB', 'Cebraspe', 'vestibular', 'DF', False, None),
     ('ssa-upe', 'SSA (UPE)', 'UPE', 'seriado', 'PE', True, None),
     ('psc-ufam', 'PSC (UFAM)', 'UFAM', 'seriado', 'AM', True, None),
     ('sis-uea', 'SIS (UEA)', 'UEA', 'seriado', 'AM', True, None),
-    ('paes-uema', 'PAES (UEMA)', 'UEMA', 'seriado', 'MA', True, None),
+    ('paes-uema', 'PAES (UEMA)', 'UEMA', 'seriado', 'MA', False, None),
     ('paes-unimontes', 'PAES (Unimontes)', 'Unimontes', 'seriado', 'MG', True, None),
     ('prise-uepa', 'Prise / Prosel (UEPA)', 'UEPA', 'seriado', 'PA', True, None),
+    ('pas-uem', 'PAS-UEM', 'CVU-UEM', 'seriado', 'PR', False, None),
+    ('pss-uepg', 'PSS-UEPG', 'CPS-UEPG', 'seriado', 'PR', False, None),
     ('ita', 'Vestibular ITA', 'ITA', 'militar', 'SP', False, None),
     ('ime', 'Vestibular IME', 'IME', 'militar', 'RJ', False, None),
     ('espcex', 'EsPCEx', 'Exército', 'militar', None, False, 'Prepara para a AMAN.'),
@@ -84,20 +91,22 @@ POR_CODIGO = {
     '149': ['vunesp'],  # Famerp
     '431': ['vunesp'],  # Famema
     '18165': ['provao-paulista'],  # Univesp
-    '547': ['uerj'], '1027': ['uerj'],  # UERJ, UENF
+    '547': ['uerj', 'cederj'],  # UERJ
+    '1027': ['cederj'], '586': ['cederj'], '572': ['cederj'], '574': ['cederj'], '693': ['cederj'], '593': ['cederj'],  # Cederj
     '571': ['ufpr'], '585': ['ufsc'], '581': ['ufrgs'], '43': ['udesc'],
-    '9': ['uel'], '57': ['uem'], '730': ['uepg'], '609': ['unioeste'], '1126': ['unicentro'],
+    '9': ['uel'], '57': ['uem', 'pas-uem'], '730': ['uepg', 'pss-uepg'], '609': ['unioeste'], '1126': ['unicentro'],
     '40': ['uneb'], '666': ['uefs'], '688': ['uesb'], '24': ['uesc'],
     '29': ['uece'], '746': ['urca'], '95': ['uva-ce'],
-    '3172': ['uea', 'sis-uea'], '2': ['pas-unb'], '409': ['ssa-upe'], '4': ['psc-ufam'],
+    '3172': ['uea', 'sis-uea'], '2': ['vestibular-unb', 'pas-unb'], '409': ['ssa-upe'], '4': ['psc-ufam'],
     '568': ['paes-uema'], '367': ['paes-unimontes'], '38': ['prise-uepa'],
-    '719': ['outras-estaduais'], '1028': ['outras-estaduais'], '829': ['outras-estaduais'],
-    '47': ['outras-estaduais'], '756': ['outras-estaduais'], '71': ['outras-estaduais'],
+    '719': ['unemat'], '829': ['unitins'], '47': ['ueg'], '1028': ['outras-estaduais'], '756': ['outras-estaduais'], '71': ['outras-estaduais'],
     '602': ['ita'], '633': ['ime'], '21095': ['espcex'],
     '1161': ['insper'], '22': ['mackenzie'], '195': ['mackenzie'], '19229': ['mackenzie'],
     '546': ['puc'], '528': ['puc'], '19': ['puc'], '10': ['puc'], '21': ['puc'],
     '790': ['einstein'], '415': ['santa-casa'], '737': ['sao-camilo'],
 }
+
+CONFIRMAR = {p[0]: p[5] for p in PROVAS}
 
 PAULA_SOUZA = 'CENTRO ESTADUAL DE EDUCACAO TECNOLOGICA PAULA SOUZA'
 
@@ -111,11 +120,12 @@ def provas_da(r):
     if r['SG_IES'].upper().startswith('FGV'):
         especificas.append('fgv')
 
+    incerta = any(CONFIRMAR[p] for p in especificas)
     if cat == '1':  # federais (inclui IFs, CEFETs e militares): ENEM via SISU
         base = [] if codigo in ('602', '633', '21095') else ['enem']
-        return especificas + base, bool(especificas) and codigo not in ('602', '633', '21095')
+        return especificas + base, incerta
     if especificas:
-        return especificas + ['enem'], True
+        return especificas + ['enem'], incerta or cat not in ('2',)
     if cat in ('4', '5'):
         return ['proprio-particular', 'enem'], True
     # estaduais, municipais e especiais sem informação: provavelmente ENEM, mas sem garantia

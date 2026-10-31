@@ -18,7 +18,7 @@
    "organizadora": "Governo de SP",
    "tipo": "seriado",
    "uf": "SP",
-   "confirmar": true,
+   "confirmar": false,
    "observacao": "Para alunos da rede pública paulista.",
    "instituicoes": 77
   },
@@ -68,9 +68,19 @@
    "organizadora": "UERJ",
    "tipo": "vestibular",
    "uf": "RJ",
-   "confirmar": true,
-   "observacao": null,
-   "instituicoes": 2
+   "confirmar": false,
+   "observacao": "A UEZO foi incorporada à UERJ em 2022.",
+   "instituicoes": 1
+  },
+  {
+   "id": "cederj",
+   "nome": "Vestibular Cederj (EaD)",
+   "organizadora": "Fundação Cecierj",
+   "tipo": "vestibular",
+   "uf": "RJ",
+   "confirmar": false,
+   "observacao": "Consórcio de graduação a distância.",
+   "instituicoes": 7
   },
   {
    "id": "ufpr",
@@ -118,7 +128,7 @@
    "organizadora": "Cops-UEL",
    "tipo": "vestibular",
    "uf": "PR",
-   "confirmar": true,
+   "confirmar": false,
    "observacao": null,
    "instituicoes": 1
   },
@@ -128,7 +138,7 @@
    "organizadora": "CVU-UEM",
    "tipo": "vestibular",
    "uf": "PR",
-   "confirmar": true,
+   "confirmar": false,
    "observacao": null,
    "instituicoes": 1
   },
@@ -138,7 +148,7 @@
    "organizadora": "UEPG",
    "tipo": "vestibular",
    "uf": "PR",
-   "confirmar": true,
+   "confirmar": false,
    "observacao": null,
    "instituicoes": 1
   },
@@ -243,6 +253,36 @@
    "instituicoes": 1
   },
   {
+   "id": "unemat",
+   "nome": "Vestibular Unemat",
+   "organizadora": "Unemat",
+   "tipo": "vestibular",
+   "uf": "MT",
+   "confirmar": false,
+   "observacao": "No 2º semestre usa só o SISU.",
+   "instituicoes": 1
+  },
+  {
+   "id": "unitins",
+   "nome": "Vestibular Unitins",
+   "organizadora": "Unitins",
+   "tipo": "vestibular",
+   "uf": "TO",
+   "confirmar": false,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "ueg",
+   "nome": "Vestibular UEG",
+   "organizadora": "UEG",
+   "tipo": "vestibular",
+   "uf": "GO",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
    "id": "outras-estaduais",
    "nome": "Vestibular próprio (estaduais diversas)",
    "organizadora": "cada instituição",
@@ -250,7 +290,7 @@
    "uf": null,
    "confirmar": true,
    "observacao": "Parte dessas instituições já seleciona só pelo ENEM.",
-   "instituicoes": 6
+   "instituicoes": 3
   },
   {
    "id": "pas-unb",
@@ -258,7 +298,17 @@
    "organizadora": "Cebraspe",
    "tipo": "seriado",
    "uf": "DF",
-   "confirmar": true,
+   "confirmar": false,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "vestibular-unb",
+   "nome": "Vestibular UnB",
+   "organizadora": "Cebraspe",
+   "tipo": "vestibular",
+   "uf": "DF",
+   "confirmar": false,
    "observacao": null,
    "instituicoes": 1
   },
@@ -298,7 +348,7 @@
    "organizadora": "UEMA",
    "tipo": "seriado",
    "uf": "MA",
-   "confirmar": true,
+   "confirmar": false,
    "observacao": null,
    "instituicoes": 1
   },
@@ -319,6 +369,26 @@
    "tipo": "seriado",
    "uf": "PA",
    "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "pas-uem",
+   "nome": "PAS-UEM",
+   "organizadora": "CVU-UEM",
+   "tipo": "seriado",
+   "uf": "PR",
+   "confirmar": false,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "pss-uepg",
+   "nome": "PSS-UEPG",
+   "organizadora": "CPS-UEPG",
+   "tipo": "seriado",
+   "uf": "PR",
+   "confirmar": false,
    "observacao": null,
    "instituicoes": 1
   },

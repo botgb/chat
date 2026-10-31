@@ -6311,10 +6311,11 @@
    "municipio": "Brasília",
    "mantenedora": "FUNDACAO UNIVERSIDADE DE BRASILIA",
    "provas": [
+    "vestibular-unb",
     "pas-unb",
     "enem"
    ],
-   "confirmar": true
+   "confirmar": false
   },
   {
    "id": 27103,
@@ -9367,7 +9368,7 @@
    "municipio": "Anápolis",
    "mantenedora": "UNIVERSIDADE ESTADUAL DE GOIAS",
    "provas": [
-    "outras-estaduais",
+    "ueg",
     "enem"
    ],
    "confirmar": true
@@ -10469,7 +10470,7 @@
     "paes-uema",
     "enem"
    ],
-   "confirmar": true
+   "confirmar": false
   },
   {
    "id": 548,
@@ -16982,10 +16983,10 @@
    "municipio": "Cáceres",
    "mantenedora": "FUNDACAO UNIVERSIDADE DO ESTADO DE MATO GROSSO",
    "provas": [
-    "outras-estaduais",
+    "unemat",
     "enem"
    ],
-   "confirmar": true
+   "confirmar": false
   },
   {
    "id": 25307,
@@ -24064,7 +24065,7 @@
     "uel",
     "enem"
    ],
-   "confirmar": true
+   "confirmar": false
   },
   {
    "id": 57,
@@ -24078,9 +24079,10 @@
    "mantenedora": "SECRETARIA DE ESTADO DA CIENCIA, TECNOLOGIA E ENSINO SUPERIOR - SETI",
    "provas": [
     "uem",
+    "pas-uem",
     "enem"
    ],
-   "confirmar": true
+   "confirmar": false
   },
   {
    "id": 730,
@@ -24094,9 +24096,10 @@
    "mantenedora": "SECRETARIA DE ESTADO DA CIENCIA, TECNOLOGIA E ENSINO SUPERIOR - SETI",
    "provas": [
     "uepg",
+    "pss-uepg",
     "enem"
    ],
-   "confirmar": true
+   "confirmar": false
   },
   {
    "id": 1126,
@@ -24159,7 +24162,7 @@
     "ufpr",
     "enem"
    ],
-   "confirmar": true
+   "confirmar": false
   },
   {
    "id": 437,
@@ -24328,6 +24331,7 @@
    "municipio": "Rio de Janeiro",
    "mantenedora": "CENTRO FED DE ED TECNOLOGICA CELSO SUCKOW DA FONSECA RJ",
    "provas": [
+    "cederj",
     "enem"
    ],
    "confirmar": false
@@ -26099,9 +26103,10 @@
    "mantenedora": "UNIVERSIDADE DO ESTADO DO RIO DE JANEIRO",
    "provas": [
     "uerj",
+    "cederj",
     "enem"
    ],
-   "confirmar": true
+   "confirmar": false
   },
   {
    "id": 472,
@@ -26130,10 +26135,10 @@
    "municipio": "Campos dos Goytacazes",
    "mantenedora": "UNIVERSIDADE ESTADUAL DO NORTE FLUMINENSE DARCY RIBEIRO - UENF",
    "provas": [
-    "uerj",
+    "cederj",
     "enem"
    ],
-   "confirmar": true
+   "confirmar": false
   },
   {
    "id": 163,
@@ -26162,6 +26167,7 @@
    "municipio": "Rio de Janeiro",
    "mantenedora": "UNIVERSIDADE FEDERAL DO ESTADO DO RIO DE JANEIRO",
    "provas": [
+    "cederj",
     "enem"
    ],
    "confirmar": false
@@ -26177,6 +26183,7 @@
    "municipio": "Rio de Janeiro",
    "mantenedora": "UNIVERSIDADE FEDERAL DO RIO DE JANEIRO",
    "provas": [
+    "cederj",
     "enem"
    ],
    "confirmar": false
@@ -26192,6 +26199,7 @@
    "municipio": "Niterói",
    "mantenedora": "UNIVERSIDADE FEDERAL FLUMINENSE",
    "provas": [
+    "cederj",
     "enem"
    ],
    "confirmar": false
@@ -26207,6 +26215,7 @@
    "municipio": "Seropédica",
    "mantenedora": "UNIVERSIDADE FEDERAL RURAL DO RIO DE JANEIRO",
    "provas": [
+    "cederj",
     "enem"
    ],
    "confirmar": false
@@ -29134,7 +29143,7 @@
     "ufrgs",
     "enem"
    ],
-   "confirmar": true
+   "confirmar": false
   },
   {
    "id": 23,
@@ -30808,7 +30817,7 @@
     "ufsc",
     "enem"
    ],
-   "confirmar": true
+   "confirmar": false
   },
   {
    "id": 76,
@@ -39464,7 +39473,7 @@
     "provao-paulista",
     "enem"
    ],
-   "confirmar": true
+   "confirmar": false
   },
   {
    "id": 23118,
@@ -40148,7 +40157,7 @@
     "provao-paulista",
     "enem"
    ],
-   "confirmar": true
+   "confirmar": false
   },
   {
    "id": 665,
@@ -40212,7 +40221,7 @@
     "provao-paulista",
     "enem"
    ],
-   "confirmar": true
+   "confirmar": false
   },
   {
    "id": 56,
@@ -40828,10 +40837,10 @@
    "municipio": "Palmas",
    "mantenedora": "FUNDACAO UNIVERSIDADE DO TOCANTINS - UNITINS",
    "provas": [
-    "outras-estaduais",
+    "unitins",
     "enem"
    ],
-   "confirmar": true
+   "confirmar": false
   },
   {
    "id": 29118,
