@@ -7,7 +7,7 @@ import { colors, fonts, space, type } from '../../theme';
 
 const WEEKDAYS = ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'];
 
-// Ranking com amigos exige um servidor; por enquanto, a aba compara o aluno com ele mesmo.
+// Ranking pessoal: o aluno compara a própria evolução, sem servidor.
 export default function Ranking() {
   const { progress } = useApp();
   const today = dayKey(new Date());
@@ -60,13 +60,6 @@ export default function Ranking() {
           <Record icon="⭐" value={stars} label="Estrelas" />
         </View>
 
-        <View style={styles.note}>
-          <Text style={styles.noteTitle}>Ranking com amigos</Text>
-          <Text style={styles.muted}>
-            Comparar com outras pessoas precisa de um servidor para guardar a pontuação de todos. Por enquanto você
-            compete com você mesmo.
-          </Text>
-        </View>
       </ScrollView>
     </SafeAreaView>
   );
@@ -99,6 +92,4 @@ const styles = StyleSheet.create({
   record: { flexBasis: '47%', flexGrow: 1, flexDirection: 'row', alignItems: 'center', gap: space(3), padding: space(3), borderRadius: 16, borderWidth: 2, borderBottomWidth: 4, borderColor: colors.line },
   recordValue: { fontFamily: fonts.display, fontSize: type.body + 1, color: colors.ink },
   muted: { fontFamily: fonts.body, fontSize: type.small, color: colors.inkSoft, lineHeight: type.small * 1.4 },
-  note: { padding: space(4), borderRadius: 16, backgroundColor: colors.surface, gap: space(1) },
-  noteTitle: { fontFamily: fonts.displayMedium, fontSize: type.body, color: colors.ink },
 });
