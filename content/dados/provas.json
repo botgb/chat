@@ -1,0 +1,436 @@
+{
+ "fonte": "INEP, Censo da Educação Superior 2024 (microdados)",
+ "ano_censo": 2024,
+ "provas": [
+  {
+   "id": "enem",
+   "nome": "ENEM",
+   "organizadora": "INEP",
+   "tipo": "nacional",
+   "uf": null,
+   "confirmar": false,
+   "observacao": "Usado no SISU, Prouni, FIES e pela maioria das instituições.",
+   "instituicoes": 2558
+  },
+  {
+   "id": "provao-paulista",
+   "nome": "Provão Paulista Seriado",
+   "organizadora": "Governo de SP",
+   "tipo": "seriado",
+   "uf": "SP",
+   "confirmar": true,
+   "observacao": "Para alunos da rede pública paulista.",
+   "instituicoes": 77
+  },
+  {
+   "id": "fuvest",
+   "nome": "Fuvest",
+   "organizadora": "Fuvest",
+   "tipo": "vestibular",
+   "uf": "SP",
+   "confirmar": false,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "comvest",
+   "nome": "Vestibular Unicamp (Comvest)",
+   "organizadora": "Comvest",
+   "tipo": "vestibular",
+   "uf": "SP",
+   "confirmar": false,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "vunesp",
+   "nome": "Vunesp",
+   "organizadora": "Vunesp",
+   "tipo": "vestibular",
+   "uf": "SP",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 3
+  },
+  {
+   "id": "fatec",
+   "nome": "Vestibular Fatec",
+   "organizadora": "Centro Paula Souza",
+   "tipo": "vestibular",
+   "uf": "SP",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 73
+  },
+  {
+   "id": "uerj",
+   "nome": "Vestibular Estadual UERJ",
+   "organizadora": "UERJ",
+   "tipo": "vestibular",
+   "uf": "RJ",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 2
+  },
+  {
+   "id": "ufpr",
+   "nome": "Vestibular UFPR",
+   "organizadora": "NC-UFPR",
+   "tipo": "vestibular",
+   "uf": "PR",
+   "confirmar": false,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "ufsc",
+   "nome": "Vestibular UFSC",
+   "organizadora": "Coperve",
+   "tipo": "vestibular",
+   "uf": "SC",
+   "confirmar": false,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "ufrgs",
+   "nome": "Vestibular UFRGS",
+   "organizadora": "Coperse",
+   "tipo": "vestibular",
+   "uf": "RS",
+   "confirmar": false,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "udesc",
+   "nome": "Vestibular Udesc",
+   "organizadora": "Udesc",
+   "tipo": "vestibular",
+   "uf": "SC",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "uel",
+   "nome": "Vestibular UEL",
+   "organizadora": "Cops-UEL",
+   "tipo": "vestibular",
+   "uf": "PR",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "uem",
+   "nome": "Vestibular UEM",
+   "organizadora": "CVU-UEM",
+   "tipo": "vestibular",
+   "uf": "PR",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "uepg",
+   "nome": "Vestibular UEPG",
+   "organizadora": "UEPG",
+   "tipo": "vestibular",
+   "uf": "PR",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "unioeste",
+   "nome": "Vestibular Unioeste",
+   "organizadora": "Unioeste",
+   "tipo": "vestibular",
+   "uf": "PR",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "unicentro",
+   "nome": "Vestibular Unicentro",
+   "organizadora": "Unicentro",
+   "tipo": "vestibular",
+   "uf": "PR",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "uneb",
+   "nome": "Vestibular UNEB",
+   "organizadora": "UNEB",
+   "tipo": "vestibular",
+   "uf": "BA",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "uefs",
+   "nome": "Vestibular UEFS",
+   "organizadora": "UEFS",
+   "tipo": "vestibular",
+   "uf": "BA",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "uesb",
+   "nome": "Vestibular UESB",
+   "organizadora": "UESB",
+   "tipo": "vestibular",
+   "uf": "BA",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "uesc",
+   "nome": "Vestibular UESC",
+   "organizadora": "UESC",
+   "tipo": "vestibular",
+   "uf": "BA",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "uece",
+   "nome": "Vestibular UECE",
+   "organizadora": "CEV-UECE",
+   "tipo": "vestibular",
+   "uf": "CE",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "urca",
+   "nome": "Vestibular URCA",
+   "organizadora": "URCA",
+   "tipo": "vestibular",
+   "uf": "CE",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "uva-ce",
+   "nome": "Vestibular UVA",
+   "organizadora": "UVA",
+   "tipo": "vestibular",
+   "uf": "CE",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "uea",
+   "nome": "Vestibular UEA",
+   "organizadora": "UEA",
+   "tipo": "vestibular",
+   "uf": "AM",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "outras-estaduais",
+   "nome": "Vestibular próprio (estaduais diversas)",
+   "organizadora": "cada instituição",
+   "tipo": "vestibular",
+   "uf": null,
+   "confirmar": true,
+   "observacao": "Parte dessas instituições já seleciona só pelo ENEM.",
+   "instituicoes": 6
+  },
+  {
+   "id": "pas-unb",
+   "nome": "PAS-UnB",
+   "organizadora": "Cebraspe",
+   "tipo": "seriado",
+   "uf": "DF",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "ssa-upe",
+   "nome": "SSA (UPE)",
+   "organizadora": "UPE",
+   "tipo": "seriado",
+   "uf": "PE",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "psc-ufam",
+   "nome": "PSC (UFAM)",
+   "organizadora": "UFAM",
+   "tipo": "seriado",
+   "uf": "AM",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "sis-uea",
+   "nome": "SIS (UEA)",
+   "organizadora": "UEA",
+   "tipo": "seriado",
+   "uf": "AM",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "paes-uema",
+   "nome": "PAES (UEMA)",
+   "organizadora": "UEMA",
+   "tipo": "seriado",
+   "uf": "MA",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "paes-unimontes",
+   "nome": "PAES (Unimontes)",
+   "organizadora": "Unimontes",
+   "tipo": "seriado",
+   "uf": "MG",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "prise-uepa",
+   "nome": "Prise / Prosel (UEPA)",
+   "organizadora": "UEPA",
+   "tipo": "seriado",
+   "uf": "PA",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "ita",
+   "nome": "Vestibular ITA",
+   "organizadora": "ITA",
+   "tipo": "militar",
+   "uf": "SP",
+   "confirmar": false,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "ime",
+   "nome": "Vestibular IME",
+   "organizadora": "IME",
+   "tipo": "militar",
+   "uf": "RJ",
+   "confirmar": false,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "espcex",
+   "nome": "EsPCEx",
+   "organizadora": "Exército",
+   "tipo": "militar",
+   "uf": null,
+   "confirmar": false,
+   "observacao": "Prepara para a AMAN.",
+   "instituicoes": 1
+  },
+  {
+   "id": "fgv",
+   "nome": "Vestibular FGV",
+   "organizadora": "FGV",
+   "tipo": "particular",
+   "uf": null,
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 8
+  },
+  {
+   "id": "insper",
+   "nome": "Vestibular Insper",
+   "organizadora": "Insper",
+   "tipo": "particular",
+   "uf": "SP",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "mackenzie",
+   "nome": "Vestibular Mackenzie",
+   "organizadora": "Mackenzie",
+   "tipo": "particular",
+   "uf": null,
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 3
+  },
+  {
+   "id": "puc",
+   "nome": "Vestibular PUC",
+   "organizadora": "cada PUC",
+   "tipo": "particular",
+   "uf": null,
+   "confirmar": true,
+   "observacao": "Cada PUC tem o seu; várias também aceitam o ENEM.",
+   "instituicoes": 5
+  },
+  {
+   "id": "einstein",
+   "nome": "Vestibular Einstein",
+   "organizadora": "Einstein",
+   "tipo": "particular",
+   "uf": "SP",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "santa-casa",
+   "nome": "Vestibular Santa Casa SP",
+   "organizadora": "Santa Casa",
+   "tipo": "particular",
+   "uf": "SP",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "sao-camilo",
+   "nome": "Vestibular São Camilo",
+   "organizadora": "São Camilo",
+   "tipo": "particular",
+   "uf": "SP",
+   "confirmar": true,
+   "observacao": null,
+   "instituicoes": 1
+  },
+  {
+   "id": "proprio-particular",
+   "nome": "Vestibular próprio ou ENEM (particulares)",
+   "organizadora": "cada instituição",
+   "tipo": "particular",
+   "uf": null,
+   "confirmar": true,
+   "observacao": "Padrão para particulares sem informação específica.",
+   "instituicoes": 2224
+  }
+ ]
+}
