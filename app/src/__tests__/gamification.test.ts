@@ -16,6 +16,7 @@ import {
   XP_CORRECT,
   XP_IN_TIME_BONUS,
 } from '../lib/gamification';
+import { pickPromo, PROMOS } from '../components/PromoPlayer';
 import { buildLesson, buildTrail, filterQuestions } from '../lib/lesson';
 import { buildMap, buildPath, recordLevel, starsFor } from '../lib/levels';
 import { CHEST_ID, CHEST_REWARD, claim, dailyMissions, missionStatus } from '../lib/missions';
@@ -250,5 +251,17 @@ describe('configurações', () => {
     expect(s.vibration).toBe(defaultSettings().vibration);
     expect(s.profile).toEqual({ ...defaultSettings().profile, nome: 'Ana' });
     expect(s.notifications).toEqual(defaultSettings().notifications);
+  });
+});
+
+describe('vídeos do Plus', () => {
+  it('tem 6 vídeos e nunca repete o anterior', () => {
+    expect(PROMOS).toHaveLength(6);
+    let last = pickPromo(() => 0).id;
+    for (let i = 0; i < 50; i++) {
+      const next = pickPromo(Math.random).id;
+      expect(next).not.toBe(last);
+      last = next;
+    }
   });
 });

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160" width="120" height="160">
+<rect x="40" y="148" width="20" height="9" rx="4.5" fill="#DDE1EC"/><rect x="40" y="154" width="20" height="3" rx="1.5" fill="#8E95AB"/>
+<rect x="62" y="148" width="20" height="9" rx="4.5" fill="#DDE1EC"/><rect x="62" y="154" width="20" height="3" rx="1.5" fill="#8E95AB"/>
+<rect x="45" y="122" width="13" height="30" rx="5" fill="#5A4A3A"/><rect x="63" y="122" width="13" height="30" rx="5" fill="#5A4A3A"/>
+<rect x="26" y="88" width="13" height="38" rx="6.5" fill="#2B2D42" transform="rotate(8 32 90)"/>
+<rect x="81" y="88" width="13" height="38" rx="6.5" fill="#2B2D42" transform="rotate(-8 88 90)"/>
+<circle cx="30" cy="127" r="6.5" fill="#3DAA5C"/><circle cx="90" cy="127" r="6.5" fill="#3DAA5C"/>
+<rect x="34" y="82" width="52" height="50" rx="15" fill="#1C1D28"/>
+<rect x="34" y="82" width="52" height="46" rx="15" fill="#2B2D42"/>
+<rect x="48" y="80" width="24" height="10" rx="5" fill="#1C1D28"/>
+<path d="M30 58 Q30 34 60 34 Q90 34 90 58 Q90 82 60 84 Q30 82 30 58 Z" fill="#3DAA5C"/>
+<ellipse cx="60" cy="70" rx="20" ry="11" fill="#9AD9AC"/>
+<circle cx="44" cy="40" r="11" fill="#3DAA5C"/><circle cx="76" cy="40" r="11" fill="#3DAA5C"/>
+<ellipse cx="44" cy="41" rx="6.4" ry="5.6" fill="#FFFFFF"/><circle cx="44.6" cy="41.8" r="4.0" fill="#22242F"/><path d="M36.6 34.4 H51.4 V40.2 Q44 37.9 36.6 40.2 Z" fill="#3DAA5C"/><ellipse cx="76" cy="41" rx="6.4" ry="5.6" fill="#FFFFFF"/><circle cx="76.6" cy="41.8" r="4.0" fill="#22242F"/><path d="M68.6 34.4 H83.4 V40.2 Q76 37.9 68.6 40.2 Z" fill="#3DAA5C"/>
+<path d="M38 32 Q38 14 60 14 Q82 14 82 32 Q60 26 38 32 Z" fill="#E0A21F"/>
+<rect x="36" y="28" width="48" height="8" rx="4" fill="#C98A10"/><circle cx="60" cy="12" r="4.5" fill="#E0A21F"/>
+<circle cx="56" cy="55" r="1.8" fill="#2A8A45"/><circle cx="64" cy="55" r="1.8" fill="#2A8A45"/>
+<path d="M50 62 H70" stroke="#22242F" stroke-width="2.6" stroke-linecap="round"/>
+<g transform="rotate(-35 92 118)"><rect x="89" y="96" width="6" height="28" rx="2" fill="#F4F5F9"/>
+<rect x="89" y="96" width="6" height="7" rx="2" fill="#2F6FE8"/><polygon points="89,124 95,124 92,131" fill="#22242F"/></g></svg>

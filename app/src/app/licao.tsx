@@ -3,6 +3,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { Animated, Pressable, ScrollView, ScrollViewInstance, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Button } from '../components/Button';
+import { PromoPlayer } from '../components/PromoPlayer';
 import { Sheet } from '../components/Sheet';
 import { QuestionView } from '../components/QuestionView';
 import { Timer, useCountdown } from '../components/Timer';
@@ -10,6 +11,7 @@ import { Art } from '../illustrations/Art';
 import { currentHearts, dayKey, HEART_REFILL_COST, XP_LESSON_COMPLETE } from '../lib/gamification';
 import { buildLesson, filterQuestions, LessonMode } from '../lib/lesson';
 import { Question } from '../lib/types';
+import { hasPlus } from '../lib/plus';
 import { feedback, TEXT_SCALE, TEXT_SIZES } from '../lib/settings';
 import { useApp } from '../state/AppState';
 import { Colors, fonts, space, type } from '../theme';
@@ -76,6 +78,7 @@ export default function Licao() {
   const [results, setResults] = useState<{ correct: boolean; xp: number }[]>([]);
   const [finished, setFinished] = useState<{ stars: number } | null>(null);
   const [confirmExit, setConfirmExit] = useState(false);
+  const [promo, setPromo] = useState(false);
   const scroll = useRef<ScrollViewInstance>(null);
 
   const question = lesson[index];
@@ -148,7 +151,8 @@ export default function Licao() {
                 : 'As erradas voltam amanhã para revisão.'
               : 'Acerte pelo menos 3 de 5 para liberar a próxima fase.'}
           </Text>
-          <Button label="Continuar" variant="success" onPress={() => router.back()} />
+          <Button label="Continuar" variant="success" onPress={() => (hasPlus() ? router.back() : setPromo(true))} />
+          <PromoPlayer visible={promo} onClose={() => router.back()} onCta={() => router.replace('/assinatura')} />
         </View>
       </SafeAreaView>
     );
