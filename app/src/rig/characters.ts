@@ -170,7 +170,7 @@ export const CHARACTERS: Character[] = [
     behind: `<circle cx="60" cy="98" r="40" fill="#A86E38"/><circle cx="60" cy="98" r="36" fill="#C98A4E"/><path d="M60 98 m-6 0 a6 6 0 1 1 12 0 a12 12 0 1 1 -24 0 a18 18 0 1 1 36 0 a24 24 0 1 1 -48 0" fill="none" stroke="#A86E38" stroke-width="3"/>`,
     print: `<path d="M50 82 L60 96 L70 82 Z" fill="${W}"/><path d="M58 88 L62 88 L63 102 L60 106 L57 102 Z" fill="#D93030"/>`,
     head: `<path d="M52 42 L46 16 M68 42 L74 16" stroke="#B8D86B" stroke-width="6" stroke-linecap="round"/><circle cx="46" cy="15" r="8" fill="#B8D86B"/><circle cx="74" cy="15" r="8" fill="#B8D86B"/><ellipse cx="60" cy="58" rx="23" ry="21" fill="#B8D86B"/>`,
-    face: `<ellipse cx="48" cy="62" rx="4" ry="2.4" fill="#F2A0B5" opacity="0.6"/><ellipse cx="72" cy="62" rx="4" ry="2.4" fill="#F2A0B5" opacity="0.6"/>`,
+    face: `<ellipse cx="48" cy="62" rx="4" ry="2.4" fill="#F2A0B5" opacity="0.6" stroke="none"/><ellipse cx="72" cy="62" rx="4" ry="2.4" fill="#F2A0B5" opacity="0.6" stroke="none"/>`,
     eyes: { l: [46, 15], r: [74, 15], w: 6, h: 6 },
     mouth: { x: 61, y: 66 },
     prop: { hand: 'R', svg: `<g transform="translate(2 -10)"><path d="M-8 -6 H8 V0 Q8 8 0 8 Q-8 8 -8 0 Z" fill="${W}"/><path d="M8 -4 Q14 -3 11 3 Q9 4 8 2" fill="none" stroke="${W}" stroke-width="2"/><ellipse cx="0" cy="9" rx="11" ry="2.5" fill="${W}"/><path d="M-3 -10 Q-1 -14 -3 -18 M3 -10 Q5 -14 3 -18" fill="none" stroke="${W}" stroke-width="1.5" opacity="0.7"/></g>` },

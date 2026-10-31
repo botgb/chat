@@ -30,6 +30,19 @@ para a frente.
 - **Membros segmentados**: braço e antebraço (ombro e cotovelo), coxa e canela (quadril e
   joelho), cada um girando de forma independente; o objeto segue a mão sem girar.
 
+## Estilo do traço (técnicas da skill animation-studio)
+- **Contorno de tinta** (#2A2320) em todas as peças: mais grosso no corpo, mais fino no rosto.
+- **Hachura** diagonal clara nas roupas e calças, como lápis sobre papel.
+- **Traço "fervendo"**: cada camada (pernas, braços, tronco, cabeça) tem 3 variações com um
+  desvio mínimo, trocadas a cada 2 quadros, o que dá vida mesmo com o boneco parado.
+- **Sombra no chão**, que encolhe quando o boneco estica ou pula.
+- **Estica e achata** a partir dos pés (`sx`, `sy`): agachar antes de pular (antecipação),
+  esticar no ar, achatar ao cair e assentar.
+- **Mãos por alvo** (`handLTarget`, `handRTarget`): cinemática inversa calcula ombro e
+  cotovelo, sempre com o cotovelo para fora do corpo.
+- Desenho de trás para a frente: casco, pernas, braço de longe, tronco, braço da frente,
+  pescoço, cabeça, rosto, objeto.
+
 ## Animação a 24 quadros por segundo
 - O motor dos vídeos roda a 24 fps.
 - **Sincronia labial**: cada fala vira uma sequência de bocas pelo texto (vogais, M/B/P,

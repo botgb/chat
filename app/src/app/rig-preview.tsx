@@ -16,12 +16,21 @@ const VIEWS: [string, Partial<Pose>][] = [
   ['perfil esq.', { view: 'perfil', facing: -1 }],
 ];
 const GESTOS: [string, Partial<Pose>][] = [
-  ['tchau', { armR: [150, 20], handR: 'tchau', mouth: 'sorriso', eyes: 'feliz', prop: false }],
-  ['aponta', { armR: [80, 10], handR: 'aponta', eyes: 'semicerrado', mouth: 'repouso', prop: false }],
-  ['joinha', { armR: [30, 100], handR: 'joinha', mouth: 'sorrisao', prop: false }],
+  ['tchau', { handRTarget: [104, 56], handR: 'tchau', mouth: 'sorriso', eyes: 'feliz', prop: false }],
+  ['aponta', { handRTarget: [124, 92], handR: 'aponta', eyes: 'semicerrado', mouth: 'repouso', prop: false }],
+  ['joinha', { handRTarget: [96, 84], handR: 'joinha', mouth: 'sorrisao', prop: false }],
+  ['pensando', { handRTarget: [70, 80], armRFront: true, handR: 'punho', eyes: 'olhaDireita', mouth: 'MBP', prop: false }],
+  ['mãos na cintura', { handLTarget: [36, 116], handRTarget: [84, 116], armL: [0, 0], eyes: 'semicerrado', mouth: 'repouso', prop: false }],
   ['bravo', { armL: [30, 110], armR: [30, 110], handL: 'punho', handR: 'punho', eyes: 'raiva', mouth: 'grito' }],
   ['chorando', { eyes: 'choro', mouth: 'triste', armL: [4, 0], armR: [4, 0] }],
   ['andando', { view: 'perfil', legL: [25, -10], legR: [-25, 30], armL: [-25, 0], armR: [25, 0] }],
+];
+
+const PULO: [string, Partial<Pose>][] = [
+  ['agacha', { sx: 1.12, sy: 0.86, legL: [-10, 30], legR: [-10, 30], eyes: 'semicerrado', mouth: 'MBP' }],
+  ['estica', { sx: 0.9, sy: 1.14, handLTarget: [20, 60], handRTarget: [100, 60], eyes: 'arregalado', mouth: 'O' }],
+  ['cai', { sx: 1.16, sy: 0.84, eyes: 'fechado', mouth: 'grito' }],
+  ['assenta', { sx: 0.97, sy: 1.03, eyes: 'feliz', mouth: 'sorriso' }],
 ];
 
 export default function RigPreview() {
@@ -36,7 +45,9 @@ export default function RigPreview() {
         <Section title={`Olhos (${EYE_NAMES.length})`} items={EYE_NAMES.map((e) => [e, { eyes: e }])} id={one.id} size={84} face />
         <Section title={`Bocas (${MOUTH_NAMES.length})`} items={MOUTH_NAMES.map((m) => [m, { mouth: m }])} id={one.id} size={84} face />
         <Section title={`Mãos (${HAND_NAMES.length})`} items={HAND_NAMES.map((h) => [h, { handR: h, armR: [40, 50], prop: false }])} id={one.id} size={96} />
-        <Section title="Gestos" items={GESTOS} id={one.id} />
+        <Section title="Gestos (mãos por alvo, cotovelo para fora)" items={GESTOS} id={one.id} />
+        <Section title="Pulo: antecipação, esticar, cair, assentar" items={PULO} id={one.id} />
+        <Section title="Traço fervendo (3 variações, trocadas a cada 2 quadros)" items={[0, 1, 2].map((b) => [`variação ${b + 1}`, { boil: b }])} id={one.id} face size={96} />
       </ScrollView>
     );
   }
