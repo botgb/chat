@@ -50,5 +50,6 @@ export type ExamPack = {
   title: string;
   year: number;
   version: number;
+  source?: string; // crédito exibido ao aluno, ex.: "Questões: INEP, ENEM 2023"
   questions: Question[];
 };

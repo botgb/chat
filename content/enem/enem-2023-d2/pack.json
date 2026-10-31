@@ -1,0 +1,1530 @@
+{
+ "id": "enem-2023-d2",
+ "vestibular": "enem",
+ "title": "ENEM 2023, dia 2",
+ "year": 2023,
+ "version": 1,
+ "source": "Questões: INEP, ENEM 2023. Transcrição: ENEM API (enem.dev).",
+ "questions": [
+  {
+   "id": "enem-2023-q91",
+   "number": 91,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O número de abelhas encontra-se em declínio em várias regiões do mundo, inclusive no Brasil, sendo que vários fatores contribuem para o colapso de suas colmeias. Nos Estados Unidos, bombas de sementes de espécies vegetais nativas têm sido utilizadas para combater o desaparecimento desses insetos. Elas são pequenas bolinhas recheadas com sementes, adubo e argila. Quando são arremessadas e ficam expostas ao sol e à chuva, germinam até mesmo em solo pouco fértil."
+    },
+    {
+     "type": "text",
+     "text": "DARAYA, V. Disponível em: http://planetasustentavel.abril.com.br.\nAcesso em: 2 fev. 2015 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Esse método contribui para a preservação das abelhas porque"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Reduz sua predação"
+    },
+    {
+     "letter": "B",
+     "text": "Reduz o uso de pesticidas."
+    },
+    {
+     "letter": "C",
+     "text": "Reduz a competição por abrigo."
+    },
+    {
+     "letter": "D",
+     "text": "Aumenta a oferta de alimento"
+    },
+    {
+     "letter": "E",
+     "text": "Aumenta os locais de reprodução"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2023-q92",
+   "number": 92,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Os mais antigos cozinhavam o feijão na panela de ferro a fim de acabar com a palidez de seus filhos. Alguns chegavam até a colocar um prego enferrujado nesse cozimento para liberar o ferro contido nele. Sabe-se que esse elemento pode ser encontrado na sua forma metálica ou iônica, sendo essencial para a manutenção da vida humana."
+    },
+    {
+     "type": "text",
+     "text": "As estratégias citadas eram utilizadas com o objetivo de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Tratar a diarreia."
+    },
+    {
+     "letter": "B",
+     "text": "Prevenir a anemia."
+    },
+    {
+     "letter": "C",
+     "text": "Evitar as verminoses."
+    },
+    {
+     "letter": "D",
+     "text": "Remediar o raquitismo"
+    },
+    {
+     "letter": "E",
+     "text": "Combater a febre amarela."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2023-q93",
+   "number": 93,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A utilização de tecnologia nuclear é um tema bastante controverso, por causa do risco de acidentes graves, como aqueles ocorridos em Chernobyl (1986), em Goiânia (1987) e em Fukushima (2011). Apesar de muitas desvantagens, como a geração de resíduos tóxicos, a descontaminação ambiental dispendiosa em caso de acidentes e a utilização em armas nucleares, a geração de energia nuclear apresenta vantagens em comparação a outras fontes de energia.\nA geração dessa energia tem como característica:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Formar resíduos facilmente recicláveis."
+    },
+    {
+     "letter": "B",
+     "text": "Promover o aumento do desmatamento."
+    },
+    {
+     "letter": "C",
+     "text": "Contribuir para a produção de chuva ácida."
+    },
+    {
+     "letter": "D",
+     "text": "Emitir gases tóxicos que são lançados no ambiente."
+    },
+    {
+     "letter": "E",
+     "text": "Produzir calor sem o consumo de combustíveis fósseis."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2023-q95",
+   "number": 95,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "As aves apresentam dois tipos de músculos em seus corpos: vermelhos e brancos. Aves migratórias como garças, gansos e patos selvagens têm os músculos vermelhos bem desenvolvidos, com ampla rede de vasos sanguíneos.\nNas viagens por grandes distâncias, tais músculos são fundamentais, pois favorecem o(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Execução de manobras."
+    },
+    {
+     "letter": "B",
+     "text": "Metabolismo corpóreo elevado."
+    },
+    {
+     "letter": "C",
+     "text": "Manutenção da aerodinâmica."
+    },
+    {
+     "letter": "D",
+     "text": "Deslocamento a grandes velocidades."
+    },
+    {
+     "letter": "E",
+     "text": "Capacidade de voo em grandes altitudes."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2023-q96",
+   "number": 96,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Existe no comércio um produto antimofo constituído por uma embalagem com tampa perfurada contendo cloreto de cálcio anidro, CaCI,. Uma vez aberto o lacre, essa substância absorve a umidade ambiente, transformando-se em cloreto de cálcio di-hidratado, CaCI, 2H,0. Considere a massa molar da água igual a 18 g mol-1, e a massa molar do cloreto de cálcio anidro igual a 111 g mol-1.\nNa hidratação da substância presente no antimofo, o ganho percentual, em massa, é mais próximo de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "14%"
+    },
+    {
+     "letter": "B",
+     "text": "16%"
+    },
+    {
+     "letter": "C",
+     "text": "24%"
+    },
+    {
+     "letter": "D",
+     "text": "32%"
+    },
+    {
+     "letter": "E",
+     "text": "75%"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2023-q97",
+   "number": 97,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um garoto comprou vários abacates na feira, mas descobriu que eles não estavam maduros o suficiente para serem consumidos. Sua mãe recomendou que ele colocasse os abacates em um recipiente fechado, pois isso aceleraria seu amadurecimento. Com certa dúvida, o garoto realizou esta experiência: colocou alguns abacates no recipiente e deixou os demais em uma fruteira aberta. Surpreendendo-se, ele percebeu que os frutos que estavam no recipiente fechado amadureceram mais rapidamente.\nA aceleração desse processo é causada por"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Acúmulo de gás etileno."
+    },
+    {
+     "letter": "B",
+     "text": "Redução da umidade do ar."
+    },
+    {
+     "letter": "C",
+     "text": "Aumento na concentração de CO2."
+    },
+    {
+     "letter": "D",
+     "text": "Diminuição da intensidade luminosa."
+    },
+    {
+     "letter": "E",
+     "text": "Isolamento do contato com O2 atmosférico."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2023-q98",
+   "number": 98,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Há muito tempo são conhecidas espécies de lesmas-do-mar com uma capacidade impar: guardar parte da maquinaria das células das algas que consomem — os cloroplastos — e mantê-los funcionais dentro das suas próprias células, obtendo assim parte do seu alimento. Investigadores portugueses descobriram que essas lesmas-do-mar podem ser mais eficientes nesse processo do que as próprias algas que consomem."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.cienciahoje.pt. Acesso em: 10 fev. 2015 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Essa adaptação confere a esse organismo a capacidade de obter primariamente"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Ácidos necleicos."
+    },
+    {
+     "letter": "B",
+     "text": "Carboidratos."
+    },
+    {
+     "letter": "C",
+     "text": "Proteínas."
+    },
+    {
+     "letter": "D",
+     "text": "Vitaminas."
+    },
+    {
+     "letter": "E",
+     "text": "Lipídios."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2023-q99",
+   "number": 99,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A leishmaniose visceral é uma zoonose causada por um protozoário do gênero Leishmania que é encontrado em diversos tecidos. Ela é transmitida ao homem de forma indireta, por vetores do ambiente doméstico. O cão é considerado um importante hospedeiro desse protozoário, podendo ou não apresentar os sintomas da doença, como perda de peso, anemia, ferimentos na pele, diarreia, conjuntivite e insuficiência renal. Em uma região que sofre com alta incidência dessa doença, uma campanha do centro de zoonoses buscou verificar a presença desse protozoário nos cães para tentar controlar a doença."
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Urina."
+    },
+    {
+     "letter": "B",
+     "text": "Saliva."
+    },
+    {
+     "letter": "C",
+     "text": "Fezes."
+    },
+    {
+     "letter": "D",
+     "text": "Sangue."
+    },
+    {
+     "letter": "E",
+     "text": "Secreção ocular."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2023-q101",
+   "number": 101,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Muitas mulheres sofrem com desconfortos nos dias que antecedem a menstruação, a chamada tensão pré-menstrual. Entre outros sintomas, podem ocorrer alterações de humor. Atualmente, acredita-se que os sintomas são resultado da queda na concentração do neurotransmissor serotonina, que, por sua vez, está relacionado com a diminuição na produção dos hormônios ovarianos estrógeno e progesterona, observada nessa fase do ciclo feminino.\nDIMMOCK, P. W. et al. Efficacy of Selective Serotonin-Reuptake Inhibitors in Premenstrual Syndrome: a Systematic Review. The Lancet, n. 9 236, 2000 (adaptado).\nA redução da produção desses hormônios nessa fase está relacionada com o(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Regressão do corpo lúteo ovariano."
+    },
+    {
+     "letter": "B",
+     "text": "Diminuição na produção de ocitocina."
+    },
+    {
+     "letter": "C",
+     "text": "Liberação do gameta feminino na ovulação."
+    },
+    {
+     "letter": "D",
+     "text": "Aumento nos níveis dos hormônios LH e FSH."
+    },
+    {
+     "letter": "E",
+     "text": "Elevação nos níveis sorológicos de adrenalina."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2023-q102",
+   "number": 102,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "As cetonas fazem parte de famílias olfativas encontradas em muitos alimentos. A molécula de hexan-3-ona é um exemplo desses compostos voláteis responsáveis pelo aroma, podendo ser obtida por processos energéticos realizados em meio ácido, na presença de oxidantes como o permanganato de potássio. Para se produzir esse composto volátil em laboratório, deve-se oxidar a molécula de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Hexanal."
+    },
+    {
+     "letter": "B",
+     "text": "Hexan-1-ol."
+    },
+    {
+     "letter": "C",
+     "text": "Hexan-3-ol."
+    },
+    {
+     "letter": "D",
+     "text": "Hex-1-en-1-ol."
+    },
+    {
+     "letter": "E",
+     "text": "Ácido hexanoico."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2023-q103",
+   "number": 103,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Durante a evolução das plantas, ocorreu uma transição do ambiente aquático para o ambiente terrestre graças ao surgimento de algumas estruturas que as tornaram independentes da água. Esse fato permitiu maior dispersão desse grupo de seres vivos, sendo possível observá-los em diferentes ambientes na atualidade.\nQual estrutura possibilitou a independência da água para a fecundação dos seres vivos citados acima?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Fruto."
+    },
+    {
+     "letter": "B",
+     "text": "Esporo."
+    },
+    {
+     "letter": "C",
+     "text": "Semente."
+    },
+    {
+     "letter": "D",
+     "text": "Tubo polínico."
+    },
+    {
+     "letter": "E",
+     "text": "Vaso condutor."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2023-q104",
+   "number": 104,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O vidro contendo alumínio em sua composição é um excelente material para acondicionar medicamentos e suplementos, porque pode ser esterilizado por aquecimento. No entanto, quando o medicamento ou suplemento contém substâncias que se ligam fortemente ao íon desse metal, a dissolução do alumínio é promovida em função do deslocamento do equilíbrio químico estabelecido entre a espécie imobilizada no vidro e a espécie em solução. Por essa razão, recomenda-se que suplementos de nutrição de recém-nascidos contendo gluconato de cálcio sejam acondicionados em embalagens plásticas, e não nesse tipo de vidro."
+    },
+    {
+     "type": "text",
+     "text": "Atualização da recomendação da Sociedade Portuguesa de Neonatologia.\nDisponível em: www.spneonatologia.pt. Acesso em: 22 out. 2021 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Caso esse suplemento seja acondicionado em embalagem desse tipo de vidro, o risco de contaminação por alumínio será maior se o(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Vidro do frasco for translúcido."
+    },
+    {
+     "letter": "B",
+     "text": "Concentração de gluconato de cálcio for alta."
+    },
+    {
+     "letter": "C",
+     "text": "Frasco de vidro apresentar uma maior espessura."
+    },
+    {
+     "letter": "D",
+     "text": "Vidro for previamente esterilizado em altas temperaturas."
+    },
+    {
+     "letter": "E",
+     "text": "Reação do alumínio com gluconato de cálcio for endotérmica."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2023-q105",
+   "number": 105,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Barbatimão é o nome popular de uma árvore cuja casca e utilizada para fins medicinais. Essa casca é constituída principalmente de dois tecidos vegetais: periderme e floema. A extração da casca tem levado à morte muitos indivíduos dessa espécie, quando o corte retira um anel completo ao longo da circunferência do tronco. Aqueles que têm parte da casca retirada sem completar essa circunferência podem sobreviver."
+    },
+    {
+     "type": "text",
+     "text": "A morte desses indivíduos, decorrente da retirada do anel completo da casca, é provocada pela interrupção da"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Fotossíntese."
+    },
+    {
+     "letter": "B",
+     "text": "Transpiração."
+    },
+    {
+     "letter": "C",
+     "text": "Troca de gases."
+    },
+    {
+     "letter": "D",
+     "text": "Formação de brotos."
+    },
+    {
+     "letter": "E",
+     "text": "Nutrição das raízes."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2023-q106",
+   "number": 106,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A tecnologia de vacinas de RNA mensageiro (RNAm) é investigada há anos. Avanços científicos em genética molecular permitiram desenvolver uma vacina para controle da pandemia da covid-19 causada pelo vírus de RNA SARS-CoV-2. A vacina de RNAm tem sequências de genes do vírus. Entretanto, por ser muito instável, o RNAm deve ser recoberto por uma capa de lipídios que evita sua degradação e favorece sua ação. Dessa forma, o RNAm desempenhará sua função especifica atuando no mesmo compartimento celular de sempre."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: https://sbim.org.br. Acesso em: 29 nov. 2021 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A imunização produzida por esse tipo de vacina é alcançada por meio da"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Estimulação de leucócitos induzida pela capa lipídica contendo RNAm."
+    },
+    {
+     "letter": "B",
+     "text": "Atuação do RNAm como sequestrador do vírus para o meio extracelular."
+    },
+    {
+     "letter": "C",
+     "text": "Tradução do RNAm em proteína viral, desencadeando a resposta antigênica."
+    },
+    {
+     "letter": "D",
+     "text": "Competição entre o RNAm vacinal e o RNA viral pelos sítios dos ribossomos."
+    },
+    {
+     "letter": "E",
+     "text": "Incorporação do RNAm viral ao genoma do hospedeiro. gerando novo fenótipo."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2023-q107",
+   "number": 107,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Na fertilização in vitro, espermatozoides são adicionados aos gametas femininos retirados de uma mulher. Após o período de incubação, a fecundação é favorecida pela ação de enzimas. Em um procedimento realizado, observou-se que nenhum dos gametas femininos foi fertilizado e, posteriormente, verificou-se que havia sido adicionado, equivocadamente, um coquetel de inibidores das enzimas do acrossomo, no lugar de um dos nutrientes constituintes do meio de cultura."
+    },
+    {
+     "type": "text",
+     "text": "O coquetel de inibidores impediu o(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Formação do pronúcleo masculino."
+    },
+    {
+     "letter": "B",
+     "text": "Início da divisão mitótica do zigoto."
+    },
+    {
+     "letter": "C",
+     "text": "Término da segunda divisão meiótica do ovócito."
+    },
+    {
+     "letter": "D",
+     "text": "Passagem do espermatozoide pela corona radiata e zona pelúcida."
+    },
+    {
+     "letter": "E",
+     "text": "Fusão das membranas plasmáticas do ovócito e do espermatozoide."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2023-q108",
+   "number": 108,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O fogão por indução funciona a partir do surgimento de uma corrente elétrica induzida no fundo da panela, com consequente transformação de energia elétrica em calor por efeito Joule. A principal vantagem desses fogões é a eficiência energética, que é substancialmente maior que a dos fogões convencionais.\nA corrente elétrica mencionada é induzida por"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Radiação."
+    },
+    {
+     "letter": "B",
+     "text": "Condução."
+    },
+    {
+     "letter": "C",
+     "text": "Campo elétrico variável."
+    },
+    {
+     "letter": "D",
+     "text": "Campo magnético variável."
+    },
+    {
+     "letter": "E",
+     "text": "Ressonância eletromagnética."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2023-q112",
+   "number": 112,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Informações digitais — dados — são gravadas em discos ópticos, como CD e DVD, na forma de cavidades microscópicas. A gravação e a leitura óptica dessas informações são realizadas por um laser (fonte de luz monocromática). Quanto menores as dimensões dessas cavidades, mais dados são armazenados na mesma área do disco. O fator limitante para a leitura de dados é o espalhamento da luz pelo efeito de difração, fenômeno que ocorre quando a luz atravessa um obstáculo com dimensões da ordem de seu comprimento de onda. Essa limitação motivou o desenvolvimento de lasers com emissão em menores comprimentos de onda, possibilitando armazenar e ler dados em cavidades cada vez menores.\nEm qual região espectral se situa o comprimento de onda do laser que otimiza o armazenamento e a leitura de dados em discos de uma mesma área?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Violeta."
+    },
+    {
+     "letter": "B",
+     "text": "Azul."
+    },
+    {
+     "letter": "C",
+     "text": "Verde."
+    },
+    {
+     "letter": "D",
+     "text": "Vermelho."
+    },
+    {
+     "letter": "E",
+     "text": "Infravermelho."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2023-q115",
+   "number": 115,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A biorremediação designa tratamentos que usam organismos para reduzir a quantidade de substâncias tóxicas no ambiente ou degradá-las em substâncias não tóxicas ou de menor toxicidade. Uma planta aquática, o aguapé, tem sido utilizada para a biorremediação de ambientes contaminados por metais tóxicos. Sabe-se que esses poluentes serão captados para dentro do corpo do vegetal.\nDentro do corpo do vegetal, esses contaminantes serão"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Digeridos por enzimas."
+    },
+    {
+     "letter": "B",
+     "text": "Acumulados nos tecidos."
+    },
+    {
+     "letter": "C",
+     "text": "Eliminados pelos estômatos."
+    },
+    {
+     "letter": "D",
+     "text": "Metabolizados por glândulas."
+    },
+    {
+     "letter": "E",
+     "text": "Utilizados como fonte energética."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2023-q117",
+   "number": 117,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Os raios cósmicos são fontes de radiação ionizante potencialmente perigosas para o organismo humano. Para quantificar a dose de radiação recebida, utiliza-se o sievert (Sv), definido como a unidade de energia recebida por unidade de massa. A exposição à radiação proveniente de raios cósmicos aumenta com a altitude, o que pode representar um problema para as tripulações de aeronaves. Recentemente, foram realizadas medições acuradas das doses de radiação ionizante para voos entre Rio de Janeiro e Roma.\nOs resultados têm indicado que a dose média de radiação recebida na fase de cruzeiro (que geralmente representa 80% do tempo total de voo) desse trecho intercontinental é 2 μSv/h. As normas internacionais da aviação civil limitam em 1 000 horas por ano o tempo de trabalho para as tripulações que atuem em voos intercontinentais. Considere que a dose de radiação ionizante para uma radiografia torácica é estimada em 0,2 mSv.\nRUAS, A. C. O tripulante de aeronaves e a radiação ionizante. São Paulo: Edição do Autor, 2019 (adaptado).\n \nA quantas radiografias torácicas corresponde a dose de radiação ionizante à qual um tripulante que atue no trecho Rio de Janeiro−Roma é exposto ao longo de um ano?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "8"
+    },
+    {
+     "letter": "B",
+     "text": "10"
+    },
+    {
+     "letter": "C",
+     "text": "80"
+    },
+    {
+     "letter": "D",
+     "text": "100"
+    },
+    {
+     "letter": "E",
+     "text": "1000"
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2023-q122",
+   "number": 122,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em uma indústria alimentícia, para produção de doce de leite, utiliza-se um tacho de parede oca com uma entrada para vapor de água a 120 °C e uma saída para água líquida em equilíbrio com o vapor a 100 °C. Ao passar pela parte oca do tacho, o vapor de água transforma-se em líquido, liberando energia. A parede transfere essa energia para o interior do tacho, resultando na evaporação de água e consequente concentração do produto.\nNo processo de concentração do produto, é utilizada energia proveniente"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Somente do calor latente de vaporização."
+    },
+    {
+     "letter": "B",
+     "text": "Somente do calor latente de condensação."
+    },
+    {
+     "letter": "C",
+     "text": "Do calor sensível e do calor latente de vaporização."
+    },
+    {
+     "letter": "D",
+     "text": "Do calor sensível e do calor latente de condensação."
+    },
+    {
+     "letter": "E",
+     "text": "Do calor latente de condensação e do calor latente de vaporização."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2023-q124",
+   "number": 124,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Uma concessionária é responsável por um trecho de 480 quilômetros de uma rodovia. Nesse trecho, foram construídas 10 praças de pedágio, onde funcionários recebem os pagamentos nas cabines de cobrança. Também existe o serviço automático, em que os veículos providos de um dispositivo passam por uma cancela, que se abre automaticamente, evitando filas e diminuindo o tempo de viagem. Segundo a concessionária, o tempo médio para efetuar a passagem em uma cabine é de 3 minutos, e as velocidades máximas permitidas na rodovia são 100 km/h, para veículos leves, e 80 km/h, para veículos de grande porte.\nConsidere um carro e um caminhão viajando, ambos com velocidades constantes e iguais às máximas permitidas, e que somente o caminhão tenha o serviço automático de cobrança. Comparado ao caminhão, quantos minutos a menos o carro leva para percorrer toda a rodovia?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "30"
+    },
+    {
+     "letter": "B",
+     "text": "42"
+    },
+    {
+     "letter": "C",
+     "text": "72"
+    },
+    {
+     "letter": "D",
+     "text": "288"
+    },
+    {
+     "letter": "E",
+     "text": "360"
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2023-q125",
+   "number": 125,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Pais com síndrome de Down"
+    },
+    {
+     "type": "text",
+     "text": "A síndrome de Down é uma alteração genética associada à trissomia do cromossomo 21, ou seja, o indivíduo possui três cromossomos 21 e não um par, como é normal. Isso ocorre pela união de um gameta contendo um cromossomo 21 com um gameta possuidor de dois cromossomos 21. Embora, normalmente, as mulheres com a síndrome sejam estéreis, em 2008, no interior de São Paulo, uma delas deu à luz uma menina sem a síndrome de Down"
+    },
+    {
+     "type": "text",
+     "text": "MORENO, T. Três anos após dar à luz, mãe portadora de síndrome de Down revela detalhes de seu dia a dia. Disponível em: www.band.uol.com.br. Acesso em: 31 out. 2013 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Sabendo disso, um jovem casal, ambos com essa síndrome, procura um médico especialista para aconselhamento genético porque querem ter um bebê.\nO médico informa ao casal que, com relação ao cromossomo 21, os zigotos formados serão"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Todos normais."
+    },
+    {
+     "letter": "B",
+     "text": "Todos tetrassômicos."
+    },
+    {
+     "letter": "C",
+     "text": "Apenas normais ou tetrassômicos"
+    },
+    {
+     "letter": "D",
+     "text": "Apenas trissômicos ou tetrassômicos"
+    },
+    {
+     "letter": "E",
+     "text": "Normais, trissômicos ou tetrassômicos."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2023-q128",
+   "number": 128,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "É comum em viagens de avião sermos solicitados a desligar aparelhos cujo funcionamento envolva a emissão ou a recepção de ondas eletromagnéticas, como celulares. A justificativa dada para esse procedimento é, entre outras coisas, a necessidade de eliminar fontes de sinais eletromagnéticos que possam interferir nas comunicações, via rádio, dos pilotos com a torre de controle."
+    },
+    {
+     "type": "text",
+     "text": "Essa interferência poderá ocorrer somente se as ondas emitidas pelo celular e as recebidas pelo rádio do avião"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Forem ambas audíveis."
+    },
+    {
+     "letter": "B",
+     "text": "Tiverem a mesma potência."
+    },
+    {
+     "letter": "C",
+     "text": "Tiverem a mesma frequência."
+    },
+    {
+     "letter": "D",
+     "text": "Tiverem a mesma intensidade."
+    },
+    {
+     "letter": "E",
+     "text": "Propagarem-se com velocidades diferentes."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2023-q130",
+   "number": 130,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Uma cafeteria adotou copos fabricados a partir de uma composição de 50% de plástico reciclado não biodegradável e 50% de casca de café. O copo é reutilizável e retornável, pois o material, semelhante a uma cerâmica, suporta a lavagem. Embora ele seja comercializado por um preço considerado alto quando comparado ao de um copo de plástico descartável, essa cafeteria possibilita aos clientes retornarem o copo sujo e levarem o café quente servido em outro copo já limpo e higienizado. O material desse copo oferece também o conforto de não esquentar na parte externa."
+    },
+    {
+     "type": "text",
+     "text": "Cafeteria adota copo reutilizável feito com casca de café. Disponível em: www.gazetadopovo.com.br. Acesso em: 5 dez. 2019 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Quais duas vantagens esse copo apresenta em comparação ao copo descartável?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Ter a durabilidade de uma cerâmica e ser totalmente biodegradável."
+    },
+    {
+     "letter": "B",
+     "text": "Ser tão durável quanto uma cerâmica e ter alta condutividade térmica."
+    },
+    {
+     "letter": "C",
+     "text": "Ser um mau condutor térmico e aumentar o resíduo biodegradável na natureza."
+    },
+    {
+     "letter": "D",
+     "text": "Ter baixa condutividade térmica e reduzir o resíduo não biodegradável na natureza."
+    },
+    {
+     "letter": "E",
+     "text": "Ter alta condutividade térmica e possibilitar a degradação do material no meio ambiente."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2023-q131",
+   "number": 131,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O consumo exagerado de refrigerantes é preocupante, pois contribui para o aumento de casos de obesidade e diabetes. Considere dois refrigerantes enlatados, um comum e um diet, e que ambos possuam a mesma quantidade de aditivos, exceto pela presença de açúcar. O refrigerante comum contém basicamente água carbonatada e grande quantidade de açúcar; já o refrigerante diet tem água carbonatada e adoçantes, cujas massas são muito pequenas."
+    },
+    {
+     "type": "text",
+     "text": "CAVAGIS, A. D. M.; PEREIRA, E. A.; OLIVEIRA, L. C. Um método simples para avaliar o teor de sacarose e CO2 em refrigerantes. Química Nova na Escola, n. 3, ago. 2014 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Entre as duas versões apresentadas, o refrigerante comum possui"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Maior densidade."
+    },
+    {
+     "letter": "B",
+     "text": "Menor viscosidade."
+    },
+    {
+     "letter": "C",
+     "text": "Maior volume de gás dissolvido."
+    },
+    {
+     "letter": "D",
+     "text": "Menor massa de solutos dissolvidos."
+    },
+    {
+     "letter": "E",
+     "text": "Maior temperatura de congelamento."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2023-q134",
+   "number": 134,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Avaliação de substâncias genotóxicas"
+    },
+    {
+     "type": "text",
+     "text": "O ensaio de micronúcleos é um teste de avaliação de genotoxicidade que associa a presença de micronúcleos (pequenos núcleos que aparecem próximo aos núcleos das células) com lesões genéticas. Os micronúcleos são fragmentos de DNA encapsulados, provenientes do fuso mitótico durante a divisão celular."
+    },
+    {
+     "type": "text",
+     "text": "DIAS, V. M. Micronúcleos em células tumorais: biologia e implicações\npara a tumorigênese. Dissertação de Mestrado. USP, 2006 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Os micronúcleos se originam dos(as)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Nucléolos."
+    },
+    {
+     "letter": "B",
+     "text": "Lisossomos."
+    },
+    {
+     "letter": "C",
+     "text": "Ribossomos"
+    },
+    {
+     "letter": "D",
+     "text": "Mitocôndrias"
+    },
+    {
+     "letter": "E",
+     "text": "Cromossomos"
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2023-q138",
+   "number": 138,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Visando atrair mais clientes, o gerente de uma loja anunciou uma promoção em que cada cliente que realizar uma compra pode ganhar um voucher para ser usado em sua próxima compra. Para ganhar seu voucher, o cliente precisa retirar, ao acaso, uma bolinha de dentro de cada uma das duas urnas A e B disponibilizadas pelo gerente, nas quais há apenas bolinhas pretas e brancas. Atualmente, a probabilidade de se escolher, ao acaso, uma bolinha preta na urna A é igual a 20% e a probabilidade de se escolher uma bolinha preta na urna B é 25%. Ganha o voucher o cliente que retirar duas bolinhas pretas, uma de cada urna."
+    },
+    {
+     "type": "text",
+     "text": "Com o passar dos dias, o gerente percebeu que, para a promoção ser viável aos negócios, era preciso alterar a probabilidade de acerto do cliente sem alterar a regra da promoção. Para isso, resolveu alterar a quantidade de bolinhas brancas na urna B de forma que a probabilidade de um cliente ganhar o voucher passasse a ser menor ou igual a 1%. Sabe-se que a urna B tem 4 bolinhas pretas e que, em ambas as urnas, todas as bolinhas têm a mesma probabilidade de serem retiradas."
+    },
+    {
+     "type": "text",
+     "text": "Qual é o número mínimo de bolinhas brancas que o gerente deve adicionar à urna B?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "20"
+    },
+    {
+     "letter": "B",
+     "text": "60"
+    },
+    {
+     "letter": "C",
+     "text": "64"
+    },
+    {
+     "letter": "D",
+     "text": "68"
+    },
+    {
+     "letter": "E",
+     "text": "80"
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2023-q142",
+   "number": 142,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Qual é a quantidade mínima de água, em litro, que cada morador, em média, deverá economizar por dia, de modo que o reservatório não fique sem água nos próximos 10 dias?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "50"
+    },
+    {
+     "letter": "B",
+     "text": "60"
+    },
+    {
+     "letter": "C",
+     "text": "80"
+    },
+    {
+     "letter": "D",
+     "text": "140"
+    },
+    {
+     "letter": "E",
+     "text": "150"
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2023-q143",
+   "number": 143,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em janeiro do ano passado, a direção de uma fábrica abriu uma creche para os filhos de seus funcionários, com 10 salas, cada uma com capacidade para atender 10 crianças a cada ano. As vagas são sorteadas entre os filhos dos funcionários inscritos, enquanto os não contemplados pelo sorteio formam uma lista de espera. No ano passado, a lista de espera teve 400 nomes e, neste ano, esse número cresceu 10%. A direção da fábrica realizou uma pesquisa e constatou que a lista de espera para o próximo ano terá a mesma quantidade de nomes da lista de espera deste ano. Decidiu, então, construir, ao longo desse ano, novas salas para a creche, também com capacidade de atendimento para 10 crianças cada, de modo que o número de nomes na lista de espera no próximo ano seja 25% menor que o deste ano."
+    },
+    {
+     "type": "text",
+     "text": "O número mínimo de salas que deverão ser construídas é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "10"
+    },
+    {
+     "letter": "B",
+     "text": "11"
+    },
+    {
+     "letter": "C",
+     "text": "12"
+    },
+    {
+     "letter": "D",
+     "text": "30"
+    },
+    {
+     "letter": "E",
+     "text": "33"
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2023-q147",
+   "number": 147,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Alguns estudos comprovam que os carboidratos fornecem energia ao corpo, preservam as proteínas estruturais dos músculos durante a prática de atividade física e ainda dão força para o cérebro coordenar os movimentos, o que de fato tem impacto positivo no desenvolvimento do praticante. O ideal é consumir 1 grama de carboidrato para cada minuto de caminhada.\nCIRINO, C. Boa pergunta: consumir carboidratos antes dos exercícios melhora o desempenho do atleta? Revista Saúde! É Vital, n. 330, nov. 2010 (adaptado).\nUm casal realizará diariamente 30 minutos de caminhada, ingerindo, antes dessa atividade, a quantidade ideal de carboidratos recomendada. Para ter o consumo ideal apenas por meio do consumo de pão de fôrma integral, o casal planeja garantir o suprimento de pães para um período de 30 dias ininterruptos. Sabe-se que cada pacote desse pão vem com 18 fatias, e que cada uma delas tem 15 gramas de carboidratos.\nA quantidade mínima de pacotes de pão de fôrma necessários para prover o suprimento a esse casal é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "1"
+    },
+    {
+     "letter": "B",
+     "text": "4"
+    },
+    {
+     "letter": "C",
+     "text": "6"
+    },
+    {
+     "letter": "D",
+     "text": "7"
+    },
+    {
+     "letter": "E",
+     "text": "8"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2023-q150",
+   "number": 150,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Dirigir após ingerir bebidas alcoólicas é uma atitude extremamente perigosa, uma vez que, a partir da primeira dose, a pessoa já começa a ter perda de sensibilidade de movimentos e de reflexos. Apesar de a eliminação e absorção do álcool depender de cada pessoa e de como o organismo consegue metabolizar a substância, ao final da primeira hora após a ingestão, a concentração de álcool (C) no sangue corresponde a aproximadamente 90% da quantidade (q) de álcool ingerida, e a eliminação total dessa concentração pode demorar até 12 horas."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://g1.globo.com. Acesso em: 1 dez. 2018 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Nessas condições, ao final da primeira hora após a ingestão da quantidade q de álcool, a concentração C dessa substância no sangue é expressa algebricamente por"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "C = 0,9q"
+    },
+    {
+     "letter": "B",
+     "text": "C = 0,1q"
+    },
+    {
+     "letter": "C",
+     "text": "C = 1 − 0,1q"
+    },
+    {
+     "letter": "D",
+     "text": "C = 1 − 0,9q"
+    },
+    {
+     "letter": "E",
+     "text": "C = q − 10"
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2023-q153",
+   "number": 153,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um supermercado conta com cinco caixas disponíveis para pagamento. Foram instaladas telas que apresentam o tempo médio gasto por cada caixa para iniciar e finalizar o atendimento de cada cliente, e o número de pessoas presentes na fila de cada caixa em tempo real. Um cliente, na hora de passar sua compra, sabendo que cada um dos cinco caixas iniciará um novo atendimento naquele momento, pretende gastar o menor tempo possível de espera na fila. Ele observa que as telas apresentavam as informações a seguir.\n• Caixa I: atendimento 12 minutos, 5 pessoas na fila.\n• Caixa II: atendimento 6 minutos, 9 pessoas na fila.\n• Caixa III: atendimento 5 minutos, 6 pessoas na fila.\n• Caixa IV: atendimento 15 minutos, 2 pessoas na fila.\n• Caixa V: atendimento 9 minutos, 3 pessoas na fila."
+    },
+    {
+     "type": "text",
+     "text": "Para alcançar seu objetivo, o cliente deverá escolher o caixa"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "I."
+    },
+    {
+     "letter": "B",
+     "text": "II."
+    },
+    {
+     "letter": "C",
+     "text": "III."
+    },
+    {
+     "letter": "D",
+     "text": "IV."
+    },
+    {
+     "letter": "E",
+     "text": "V."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2023-q158",
+   "number": 158,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um pescador tem um custo fixo diário de R$ 900,00 com combustível, iscas, manutenção de seu barco e outras pequenas despesas. Ele vende cada quilograma de peixe por R$ 5,00. Sua meta é obter um lucro mínimo de R$ 800,00 por dia. Sozinho, ele consegue, ao final de um dia de trabalho, pescar 180 kg de peixe, o que é suficiente apenas para cobrir o custo fixo diário. Portanto, precisa contratar ajudantes, pagando para cada um R$ 250,00 por dia de trabalho. Além desse valor, 4%dareceita obtida pela venda de peixe é repartida igualmente entre os ajudantes. Considerando o tamanho de seu barco, ele pode contratar até 5 ajudantes. Ele sabe que com um ajudante a pesca diária é de 300 kg e que, a partir do segundo ajudante contratado, aumenta-se em 100 kg a quantidade de peixe pescada por ajudante em um dia de trabalho."
+    },
+    {
+     "type": "text",
+     "text": "A quantidade mínima de ajudantes que esse pescador precisa contratar para conseguir o lucro diário pretendido é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "1"
+    },
+    {
+     "letter": "B",
+     "text": "2"
+    },
+    {
+     "letter": "C",
+     "text": "3"
+    },
+    {
+     "letter": "D",
+     "text": "4"
+    },
+    {
+     "letter": "E",
+     "text": "5"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2023-q159",
+   "number": 159,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um agricultor é informado sobre um método de proteção para sua lavoura que consiste em inserir larvas específicas, de rápida reprodução. A reprodução dessas larvas faz com que sua população multiplique-se por 10 a cada 3 dias e, para evitar eventuais desequilíbrios, é possível cessar essa reprodução aplicando-se um produto X. O agricultor decide iniciar esse método com 100 larvas e dispõe de 5 litros do produto X, cuja aplicação recomendada é de exatamente 1 litro para cada população de 200 000 larvas. A quantidade total do produto X de que ele dispõe deverá ser aplicada de uma única vez."
+    },
+    {
+     "type": "text",
+     "text": "Quantos dias após iniciado esse método o agricultor deverá aplicar o produto X?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "2"
+    },
+    {
+     "letter": "B",
+     "text": "4"
+    },
+    {
+     "letter": "C",
+     "text": "6"
+    },
+    {
+     "letter": "D",
+     "text": "12"
+    },
+    {
+     "letter": "E",
+     "text": "18"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2023-q161",
+   "number": 161,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Uma loja vende seus produtos de duas formas: à vista ou financiado em três parcelas mensais iguais. Para definir o valor dessas parcelas nas vendas financiadas, a loja aumenta em 20% o valor do produto à vista e divide esse novo valor por 3. A primeira parcela deve ser paga no ato da compra, e as duas últimas, em 30 e 60 dias após a compra."
+    },
+    {
+     "type": "text",
+     "text": "Um cliente da loja decidiu comprar, de forma financiada, um produto cujo valor à vista é R$ 1 500,00."
+    },
+    {
+     "type": "text",
+     "text": "Utilize 5,29 como aproximação para 28."
+    },
+    {
+     "type": "text",
+     "text": "A taxa mensal de juros compostos praticada nesse financiamento é de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "6,7%"
+    },
+    {
+     "letter": "B",
+     "text": "10%"
+    },
+    {
+     "letter": "C",
+     "text": "20%"
+    },
+    {
+     "letter": "D",
+     "text": "21,5%"
+    },
+    {
+     "letter": "E",
+     "text": "23,3%"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2023-q162",
+   "number": 162,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Para concretar a laje de sua residência, uma pessoa contratou uma construtora. Tal empresa informa que o preço y do concreto bombeado é composto de duas partes: uma fixa, chamada de taxa de bombeamento, e uma variável, que depende do volume x de concreto utilizado. Sabe-se que a taxa de bombeamento custa R$ 500,00 e que o metro cúbico do concreto bombeado é de R$ 250,00."
+    },
+    {
+     "type": "text",
+     "text": "A expressão que representa o preço y em função do volume x, em metro cúbico, é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Y = 250x"
+    },
+    {
+     "letter": "B",
+     "text": "Y = 500x"
+    },
+    {
+     "letter": "C",
+     "text": "Y = 750x"
+    },
+    {
+     "letter": "D",
+     "text": "Y = 250x + 500"
+    },
+    {
+     "letter": "E",
+     "text": "Y = 500x + 250"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2023-q167",
+   "number": 167,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A cada bimestre, a diretora de uma escola compra uma quantidade de folhas de papel ofício proporcional ao número de alunos matriculados. No bimestre passado, ela comprou 6 000 folhas para serem utilizadas pelos 1 200 alunos matriculados. Neste bimestre, alguns alunos cancelaram suas matrículas e a escola tem, agora, 1 150 alunos. A diretora só pode gastar R$ 220,00 nessa compra, e sabe que o fornecedor da escola vende as folhas de papel ofício em embalagens de 100 unidades a R$ 4,00 a embalagem. Assim, será preciso convencer o fornecedor a dar um desconto à escola, de modo que seja possível comprar a quantidade total de papel ofício necessária para o bimestre."
+    },
+    {
+     "type": "text",
+     "text": "O desconto necessário no preço final da compra, em porcentagem, pertence ao intervalo"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "(5,0 ; 5,5)."
+    },
+    {
+     "letter": "B",
+     "text": "(8,0 ; 8,5)."
+    },
+    {
+     "letter": "C",
+     "text": "(11,5 ; 12,5)."
+    },
+    {
+     "letter": "D",
+     "text": "(19,5 ; 20,5)."
+    },
+    {
+     "letter": "E",
+     "text": "(3,5 ; 4,0)."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2023-q171",
+   "number": 171,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O calendário maia apresenta duas contagens simultâneas de anos, o chamado ano Tzolkim, composto por 260 dias e que determinava o calendário religioso, e o ano Haab, composto por 365 dias e que determinava o calendário agrícola. Um historiador encontrou evidências de que gerações de uma mesma família governaram certa comunidade maia pelo período de 20 ciclos, sendo cada ciclo formado por 52 anos Haab."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.suapesquisa.com. Acesso em: 20 ago. 2014."
+    },
+    {
+     "type": "text",
+     "text": "De acordo com as informações fornecidas, durante quantos anos Tzolkim aquela comunidade maia foi governada por tal família?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "741"
+    },
+    {
+     "letter": "B",
+     "text": "1 040"
+    },
+    {
+     "letter": "C",
+     "text": "1 460"
+    },
+    {
+     "letter": "D",
+     "text": "2 100"
+    },
+    {
+     "letter": "E",
+     "text": "5 200"
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2023-q175",
+   "number": 175,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O metrô de um município oferece dois tipos de tíquetes com colorações diferentes, azul e vermelha, sendo vendidos em cartelas, cada qual com nove tíquetes da mesma cor e mesmo valor unitário. Duas cartelas de tíquetes azuis e uma cartela de tíquetes vermelhos são vendidas por R$ 32,40. Sabe-se que o preço de um tíquete azul menos o preço de um tíquete vermelho é igual ao preço de um tíquete vermelho mais cinco centavos."
+    },
+    {
+     "type": "text",
+     "text": "Qual o preço, em real, de uma cartela de tíquetes vermelhos?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "4,68"
+    },
+    {
+     "letter": "B",
+     "text": "6,30"
+    },
+    {
+     "letter": "C",
+     "text": "9,30"
+    },
+    {
+     "letter": "D",
+     "text": "10,50"
+    },
+    {
+     "letter": "E",
+     "text": "10,65"
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2023-q180",
+   "number": 180,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um tipo de semente necessita de bastante água nos dois primeiros meses após o plantio. Um produtor pretende estabelecer o melhor momento para o plantio desse tipo de semente, nos meses de outubro a março. Após consultar a previsão do índice mensal de precipitação de chuva (ImPC) da região onde ocorrerá o plantio, para o período chuvoso de 2020-2021, ele obteve os seguintes dados:\n• outubro/2020: ImPC = 250 mm;\n• novembro/2020: ImPC = 150 mm;\n• dezembro/2020: ImPC = 200 mm;\n• janeiro/2021: ImPC = 450 mm;\n• fevereiro/2021: ImPC = 100 mm;\n• março/2021: ImPC = 200 mm."
+    },
+    {
+     "type": "text",
+     "text": "Com base nessas previsões, ele precisa escolher dois meses consecutivos em que a média mensal de precipitação seja a maior possível."
+    },
+    {
+     "type": "text",
+     "text": "No início de qual desses meses o produtor deverá plantar esse tipo de semente?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Outubro."
+    },
+    {
+     "letter": "B",
+     "text": "Novembro."
+    },
+    {
+     "letter": "C",
+     "text": "Dezembro."
+    },
+    {
+     "letter": "D",
+     "text": "Janeiro."
+    },
+    {
+     "letter": "E",
+     "text": "Fevereiro."
+    }
+   ],
+   "answer": "C"
+  }
+ ]
+}

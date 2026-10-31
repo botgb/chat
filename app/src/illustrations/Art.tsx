@@ -25,6 +25,10 @@ const SUBJECT_ART: Record<string, ArtName> = {
   Sociologia: 'sociologia',
   Artes: 'artes',
   Redação: 'redacao',
+  // Áreas do ENEM
+  Linguagens: 'portugues',
+  'Ciências Humanas': 'historia',
+  'Ciências da Natureza': 'quimica',
 };
 
 export const subjectArt = (subject: string): ArtName => SUBJECT_ART[subject] ?? 'materias';

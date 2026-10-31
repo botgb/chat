@@ -202,6 +202,7 @@ export default function Licao() {
           <Timer remaining={timer.remaining} total={seconds} />
         </View>
         <QuestionView question={question} selected={selected} revealed={revealed} onSelect={setSelected} />
+        {exam?.source ? <Text style={styles.credit}>{exam.source}</Text> : null}
       </ScrollView>
 
       <View style={[styles.footer, revealed && { backgroundColor: correct ? colors.rightBg : colors.wrongBg, borderTopColor: 'transparent' }]}>
@@ -242,6 +243,7 @@ const createStyles = (colors: Colors) =>
   heartsRow: { flexDirection: 'row', alignItems: 'center', gap: 4 },
   hearts: { fontFamily: fonts.display, fontSize: type.lead, color: colors.heart },
   metaRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', gap: space(3) },
+  credit: { fontFamily: fonts.body, fontSize: type.small - 1, color: colors.inkSoft, marginTop: space(2) },
   source: { flex: 1, fontFamily: fonts.displayMedium, fontSize: type.small + 1, color: colors.primary },
   footer: { padding: space(5), gap: space(4), borderTopWidth: 2, borderTopColor: colors.line, backgroundColor: colors.bg },
   feedback: { fontFamily: fonts.display, fontSize: type.title - 2 },
