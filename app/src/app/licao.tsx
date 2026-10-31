@@ -11,11 +11,14 @@ import { buildLesson, filterQuestions, LessonMode } from '../lib/lesson';
 import { Question } from '../lib/types';
 import { feedback } from '../lib/settings';
 import { useApp } from '../state/AppState';
-import { colors, fonts, space, type } from '../theme';
+import { Colors, fonts, space, type } from '../theme';
+import { useColors, useStyles } from '../theme/ThemeContext';
 
 type Params = { mode: LessonMode; vestibular: string; exam?: string; level?: string; ids?: string };
 
 function BigStars({ count }: { count: number }) {
+  const colors = useColors();
+  const styles = useStyles(createStyles);
   const anims = useRef([0, 1, 2].map(() => new Animated.Value(0))).current;
   useEffect(() => {
     Animated.stagger(
@@ -41,6 +44,8 @@ function BigStars({ count }: { count: number }) {
 }
 
 export default function Licao() {
+  const colors = useColors();
+  const styles = useStyles(createStyles);
   const app = useApp();
   const params = useLocalSearchParams<Params>();
   const mode: LessonMode = params.mode ?? 'pratica';
@@ -218,7 +223,8 @@ export default function Licao() {
   );
 }
 
-const styles = StyleSheet.create({
+const createStyles = (colors: Colors) =>
+  StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.bg },
   center: { flex: 1, justifyContent: 'center', padding: space(6), gap: space(5) },
   big: { fontFamily: fonts.display, fontSize: type.title + 6, color: colors.ink },
@@ -227,7 +233,7 @@ const styles = StyleSheet.create({
   bigStar: { fontSize: 72 },
   summary: { flexDirection: 'row', gap: space(3) },
   summaryBox: { flex: 1, borderWidth: 2, borderRadius: 16, overflow: 'hidden', alignItems: 'center' },
-  summaryLabel: { alignSelf: 'stretch', textAlign: 'center', fontFamily: fonts.display, fontSize: type.small + 1, color: '#fff', paddingVertical: space(1) },
+  summaryLabel: { alignSelf: 'stretch', textAlign: 'center', fontFamily: fonts.display, fontSize: type.small + 1, color: colors.onColor, paddingVertical: space(1) },
   summaryValue: { fontFamily: fonts.display, fontSize: type.title, paddingVertical: space(3) },
   header: { flexDirection: 'row', alignItems: 'center', gap: space(4), paddingHorizontal: space(5), paddingVertical: space(3) },
   close: { fontSize: type.title, color: colors.lockedDark, fontFamily: fonts.display },

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { colors, fonts, type } from '../theme';
+import { Colors, fonts, type } from '../theme';
+import { useColors, useStyles } from '../theme/ThemeContext';
 
 /**
  * Cronômetro regressivo no tempo médio da prova. Ao zerar, continua contando
@@ -20,6 +21,8 @@ export function useCountdown(seconds: number, running: boolean, resetKey: unknow
 const fmt = (s: number) => `${Math.floor(Math.abs(s) / 60)}:${String(Math.abs(s) % 60).padStart(2, '0')}`;
 
 export function Timer({ remaining, total }: { remaining: number; total: number }) {
+  const colors = useColors();
+  const styles = useStyles(createStyles);
   const over = remaining < 0;
   const pct = Math.max(0, remaining) / total;
   return (
@@ -35,7 +38,8 @@ export function Timer({ remaining, total }: { remaining: number; total: number }
   );
 }
 
-const styles = StyleSheet.create({
+const createStyles = (colors: Colors) =>
+  StyleSheet.create({
   wrap: { alignItems: 'flex-end', minWidth: 72 },
   text: { fontFamily: fonts.bodyBold, fontSize: type.lead, color: colors.ink, fontVariant: ['tabular-nums'] },
   track: { width: 72, height: 4, backgroundColor: colors.line, borderRadius: 2, marginTop: 4, overflow: 'hidden' },

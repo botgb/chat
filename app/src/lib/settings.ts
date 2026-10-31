@@ -1,5 +1,6 @@
 // Configurações do app, guardadas no aparelho. Lembretes são notificações locais (sem servidor).
 import { Platform } from 'react-native';
+import type { ThemeMode } from '../theme/ThemeContext';
 
 export type Profile = {
   nome: string;
@@ -10,6 +11,7 @@ export type Profile = {
 };
 
 export type Settings = {
+  theme: ThemeMode;
   sound: boolean;
   vibration: boolean;
   notifications: {
@@ -24,6 +26,7 @@ export const REMINDER_HOURS = [8, 12, 18, 20];
 export const STREAK_REMINDER_HOUR = 21;
 
 export const defaultSettings = (): Settings => ({
+  theme: 'system',
   sound: true,
   vibration: true,
   notifications: { daily: false, dailyHour: 18, streak: false },

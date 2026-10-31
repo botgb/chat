@@ -4,12 +4,15 @@ import { TopBar } from '../../components/TopBar';
 import { Art, ArtName } from '../../illustrations/Art';
 import { dayKey, xpHistory } from '../../lib/gamification';
 import { useApp } from '../../state/AppState';
-import { colors, fonts, space, type } from '../../theme';
+import { Colors, fonts, space, type } from '../../theme';
+import { useColors, useStyles } from '../../theme/ThemeContext';
 
 const WEEKDAYS = ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'];
 
 // Ranking pessoal: o aluno compara a própria evolução, sem servidor.
 export default function Ranking() {
+  const colors = useColors();
+  const styles = useStyles(createStyles);
   const { progress } = useApp();
   const today = dayKey(new Date());
   const week = xpHistory(progress, today, 7);
@@ -67,6 +70,7 @@ export default function Ranking() {
 }
 
 function Record({ icon, value, label }: { icon: ArtName; value: string | number; label: string }) {
+  const styles = useStyles(createStyles);
   return (
     <View style={styles.record}>
       <Art name={icon} size={36} />
@@ -78,7 +82,8 @@ function Record({ icon, value, label }: { icon: ArtName; value: string | number;
   );
 }
 
-const styles = StyleSheet.create({
+const createStyles = (colors: Colors) =>
+  StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.bg },
   hero: { backgroundColor: colors.gold, borderRadius: 18, borderBottomWidth: 6, borderBottomColor: colors.goldDark, padding: space(5), gap: space(1) },
   heroSmall: { fontFamily: fonts.ui, fontSize: type.body - 1, color: '#5C4300' },

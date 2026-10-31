@@ -4,9 +4,12 @@ import { ActivityIndicator, Pressable, ScrollView, StyleSheet, Text, View } from
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Button } from '../components/Button';
 import { useApp } from '../state/AppState';
-import { colors, fonts, space, type } from '../theme';
+import { Colors, fonts, space, type } from '../theme';
+import { useColors, useStyles } from '../theme/ThemeContext';
 
 export default function Provas() {
+  const colors = useColors();
+  const styles = useStyles(createStyles);
   const app = useApp();
   const [busy, setBusy] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -85,7 +88,8 @@ export default function Provas() {
   );
 }
 
-const styles = StyleSheet.create({
+const createStyles = (colors: Colors) =>
+  StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.bg },
   header: { flexDirection: 'row', alignItems: 'center', gap: space(3), paddingHorizontal: space(4), paddingVertical: space(2), borderBottomWidth: 2, borderBottomColor: colors.line },
   back: { fontFamily: fonts.display, fontSize: 36, color: colors.inkSoft, lineHeight: 38 },

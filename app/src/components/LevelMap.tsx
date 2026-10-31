@@ -2,7 +2,8 @@ import { useEffect, useRef } from 'react';
 import { Animated, Pressable, StyleSheet, Text, View } from 'react-native';
 import { buildPath, Level, PathItem, Unit } from '../lib/levels';
 import { Art, ArtName, subjectArt } from '../illustrations/Art';
-import { colors, fonts, space, type, unitColors } from '../theme';
+import { Colors, fonts, space, type, unitColors } from '../theme';
+import { useColors, useStyles } from '../theme/ThemeContext';
 
 const NODE = 72;
 const ROW = 112; // distância vertical entre itens do caminho
@@ -14,6 +15,8 @@ const offsetX = (i: number) => Math.round(Math.sin((i * Math.PI) / 4) * SWING);
 export const unitColor = (i: number) => unitColors[i % unitColors.length];
 
 function Stars({ count }: { count: number }) {
+  const colors = useColors();
+  const styles = useStyles(createStyles);
   return (
     <View style={styles.stars} accessibilityLabel={`${count} de 3 estrelas`}>
       {[0, 1, 2].map((i) => (
@@ -36,6 +39,7 @@ function useLoop(duration: number) {
 }
 
 function PulseRing({ color }: { color: string }) {
+  const styles = useStyles(createStyles);
   const v = useLoop(1400);
   return (
     <Animated.View
@@ -72,6 +76,8 @@ function LevelNode({
   highlight: boolean; // a fase atual do mapa inteiro: balão e anel pulsante
   onPress: () => void;
 }) {
+  const colors = useColors();
+  const styles = useStyles(createStyles);
   const done = level.stars > 0;
   const bg = !level.unlocked ? colors.locked : done ? colors.gold : color.main;
   const edge = !level.unlocked ? colors.lockedDark : done ? colors.goldDark : color.dark;
@@ -122,6 +128,7 @@ function ChestNode({ item, onOpen }: { item: Extract<PathItem, { kind: 'chest' }
 
 /** Ilustração da matéria ao lado do caminho, no lado oposto à curva. */
 function Decoration({ art, side, color }: { art: ArtName; side: 'left' | 'right'; color: string }) {
+  const styles = useStyles(createStyles);
   return (
     <View pointerEvents="none" style={[styles.decor, side === 'left' ? { left: space(2) } : { right: space(2) }]}>
       <View style={[styles.decorBlob, { backgroundColor: color }]} />
@@ -145,6 +152,7 @@ export function LevelMap({
   onUnitLayout?: (index: number, y: number) => void;
   onCurrentLayout?: (y: number) => void;
 }) {
+  const styles = useStyles(createStyles);
   const firstCurrent = units.flatMap((u) => u.levels).find((l) => l.current)?.id;
   return (
     <View>
@@ -192,15 +200,16 @@ export function LevelMap({
   );
 }
 
-const styles = StyleSheet.create({
+const createStyles = (colors: Colors) =>
+  StyleSheet.create({
   row: { height: ROW, alignItems: 'center', justifyContent: 'center' },
   node: { width: NODE, height: NODE - 6, borderRadius: NODE / 2, alignItems: 'center', justifyContent: 'center' },
-  nodeStar: { fontSize: 34, color: '#fff', marginTop: -2 },
+  nodeStar: { fontSize: 34, color: colors.onColor, marginTop: -2 },
   ring: { position: 'absolute', top: -8, left: -8, width: NODE + 16, height: NODE + 8, borderRadius: (NODE + 16) / 2, borderWidth: 4 },
   stars: { position: 'absolute', bottom: -20, flexDirection: 'row', gap: 1 },
   star: { fontSize: 16 },
   tipWrap: { position: 'absolute', top: -44, left: '50%', marginLeft: -80, width: 160, alignItems: 'center', zIndex: 2 },
-  tip: { backgroundColor: '#fff', borderWidth: 2, borderBottomWidth: 4, borderRadius: 12, paddingHorizontal: space(3), paddingVertical: space(1) },
+  tip: { backgroundColor: colors.bg, borderWidth: 2, borderBottomWidth: 4, borderRadius: 12, paddingHorizontal: space(3), paddingVertical: space(1) },
   tipText: { fontFamily: fonts.display, fontSize: type.body - 1 },
   decor: { position: 'absolute', top: -ROW / 2, width: 120, height: 120, alignItems: 'center', justifyContent: 'center' },
   decorBlob: { position: 'absolute', width: 104, height: 104, borderRadius: 52, opacity: 0.12 },

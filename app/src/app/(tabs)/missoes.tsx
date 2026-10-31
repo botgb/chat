@@ -5,7 +5,8 @@ import { Art } from '../../illustrations/Art';
 import { dayKey } from '../../lib/gamification';
 import { CHEST_ID, CHEST_REWARD, missionStatus } from '../../lib/missions';
 import { useApp } from '../../state/AppState';
-import { colors, fonts, space, type } from '../../theme';
+import { Colors, fonts, space, type } from '../../theme';
+import { useColors, useStyles } from '../../theme/ThemeContext';
 
 function hoursLeft(): number {
   const now = new Date();
@@ -14,6 +15,8 @@ function hoursLeft(): number {
 }
 
 export default function Missoes() {
+  const colors = useColors();
+  const styles = useStyles(createStyles);
   const app = useApp();
   const day = dayKey(new Date());
   const status = missionStatus(app.progress, day);
@@ -66,7 +69,7 @@ export default function Missoes() {
                 style={[styles.reward, done && styles.rewardReady]}
               >
                 <View style={styles.rewardRow}>
-                  <Text style={[styles.rewardText, done && { color: '#fff' }]}>{mission.reward}</Text>
+                  <Text style={[styles.rewardText, done && { color: colors.onColor }]}>{mission.reward}</Text>
                   <Art name="diamantes" size={18} />
                 </View>
               </Pressable>
@@ -89,7 +92,7 @@ export default function Missoes() {
               accessibilityRole="button"
               style={[styles.reward, status.chestReady && styles.rewardReady]}
             >
-              <Text style={[styles.rewardText, status.chestReady && { color: '#fff' }]}>Abrir</Text>
+              <Text style={[styles.rewardText, status.chestReady && { color: colors.onColor }]}>Abrir</Text>
             </Pressable>
           )}
         </View>
@@ -98,14 +101,15 @@ export default function Missoes() {
   );
 }
 
-const styles = StyleSheet.create({
+const createStyles = (colors: Colors) =>
+  StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.bg },
   hero: { backgroundColor: '#9B5CFF', borderRadius: 18, borderBottomWidth: 6, borderBottomColor: '#7438DB', padding: space(5), gap: space(1) },
-  heroTitle: { fontFamily: fonts.display, fontSize: type.title, color: '#fff' },
+  heroTitle: { fontFamily: fonts.display, fontSize: type.title, color: colors.onColor },
   heroSub: { fontFamily: fonts.ui, fontSize: type.body - 1, color: 'rgba(255,255,255,0.9)' },
   card: { flexDirection: 'row', alignItems: 'center', gap: space(3), padding: space(4), borderRadius: 16, borderWidth: 2, borderBottomWidth: 4, borderColor: colors.line },
-  chest: { borderColor: colors.gold, backgroundColor: '#FFF8E1' },
-  goalCard: { borderColor: colors.streak, backgroundColor: '#FFF1E3' },
+  chest: { borderColor: colors.gold, backgroundColor: colors.goldBg },
+  goalCard: { borderColor: colors.streak, backgroundColor: colors.streakBg },
   rewardRow: { flexDirection: 'row', alignItems: 'center', gap: 4 },
   title: { fontFamily: fonts.displayMedium, fontSize: type.body, color: colors.ink },
   muted: { fontFamily: fonts.body, fontSize: type.small, color: colors.inkSoft },

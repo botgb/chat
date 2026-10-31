@@ -8,7 +8,8 @@ import { Art, ArtName } from '../../illustrations/Art';
 import { dayKey, visibleStreak } from '../../lib/gamification';
 import { useApp } from '../../state/AppState';
 import { useStudy } from '../../state/useStudy';
-import { colors, fonts, space, type } from '../../theme';
+import { Colors, fonts, space, type } from '../../theme';
+import { useStyles } from '../../theme/ThemeContext';
 
 const GOALS = [
   { n: 5, label: 'Leve' },
@@ -17,6 +18,7 @@ const GOALS = [
 ];
 
 function Stat({ icon, value, label }: { icon: ArtName; value: string | number; label: string }) {
+  const styles = useStyles(createStyles);
   return (
     <View style={styles.stat}>
       <Art name={icon} size={36} />
@@ -29,6 +31,7 @@ function Stat({ icon, value, label }: { icon: ArtName; value: string | number; l
 }
 
 export default function Perfil() {
+  const styles = useStyles(createStyles);
   const app = useApp();
   const study = useStudy();
   const { progress } = app;
@@ -102,7 +105,8 @@ export default function Perfil() {
   );
 }
 
-const styles = StyleSheet.create({
+const createStyles = (colors: Colors) =>
+  StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.bg },
   header: { flexDirection: 'row', alignItems: 'center', gap: space(3), paddingHorizontal: space(4), paddingTop: space(4) },
   name: { fontFamily: fonts.display, fontSize: type.title, color: colors.ink },

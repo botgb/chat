@@ -8,8 +8,34 @@ import { useEffect } from 'react';
 import { Platform } from 'react-native';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
-import { AppStateProvider } from '../state/AppState';
-import { colors } from '../theme';
+import { AppStateProvider, useApp } from '../state/AppState';
+import { ThemeProvider, useColors, useIsDark } from '../theme/ThemeContext';
+
+function Screens() {
+  const colors = useColors();
+  const dark = useIsDark();
+  return (
+    <>
+      <StatusBar style={dark ? 'light' : 'dark'} />
+      <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: colors.bg } }}>
+        <Stack.Screen name="(tabs)" />
+        <Stack.Screen name="licao" options={{ gestureEnabled: false, animation: 'slide_from_bottom' }} />
+        <Stack.Screen name="provas" options={{ animation: 'slide_from_right' }} />
+        <Stack.Screen name="configuracoes" options={{ animation: 'slide_from_right' }} />
+      </Stack>
+    </>
+  );
+}
+
+/** Aplica o tema escolhido nas configurações (claro, escuro ou o do celular). */
+function Themed() {
+  const { settings } = useApp();
+  return (
+    <ThemeProvider mode={settings.theme}>
+      <Screens />
+    </ThemeProvider>
+  );
+}
 
 export default function RootLayout() {
   const [loaded] = useFonts({
@@ -33,13 +59,7 @@ export default function RootLayout() {
 
   return (
     <AppStateProvider>
-      <StatusBar style="dark" />
-      <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: colors.bg } }}>
-        <Stack.Screen name="(tabs)" />
-        <Stack.Screen name="licao" options={{ gestureEnabled: false, animation: 'slide_from_bottom' }} />
-        <Stack.Screen name="provas" options={{ animation: 'slide_from_right' }} />
-        <Stack.Screen name="configuracoes" options={{ animation: 'slide_from_right' }} />
-      </Stack>
+      <Themed />
     </AppStateProvider>
   );
 }

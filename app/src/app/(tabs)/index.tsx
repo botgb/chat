@@ -11,9 +11,11 @@ import { dayKey, dueQuestionIds, PATH_CHEST_DIAMONDS } from '../../lib/gamificat
 import { LEVEL_SIZE } from '../../lib/levels';
 import { useApp } from '../../state/AppState';
 import { useStudy } from '../../state/useStudy';
-import { colors, fonts, space, type } from '../../theme';
+import { Colors, fonts, space, type } from '../../theme';
+import { useStyles } from '../../theme/ThemeContext';
 
 export default function Trilha() {
+  const styles = useStyles(createStyles);
   const app = useApp();
   const study = useStudy();
   const { progress } = app;
@@ -159,7 +161,8 @@ export default function Trilha() {
   );
 }
 
-const styles = StyleSheet.create({
+const createStyles = (colors: Colors) =>
+  StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.bg },
   empty: { flex: 1, justifyContent: 'center', padding: space(6), gap: space(4) },
   hero: { fontFamily: fonts.display, fontSize: type.hero, lineHeight: type.hero * 1.1, color: colors.ink },
@@ -167,7 +170,7 @@ const styles = StyleSheet.create({
   bannerWrap: { paddingHorizontal: space(4), paddingTop: space(3), paddingBottom: space(1), backgroundColor: colors.bg, zIndex: 2 },
   banner: { flexDirection: 'row', alignItems: 'center', borderRadius: 16, borderBottomWidth: 5, paddingLeft: space(4), minHeight: 72 },
   bannerSmall: { fontFamily: fonts.ui, fontSize: type.small, color: 'rgba(255,255,255,0.85)' },
-  bannerTitle: { fontFamily: fonts.display, fontSize: type.lead + 2, color: '#fff' },
+  bannerTitle: { fontFamily: fonts.display, fontSize: type.lead + 2, color: colors.onColor },
   bannerSep: { width: 2, alignSelf: 'stretch', marginVertical: 0 },
   guideBtn: { width: 64, alignSelf: 'stretch', alignItems: 'center', justifyContent: 'center' },
   offline: { fontFamily: fonts.body, fontSize: type.small, color: colors.inkSoft, textAlign: 'center', marginTop: space(4) },

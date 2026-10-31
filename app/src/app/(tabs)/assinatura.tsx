@@ -3,7 +3,8 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Button } from '../../components/Button';
 import { TopBar } from '../../components/TopBar';
 import { Art, ArtName } from '../../illustrations/Art';
-import { colors, fonts, space, type } from '../../theme';
+import { Colors, fonts, space, type } from '../../theme';
+import { useStyles } from '../../theme/ThemeContext';
 
 // Só a apresentação do plano. A cobrança exige compras dentro do app (App Store / Google Play)
 // e um build próprio do app; ainda não está ligada.
@@ -15,6 +16,7 @@ const BENEFITS: { icon: ArtName; title: string; text: string }[] = [
 ];
 
 export default function Assinatura() {
+  const styles = useStyles(createStyles);
   return (
     <SafeAreaView style={styles.screen} edges={['top']}>
       <TopBar />
@@ -46,7 +48,8 @@ export default function Assinatura() {
   );
 }
 
-const styles = StyleSheet.create({
+const createStyles = (colors: Colors) =>
+  StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.bg },
   hero: { backgroundColor: '#2B2D42', borderRadius: 20, borderBottomWidth: 6, borderBottomColor: '#14151F', padding: space(6), alignItems: 'center', gap: space(1) },
   heroTitle: { fontFamily: fonts.display, fontSize: type.hero, color: colors.gold },

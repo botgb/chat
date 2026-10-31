@@ -12,13 +12,15 @@ import {
 import { useApp } from '../state/AppState';
 import { Art, ArtName, subjectArt } from '../illustrations/Art';
 import { useStudy } from '../state/useStudy';
-import { colors, fonts, space, type } from '../theme';
+import { Colors, fonts, space, type } from '../theme';
+import { useColors, useStyles } from '../theme/ThemeContext';
 import { Button } from './Button';
 import { Sheet, SheetOption } from './Sheet';
 
 type Panel = 'exam' | 'subject' | 'streak' | 'diamonds' | 'hearts' | null;
 
 function Item({ icon, value, color, label, onPress }: { icon: ArtName; value: string | number; color: string; label: string; onPress: () => void }) {
+  const styles = useStyles(createStyles);
   return (
     <Pressable onPress={onPress} style={styles.item} accessibilityRole="button" accessibilityLabel={label} hitSlop={4}>
       <Art name={icon} size={30} />
@@ -37,6 +39,8 @@ const shortExam = (title: string) => {
 };
 
 export function TopBar() {
+  const colors = useColors();
+  const styles = useStyles(createStyles);
   const app = useApp();
   const study = useStudy();
   const { progress } = app;
@@ -147,7 +151,8 @@ export function TopBar() {
   );
 }
 
-const styles = StyleSheet.create({
+const createStyles = (colors: Colors) =>
+  StyleSheet.create({
   bar: {
     flexDirection: 'row',
     alignItems: 'center',

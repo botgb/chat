@@ -7,9 +7,12 @@ import { Chip } from '../components/Chip';
 import { Sheet } from '../components/Sheet';
 import { applyNotifications, defaultSettings, formatPhone, isValidEmail, Profile, REMINDER_HOURS, Settings, STREAK_REMINDER_HOUR } from '../lib/settings';
 import { useApp } from '../state/AppState';
-import { colors, fonts, space, type } from '../theme';
+import type { ThemeMode } from '../theme/ThemeContext';
+import { Colors, fonts, space, type } from '../theme';
+import { useColors, useStyles } from '../theme/ThemeContext';
 
 function Section({ title, children }: { title: string; children: ReactNode }) {
+  const styles = useStyles(createStyles);
   return (
     <View style={{ gap: space(2) }}>
       <Text style={styles.section}>{title}</Text>
@@ -19,6 +22,8 @@ function Section({ title, children }: { title: string; children: ReactNode }) {
 }
 
 function ToggleRow({ label, detail, value, onChange, last }: { label: string; detail?: string; value: boolean; onChange: (v: boolean) => void; last?: boolean }) {
+  const colors = useColors();
+  const styles = useStyles(createStyles);
   return (
     <View style={[styles.row, !last && styles.rowLine]}>
       <View style={{ flex: 1 }}>
@@ -51,6 +56,8 @@ function Field({
   error?: string;
   last?: boolean;
 } & Pick<React.ComponentProps<typeof TextInput>, 'keyboardType' | 'autoCapitalize' | 'autoComplete' | 'secureTextEntry' | 'placeholder' | 'textContentType'>) {
+  const colors = useColors();
+  const styles = useStyles(createStyles);
   return (
     <View style={[styles.field, !last && styles.rowLine]}>
       <Text style={styles.fieldLabel}>{label}</Text>
@@ -69,12 +76,19 @@ function Field({
 }
 
 function DangerButton({ label, onPress }: { label: string; onPress: () => void }) {
+  const styles = useStyles(createStyles);
   return (
     <Pressable onPress={onPress} accessibilityRole="button" style={({ pressed }) => [styles.danger, pressed && { opacity: 0.6 }]}>
       <Text style={styles.dangerText}>{label}</Text>
     </Pressable>
   );
 }
+
+const THEMES: { mode: ThemeMode; label: string }[] = [
+  { mode: 'system', label: 'Automático' },
+  { mode: 'light', label: 'Desligado' },
+  { mode: 'dark', label: 'Ligado' },
+];
 
 const SUBSCRIPTIONS_URL = Platform.select({
   ios: 'https://apps.apple.com/account/subscriptions',
@@ -83,6 +97,7 @@ const SUBSCRIPTIONS_URL = Platform.select({
 });
 
 export default function Configuracoes() {
+  const styles = useStyles(createStyles);
   const app = useApp();
   const s = app.settings;
   const [profile, setProfile] = useState<Profile>(s.profile);
@@ -126,6 +141,15 @@ export default function Configuracoes() {
       <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
         <ScrollView contentContainerStyle={{ padding: space(4), gap: space(6), paddingBottom: space(16) }} keyboardShouldPersistTaps="handled">
           <Section title="Preferências">
+            <View style={[styles.field, styles.rowLine]}>
+              <Text style={styles.rowLabel}>Modo escuro</Text>
+              <View style={styles.themes}>
+                {THEMES.map((t) => (
+                  <Chip key={t.mode} label={t.label} active={s.theme === t.mode} onPress={() => update({ theme: t.mode })} />
+                ))}
+              </View>
+              <Text style={styles.muted}>Automático segue o tema do seu celular.</Text>
+            </View>
             <ToggleRow label="Efeitos sonoros" value={s.sound} onChange={(v) => update({ sound: v })} />
             <ToggleRow label="Vibração" detail="Ao acertar e ao errar uma questão" value={s.vibration} onChange={(v) => update({ vibration: v })} last />
           </Section>
@@ -237,7 +261,8 @@ export default function Configuracoes() {
   );
 }
 
-const styles = StyleSheet.create({
+const createStyles = (colors: Colors) =>
+  StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.bg },
   header: { flexDirection: 'row', alignItems: 'center', gap: space(3), paddingHorizontal: space(4), paddingVertical: space(2), borderBottomWidth: 2, borderBottomColor: colors.line },
   back: { fontFamily: fonts.display, fontSize: 36, color: colors.inkSoft, lineHeight: 38 },
@@ -253,6 +278,7 @@ const styles = StyleSheet.create({
   input: { fontFamily: fonts.body, fontSize: type.body, color: colors.ink, backgroundColor: colors.surface, borderRadius: 12, borderWidth: 2, borderColor: colors.line, paddingHorizontal: space(3), paddingVertical: space(2.5) },
   error: { fontFamily: fonts.bodyBold, fontSize: type.small, color: colors.wrong },
   saveRow: { padding: space(4), gap: space(3) },
+  themes: { flexDirection: 'row', flexWrap: 'wrap', gap: space(2), paddingVertical: space(1) },
   hours: { flexDirection: 'row', gap: space(2), paddingHorizontal: space(4), paddingBottom: space(3) },
   danger: { borderRadius: 16, borderWidth: 2, borderBottomWidth: 4, borderColor: colors.line, paddingVertical: space(3.5), alignItems: 'center' },
   dangerText: { fontFamily: fonts.display, fontSize: type.body + 1, color: colors.wrong },
