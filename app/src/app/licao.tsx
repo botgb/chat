@@ -5,6 +5,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Button } from '../components/Button';
 import { QuestionView } from '../components/QuestionView';
 import { Timer, useCountdown } from '../components/Timer';
+import { Art } from '../illustrations/Art';
 import { currentHearts, dayKey, HEART_REFILL_COST, XP_LESSON_COMPLETE } from '../lib/gamification';
 import { buildLesson, filterQuestions, LessonMode } from '../lib/lesson';
 import { Question } from '../lib/types';
@@ -113,7 +114,9 @@ export default function Licao() {
     return (
       <SafeAreaView style={styles.screen}>
         <View style={styles.center}>
-          {params.level ? <BigStars count={finished.stars} /> : <Text style={styles.emoji}>🔁</Text>}
+          {params.level ? <BigStars count={finished.stars} /> : <View style={{ alignItems: 'center' }}>
+              <Art name="revisar" size={88} />
+            </View>}
           <Text style={[styles.big, { textAlign: 'center' }]}>
             {params.level ? (passed ? 'Fase concluída!' : 'Quase lá') : 'Revisão concluída!'}
           </Text>
@@ -146,15 +149,17 @@ export default function Licao() {
     return (
       <SafeAreaView style={styles.screen}>
         <View style={styles.center}>
-          <Text style={styles.emoji}>💔</Text>
+          <View style={{ alignItems: 'center' }}>
+            <Art name="vidas" size={88} opacity={0.4} />
+          </View>
           <Text style={styles.big}>Suas vidas acabaram</Text>
           <Text style={styles.muted}>Elas voltam com o tempo, 1 a cada 30 minutos. Revisar seus erros não gasta vidas.</Text>
           <Button
-            label={`Recarregar por ${HEART_REFILL_COST} 💎`}
+            label={`Recarregar por ${HEART_REFILL_COST} diamantes`}
             disabled={app.progress.diamonds < HEART_REFILL_COST}
             onPress={app.buyHeartRefill}
           />
-          <Text style={[styles.muted, { textAlign: 'center' }]}>Você tem {app.progress.diamonds} 💎</Text>
+          <Text style={[styles.muted, { textAlign: 'center' }]}>Você tem {app.progress.diamonds} diamantes</Text>
           <Button label="Voltar" variant="ghost" onPress={() => router.back()} />
         </View>
       </SafeAreaView>
@@ -173,7 +178,12 @@ export default function Licao() {
         <View style={styles.progressTrack}>
           <View style={[styles.progressBar, { width: `${((index + (revealed ? 1 : 0)) / lesson.length) * 100}%` }]} />
         </View>
-        {useHearts && <Text style={styles.hearts}>❤️ {hearts}</Text>}
+        {useHearts && (
+          <View style={styles.heartsRow}>
+            <Art name="vidas" size={26} />
+            <Text style={styles.hearts}>{hearts}</Text>
+          </View>
+        )}
       </View>
 
       <ScrollView ref={scroll} contentContainerStyle={{ padding: space(5), paddingBottom: space(8), gap: space(4) }}>
@@ -209,7 +219,6 @@ export default function Licao() {
 const styles = StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.bg },
   center: { flex: 1, justifyContent: 'center', padding: space(6), gap: space(5) },
-  emoji: { fontSize: 72, textAlign: 'center' },
   big: { fontFamily: fonts.display, fontSize: type.title + 6, color: colors.ink },
   muted: { fontFamily: fonts.body, fontSize: type.body, color: colors.inkSoft, lineHeight: type.body * 1.4 },
   bigStars: { flexDirection: 'row', justifyContent: 'center', gap: space(2) },
@@ -222,6 +231,7 @@ const styles = StyleSheet.create({
   close: { fontSize: type.title, color: colors.lockedDark, fontFamily: fonts.display },
   progressTrack: { flex: 1, height: 16, borderRadius: 8, backgroundColor: colors.surface, overflow: 'hidden' },
   progressBar: { height: 16, borderRadius: 8, backgroundColor: colors.right },
+  heartsRow: { flexDirection: 'row', alignItems: 'center', gap: 4 },
   hearts: { fontFamily: fonts.display, fontSize: type.lead, color: colors.heart },
   metaRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', gap: space(3) },
   source: { flex: 1, fontFamily: fonts.displayMedium, fontSize: type.small + 1, color: colors.primary },

@@ -63,23 +63,3 @@ export function useStudy() {
     toggleSubject,
   };
 }
-
-export const SUBJECT_ICONS: Record<string, string> = {
-  Matemática: '➗',
-  Biologia: '🧬',
-  Química: '⚗️',
-  Física: '🧲',
-  História: '🏛️',
-  Geografia: '🌎',
-  Português: '📖',
-  'Língua Portuguesa': '📖',
-  Literatura: '📚',
-  Inglês: '🇬🇧',
-  Espanhol: '🇪🇸',
-  Filosofia: '🤔',
-  Sociologia: '👥',
-  Artes: '🎨',
-  Redação: '✍️',
-};
-
-export const subjectIcon = (s: string) => SUBJECT_ICONS[s] ?? '📘';

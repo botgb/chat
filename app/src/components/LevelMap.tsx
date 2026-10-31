@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { Animated, Pressable, StyleSheet, Text, View } from 'react-native';
 import { buildPath, Level, PathItem, Unit } from '../lib/levels';
-import { subjectIcon } from '../state/useStudy';
+import { Art, ArtName, subjectArt } from '../illustrations/Art';
 import { colors, fonts, space, type, unitColors } from '../theme';
 
 const NODE = 72;
@@ -75,7 +75,6 @@ function LevelNode({
   const done = level.stars > 0;
   const bg = !level.unlocked ? colors.locked : done ? colors.gold : color.main;
   const edge = !level.unlocked ? colors.lockedDark : done ? colors.goldDark : color.dark;
-  const icon = level.last ? '🏆' : '★';
   return (
     <View style={{ alignItems: 'center' }}>
       {highlight && (
@@ -97,14 +96,11 @@ function LevelNode({
           <View style={{ paddingTop: pressed ? 6 : 0 }}>
             {highlight && <PulseRing color={color.main} />}
             <View style={[styles.node, { backgroundColor: bg, borderBottomColor: edge, borderBottomWidth: pressed ? 2 : 8 }]}>
-              <Text
-                style={[
-                  level.last ? styles.nodeEmoji : styles.nodeStar,
-                  !level.unlocked && (level.last ? { opacity: 0.45 } : { color: colors.lockedDark }),
-                ]}
-              >
-                {icon}
-              </Text>
+              {level.last ? (
+                <Art name="ranking" size={36} opacity={level.unlocked ? 1 : 0.45} />
+              ) : (
+                <Text style={[styles.nodeStar, !level.unlocked && { color: colors.lockedDark }]}>★</Text>
+              )}
             </View>
           </View>
         )}
@@ -118,18 +114,18 @@ function ChestNode({ item, onOpen }: { item: Extract<PathItem, { kind: 'chest' }
   const ready = item.unlocked && !item.opened;
   const chest = (
     <Pressable onPress={onOpen} disabled={!ready} accessibilityRole="button" accessibilityLabel={item.opened ? 'Baú aberto' : ready ? 'Abrir baú' : 'Baú bloqueado'}>
-      <Text style={[styles.chest, !item.unlocked && { opacity: 0.35 }, item.opened && { opacity: 0.4 }]}>🎁</Text>
+      <Art name="bau" size={60} opacity={!item.unlocked ? 0.35 : item.opened ? 0.4 : 1} />
     </Pressable>
   );
   return ready ? <Bounce>{chest}</Bounce> : chest;
 }
 
 /** Ilustração da matéria ao lado do caminho, no lado oposto à curva. */
-function Decoration({ emoji, side, color }: { emoji: string; side: 'left' | 'right'; color: string }) {
+function Decoration({ art, side, color }: { art: ArtName; side: 'left' | 'right'; color: string }) {
   return (
     <View pointerEvents="none" style={[styles.decor, side === 'left' ? { left: space(2) } : { right: space(2) }]}>
       <View style={[styles.decorBlob, { backgroundColor: color }]} />
-      <Text style={styles.decorEmoji}>{emoji}</Text>
+      <Art name={art} size={72} />
     </View>
   );
 }
@@ -155,7 +151,7 @@ export function LevelMap({
       {units.map((u, ui) => {
         const color = unitColor(ui);
         const path = buildPath(u, openedChests);
-        const emoji = subjectIcon(u.subject);
+        const art = subjectArt(u.subject);
         return (
           <View key={u.subject} onLayout={(e) => onUnitLayout?.(ui, e.nativeEvent.layout.y)} style={{ paddingTop: space(6) }}>
             {ui > 0 && (
@@ -176,8 +172,8 @@ export function LevelMap({
                     style={styles.row}
                     onLayout={isCurrent ? (e) => onCurrentLayout?.(e.nativeEvent.layout.y) : undefined}
                   >
-                    {phase === 2 && <Decoration emoji={emoji} side="left" color={color.main} />}
-                    {phase === 6 && <Decoration emoji={emoji} side="right" color={color.main} />}
+                    {phase === 2 && <Decoration art={art} side="left" color={color.main} />}
+                    {phase === 6 && <Decoration art={art} side="right" color={color.main} />}
                     <View style={{ transform: [{ translateX: x }] }}>
                       {item.kind === 'level' ? (
                         <LevelNode level={item.level} color={color} highlight={isCurrent} onPress={() => onPlay(item.level)} />
@@ -200,17 +196,14 @@ const styles = StyleSheet.create({
   row: { height: ROW, alignItems: 'center', justifyContent: 'center' },
   node: { width: NODE, height: NODE - 6, borderRadius: NODE / 2, alignItems: 'center', justifyContent: 'center' },
   nodeStar: { fontSize: 34, color: '#fff', marginTop: -2 },
-  nodeEmoji: { fontSize: 30 },
   ring: { position: 'absolute', top: -8, left: -8, width: NODE + 16, height: NODE + 8, borderRadius: (NODE + 16) / 2, borderWidth: 4 },
   stars: { position: 'absolute', bottom: -20, flexDirection: 'row', gap: 1 },
   star: { fontSize: 16 },
   tipWrap: { position: 'absolute', top: -44, left: '50%', marginLeft: -80, width: 160, alignItems: 'center', zIndex: 2 },
   tip: { backgroundColor: '#fff', borderWidth: 2, borderBottomWidth: 4, borderRadius: 12, paddingHorizontal: space(3), paddingVertical: space(1) },
   tipText: { fontFamily: fonts.display, fontSize: type.body - 1 },
-  chest: { fontSize: 56 },
   decor: { position: 'absolute', top: -ROW / 2, width: 120, height: 120, alignItems: 'center', justifyContent: 'center' },
   decorBlob: { position: 'absolute', width: 104, height: 104, borderRadius: 52, opacity: 0.12 },
-  decorEmoji: { fontSize: 64 },
   divider: { flexDirection: 'row', alignItems: 'center', gap: space(3), paddingHorizontal: space(4) },
   dividerLine: { flex: 1, height: 2, backgroundColor: colors.line },
   dividerText: { fontFamily: fonts.displayMedium, fontSize: type.body, color: colors.inkSoft },

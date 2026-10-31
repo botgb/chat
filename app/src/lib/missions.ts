@@ -1,4 +1,5 @@
 // Missões diárias geradas no próprio aparelho: as mesmas para o dia inteiro, sem servidor.
+import type { ArtName } from '../illustrations/data';
 import { DailyStats, emptyDaily, Progress } from './gamification';
 
 export type MissionKind = keyof Omit<DailyStats, 'xp'> | 'xp';
@@ -9,20 +10,20 @@ export type Mission = {
   target: number;
   reward: number; // diamantes
   title: string;
-  icon: string;
+  icon: ArtName;
 };
 
 type Template = Omit<Mission, 'id' | 'title'> & { title: (n: number) => string };
 
 const TEMPLATES: Template[] = [
-  { kind: 'answered', target: 10, reward: 10, icon: '📝', title: (n) => `Responda ${n} questões` },
-  { kind: 'answered', target: 20, reward: 20, icon: '📝', title: (n) => `Responda ${n} questões` },
-  { kind: 'correct', target: 8, reward: 15, icon: '🎯', title: (n) => `Acerte ${n} questões` },
-  { kind: 'inTime', target: 5, reward: 15, icon: '⏱️', title: (n) => `Acerte ${n} dentro do tempo da prova` },
-  { kind: 'levels', target: 2, reward: 15, icon: '🗺️', title: (n) => `Conclua ${n} fases da trilha` },
-  { kind: 'stars', target: 3, reward: 15, icon: '⭐', title: (n) => `Ganhe ${n} estrelas novas` },
-  { kind: 'reviews', target: 3, reward: 10, icon: '🔁', title: (n) => `Revise ${n} questões que você errou` },
-  { kind: 'xp', target: 100, reward: 15, icon: '💪', title: (n) => `Ganhe ${n} XP` },
+  { kind: 'answered', target: 10, reward: 10, icon: 'prova', title: (n) => `Responda ${n} questões` },
+  { kind: 'answered', target: 20, reward: 20, icon: 'prova', title: (n) => `Responda ${n} questões` },
+  { kind: 'correct', target: 8, reward: 15, icon: 'missoes', title: (n) => `Acerte ${n} questões` },
+  { kind: 'inTime', target: 5, reward: 15, icon: 'cronometro', title: (n) => `Acerte ${n} dentro do tempo da prova` },
+  { kind: 'levels', target: 2, reward: 15, icon: 'trilha', title: (n) => `Conclua ${n} fases da trilha` },
+  { kind: 'stars', target: 3, reward: 15, icon: 'estrela', title: (n) => `Ganhe ${n} estrelas novas` },
+  { kind: 'reviews', target: 3, reward: 10, icon: 'revisar', title: (n) => `Revise ${n} questões que você errou` },
+  { kind: 'xp', target: 100, reward: 15, icon: 'raio', title: (n) => `Ganhe ${n} XP` },
 ];
 
 export const MISSIONS_PER_DAY = 3;

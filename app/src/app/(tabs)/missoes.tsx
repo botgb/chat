@@ -1,6 +1,7 @@
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { TopBar } from '../../components/TopBar';
+import { Art } from '../../illustrations/Art';
 import { dayKey } from '../../lib/gamification';
 import { CHEST_ID, CHEST_REWARD, missionStatus } from '../../lib/missions';
 import { useApp } from '../../state/AppState';
@@ -29,7 +30,7 @@ export default function Missoes() {
         </View>
 
         <View style={[styles.card, styles.goalCard]}>
-          <Text style={styles.icon}>🔥</Text>
+          <Art name="ofensiva" size={40} />
           <View style={{ flex: 1, gap: space(2) }}>
             <Text style={styles.title}>Meta diária: {goal} questões</Text>
             <View style={styles.track}>
@@ -44,7 +45,7 @@ export default function Missoes() {
 
         {status.missions.map(({ mission, value, done, claimed }) => (
           <View key={mission.id} style={styles.card}>
-            <Text style={styles.icon}>{mission.icon}</Text>
+            <Art name={mission.icon} size={40} />
             <View style={{ flex: 1, gap: space(2) }}>
               <Text style={styles.title}>{mission.title}</Text>
               <View style={styles.track}>
@@ -64,18 +65,21 @@ export default function Missoes() {
                 accessibilityLabel={done ? `Resgatar ${mission.reward} diamantes` : `Recompensa: ${mission.reward} diamantes`}
                 style={[styles.reward, done && styles.rewardReady]}
               >
-                <Text style={[styles.rewardText, done && { color: '#fff' }]}>{mission.reward} 💎</Text>
+                <View style={styles.rewardRow}>
+                  <Text style={[styles.rewardText, done && { color: '#fff' }]}>{mission.reward}</Text>
+                  <Art name="diamantes" size={18} />
+                </View>
               </Pressable>
             )}
           </View>
         ))}
 
         <View style={[styles.card, styles.chest]}>
-          <Text style={styles.icon}>{status.chestClaimed ? '🎉' : '🎁'}</Text>
+          <Art name="bau" size={40} opacity={status.chestClaimed ? 0.4 : 1} />
           <View style={{ flex: 1 }}>
             <Text style={styles.title}>Baú do dia</Text>
             <Text style={styles.muted}>
-              {status.chestClaimed ? 'Resgatado. Volte amanhã!' : `Resgate as 3 missões para abrir: +${CHEST_REWARD} 💎`}
+              {status.chestClaimed ? 'Resgatado. Volte amanhã!' : `Resgate as 3 missões para abrir: +${CHEST_REWARD} diamantes`}
             </Text>
           </View>
           {!status.chestClaimed && (
@@ -102,7 +106,7 @@ const styles = StyleSheet.create({
   card: { flexDirection: 'row', alignItems: 'center', gap: space(3), padding: space(4), borderRadius: 16, borderWidth: 2, borderBottomWidth: 4, borderColor: colors.line },
   chest: { borderColor: colors.gold, backgroundColor: '#FFF8E1' },
   goalCard: { borderColor: colors.streak, backgroundColor: '#FFF1E3' },
-  icon: { fontSize: 32 },
+  rewardRow: { flexDirection: 'row', alignItems: 'center', gap: 4 },
   title: { fontFamily: fonts.displayMedium, fontSize: type.body, color: colors.ink },
   muted: { fontFamily: fonts.body, fontSize: type.small, color: colors.inkSoft },
   track: { height: 20, borderRadius: 10, backgroundColor: colors.surface, overflow: 'hidden', justifyContent: 'center' },

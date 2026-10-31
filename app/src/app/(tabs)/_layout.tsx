@@ -1,9 +1,10 @@
 import { Tabs } from 'expo-router';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
+import { Art, ArtName } from '../../illustrations/Art';
 import { colors } from '../../theme';
 
 // Abas só com ícones; a aba ativa ganha uma moldura destacada.
-const icon = (glyph: string) =>
+const icon = (art: ArtName) =>
   function TabIcon({ focused }: { focused: boolean }) {
     return (
       <View
@@ -18,7 +19,7 @@ const icon = (glyph: string) =>
           justifyContent: 'center',
         }}
       >
-        <Text style={{ fontSize: 26, opacity: focused ? 1 : 0.7 }}>{glyph}</Text>
+        <Art name={art} size={30} opacity={focused ? 1 : 0.75} />
       </View>
     );
   };
@@ -32,11 +33,11 @@ export default function TabsLayout() {
         tabBarStyle: { borderTopWidth: 2, borderTopColor: colors.line, height: 72, paddingTop: 10 },
       }}
     >
-      <Tabs.Screen name="index" options={{ title: 'Trilha', tabBarIcon: icon('🏠') }} />
-      <Tabs.Screen name="missoes" options={{ title: 'Missões', tabBarIcon: icon('🎯') }} />
-      <Tabs.Screen name="ranking" options={{ title: 'Ranking', tabBarIcon: icon('🏆') }} />
-      <Tabs.Screen name="assinatura" options={{ title: 'Assinatura', tabBarIcon: icon('👑') }} />
-      <Tabs.Screen name="perfil" options={{ title: 'Perfil', tabBarIcon: icon('👤') }} />
+      <Tabs.Screen name="index" options={{ title: 'Trilha', tabBarAccessibilityLabel: 'Trilha', tabBarIcon: icon('inicio') }} />
+      <Tabs.Screen name="missoes" options={{ title: 'Missões', tabBarAccessibilityLabel: 'Missões', tabBarIcon: icon('missoes') }} />
+      <Tabs.Screen name="ranking" options={{ title: 'Ranking', tabBarAccessibilityLabel: 'Ranking', tabBarIcon: icon('ranking') }} />
+      <Tabs.Screen name="assinatura" options={{ title: 'Assinatura', tabBarAccessibilityLabel: 'Assinatura', tabBarIcon: icon('assinatura') }} />
+      <Tabs.Screen name="perfil" options={{ title: 'Perfil', tabBarAccessibilityLabel: 'Perfil', tabBarIcon: icon('perfil') }} />
     </Tabs>
   );
 }

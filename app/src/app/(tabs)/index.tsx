@@ -6,6 +6,7 @@ import { Button } from '../../components/Button';
 import { LevelMap, unitColor } from '../../components/LevelMap';
 import { Sheet } from '../../components/Sheet';
 import { TopBar } from '../../components/TopBar';
+import { Art } from '../../illustrations/Art';
 import { dayKey, dueQuestionIds, PATH_CHEST_DIAMONDS } from '../../lib/gamification';
 import { LEVEL_SIZE } from '../../lib/levels';
 import { useApp } from '../../state/AppState';
@@ -33,7 +34,7 @@ export default function Trilha() {
     return (
       <SafeAreaView style={styles.screen} edges={['top']}>
         <View style={styles.empty}>
-          <Text style={styles.emptyEmoji}>📚</Text>
+          <Art name="materias" size={80} />
           <Text style={styles.hero}>Escolha uma prova para começar</Text>
           <Text style={styles.lead}>Baixe as provas que você vai prestar. Depois de baixadas, funcionam sem internet.</Text>
           <Button label="Ver provas" onPress={() => router.push('/provas')} />
@@ -76,7 +77,7 @@ export default function Trilha() {
             </View>
             <View style={[styles.bannerSep, { backgroundColor: color.dark }]} />
             <Pressable onPress={() => setGuide(true)} accessibilityRole="button" accessibilityLabel="Guia da unidade" style={styles.guideBtn}>
-              <Text style={styles.guideIcon}>📒</Text>
+              <Art name="guia" size={34} />
             </Pressable>
           </View>
         </View>
@@ -115,7 +116,7 @@ export default function Trilha() {
           accessibilityLabel={`Revisar ${due} erros`}
           onPress={() => router.push({ pathname: '/licao', params: { mode: 'revisao', vestibular: study.vestibular ?? '', exam: study.examId ?? '' } })}
         >
-          <Text style={styles.fabIcon}>🔁</Text>
+          <Art name="revisar" size={26} />
           <Text style={styles.fabText}>Revisar {due}</Text>
         </Pressable>
       )}
@@ -134,7 +135,7 @@ export default function Trilha() {
         {unit && (
           <View style={{ gap: space(3) }}>
             <Text style={styles.info}>
-              {unit.levels.length} fases de até {LEVEL_SIZE} questões. A última é o desafio da unidade 🏆.
+              {unit.levels.length} fases de até {LEVEL_SIZE} questões. A última é o desafio da unidade, com o troféu.
             </Text>
             <Text style={styles.info}>
               Fases concluídas: {unitDone} de {unit.levels.length}. Estrelas: {unitStars} de {unit.levels.length * 3}.
@@ -142,13 +143,16 @@ export default function Trilha() {
             <Text style={styles.info}>
               Seu acerto em {unit.subject}: {st?.attempts ? `${Math.round((st.correct / st.attempts) * 100)}% em ${st.attempts} questões` : 'ainda sem respostas'}.
             </Text>
-            <Text style={styles.info}>Acerte 3 de 5 para passar de fase, 4 para 2 estrelas e 5 para 3 estrelas. Os baús 🎁 dão diamantes.</Text>
+            <Text style={styles.info}>Acerte 3 de 5 para passar de fase, 4 para 2 estrelas e 5 para 3 estrelas. Os baús no caminho dão diamantes.</Text>
           </View>
         )}
       </Sheet>
 
       <Sheet visible={chestOpened} title="Baú aberto!" onClose={() => setChestOpened(false)}>
-        <Text style={styles.chestReward}>+{PATH_CHEST_DIAMONDS} 💎</Text>
+        <View style={styles.chestRow}>
+          <Text style={styles.chestReward}>+{PATH_CHEST_DIAMONDS}</Text>
+          <Art name="diamantes" size={52} />
+        </View>
         <Button label="Continuar" variant="success" onPress={() => setChestOpened(false)} />
       </Sheet>
     </SafeAreaView>
@@ -158,7 +162,6 @@ export default function Trilha() {
 const styles = StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.bg },
   empty: { flex: 1, justifyContent: 'center', padding: space(6), gap: space(4) },
-  emptyEmoji: { fontSize: 64 },
   hero: { fontFamily: fonts.display, fontSize: type.hero, lineHeight: type.hero * 1.1, color: colors.ink },
   lead: { fontFamily: fonts.body, fontSize: type.lead - 2, lineHeight: (type.lead - 2) * 1.4, color: colors.inkSoft },
   bannerWrap: { paddingHorizontal: space(4), paddingTop: space(3), paddingBottom: space(1), backgroundColor: colors.bg, zIndex: 2 },
@@ -167,14 +170,13 @@ const styles = StyleSheet.create({
   bannerTitle: { fontFamily: fonts.display, fontSize: type.lead + 2, color: '#fff' },
   bannerSep: { width: 2, alignSelf: 'stretch', marginVertical: 0 },
   guideBtn: { width: 64, alignSelf: 'stretch', alignItems: 'center', justifyContent: 'center' },
-  guideIcon: { fontSize: 26 },
   offline: { fontFamily: fonts.body, fontSize: type.small, color: colors.inkSoft, textAlign: 'center', marginTop: space(4) },
   fab: { position: 'absolute', bottom: space(4), borderRadius: 16, borderWidth: 2, borderBottomWidth: 5, backgroundColor: colors.bg, alignItems: 'center', justifyContent: 'center' },
   fabJump: { right: space(4), width: 52, height: 52, borderColor: colors.line },
   jump: { fontFamily: fonts.display, fontSize: 26, color: colors.primary },
   fabReview: { left: space(4), height: 52, flexDirection: 'row', gap: space(2), paddingHorizontal: space(3), borderColor: colors.right, backgroundColor: colors.rightBg },
-  fabIcon: { fontSize: 20 },
   fabText: { fontFamily: fonts.display, fontSize: type.body, color: colors.rightDark },
   info: { fontFamily: fonts.body, fontSize: type.body, lineHeight: type.body * 1.45, color: colors.inkSoft },
-  chestReward: { fontFamily: fonts.display, fontSize: type.hero + 8, color: colors.gem, textAlign: 'center', paddingVertical: space(4) },
+  chestRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: space(2), paddingVertical: space(4) },
+  chestReward: { fontFamily: fonts.display, fontSize: type.hero + 8, color: colors.gem },
 });

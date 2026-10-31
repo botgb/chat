@@ -1,6 +1,7 @@
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { TopBar } from '../../components/TopBar';
+import { Art, ArtName } from '../../illustrations/Art';
 import { dayKey, xpHistory } from '../../lib/gamification';
 import { useApp } from '../../state/AppState';
 import { colors, fonts, space, type } from '../../theme';
@@ -54,10 +55,10 @@ export default function Ranking() {
         </View>
 
         <View style={styles.grid}>
-          <Record icon="🔥" value={`${progress.bestStreak} dias`} label="Maior ofensiva" />
-          <Record icon="⚡" value={`${bestDay} XP`} label="Melhor dia" />
-          <Record icon="💪" value={`${progress.xp} XP`} label="XP total" />
-          <Record icon="⭐" value={stars} label="Estrelas" />
+          <Record icon="ofensiva" value={`${progress.bestStreak} dias`} label="Maior ofensiva" />
+          <Record icon="raio" value={`${bestDay} XP`} label="Melhor dia" />
+          <Record icon="ranking" value={`${progress.xp} XP`} label="XP total" />
+          <Record icon="estrela" value={stars} label="Estrelas" />
         </View>
 
       </ScrollView>
@@ -65,10 +66,10 @@ export default function Ranking() {
   );
 }
 
-function Record({ icon, value, label }: { icon: string; value: string | number; label: string }) {
+function Record({ icon, value, label }: { icon: ArtName; value: string | number; label: string }) {
   return (
     <View style={styles.record}>
-      <Text style={{ fontSize: 26 }}>{icon}</Text>
+      <Art name={icon} size={36} />
       <View>
         <Text style={styles.recordValue}>{value}</Text>
         <Text style={styles.muted}>{label}</Text>

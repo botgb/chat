@@ -10,17 +10,18 @@ import {
   visibleStreak,
 } from '../lib/gamification';
 import { useApp } from '../state/AppState';
-import { subjectIcon, useStudy } from '../state/useStudy';
+import { Art, ArtName, subjectArt } from '../illustrations/Art';
+import { useStudy } from '../state/useStudy';
 import { colors, fonts, space, type } from '../theme';
 import { Button } from './Button';
 import { Sheet, SheetOption } from './Sheet';
 
 type Panel = 'exam' | 'subject' | 'streak' | 'diamonds' | 'hearts' | null;
 
-function Item({ icon, value, color, label, onPress }: { icon: string; value: string | number; color: string; label: string; onPress: () => void }) {
+function Item({ icon, value, color, label, onPress }: { icon: ArtName; value: string | number; color: string; label: string; onPress: () => void }) {
   return (
     <Pressable onPress={onPress} style={styles.item} accessibilityRole="button" accessibilityLabel={label} hitSlop={4}>
-      <Text style={styles.icon}>{icon}</Text>
+      <Art name={icon} size={24} />
       <Text style={[styles.value, { color }]} numberOfLines={1}>
         {value}
       </Text>
@@ -53,23 +54,23 @@ export function TopBar() {
 
   return (
     <View style={styles.bar}>
-      <Item icon="📝" value={examShort} color={colors.ink} label={`Prova: ${study.examLabel}. Trocar`} onPress={() => setPanel('exam')} />
+      <Item icon="prova" value={examShort} color={colors.ink} label={`Prova: ${study.examLabel}. Trocar`} onPress={() => setPanel('exam')} />
       <Item
-        icon="📚"
+        icon="materias"
         value={subjectCount}
         color={colors.primary}
         label={`Matérias: ${study.activeSubjects.length ? study.activeSubjects.join(', ') : 'todas'}. Trocar`}
         onPress={() => setPanel('subject')}
       />
-      <Item icon="🔥" value={streak} color={streak > 0 ? colors.streak : colors.lockedDark} label={`${streak} dias seguidos`} onPress={() => setPanel('streak')} />
-      <Item icon="💎" value={progress.diamonds} color={colors.gem} label={`${progress.diamonds} diamantes`} onPress={() => setPanel('diamonds')} />
-      <Item icon="❤️" value={hearts} color={hearts > 0 ? colors.heart : colors.lockedDark} label={`${hearts} vidas`} onPress={() => setPanel('hearts')} />
+      <Item icon="ofensiva" value={streak} color={streak > 0 ? colors.streak : colors.lockedDark} label={`${streak} dias seguidos`} onPress={() => setPanel('streak')} />
+      <Item icon="diamantes" value={progress.diamonds} color={colors.gem} label={`${progress.diamonds} diamantes`} onPress={() => setPanel('diamonds')} />
+      <Item icon="vidas" value={hearts} color={hearts > 0 ? colors.heart : colors.lockedDark} label={`${hearts} vidas`} onPress={() => setPanel('hearts')} />
 
       <Sheet visible={panel === 'exam'} title="Escolha a prova" onClose={close}>
         {study.vestibulares.map((v) => (
           <View key={v.id} style={{ gap: space(2) }}>
             <SheetOption
-              icon="🗂️"
+              icon="materias"
               label={`${v.name}: todas as provas`}
               detail="Mistura todas as provas baixadas deste vestibular"
               selected={study.vestibular === v.id && !study.examId}
@@ -83,7 +84,7 @@ export function TopBar() {
               .map((p) => (
                 <SheetOption
                   key={p.id}
-                  icon="📄"
+                  icon="prova"
                   label={p.title}
                   detail={`${p.questions.length} questões`}
                   selected={study.examId === p.id}
@@ -96,7 +97,7 @@ export function TopBar() {
           </View>
         ))}
         <SheetOption
-          icon="⬇️"
+          icon="prova"
           label="Baixar outras provas"
           onPress={() => {
             close();
@@ -106,9 +107,9 @@ export function TopBar() {
       </Sheet>
 
       <Sheet visible={panel === 'subject'} title="Escolha as matérias" onClose={close}>
-        <SheetOption icon="📚" label="Todas as matérias" selected={study.activeSubjects.length === 0} onPress={() => study.setSubjects([])} />
+        <SheetOption icon="materias" label="Todas as matérias" selected={study.activeSubjects.length === 0} onPress={() => study.setSubjects([])} />
         {study.subjects.map((s) => (
-          <SheetOption key={s} icon={subjectIcon(s)} label={s} selected={study.activeSubjects.includes(s)} onPress={() => study.toggleSubject(s)} />
+          <SheetOption key={s} icon={subjectArt(s)} label={s} selected={study.activeSubjects.includes(s)} onPress={() => study.toggleSubject(s)} />
         ))}
         <View style={{ marginTop: space(2) }}>
           <Button label="Pronto" onPress={close} />
@@ -125,7 +126,7 @@ export function TopBar() {
 
       <Sheet visible={panel === 'diamonds'} title={`${progress.diamonds} diamantes`} onClose={close}>
         <Text style={styles.info}>Ganhe diamantes completando missões diárias e conquistando estrelas novas nas fases.</Text>
-        <Text style={styles.info}>Use os diamantes para recarregar suas vidas ({HEART_REFILL_COST} 💎).</Text>
+        <Text style={styles.info}>Use os diamantes para recarregar suas vidas ({HEART_REFILL_COST} diamantes).</Text>
       </Sheet>
 
       <Sheet visible={panel === 'hearts'} title={`${hearts} de ${MAX_HEARTS} vidas`} onClose={close}>
@@ -134,7 +135,7 @@ export function TopBar() {
           {hearts < MAX_HEARTS ? ` Próxima vida em ${nextHeartMin} min.` : ''}
         </Text>
         <Button
-          label={hearts >= MAX_HEARTS ? 'Vidas cheias' : `Recarregar por ${HEART_REFILL_COST} 💎`}
+          label={hearts >= MAX_HEARTS ? 'Vidas cheias' : `Recarregar por ${HEART_REFILL_COST} diamantes`}
           disabled={hearts >= MAX_HEARTS || progress.diamonds < HEART_REFILL_COST}
           onPress={() => app.buyHeartRefill() && close()}
         />
@@ -158,7 +159,6 @@ const styles = StyleSheet.create({
   },
   // Cinco itens com a mesma largura: espaçamento igual entre eles.
   item: { flex: 1, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 3, minWidth: 0 },
-  icon: { fontSize: type.lead - 2 },
   value: { fontFamily: fonts.display, fontSize: type.body - 1, flexShrink: 1 },
   info: { fontFamily: fonts.body, fontSize: type.body, lineHeight: type.body * 1.45, color: colors.inkSoft },
 });

@@ -4,6 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Button } from '../../components/Button';
 import { Chip } from '../../components/Chip';
 import { TopBar } from '../../components/TopBar';
+import { Art, ArtName } from '../../illustrations/Art';
 import { dayKey, visibleStreak } from '../../lib/gamification';
 import { useApp } from '../../state/AppState';
 import { useStudy } from '../../state/useStudy';
@@ -15,10 +16,10 @@ const GOALS = [
   { n: 20, label: 'Intenso' },
 ];
 
-function Stat({ icon, value, label }: { icon: string; value: string | number; label: string }) {
+function Stat({ icon, value, label }: { icon: ArtName; value: string | number; label: string }) {
   return (
     <View style={styles.stat}>
-      <Text style={styles.statIcon}>{icon}</Text>
+      <Art name={icon} size={36} />
       <View>
         <Text style={styles.statValue}>{value}</Text>
         <Text style={styles.muted}>{label}</Text>
@@ -39,10 +40,10 @@ export default function Perfil() {
       <TopBar />
       <ScrollView contentContainerStyle={{ padding: space(4), gap: space(6), paddingBottom: space(12) }}>
         <View style={styles.grid}>
-          <Stat icon="🔥" value={visibleStreak(progress, dayKey(new Date()))} label="dias seguidos" />
-          <Stat icon="💎" value={progress.xp} label="XP total" />
-          <Stat icon="⭐" value={totalStars} label="estrelas" />
-          <Stat icon="📝" value={answered} label="questões feitas" />
+          <Stat icon="ofensiva" value={visibleStreak(progress, dayKey(new Date()))} label="dias seguidos" />
+          <Stat icon="raio" value={progress.xp} label="XP total" />
+          <Stat icon="estrela" value={totalStars} label="estrelas" />
+          <Stat icon="prova" value={answered} label="questões feitas" />
         </View>
 
         <View style={{ gap: space(3) }}>
@@ -83,7 +84,6 @@ const styles = StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.bg },
   grid: { flexDirection: 'row', flexWrap: 'wrap', gap: space(3) },
   stat: { flexBasis: '47%', flexGrow: 1, flexDirection: 'row', alignItems: 'center', gap: space(3), padding: space(3), borderRadius: 16, borderWidth: 2, borderColor: colors.line },
-  statIcon: { fontSize: 26 },
   statValue: { fontFamily: fonts.display, fontSize: type.lead, color: colors.ink },
   section: { fontFamily: fonts.display, fontSize: type.lead, color: colors.ink },
   wrap: { flexDirection: 'row', flexWrap: 'wrap', gap: space(2) },
