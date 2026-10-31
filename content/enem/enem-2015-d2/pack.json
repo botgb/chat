@@ -1,0 +1,2708 @@
+{
+ "id": "enem-2015-d2",
+ "vestibular": "enem",
+ "title": "ENEM 2015, dia 2",
+ "year": 2015,
+ "version": 1,
+ "source": "Questões: INEP, ENEM 2015. Transcrição: ENEM API (enem.dev).",
+ "questions": [
+  {
+   "id": "enem-2015-q91-espanhol",
+   "number": 91,
+   "subject": "Espanhol",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Caña"
+    },
+    {
+     "type": "text",
+     "text": "El negro\njunto al cañaveral.\nEl yanqui sobre el cañaveral.\nLa tierra\nbajo el cañaveral.\n¡Sangre\nque se nos va!"
+    },
+    {
+     "type": "text",
+     "text": "GUILLÉN, N. Sóngoro cosongo. Disponível em: www.cervantesvirtual.com. Acesso em: 28 fev. 2012 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "Nesse poema de Nicolás Guillén, no qual o poeta reflete sobre o plantio da cana-de-açúcar na América Latina, as preposições junto, sobre e bajo são usadas para indicar metaforicamente:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Desordens na organização da lavoura de cana-de-açúcar."
+    },
+    {
+     "letter": "B",
+     "text": "Relações diplomáticas entre os países produtores de cana-de-açúcar."
+    },
+    {
+     "letter": "C",
+     "text": "Localidades da América Latina nas quais a cana-de-açúcar é cultivada."
+    },
+    {
+     "letter": "D",
+     "text": "Relações sociais dos indivíduos que vivem do plantio da cana-de-açúcar."
+    },
+    {
+     "letter": "E",
+     "text": "Funções particulares de cada profissional na lavoura da cana-de-açúcar."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2015-q91-ingles",
+   "number": 91,
+   "subject": "Inglês",
+   "statement": [
+    {
+     "type": "text",
+     "text": "My brother the star, my mother the earth"
+    },
+    {
+     "type": "text",
+     "text": "my father the sun, my sister the moon,"
+    },
+    {
+     "type": "text",
+     "text": "to my life give beauty, to my"
+    },
+    {
+     "type": "text",
+     "text": "body give strength, to my corn give"
+    },
+    {
+     "type": "text",
+     "text": "goodness, to my house give peace, to"
+    },
+    {
+     "type": "text",
+     "text": "my spirit give truth, to my elders give"
+    },
+    {
+     "type": "text",
+     "text": "wisdom."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.blackhawkproductions.com. Acesso em: 8 ago. 2012."
+    },
+    {
+     "type": "text",
+     "text": "Produções artístico-culturais revelam visões de mundo próprias de um grupo social. Esse poema demonstra a estreita relação entre a tradição oral da cultura indígena norte-americana e a:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Transmissão de hábitos alimentares entre gerações."
+    },
+    {
+     "letter": "B",
+     "text": "Dependência da sabedoria de seus ancestrais."
+    },
+    {
+     "letter": "C",
+     "text": "Representação do corpo em seus rituais."
+    },
+    {
+     "letter": "D",
+     "text": "Importância dos elementos da natureza."
+    },
+    {
+     "letter": "E",
+     "text": "Preservação da estrutura familiar."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2015-q92-espanhol",
+   "number": 92,
+   "subject": "Espanhol",
+   "statement": [
+    {
+     "type": "text",
+     "text": "En el día del amor, ¡no a la violencia contra la mujer!"
+    },
+    {
+     "type": "text",
+     "text": "Hoy es el día de la amistad y del amor. Pero, parece que este día es puro floro, porque en nustre país aún existen muchos casos de maltrato entre las parejas, sobre todo hacia las mujeres. Por eso, el Ministerio de la Mujer y Poblaciones Vulnerables (MIMP) lanza la segunda etapa de la campaña “Si te quieren, que te quieran bien”."
+    },
+    {
+     "type": "text",
+     "text": "Esta campaña busca detener de una vez el maltrato contra la mujer y para eso, concientizar sobre la importancia de denunciar estos casos. Y es que las cifras son preocupantes. Cada hora se denuncian 17 casos de violencia contra la mujer y en total los Centros de Emergencia de la Mujer (CEM) y el MIMP atendieron en un año a más de 36 mil denuncias de las cuales 7 mil eran de niñas y adolescentes menores de 17 años. Un abuso."
+    },
+    {
+     "type": "text",
+     "text": "Si eres testigo o víctima de algún tipo de violencia ya sea física, psicológica o sexual debes llamar gratuitamente a la línea 100 desde teléfono fijo o celular."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://napa.com.pe. Acesso em: 14 fev. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Pela expressão puro floro, infere-se que o autor considera a comemoração pelo dia do amor e da amizade, no Peru, como uma oportunidade para:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Proteger as populações mais vulneráveis."
+    },
+    {
+     "letter": "B",
+     "text": "Evidenciar as eficazes ações do governo."
+    },
+    {
+     "letter": "C",
+     "text": "Camuflar a violência de gênero existente no país."
+    },
+    {
+     "letter": "D",
+     "text": "Atenuar os maus-tratos cometidos por alguns homens."
+    },
+    {
+     "letter": "E",
+     "text": "Enaltecer o sucesso das campanhas de conscientização feminina."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2015-q93-ingles",
+   "number": 93,
+   "subject": "Inglês",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Why am I compelled to write? Because the writing saves me from this complacency I fear. Because I have no choice. Because I must keep the spirit of my revolt and myself alive. Because the world I create in the writing compensates for what the real world does not give me. By writing I put order in the world, give it a handle so I can grasp it."
+    },
+    {
+     "type": "text",
+     "text": "ANZALDÚA, G. E. Speaking in tongues: a letter to third world women writers. In: HERNANDEZ, J. B. (Ed.). Women writing resistance: essays on Latin America and the Caribbean. Boston: South End, 2003."
+    },
+    {
+     "type": "text",
+     "text": "Gloria Evangelina Anzaldúa, falecida em 2004, foi uma escritora americana de origem mexicana que escreveu sobre questões culturais e raciais. Na citação, o intuito da autora é evidenciar as:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Razões pelas quais ela escreve."
+    },
+    {
+     "letter": "B",
+     "text": "Compensações advindas da escrita."
+    },
+    {
+     "letter": "C",
+     "text": "Possibilidades de mudar o mundo real."
+    },
+    {
+     "letter": "D",
+     "text": "Maneiras de ela lidar com seus medos."
+    },
+    {
+     "letter": "E",
+     "text": "Escolhas que ela faz para ordenar o mundo."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2015-q94-espanhol",
+   "number": 94,
+   "subject": "Espanhol",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Atitlán"
+    },
+    {
+     "type": "text",
+     "text": "El lago Atitlán está situado en el centro de América, en Guatemala. Su belleza es extraordinaria y tiene un gran interés social. En sus márgenes conviven tres culturas: la indígena, la española y la mestiza. Presididos por tres majestuosos volcanes (el Atitlán, el Tolimán y el San Pedro), trece pueblos bordean el lago. Los habitantes del lago son en su mayoría indígenas, aunque crece el porcentaje de ladinos (mestizos). Un buen número de extranjeros – misioneros o investigadores – comparte en los pueblitos la forma de vida de los nativos. A partir de los años setenta, numerosas colonias de hippies se asientan en Atitlán. Jóvenes de todo el mundo, atraídos por el paisaje, el clima semitropical y la sencillez de la vida de los indios, acampan cerca del lago. Además, muchos comerciantes guatemaltecos y extranjeros se han instalado en el pueblo de Panajachel para establecer diversos negocios hoteleros, deportivos y artesanales. A cada día el lago Atitlán atrae a sus costas a más turistas y científicos. Unos llegan buscando sossiego ante el espejismo del lago; otros van a mezclarse con los orgullosos y apacibles indígenas en iglesias y mercados; muchos atraviesan el lago para recorrer los diferentes pueblos y para recrearse en la variada indumentaria de sus habitantes; otros estudian las diferentes lenguas y dialectos que se hablan en la zona y muchos investigan con pasión la rica fauna del lago y de las tierras volcánicas. Realmente, es impresionante la convivencia de tantas etnías y culturas. En el corazón de América hay un lago y unos volcanes que son símbolo y reflejo de lo que es Hispanoamérica: un mosaico de culturas y un ejemplo de convivencia."
+    },
+    {
+     "type": "text",
+     "text": "SUÁREZ, M.; PICO DE COAÑA, M. Sobre iberoamérica. Madrid: Ediciones SM, 1998."
+    },
+    {
+     "type": "text",
+     "text": "De acordo com o texto, a região do entorno do Lago Atitlán, na Guatemala, é de grande relevância social por representar o(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Patrimônio histórico-geográfico que a área abriga."
+    },
+    {
+     "letter": "B",
+     "text": "Diversidade turística que atrai estrangeiros."
+    },
+    {
+     "letter": "C",
+     "text": "Prosperidade econômica que advém de diferentes segmentos comerciais."
+    },
+    {
+     "letter": "D",
+     "text": "Multiculturalidade característica da identidade hispano-americana."
+    },
+    {
+     "letter": "E",
+     "text": "Valorização da cultura indígena observada entre as comunidades locais."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2015-q94-ingles",
+   "number": 94,
+   "subject": "Inglês",
+   "statement": [
+    {
+     "type": "text",
+     "text": "How fake images change our memory and behaviour"
+    },
+    {
+     "type": "text",
+     "text": "For decades, researchers have been exploring just how unreliable our own memories are. Not only is memory fickle when we access it, but it’s also quite easily with subverted and rewritten. Combine this susceptibility with modern image-editing software at our fingertips like Photoshop, and it’s a recipe for disaster. In a world where we can witness news and world events as they unfold, fake images surround us, and our minds accept these pictures as real, and remember them later. These fake memories don’t just distort how we see our past, they affect our current and future behaviour too – from what we eat, to how we protest and vote. The problem is there’s virtually nothing we can do to stop it."
+    },
+    {
+     "type": "text",
+     "text": "Old memories seem to be the easiest to manipulate. In one study, subjects were showed images from their childhood. Along with real images, researchers snuck in manipulated photographs of the subject taking a hotair balloon ride with his or her family. After seeing those images, 50% of subjects recalled some part of that hot-air balloon ride – though the event was entirely made up."
+    },
+    {
+     "type": "text",
+     "text": "EVELETH, R. Disponível em: www.bbc.com. Acesso em: 16 jan. 2013 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A reportagem apresenta consequências do uso de novas tecnologias para a mente humana. Nesse contexto, a memória das pessoas é influenciada pelo(a):"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Alteração de imagens."
+    },
+    {
+     "letter": "B",
+     "text": "Exposição ao mundo virtual."
+    },
+    {
+     "letter": "C",
+     "text": "Acesso a novas informações."
+    },
+    {
+     "letter": "D",
+     "text": "Fascínio por softwares inovadores."
+    },
+    {
+     "letter": "E",
+     "text": "Interferência dos meios de comunicação."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2015-q95-espanhol",
+   "number": 95,
+   "subject": "Espanhol",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Los guionistas estadounidenses introducen cada vez más el español en sus diálogos"
+    },
+    {
+     "type": "text",
+     "text": "En los últimos años, la realidad cultural y la presencia creciente de migrantes de origen latinoamericano en EE UU ha propiciado que cada vez más estadounidenses alternen el inglés y el español en un mismo discurso.\nUn estudio publicado en la revista Vial-Vigo International Journal of Applied Linguistics se centra en las estrategias que usan los guionistas de la versión original para incluir el español en el guión o a personajes de origen latinoamericano.\nLos guionistas estadounidenses suelen usar subtítulos en inglés cuando el español que aparece en la serie o película es importante para el argumento. Si esto no ocurre, y sólo hay interjecciones, aparece sin subtítulos. En aquellas conversaciones que no tienen relevancia se añade en ocasiones el subtítulo Speaks Spanish (habla en español).\n“De esta forma, impiden al público conocer qué están diciendo los dos personajes que hablan español”, explica la autora del estudio y profesora e investigadora en la Universidad Pablo de Olavide (UPO) de Sevilla."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.agenciasinc.es. Acesso em: 23 ago. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "De acordo com o texto, nos filmes norte-americanos, nem todas as falas em espanhol são legendadas em inglês. Esse fato revela a:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Assimetria no tratamento do espanhol como elemento da diversidade linguística nos Estados Unidos."
+    },
+    {
+     "letter": "B",
+     "text": "Escassez de personagens de origem hispânica nas séries e filmes produzidos nos Estados Unidos."
+    },
+    {
+     "letter": "C",
+     "text": "Desconsideração com o público hispânico que frequenta as salas de cinema norte-americanas."
+    },
+    {
+     "letter": "D",
+     "text": "Falta de uma formação linguística específica para os roteiristas e tradutores norte-americanos."
+    },
+    {
+     "letter": "E",
+     "text": "Carência de pesquisas científicas sobre a influência do espanhol na cultura norte-americana."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2015-q97",
+   "number": 97,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O rap, palavra formada pelas iniciais de rhythm and poetry (ritmo e poesia), junto com as linguagens da dança (o break dancing) e das artes plásticas (o grafite), seria difundido, para além dos guetos, com o nome de cultura hip hop. O break dancing surge como uma dança de rua. O grafite nasce de assinaturas inscritas pelos jovens com sprays nos muros, trens e estações de metrô de Nova York. As linguagens do rap, do break dancing e do grafite se tornaram os pilares da cultura hip hop."
+    },
+    {
+     "type": "text",
+     "text": "DAYRELL, J. A música entra em cena: o rap e o funk na socialização da juventude. Belo Horizonte: UFMG, 2005 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Entre as manifestações da cultura hip hop apontadas no texto, o break se caracteriza como um tipo de dança que representa aspectos contemporâneos por meio de movimentos"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Retilíneos, como crítica aos indivíduos alienados."
+    },
+    {
+     "letter": "B",
+     "text": "Improvisados, como expressão da dinâmica da vida urbana."
+    },
+    {
+     "letter": "C",
+     "text": "Suaves, como sinônimo da rotina dos espaços públicos."
+    },
+    {
+     "letter": "D",
+     "text": "Ritmados pela sola dos sapatos, como símbolo de protesto."
+    },
+    {
+     "letter": "E",
+     "text": "Cadenciados, como contestação às rápidas mudanças culturais."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2015-q98",
+   "number": 98,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Primeiro surgiu o homem nu de cabeça baixa. Deus veio num raio. Então apareceram os bichos que comiam os homens. E se fez o fogo, as especiarias, a roupa, a espada e o dever. Em seguida se criou a filosofia, que explicava como não fazer o que não devia ser feito. Então surgiram os números racionais e a História, organizando os eventos sem sentido. A fome desde sempre, das coisas e das pessoas. Foram inventados o calmante e o estimulante. E alguém apagou a luz. E cada um se vira como pode, arrancando as cascas das feridas que alcança."
+    },
+    {
+     "type": "text",
+     "text": "BONASSI, F. 15 cenas do descobrimento de Brasis. In: MORICONI, Í. (Org.). Os cem melhores contos do século. Rio de Janeiro: Objetiva, 2001."
+    },
+    {
+     "type": "text",
+     "text": "A narrativa enxuta e dinâmica de Fernando Bonassi configura um painel evolutivo da história da humanidade. Nele, a projeção do olhar contemporâneo manifesta uma percepção que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Recorre à tradição bíblica como fonte de inspiração para a humanidade."
+    },
+    {
+     "letter": "B",
+     "text": "Desconstrói o discurso da filosofia a fim de questionar o conceito de dever."
+    },
+    {
+     "letter": "C",
+     "text": "Resgata a metodologia da história para denunciar as atitudes irracionais."
+    },
+    {
+     "letter": "D",
+     "text": "Transita entre o humor e a ironia para celebrar o caos da vida cotidiana."
+    },
+    {
+     "letter": "E",
+     "text": "Satiriza a matemática e a medicina para desmistificar o saber científico."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2015-q99",
+   "number": 99,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Cântico VI"
+    },
+    {
+     "type": "text",
+     "text": "Tu tens um medo de\nAcabar.\nNão vês que acabas todo o dia.\nQue morres no amor.\nNa tristeza.\nNa dúvida.\nNo desejo.\nQue te renovas todo dia.\nNo amor.\nNa tristeza.\nNa dúvida.\nNo desejo.\nQue és sempre outro.\nQue és sempre o mesmo.\nQue morrerás por idades imensas\nAté não teres medo de morrer.\nE então serás eterno."
+    },
+    {
+     "type": "text",
+     "text": "MEIRELES, C. Antologia poética. Rio de Janeiro: Record, 1963 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "A poesia de Cecília Meireles revela concepções sobre o homem em seu aspecto existencial. Em Cântico VI, o eu lírico exorta seu interlocutor a perceber, como inerente à condição humana,"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A sublimação espiritual graças ao poder de se emocionar."
+    },
+    {
+     "letter": "B",
+     "text": "O desalento irremediável em face do cotidiano repetitivo."
+    },
+    {
+     "letter": "C",
+     "text": "O questionamento cético sobre o rumo das atitudes humanas."
+    },
+    {
+     "letter": "D",
+     "text": "A vontade inconsciente de perpetuar-se em estado adolescente."
+    },
+    {
+     "letter": "E",
+     "text": "Um receio ancestral de confrontar a imprevisibilidade das coisas."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2015-q100",
+   "number": 100,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Essa pequena"
+    },
+    {
+     "type": "text",
+     "text": "Meu tempo é curto, o tempo dela sobra\nMeu cabelo é cinza, o dela é cor de abóbora\nTemo que não dure muito a nossa novela, mas\nEu sou tão feliz com ela\nMeu dia voa e ela não acorda\nVou até a esquina, ela quer ir para a Flórida\nAcho que nem sei direito o que é que ela fala, mas\nNão canso de contemplá-la\nFeito avarento, conto os meus minutos\nCada segundo que se esvai\nCuidando dela, que anda noutro mundo\nEla que esbanja suas horas ao vento, ai\nÀs vezes ela pinta a boca e sai\nFique à vontade, eu digo, take your time\nSinto que ainda vou penar com essa pequena, mas\nO blues já valeu a pena"
+    },
+    {
+     "type": "text",
+     "text": "CHICO BUARQUE. Disponível em: www.chicobuarque.com.br. Acesso em: 31 jun. 2012."
+    },
+    {
+     "type": "text",
+     "text": "O texto Essa pequena registra a expressão subjetiva do enunciador, trabalhada em uma linguagem informal, comum na música popular."
+    },
+    {
+     "type": "text",
+     "text": "Observa-se, como marca da variedade coloquial da linguagem presente no texto, o uso de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Palavras emprestadas de língua estrangeira, de uso inusitado no português."
+    },
+    {
+     "letter": "B",
+     "text": "Expressões populares, que reforçam a proximidade entre o autor e o leitor."
+    },
+    {
+     "letter": "C",
+     "text": "Palavras polissêmicas, que geram ambiguidade."
+    },
+    {
+     "letter": "D",
+     "text": "Formas pronominais em primeira pessoa."
+    },
+    {
+     "letter": "E",
+     "text": "Repetições sonoras no final dos versos."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2015-q101",
+   "number": 101,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Carta ao Tom 74"
+    },
+    {
+     "type": "text",
+     "text": "Rua Nascimento Silva, cento e sete"
+    },
+    {
+     "type": "text",
+     "text": "Você ensinando pra Elizete"
+    },
+    {
+     "type": "text",
+     "text": "As canções de canção do amor demais"
+    },
+    {
+     "type": "text",
+     "text": "Lembra que tempo feliz"
+    },
+    {
+     "type": "text",
+     "text": "Ah, que saudade,"
+    },
+    {
+     "type": "text",
+     "text": "Ipanema era só felicidade"
+    },
+    {
+     "type": "text",
+     "text": "Era como se o amor doesse em paz"
+    },
+    {
+     "type": "text",
+     "text": "Nossa famosa garota nem sabia"
+    },
+    {
+     "type": "text",
+     "text": "A que ponto a cidade turvaria"
+    },
+    {
+     "type": "text",
+     "text": "Esse Rio de amor que se perdeu"
+    },
+    {
+     "type": "text",
+     "text": "Mesmo a tristeza da gente era mais bela"
+    },
+    {
+     "type": "text",
+     "text": "E além disso se via da janela"
+    },
+    {
+     "type": "text",
+     "text": "Um cantinho de céu e o Redentor"
+    },
+    {
+     "type": "text",
+     "text": "É, meu amigo, só resta uma certeza,"
+    },
+    {
+     "type": "text",
+     "text": "É preciso acabar com essa tristeza"
+    },
+    {
+     "type": "text",
+     "text": "É preciso inventar de novo o amor"
+    },
+    {
+     "type": "text",
+     "text": "MORAES, V.; TOQUINHO. Bossa Nova, sua história, sua gente. São Paulo: Universal; Philips,1975 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "O trecho da canção de Toquinho e Vinícius de Moraes apresenta marcas do gênero textual carta, possibilitando que o eu poético e o interlocutor"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Compartilhem uma visão realista sobre o amor em sintonia com o meio urbano."
+    },
+    {
+     "letter": "B",
+     "text": "Troquem notícias em tom nostálgico sobre as mudanças ocorridas na cidade."
+    },
+    {
+     "letter": "C",
+     "text": "Façam confidências, uma vez que não se encontram mais no Rio de Janeiro."
+    },
+    {
+     "letter": "D",
+     "text": "Tratem pragmaticamente sobre os destinos do amor e da vida citadina."
+    },
+    {
+     "letter": "E",
+     "text": "Aceitem as transformações ocorridas em pontos turísticos específicos."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2015-q102",
+   "number": 102,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "14 coisas que você não deve jogar na privada"
+    },
+    {
+     "type": "text",
+     "text": "Nem no ralo. Elas poluem rios, lagos e mares, o que contamina o ambiente e os animais. Também deixa mais difícil obter a água que nós mesmos usaremos. Alguns produtos podem causar entupimentos:"
+    },
+    {
+     "type": "text",
+     "text": "– cotonete\n– medicamento e preservativo;\n– óleo de cozinha;\n– ponta de cigarro;\n– poeira de varrição de casa;\n– fio de cabelo e pelo de animais;\n– tinta que não seja à base de água;\n– querosene, gasolina, solvente, tíner."
+    },
+    {
+     "type": "text",
+     "text": "Jogue esses produtos no lixo comum. Alguns deles, como óleo de cozinha, medicamento e tinta, podem ser levados a pontos de coleta especiais, que darão a destinação final adequada."
+    },
+    {
+     "type": "text",
+     "text": "MORGADO, M.; EMASA. Manual de etiqueta. Planeta Sustentável, jul.-ago. 2013 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O texto tem objetivo educativo. Nesse sentido, além do foco no interlocutor, que caracteriza a função conativa da linguagem, predomina também nele a função referencial, que busca"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Despertar no leitor sentimentos de amor pela natureza, induzindo-o a ter atitudes responsáveis que beneficiarão a sustentabilidade do planeta."
+    },
+    {
+     "letter": "B",
+     "text": "Informar o leitor sobre as consequências da destinação inadequada do lixo, orientando-o sobre como fazer o correto descarte de alguns dejetos."
+    },
+    {
+     "letter": "C",
+     "text": "Transmitir uma mensagem de caráter subjetivo, mostrando exemplos de atitudes sustentáveis do autor do texto em relação ao planeta."
+    },
+    {
+     "letter": "D",
+     "text": "Estabelecer uma comunicação com o leitor, procurando certificar-se de que a mensagem sobre ações de sustentabilidade está sendo compreendida."
+    },
+    {
+     "letter": "E",
+     "text": "Explorar o uso da linguagem, conceituando detalhadamente os termos utilizados de forma a proporcionar melhor compreensão do texto."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2015-q103",
+   "number": 103,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Embalagens usadas e resíduos devem ser descartados adequadamente"
+    },
+    {
+     "type": "text",
+     "text": "Todos os meses são recolhidas das rodovias brasileiras centenas de milhares de toneladas de lixo. Só nos 22,9 mil quilômetros das rodovias paulistas são 41,5 mil toneladas. O hábito de descartar embalagens, garrafas, papéis e bitucas de cigarro pelas rodovias persiste e tem aumentado nos últimos anos. O problema é que o lixo acumulado na rodovia, além de prejudicar o meio ambiente, pode impedir o escoamento da água, contribuir para as enchentes, provocar incêndios, atrapalhar o trânsito e até causar acidentes. Além dos perigos que o lixo representa para os motoristas, o material descartado poderia ser devolvido para a cadeia produtiva. Ou seja, o papel que está sobrando nas rodovias poderia ter melhor destino. Isso também vale para os plásticos inservíveis, que poderiam se transformar em sacos de lixo, baldes, cabides e até acessórios para os carros."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.girodasestradas.com.br. Acesso em: 31 jul. 2012."
+    },
+    {
+     "type": "text",
+     "text": "Os gêneros textuais correspondem a certos padrões de composição de texto, determinados pelo contexto em que são produzidos, pelo público a que eles se destinam, por sua finalidade."
+    },
+    {
+     "type": "text",
+     "text": "Pela leitura do texto apresentado, reconhece-se que sua função é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Apresentar dados estatísticos sobre a reciclagem no país."
+    },
+    {
+     "letter": "B",
+     "text": "Alertar sobre os riscos da falta de sustentabilidade do mercado de recicláveis."
+    },
+    {
+     "letter": "C",
+     "text": "Divulgar a quantidade de produtos reciclados retirados das rodovias brasileiras."
+    },
+    {
+     "letter": "D",
+     "text": "Revelar os altos índices de acidentes nas rodovias brasileiras poluídas nos últimos anos."
+    },
+    {
+     "letter": "E",
+     "text": "Conscientizar sobre a necessidade de preservação ambiental e de segurança nas rodovias."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2015-q104",
+   "number": 104,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "da sua memória"
+    },
+    {
+     "type": "text",
+     "text": "mil\ne\nmui\ntos\nout\nros\nros\ntos\nsol\ntos\npou\ncoa\npou\ncoa\npag\namo\nmeu"
+    },
+    {
+     "type": "text",
+     "text": "ANTUNES, A. 2 ou + corpos no mesmo espaço. São Paulo: Perspectiva, 1998."
+    },
+    {
+     "type": "text",
+     "text": "Trabalhando com recursos formais inspirados no Concretismo, o poema atinge uma expressividade que se caracteriza pela"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Interrupção da fluência verbal, para testar os limites da lógica racional."
+    },
+    {
+     "letter": "B",
+     "text": "Reestruturação formal da palavra, para provocar o estranhamento no leitor."
+    },
+    {
+     "letter": "C",
+     "text": "Dispersão das unidades verbais, para questionar o sentido das lembranças."
+    },
+    {
+     "letter": "D",
+     "text": "Fragmentação da palavra, para representar o estreitamento das lembranças."
+    },
+    {
+     "letter": "E",
+     "text": "Renovação das formas tradicionais, para propor uma nova vanguarda poética."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2015-q105",
+   "number": 105,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A emergência da sociedade da informação está associada a um conjunto de profundas transformações ocorridas desde as últimas duas décadas do século XX. Tais mudanças ocorrem em dimensões distintas da vida humana em sociedade, as quais interagem de maneira sinérgica e confluem para projetar a informação e o conhecimento como elementos estratégicos, dos pontos de vista econômico-produtivo, político e sociocultural."
+    },
+    {
+     "type": "text",
+     "text": "A sociedade da informação caracteriza-se pela crescente utilização de técnicas de transmissão, armazenamento de dados e informações a baixo custo, acompanhadas por inovações organizacionais, sociais e legais. Ainda que tenha surgido motivada por um conjunto de transformações na base técnico-científica, ela se investe de um significado bem mais abrangente."
+    },
+    {
+     "type": "text",
+     "text": "LEGEY, L.-R.; ALBAGLI, S. Disponível em: www.dgz.org.br. Acesso em: 4 dez. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O mundo contemporâneo tem sido caracterizado pela crescente utilização das novas tecnologias e pelo acesso à informação cada vez mais facilitado."
+    },
+    {
+     "type": "text",
+     "text": "De acordo com o texto, a sociedade da informação corresponde a uma mudança na organização social porque"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Representa uma alternativa para a melhoria da qualidade de vida."
+    },
+    {
+     "letter": "B",
+     "text": "Associa informações obtidas instantaneamente por todos e em qualquer parte do mundo."
+    },
+    {
+     "letter": "C",
+     "text": "Propõe uma comunicação mais rápida e barata, contribuindo para a intensificação do comércio."
+    },
+    {
+     "letter": "D",
+     "text": "Propicia a interação entre as pessoas por meio de redes sociais."
+    },
+    {
+     "letter": "E",
+     "text": "Representa um modelo em que a informação é utilizada intensamente nos vários setores da vida."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2015-q106",
+   "number": 106,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Embora particularidades na produção mediada pela tecnologia aproximem a escrita da oralidade, isso não significa que as pessoas estejam escrevendo errado. Muitos buscam, tão somente, adaptar o uso da linguagem ao suporte utilizado: “O contexto é que define o registro de língua. Se existe um limite de espaço, naturalmente, o sujeito irá usar mais abreviaturas, como faria no papel”, afirma um professor do Departamento de Linguagem e Tecnologia do Cefet-MG. Da mesma forma, é preciso considerar a capacidade do destinatário de interpretar corretamente a mensagem emitida. No entendimento do pesquisador, a escola, às vezes, insiste em ensinar um registro utilizado apenas em contextos específicos, o que acaba por desestimular o aluno, que não vê sentido em empregar tal modelo em outras situações. Independentemente dos aparatos tecnológicos da atualidade, o emprego social da língua revela-se muito mais significativo do que seu uso escolar, conforme ressalta a diretora de Divulgação Científica da UFMG: “A dinâmica da língua oral é sempre presente. Não falamos ou escrevemos da mesma forma que nossas avós”. Some-se a isso o fato de os jovens se revelarem os principais usuários das novas tecnologias, por meio das quais conseguem se comunicar com facilidade. A professora ressalta, porém, que as pessoas precisam ter discernimento quanto às distintas situações, a fim de dominar outros códigos."
+    },
+    {
+     "type": "text",
+     "text": "SILVA JR., M. G.; FONSECA, V. Revista Minas Faz Ciência, n. 51, set.-nov. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Na esteira do desenvolvimento das tecnologias de informação e de comunicação, usos particulares da escrita foram surgindo."
+    },
+    {
+     "type": "text",
+     "text": "Diante dessa nova realidade, segundo o texto, cabe à escola levar o aluno a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Interagir por meio da linguagem formal no contexto digital."
+    },
+    {
+     "letter": "B",
+     "text": "Buscar alternativas para estabelecer melhores contatos on-line."
+    },
+    {
+     "letter": "C",
+     "text": "Adotar o uso de uma mesma norma nos diferentes suportes tecnológicos."
+    },
+    {
+     "letter": "D",
+     "text": "Desenvolver habilidades para compreender os textos postados na web."
+    },
+    {
+     "letter": "E",
+     "text": "Perceber as especificidades das linguagens em diferentes ambientes digitais."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2015-q107",
+   "number": 107,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A pátria"
+    },
+    {
+     "type": "text",
+     "text": "Ama, com fé e orgulho, a terra em que nasceste!\nCriança! não verás nenhum pais como este!\nOlha que céu! que mar! que rios! que floresta!\nA Natureza, aqui, perpetuamente em festa,\nÉ um seio de mãe a transbordar carinhos.\nVê que vida há no chão! vê que vida há nos ninhos,\nQue se balançam no ar, entre os ramos inquietos!\nVê que luz, que calor, que multidão de insetos!\nVê que grande extensão de matas, onde impera,\nFecunda e luminosa, a eterna primavera!\nBoa terra! jamais negou a quem trabalha\nO pão que mata a fome, o teto que agasalha…"
+    },
+    {
+     "type": "text",
+     "text": "Quem com o seu suor a fecunda e umedece,\nVê pago o seu esforço, e é feliz, e enriquece!"
+    },
+    {
+     "type": "text",
+     "text": "Criança! não verás pais nenhum como este:\nImita na grandeza a terra em que nasceste!"
+    },
+    {
+     "type": "text",
+     "text": "BILAC, O. Poesias infantis. Rio de Janeiro: Francisco Alves, 1929."
+    },
+    {
+     "type": "text",
+     "text": "Publicado em 1904, o poema A pátria harmoniza-se com um projeto ideológico em construção na Primeira República. O discurso poético de Olavo Bilac ecoa esse projeto, na medida em que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A paisagem natural ganha contornos surreais, como o projeto brasileiro de grandeza."
+    },
+    {
+     "letter": "B",
+     "text": "A prosperidade individual, como a exuberância da terra, independe de políticas de governo."
+    },
+    {
+     "letter": "C",
+     "text": "Os valores afetivos atribuídos à família devem ser aplicados também aos ícones nacionais."
+    },
+    {
+     "letter": "D",
+     "text": "A capacidade produtiva da terra garante ao país a riqueza que se verifica naquele momento."
+    },
+    {
+     "letter": "E",
+     "text": "A valorização do trabalhador passa a integrar o conceito de bem-estar social experimentado."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2015-q109",
+   "number": 109,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Yaô"
+    },
+    {
+     "type": "text",
+     "text": "Aqui có no terreiro\nPelú adié\nFaz inveja pra gente\nQue não tem mulher"
+    },
+    {
+     "type": "text",
+     "text": "No jacutá de preto velho\nHá uma festa de yaô"
+    },
+    {
+     "type": "text",
+     "text": "Ôi tem nêga de Ogum\nDe Oxalá, de lemanjá"
+    },
+    {
+     "type": "text",
+     "text": "Mucama de Oxossi é caçador\nOra viva Nanã\nNanã Buruku"
+    },
+    {
+     "type": "text",
+     "text": "Yô yôo\nYô yôoo"
+    },
+    {
+     "type": "text",
+     "text": "No terreiro de preto velho iaiá\nVamos saravá (a quem meu pai?)\nXangô!"
+    },
+    {
+     "type": "text",
+     "text": "VIANA, G. Agó, Pixinguinha! 100 Anos. Som Livre, 1997."
+    },
+    {
+     "type": "text",
+     "text": "A canção Yaô foi composta na década de 1930 por Pixinguinha, em parceria com Gastão Viana, que escreveu a letra. O texto mistura o português com o iorubá, língua usada por africanos escravizados trazidos para o Brasil."
+    },
+    {
+     "type": "text",
+     "text": "Ao fazer uso do iorubá nessa composição, o autor"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Promove uma crítica bem-humorada às religiões afrobrasileiras, destacando diversos orixás."
+    },
+    {
+     "letter": "B",
+     "text": "Ressalta uma mostra da marca da cultura africana, que se mantém viva na produção musical brasileira."
+    },
+    {
+     "letter": "C",
+     "text": "Evidencia a superioridade da cultura africana e seu caráter de resistência à dominação do branco."
+    },
+    {
+     "letter": "D",
+     "text": "Deixa à mostra a separação racial e cultural que caracteriza a constituição do povo brasileiro."
+    },
+    {
+     "letter": "E",
+     "text": "Expressa os rituais africanos com maior autenticidade, respeitando as referências originais."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2015-q111",
+   "number": 111,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Ao se apossarem do novo território, os europeus ignoraram um universo de antiga sabedoria, povoado por homens e bens unidos por um sistema integrado. A recusa em se inteirar dos valores culturais dos primeiros habitantes levou-os a uma descrição simplista desses grupos e à sua sucessiva destruição."
+    },
+    {
+     "type": "text",
+     "text": "Na verdade, não existe uma distinção entre a nossa arte e aquela produzida por povos tecnicamente menos desenvolvidos. As duas manifestações devem ser encaradas como expressões diferentes dos modos de sentir e pensar das várias sociedades, mas também como equivalentes, por resultarem de impulsos humanos comuns."
+    },
+    {
+     "type": "text",
+     "text": "SCATAMACHIA, M. C. M. In: AGUILAR, N. (Org.). Mostra do redescobrimento: arqueologia. São Paulo: Fundação Bienal de São Paulo – Associação Brasil 500 anos artes visuais, 2000."
+    },
+    {
+     "type": "text",
+     "text": "De acordo com o texto, inexiste distinção entre as artes produzidas pelos colonizadores e pelos colonizados, pois ambas compartilham o(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Suporte artístico."
+    },
+    {
+     "letter": "B",
+     "text": "Nível tecnológico."
+    },
+    {
+     "letter": "C",
+     "text": "Base antropológica."
+    },
+    {
+     "letter": "D",
+     "text": "Concepção estética."
+    },
+    {
+     "letter": "E",
+     "text": "Referencial temático."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2015-q112",
+   "number": 112,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Na exposição “A Artista Está Presente”, no MoMA, em Nova Iorque, a performer Marina Abramovic fez uma retrospectiva de sua carreira. No meio desta, protagonizou uma performance marcante. Em 2010, de 14 de março a 31 de maio, seis dias por semana, num total de 736 horas, ela repetia a mesma postura. Sentada numa sala, recebia os visitantes, um a um, e trocava com cada um deles um longo olhar sem palavras. Ao redor, o público assistia a essas cenas recorrentes."
+    },
+    {
+     "type": "text",
+     "text": "ZANIN, L. Marina Abramovic, ou a força do olhar. Disponível em: http://blogs.estadao.com.br. Acesso em: 4 nov. 2013."
+    },
+    {
+     "type": "text",
+     "text": "O texto apresenta uma obra da artista Marina Abramovic, cuja performance se alinha a tendências contemporâneas e se caracteriza pela"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Inovação de uma proposta de arte relacional que adentra um museu."
+    },
+    {
+     "letter": "B",
+     "text": "Abordagem educacional estabelecida na relação da artista com o público."
+    },
+    {
+     "letter": "C",
+     "text": "Redistribuição do espaço do museu, que integra diversas linguagens artísticas."
+    },
+    {
+     "letter": "D",
+     "text": "Negociação colaborativa de sentidos entre a artista e a pessoa com quem interage."
+    },
+    {
+     "letter": "E",
+     "text": "Aproximação entre artista e público, o que rompe com a elitização dessa forma de arte."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2015-q113",
+   "number": 113,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "TEXTO I"
+    },
+    {
+     "type": "text",
+     "text": "Um ato de criatividade pode contudo gerar um modelo produtivo. Foi o que ocorreu com a palavra sambódromo, criativamente formada com a terminação -(ó)dromo (= corrida), que figura em hipódromo, autódromo, cartódromo, formas que designam itens culturais da alta burguesia. Não demoraram a circular, a partir de então, formas populares como rangódromo, beijódromo, camelódromo."
+    },
+    {
+     "type": "text",
+     "text": "AZEREDO, J. C. Gramática Houaiss da língua portuguesa. São Paulo: Publifolha, 2008."
+    },
+    {
+     "type": "text",
+     "text": "TEXTO II"
+    },
+    {
+     "type": "text",
+     "text": "Existe coisa mais descabida do que chamar de sambódromo uma passarela para desfile de escolas de samba? Em grego, -dromo quer dizer “ação de correr, lugar de corrida”, daí as palavras autódromo e hipódromo. É certo que, as vezes, durante o desfile, a escola se atrasa e eé obrigada a correr para não perder pontos, mas não se desloca com a velocidade de um cavalo ou de um carro de Fórmula 1."
+    },
+    {
+     "type": "text",
+     "text": "GULLAR, F. Disponível em: www1.folha.uol.com.br. Acesso em: 3 ago. 2012."
+    },
+    {
+     "type": "text",
+     "text": "Há nas línguas mecanismos geradores de palavras. Embora o Texto II apresente um julgamento de valor sobre a formação da palavra sambódromo, o processo de formação dessa palavra reflete"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "O dinamismo da língua na criação de novas palavras."
+    },
+    {
+     "letter": "B",
+     "text": "Uma nova realidade limitando o aparecimento de novas palavras."
+    },
+    {
+     "letter": "C",
+     "text": "A apropriação inadequada de mecanismos de criação de palavras por leigos."
+    },
+    {
+     "letter": "D",
+     "text": "O reconhecimento da impropriedade semântica dos neologismos."
+    },
+    {
+     "letter": "E",
+     "text": "A restrição na produção de novas palavras com o radical grego."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2015-q114",
+   "number": 114,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Rede social pode prever desempenho profissional, diz pesquisa"
+    },
+    {
+     "type": "text",
+     "text": "Pense duas vezes antes de postar qualquer item em seu perfil nas redes sociais. O conselho, repetido à exaustão por consultores de carreira por aí, acaba de ganhar um status, digamos, mais científico. De acordo com resultados da pesquisa, uma rápida análise do perfil nas redes sociais pode prever o desempenho profissional do candidato a uma oportunidade de emprego. Para chegar a essa conclusão, uma equipe de pesquisadores da Northern Illinois University, University of Evansville e Auburn University pediu a um professor universitário e dois alunos para analisarem perfis de um grupo de universitários."
+    },
+    {
+     "type": "text",
+     "text": "Após checar fotos, postagens, número de amigos e interesses por 10 minutos, o trio considerou itens como consciência, afabilidade, extroversão, estabilidade emocional e receptividade. Seis meses depois, as impressões do grupo foram comparadas com a análise de desempenho feita pelos chefes dos jovens que tiveram seus perfis analisados. Os pesquisadores encontraram uma forte correlação entre as características descritas a partir dos dados da rede e o comportamento dos universitários no ambiente de trabalho."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://exame.abril.com.br. Acesso em: 29 fev. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "As redes sociais são espaços de comunicação e interação on-line que possibilitam o conhecimento de aspectos da privacidade de seus usuários."
+    },
+    {
+     "type": "text",
+     "text": "Segundo o texto, no mundo do trabalho, esse conhecimento permite"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Identificar a capacidade física atribuída ao candidato."
+    },
+    {
+     "letter": "B",
+     "text": "Certificar a competência profissional do candidato."
+    },
+    {
+     "letter": "C",
+     "text": "Controlar o comportamento virtual e real do candidato."
+    },
+    {
+     "letter": "D",
+     "text": "Avaliar informações pessoais e comportamentais sobre o candidato."
+    },
+    {
+     "letter": "E",
+     "text": "Aferir a capacidade intelectual do candidato na resolução de problemas."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2015-q115",
+   "number": 115,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "As narrativas indígenas se sustentam e se perpetuam por uma tradição de transmissão oral (sejam as histórias verdadeiras dos seus antepassados, dos fatos e guerras recentes ou antigos; sejam as histórias de ficção, como aquelas da onça e do macaco). De fato, as comunidades indígenas nas chamadas “terras baixas da América do Sul” (o que exclui as montanhas dos Andes, por exemplo) não desenvolveram sistemas de escrita como os que conhecemos, sejam alfabéticos (como a escrita do português), sejam ideogramáticos (como a escrita dos chineses) ou outros. Somente nas sociedades indígenas com estratificação social (ou seja, já divididas em classes), como foram os astecas e os maias, é que surgiu algum tipo de escrita. A história da escrita parece mesmo mostrar claramente isso: que ela surge e se desenvolve – em qualquer das formas – apenas em sociedades estratificadas (sumérios, egípcios, chineses, gregos, etc.). O fato é que os povos indígenas no Brasil, por exemplo, não empregavam um sistema de escrita, mas garantiram a conservação e continuidade dos conhecimentos acumulados, das histórias passadas e, também, das narrativas que sua tradição criou, através da transmissão oral. Todas as tecnologias indígenas se transmitiram e se desenvolveram assim. E não foram poucas: por exemplo, foram os índios que domesticaram plantas silvestres e, muitas vezes, venenosas, criando o milho, a mandioca (ou macaxeira), o amendoim, as morangas e muitas outras mais (e também as desenvolveram muito; por exemplo, somente do milho criaram cerca de 250 variedades diferentes em toda a América)."
+    },
+    {
+     "type": "text",
+     "text": "D’Angelis, W. R. Histórias dos índios lá em casa: narrativas indígenas e tradição oral popular no Brasil. Disponível em: www.portalkaingang.org. Acesso em: 5 dez. 2012."
+    },
+    {
+     "type": "text",
+     "text": "A escrita e a oralidade, nas diversas culturas, cumprem diferentes objetivos. O fragmento aponta que, nas sociedades indígenas brasileiras, a oralidade possibilitou"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A conservação e a valorização dos grupos detentores de certos saberes."
+    },
+    {
+     "letter": "B",
+     "text": "A preservação e a transmissão dos saberes e da memória cultural dos povos."
+    },
+    {
+     "letter": "C",
+     "text": "A manutenção e a reprodução dos modelos estratificados de organização social."
+    },
+    {
+     "letter": "D",
+     "text": "A restrição e a limitação do conhecimento acumulado a determinadas comunidades."
+    },
+    {
+     "letter": "E",
+     "text": "O reconhecimento e a legitimação da importância da fala como meio de comunicação."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2015-q116",
+   "number": 116,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Assum preto"
+    },
+    {
+     "type": "text",
+     "text": "Tudo em vorta é só beleza\nSol de abril e a mata em frô\nMas assum preto, cego dos óio\nNum vendo a luz, ai, canta de dor"
+    },
+    {
+     "type": "text",
+     "text": "Tarvez por ignorança\nOu mardade das pió\nFuraro os óio do assum preto\nPra ele assim, ai, cantá mió"
+    },
+    {
+     "type": "text",
+     "text": "Assum preto veve sorto\nMas num pode avuá\nMil veiz a sina de uma gaiola\nDesde que o céu, ai, pudesse oiá"
+    },
+    {
+     "type": "text",
+     "text": "GONZAGA, L.; TEIXEIRA, H. Disponível em: www.luizgonzaga.mus.br. Acesso em: 30 jul. 2012 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "As marcas da variedade regional registradas pelos compositores de Assum preto resultam da aplicação de um conjunto de princípios ou regras gerais que alteram a pronúncia, a morfologia, a sintaxe ou o léxico."
+    },
+    {
+     "type": "text",
+     "text": "No texto, é resultado de uma mesma regra a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Pronúncia das palavras \"vorta\" e \"veve\"."
+    },
+    {
+     "letter": "B",
+     "text": "Pronúncia das palavras \"tarvez\" e \"sorto\"."
+    },
+    {
+     "letter": "C",
+     "text": "Flexão verbal encontrada em \"furaro\" e \"cantá\"."
+    },
+    {
+     "letter": "D",
+     "text": "Redundância nas expressões \"cego dos óio\" e \"mata em frô\""
+    },
+    {
+     "letter": "E",
+     "text": "Pronúncia das palavras \"ignorança\" e \"avuá\"."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2015-q117",
+   "number": 117,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Exmº Sr. Governador:\nTrago a V. Exa. um resumo dos trabalhos realizados pela Prefeitura de Palmeira dos Índios em 1928.\n[…]\nADMINISTRAÇÃO\nRelativamente à quantia orçada, os telegramas custaram pouco. De ordinário vai para eles dinheiro considerável. Não há vereda aberta pelos matutos que prefeitura do interior não ponha no arame, proclamando que a coisa foi feita por ela; comunicam-se as datas históricas ao Governo do Estado, que não precisa disso; todos os acontecimentos políticos são badalados. Porque se derrubou a Bastilha – um telegrama; porque se deitou pedra na rua – um telegrama; porque o deputado F. esticou a canela – um telegrama.\nPalmeira dos Índios, 10 de janeiro de 1929.\nGRACILIANO RAMOS"
+    },
+    {
+     "type": "text",
+     "text": "RAMOS, G. Viventes das Alagoas. São Paulo: Martins Fontes, 1962."
+    },
+    {
+     "type": "text",
+     "text": "O relatório traz a assinatura de Graciliano Ramos, na época, prefeito de Palmeira dos Índios, e é destinado ao governo do estado de Alagoas."
+    },
+    {
+     "type": "text",
+     "text": "De natureza oficial, o texto chama a atenção por contrariar a norma prevista para esse gênero, pois o autor:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Emprega sinais de pontuação em excesso."
+    },
+    {
+     "letter": "B",
+     "text": "Recorre a termos e expressões em desuso no português."
+    },
+    {
+     "letter": "C",
+     "text": "Apresenta-se na primeira pessoa do singular, para conotar intimidade com o destinatário."
+    },
+    {
+     "letter": "D",
+     "text": "Privilegia o uso de termos técnicos, para demonstrar conhecimento especializado."
+    },
+    {
+     "letter": "E",
+     "text": "Expressa-se em linguagem mais subjetiva, com forte carga emocional."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2015-q119",
+   "number": 119,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "À garrafa"
+    },
+    {
+     "type": "text",
+     "text": "Contigo adquiro a astúcia\nde conter e de conter-me.\nTeu estreito gargalo\né uma lição de angústia.\nPor translúcida pões\no dentro fora e o fora dentro\npara que a forma se cumpra\ne o espaço ressoe.\nAté que, farta da constante\nprisão da forma, saltes\nda mão para o chão\ne te estilhaces, suicida,\nnuma explosão\nde diamantes."
+    },
+    {
+     "type": "text",
+     "text": "PAES, J. P. Prosas seguidas de odes mínimas_._ São Paulo: Cia. das Letras, 1992."
+    },
+    {
+     "type": "text",
+     "text": "A reflexão acerca do fazer poético é um dos mais marcantes atributos da produção literária contemporânea, que, no poema de José Paulo Paes, se expressa por um(a):"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Reconhecimento, pelo eu lírico, de suas limitações no processo criativo, manifesto na expressão “Por translúcidas pões\"."
+    },
+    {
+     "letter": "B",
+     "text": "Subserviência aos princípios do rigor formal e dos cuidados com a precisão metafórica, como se em \"prisão da forma\"."
+    },
+    {
+     "letter": "C",
+     "text": "Visão progressivamente pessimista, em face da impossibilidade da criação poética, conforme expressa o verso \"e te estilhaces, suicida\"."
+    },
+    {
+     "letter": "D",
+     "text": "Processo de contenção, amadurecimento e transformação da palavra, representado pelos versos \"numa explosão / de diamantes\"."
+    },
+    {
+     "letter": "E",
+     "text": "Necessidade premente de libertação da prisão representada pela poesia, simbolicamente comparada à \"garrafa\" a ser \"estilhaçada\"."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2015-q120",
+   "number": 120,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Palavras jogadas fora"
+    },
+    {
+     "type": "text",
+     "text": "Quando criança, convivia no interior de São Paulo com o curioso verbo pinchar e ainda o ouço por lá esporadicamente. O sentido da palavra é o de “jogar fora” (pincha fora essa porcaria) ou “mandar embora” (pincha esse fulano daqui). Teria sido uma das muitas palavras que ouvi menos na capital do estado e, por conseguinte, deixei de usar. Quando indago às pessoas se conhecem esse verbo, comumente escuto respostas como “minha avó fala isso”. Aparentemente, para muitos falantes, esse verbo é algo do passado, que deixará de existir tão logo essa geração antiga morrer. As palavras são, em sua grande maioria, resultados de uma tradição: elas já estavam lá antes de nascermos. “Tradição”, etimologicamente, é o ato de entregar, de passar adiante, de transmitir (sobretudo valores culturais). O rompimento da tradição de uma palavra equivale à sua extinção. A gramática normativa muitas vezes colabora criando preconceitos, mas o fator mais forte que motiva os falantes a extinguirem uma palavra é associar a palavra, influenciados direta ou indiretamente pela visão normativa, a um grupo que julga não ser o seu. O pinchar, associado ao ambiente rural, onde há pouca escolaridade e refinamento citadito, está fadado à extinção?\nÉ louvável que nos preocupemos com a extinção de ararinhas-azuis ou dos micos-leão-dourados, mas a extinção de uma palavra não promove nenhuma comoção, como não nos comovemos com a extinção de insetos, a não ser dos extraordinariamente belos. Pelo contrário, muitas vezes a extinção das palavras é incentivada."
+    },
+    {
+     "type": "text",
+     "text": "VIARO, M. E. Língua Portuguesa, n. 77, mar. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A discussão empreendida sobre o (des)uso do verbo “pinchar” nos traz uma reflexão sobre a linguagem e seus usos, a partir da qual compreende-se que:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "As palavras esquecidas pelos falantes devem ser descartadas dos dicionários, conforme sugere o título."
+    },
+    {
+     "letter": "B",
+     "text": "O cuidado com espécies animais em extinção é mais urgente do que a preservação de palavras."
+    },
+    {
+     "letter": "C",
+     "text": "O abandono de determinados vocábulos está associado a preconceitos socioculturais."
+    },
+    {
+     "letter": "D",
+     "text": "As gerações têm a tradição de perpetuar o inventário de uma língua."
+    },
+    {
+     "letter": "E",
+     "text": "O mundo contemporâneo exige a inovação do vocabulário das línguas."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2015-q121",
+   "number": 121,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Poesia quentinha"
+    },
+    {
+     "type": "text",
+     "text": "Projeto literário publica poemas em sacos de pão na capital mineira"
+    },
+    {
+     "type": "text",
+     "text": "Se a literatura é mesmo o alimento da alma, então os mineiros estão diante de um verdadeiro banquete. Mais do que um pãozinho com manteiga, os moradores do bairro de Barreiro, em Belo Horizonte (MG), estão consumindo poesia brasileira no café da manhã. Graças ao projeto “Pão e Poesia”, que faz do saquinho de pão um espaço para veiculação de poemas, escritores como Affonso Romano de Sant’Anna e Fernando Brant dividem espaço com estudants que passaram por oficinas de escrita poética. São ao todo 250 mil embalagens, distribuídas em padarias da região de Belo Horizonte, que trazem a boa literatura para o cotidiano de pessoas, além de dar uma chance a escritores novatos de verem seus textos impressos. Criado em 2008 por um analista de sistemas apaixonado por literatura, o “Pão e Poesia” já recebeu dois prêmios do Ministério da Cultura."
+    },
+    {
+     "type": "text",
+     "text": "Língua Portuguesa, n. 71, set. 2011."
+    },
+    {
+     "type": "text",
+     "text": "A proposta de um projeto como o “Pão e Poesia” objetiva inovar em sua área de atuação, pois:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Privilegia novos escritores em detrimento daqueles já consagrados."
+    },
+    {
+     "letter": "B",
+     "text": "Resgata poetas que haviam perdido espaços de publicação impressa."
+    },
+    {
+     "letter": "C",
+     "text": "Prescinde de critérios de seleção em prol da popularização da literatura."
+    },
+    {
+     "letter": "D",
+     "text": "Propõe acesso à literatura a públicos diversos."
+    },
+    {
+     "letter": "E",
+     "text": "Alavanca projetos de premiações antes esquecidos."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2015-q122",
+   "number": 122,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "No ano de 1985 aconteceu um acidente muito grave em Angra dos Reis, no Rio de Janeiro, perto da aldeia guarani de Sapukai. Choveu muito e as águas pluviais provocaram deslizamentos de terras das encostas da Serra do Mar, destruindo o Laboratório de Radioecologia da Central Nuclear Almirante Álvaro Alberto, construída em 1970 num lugar que os índios tupinambás, há mais de 500 anos, chamavam de Itaorna. O prejuízo foi calculado na época em 8 bilhões de cruzeiros. Os engenheiros responsáveis pela construção da usina nuclear não sabiam que o nome dado pelos índios continha informação sobre a estrutura do solo, minado pelas águas da chuva. Só descobriram que Itaorna, em língua tupinambá, quer dizer “pedra podre”, depois do acidente."
+    },
+    {
+     "type": "text",
+     "text": "FREIRE, J. R. B. Disponível em: www.taquiprati.com.br. Acesso em: 1 ago. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Considerando-se a história da ocupação na região de Angra dos Reis mencionada no texto, os fenômenos naturais que a atingiram poderiam ter sido previstos e suas consequências minimizadas se:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "O acervo linguístico indígena fosse conhecido e valorizado."
+    },
+    {
+     "letter": "B",
+     "text": "As línguas indígenas brasileiras tivessem sido substituídas pela língua geral."
+    },
+    {
+     "letter": "C",
+     "text": "O conhecimento acadêmico tivesse sido priorizado pelos engenheiros."
+    },
+    {
+     "letter": "D",
+     "text": "A língua tupinambá tivesse palavras adequadas para descrever o solo."
+    },
+    {
+     "letter": "E",
+     "text": "O laboratório tivesse sido construído de acordo com as leis ambientais vigentes na época."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2015-q123",
+   "number": 123,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Azeite de oliva e óleo de linhaça: uma dupla imbatível"
+    },
+    {
+     "type": "text",
+     "text": "Rico em gorduras do bem, ela combate a obesidade, dá um chega pra lá no diabete e ainda livra o coração de entraves"
+    },
+    {
+     "type": "text",
+     "text": "Ninguém precisa esquentar a cabeça caso não seja possível usar os dois óleos juntinhos, no mesmo dia. Individualmente, o duo também bate um bolão. Segundo um estudo recente do grupo EurOlive, formado por instituições de cinco países europeus, os polifenóis do azeite de oliva ajudam a frear a oxidação do colesterol LDL, considerado perigoso. Quando isso ocorre, reduzse o risco de placas de gordura na parede dos vasos, a temida aterosclerose – doença por trás de encrencas como o infarto."
+    },
+    {
+     "type": "text",
+     "text": "MANARINI, T. Saúde é vital, n. 347, fev. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Para divulgar conhecimento de natureza científica para um público não especializado, Manarini recorre à associação entre vocabulário formal e vocabulário informal."
+    },
+    {
+     "type": "text",
+     "text": "Altera-se o grau de formalidade do segmento no texto, sem alterar o sentido da informação, com a substituição de:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "\"dá um chega pra lá no diabete\" por \"manda embora o diabete\"."
+    },
+    {
+     "letter": "B",
+     "text": "\"esquentar a cabeça\" por \"quebrar a cabeça\"."
+    },
+    {
+     "letter": "C",
+     "text": "\"bate um bolão\" por \"é um show\"."
+    },
+    {
+     "letter": "D",
+     "text": "\"juntinhos\" por \"misturadinhos\"."
+    },
+    {
+     "letter": "E",
+     "text": "\"por trás de encrencas\" por \"causadora de problemas\"."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2015-q124",
+   "number": 124,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Obesidade causa doença"
+    },
+    {
+     "type": "text",
+     "text": "A obesidade tornou-se uma epidemia global, segundo a Organização Mundial da Saúde, ligada à Organização das Nações Unidas. O problema vem atingindo um número cada vez maior de pessoas em todo o mundo, e entre as principais causas desse crescimento estão o modo de vida sedentário e a má alimentação. Segundo um médico especialista em cirurgia de redução de estômago, a taxa de mortalidade entre homens obesos de 25 a 40 anos é 12 vezes maior quando comparada à taxa de mortalidade entre indivíduos de peso normal. O excesso de peso e de gordura no corpo desencadeia e piora problemas de saúde que poderiam ser evitados. Em alguns casos, a boa notícia é que a perda de peso leva à cura, como no caso da asma, mas em outros, como o infarto, não há solução."
+    },
+    {
+     "type": "text",
+     "text": "FERREIRA, T. Disponível em: http://revistaepoca.globo.com. Acesso em: 2 ago. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O texto apresenta uma reflexão sobre saúde e aponta o excesso de peso e de gordura corporal dos indivíduos como um problema, relacionando-o ao:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Padrão estético, pois o modelo de beleza dominante na sociedade requer corpos magros."
+    },
+    {
+     "letter": "B",
+     "text": "Equilíbrio psíquico da população, pois esse quadro interfere na autoestima das pessoas."
+    },
+    {
+     "letter": "C",
+     "text": "Quadro clínico da população, pois a obesidade é um fator de risco para o surgimento de diversas doenças crônicas."
+    },
+    {
+     "letter": "D",
+     "text": "Preconceito contra a pessoa obesa, pois ela sofre discriminação em diversos espaços sociais."
+    },
+    {
+     "letter": "E",
+     "text": "Desempenho na realização das atividades cotidianas, pois a obesidade interfere na performance."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2015-q125",
+   "number": 125,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Posso mandar por e-mail?\nAtualmente, é comum “disparar” currículos na interent com a expectativa de alcançar o maior número possível de selecionadores. Essa, no entanto, é uma ideia equivocada: é preciso saber quem vai receber seu currículo e se a vaga é realmente indicada para seu perfil, sob risco de estar “queimando o filme” com um futuro empregador. Ao enviar o currículo por e-mail, tente saber quem vai recebê-lo e faça um texto sucinto de apresentação, com a sugestão a seguir:"
+    },
+    {
+     "type": "text",
+     "text": "Assunto: Currículo para a vaga de gerente de marketing\nMensagem: Boa tarde. Meu nome é José da Silva e gostaria de me candidatar à vaga de gerente de marketing. Meu currículo segue anexo."
+    },
+    {
+     "type": "text",
+     "text": "Guia da língua 2010: modelos e técnicas. Língua Portuguesa, 2010 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O texto integra um guia de modelos e técnicas de elaboração de textos e cumpre a função social de:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Divulgar padrão oficial de redação e envio de currículos."
+    },
+    {
+     "letter": "B",
+     "text": "Indicar um modelo de currículo para pleitear uma vaga de emprego."
+    },
+    {
+     "letter": "C",
+     "text": "Instruir o leitor sobre como ser eficiente no envio de currículo por e-mail."
+    },
+    {
+     "letter": "D",
+     "text": "Responder a uma pergunta de um assinante da revista sobre o envio de currículo por e-mail."
+    },
+    {
+     "letter": "E",
+     "text": "Orientar o leitor sobre como alcançar o maior número possível de selecionadores de currículos."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2015-q126",
+   "number": 126,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Casa dos Contos"
+    },
+    {
+     "type": "text",
+     "text": "& em cada conto te cont\no & em cada enquanto me enca\nnto & em cada arco te a\nbarco & em cada porta m\ne perco & em cada lanço t\ne alcanço & em cada escad\na me escapo & em cada pe\ndra te prendo & em cada g\nrade me escravo & em ca\nda sótão te sonho & em cada\nesconso me affonso & em\ncada claúdio te canto & e\nm cada fosso me enforco &"
+    },
+    {
+     "type": "text",
+     "text": "ÁVILA, A. Discurso da difamação do poeta. São Paulo: Summus, 1978."
+    },
+    {
+     "type": "text",
+     "text": "O contexto histórico e literário do período barroco- árcade fundamenta o poema Casa dos Contos, de 1975. A restauração de elementos daquele contexto por uma poética contemporânea revela que:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A disposição visual do poema reflete sua dimensão plástica, que prevalece sobre a observação da realidade social."
+    },
+    {
+     "letter": "B",
+     "text": "A reflexão do eu lírico privilegia a memória e resgata, em fragmentos, fatos e personalidades da Inconfidência Mineira."
+    },
+    {
+     "letter": "C",
+     "text": "A palavra “esconso” (escondido) demonstra o desencanto do poeta com a utopia e sua opção por uma linguagem erudita."
+    },
+    {
+     "letter": "D",
+     "text": "O eu lírico pretende revitalizar os contrastes barrocos, gerando uma continuidade de procedimentos estéticos e literários."
+    },
+    {
+     "letter": "E",
+     "text": "O eu lírico recria, em seu momento histórico, numa linguagem de ruptura, o ambiente de opressão vivido pelos inconfidentes."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2015-q127",
+   "number": 127,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um dia, meu pai tomou-me pela mão, minha mãe beijou-me a testa, molhando-me de lágrimas os cabelos e eu parti.\nDuas vezes fora visitar o Ateneu antes da minha instalação.\nAteneu era o grande colégio da época. Afamado por um sistema de nutrido reclame, mantido por um diretor que de tempos a tempos reformava o estabelecimento, pintando-o jeitosamente de novidade, como os negociantes que liquidam para recomeçar com artigos de última remessa; o Ateneu desde muito tinha consolidado crédito na preferência dos pais, sem levar em conta a simpatia da meninada, a cercar de aclamações o bombo vistoso dos anúncios.\nO Dr. Aristarco Argolo de Ramos, da conhecida família do Visconde de Ramos, do Norte, enchia o império com o seu renome de pedagogo. Eram boletins de propaganda pelas províncias, conferências em diversos pontos da cidade, a pedidos, à substância, atochando a imprensa dos lugarejos, caixões, sobretudo, de livros elementares, fabricados às pressas com o ofegante e esbaforido concurso de professores prudentemente anônimos, caixões e mais caixões de volumes cartonados em Leipzig, inundando as escolas públicas de toda a parte com a sua invasão de capas azuis, róseas, amarelas, em que o nome de Aristarco, inteiro e sonoro, oferecia-se ao pasmo venerador dos esfaimados de alfabeto dos confins da pátria. Os lugares que não procuravam eram um belo dia surpreendidos pela enchente, gratuita, espontânea, irresistível! E não havia senão aceitar a farinha daquela marca para o pão do espírito."
+    },
+    {
+     "type": "text",
+     "text": "POMPÉIA, R. O Ateneu. São Paulo: Scipione, 2005."
+    },
+    {
+     "type": "text",
+     "text": "Ao descrever o Ateneu e as atitudes de seu diretor, o narrador revela um olhar sobre a inserção social do colégio demarcado pela:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Ideologia mercantil da educação, repercutida nas vaidades pessoais."
+    },
+    {
+     "letter": "B",
+     "text": "Interferência afetiva das famílias, determinantes no processo educacional."
+    },
+    {
+     "letter": "C",
+     "text": "Produção pioneira de material didático, responsável pela facilitação do ensino."
+    },
+    {
+     "letter": "D",
+     "text": "Ampliação do acesso à educação, com a negociação dos custos escolares."
+    },
+    {
+     "letter": "E",
+     "text": "Cumplicidade entre educadores e famílias, unidos pelo interesse comum do avanço social."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2015-q128",
+   "number": 128,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "João Antônio de Barros (Jota Barros) nasceu aos 24 de junho de 1935, em Glória de Goitá (PE). Marceneiro, entalhador, xilógrafo, poeta repentista e escritor de literatura de cordel, já publicou 33 folhetos e ainda tem vários inéditos. Reside em São Paulo desde 1973, vivendo exclusivamente da venda de livretos de cordel e das cantigas de improviso, ao som da viola. Grande divulgador da poesia popular nordestina no Sul, tem dado frequentemente entrevistas à imprensa paulista sobre o assunto."
+    },
+    {
+     "type": "text",
+     "text": "EVARISTO. M. C. O cordel em sala de aula. In: BRANDÃO. H. N. (Coord.). Gêneros do discurso na escola: mito, conto, cordel, discurso político, divulgação científica. São Paulo: Cortez, 2000."
+    },
+    {
+     "type": "text",
+     "text": "A biografia é um gênero textual que descreve a trajetória de determinado indivíduo, evidenciando sua singularidade."
+    },
+    {
+     "type": "text",
+     "text": "No caso específico de uma biografia como a de João Antônio de Barros, um dos principais elementos que a constitui é:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A estilização dos eventos reais de sua vida, para que o relato biográfico surta os efeitos desejados."
+    },
+    {
+     "letter": "B",
+     "text": "O relato de eventos de sua vida em perspectiva histórica, que valorize seu percurso artístico."
+    },
+    {
+     "letter": "C",
+     "text": "A narração de eventos de sua vida que demonstrem a qualidade de sua obra."
+    },
+    {
+     "letter": "D",
+     "text": "Uma retórica que enfatize alguns eventos da vida exemplar da pessoa biografada."
+    },
+    {
+     "letter": "E",
+     "text": "Uma exposição de eventos de sua vida que mescle objetividade e construção ficcional."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2015-q129",
+   "number": 129,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Aquarela"
+    },
+    {
+     "type": "text",
+     "text": "O corpo no cavalete\né um pássaro que agoniza\nexausto do próprio grito.\nAs vísceras vasculhadas\nprincipiam a contagem\nregressiva.\nNo assoalho o sangue\nse decompõe em matizes\nque a brisa beija e balança:\no verde – de nossas matas\no amarelo – de nosso ouro\no azul – de nosso céu\no branco o negro o negro"
+    },
+    {
+     "type": "text",
+     "text": "CACASO. In: HOLLANDA, H. B (Org.). 26 poetas hoje. Rio de Janeiro: Aeroplano, 2007."
+    },
+    {
+     "type": "text",
+     "text": "Situado na vigência do Regime Militar que governou o Brasil, na década de 1970, o poema de Cacaso edifica uma forma de resistência e protesto a esse período, metaforizando:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "As artes plásticas, deturpadas pela repressão e censura."
+    },
+    {
+     "letter": "B",
+     "text": "A natureza brasileira, agonizante como um pássaro enjaulado."
+    },
+    {
+     "letter": "C",
+     "text": "O nacionalismo romântico, silenciado pela perplexidade com a Ditadura."
+    },
+    {
+     "letter": "D",
+     "text": "O emblema nacional, transfigurado pelas marcas do medo e da violência."
+    },
+    {
+     "letter": "E",
+     "text": "As riquezas da terra, espoliadas durante o aparelhamento do poder armado."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2015-q130",
+   "number": 130,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Tudo era harmonioso, sólido, verdadeiro. No princípio. As mulheres, principalmente as mortas do álbum, eram maravilhosas. Os homens, mais maravilhosos ainda, ah, difícil encontrar família mais perfeita. A nossa família, dizia a bela voz de contralto da minha avó. Na nossa família, frisava, lançando em redor olhares complacentes, lamentando os que não faziam parte do nosso clã. […]\nQuando Margarida resolveu contar os podres todos que que sabia naquela noite negra da rebelião, fiquei furiosa. […]\nÉ mentira, é mentira!, gritei tapando os ouvidos. Mas Margarida seguia em frente: tio Maximiliano se casou com a inglesa de cachos só por causa do dinheiro, não passava de um pilantra, a loirinha feiosa era riquíssima. Tia Consuelo? Ora, tia Consuelo chorava porque sentia falta de homem, ela queria homem e não Deus, ou o convento ou o sanatório. O dote era tão bom que o convento abriu-lhe as portas com loucura e tudo. “E tem mais uma coisa ainda, minha queridinha”, anunciou Margarida fazendo um agrado no meu queixo. Reagi com violência: uma agregada, uma cria e, ainda por cima, mestiça. Como ousava desmoralizar meus heróis?"
+    },
+    {
+     "type": "text",
+     "text": "TELLES, L. F. A estrutura da bolha de sabão. Rio de Janeiro: Rocco, 1999."
+    },
+    {
+     "type": "text",
+     "text": "Representante da ficção contemporânea, a prosa de Lygia Fagundes Telles configura e desconstrói modelos sociais."
+    },
+    {
+     "type": "text",
+     "text": "No trecho, a percepção do núcleo familiar descortina um(a):"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Convivência frágil ligando pessoas financeiramente dependentes."
+    },
+    {
+     "letter": "B",
+     "text": "Tensa hierarquia familiar equilibrada graças à presença da matriarca."
+    },
+    {
+     "letter": "C",
+     "text": "Pacto de atitudes e valores mantidos à custa de ocultações e hipocrisias."
+    },
+    {
+     "letter": "D",
+     "text": "Tradicional conflito de gerações protagonizado pela narradora e seus tios."
+    },
+    {
+     "letter": "E",
+     "text": "Velada discriminação racial refletida na procura de casamentos com europeus."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2015-q133",
+   "number": 133,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Riscar o chão para sair pulando é uma brincadeira que vem dos tempos do Império Romano. A amarelinha original tinha mais de cem metros e era usada como treinamento militar imitações reduzidas do campo utilizado pelos soldados e acrescentaram numeração nos quadrados que deveriam ser pulados. Hoje as amarelinhas variam nos formatos geométricos e na quantidade de casas. As palavras “céu” e “inferno” podem ser escritas no começo e no final do desenho, que é marcado no chão com giz, tinta ou graveto."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.biblioteca.ajes.edu.br. Acesso em: 20 maio 2015 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Com base em fatos históricos, o texto retrata o processo de adaptação pelo qual passou um tipo de brincadeira. Nesse sentido, conclui-se que as brincadeiras comportam o(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Caráter competitivo que se assemelha às suas origens."
+    },
+    {
+     "letter": "B",
+     "text": "Delimitação de regras que se perpetuam com o tempo."
+    },
+    {
+     "letter": "C",
+     "text": "Definição antecipada do número de grupos participantes."
+    },
+    {
+     "letter": "D",
+     "text": "Objetivo de aperfeiçoamento físico daqueles que a praticam."
+    },
+    {
+     "letter": "E",
+     "text": "Possibilidade de reinvenção no contexto em que é realizada."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2015-q134",
+   "number": 134,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em junho de 1913, embarquei para a Europa a fim de me tratar num sanatório suíço. Escolhi o de Clavadel, perto de Davos-Platz, porque a respeito dele me falara João Luso, que ali passara um inverno com a senhora. Mais tarde vim a saber que antes de existir no lugar um sanatório, lá estivera por algum tempo Antônio Nobre. “Ao cair das folhas”, e um de seus mais belos sonetos, talvez o meu predileto, está datado de “Clavadel, outubro, 1895”. Fiquei na Suiça até outubro de 1914."
+    },
+    {
+     "type": "text",
+     "text": "BANDEIRA, M. Poesia completa e prosa. Rio de Janeiro: Nova Aguilar, 1985."
+    },
+    {
+     "type": "text",
+     "text": "No relato de memórias do autor, entre os recursos usados para organizar a sequência dos eventos narrados, destaca-se a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Construção de frases curtas a fim de conferir dinamicidade ao texto."
+    },
+    {
+     "letter": "B",
+     "text": "Presença de advérbios de lugar para indicar a progressão dos fatos."
+    },
+    {
+     "letter": "C",
+     "text": "Alternância de tempos do pretérito para ordenar os acontecimentos."
+    },
+    {
+     "letter": "D",
+     "text": "Inclusão de enunciados com comentários e avaliações pessoais."
+    },
+    {
+     "letter": "E",
+     "text": "Alusão a pessoas marcantes na trajetória de vida do escritor."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2015-q135",
+   "number": 135,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Por que as formigas não morrem quando postas em forno de micro-ondas?"
+    },
+    {
+     "type": "text",
+     "text": "As micro-ondas são ondas eletromagnéticas com frequência muito alta. Elas causam vibração nas moléculas de água, e é isso que aquece a comida. Se o prato estiver seco, sua temperatura não se altera. Da mesma maneira, se as formigas tiverem pouca água em seu corpo, podem sair incólumes. Já um ser humano não se sairia tão bem quanto esses insetos dentro de um forno de micro-ondas superdimensionado: a água que compõe 70% do seu corpo aqueceria. Micro-ondas de baixa intensidade, porém, estão por toda a parte, oriundas da telefonia celular, mas não há comprovação de que causem problemas para a população humana."
+    },
+    {
+     "type": "text",
+     "text": "OKUNO. E. Disponível em: http://revistapesquisa.fapesp.br. Acesso em: 11 dez. 2013."
+    },
+    {
+     "type": "text",
+     "text": "Os textos constroem-se com recursos linguísticos que materializam diferentes propósitos comunicativos."
+    },
+    {
+     "type": "text",
+     "text": "Ao responder à pergunta que dá título ao texto, o autor tem como objetivo principal"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Defender o ponto de vista de que as ondas eletro magnéticas são inofensivas."
+    },
+    {
+     "letter": "B",
+     "text": "Divulgar resultados de recentes pesquisas científicas para a sociedade."
+    },
+    {
+     "letter": "C",
+     "text": "Apresentar informações acerca das ondas eletromagnéticas e de seu uso."
+    },
+    {
+     "letter": "D",
+     "text": "Alertar o leitor sobre os riscos de usar as micro-ondas em seu dia a dia."
+    },
+    {
+     "letter": "E",
+     "text": "Apontar diferenças fisiológicas entre formigas e seres humanos."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2015-q137",
+   "number": 137,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Considere 1,7 como aproximação para √3."
+    },
+    {
+     "type": "text",
+     "text": "O tampo a ser escolhido será aquele cujo raio, em centímetros, é igual a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "18"
+    },
+    {
+     "letter": "B",
+     "text": "26"
+    },
+    {
+     "letter": "C",
+     "text": "30"
+    },
+    {
+     "letter": "D",
+     "text": "35"
+    },
+    {
+     "letter": "E",
+     "text": "60"
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2015-q141",
+   "number": 141,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O volume máximo, em cm³, da mistura sabor morango que deverá ser colocado na embalagem é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "450."
+    },
+    {
+     "letter": "B",
+     "text": "500."
+    },
+    {
+     "letter": "C",
+     "text": "600."
+    },
+    {
+     "letter": "D",
+     "text": "750."
+    },
+    {
+     "letter": "E",
+     "text": "1 000."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2015-q142",
+   "number": 142,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Qual é a probabilidade de a senha sorteada ser um número de 1 a 20?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "1/100"
+    },
+    {
+     "letter": "B",
+     "text": "19/100"
+    },
+    {
+     "letter": "C",
+     "text": "20/100"
+    },
+    {
+     "letter": "D",
+     "text": "21/100"
+    },
+    {
+     "letter": "E",
+     "text": "80/100"
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2015-q146",
+   "number": 146,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Qual deve ser o aumento, em metros, no raio da cisterna para atingir o volume desejado?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "0,5"
+    },
+    {
+     "letter": "B",
+     "text": "1,0"
+    },
+    {
+     "letter": "C",
+     "text": "2,0"
+    },
+    {
+     "letter": "D",
+     "text": "3,5"
+    },
+    {
+     "letter": "E",
+     "text": "8,0"
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2015-q149",
+   "number": 149,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Com base nas informações, qual é a quantidade de cores que serão utilizadas na pintura das faces do troféu?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "6"
+    },
+    {
+     "letter": "B",
+     "text": "8"
+    },
+    {
+     "letter": "C",
+     "text": "14"
+    },
+    {
+     "letter": "D",
+     "text": "24"
+    },
+    {
+     "letter": "E",
+     "text": "30"
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2015-q150",
+   "number": 150,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "q = 400 – 100_p_,"
+    },
+    {
+     "type": "text",
+     "text": "na qual q representa a quantidade de pães especiais vendidos diariamente e p, o seu preço em reais."
+    },
+    {
+     "type": "text",
+     "text": "A fim de aumentar o fluxo de clientes, o gerente da padaria decidiu fazer uma promoção. Para tanto, modificará o preço do pão especial de modo que a quantidade a ser vendida diariamente seja a maior possível, sem diminuir a média de arrecadação diária na venda desse produto."
+    },
+    {
+     "type": "text",
+     "text": "O preço p, em reais, do pão especial nessa promoção deverá estar no intervalo"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "R$ 0,50 ≤ p < R$ 1,50"
+    },
+    {
+     "letter": "B",
+     "text": "R$ 1,50 ≤ p < R$ 2,50"
+    },
+    {
+     "letter": "C",
+     "text": "R$ 2,50 ≤ p < R$ 3,50"
+    },
+    {
+     "letter": "D",
+     "text": "R$ 3,50 ≤ p < R$ 4,50"
+    },
+    {
+     "letter": "E",
+     "text": "R$ 4,50 ≤ p < R$ 5,50"
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2015-q151",
+   "number": 151,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Para diminuir os custos, a proposta escolhida deveria ser também aquela que vacinasse a menor quantidade possível de pessoas."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.virushpv.com.br. Acesso em: 30 ago. 2014 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A proposta implementada foi a de número"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "I."
+    },
+    {
+     "letter": "B",
+     "text": "II."
+    },
+    {
+     "letter": "C",
+     "text": "III."
+    },
+    {
+     "letter": "D",
+     "text": "IV."
+    },
+    {
+     "letter": "E",
+     "text": "V."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2015-q152",
+   "number": 152,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Se a estimativa for alcançada, qual é a expressão que determina o número de unidades produzidas P em função de t, para t ≥ 1?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "P(t) = 0,5 · t-1 + 8 000"
+    },
+    {
+     "letter": "B",
+     "text": "P(t) = 50 · t-1 + 8 000"
+    },
+    {
+     "letter": "C",
+     "text": "P(t) = 4 000 · t-1 + 8 000"
+    },
+    {
+     "letter": "D",
+     "text": "P(t) = 8 000 · (0,5)t - 1"
+    },
+    {
+     "letter": "E",
+     "text": "P(t) = 8 000 · (1,5)t - 1"
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2015-q156",
+   "number": 156,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Efetuando o pagamento dessa forma, o valor, em reais, a ser pago ao banco na décima prestação é de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "2 075,00."
+    },
+    {
+     "letter": "B",
+     "text": "2 093,00."
+    },
+    {
+     "letter": "C",
+     "text": "2 138,00."
+    },
+    {
+     "letter": "D",
+     "text": "2 255,00."
+    },
+    {
+     "letter": "E",
+     "text": "2 300,00."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2015-q157",
+   "number": 157,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "As exportações de soja do Brasil totalizaram 4,129 milhões de toneladas no mês de julho de 2012, e registraram um aumento em relação ao mês de julho de 2011, embora tenha havido uma baixa em relação ao mês de maio de 2012."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.noticiasagricolas.com.br. Acesso em: 2 ago. 2012."
+    },
+    {
+     "type": "text",
+     "text": "A quantidade, em quilogramas, de soja exportada pelo Brasil no mês de julho de 2012 foi de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "4,129 x 10³"
+    },
+    {
+     "letter": "B",
+     "text": "4,129 x 106"
+    },
+    {
+     "letter": "C",
+     "text": "4,129 x 109"
+    },
+    {
+     "letter": "D",
+     "text": "4,129 x 1012"
+    },
+    {
+     "letter": "E",
+     "text": "4,129 x 1015"
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2015-q159",
+   "number": 159,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Segundo dados apurados no Censo 2010, para uma população de 101,8 milhões de brasileiros com 10 anos ou mais de idade e que teve algum tipo de rendimento em 2010, a renda média mensal apurada foi de R$ 1 202,00. A soma dos rendimentos mensais dos 10% mais pobres correspondeu a apenas 1,1% do total de rendimentos dessa população considerada, enquanto que a soma dos rendimentos mensais dos 10% mais ricos correspondeu a 44,5% desse total."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.estadao.com.br. Acesso em: 16 nov. 2011(adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Qual foi a diferença, em reais, entre a renda média mensal de um brasileiro que estava na faixa dos 10% mais ricos e de um brasileiro que estava na faixa dos 10% mais pobres?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "240,40"
+    },
+    {
+     "letter": "B",
+     "text": "548,11"
+    },
+    {
+     "letter": "C",
+     "text": "1 723,67"
+    },
+    {
+     "letter": "D",
+     "text": "4 026,70"
+    },
+    {
+     "letter": "E",
+     "text": "5 216,68"
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2015-q162",
+   "number": 162,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Atendendo o pedido do arquiteto, o carpinteiro deverá produzir"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "105 peças."
+    },
+    {
+     "letter": "B",
+     "text": "120 peças."
+    },
+    {
+     "letter": "C",
+     "text": "210 peças."
+    },
+    {
+     "letter": "D",
+     "text": "243 peças."
+    },
+    {
+     "letter": "E",
+     "text": "420 peças."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2015-q166",
+   "number": 166,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Qual o tipo de garrafa escolhida pela paciente?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "I"
+    },
+    {
+     "letter": "B",
+     "text": "II"
+    },
+    {
+     "letter": "C",
+     "text": "III"
+    },
+    {
+     "letter": "D",
+     "text": "IV"
+    },
+    {
+     "letter": "E",
+     "text": "V"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2015-q168",
+   "number": 168,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A probabilidade de o entrevistador ser entendido e ter sua pergunta oralmente respondida em inglês é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "23,7%"
+    },
+    {
+     "letter": "B",
+     "text": "30,0%"
+    },
+    {
+     "letter": "C",
+     "text": "44,1%"
+    },
+    {
+     "letter": "D",
+     "text": "65,7%"
+    },
+    {
+     "letter": "E",
+     "text": "90,0%"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2015-q171",
+   "number": 171,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Utilize 3,0 como aproximação para π."
+    },
+    {
+     "type": "text",
+     "text": "O índice pluviométrico da região, durante o período do temporal, em milímetros, é de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "10,8."
+    },
+    {
+     "letter": "B",
+     "text": "12,0."
+    },
+    {
+     "letter": "C",
+     "text": "32,4."
+    },
+    {
+     "letter": "D",
+     "text": "108,0."
+    },
+    {
+     "letter": "E",
+     "text": "324,0."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2015-q173",
+   "number": 173,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Se as lentes forem adquiridas nessa loja, a espessura escolhida será, em milímetros, de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "2,099."
+    },
+    {
+     "letter": "B",
+     "text": "2,96."
+    },
+    {
+     "letter": "C",
+     "text": "3,021."
+    },
+    {
+     "letter": "D",
+     "text": "3,07."
+    },
+    {
+     "letter": "E",
+     "text": "3,10"
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2015-q178",
+   "number": 178,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Para que os objetivos da família sejam atingidos, a capacidade mínima, em litros, do reservatório a ser construído deve ser"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "16."
+    },
+    {
+     "letter": "B",
+     "text": "800."
+    },
+    {
+     "letter": "C",
+     "text": "1 600."
+    },
+    {
+     "letter": "D",
+     "text": "8 000."
+    },
+    {
+     "letter": "E",
+     "text": "16 000."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2015-q179",
+   "number": 179,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Comparando-se essas probabilidades, obtém-se"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "P(I) < P(III) < P(II)"
+    },
+    {
+     "letter": "B",
+     "text": "P(II) < P(I) < P(III)"
+    },
+    {
+     "letter": "C",
+     "text": "P(I) < P(II) = P(III)"
+    },
+    {
+     "letter": "D",
+     "text": "P(I) = P(II) < P(III)"
+    },
+    {
+     "letter": "E",
+     "text": "P(I) = P(II) = P(III)"
+    }
+   ],
+   "answer": "E"
+  }
+ ]
+}

@@ -1,0 +1,1388 @@
+{
+ "id": "enem-2017-d2",
+ "vestibular": "enem",
+ "title": "ENEM 2017, dia 2",
+ "year": 2017,
+ "version": 1,
+ "source": "Questões: INEP, ENEM 2017. Transcrição: ENEM API (enem.dev).",
+ "questions": [
+  {
+   "id": "enem-2017-q92",
+   "number": 92,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Os medicamentos são rotineiramente utilizados pelo ser humano com o intuito de diminuir ou, por muitas vezes, curar possíveis transtornos de saúde. Os antibióticos são grupos de fármacos inseridos no tratamento de doenças causadas por bactérias."
+    },
+    {
+     "type": "text",
+     "text": "Na terapêutica das doenças mencionadas, alguns desses fármacos atuam"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Ativando o sistema imunológico do hospedeiro."
+    },
+    {
+     "letter": "B",
+     "text": "Interferindo na cascata bioquímica da inflamação."
+    },
+    {
+     "letter": "C",
+     "text": "Removendo as toxinas sintetizadas pelas bactérias"
+    },
+    {
+     "letter": "D",
+     "text": "Combatendo as células hospedeiras das bactérias."
+    },
+    {
+     "letter": "E",
+     "text": "Danificando estruturas específicas da célula bacteriana."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2017-q94",
+   "number": 94,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Pesquisadores conseguiram estimular a absorção de energia luminosa em plantas graças ao uso de nanotubos de carbono. Para isso, nanotubos de carbono “se inseriram” no interior dos cloroplastos por uma montagem espontânea, através das membranas dos cloroplastos. Pigmentos da planta absorvem as radiações luminosas, os elétrons são “excitados” e se deslocam no interior de membranas dos cloroplastos, e a planta utiliza em seguida essa energia elétrica para a fabricação de açúcares. Os nanotubos de carbono podem absorver comprimentos de onda habitualmente não utilizados pelos cloroplastos, e os pesquisadores tiveram a ideia de utilizá-los como “antenas”, estimulando a conversão de energia solar pelos cloroplastos, com o aumento do transporte de elétrons. Nanotubos de carbono incrementam a fotossíntese de plantas."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://lqes.iqm.unicamp.br. Acesso em: 14 nov. 2014 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O aumento da eficiência fotossintética ocorreu pelo fato de os nanotubos de carbono promoverem diretamente a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Utilização de água."
+    },
+    {
+     "letter": "B",
+     "text": "Absorção de fótons."
+    },
+    {
+     "letter": "C",
+     "text": "Formação de gás oxigênio."
+    },
+    {
+     "letter": "D",
+     "text": "Proliferação dos cloroplastos."
+    },
+    {
+     "letter": "E",
+     "text": "Captação de dióxido de carbono."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2017-q96",
+   "number": 96,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Uma grande virada na moderna história da agricultura ocorreu depois da Segunda Guerra Mundial. Após a guerra, os governos haviam se deparado com um enorme excedente de nitrato de amônio, ingrediente usado na fabricação de explosivos. A partir daí as fábricas de munição foram adaptadas para começar a produzir fertilizantes tendo como componente principal os nitratos."
+    },
+    {
+     "type": "text",
+     "text": "SOUZA, F. A. Agricultura natural/orgânica como instrumento de fixação biológica e manutenção do nitrogênio no solo: um modelo sustentável de MDL.\nDisponível em: www.planetaorganico.com.br. Acesso em: 17 jul. 2015 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "No ciclo natural do nitrogênio, o equivalente ao principal componente desses fertilizantes industriais é produzido na etapa de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Nitratação."
+    },
+    {
+     "letter": "B",
+     "text": "Nitrosação."
+    },
+    {
+     "letter": "C",
+     "text": "Amonificação."
+    },
+    {
+     "letter": "D",
+     "text": "Desnitrificação."
+    },
+    {
+     "letter": "E",
+     "text": "Fixação biológica do N2."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2017-q97",
+   "number": 97,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um fato corriqueiro ao se cozinhar arroz é o derramamento de parte da água de cozimento sobre a chama azul do fogo, mudando-a para uma chama amarela. Essa mudança de cor pode suscitar interpretações diversas, relacionadas às substâncias presentes na água de cozimento. Além do sal de cozinha (NaCl), nela se encontram carboidratos, proteínas e sais minerais."
+    },
+    {
+     "type": "text",
+     "text": "Cientificamente, sabe-se que essa mudança de cor da chama ocorre pela"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Reação do gás de cozinha com o sal, volatilizando gás cloro."
+    },
+    {
+     "letter": "B",
+     "text": "Emissão de fótons pelo sódio, excitado por causa da chama."
+    },
+    {
+     "letter": "C",
+     "text": "Produção de derivado amarelo, pela reação com o carboidrato."
+    },
+    {
+     "letter": "D",
+     "text": "Reação do gás de cozinha com a água, formando gás hidrogênio."
+    },
+    {
+     "letter": "E",
+     "text": "Excitação das moléculas de proteínas, com formação de luz amarela."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2017-q100",
+   "number": 100,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Pesquisadores criaram um tipo de plaqueta artificial, feita com um polímero gelatinoso coberto de anticorpos, que promete agilizar o processo de coagulação quando injetada no corpo. Se houver sangramento, esses anticorpos fazem com que a plaqueta mude sua forma e se transforme em uma espécie de rede que gruda nas lesões dos vasos sanguíneos e da pele."
+    },
+    {
+     "type": "text",
+     "text": "MOUTINHO, S. Coagulação acelerada. Disponível em: http://cienciahoje.uol.com.br.\nAcesso em: 19 fev. 2013 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Qual a doença cujos pacientes teriam melhora de seu estado de saúde com o uso desse material?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Filariose."
+    },
+    {
+     "letter": "B",
+     "text": "Hemofilia."
+    },
+    {
+     "letter": "C",
+     "text": "Aterosclerose."
+    },
+    {
+     "letter": "D",
+     "text": "Doença de Chagas."
+    },
+    {
+     "letter": "E",
+     "text": "Síndrome da imunodeficiência adquirida."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2017-q102",
+   "number": 102,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Partículas microscópicas existentes na atmosfera funcionam como núcleos de condensação de vapor de água que, sob condições adequadas de temperatura e pressão, propiciam a formação das nuvens e consequentemente das chuvas. No ar atmosférico, tais partículas são formadas pela reação de ácidos (H X\ncom a base NH3, de forma natural ou antropogênica, dando origem a sais de amônio (NH4X , de acordo com a\nequação química genérica:"
+    },
+    {
+     "type": "text",
+     "text": "HX (g) + NH3 (g) –> NH4X (s)"
+    },
+    {
+     "type": "text",
+     "text": "FELIX, E. P.; CARDOSO, A. A. Fatores ambientais que afetam a precipitação úmida.\nQuímica Nova na Escola, n. 21, maio 2005 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A fixação de moléculas de vapor de água pelos núcleos de condensação ocorre por"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Ligações iônicas."
+    },
+    {
+     "letter": "B",
+     "text": "Interações dipolo-dipolo."
+    },
+    {
+     "letter": "C",
+     "text": "Interações dipolo-dipolo induzido."
+    },
+    {
+     "letter": "D",
+     "text": "Interações íon-dipolo."
+    },
+    {
+     "letter": "E",
+     "text": "Ligações covalentes."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2017-q104",
+   "number": 104,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A técnica do carbono-14 permite a datação de fósseis pela medição dos valores de emissão beta desse isótopo presente no fóssil. Para um ser em vida, o máximo são 15 emissões beta/(min g). Após a morte, a quantidade de 14C se reduz pela metade a cada 5 730 anos."
+    },
+    {
+     "type": "text",
+     "text": "A prova do carbono 14. Disponível em: http://noticias.terra.com.br. Acesso em: 9 nov. 2013 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Considere que um fragmento fóssil de massa igual a 30 g foi encontrado em um sítio arqueológico, e a medição de radiação apresentou 6 750 emissões beta por hora. A idade desse fóssil, em anos, é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "450."
+    },
+    {
+     "letter": "B",
+     "text": "1 433."
+    },
+    {
+     "letter": "C",
+     "text": "11 460."
+    },
+    {
+     "letter": "D",
+     "text": "17 190."
+    },
+    {
+     "letter": "E",
+     "text": "27 000."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2017-q106",
+   "number": 106,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Na Idade Média, para elaborar preparados a partir de plantas produtoras de óleos essenciais, as coletas das espécies eram realizadas ao raiar do dia. Naquela época, essa prática era fundamentada misticamente pelo efeito mágico dos raios lunares, que seria anulado pela emissão dos raios solares. Com a evolução da ciência,\nfoi comprovado que a coleta de algumas espécies ao raiar do dia garante a obtenção de material com maiores quantidades de óleos essenciais."
+    },
+    {
+     "type": "text",
+     "text": "A explicação científica que justifica essa prática se baseia na"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Volatilização das substâncias de interesse."
+    },
+    {
+     "letter": "B",
+     "text": "Polimerização dos óleos catalisada pela radiação solar."
+    },
+    {
+     "letter": "C",
+     "text": "Solubilização das substâncias de interesse pelo orvalho."
+    },
+    {
+     "letter": "D",
+     "text": "Oxidação do óleo pelo oxigênio produzido na fotossíntese."
+    },
+    {
+     "letter": "E",
+     "text": "Liberação das moléculas de óleo durante o processo de fotossíntese."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2017-q109",
+   "number": 109,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O fenômeno da piracema (subida do rio) é um importante mecanismo que influencia a reprodução de algumas espécies de peixes, pois induz o processo que estimula a queima de gordura e ativa mecanismos hormonais complexos, preparando-os para a reprodução. Intervenções antrópicas nos ambientes aquáticos, como a construção de barragens, interferem na reprodução desses animais."
+    },
+    {
+     "type": "text",
+     "text": "MALTA, P Impacto ambiental das barragens hidrelétricas. Disponível em: http://futurambiental.com. Acesso em: 10 maio 2013 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Essa intervenção antrópica prejudica a piracema porque reduz o(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Percurso da migração."
+    },
+    {
+     "letter": "B",
+     "text": "Longevidade dos indivíduos."
+    },
+    {
+     "letter": "C",
+     "text": "Disponibilidade de alimentos."
+    },
+    {
+     "letter": "D",
+     "text": "Período de migração da espécie."
+    },
+    {
+     "letter": "E",
+     "text": "Número de espécies de peixes no local."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2017-q111",
+   "number": 111,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Os botos-cinza (Sotalia guianensis), mamíferos da família dos golfinhos, são excelentes indicadores da poluição das áreas em que vivem, pois passam toda a sua vida — cerca de 30 anos — na mesma região. Além disso, a espécie acumula mais contaminantes em seu organismo, como o mercúrio, do que outros animais da sua cadeia alimentar."
+    },
+    {
+     "type": "text",
+     "text": "MARCOLINO, B. Sentinelas do mar. Disponível em:  http://cienciahoje.uol.com.br. Acesso em: 1 ago. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Os botos-cinza acumulam maior concentração dessas substâncias porque"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "São animais herbívoros."
+    },
+    {
+     "letter": "B",
+     "text": "São animais detritívoros."
+    },
+    {
+     "letter": "C",
+     "text": "São animais de grande porte."
+    },
+    {
+     "letter": "D",
+     "text": "Digerem o alimento lentamente"
+    },
+    {
+     "letter": "E",
+     "text": "Estão no topo da cadeia alimentar"
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2017-q115",
+   "number": 115,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "As centrífugas são equipamentos utilizados em laboratórios, clínicas e indústrias. Seu funcionamento faz uso da aceleração centrífuga obtida pela rotação de um recipiente e que serve para a separação de sólidos em suspensão em líquidos ou de líquidos misturados entre si."
+    },
+    {
+     "type": "text",
+     "text": "RODITI, I. Dicionário Houaiss de física. Rio de Janeiro: Objetiva, 2005 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Nesse aparelho, a separação das substâncias ocorre em função"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Das diferentes densidades."
+    },
+    {
+     "letter": "B",
+     "text": "Dos diferentes raios de rotação."
+    },
+    {
+     "letter": "C",
+     "text": "Das diferentes velocidades angulares."
+    },
+    {
+     "letter": "D",
+     "text": "Das diferentes quantidades de cada substância."
+    },
+    {
+     "letter": "E",
+     "text": "Da diferente coesão molecular de cada substância."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2017-q117",
+   "number": 117,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A distrofia muscular Duchenne (DMD) é uma doença causada por uma mutação em um gene localizado no cromossomo X. Pesquisadores estudaram uma família na qual gêmeas monozigóticas eram portadoras de um alelo mutante recessivo para esse gene (heterozigóticas). O interessante é que uma das gêmeas apresentava o fenótipo relacionado ao alelo mutante, isto é, DMD, enquanto a sua irmã apresentava fenótipo normal."
+    },
+    {
+     "type": "text",
+     "text": "RICHARDS, C. S. et al. The American Journal of Human Genetics, n. 4, 1990 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A diferença na manifestação da DMD entre as gêmeas pode ser explicada pela"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Dominância incompleta do alelo mutante em relação ao alelo normal."
+    },
+    {
+     "letter": "B",
+     "text": "Falha na separação dos cromossomos X no momento da separação dos dois embriões."
+    },
+    {
+     "letter": "C",
+     "text": "Recombinação cromossômica em uma divisão celular embrionária anterior à separação dos dois embriões."
+    },
+    {
+     "letter": "D",
+     "text": "Inativação aleatória de um dos cromossomos X em fase posterior à divisão que resulta nos dois embriões."
+    },
+    {
+     "letter": "E",
+     "text": "Origem paterna do cromossomo portador do alelo mutante em uma das gêmeas e origem materna na outra."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2017-q120",
+   "number": 120,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Alguns tipos de dessalinizadores usam o processo de osmose reversa para obtenção de água potável a partir da água salgada. Nesse método, utiliza-se um recipiente contendo dois compartimentos separados por uma membrana semipermeável: em um deles coloca-se água salgada e no outro recolhe-se a água potável. A aplicação de pressão mecânica no sistema faz a água fluir de um compartimento para o outro. O movimento das moléculas de água através da membrana é controlado pela pressão osmótica e pela pressão mecânica aplicada."
+    },
+    {
+     "type": "text",
+     "text": "Para que ocorra esse processo é necessário que as resultantes das pressões osmótica e mecânica apresentem"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Mesmo sentido e mesma intensidade."
+    },
+    {
+     "letter": "B",
+     "text": "Sentidos opostos e mesma intensidade."
+    },
+    {
+     "letter": "C",
+     "text": "Sentidos opostos e maior intensidade da pressão osmótica."
+    },
+    {
+     "letter": "D",
+     "text": "Mesmo sentido e maior intensidade da pressão osmótica."
+    },
+    {
+     "letter": "E",
+     "text": "Sentidos opostos e maior intensidade da pressão mecânica."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2017-q123",
+   "number": 123,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A Mata Atlântica caracteriza-se por uma grande diversidade de epífitas, como as bromélias. Essas plantas estão adaptadas a esse ecossistema e conseguem captar luz, água e nutrientes mesmo vivendo sobre as árvores."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.ib.usp.br. Acesso em: 23 fev. 2013 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Essas espécies captam água do(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Organismo das plantas vizinhas"
+    },
+    {
+     "letter": "B",
+     "text": "Solo através de suas longas raízes."
+    },
+    {
+     "letter": "C",
+     "text": "Chuva acumulada entre suas folhas."
+    },
+    {
+     "letter": "D",
+     "text": "Seiva bruta das plantas hospedeiras."
+    },
+    {
+     "letter": "E",
+     "text": "Comunidade que vive em seu interior."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2017-q124",
+   "number": 124,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O ferro é encontrado na natureza na forma de seus minérios, tais como a hematita (α\\-Fe2O3), a magnetita (Fe3O4) e a wustita (FeO). Na siderurgia, o ferro gusa é obtido pela fusão de minérios de ferro em altos fornos em condições adequadas. Uma das etapas nesse processo é a formação de monóxido de carbono. O CO (gasoso) é utilizado para reduzir o FeO (sólido), conforme a equação química:"
+    },
+    {
+     "type": "text",
+     "text": "FeO (s) + CO (g) –>  Fe (s) + CO2 (g)"
+    },
+    {
+     "type": "text",
+     "text": "Considere as seguintes equações termoquímicas:\nFe2O3 (s) + 3 CO (g) –> 2 Fe (s) + 3 CO2 (g) ∆rH = –25 kJ/mol de Fe2O3\n3 FeO (s) + CO2 (g) –> Fe3O4 (s) + CO (g) ∆rH = –36 kJ/mol de CO2\n2 Fe3O4 (s) + CO2 (g)  –> 3 Fe2O3 (s) + CO (g) ∆rH = +47 kJ/mol de CO2"
+    },
+    {
+     "type": "text",
+     "text": "O valor mais próximo de ∆rH em kJ/mol de FeO, para a reação indicada do FeO (sólido) com o CO (gasoso) é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "-14"
+    },
+    {
+     "letter": "B",
+     "text": "-17"
+    },
+    {
+     "letter": "C",
+     "text": "-50"
+    },
+    {
+     "letter": "D",
+     "text": "-64"
+    },
+    {
+     "letter": "E",
+     "text": "-100"
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2017-q126",
+   "number": 126,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "No ar que respiramos existem os chamados “gases inertes”. Trazem curiosos nomes gregos, que significam “o Novo”, “o Oculto”, “o Inativo”. E de fato são de tal modo inertes, tão satisfeitos em sua condição, que não interferem em nenhuma reação química, não se combinam com nenhum outro elemento e justamente por esse motivo ficaram sem ser observados durante séculos: só em 1962 um químico, depois de longos e engenhosos esforços, conseguiu forçar “o Estrangeiro” (o xenônio) a combinar-se fugazmente com o flúor ávido e vivaz, a façanha pareceu tão  extraordinária que lhe foi conferido o Prêmio Nobel."
+    },
+    {
+     "type": "text",
+     "text": "LEVI, P. A tabela periódica. Rio de Janeiro: Relume-Dumará, 1994 (adaptado)"
+    },
+    {
+     "type": "text",
+     "text": "Qual propriedade do flúor justifica sua escolha como reagente para o processo mencionado?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Densidade."
+    },
+    {
+     "letter": "B",
+     "text": "Condutância."
+    },
+    {
+     "letter": "C",
+     "text": "Eletronegatividade."
+    },
+    {
+     "letter": "D",
+     "text": "Estabilidade nuclear."
+    },
+    {
+     "letter": "E",
+     "text": "Temperatura de ebulição."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2017-q128",
+   "number": 128,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A retina é um tecido sensível à luz, localizado na parte posterior do olho, onde ocorre o processo de formação de imagem. Nesse tecido, encontram-se vários tipos celulares específicos. Um desses tipos celulares são cones, os quais convertem os diferentes comprimentos de onda da luz visível em sinais elétricos, que são transmitidos pelo nervo óptico até o cérebro."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.portaldaretina.com.br. Acesso em: 13 jun. 2012 (adaptado)"
+    },
+    {
+     "type": "text",
+     "text": "Em relação à visão, a degeneração desse tipo celular irá"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Comprometer a capacidade de visão em cores."
+    },
+    {
+     "letter": "B",
+     "text": "Impedir a projeção dos raios luminosos na retina."
+    },
+    {
+     "letter": "C",
+     "text": "Provocar a formação de imagens invertidas na retina."
+    },
+    {
+     "letter": "D",
+     "text": "Causar dificuldade de visualização de objetos próximos."
+    },
+    {
+     "letter": "E",
+     "text": "Acarretar a perda da capacidade de alterar o diâmetro da pupila."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2017-q129",
+   "number": 129,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em algumas residências, cercas eletrificadas são utilizadas com o objetivo de afastar possíveis invasores. Uma cerca eletrificada funciona com uma diferença de potencial elétrico de aproximadamente 10 000 V. Para que não seja letal, a corrente que pode ser transmitida através de uma pessoa não deve ser maior do que 0,01 A. Já a resistência elétrica corporal entre as mãos e os pés de uma pessoa é da ordem de 1000 Ω"
+    },
+    {
+     "type": "text",
+     "text": "Para que a corrente não seja letal a uma pessoa que toca a cerca eletrificada, o gerador de tensão deve possuir uma resistência interna que, em relação à do corpo humano, é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Praticamente nula."
+    },
+    {
+     "letter": "B",
+     "text": "Aproximadamente igual."
+    },
+    {
+     "letter": "C",
+     "text": "Milhares de vezes maior."
+    },
+    {
+     "letter": "D",
+     "text": "Da ordem de 10 vezes maior."
+    },
+    {
+     "letter": "E",
+     "text": "Da ordem de 10 vezes menor."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2017-q131",
+   "number": 131,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um motorista que atende a uma chamada de celular é levado à desatenção, aumentando a possibilidade de acidentes ocorrerem em razão do aumento de seu tempo de reação. Considere dois motoristas, o primeiro atento e o segundo utilizando o celular enquanto dirige. Eles aceleram seus carros inicialmente a 1,00 m/s². Em resposta a uma emergência, freiam com uma desaceleração igual a 5,00 m/s². O motorista atento aciona o freio à velocidade de 14,0 m/s, enquanto o desatento, em situação análoga, leva 1,00 segundo a mais para iniciar a frenagem."
+    },
+    {
+     "type": "text",
+     "text": "Que distância o motorista desatento percorre a mais do que o motorista atento, até a parada total dos carros?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "2,90 m."
+    },
+    {
+     "letter": "B",
+     "text": "14,0 m."
+    },
+    {
+     "letter": "C",
+     "text": "14,5 m."
+    },
+    {
+     "letter": "D",
+     "text": "15,0 m."
+    },
+    {
+     "letter": "E",
+     "text": "17,4 m."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2017-q132",
+   "number": 132,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Uma das estratégias para conservação de alimentos é o salgamento, adição de cloreto de sódio (NaCl), historicamente utilizado por tropeiros, vaqueiros e sertanejos para conservar carnes de boi, porco e peixe."
+    },
+    {
+     "type": "text",
+     "text": "O que ocorre com as células presentes nos alimentos preservados com essa técnica?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "O sal adicionado diminui a concentração de solutos em seu interior."
+    },
+    {
+     "letter": "B",
+     "text": "O sal adicionado desorganiza e destrói suas membranas plasmáticas."
+    },
+    {
+     "letter": "C",
+     "text": "A adição de sal altera as propriedades de suas membranas plasmáticas."
+    },
+    {
+     "letter": "D",
+     "text": "Os íons Na+ e CI- provenientes da dissociação do sal entram livremente nelas."
+    },
+    {
+     "letter": "E",
+     "text": "A grande concentração de sal no meio extracelular provoca a saída de água de dentro delas."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2017-q133",
+   "number": 133,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Para demonstrar o processo de transformação de energia mecânica em elétrica, um estudante constrói um pequeno gerador utilizando:"
+    },
+    {
+     "type": "text",
+     "text": "*   \\-um fio de cobre de diâmetro D enrolado em N espiras circulares de área A;\n*   \\-dois ímãs que criam no espaço entre eles um campo magnético uniforme de intensidade B; e\n*   \\-um sistema de engrenagens que lhe permite girar as espiras em torno de um eixo com uma frequência f."
+    },
+    {
+     "type": "text",
+     "text": "Ao fazer o gerador funcionar, o estudante obteve uma tensão máxima V e uma corrente de curto-circuito i."
+    },
+    {
+     "type": "text",
+     "text": "Para dobrar o valor da tensão máxima V do gerador mantendo constante o Valor da corrente de Curto i, o estudante deve dobrar o(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Número de espiras."
+    },
+    {
+     "letter": "B",
+     "text": "Frequência de giro."
+    },
+    {
+     "letter": "C",
+     "text": "Intensidade do campo magnético."
+    },
+    {
+     "letter": "D",
+     "text": "Área das espiras."
+    },
+    {
+     "letter": "E",
+     "text": "Diâmetro do fio."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2017-q135",
+   "number": 135,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A terapia celular tem sido amplamente divulgada como revolucionária, por permitir a regeneração de tecidos a partir de células novas. Entretanto, a técnica de se introduzirem novas células em um tecido, para o tratamento de enfermidades em indivíduos, já era aplicada rotineiramente em hospitais."
+    },
+    {
+     "type": "text",
+     "text": "A que técnica refere-se o texto?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Vacina."
+    },
+    {
+     "letter": "B",
+     "text": "Biópsia."
+    },
+    {
+     "letter": "C",
+     "text": "Hemodiálise."
+    },
+    {
+     "letter": "D",
+     "text": "Quimioterapia."
+    },
+    {
+     "letter": "E",
+     "text": "Transfusão de sangue."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2017-q141",
+   "number": 141,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em uma cantina, o sucesso de venda no verão são sucos preparados à base de polpa de frutas. Um dos sucos mais vendidos é o de morango com acerola, que é preparado com 2/3 de polpa de morango e 1/3 de polpa de acerola."
+    },
+    {
+     "type": "text",
+     "text": "Para o comerciante, as polpas são vendidas em embalagens de igual volume. Atualmente, a embalagem da polpa de morango custa R$ 18,00 e a de acerola, R$ 14,70. Porém, está prevista uma alta no preço da embalagem da polpa de acerola no próximo mês, passando a custar R$ 15,30."
+    },
+    {
+     "type": "text",
+     "text": "Para não aumentar o preço do suco, o comerciante negociou com o fornecedor uma redução no preço da embalagem da polpa de morango."
+    },
+    {
+     "type": "text",
+     "text": "A redução, em real, no preço da embalagem da polpa de morango deverá ser de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "1,20."
+    },
+    {
+     "letter": "B",
+     "text": "0,90."
+    },
+    {
+     "letter": "C",
+     "text": "0,60."
+    },
+    {
+     "letter": "D",
+     "text": "0,40."
+    },
+    {
+     "letter": "E",
+     "text": "0,30"
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2017-q142",
+   "number": 142,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um casal realiza sua mudança de domicílio e necessita colocar numa caixa de papelão um objeto cúbico, de 80 cm de aresta, que não pode ser desmontado. Eles têm à disposição cinco caixas, com diferentes dimensões, conforme descrito:"
+    },
+    {
+     "type": "text",
+     "text": "• Caixa 1: 86 cm x 86 cm x 86 cm\n• Caixa 2: 75 cm x 82 cm x 90 cm\n• Caixa 3: 85 cm x 82 cm x 90 cm\n• Caixa 4: 82 cm x 95 cm x 82 cm\n• Caixa 5: 80 cm x 95 cm x 85 cm"
+    },
+    {
+     "type": "text",
+     "text": "O casal precisa escolher uma caixa na qual o objeto caiba, de modo que sobre o menor espaço livre em seu interior."
+    },
+    {
+     "type": "text",
+     "text": "A caixa escolhida pelo casal deve ser a de número"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "1."
+    },
+    {
+     "letter": "B",
+     "text": "2."
+    },
+    {
+     "letter": "C",
+     "text": "3."
+    },
+    {
+     "letter": "D",
+     "text": "4."
+    },
+    {
+     "letter": "E",
+     "text": "5."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2017-q144",
+   "number": 144,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Uma empresa especializada em conservação de piscinas utiliza um produto para tratamento da água cujas especificações técnicas sugerem que seja adicionado 1,5 mL desse produto para cada 1 000 L de água da piscina. Essa empresa foi contratada para cuidar de uma piscina de base retangular, de profundidade constante igual a 1,7 m, com largura e comprimento iguais a 3 m e 5 m, respectivamente. O nível da lâmina d’água dessa piscina é mantido a 50 cm da borda da piscina."
+    },
+    {
+     "type": "text",
+     "text": "A quantidade desse produto, em mililitro, que deve ser adicionada a essa piscina de modo a atender às suas especificações técnicas é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "11,25."
+    },
+    {
+     "letter": "B",
+     "text": "27,00."
+    },
+    {
+     "letter": "C",
+     "text": "28,80."
+    },
+    {
+     "letter": "D",
+     "text": "32,25."
+    },
+    {
+     "letter": "E",
+     "text": "49,50."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2017-q146",
+   "number": 146,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em um teleférico turístico, bondinhos saem de estações ao nível do mar e do topo de uma montanha. A travessia dura 1,5 minuto e ambos os bondinhos se deslocam à mesma velocidade. Quarenta segundos após o bondinho A partir da estação ao nível do mar, ele cruza com o bondinho B, que havia saído do topo da montanha."
+    },
+    {
+     "type": "text",
+     "text": "Quantos segundos após a partida do bondinho B partiu o bondinho A?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "5."
+    },
+    {
+     "letter": "B",
+     "text": "10."
+    },
+    {
+     "letter": "C",
+     "text": "15."
+    },
+    {
+     "letter": "D",
+     "text": "20."
+    },
+    {
+     "letter": "E",
+     "text": "25."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2017-q158",
+   "number": 158,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em uma de suas viagens, um turista comprou uma lembrança de um dos monumentos que visitou. Na base do objeto há informações dizendo que se trata de uma peça em escala 1: 400, e que seu volume é de 25 cm3."
+    },
+    {
+     "type": "text",
+     "text": "O volume do monumento original, em metro cúbico, é de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "100"
+    },
+    {
+     "letter": "B",
+     "text": "400"
+    },
+    {
+     "letter": "C",
+     "text": "1600"
+    },
+    {
+     "letter": "D",
+     "text": "6250"
+    },
+    {
+     "letter": "E",
+     "text": "10000"
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2017-q162",
+   "number": 162,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O fisiologista inglês Archibald Vivian Hill propôs, em seus estudos, que a velocidade V de contração de um músculo ao ser submetido a um peso p é dada pela equação (p + a) (v +b) = K, com a, b e K constantes."
+    },
+    {
+     "type": "text",
+     "text": "Um fisioterapeuta, com o intuito de maximizar o efeito benéfico dos exercícios que recomendaria a um de seus pacientes, quis estudar essa equação e a classificou desta forma:"
+    },
+    {
+     "type": "text",
+     "text": "TIPO DE CURVA"
+    },
+    {
+     "type": "text",
+     "text": "Semirreta oblíqua"
+    },
+    {
+     "type": "text",
+     "text": "Semirreta horizontal"
+    },
+    {
+     "type": "text",
+     "text": "Ramo de parábola"
+    },
+    {
+     "type": "text",
+     "text": "Arco de circunferência"
+    },
+    {
+     "type": "text",
+     "text": "Ramo de hipérbola"
+    },
+    {
+     "type": "text",
+     "text": "O fisioterapeuta analisou a dependência entre v e p na equação de Hill e a classificou de acordo com sua representação geométrica no plano cartesiano, utilizando o par de coordenadas (p. V). Admita que K> 0."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://rspb.royalsocietypublishing.org. Acesso em: 14jul2015 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O gráfico da equação que o fisioterapeuta utilizou para maximizar o efeito dos exercícios é do tipo"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Semirreta oblíqua."
+    },
+    {
+     "letter": "B",
+     "text": "Semirreta horizontal."
+    },
+    {
+     "letter": "C",
+     "text": "Ramo de parábola."
+    },
+    {
+     "letter": "D",
+     "text": "Arco de circunferência."
+    },
+    {
+     "letter": "E",
+     "text": "Ramo de hipérbole."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2017-q164",
+   "number": 164,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A mensagem digitada no celular, enquanto você dirige, tira a sua atenção e, por isso, deve ser evitada. Pesquisas mostram que um motorista que dirige um carro a uma velocidade constante percorre “às cegas” (isto é, sem ter visão da pista) uma distância proporcional ao tempo gasto ao olhar para o celular durante a digitação da mensagem. Considere que isso de fato aconteça. Suponha que dois motoristas (X e Y) dirigem com a mesma velocidade constante e digitam a mesma mensagem em seus celulares. Suponha, ainda, que o tempo gasto pelo motorista X olhando para seu celular enquanto digita a mensagem corresponde a 25% do tempo gasto pelo motorista Y para executar a mesma tarefa."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://g1.globo.com. Acesso em: 21 jul. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A razão entre as distâncias percorridas às cegas por X e Y, nessa ordem, é igual a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "5/4"
+    },
+    {
+     "letter": "B",
+     "text": "1/4"
+    },
+    {
+     "letter": "C",
+     "text": "4/3"
+    },
+    {
+     "letter": "D",
+     "text": "4/1"
+    },
+    {
+     "letter": "E",
+     "text": "3/4"
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2017-q173",
+   "number": 173,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Para uma temporada das corridas de Fórmula 1, a capacidade do tanque de combustível de cada carro passou a ser de 100 kg de gasolina. Uma equipe optou por utilizar uma gasolina com densidade de 750 gramas por litro, iniciando a corrida com o tanque cheio. Na primeira parada de reabastecimento, um carro dessa equipe apresentou um registro em seu computador de bordo acusando o consumo de quatro décimos da gasolina originalmente existente no tanque. Para minimizar o peso desse carro e garantir o término da corrida, a equipe de apoio reabasteceu o carro com a terça parte do que restou no tanque na chegada ao reabastecimento."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.superdanilof1page.com.br. Acesso em: 6 jul. 2015 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A quantidade de gasolina utilizada, em litro, no reabastecimento foi"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "20/0,075"
+    },
+    {
+     "letter": "B",
+     "text": "20/0,75"
+    },
+    {
+     "letter": "C",
+     "text": "20/7,5"
+    },
+    {
+     "letter": "D",
+     "text": "20 x 0,075"
+    },
+    {
+     "letter": "E",
+     "text": "20 x 0,75"
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2017-q176",
+   "number": 176,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A energia solar vai abastecer parte da demanda de energia do campus de uma universidade brasileira. A instalação de painéis solares na área dos estacionamentos e na cobertura do hospital pediátrico será aproveitada nas instalações universitárias e também ligada na rede da companhia elétrica distribuidora de energia.\nO projeto inclui 100 m2 de painéis solares que ficarão instalados nos estacionamentos, produzindo energia elétrica e proporcionando sombra para os carros. Sobre o hospital pediátrico serão colocados aproximadamente 300 m2 de painéis, sendo 100 m2 para gerar energia elétrica utilizada no campus, e 200 m2 para geração de energia térmica, produzindo aquecimento de água utilizada nas caldeiras do hospital.\nSuponha que cada metro quadrado de painel solar para energia elétrica gere uma economia de 1 kWh por dia e cada metro quadrado produzindo energia térmica permita economizar 0,7 kWh por dia para a universidade. Em uma segunda fase do projeto, será aumentada em 75% a área coberta pelos painéis solares que geram energia elétrica. Nessa fase também deverá ser ampliada a área de cobertura com painéis para geração de energia térmica."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://agenciabrasil.ebc.com.br. Acesso em: 30 out. 2013 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Para se obter o dobro da quantidade de energia economizada diariamente, em relação à primeira fase, a área total dos painéis que geram energia térmica, em metro quadrado, deverá ter o valor mais próximo de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "231."
+    },
+    {
+     "letter": "B",
+     "text": "431."
+    },
+    {
+     "letter": "C",
+     "text": "472."
+    },
+    {
+     "letter": "D",
+     "text": "523."
+    },
+    {
+     "letter": "E",
+     "text": "672."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2017-q179",
+   "number": 179,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Qual é a probabilidade de esse morador se atrasar para o serviço no dia para o qual foi dada a estimativa de chuva?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "0,075"
+    },
+    {
+     "letter": "B",
+     "text": "0,150"
+    },
+    {
+     "letter": "C",
+     "text": "0,325"
+    },
+    {
+     "letter": "D",
+     "text": "0,600"
+    },
+    {
+     "letter": "E",
+     "text": "0,800"
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2017-q180",
+   "number": 180,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O instante em que a água dessa piscina terminar de escoar completamente está compreendido entre"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "19 h 30 min e 20 h 10 min."
+    },
+    {
+     "letter": "B",
+     "text": "19 h 20 min e 19 h 30 min."
+    },
+    {
+     "letter": "C",
+     "text": "19 h 10 min e 19 h 20 min."
+    },
+    {
+     "letter": "D",
+     "text": "19 h e 19 h 10 min."
+    },
+    {
+     "letter": "E",
+     "text": "18 h 40 min e 19 h."
+    }
+   ],
+   "answer": "D"
+  }
+ ]
+}

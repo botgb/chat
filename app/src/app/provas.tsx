@@ -27,6 +27,8 @@ export default function Provas() {
   };
 
   const manifest = app.manifest;
+  // Provas baixadas que saíram do catálogo (ex.: a demonstração antiga) precisam poder ser removidas.
+  const retired = manifest ? app.packs.filter((p) => !manifest.exams.some((e) => e.id === p.id)) : [];
 
   return (
     <SafeAreaView style={styles.screen} edges={['top']}>
@@ -83,6 +85,24 @@ export default function Provas() {
               })}
           </View>
         ))}
+        {retired.length > 0 && (
+          <View style={{ gap: space(3) }}>
+            <View>
+              <Text style={styles.section}>Fora do catálogo</Text>
+              <Text style={styles.muted}>Provas que você baixou, mas que não estão mais disponíveis.</Text>
+            </View>
+            {retired.map((p) => (
+              <View key={p.id} style={styles.card}>
+                <Text style={styles.title}>{p.title}</Text>
+                {busy === p.id ? (
+                  <ActivityIndicator color={colors.primary} />
+                ) : (
+                  <Button label="Remover do celular" variant="ghost" onPress={() => run(p.id, app.uninstall)} />
+                )}
+              </View>
+            ))}
+          </View>
+        )}
       </ScrollView>
     </SafeAreaView>
   );

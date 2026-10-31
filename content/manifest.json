@@ -1,5 +1,5 @@
 {
- "version": 2,
+ "version": 3,
  "vestibulares": [
   {
    "id": "enem",
@@ -8,6 +8,395 @@
   }
  ],
  "exams": [
+  {
+   "id": "enem-2009-d1",
+   "vestibular": "enem",
+   "title": "ENEM 2009, dia 1",
+   "year": 2009,
+   "packUrl": "enem/enem-2009-d1/pack.json",
+   "packVersion": 1,
+   "questionCount": 60,
+   "subjects": [
+    "Ciências Humanas",
+    "Ciências da Natureza"
+   ]
+  },
+  {
+   "id": "enem-2009-d2",
+   "vestibular": "enem",
+   "title": "ENEM 2009, dia 2",
+   "year": 2009,
+   "packUrl": "enem/enem-2009-d2/pack.json",
+   "packVersion": 1,
+   "questionCount": 52,
+   "subjects": [
+    "Linguagens",
+    "Matemática"
+   ]
+  },
+  {
+   "id": "enem-2010-d1",
+   "vestibular": "enem",
+   "title": "ENEM 2010, dia 1",
+   "year": 2010,
+   "packUrl": "enem/enem-2010-d1/pack.json",
+   "packVersion": 1,
+   "questionCount": 69,
+   "subjects": [
+    "Ciências Humanas",
+    "Ciências da Natureza"
+   ]
+  },
+  {
+   "id": "enem-2010-d2",
+   "vestibular": "enem",
+   "title": "ENEM 2010, dia 2",
+   "year": 2010,
+   "packUrl": "enem/enem-2010-d2/pack.json",
+   "packVersion": 1,
+   "questionCount": 46,
+   "subjects": [
+    "Espanhol",
+    "Inglês",
+    "Linguagens",
+    "Matemática"
+   ]
+  },
+  {
+   "id": "enem-2011-d1",
+   "vestibular": "enem",
+   "title": "ENEM 2011, dia 1",
+   "year": 2011,
+   "packUrl": "enem/enem-2011-d1/pack.json",
+   "packVersion": 1,
+   "questionCount": 60,
+   "subjects": [
+    "Ciências Humanas",
+    "Ciências da Natureza"
+   ]
+  },
+  {
+   "id": "enem-2011-d2",
+   "vestibular": "enem",
+   "title": "ENEM 2011, dia 2",
+   "year": 2011,
+   "packUrl": "enem/enem-2011-d2/pack.json",
+   "packVersion": 1,
+   "questionCount": 52,
+   "subjects": [
+    "Espanhol",
+    "Linguagens",
+    "Matemática"
+   ]
+  },
+  {
+   "id": "enem-2012-d1",
+   "vestibular": "enem",
+   "title": "ENEM 2012, dia 1",
+   "year": 2012,
+   "packUrl": "enem/enem-2012-d1/pack.json",
+   "packVersion": 1,
+   "questionCount": 64,
+   "subjects": [
+    "Ciências Humanas",
+    "Ciências da Natureza"
+   ]
+  },
+  {
+   "id": "enem-2012-d2",
+   "vestibular": "enem",
+   "title": "ENEM 2012, dia 2",
+   "year": 2012,
+   "packUrl": "enem/enem-2012-d2/pack.json",
+   "packVersion": 1,
+   "questionCount": 50,
+   "subjects": [
+    "Espanhol",
+    "Inglês",
+    "Linguagens",
+    "Matemática"
+   ]
+  },
+  {
+   "id": "enem-2013-d1",
+   "vestibular": "enem",
+   "title": "ENEM 2013, dia 1",
+   "year": 2013,
+   "packUrl": "enem/enem-2013-d1/pack.json",
+   "packVersion": 1,
+   "questionCount": 60,
+   "subjects": [
+    "Ciências Humanas",
+    "Ciências da Natureza"
+   ]
+  },
+  {
+   "id": "enem-2013-d2",
+   "vestibular": "enem",
+   "title": "ENEM 2013, dia 2",
+   "year": 2013,
+   "packUrl": "enem/enem-2013-d2/pack.json",
+   "packVersion": 1,
+   "questionCount": 48,
+   "subjects": [
+    "Espanhol",
+    "Inglês",
+    "Linguagens",
+    "Matemática"
+   ]
+  },
+  {
+   "id": "enem-2014-d1",
+   "vestibular": "enem",
+   "title": "ENEM 2014, dia 1",
+   "year": 2014,
+   "packUrl": "enem/enem-2014-d1/pack.json",
+   "packVersion": 1,
+   "questionCount": 56,
+   "subjects": [
+    "Ciências Humanas",
+    "Ciências da Natureza"
+   ]
+  },
+  {
+   "id": "enem-2014-d2",
+   "vestibular": "enem",
+   "title": "ENEM 2014, dia 2",
+   "year": 2014,
+   "packUrl": "enem/enem-2014-d2/pack.json",
+   "packVersion": 1,
+   "questionCount": 57,
+   "subjects": [
+    "Espanhol",
+    "Inglês",
+    "Linguagens",
+    "Matemática"
+   ]
+  },
+  {
+   "id": "enem-2015-d1",
+   "vestibular": "enem",
+   "title": "ENEM 2015, dia 1",
+   "year": 2015,
+   "packUrl": "enem/enem-2015-d1/pack.json",
+   "packVersion": 1,
+   "questionCount": 65,
+   "subjects": [
+    "Ciências Humanas",
+    "Ciências da Natureza"
+   ]
+  },
+  {
+   "id": "enem-2015-d2",
+   "vestibular": "enem",
+   "title": "ENEM 2015, dia 2",
+   "year": 2015,
+   "packUrl": "enem/enem-2015-d2/pack.json",
+   "packVersion": 1,
+   "questionCount": 59,
+   "subjects": [
+    "Espanhol",
+    "Inglês",
+    "Linguagens",
+    "Matemática"
+   ]
+  },
+  {
+   "id": "enem-2016-d1",
+   "vestibular": "enem",
+   "title": "ENEM 2016, dia 1",
+   "year": 2016,
+   "packUrl": "enem/enem-2016-d1/pack.json",
+   "packVersion": 1,
+   "questionCount": 56,
+   "subjects": [
+    "Ciências Humanas",
+    "Ciências da Natureza"
+   ]
+  },
+  {
+   "id": "enem-2016-d2",
+   "vestibular": "enem",
+   "title": "ENEM 2016, dia 2",
+   "year": 2016,
+   "packUrl": "enem/enem-2016-d2/pack.json",
+   "packVersion": 1,
+   "questionCount": 56,
+   "subjects": [
+    "Espanhol",
+    "Inglês",
+    "Linguagens",
+    "Matemática"
+   ]
+  },
+  {
+   "id": "enem-2017-d1",
+   "vestibular": "enem",
+   "title": "ENEM 2017, dia 1",
+   "year": 2017,
+   "packUrl": "enem/enem-2017-d1/pack.json",
+   "packVersion": 1,
+   "questionCount": 77,
+   "subjects": [
+    "Ciências Humanas",
+    "Espanhol",
+    "Inglês",
+    "Linguagens"
+   ]
+  },
+  {
+   "id": "enem-2017-d2",
+   "vestibular": "enem",
+   "title": "ENEM 2017, dia 2",
+   "year": 2017,
+   "packUrl": "enem/enem-2017-d2/pack.json",
+   "packVersion": 1,
+   "questionCount": 33,
+   "subjects": [
+    "Ciências da Natureza",
+    "Matemática"
+   ]
+  },
+  {
+   "id": "enem-2018-d1",
+   "vestibular": "enem",
+   "title": "ENEM 2018, dia 1",
+   "year": 2018,
+   "packUrl": "enem/enem-2018-d1/pack.json",
+   "packVersion": 1,
+   "questionCount": 72,
+   "subjects": [
+    "Ciências Humanas",
+    "Espanhol",
+    "Inglês",
+    "Linguagens"
+   ]
+  },
+  {
+   "id": "enem-2018-d2",
+   "vestibular": "enem",
+   "title": "ENEM 2018, dia 2",
+   "year": 2018,
+   "packUrl": "enem/enem-2018-d2/pack.json",
+   "packVersion": 1,
+   "questionCount": 35,
+   "subjects": [
+    "Ciências da Natureza",
+    "Matemática"
+   ]
+  },
+  {
+   "id": "enem-2019-d1",
+   "vestibular": "enem",
+   "title": "ENEM 2019, dia 1",
+   "year": 2019,
+   "packUrl": "enem/enem-2019-d1/pack.json",
+   "packVersion": 1,
+   "questionCount": 80,
+   "subjects": [
+    "Ciências Humanas",
+    "Espanhol",
+    "Inglês",
+    "Linguagens"
+   ]
+  },
+  {
+   "id": "enem-2019-d2",
+   "vestibular": "enem",
+   "title": "ENEM 2019, dia 2",
+   "year": 2019,
+   "packUrl": "enem/enem-2019-d2/pack.json",
+   "packVersion": 1,
+   "questionCount": 42,
+   "subjects": [
+    "Ciências da Natureza",
+    "Matemática"
+   ]
+  },
+  {
+   "id": "enem-2020-d1",
+   "vestibular": "enem",
+   "title": "ENEM 2020, dia 1",
+   "year": 2020,
+   "packUrl": "enem/enem-2020-d1/pack.json",
+   "packVersion": 1,
+   "questionCount": 79,
+   "subjects": [
+    "Ciências Humanas",
+    "Espanhol",
+    "Inglês",
+    "Linguagens"
+   ]
+  },
+  {
+   "id": "enem-2020-d2",
+   "vestibular": "enem",
+   "title": "ENEM 2020, dia 2",
+   "year": 2020,
+   "packUrl": "enem/enem-2020-d2/pack.json",
+   "packVersion": 1,
+   "questionCount": 33,
+   "subjects": [
+    "Ciências da Natureza",
+    "Matemática"
+   ]
+  },
+  {
+   "id": "enem-2021-d1",
+   "vestibular": "enem",
+   "title": "ENEM 2021, dia 1",
+   "year": 2021,
+   "packUrl": "enem/enem-2021-d1/pack.json",
+   "packVersion": 1,
+   "questionCount": 81,
+   "subjects": [
+    "Ciências Humanas",
+    "Espanhol",
+    "Inglês",
+    "Linguagens"
+   ]
+  },
+  {
+   "id": "enem-2021-d2",
+   "vestibular": "enem",
+   "title": "ENEM 2021, dia 2",
+   "year": 2021,
+   "packUrl": "enem/enem-2021-d2/pack.json",
+   "packVersion": 1,
+   "questionCount": 32,
+   "subjects": [
+    "Ciências da Natureza",
+    "Matemática"
+   ]
+  },
+  {
+   "id": "enem-2022-d1",
+   "vestibular": "enem",
+   "title": "ENEM 2022, dia 1",
+   "year": 2022,
+   "packUrl": "enem/enem-2022-d1/pack.json",
+   "packVersion": 1,
+   "questionCount": 76,
+   "subjects": [
+    "Ciências Humanas",
+    "Espanhol",
+    "Inglês",
+    "Linguagens"
+   ]
+  },
+  {
+   "id": "enem-2022-d2",
+   "vestibular": "enem",
+   "title": "ENEM 2022, dia 2",
+   "year": 2022,
+   "packUrl": "enem/enem-2022-d2/pack.json",
+   "packVersion": 1,
+   "questionCount": 37,
+   "subjects": [
+    "Ciências da Natureza",
+    "Matemática"
+   ]
+  },
   {
    "id": "enem-2023-d1",
    "vestibular": "enem",

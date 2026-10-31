@@ -1,0 +1,2450 @@
+{
+ "id": "enem-2009-d1",
+ "vestibular": "enem",
+ "title": "ENEM 2009, dia 1",
+ "year": 2009,
+ "version": 1,
+ "source": "Questões: INEP, ENEM 2009. Transcrição: ENEM API (enem.dev).",
+ "questions": [
+  {
+   "id": "enem-2009-q1",
+   "number": 1,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A atmosfera terrestre é composta pelos gases nitrogênio (N2) e oxigênio (O2), que somam cerca de 99%, e por gases traços, entre eles o gás carbônico (CO2), vapor de água (H2O), metano (CH4), ozônio (O3) e o óxido nitroso (N2O), que compõem o restante 1% do ar que respiramos. Os gases traços, por serem constituídos por pelo menos três átomos, conseguem absorver o calor irradiado pela Terra, aquecendo o planeta. Esse fenômeno, que acontece\nhá bilhões de anos, é chamado de efeito estufa. A partir da Revolução Industrial (século XIX), a concentração de gases traços na atmosfera, em particular o CO2, tem aumentado significativamente, o que resultou no aumento da temperatura em escala global. Mais recentemente, outro fator tornou-se diretamente envolvido no aumento da concentração de CO2 na atmosfera: o desmatamento."
+    },
+    {
+     "type": "text",
+     "text": "BROWN, I. F.; ALECHANDRE, A. S. Conceitos básicos sobre clima,carbono, florestas e comunidades. A.G. Moreira & S. Schwartzman. As mudanças climáticas globais e os ecossistemas brasileiros. Brasília: Instituto de Pesquisa Ambiental da Amazônia, 2000 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Considerando o texto, uma alternativa viável para combater o efeito estufa é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Reduzir o calor irradiado pela Terra mediante a substituição da produção primária pela industrialização refrigerada."
+    },
+    {
+     "letter": "B",
+     "text": "Promover a queima da biomassa vegetal, responsável pelo aumento do efeito estufa devido à produção de CH4."
+    },
+    {
+     "letter": "C",
+     "text": "Reduzir o desmatamento, mantendo-se, assim, o potencial da vegetação em absorver o CO2 da atmosfera."
+    },
+    {
+     "letter": "D",
+     "text": "Aumentar a concentração atmosférica de H2O, molécula capaz de absorver grande quantidade de calor."
+    },
+    {
+     "letter": "E",
+     "text": "Remover moléculas orgânicas polares da atmosfera, diminuindo a capacidade delas de reter calor."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2009-q3",
+   "number": 3,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Estima-se que haja atualmente no mundo 40 milhões de pessoas infectadas pelo HIV (o vírus que causa a AIDS), sendo que as taxas de novas infecções continuam crescendo, principalmente na África, Ásia e Rússia. Nesse cenário de pandemia, uma vacina contra o HIV teria imenso impacto, pois salvaria milhões de vidas. Certamente seria um marco na história planetária e também uma esperança para as populações carentes de tratamento antiviral e de acompanhamento médico."
+    },
+    {
+     "type": "text",
+     "text": "TANURI, A.; FERREIRA JUNIOR, O. C. Vacina contra Aids: desafios e esperanças. Ciência Hoje (44) 26, 2009 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Uma vacina eficiente contra o HIV deveria"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Induzir a imunidade, para proteger o organismo da contaminação viral."
+    },
+    {
+     "letter": "B",
+     "text": "Ser capaz de alterar o genoma do organismo portador, induzindo a síntese de enzimas protetoras."
+    },
+    {
+     "letter": "C",
+     "text": "Produzir antígenos capazes de se ligarem ao vírus, impedindo que este entre nas células do organismo humano."
+    },
+    {
+     "letter": "D",
+     "text": "Ser amplamente aplicada em animais, visto que esses são os principais transmissores do vírus para os seres humanos."
+    },
+    {
+     "letter": "E",
+     "text": "Estimular a imunidade, minimizando a transmissão do vírus por gotículas de saliva."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2009-q4",
+   "number": 4,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em um experimento, preparou-se um conjunto de plantas por técnica de clonagem a partir de uma planta original que apresentava folhas verdes. Esse conjunto foi dividido em dois grupos, que foram tratados de maneira idêntica, com exceção das condições de iluminação, sendo um grupo exposto a ciclos de iluminação solar natural e outro mantido no escuro. Após alguns dias, observou-se que o grupo exposto à luz apresentava folhas verdes como a planta original e o grupo cultivado no escuro apresentava folhas amareladas."
+    },
+    {
+     "type": "text",
+     "text": "Ao final do experimento, os dois grupos de plantas apresentaram"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Os genótipos e os fenótipos idênticos."
+    },
+    {
+     "letter": "B",
+     "text": "Os genótipos idênticos e os fenótipos diferentes."
+    },
+    {
+     "letter": "C",
+     "text": "Diferenças nos genótipos e fenótipos."
+    },
+    {
+     "letter": "D",
+     "text": "O mesmo fenótipo e apenas dois genótipos diferentes."
+    },
+    {
+     "letter": "E",
+     "text": "O mesmo fenótipo e grande variedade de genótipos."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2009-q5",
+   "number": 5,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Na linha de uma tradição antiga, o astrônomo grego Ptolomeu (100-170 d.C.) afirmou a tese do geocentrismo, segundo a qual a Terra seria o centro do universo, sendo que o Sol, a Lua e os planetas girariam em seu redor em órbitas circulares. A teoria de Ptolomeu resolvia de modo razoável os problemas astronômicos da sua época. Vários séculos mais tarde, o clérigo e astrônomo polonês Nicolau Copérnico (1473-1543), ao encontrar inexatidões na teoria de Ptolomeu, formulou a teoria do heliocentrismo, segundo a qual o Sol deveria ser considerado o centro do universo, com a Terra, a Lua e os planetas girando circularmente em torno dele. Por fim, o astrônomo e matemático alemão Johannes Kepler (1571- 1630), depois de estudar o planeta Marte por cerca de trinta anos, verificou que a sua órbita é elíptica. Esse resultado generalizou-se para os demais planetas."
+    },
+    {
+     "type": "text",
+     "text": "A respeito dos estudiosos citados no texto, é correto afirmar que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Ptolomeu apresentou as ideias mais valiosas, por serem mais antigas e tradicionais."
+    },
+    {
+     "letter": "B",
+     "text": "Copérnico desenvolveu a teoria do heliocentrismo inspirado no contexto político do Rei Sol."
+    },
+    {
+     "letter": "C",
+     "text": "Copérnico viveu em uma época em que a pesquisa científica era livre e amplamente incentivada pelas autoridades."
+    },
+    {
+     "letter": "D",
+     "text": "Kepler estudou o planeta Marte para atender às necessidades de expansão econômica e científica da Alemanha."
+    },
+    {
+     "letter": "E",
+     "text": "Kepler apresentou uma teoria científica que, graças aos métodos aplicados, pôde ser testada e generalizada."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2009-q6",
+   "number": 6,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O ciclo biogeoquímico do carbono compreende diversos compartimentos, entre os quais a Terra, a atmosfera e os oceanos, e diversos processos que permitem a transferência de compostos entre esses reservatórios. Os estoques de carbono armazenados na forma de recursos não renováveis, por exemplo, o petróleo, são limitados, sendo de grande relevância que se perceba a importância da substituição de combustíveis fósseis por combustíveis de fontes renováveis."
+    },
+    {
+     "type": "text",
+     "text": "A utilização de combustíveis fósseis interfere no ciclo do carbono, pois provoca"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Aumento da porcentagem de carbono contido na Terra."
+    },
+    {
+     "letter": "B",
+     "text": "Redução na taxa de fotossíntese dos vegetais superiores."
+    },
+    {
+     "letter": "C",
+     "text": "Aumento da produção de carboidratos de origem vegetal."
+    },
+    {
+     "letter": "D",
+     "text": "Aumento na quantidade de carbono presente na atmosfera."
+    },
+    {
+     "letter": "E",
+     "text": "Redução da quantidade global de carbono armazenado nos oceanos."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2009-q7",
+   "number": 7,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um novo método para produzir insulina artificial que utiliza tecnologia de DNA recombinante foi desenvolvido por pesquisadores do Departamento de Biologia Celular da Universidade de Brasília (UnB) em parceria com a iniciativa privada. Os pesquisadores modificaram geneticamente a bactéria Escherichia coli para torná-la capaz de sintetizar o hormônio. O processo permitiu fabricar insulina em maior quantidade e em apenas 30 dias, um terço do tempo necessário para obtê-la pelo método tradicional, que consiste na extração do hormônio a partir do pâncreas de animais abatidos."
+    },
+    {
+     "type": "text",
+     "text": "Ciência Hoje, 24 abr. 2001. Disponível em: http://cienciahoje.uol.com.br (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A produção de insulina pela técnica do DNA recombinante tem, como consequência,"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "O aperfeiçoamento do processo de extração de insulina a partir do pâncreas suíno."
+    },
+    {
+     "letter": "B",
+     "text": "A seleção de microrganismos resistentes a antibióticos."
+    },
+    {
+     "letter": "C",
+     "text": "O progresso na técnica da síntese química de hormônios."
+    },
+    {
+     "letter": "D",
+     "text": "Impacto favorável na saúde de indivíduos diabéticos."
+    },
+    {
+     "letter": "E",
+     "text": "A criação de animais transgênicos."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2009-q8",
+   "number": 8,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A economia moderna depende da disponibilidade de muita energia em diferentes formas, para funcionar e crescer. No Brasil, o consumo total de energia pelas indústrias cresceu mais de quatro vezes no período entre 1970 e 2005. Enquanto os investimentos em energias limpas e renováveis, como solar e eólica, ainda são incipientes, ao se avaliar a possibilidade de instalação de usinas geradoras de energia elétrica, diversos fatores devem ser levados em consideração, tais como os impactos causados ao ambiente e às populações locais."
+    },
+    {
+     "type": "text",
+     "text": "RICARDO, B.; CAMPANILI, M. Almanaque Brasil Socioambiental. São Paulo: Instituto Socioambiental, 2007 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Em uma situação hipotética, optou-se por construir uma usina hidrelétrica em região que abrange diversas quedas d’água em rios cercados por mata, alegando-se que causaria impacto ambiental muito menor que uma usina termelétrica. Entre os possíveis impactos da instalação de uma usina hidrelétrica nessa região, inclui-se"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A poluição da água por metais da usina."
+    },
+    {
+     "letter": "B",
+     "text": "A destruição do habitat de animais terrestres."
+    },
+    {
+     "letter": "C",
+     "text": "O aumento expressivo na liberação de CO2 para a atmosfera."
+    },
+    {
+     "letter": "D",
+     "text": "O consumo não renovável de toda água que passa pelas turbinas."
+    },
+    {
+     "letter": "E",
+     "text": "O aprofundamento no leito do rio, com a menor deposição de resíduos no trecho de rio anterior à represa."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2009-q9",
+   "number": 9,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "As mudanças climáticas e da vegetação ocorridas nos trópicos da América do Sul têm sido bem documentadas por diversos autores, existindo um grande acúmulo de evidências geológicas ou paleoclimatológicas que evidenciam essas mudanças ocorridas durante o Quaternário nessa região. Essas mudanças resultaram em restrição da distribuição das florestas pluviais, com expansões concomitantes de habitats não-florestais durante períodos áridos (glaciais), seguido da expansão das florestas pluviais e restrição das áreas não-florestais durante períodos úmidos (interglaciais)."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://zoo.bio.ufpr.br. Acesso em: 1 maio 2009."
+    },
+    {
+     "type": "text",
+     "text": "Durante os períodos glaciais,"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "As áreas não-florestais ficam restritas a refúgios ecológicos devido à baixa adaptabilidade de espécies não-florestais a ambientes áridos."
+    },
+    {
+     "letter": "B",
+     "text": "Grande parte da diversidade de espécies vegetais é reduzida, uma vez que necessitam de condições semelhantes a dos períodos interglaciais."
+    },
+    {
+     "letter": "C",
+     "text": "A vegetação comum ao cerrado deve ter se limitado a uma pequena região do centro do Brasil, da qual se expandiu até atingir a atual distribuição."
+    },
+    {
+     "letter": "D",
+     "text": "Plantas com adaptações ao clima árido, como o desenvolvimento de estruturas que reduzem a perda de água, devem apresentar maior área de distribuição."
+    },
+    {
+     "letter": "E",
+     "text": "Florestas tropicais como a amazônica apresentam distribuição geográfica mais ampla, uma vez que são densas e diminuem a ação da radiação solar sobre o solo e reduzem os efeitos da aridez."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2009-q10",
+   "number": 10,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A fotossíntese é importante para a vida na Terra. Nos cloroplastos dos organismos fotossintetizantes, a energia solar é convertida em energia química que, juntamente com água e gás carbônico (CO2), é utilizada para a síntese de compostos orgânicos (carboidratos). A fotossíntese é o único processo de importância biológica capaz de realizar essa conversão. Todos os organismos, incluindo os produtores, aproveitam a energia armazenada nos carboidratos para impulsionar os processos celulares, liberando CO2 para a atmosfera e água para a célula por meio da respiração celular. Além disso, grande fração dos recursos energéticos do planeta, produzidos tanto no presente (biomassa) como em tempos remotos (combustível fóssil), é resultante da atividade fotossintética."
+    },
+    {
+     "type": "text",
+     "text": "As informações sobre obtenção e transformação dos recursos naturais por meio dos processos vitais de fotossíntese e respiração, descritas no texto, permitem concluir que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "O CO2 e a água são moléculas de alto teor energético."
+    },
+    {
+     "letter": "B",
+     "text": "Os carboidratos convertem energia solar em energia química."
+    },
+    {
+     "letter": "C",
+     "text": "A vida na Terra depende, em última análise, da energia proveniente do Sol."
+    },
+    {
+     "letter": "D",
+     "text": "O processo respiratório é responsável pela retirada de carbono da atmosfera."
+    },
+    {
+     "letter": "E",
+     "text": "A produção de biomassa e de combustível fóssil, por si, é responsável pelo aumento de CO2 atmosférico."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2009-q11",
+   "number": 11,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Para que todos os órgãos do corpo humano funcionem em boas condições, é necessário que a temperatura do corpo fique sempre entre 36ºC e 37ºC. Para manter-se dentro dessa faixa, em dias de muito calor ou durante intensos exercícios físicos, uma série de mecanismos fisiológicos é acionada."
+    },
+    {
+     "type": "text",
+     "text": "Pode-se citar como o principal responsável pela manutenção da temperatura corporal humana o sistema"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Digestório, pois produz enzimas que atuam na quebra de alimentos calóricos."
+    },
+    {
+     "letter": "B",
+     "text": "Imunológico, pois suas células agem no sangue, diminuindo a condução do calor."
+    },
+    {
+     "letter": "C",
+     "text": "Nervoso, pois promove a sudorese, que permite perda de calor por meio da evaporação da água."
+    },
+    {
+     "letter": "D",
+     "text": "Reprodutor, pois secreta hormônios que alteram a temperatura, principalmente durante a menopausa."
+    },
+    {
+     "letter": "E",
+     "text": "Endócrino, pois fabrica anticorpos que, por sua vez, atuam na variação do diâmetro dos vasos periféricos."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2009-q13",
+   "number": 13,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A abertura e a pavimentação de rodovias em zonas rurais e regiões afastadas dos centros urbanos, por um lado, possibilita melhor acesso e maior integração entre as comunidades, contribuindo com o desenvolvimento social e urbano de populações isoladas. Por outro lado, a construção de rodovias pode trazer impactos indesejáveis ao meio ambiente, visto que a abertura de estradas pode resultar na fragmentação de habitats, comprometendo o fluxo gênico e as interações entre espécies silvestres, além de prejudicar o fluxo natural de rios e riachos, possibilitar o ingresso de espécies exóticas em ambientes naturais e aumentar a pressão antrópica sobre os ecossistemas nativos."
+    },
+    {
+     "type": "text",
+     "text": "BARBOSA, N. P. U.; FERNANDES, G. W. A destruição do jardim. Scientific American Brasil. Ano 7, número 80, dez. 2008 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Nesse contexto, para conciliar os interesses aparentemente contraditórios entre o progresso social e urbano e a conservação do meio ambiente, seria razoável"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Impedir a abertura e a pavimentação de rodovias em áreas rurais e em regiões preservadas, pois a qualidade de vida e as tecnologias encontradas nos centros urbanos são prescindíveis às populações rurais."
+    },
+    {
+     "letter": "B",
+     "text": "Impedir a abertura e a pavimentação de rodovias em áreas rurais e em regiões preservadas, promovendo a migração das populações rurais para os centros urbanos, onde a qualidade de vida é melhor."
+    },
+    {
+     "letter": "C",
+     "text": "Permitir a abertura e a pavimentação de rodovias apenas em áreas rurais produtivas, haja vista que nas demais áreas o retorno financeiro necessário para produzir uma melhoria na qualidade de vida da região não é garantido."
+    },
+    {
+     "letter": "D",
+     "text": "Permitir a abertura e a pavimentação de rodovias, desde que comprovada a sua real necessidade e após a realização de estudos que demonstrem ser possível contornar ou compensar seus impactos ambientais."
+    },
+    {
+     "letter": "E",
+     "text": "Permitir a abertura e a pavimentação de rodovias, haja vista que os impactos ao meio ambiente são temporários e podem ser facilmente revertidos com as tecnologias existentes para recuperação de áreas degradadas."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2009-q17",
+   "number": 17,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O Brasil pode se transformar no primeiro país das Américas a entrar no seleto grupo das nações que dispõem de trens-bala. O Ministério dos Transportes prevê o lançamento do edital de licitação internacional para a construção da ferrovia de alta velocidade Rio-São Paulo. A viagem ligará os 403 quilômetros entre a Central do Brasil, no Rio, e a Estação da Luz, no centro da capital paulista, em uma hora e 25 minutos."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://oglobo.globo.com. Acesso em: 14 jul. 2009"
+    },
+    {
+     "type": "text",
+     "text": "Devido à alta velocidade, um dos problemas a ser enfrentado na escolha do trajeto que será percorrido pelo trem é o dimensionamento das curvas. Considerando-se que uma aceleração lateral confortável para os passageiros e segura para o trem seja de 0,1 g, em que g é a aceleração da gravidade (considerada igual a 10 m/s²), e que a velocidade do trem se mantenha constante em todo o percurso, seria correto prever que as curvas existentes no trajeto deveriam ter raio de curvatura mínimo de, aproximadamente,"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "80 m."
+    },
+    {
+     "letter": "B",
+     "text": "430 m."
+    },
+    {
+     "letter": "C",
+     "text": "800 m."
+    },
+    {
+     "letter": "D",
+     "text": "1.600 m."
+    },
+    {
+     "letter": "E",
+     "text": "6.400 m."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2009-q23",
+   "number": 23,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Cerca de 1% do lixo urbano é constituído por resíduos sólidos contendo elementos tóxicos. Entre esses elementos estão metais pesados como o cádmio, o chumbo e o mercúrio, componentes de pilhas e baterias, que são perigosos à saúde humana e ao meio ambiente. Quando descartadas em lixos comuns, pilhas e baterias vão para aterros sanitários ou lixões a céu aberto, e o vazamento de seus componentes contamina o solo, os rios e o lençol freático, atingindo a flora e a fauna. Por serem bioacumulativos e não biodegradáveis, esses metais chegam de forma acumulada aos seres humanos, por meio da cadeia alimentar. A legislação vigente (Resolução CONAMA no 257/1999) regulamenta o destino de pilhas e baterias após seu esgotamento energético e determina aos fabricantes e/ou importadores a quantidade máxima permitida desses metais em cada tipo de pilha/bateria, porém o problema ainda persiste."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://www.mma.gov.br.\nAcesso em: 11 jul. 2009 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Uma medida que poderia contribuir para acabar definitivamente com o problema da poluição ambiental por metais pesados relatado no texto seria"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Deixar de consumir aparelhos elétricos que utilizem pilha ou bateria como fonte de energia."
+    },
+    {
+     "letter": "B",
+     "text": "Usar apenas pilhas ou baterias recarregáveis e de vida útil longa e evitar ingerir alimentos contaminados, especialmente peixes."
+    },
+    {
+     "letter": "C",
+     "text": "Devolver pilhas e baterias, após o esgotamento da energia armazenada, à rede de assistência técnica especializada para repasse a fabricantes e/ou importadores."
+    },
+    {
+     "letter": "D",
+     "text": "Criar nas cidades, especialmente naquelas com mais de 100 mil habitantes, pontos estratégicos de coleta de baterias e pilhas, para posterior repasse a fabricantes e/ou importadores."
+    },
+    {
+     "letter": "E",
+     "text": "Exigir que fabricantes invistam em pesquisa para a substituição desses metais tóxicos por substâncias menos nocivas ao homem e ao ambiente, e que não sejam bioacumulativas."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2009-q26",
+   "number": 26,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O processo de industrialização tem gerado sérios problemas de ordem ambiental, econômica e social, entre os quais se pode citar a chuva ácida. Os ácidos usualmente presentes em maiores proporções na água da chuva são o H2CO3, formado pela reação do CO2 atmosférico com a água, o HNO3 , o HNO2 , o H2SO4 e o H2SO3 . Esses quatro últimos são formados principalmente a partir da reação da água com os óxidos de nitrogênio e de enxofre gerados pela queima de combustíveis fósseis."
+    },
+    {
+     "type": "text",
+     "text": "A formação de chuva mais ou menos ácida depende não só da concentração do ácido formado, como também do tipo de ácido. Essa pode ser uma informação útil na elaboração de estratégias para minimizar esse problema ambiental. Se consideradas concentrações idênticas, quais dos ácidos citados no texto conferem maior acidez às águas das chuvas?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "HNO3 e HNO2."
+    },
+    {
+     "letter": "B",
+     "text": "H2SO4 e H2SO3."
+    },
+    {
+     "letter": "C",
+     "text": "H2SO3 e HNO2."
+    },
+    {
+     "letter": "D",
+     "text": "H2SO4 e HNO3."
+    },
+    {
+     "letter": "E",
+     "text": "H2CO3 e H2SO3."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2009-q30",
+   "number": 30,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "É possível, com 1 litro de gasolina, usando todo o calor produzido por sua combustão direta, aquecer 200 litros de água de 20 °C a 55 °C. Pode-se efetuar esse mesmo aquecimento por um gerador de eletricidade, que consome 1 litro de gasolina por hora e fornece 110 V a um resistor de 11 Ω, imerso na água, durante um certo intervalo de tempo. Todo o calor liberado pelo resistor é transferido à água."
+    },
+    {
+     "type": "text",
+     "text": "Considerando que o calor específico da água é igual a 4,19 J g-1 °C-1, aproximadamente qual a quantidade de gasolina consumida para o aquecimento de água obtido pelo gerador, quando comparado ao obtido a partir da combustão?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A quantidade de gasolina consumida é igual para os dois casos."
+    },
+    {
+     "letter": "B",
+     "text": "A quantidade de gasolina consumida pelo gerador é duas vezes maior que a consumida na combustão."
+    },
+    {
+     "letter": "C",
+     "text": "A quantidade de gasolina consumida pelo gerador é duas vezes menor que a consumida na combustão."
+    },
+    {
+     "letter": "D",
+     "text": "A quantidade de gasolina consumida pelo gerador é sete vezes maior que a consumida na combustão."
+    },
+    {
+     "letter": "E",
+     "text": "A quantidade de gasolina consumida pelo gerador é sete vezes menor que a consumida na combustão."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2009-q31",
+   "number": 31,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O progresso da tecnologia introduziu diversos artefatos geradores de campos eletromagnéticos. Uma das mais empregadas invenções nessa área são os telefones celulares e smartphones. As tecnologias de transmissão de celular atualmente em uso no Brasil contemplam dois sistemas. O primeiro deles é operado entre as frequências de 800 MHz e 900 MHz e constitui os chamados sistemas TDMA/CDMA. Já a tecnologia GSM, ocupa a frequência de 1.800 MHz."
+    },
+    {
+     "type": "text",
+     "text": "Considerando que a intensidade de transmissão e o nível de recepção “celular” sejam os mesmos para as tecnologias de transmissão TDMA/CDMA ou GSM, se um engenheiro tiver de escolher entre as duas tecnologias para obter a mesma cobertura, levando em consideração apenas o número de antenas em uma região, ele deverá escolher:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A tecnologia GSM, pois é a que opera com ondas de maior comprimento de onda."
+    },
+    {
+     "letter": "B",
+     "text": "A tecnologia TDMA/CDMA, pois é a que apresenta Efeito Doppler mais pronunciado."
+    },
+    {
+     "letter": "C",
+     "text": "A tecnologia GSM, pois é a que utiliza ondas que se propagam com maior velocidade."
+    },
+    {
+     "letter": "D",
+     "text": "Qualquer uma das duas, pois as diferenças nas frequências são compensadas pelas diferenças nos comprimentos de onda."
+    },
+    {
+     "letter": "E",
+     "text": "Qualquer uma das duas, pois nesse caso as intensidades decaem igualmente da mesma forma, independentemente da frequência."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2009-q34",
+   "number": 34,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O lixo orgânico de casa – constituído de restos de verduras, frutas, legumes, cascas de ovo, aparas de grama, entre outros –, se for depositado nos lixões, pode contribuir para o aparecimento de animais e de odores indesejáveis. Entretanto, sua reciclagem gera um excelente adubo orgânico, que pode ser usado no cultivo de hortaliças, frutíferas e plantas ornamentais. A produção do adubo ou composto orgânico se dá por meio da compostagem, um processo simples que requer alguns cuidados especiais. O material que é acumulado diariamente em recipientes próprios deve ser revirado com auxílio de ferramentas adequadas, semanalmente, de forma a homogeneizá-lo. É preciso também umedecê-lo periodicamente. O material de restos de capina pode ser intercalado entre uma camada e outra de lixo da cozinha. Por meio desse método, o adubo orgânico estará pronto em aproximadamente dois a três meses."
+    },
+    {
+     "type": "text",
+     "text": "Como usar o lixo orgânico em casa? Ciência Hoje, v. 42, jun. 2008 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Suponha que uma pessoa, desejosa de fazer seu próprio adubo orgânico, tenha seguido o procedimento descrito no texto exceto no que se refere ao umedecimento periódico do composto. Nessa situação,"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "O processo de compostagem iria produzir intenso mau cheiro."
+    },
+    {
+     "letter": "B",
+     "text": "O adubo formado seria pobre em matéria orgânica que não foi transformada em composto."
+    },
+    {
+     "letter": "C",
+     "text": "A falta de água no composto vai impedir que microrganismos decomponham a matéria orgânica."
+    },
+    {
+     "letter": "D",
+     "text": "A falta de água no composto iria elevar a temperatura da mistura, o que resultaria na perda de nutrientes essenciais."
+    },
+    {
+     "letter": "E",
+     "text": "Apenas microrganismos que independem de oxigênio poderiam agir sobre a matéria orgânica e transformá-la em adubo."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2009-q37",
+   "number": 37,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Sabe-se que o olho humano não consegue diferenciar componentes de cores e vê apenas a cor resultante, diferentemente do ouvido, que consegue distinguir, por exemplo, dois instrumentos diferentes tocados simultaneamente. Os raios luminosos do espectro visível, que têm comprimento de onda entre 380 nm e 780 nm, incidem na córnea, passam pelo cristalino e são projetados na retina. Na retina, encontram-se dois tipos de fotorreceptores, os cones e os bastonetes, que convertem a cor e a intensidade da luz recebida em impulsos nervosos. Os cones distinguem as cores primárias: vermelho, verde e azul, e os bastonetes diferenciam apenas níveis de intensidade, sem separar comprimentos de onda. Os impulsos nervosos produzidos são enviados ao cérebro por meio do nervo óptico, para que se dê a percepção da imagem."
+    },
+    {
+     "type": "text",
+     "text": "Um indivíduo que, por alguma deficiência, não consegue captar as informações transmitidas pelos cones, perceberá um objeto branco, iluminado apenas por luz vermelha, como"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Um objeto indefinido, pois as células que captam a luz estão inativas."
+    },
+    {
+     "letter": "B",
+     "text": "Um objeto rosa, pois haverá mistura da luz vermelha com o branco do objeto."
+    },
+    {
+     "letter": "C",
+     "text": "Um objeto verde, pois o olho não consegue diferenciar componentes de cores."
+    },
+    {
+     "letter": "D",
+     "text": "Um objeto cinza, pois os bastonetes captam luminosidade, porém não diferenciam cor."
+    },
+    {
+     "letter": "E",
+     "text": "Um objeto vermelho, pois a retina capta a luz refletida pelo objeto, transformando-a em vermelho."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2009-q38",
+   "number": 38,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Durante uma ação de fiscalização em postos de combustíveis, foi encontrado um mecanismo inusitado para enganar o consumidor. Durante o inverno, o responsável por um posto de combustível compra álcool por R$ 0,50/litro, a uma temperatura de 5 °C. Para revender o líquido aos motoristas, instalou um mecanismo na bomba de combustível para aquecê-lo, para que atinja a temperatura de 35 °C, sendo o litro de álcool revendido a R$ 1,60. Diariamente o posto compra 20 mil litros de álcool a 5 ºC e os revende."
+    },
+    {
+     "type": "text",
+     "text": "Com relação à situação hipotética descrita no texto e dado que o coeficiente de dilatação volumétrica do álcool é de 1×10-3 ºC-1, desprezando-se o custo da energia gasta no aquecimento do combustível, o ganho financeiro que o dono do posto teria obtido devido ao aquecimento do álcool após uma semana de vendas estaria entre"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "R$ 500,00 e R$ 1.000,00."
+    },
+    {
+     "letter": "B",
+     "text": "R$ 1.050,00 e R$ 1.250,00."
+    },
+    {
+     "letter": "C",
+     "text": "R$ 4.000,00 e R$ 5.000,00."
+    },
+    {
+     "letter": "D",
+     "text": "R$ 6.000,00 e R$ 6.900,00."
+    },
+    {
+     "letter": "E",
+     "text": "R$ 7.000,00 e R$ 7.950,00."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2009-q40",
+   "number": 40,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Na manipulação em escala nanométrica, os átomos revelam características peculiares, podendo apresentar tolerância à temperatura, reatividade química, condutividade elétrica, ou mesmo exibir força de intensidade extraordinária. Essas características explicam o interesse industrial pelos nanomateriais que estão sendo muito pesquisados em diversas áreas, desde o desenvolvimento de cosméticos, tintas e tecidos, até o de terapias contra o câncer."
+    },
+    {
+     "type": "text",
+     "text": "LACAVA, Z. G. M; MORAIS, P. C. Nanobiotecnologia e Saúde. Disponível em: http://www.comciencia.br (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A utilização de nanopartículas na indústria e na medicina requer estudos mais detalhados, pois"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "As partículas, quanto menores, mais potentes e radiativas se tornam."
+    },
+    {
+     "letter": "B",
+     "text": "As partículas podem ser manipuladas, mas não caracterizadas com a atual tecnologia."
+    },
+    {
+     "letter": "C",
+     "text": "As propriedades biológicas das partículas somente podem ser testadas em microrganismos."
+    },
+    {
+     "letter": "D",
+     "text": "As partículas podem atravessar poros e canais celulares, o que poderia causar impactos desconhecidos aos seres vivos e, até mesmo, aos ecossistemas."
+    },
+    {
+     "letter": "E",
+     "text": "O organismo humano apresenta imunidade contra partículas tão pequenas, já que apresentam a mesma dimensão das bactérias (um bilionésimo de metro)."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2009-q41",
+   "number": 41,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Uma vítima de acidente de carro foi encontrada carbonizada devido a uma explosão. Indícios, como certos adereços de metal usados pela vítima, sugerem que a mesma seja filha de um determinado casal. Uma equipe policial de perícia teve acesso ao material biológico carbonizado da vítima, reduzido, praticamente, a fragmentos de ossos. Sabe-se que é possível obter DNA em condições para análise genética de parte do tecido interno de ossos. Os peritos necessitam escolher, entre cromossomos autossômicos, cromossomos sexuais (X e Y) ou DNAmt (DNA mitocondrial), a melhor opção para identificação do parentesco da vítima com o referido casal. Sabe-se que, entre outros aspectos, o número de cópias de um mesmo cromossomo por célula maximiza a chance de se obter moléculas não degradadas pelo calor da explosão."
+    },
+    {
+     "type": "text",
+     "text": "Com base nessas informações e tendo em vista os diferentes padrões de herança de cada fonte de DNA citada, a melhor opção para a perícia seria a utilização"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Do DNAmt, transmitido ao longo da linhagem materna, pois, em cada célula humana, há várias cópias dessa molécula."
+    },
+    {
+     "letter": "B",
+     "text": "Do cromossomo X, pois a vítima herdou duas cópias desse cromossomo, estando assim em número superior aos demais."
+    },
+    {
+     "letter": "C",
+     "text": "Do cromossomo autossômico, pois esse cromossomo apresenta maior quantidade de material genético quando comparado aos nucleares, como, por exemplo, o DNAmt."
+    },
+    {
+     "letter": "D",
+     "text": "Do cromossomo Y, pois, em condições normais, este é transmitido integralmente do pai para toda a prole e está presente em duas cópias em células de indivíduos do sexo feminino."
+    },
+    {
+     "letter": "E",
+     "text": "De marcadores genéticos em cromossomos autossômicos, pois estes, além de serem transmitidos pelo pai e pela mãe, estão presentes em 44 cópias por célula, e os demais, em apenas uma."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2009-q42",
+   "number": 42,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O cultivo de camarões de água salgada vem se desenvolvendo muito nos últimos anos na região Nordeste do Brasil e, em algumas localidades, passou a ser a principal atividade econômica. Uma das grandes preocupações dos impactos negativos dessa atividade está relacionada à descarga, sem nenhum tipo de tratamento, dos efluentes dos viveiros diretamente no ambiente marinho, em estuários ou em manguezais. Esses efluentes possuem matéria orgânica particulada e dissolvida, amônia, nitrito, nitrato, fosfatos, partículas de sólidos em suspensão e outras substâncias que podem ser consideradas contaminantes potenciais."
+    },
+    {
+     "type": "text",
+     "text": "CASTRO, C. B.; ARAGÃO, J. S.; COSTA-LOTUFO, L. V. Monitoramento da toxicidade de efluentes de uma fazenda de cultivo de camarão marinho. Anais do IX Congresso Brasileiro de Ecotoxicologia, 2006 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Suponha que tenha sido construída uma fazenda de carcinicultura próximo a um manguezal. Entre as perturbações ambientais causadas pela fazenda, espera-se que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A atividade microbiana se torne responsável pela reciclagem do fósforo orgânico excedente no ambiente marinho."
+    },
+    {
+     "letter": "B",
+     "text": "A relativa instabilidade das condições marinhas torne as alterações de fatores físico-químicos pouco críticas à vida no mar."
+    },
+    {
+     "letter": "C",
+     "text": "A amônia excedente seja convertida em nitrito, por meio do processo de nitrificação, e em nitrato, formado como produto intermediário desse processo."
+    },
+    {
+     "letter": "D",
+     "text": "Os efluentes promovam o crescimento excessivo de plantas aquáticas devido à alta diversidade de espécies vegetais permanentes no manguezal."
+    },
+    {
+     "letter": "E",
+     "text": "O impedimento da penetração da luz pelas partículas em suspensão venha a comprometer a produtividade primária do ambiente marinho, que resulta da atividade metabólica do fitoplâncton."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2009-q44",
+   "number": 44,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O álcool hidratado utilizado como combustível veicular é obtido por meio da destilação fracionada de soluções aquosas geradas a partir da fermentação de biomassa. Durante a destilação, o teor de etanol da mistura é aumentado, até o limite de 96% em massa."
+    },
+    {
+     "type": "text",
+     "text": "Considere que, em uma usina de produção de etanol, 800 kg de uma mistura etanol/água com concentração 20% em massa de etanol foram destilados, sendo obtidos 100 kg de álcool hidratado 96% em massa de etanol. A partir desses dados, é correto concluir que a destilação em questão gerou um resíduo com uma concentração de etanol em massa"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "De 0%."
+    },
+    {
+     "letter": "B",
+     "text": "De 8,0%."
+    },
+    {
+     "letter": "C",
+     "text": "Entre 8,4% e 8,6%."
+    },
+    {
+     "letter": "D",
+     "text": "Entre 9,0% e 9,2%."
+    },
+    {
+     "letter": "E",
+     "text": "Entre 13% e 14%."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2009-q46",
+   "number": 46,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O Egito é visitado anualmente por milhões de turistas de todos os quadrantes do planeta, desejosos de ver com os próprios olhos a grandiosidade do poder esculpida em pedra há milênios: as pirâmides de Gizeh, as tumbas do Vale dos Reis e os numerosos templos construídos ao longo do Nilo."
+    },
+    {
+     "type": "text",
+     "text": "O que hoje se transformou em atração turística era, no passado, interpretado de forma muito diferente, pois"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Significava, entre outros aspectos, o poder que os faraós tinham para escravizar grandes contingentes populacionais que trabalhavam nesses monumentos."
+    },
+    {
+     "letter": "B",
+     "text": "Representava para as populações do alto Egito a possibilidade de migrar para o sul e encontrar trabalho nos canteiros faraônicos."
+    },
+    {
+     "letter": "C",
+     "text": "Significava a solução para os problemas econômicos, uma vez que os faraós sacrificavam aos deuses suas riquezas, construindo templos."
+    },
+    {
+     "letter": "D",
+     "text": "Representava a possibilidade de o faraó ordenar a sociedade, obrigando os desocupados a trabalharem em obras públicas, que engrandeceram o próprio Egito."
+    },
+    {
+     "letter": "E",
+     "text": "Significava um peso para a população egípcia, que condenava o luxo faraônico e a religião baseada em crenças e superstições."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2009-q47",
+   "number": 47,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O que se entende por Corte do antigo regime é, em primeiro lugar, a casa de habitação dos reis de França, de suas famílias, de todas as pessoas que, de perto ou de longe, dela fazem parte. As despesas da Corte, da imensa casa dos reis, são consignadas no registro das despesas do reino da França sob a rubrica significativa de Casas Reais."
+    },
+    {
+     "type": "text",
+     "text": "ELIAS, N. A sociedade de corte. Lisboa: Estampa, 1987"
+    },
+    {
+     "type": "text",
+     "text": "Algumas casas de habitação dos reis tiveram grande efetividade política e terminaram por se transformar em patrimônio artístico e cultural, cujo exemplo é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "O palácio de Versalhes."
+    },
+    {
+     "letter": "B",
+     "text": "O Museu Britânico."
+    },
+    {
+     "letter": "C",
+     "text": "A catedral de Colônia."
+    },
+    {
+     "letter": "D",
+     "text": "A Casa Branca."
+    },
+    {
+     "letter": "E",
+     "text": "A pirâmide do faraó Quéops."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2009-q48",
+   "number": 48,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Hoje em dia, nas grandes cidades, enterrar os mortos é uma prática quase íntima, que diz respeito apenas à família. A menos, é claro, que se trate de uma personalidade conhecida. Entretanto, isso nem sempre foi assim. Para um historiador, os sepultamentos são uma fonte de informações importantes para que se compreenda, por exemplo, a vida política das sociedades."
+    },
+    {
+     "type": "text",
+     "text": "No que se refere às práticas sociais ligadas aos sepultamentos,"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Na Grécia Antiga, as cerimônias fúnebres eram desvalorizadas, porque o mais importante era a democracia experimentada pelos vivos."
+    },
+    {
+     "letter": "B",
+     "text": "Na Idade Média, a Igreja tinha pouca influência sobre os rituais fúnebres, preocupando-se mais com a salvação da alma."
+    },
+    {
+     "letter": "C",
+     "text": "No Brasil colônia, o sepultamento dos mortos nas igrejas era regido pela observância da hierarquia social."
+    },
+    {
+     "letter": "D",
+     "text": "Na época da Reforma, o catolicismo condenou os excessos de gastos que a burguesia fazia para sepultar seus mortos."
+    },
+    {
+     "letter": "E",
+     "text": "No período posterior à Revolução Francesa, devido as grandes perturbações sociais, abandona-se a prática do luto."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2009-q49",
+   "number": 49,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A Idade Média é um extenso período da História do Ocidente cuja memória é construída e reconstruída segundo as circunstâncias das épocas posteriores. Assim, desde o Renascimento, esse período vem sendo alvo de diversas interpretações que dizem mais sobre o contexto histórico em que são produzidas do que propriamente sobre o Medievo."
+    },
+    {
+     "type": "text",
+     "text": "Um exemplo acerca do que está exposto no texto acima é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A associação que Hitler estabeleceu entre o III Reich e o Sacro Império Romano Germânico."
+    },
+    {
+     "letter": "B",
+     "text": "O retorno dos valores cristãos medievais, presentes nos documentos do Concílio Vaticano II."
+    },
+    {
+     "letter": "C",
+     "text": "A luta dos negros sul-africanos contra o apartheid inspirada por valores dos primeiros cristãos."
+    },
+    {
+     "letter": "D",
+     "text": "O fortalecimento político de Napoleão Bonaparte, que se justificava na amplitude de poderes que tivera Carlos Magno."
+    },
+    {
+     "letter": "E",
+     "text": "A tradição heroica da cavalaria medieval, que foi afetada negativamente pelas produções cinematográficas de Hollywood."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2009-q50",
+   "number": 50,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A primeira metade do século XX foi marcada por conflitos e processos que a inscreveram como um dos mais violentos períodos da história humana."
+    },
+    {
+     "type": "text",
+     "text": "Entre os principais fatores que estiveram na origem dos conflitos ocorridos durante a primeira metade do século XX estão"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A crise do colonialismo, a ascensão do nacionalismo e do totalitarismo."
+    },
+    {
+     "letter": "B",
+     "text": "O enfraquecimento do império britânico, a Grande Depressão e a corrida nuclear."
+    },
+    {
+     "letter": "C",
+     "text": "O declínio britânico, o fracasso da Liga das Nações e a Revolução Cubana."
+    },
+    {
+     "letter": "D",
+     "text": "A corrida armamentista, o terceiro-mundismo e o expansionismo soviético."
+    },
+    {
+     "letter": "E",
+     "text": "A Revolução Bolchevique, o imperialismo e a unificação da Alemanha."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2009-q51",
+   "number": 51,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Os regimes totalitários da primeira metade do século XX apoiaram-se fortemente na mobilização da juventude em torno da defesa de ideias grandiosas para o futuro da nação. Nesses projetos, os jovens deveriam entender que só havia uma pessoa digna de ser amada e obedecida, que era o líder. Tais movimentos sociais juvenis contribuíram para a implantação e a sustentação do nazismo, na Alemanha, e do fascismo, na Itália, Espanha e Portugal."
+    },
+    {
+     "type": "text",
+     "text": "A atuação desses movimentos juvenis caracterizava-se:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Pelo sectarismo e pela forma violenta e radical com que enfrentavam os opositores ao regime."
+    },
+    {
+     "letter": "B",
+     "text": "Pelas propostas de conscientização da população acerca dos seus direitos como cidadãos."
+    },
+    {
+     "letter": "C",
+     "text": "Pela promoção de um modo de vida saudável, que mostrava os jovens como exemplos a seguir."
+    },
+    {
+     "letter": "D",
+     "text": "Pelo diálogo, ao organizar debates que opunham jovens idealistas e velhas lideranças conservadoras."
+    },
+    {
+     "letter": "E",
+     "text": "Pelos métodos políticos populistas e pela organização de comícios multitudinários."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2009-q52",
+   "number": 52,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Do ponto de vista geopolítico, a Guerra Fria dividiu a Europa em dois blocos. Essa divisão propiciou a formação de alianças antagônicas de caráter militar, como a OTAN, que aglutinava os países do bloco ocidental, e o Pacto de Varsóvia, que concentrava os do bloco oriental. É importante destacar que, na formação da OTAN, estão presentes, além dos países do oeste europeu, os EUA e o Canadá. Essa divisão histórica atingiu igualmente os âmbitos político e econômico que se refletia pela opção entre os modelos capitalista e socialista."
+    },
+    {
+     "type": "text",
+     "text": "Essa divisão europeia ficou conhecida como"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Cortina de Ferro."
+    },
+    {
+     "letter": "B",
+     "text": "Muro de Berlim."
+    },
+    {
+     "letter": "C",
+     "text": "União Europeia."
+    },
+    {
+     "letter": "D",
+     "text": "Convenção de Ramsar."
+    },
+    {
+     "letter": "E",
+     "text": "Conferência de Estocolmo."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2009-q53",
+   "number": 53,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O ano de 1968 ficou conhecido pela efervescência social, tal como se pode comprovar pelo seguinte trecho, retirado de texto sobre propostas preliminares para uma revolução cultural: “É preciso discutir em todos os lugares e com todos. O dever de ser responsável e pensar politicamente diz respeito a todos, não é privilégio de uma minoria de iniciados. Não devemos nos surpreender com o caos das ideias, pois essa é a condição para a emergência de novas ideias. Os pais do regime devem compreender que autonomia não é uma palavra vã; ela supõe a partilha do poder, ou seja, a mudança de sua natureza. Que ninguém tente rotular o movimento atual; ele não tem etiquetas e não precisa delas”."
+    },
+    {
+     "type": "text",
+     "text": "Journal de la comune étudiante. Textes et documents. Paris: Seuil, 1969 (adaptado)"
+    },
+    {
+     "type": "text",
+     "text": "Os movimentos sociais, que marcaram o ano de 1968,"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Foram manifestações desprovidas de conotação política, que tinham o objetivo de questionar a rigidez dos padrões de comportamento social fundados em valores tradicionais da moral religiosa."
+    },
+    {
+     "letter": "B",
+     "text": "Restringiram-se às sociedades de países desenvolvidos, onde a industrialização avançada, a penetração dos meios de comunicação de massa e a alienação cultural que deles resultava eram mais evidentes."
+    },
+    {
+     "letter": "C",
+     "text": "Resultaram no fortalecimento do conservadorismo político, social e religioso que prevaleceu nos países ocidentais durante as décadas de 70 e 80."
+    },
+    {
+     "letter": "D",
+     "text": "Tiveram baixa repercussão no plano político, apesar de seus fortes desdobramentos nos planos social e cultural, expressos na mudança de costumes e na contracultura."
+    },
+    {
+     "letter": "E",
+     "text": "Inspiraram futuras mobilizações, como o pacifismo, o ambientalismo, a promoção da equidade de gêneros e a defesa dos direitos das minorias."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2009-q54",
+   "number": 54,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Os Yanomami constituem uma sociedade indígena do norte da Amazônia e formam um amplo conjunto linguístico e cultural. Para os Yanomami, urihi, a “terrafloresta”, não é um mero cenário inerte, objeto de exploração econômica, e sim uma entidade viva, animada por uma dinâmica de trocas entre os diversos seres que a povoam. A floresta possui um sopro vital, wixia, que é muito longo. Se não a desmatarmos, ela não morrerá. Ela não se decompõe, isto é, não se desfaz. É graças ao seu sopro úmido que as plantas crescem. A floresta não está morta pois, se fosse assim, as florestas não teriam folhas. Tampouco se veria água. Segundo os Yanomami, se os brancos os fizerem desaparecer para desmatá-la e morar no seu lugar, ficarão pobres e acabarão tendo fome e sede."
+    },
+    {
+     "type": "text",
+     "text": "ALBERT, B. Yanomami, o espírito da floresta. Almanaque Brasil Socioambiental. São Paulo: ISA, 2007 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "De acordo com o texto, os Yanomami acreditam que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A floresta não possui organismos decompositores."
+    },
+    {
+     "letter": "B",
+     "text": "O potencial econômico da floresta deve ser explorado."
+    },
+    {
+     "letter": "C",
+     "text": "O homem branco convive harmonicamente com urihi."
+    },
+    {
+     "letter": "D",
+     "text": "As folhas e a água são menos importantes para a floresta que seu sopro vital."
+    },
+    {
+     "letter": "E",
+     "text": "Wixia é a capacidade que tem a floresta de se sustentar por meio de processos vitais."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2009-q55",
+   "number": 55,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O fim da Guerra Fria e da bipolaridade, entre as décadas de 1980 e 1990, gerou expectativas de que seria instaurada uma ordem internacional marcada pela redução de conflitos e pela multipolaridade. O panorama estratégico do mundo pós-Guerra Fria apresenta"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "O aumento de conflitos internos associados ao nacionalismo, às disputas étnicas, ao extremismo religioso e ao fortalecimento de ameaças como o terrorismo, o tráfico de drogas e o crime organizado."
+    },
+    {
+     "letter": "B",
+     "text": "O fim da corrida armamentista e a redução dos gastos militares das grandes potências, o que se traduziu em maior estabilidade nos continentes europeu e asiático, que tinham sido palco da Guerra Fria."
+    },
+    {
+     "letter": "C",
+     "text": "O desengajamento das grandes potências, pois as intervenções militares em regiões assoladas por conflitos passaram a ser realizadas pela Organização das Nações Unidas (ONU), com maior envolvimento de países emergentes."
+    },
+    {
+     "letter": "D",
+     "text": "A plena vigência do Tratado de Não Proliferação, que afastou a possibilidade de um conflito nuclear como ameaça global, devido à crescente consciência política internacional acerca desse perigo."
+    },
+    {
+     "letter": "E",
+     "text": "A condição dos EUA como única superpotência, mas que se submetem às decisões da ONU no que concerne às ações militares."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2009-q56",
+   "number": 56,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Na democracia estado-unidense, os cidadãos são incluídos na sociedade pelo exercício pleno dos direitos políticos e também pela ideia geral de direito de propriedade. Compete ao governo garantir que esse direito não seja violado. Como consequência, mesmo aqueles que possuem uma pequena propriedade sentem-se cidadãos de pleno direito."
+    },
+    {
+     "type": "text",
+     "text": "Na tradição política dos EUA, uma forma de incluir socialmente os cidadãos é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Submeter o indivíduo à proteção do governo."
+    },
+    {
+     "letter": "B",
+     "text": "Hierarquizar os indivíduos segundo suas posses."
+    },
+    {
+     "letter": "C",
+     "text": "Estimular a formação de propriedades comunais."
+    },
+    {
+     "letter": "D",
+     "text": "Vincular democracia e possibilidades econômicas individuais."
+    },
+    {
+     "letter": "E",
+     "text": "Defender a obrigação de que todos os indivíduos tenham propriedades."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2009-q57",
+   "number": 57,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Na década de 30 do século XIX, Tocqueville escreveu as seguintes linhas a respeito da moralidade nos EUA: “A opinião pública norte-americana é particularmente dura com a falta de moral, pois esta desvia a atenção frente à busca do bem-estar e prejudica a harmonia doméstica, que é tão essencial ao sucesso dos negócios. Nesse sentido, pode-se dizer que ser casto é uma questão de honra”."
+    },
+    {
+     "type": "text",
+     "text": "TOCQUEVILLE, A. Democracy in America. Chicago: Encyclopædia Britannica, Inc., Great Books 44, 1990 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Do trecho, infere-se que, para Tocqueville, os norte- americanos do seu tempo"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Buscavam o êxito, descurando as virtudes cívicas."
+    },
+    {
+     "letter": "B",
+     "text": "Tinham na vida moral uma garantia de enriquecimento rápido."
+    },
+    {
+     "letter": "C",
+     "text": "Valorizavam um conceito de honra dissociado do comportamento ético."
+    },
+    {
+     "letter": "D",
+     "text": "Relacionavam a conduta moral dos indivíduos com o progresso econômico."
+    },
+    {
+     "letter": "E",
+     "text": "Acreditavam que o comportamento casto perturbava a harmonia doméstica."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2009-q58",
+   "number": 58,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Segundo Aristóteles, “na cidade com o melhor conjunto de normas e naquela dotada de homens absolutamente justos, os cidadãos não devem viver uma vida de trabalho trivial ou de negócios — esses tipos de vida são desprezíveis e incompatíveis com as qualidades morais —, tampouco devem ser agricultores os aspirantes à cidadania, pois o lazer é indispensável ao desenvolvimento das qualidades morais e à prática das atividades políticas”."
+    },
+    {
+     "type": "text",
+     "text": "VAN ACKER, T. Grécia. A vida cotidiana na cidade-Estado. São Paulo: Atual, 1994."
+    },
+    {
+     "type": "text",
+     "text": "O trecho, retirado da obra Política, de Aristóteles, permite compreender que a cidadania:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Possui uma dimensão histórica que deve ser criticada, pois é condenável que os políticos de qualquer época fiquem entregues à ociosidade, enquanto o resto dos cidadãos tem de trabalhar."
+    },
+    {
+     "letter": "B",
+     "text": "Era entendida como uma dignidade própria dos grupos sociais superiores, fruto de uma concepção política profundamente hierarquizada da sociedade."
+    },
+    {
+     "letter": "C",
+     "text": "Estava vinculada, na Grécia Antiga, a uma percepção política democrática, que levava todos os habitantes da pólis a participarem da vida cívica."
+    },
+    {
+     "letter": "D",
+     "text": "Tinha profundas conexões com a justiça, razão pela qual o tempo livre dos cidadãos deveria ser dedicado às atividades vinculadas aos tribunais."
+    },
+    {
+     "letter": "E",
+     "text": "Vivida pelos atenienses era, de fato, restrita àqueles que se dedicavam à política e que tinham tempo para resolver os problemas da cidade."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2009-q59",
+   "number": 59,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Para Caio Prado Jr., a formação brasileira se completaria no momento em que fosse superada a nossa herança de inorganicidade social ― o oposto da interligação com objetivos internos ― trazida da colônia. Este momento alto estaria, ou esteve, no futuro. Se passarmos a Sérgio Buarque de Holanda, encontraremos algo análogo. O país será moderno e estará formado quando superar a sua herança portuguesa, rural e autoritária, quando então teríamos um país democrático. Também aqui o ponto de chegada está mais adiante, na dependência das decisões do presente. Celso Furtado, por seu turno, dirá que a nação não se completa enquanto as alavancas do comando, principalmente do econômico, não passarem para dentro do país. Como para os outros dois, a conclusão do processo encontra-se no futuro, que agora parece remoto."
+    },
+    {
+     "type": "text",
+     "text": "SCHWARZ, R. Os sete fôlegos de um livro. Sequências brasileiras. São Paulo: Cia. das Letras,1999 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Acerca das expectativas quanto à formação do Brasil, a sentença que sintetiza os pontos de vista apresentados no texto é:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Brasil, um país que vai pra frente."
+    },
+    {
+     "letter": "B",
+     "text": "Brasil, a eterna esperança."
+    },
+    {
+     "letter": "C",
+     "text": "Brasil, glória no passado, grandeza no presente."
+    },
+    {
+     "letter": "D",
+     "text": "Brasil, terra bela, pátria grande."
+    },
+    {
+     "letter": "E",
+     "text": "Brasil, gigante pela própria natureza."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2009-q60",
+   "number": 60,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A definição de eleitor foi tema de artigos nas Constituições brasileiras de 1891 e de 1934. Diz a Constituição da República dos Estados Unidos do Brasil de 1891:"
+    },
+    {
+     "type": "text",
+     "text": "Art. 70. São eleitores os cidadãos maiores de 21 anos que se alistarem na forma da lei."
+    },
+    {
+     "type": "text",
+     "text": "A Constituição da República dos Estados Unidos do Brasil de 1934, por sua vez, estabelece que:"
+    },
+    {
+     "type": "text",
+     "text": "Art. 180. São eleitores os brasileiros de um e de outro sexo, maiores de 18 anos, que se alistarem na forma da lei."
+    },
+    {
+     "type": "text",
+     "text": "Ao se comparar os dois artigos, no que diz respeito ao gênero dos eleitores, depreende-se que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A Constituição de 1934 avançou ao reduzir a idade mínima para votar."
+    },
+    {
+     "letter": "B",
+     "text": "A Constituição de 1891, ao se referir a cidadãos, referia-se também às mulheres."
+    },
+    {
+     "letter": "C",
+     "text": "Os textos de ambas as Cartas permitiam que qualquer cidadão fosse eleitor."
+    },
+    {
+     "letter": "D",
+     "text": "O texto da carta de 1891 já permitia o voto feminino."
+    },
+    {
+     "letter": "E",
+     "text": "A Constituição de 1891 considerava eleitores apenas indivíduos do sexo masculino."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2009-q61",
+   "number": 61,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O autor da constituição de 1937, Francisco Campos, afirma no seu livro, O Estado Nacional, que o eleitor seria apático; a democracia de partidos conduziria à desordem; a independência do Poder Judiciário acabaria em injustiça e ineficiência; e que apenas o Poder Executivo, centralizado em Getúlio Vargas, seria capaz de dar racionalidade imparcial ao Estado, pois Vargas teria providencial intuição do bem e da verdade, além de ser um gênio político."
+    },
+    {
+     "type": "text",
+     "text": "CAMPOS, F. O Estado nacional. Rio de Janeiro: José Olympio, 1940 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Segundo as ideias de Francisco Campos,"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Os eleitores, políticos e juízes seriam mal-intencionados."
+    },
+    {
+     "letter": "B",
+     "text": "O governo Vargas seria um mal necessário, mas transitório."
+    },
+    {
+     "letter": "C",
+     "text": "Vargas seria o homem adequado para implantar a democracia de partidos."
+    },
+    {
+     "letter": "D",
+     "text": "A Constituição de 1937 seria a preparação para uma futura democracia liberal."
+    },
+    {
+     "letter": "E",
+     "text": "Vargas seria o homem capaz de exercer o poder de modo inteligente e correto."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2009-q62",
+   "number": 62,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A partir de 1942 e estendendo-se até o final do Estado Novo, o Ministro do Trabalho, Indústria e Comércio de Getúlio Vargas falou aos ouvintes da Rádio Nacional semanalmente, por dez minutos, no programa “Hora do Brasil”. O objetivo declarado do governo era esclarecer os trabalhadores acerca das inovações na legislação de proteção ao trabalho."
+    },
+    {
+     "type": "text",
+     "text": "GOMES, A. C. A invenção do trabalhismo. Rio de Janeiro: IUPERJ / Vértice. São Paulo: Revista dos Tribunais, 1988 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Os programas “Hora do Brasil” contribuíram para"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Conscientizar os trabalhadores de que os direitos sociais foram conquistados por seu esforço, após anos de lutas sindicais."
+    },
+    {
+     "letter": "B",
+     "text": "Promover a autonomia dos grupos sociais, por meio de uma linguagem simples e de fácil entendimento."
+    },
+    {
+     "letter": "C",
+     "text": "Estimular os movimentos grevistas, que reivindicavam um aprofundamento dos direitos trabalhistas."
+    },
+    {
+     "letter": "D",
+     "text": "Consolidar a imagem de Vargas como um governante protetor das massas."
+    },
+    {
+     "letter": "E",
+     "text": "Aumentar os grupos de discussão política dos trabalhadores, estimulados pelas palavras do ministro."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2009-q63",
+   "number": 63,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "No final do século XVI, na Bahia, Guiomar de Oliveira denunciou Antônia Nóbrega à Inquisição. Segundo o depoimento, esta lhe dava “uns pós não sabe de quê, e outros pós de osso de finado, os quais pós ela confessante deu a beber em vinho ao dito seu marido para ser seu amigo e serem bem-casados, e que todas estas coisas fez tendo-lhe dito a dita Antônia e ensinado que eram coisas diabólicas e que os diabos lha ensinaram”."
+    },
+    {
+     "type": "text",
+     "text": "ARAÚJO, E. O teatro dos vícios. Transgressão e transigência na sociedade urbana colonial. Brasília: UnB/José Olympio, 1997."
+    },
+    {
+     "type": "text",
+     "text": "Do ponto de vista da Inquisição,"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "O problema dos métodos citados no trecho residia na dissimulação, que acabava por enganar o enfeitiçado."
+    },
+    {
+     "letter": "B",
+     "text": "O diabo era um concorrente poderoso da autoridade da Igreja e somente a justiça do fogo poderia eliminá-lo."
+    },
+    {
+     "letter": "C",
+     "text": "Os ingredientes em decomposição das poções mágicas eram condenados porque afetavam a saúde da população."
+    },
+    {
+     "letter": "D",
+     "text": "As feiticeiras representavam séria ameaça à sociedade, pois eram perceptíveis suas tendências feministas."
+    },
+    {
+     "letter": "E",
+     "text": "Os cristãos deviam preservar a instituição do casamento recorrendo exclusivamente aos ensinamentos da Igreja."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2009-q64",
+   "number": 64,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A formação dos Estados foi certamente distinta na Europa, na América Latina, na África e na Ásia. Os Estados atuais, em especial na América Latina — onde as instituições das populações locais existentes à época da conquista ou foram eliminadas, como no caso do México e do Peru, ou eram frágeis, como no caso do Brasil —, são o resultado, em geral, da evolução do transplante de instituições europeias feito pelas metrópoles para suas colônias. Na África, as colônias tiveram fronteiras arbitrariamente traçadas, separando etnias, idiomas e tradições, que, mais tarde, sobreviveram ao processo de descolonização, dando razão para conflitos que, muitas vezes, têm sua verdadeira origem em disputas pela exploração de recursos naturais. Na Ásia, a colonização europeia se fez de forma mais indireta e encontrou sistemas políticos e administrativos mais sofisticados, aos quais se superpôs. Hoje, aquelas formas anteriores de organização, ou pelo menos seu espírito, sobrevivem nas organizações políticas do Estado asiático."
+    },
+    {
+     "type": "text",
+     "text": "GUIMARÃES, S. P. Nação, nacionalismo, Estado. Estudos Avançados. São Paulo: EdUSP,\nv. 22, n.º 62, jan.- abr. 2008 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Relacionando as informações ao contexto histórico e geográfico por elas evocado, assinale a opção correta acerca do processo de formação socioeconômica dos continentes mencionados no texto."
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Devido à falta de recursos naturais a serem explorados no Brasil, conflitos étnicos e culturais como os ocorridos na África estiveram ausentes no período da independência e formação do Estado brasileiro."
+    },
+    {
+     "letter": "B",
+     "text": "A maior distinção entre os processos histórico formativos dos continentes citados é a que se estabelece entre colonizador e colonizado, ou seja, entre a Europa e os demais."
+    },
+    {
+     "letter": "C",
+     "text": "À época das conquistas, a América Latina, a África e a Ásia tinham sistemas políticos e administrativos muito mais sofisticados que aqueles que lhes foram impostos pelo colonizador."
+    },
+    {
+     "letter": "D",
+     "text": "Comparadas ao México e ao Peru, as instituições brasileiras, por terem sido eliminadas à época da conquista, sofreram mais influência dos modelos institucionais europeus."
+    },
+    {
+     "letter": "E",
+     "text": "O modelo histórico da formação do Estado asiático equipara-se ao brasileiro, pois em ambos se manteve o espírito das formas de organização anteriores à conquista."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2009-q65",
+   "number": 65,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "No tempo da independência do Brasil, circulavam nas classes populares do Recife trovas que faziam alusão à revolta escrava do Haiti:"
+    },
+    {
+     "type": "text",
+     "text": "Marinheiros e caiados"
+    },
+    {
+     "type": "text",
+     "text": "Todos devem se acabar,"
+    },
+    {
+     "type": "text",
+     "text": "Porque só pardos e pretos"
+    },
+    {
+     "type": "text",
+     "text": "O país hão de habitar."
+    },
+    {
+     "type": "text",
+     "text": "AMARAL, F. P. do. Apud CARVALHO, A. Estudos pernambucanos. Recife: Cultura Acadêmica, 1907."
+    },
+    {
+     "type": "text",
+     "text": "O período da independência do Brasil registra conflitos raciais, como se depreende"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Dos rumores acerca da revolta escrava do Haiti, que circulavam entre a população escrava e entre os mestiços pobres, alimentando seu desejo por mudanças."
+    },
+    {
+     "letter": "B",
+     "text": "Da rejeição aos portugueses, brancos, que significava a rejeição à opressão da Metrópole, como ocorreu na Noite das Garrafadas."
+    },
+    {
+     "letter": "C",
+     "text": "Do apoio que escravos e negros forros deram à monarquia, com a perspectiva de receber sua proteção contra as injustiças do sistema escravista."
+    },
+    {
+     "letter": "D",
+     "text": "Do repúdio que os escravos trabalhadores dos portos demonstravam contra os marinheiros, porque estes representavam a elite branca opressora."
+    },
+    {
+     "letter": "E",
+     "text": "Da expulsão de vários líderes negros independentistas, que defendiam a implantação de uma república negra, a exemplo do Haiti."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2009-q66",
+   "number": 66,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Colhe o Brasil, após esforço contínuo dilatado no tempo, o que plantou no esforço da construção de sua inserção internacional. Há dois séculos formularam-se os pilares da política externa. Teve o país inteligência de longo prazo e cálculo de oportunidade no mundo difuso da transição da hegemonia britânica para o século americano. Engendrou concepções, conceitos e teoria própria no século XIX, de José Bonifácio ao Visconde do Rio Branco. Buscou autonomia decisória no século XX. As elites se interessaram, por meio de calorosos debates, pelo destino do Brasil. O país emergiu, de Vargas aos militares, como ator responsável e previsível nas ações externas do Estado. A mudança de regime político para a democracia não alterou o pragmatismo externo, mas o aperfeiçoou."
+    },
+    {
+     "type": "text",
+     "text": "SARAIVA, J. F. S. O lugar do Brasil e o silêncio do parlamento. Correio Braziliense, Brasília,\n28 maio 2009 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Sob o ponto de vista da política externa brasileira no século XX, conclui-se que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "O Brasil é um país periférico na ordem mundial, devido às diferentes conjunturas de inserção internacional."
+    },
+    {
+     "letter": "B",
+     "text": "As possibilidades de fazer prevalecer ideias e conceitos próprios, no que tange aos temas do comércio internacional e dos países em desenvolvimento, são mínimas."
+    },
+    {
+     "letter": "C",
+     "text": "As brechas do sistema internacional não foram bem aproveitadas para avançar posições voltadas para a criação de uma área de cooperação e associação integrada a seu entorno geográfico."
+    },
+    {
+     "letter": "D",
+     "text": "Os grandes debates nacionais acerca da inserção internacional do Brasil foram embasados pelas elites do Império e da República por meio de consultas aos diversos setores da população."
+    },
+    {
+     "letter": "E",
+     "text": "A atuação do Brasil em termos de política externa evidencia que o país tem capacidade decisória própria, mesmo diante dos constrangimentos internacionais."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2009-q67",
+   "number": 67,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A prosperidade induzida pela emergência das máquinas de tear escondia uma acentuada perda de prestígio. Foi nessa idade de ouro que os artesãos, ou os tecelões temporários, passaram a ser denominados, de modo genérico, tecelões de teares manuais. Exceto em alguns ramos especializados, os velhos artesãos foram colocados lado a lado com novos imigrantes, enquanto pequenos fazendeiros-tecelões abandonaram suas pequenas propriedades para se concentrar na atividade de tecer. Reduzidos à completa dependência dos teares mecanizados ou dos fornecedores de matéria-prima, os tecelões ficaram expostos a sucessivas reduções dos rendimentos."
+    },
+    {
+     "type": "text",
+     "text": "THOMPSON, E. P. The making of the english working class. Harmondsworth: Penguin Books, 1979 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Com a mudança tecnológica ocorrida durante a Revolução Industrial, a forma de trabalhar alterou-se porque"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A invenção do tear propiciou o surgimento de novas relações sociais."
+    },
+    {
+     "letter": "B",
+     "text": "Os tecelões mais hábeis prevaleceram sobre os inexperientes."
+    },
+    {
+     "letter": "C",
+     "text": "Os novos teares exigiam treinamento especializado para serem operados."
+    },
+    {
+     "letter": "D",
+     "text": "Os artesãos, no período anterior, combinavam a tecelagem com o cultivo de subsistência."
+    },
+    {
+     "letter": "E",
+     "text": "Os trabalhadores não especializados se apropriaram dos lugares dos antigos artesãos nas fábricas."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2009-q68",
+   "number": 68,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Até o século XVII, as paisagens rurais eram marcadas por atividades rudimentares e de baixa produtividade. A partir da Revolução Industrial, porém, sobretudo com o advento da revolução tecnológica, houve um desenvolvimento contínuo do setor agropecuário."
+    },
+    {
+     "type": "text",
+     "text": "São, portanto, observadas consequências econômicas, sociais e ambientais inter-relacionadas no período posterior à Revolução Industrial, as quais incluem"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A erradicação da fome no mundo."
+    },
+    {
+     "letter": "B",
+     "text": "O aumento das áreas rurais e a diminuição das áreas urbanas."
+    },
+    {
+     "letter": "C",
+     "text": "A maior demanda por recursos naturais, entre os quais os recursos energéticos."
+    },
+    {
+     "letter": "D",
+     "text": "A menor necessidade de utilização de adubos e corretivos na agricultura."
+    },
+    {
+     "letter": "E",
+     "text": "O contínuo aumento da oferta de emprego no setor primário da economia, em face da mecanização."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2009-q69",
+   "number": 69,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Como se assistisse à demonstração de um espetáculo mágico, ia revendo aquele ambiente tão característico de família, com seus pesados móveis de vinhático ou de jacarandá, de qualidade antiga, e que denunciavam um passado ilustre, gerações de Meneses talvez mais singelos e mais calmos; agora, uma espécie de desordem, de relaxamento, abastardava aquelas qualidades primaciais. Mesmo assim era fácil perceber o que haviam sido, esses nobres da roça, com seus cristais que brilhavam mansamente na sombra, suas pratas semi- empoeiradas que atestavam o esplendor esvanecido, seus marfins e suas opalinas – ah, respirava-se ali conforto, não havia dúvida, mas era apenas uma sobrevivência de coisas idas. Dir-se-ia, ante esse mundo que se ia desagregando, que um mal oculto o roía, como um tumor latente em suas entranhas."
+    },
+    {
+     "type": "text",
+     "text": "CARDOSO, L. Crônica da casa assassinada. Rio de Janeiro: Civilização Brasileira, 2002 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O mundo narrado nesse trecho do romance de Lúcio Cardoso, acerca da vida dos Meneses, família da aristocracia rural de Minas Gerais, apresenta não apenas a história da decadência dessa família, mas é, ainda, a representação literária de uma fase de desagregação política, social e econômica do país. O recurso expressivo que formula literariamente essa desagregação histórica é o de descrever a casa dos Meneses como"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Ambiente de pobreza e privação, que carece de conforto mínimo para a sobrevivência da família."
+    },
+    {
+     "letter": "B",
+     "text": "Mundo mágico, capaz de recuperar o encantamento perdido durante o período de decadência da aristocracia rural mineira."
+    },
+    {
+     "letter": "C",
+     "text": "Cena familiar, na qual o calor humano dos habitantes da casa ocupa o primeiro plano, compensando a frieza e austeridade dos objetos antigos."
+    },
+    {
+     "letter": "D",
+     "text": "Símbolo de um passado ilustre que, apesar de superado, ainda resiste à sua total dissolução graças ao cuidado e asseio que a família dispensa à conservação da casa."
+    },
+    {
+     "letter": "E",
+     "text": "Espaço arruinado, onde os objetos perderam seu esplendor e sobre os quais a vida repousa como lembrança de um passado que está em vias de desaparecer completamente."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2009-q70",
+   "number": 70,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O suíço Thomas Davatz chegou a São Paulo em 1855 para trabalhar como colono na fazenda de café Ibicaba, em Campinas. A perspectiva de prosperidade que o atraiu para o Brasil deu lugar a insatisfação e revolta, que ele registrou em livro. Sobre o percurso entre o porto de Santos e o planalto paulista, escreveu Davatz: “As estradas do Brasil, salvo em alguns trechos, são péssimas. Em quase toda parte, falta qualquer espécie de calçamento ou mesmo de saibro. Constam apenas de terra simples, sem nenhum benefício. É fácil prever que nessas estradas não se encontram estalagens e hospedarias como as da Europa. Nas cidades maiores, o viajante pode naturalmente encontrar aposento sofrível; nunca, porém, qualquer coisa de comparável à comodidade que proporciona na Europa qualquer estalagem rural. Tais cidades são, porém, muito poucas na distância que vai de Santos a Ibicaba e que se percorre em cinquenta horas no mínimo”. Em 1867 foi inaugurada a ferrovia ligando Santos a Jundiaí, o que abreviou o tempo de viagem entre o litoral e o planalto para menos de um dia. Nos anos seguintes, foram construídos outros ramais ferroviários que articularam o interior cafeeiro ao porto de exportação, Santos."
+    },
+    {
+     "type": "text",
+     "text": "DAVATZ, T. Memórias de um colono no Brasil. São Paulo: Livraria Martins, 1941 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O impacto das ferrovias na promoção de projetos de colonização com base em imigrantes europeus foi importante, porque"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "O percurso dos imigrantes até o interior, antes das ferrovias, era feito a pé ou em muares; no entanto, o tempo de viagem era aceitável, uma vez que o café era plantado nas proximidades da capital, São Paulo."
+    },
+    {
+     "letter": "B",
+     "text": "A expansão da malha ferroviária pelo interior de São Paulo permitiu que mão-de-obra estrangeira fosse contratada para trabalhar em cafezais de regiões cada vez mais distantes do porto de Santos."
+    },
+    {
+     "letter": "C",
+     "text": "O escoamento da produção de café se viu beneficiado pelos aportes de capital, principalmente de colonos italianos, que desejavam melhorar sua situação econômica."
+    },
+    {
+     "letter": "D",
+     "text": "Os fazendeiros puderam prescindir da mão-de-obra europeia e contrataram trabalhadores brasileiros provenientes de outras regiões para trabalhar em suas plantações."
+    },
+    {
+     "letter": "E",
+     "text": "As notícias de terras acessíveis atraíram para São Paulo grande quantidade de imigrantes, que adquiriram vastas propriedades produtivas."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2009-q71",
+   "number": 71,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Além dos inúmeros eletrodomésticos e bens eletrônicos, o automóvel produzido pela indústria fordista promoveu, a partir dos anos 50, mudanças significativas no modo de vida dos consumidores e também na habitação e nas cidades. Com a massificação do consumo dos bens modernos, dos eletroeletrônicos e também do automóvel, mudaram radicalmente o modo de vida, os valores, a cultura e o conjunto do ambiente construído. Da ocupação do solo urbano até o interior da moradia, a transformação foi profunda."
+    },
+    {
+     "type": "text",
+     "text": "MARICATO, E. Urbanismo na periferia do mundo globalizado: metrópoles brasileiras. Disponível em: http://www.scielo.br.\nAcesso em: 12 ago. 2009 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Uma das consequências das inovações tecnológicas das últimas décadas, que determinaram diferentes formas de uso e ocupação do espaço geográfico, é a instituição das chamadas cidades globais, que se caracterizam por"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Possuírem o mesmo nível de influência no cenário mundial."
+    },
+    {
+     "letter": "B",
+     "text": "Fortalecerem os laços de cidadania e solidariedade entre os membros das diversas comunidades."
+    },
+    {
+     "letter": "C",
+     "text": "Constituírem um passo importante para a diminuição das desigualdades sociais causadas pela polarização social e pela segregação urbana."
+    },
+    {
+     "letter": "D",
+     "text": "Terem sido diretamente impactadas pelo processo de internacionalização da economia, desencadeado a partir do final dos anos 1970."
+    },
+    {
+     "letter": "E",
+     "text": "Terem sua origem diretamente relacionadas ao processo de colonização ocidental do século XIX."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2009-q72",
+   "number": 72,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Populações inteiras, nas cidades e na zona rural, dispõem da parafernália digital global como fonte de educação e de formação cultural. Essa simultaneidade de cultura e informação eletrônica com as formas tradicionais e orais é um desafio que necessita ser discutido. A exposição, via mídia eletrônica, com estilos e valores culturais de outras sociedades, pode inspirar apreço, mas também distorções e ressentimentos. Tanto quanto há necessidade de uma cultura tradicional de posse da educação letrada, também é necessário criar estratégias de alfabetização eletrônica, que passam a ser o grande canal de informação das culturas segmentadas no interior dos grandes centros urbanos e das zonas rurais. Um novo modelo de educação."
+    },
+    {
+     "type": "text",
+     "text": "BRIGAGÃO, C. E.; RODRIGUES, G. A globalização a olho nu: o mundo conectado. São Paulo: Moderna, 1998 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Com base no texto e considerando os impactos culturais da difusão das tecnologias de informação no marco da globalização, depreende-se que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A ampla difusão das tecnologias de informação nos centros urbanos e no meio rural suscita o contato entre diferentes culturas e, ao mesmo tempo, traz a necessidade de reformular as concepções tradicionais de educação."
+    },
+    {
+     "letter": "B",
+     "text": "A apropriação, por parte de um grupo social, de valores e ideias de outras culturas para benefício próprio é fonte de conflitos e ressentimentos."
+    },
+    {
+     "letter": "C",
+     "text": "As mudanças sociais e culturais que acompanham o processo de globalização, ao mesmo tempo em que refletem a preponderância da cultura urbana, tornam obsoletas as formas de educação tradicionais próprias do meio rural."
+    },
+    {
+     "letter": "D",
+     "text": "As populações nos grandes centros urbanos e no meio rural recorrem aos instrumentos e tecnologias de informação basicamente como meio de comunicação mútua, e não os veem como fontes de educação e cultura."
+    },
+    {
+     "letter": "E",
+     "text": "A intensificação do fluxo de comunicação por meios eletrônicos, característica do processo de globalização, está dissociada do desenvolvimento social e cultural que ocorre no meio rural."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2009-q74",
+   "number": 74,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "No período 750-338 a. C., a Grécia antiga era composta por cidades-Estado, como por exemplo Atenas, Esparta, Tebas, que eram independentes umas das outras, mas partilhavam algumas características culturais, como a língua grega. No centro da Grécia, Delfos era um lugar de culto religioso frequentado por habitantes de todas as cidades-Estado."
+    },
+    {
+     "type": "text",
+     "text": "No período 1200-1600 d. C., na parte da Amazônia brasileira onde hoje está o Parque Nacional do Xingu, há vestígios de quinze cidades que eram cercadas por muros de madeira e que tinham até dois mil e quinhentos habitantes cada uma. Essas cidades eram ligadas por estradas a centros cerimoniais com grandes praças. Em torno delas havia roças, pomares e tanques para a criação de tartarugas. Aparentemente, epidemias dizimaram grande parte da população que lá vivia."
+    },
+    {
+     "type": "text",
+     "text": "Folha de S. Paulo, ago. 2008 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Apesar das diferenças históricas e geográficas existentes entre as duas civilizações elas são semelhantes pois"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "As ruínas das cidades mencionadas atestam que grandes epidemias dizimaram suas populações."
+    },
+    {
+     "letter": "B",
+     "text": "As cidades do Xingu desenvolveram a democracia, tal como foi concebida em Tebas."
+    },
+    {
+     "letter": "C",
+     "text": "As duas civilizações tinham cidades autônomas e independentes entre si."
+    },
+    {
+     "letter": "D",
+     "text": "Os povos do Xingu falavam uma mesma língua, tal como nas cidades-Estado da Grécia."
+    },
+    {
+     "letter": "E",
+     "text": "As cidades do Xingu dedicavam-se à arte e à filosofia tal como na Grécia."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2009-q75",
+   "number": 75,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O movimento migratório no Brasil é significativo, principalmente em função do volume de pessoas que saem de uma região com destino a outras regiões. Um desses movimentos ficou famoso nos anos 80, quando muitos nordestinos deixaram a região Nordeste em direção ao Sudeste do Brasil. Segundo os dados do IBGE de 2000, este processo continuou crescente no período seguinte, os anos 90, com um acréscimo de 7,6% nas migrações deste mesmo fluxo. A Pesquisa de Padrão de Vida, feita pelo IBGE, em 1996, aponta que, entre os nordestinos que chegam ao Sudeste, 48,6% exercem trabalhos manuais não qualificados, 18,5% são trabalhadores manuais qualificados, enquanto 13,5%, embora não sejam trabalhadores manuais, se encontram em áreas que não exigem formação profissional. O mesmo estudo indica também que esses migrantes possuem, em média, condição de vida e nível educacional acima dos de seus conterrâneos e abaixo dos de cidadãos estáveis do Sudeste."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://www.ibge.gov.br. Acesso em: 30 jul. 2009 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Com base nas informações contidas no texto, depreende-se que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "O processo migratório foi desencadeado por ações de governo para viabilizar a produção industrial no Sudeste."
+    },
+    {
+     "letter": "B",
+     "text": "Os governos estaduais do Sudeste priorizaram a qualificação da mão-de-obra migrante."
+    },
+    {
+     "letter": "C",
+     "text": "O processo de migração para o Sudeste contribui para o fenômeno conhecido como inchaço urbano."
+    },
+    {
+     "letter": "D",
+     "text": "As migrações para o sudeste desencadearam a valorização do trabalho manual, sobretudo na década de 80."
+    },
+    {
+     "letter": "E",
+     "text": "A falta de especialização dos migrantes é positiva para os empregadores, pois significa maior versatilidade profissional."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2009-q76",
+   "number": 76,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Apesar do aumento da produção no campo e da integração entre a indústria e a agricultura, parte da população da América do Sul ainda sofre com a subalimentação, o que gera conflitos pela posse de terra que podem ser verificados em várias áreas e que frequentemente chegam a provocar mortes"
+    },
+    {
+     "type": "text",
+     "text": "Um dos fatores que explica a subalimentação na América do Sul é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A baixa inserção de sua agricultura no comércio mundial."
+    },
+    {
+     "letter": "B",
+     "text": "A quantidade insuficiente de mão-de-obra para o trabalho agrícola."
+    },
+    {
+     "letter": "C",
+     "text": "A presença de estruturas agrárias arcaicas formadas por latifúndios improdutivos."
+    },
+    {
+     "letter": "D",
+     "text": "A situação conflituosa vivida no campo, que impede o crescimento da produção agrícola."
+    },
+    {
+     "letter": "E",
+     "text": "Os sistemas de cultivo mecanizado voltados para o abastecimento do mercado interno."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2009-q79",
+   "number": 79,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Entre 2004 e 2008, pelo menos 8 mil brasileiros foram libertados de fazendas onde trabalhavam como se fossem escravos. O governo criou uma lista em que ficaram expostos os nomes dos fazendeiros flagrados pela fiscalização. No Norte, Nordeste e Centro-Oeste, regiões que mais sofrem com a fraqueza do poder público, o bloqueio dos canais de financiamento agrícola para tais fazendeiros tem sido a principal arma de combate a esse problema, mas os governos ainda sofrem com a falta de informações, provocada pelas distâncias e pelo poder intimidador dos proprietários. Organizações não governamentais e grupos como a Pastoral da Terra têm agido corajosamente, acionando as autoridades públicas e ministrando aulas sobre direitos sociais e trabalhistas."
+    },
+    {
+     "type": "text",
+     "text": "Plano Nacional para Erradicação do Trabalho Escravo”. Disponível em:\nhttp://www.mte.gov.br. Acesso em: 17 mar. 2009 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Nos lugares mencionados no texto, o papel dos grupos de defesa dos direitos humanos tem sido fundamental, porque eles"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Negociam com os fazendeiros o reajuste dos honorários e a redução da carga horária de trabalho."
+    },
+    {
+     "letter": "B",
+     "text": "Defendem os direitos dos consumidores junto aos armazéns e mercados das fazendas e carvoarias."
+    },
+    {
+     "letter": "C",
+     "text": "Substituem as autoridades policiais e jurídicas na resolução dos conflitos entre patrões e empregados."
+    },
+    {
+     "letter": "D",
+     "text": "Encaminham denúncias ao Ministério Público e promovem ações de conscientização dos trabalhadores."
+    },
+    {
+     "letter": "E",
+     "text": "Fortalecem a administração pública ao ministrarem aulas aos seus servidores."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2009-q80",
+   "number": 80,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O homem construiu sua história por meio do constante processo de ocupação e transformação do espaço natural. Na verdade, o que variou, nos diversos momentos da experiência humana, foi a intensidade dessa exploração."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://www.simposioreformaagraria.propp.ufu.br.\nAcesso em: 09 jul. 2009 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Uma das consequências que pode ser atribuída à crescente intensificação da exploração de recursos naturais, facilitada pelo desenvolvimento tecnológico ao longo da história, é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A diminuição do comércio entre países e regiões, que se tornaram autossuficientes na produção de bens e serviços."
+    },
+    {
+     "letter": "B",
+     "text": "A ocorrência de desastres ambientais de grandes proporções, como no caso de derramamento de óleo por navios petroleiros."
+    },
+    {
+     "letter": "C",
+     "text": "A melhora generalizada das condições de vida da população mundial, a partir da eliminação das desigualdades econômicas na atualidade."
+    },
+    {
+     "letter": "D",
+     "text": "O desmatamento, que eliminou grandes extensões de diversos biomas improdutivos, cujas áreas passaram a ser ocupadas por centros industriais modernos."
+    },
+    {
+     "letter": "E",
+     "text": "O aumento demográfico mundial, sobretudo nos países mais desenvolvidos, que apresentam altas taxas de crescimento vegetativo."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2009-q81",
+   "number": 81,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "No presente, observa-se crescente atenção aos efeitos da atividade humana, em diferentes áreas, sobre o meio ambiente, sendo constante, nos fóruns internacionais e nas instâncias nacionais, a referência à sustentabilidade como princípio orientador de ações e propostas que deles emanam. A sustentabilidade explica-se pela"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Incapacidade de se manter uma atividade econômica ao longo do tempo sem causar danos ao meio ambiente."
+    },
+    {
+     "letter": "B",
+     "text": "Incompatibilidade entre crescimento econômico acelerado e preservação de recursos naturais e de fontes não renováveis de energia."
+    },
+    {
+     "letter": "C",
+     "text": "Interação de todas as dimensões do bem-estar humano com o crescimento econômico, sem a preocupação com a conservação dos recursos naturais que estivera presente desde a Antiguidade."
+    },
+    {
+     "letter": "D",
+     "text": "Proteção da biodiversidade em face das ameaças de destruição que sofrem as florestas tropicais devido ao avanço de atividades como a mineração, a monocultura, o tráfico de madeira e de espécies selvagens."
+    },
+    {
+     "letter": "E",
+     "text": "Necessidade de se satisfazer as demandas atuais colocadas pelo desenvolvimento sem comprometer a capacidade de as gerações futuras atenderem suas próprias necessidades nos campos econômico, social e ambiental."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2009-q82",
+   "number": 82,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Com a perspectiva do desaparecimento das geleiras no Polo Norte, grandes reservas de petróleo e minérios, hoje inacessíveis, poderão ser exploradas. E já atiçam a cobiça das potências."
+    },
+    {
+     "type": "text",
+     "text": "KOPP, D. Guerra Fria sobre o Ártico. Le monde diplomatique Brasil.\nSetembro, n. 2, 2007 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "No cenário de que trata o texto, a exploração de jazidas de petróleo, bem como de minérios – diamante, ouro, prata, cobre, chumbo, zinco – torna-se atraente não só em função de seu formidável potencial, mas também por"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Situar-se em uma zona geopolítica mais estável que o Oriente Médio."
+    },
+    {
+     "letter": "B",
+     "text": "Possibilitar o povoamento de uma região pouco habitada, além de promover seu desenvolvimento econômico."
+    },
+    {
+     "letter": "C",
+     "text": "Garantir, aos países em desenvolvimento, acesso a matérias-primas e energia, necessárias ao crescimento econômico."
+    },
+    {
+     "letter": "D",
+     "text": "Contribuir para a redução da poluição em áreas ambientalmente já degradadas devido ao grande volume da produção industrial, como ocorreu na Europa."
+    },
+    {
+     "letter": "E",
+     "text": "Promover a participação dos combustíveis fósseis na matriz energética mundial, dominada, majoritariamente, pelas fontes renováveis, de maior custo."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2009-q88",
+   "number": 88,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "À medida que a demanda por água aumenta, as reservas desse recurso vão se tornando imprevisíveis. Modelos matemáticos que analisam os efeitos das mudanças climáticas sobre a disponibilidade de água no futuro indicam que haverá escassez em muitas regiões do planeta. São esperadas mudanças nos padrões de precipitação, pois"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "O maior aquecimento implica menor formação de nuvens e, consequentemente, a eliminação de áreas úmidas e sub úmidas do globo."
+    },
+    {
+     "letter": "B",
+     "text": "As chuvas frontais ficarão restritas ao tempo de permanência da frente em uma determinada localidade, o que limitará a produtividade das atividades agrícolas."
+    },
+    {
+     "letter": "C",
+     "text": "As modificações decorrentes do aumento da temperatura do ar diminuirão a umidade e, portanto, aumentarão a aridez em todo o planeta."
+    },
+    {
+     "letter": "D",
+     "text": "A elevação do nível dos mares pelo derretimento das geleiras acarretará redução na ocorrência de chuvas nos continentes, o que implicará a escassez de água para abastecimento."
+    },
+    {
+     "letter": "E",
+     "text": "A origem da chuva está diretamente relacionada com a temperatura do ar, sendo que atividades antropogênicas são capazes de provocar interferências em escala local e global."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2009-q89",
+   "number": 89,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A mais profunda objeção que se faz à ideia da criação de uma cidade, como Brasília, é que o seu desenvolvimento não poderá jamais ser natural. É uma objeção muito séria, pois provém de uma concepção de vida fundamental: a de que a atividade social e cultural não pode ser uma construção. Esquecem-se, porém, aqueles que fazem tal crítica, que o Brasil, como praticamente toda a América, é criação do homem ocidental."
+    },
+    {
+     "type": "text",
+     "text": "PEDROSA, M. Utopia: obra de arte. Vis – Revista do Programa de\nPós-graduação em Arte (UnB), Vol. 5, n. 1, 2006 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "As ideias apontadas no texto estão em oposição, porque"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A cultura dos povos é reduzida a exemplos esquemáticos que não encontram respaldo na história do Brasil ou da América."
+    },
+    {
+     "letter": "B",
+     "text": "As cidades, na primeira afirmação, têm um papel mais fraco na vida social, enquanto a América é mostrada como um exemplo a ser evitado."
+    },
+    {
+     "letter": "C",
+     "text": "A objeção inicial, de que as cidades não podem ser inventadas, é negada logo em seguida pelo exemplo utópico da colonização da América."
+    },
+    {
+     "letter": "D",
+     "text": "A concepção fundamental da primeira afirmação defende a construção de cidades e a segunda mostra, historicamente, que essa estratégia acarretou sérios problemas."
+    },
+    {
+     "letter": "E",
+     "text": "A primeira entende que as cidades devem ser organismos vivos, que nascem de forma espontânea, e a segunda mostra que há exemplos históricos que demonstram o contrário."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2009-q90",
+   "number": 90,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "As áreas do planalto do cerrado – como a chapada dos Guimarães, a serra de Tapirapuã e a serra dos Parecis, no Mato Grosso, com altitudes que variam de 400 m a 800 m – são importantes para a planície pantaneira mato-grossense (com altitude média inferior a 200 m), no que se refere à manutenção do nível de água, sobretudo durante a estiagem. Nas cheias, a inundação ocorre em função da alta pluviosidade nas cabeceiras dos rios, do afloramento de lençóis freáticos e da baixa declividade do relevo, entre outros fatores. Durante a estiagem, a grande biodiversidade é assegurada pelas águas da calha dos principais rios, cujo volume tem diminuído, principalmente nas cabeceiras."
+    },
+    {
+     "type": "text",
+     "text": "Cabeceiras ameaçadas. Ciência Hoje. Rio de Janeiro:\nSBPC. Vol. 42, jun. 2008 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A medida mais eficaz a ser tomada, visando à conservação da planície pantaneira e à preservação de sua grande biodiversidade, é a conscientização da sociedade e a organização de movimentos sociais que exijam"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A criação de parques ecológicos na área do pantanal mato-grossense."
+    },
+    {
+     "letter": "B",
+     "text": "A proibição da pesca e da caça, que tanto ameaçam a biodiversidade."
+    },
+    {
+     "letter": "C",
+     "text": "O aumento das pastagens na área da planície, para que a cobertura vegetal, composta de gramíneas, evite a erosão do solo."
+    },
+    {
+     "letter": "D",
+     "text": "O controle do desmatamento e da erosão, principalmente nas nascentes dos rios responsáveis pelo nível das águas durante o período de cheias."
+    },
+    {
+     "letter": "E",
+     "text": "A construção de barragens, para que o nível das águas dos rios seja mantido, sobretudo na estiagem, sem prejudicar os ecossistemas."
+    }
+   ],
+   "answer": "D"
+  }
+ ]
+}

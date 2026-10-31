@@ -1,0 +1,1396 @@
+{
+ "id": "enem-2018-d2",
+ "vestibular": "enem",
+ "title": "ENEM 2018, dia 2",
+ "year": 2018,
+ "version": 1,
+ "source": "Questões: INEP, ENEM 2018. Transcrição: ENEM API (enem.dev).",
+ "questions": [
+  {
+   "id": "enem-2018-q94",
+   "number": 94,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Anabolismo e catabolismo são processos celulares antagônicos, que são controlados principalmente pela ação hormonal. Por exemplo, no fígado a insulina atua como um hormônio com ação anabólica, enquanto o glucagon tem ação catabólica e ambos são secretados em resposta ao nível de glicose sanguínea."
+    },
+    {
+     "type": "text",
+     "text": "Em caso de um indivíduo com hipoglicemia, o hormônio citado que atua no catabolismo induzirá o organismo a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Realizar a fermentação lática."
+    },
+    {
+     "letter": "B",
+     "text": "Metabolizar aerobicamente a glicose."
+    },
+    {
+     "letter": "C",
+     "text": "Produzir aminoácidos a partir de ácidos graxos."
+    },
+    {
+     "letter": "D",
+     "text": "Transformar ácidos graxos em glicogênio."
+    },
+    {
+     "letter": "E",
+     "text": "Estimular a utilização do glicogênio."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2018-q96",
+   "number": 96,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Para serem absorvidos pelas células do intestino humano, os lipídios ingeridos precisam ser primeiramente emulsificados. Nessa etapa da digestão, torna-se necessária a ação dos ácidos biliares, visto que os lipídios apresentam uma natureza apoiar e são insolúveis em água."
+    },
+    {
+     "type": "text",
+     "text": "Esses ácidos atuam no processo de modo a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Hidrolisar os lipídios."
+    },
+    {
+     "letter": "B",
+     "text": "Agir como detergentes."
+    },
+    {
+     "letter": "C",
+     "text": "Tornar os lipídios anfifílicos."
+    },
+    {
+     "letter": "D",
+     "text": "Promover a secreção de lipases."
+    },
+    {
+     "letter": "E",
+     "text": "Estimular o trânsito intestinal dos lipídios."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2018-q97",
+   "number": 97,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A tecnologia de comunicação da etiqueta RFID (chamada de etiqueta inteligente) é usada há anos para rastrear gado, vagões de trem, bagagem aérea e carros nos pedágios. Um modelo mais barato dessas etiquetas pode funcionar sem baterias e é constituído por três componentes: um microprocessador de silício; uma bobina de metal, feita de cobre ou de alumínio, que é enrolada em um padrão circular; e um encapsulador, que é um material de vidro ou polímero envolvendo o microprocessador e a bobina. Na presença de um campo de radiofrequência gerado pelo leitor, a etiqueta transmite sinais. A distância de leitura é determinada pelo tamanho da bobina e pela potência da onda de rádio emitida pelo leitor."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://eletronicos.hsw.uol.com.br. Acesso em: 27 fev. 2012 (adaptado)"
+    },
+    {
+     "type": "text",
+     "text": "A etiqueta funciona sem pilhas porque o campo"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Elétrico da onda de rádio agita elétrons da bobina."
+    },
+    {
+     "letter": "B",
+     "text": "Elétrico da onda de rádio cria uma tensão na bobina."
+    },
+    {
+     "letter": "C",
+     "text": "Magnético da onda de rádio induz corrente na bobina."
+    },
+    {
+     "letter": "D",
+     "text": "Magnético da onda de rádio aquece os fios da bobina."
+    },
+    {
+     "letter": "E",
+     "text": "Magnético da onda de rádio diminui a ressonância no interior da bobina."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q98",
+   "number": 98,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Corredores ecológicos visam mitigar os efeitos da fragmentação dos ecossistemas promovendo a ligação entre diferentes áreas, com o objetivo de proporcionar o deslocamento de animais, a dispersão de sementes e o aumento da cobertura vegetal. São instituídos com base em informações como estudos sobre o deslocamento de espécies, sua área de vida (área necessária para o suprimento de suas necessidades vitais e reprodutivas) e a distribuição de suas populações."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.mma.gov.br. Acesso em: 30 nov. 2017 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Nessa estratégia, a recuperação da biodiversidade é efetiva porque"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Propicia o fluxo gênico."
+    },
+    {
+     "letter": "B",
+     "text": "Intensifica o manejo de espécies."
+    },
+    {
+     "letter": "C",
+     "text": "Amplia o processo de ocupação humana."
+    },
+    {
+     "letter": "D",
+     "text": "Aumenta o número de indivíduos nas populações."
+    },
+    {
+     "letter": "E",
+     "text": "Favorece a formação de ilhas de proteção integral."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2018-q100",
+   "number": 100,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "No ciclo celular atuam moléculas reguladoras. Dentre elas, a proteína p53 é ativada em resposta a mutações no DNA, evitando a progressão do ciclo até que os danos sejam reparados, ou induzindo a célula ã autodestruição."
+    },
+    {
+     "type": "text",
+     "text": "ALBERTS, B. et ai. Fundamentos da biologia celular. Porto Alegre: Artmed, 2011 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A ausência dessa proteína poderá favorecer a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Redução da síntese de DNA, acelerando o ciclo celular."
+    },
+    {
+     "letter": "B",
+     "text": "Saída imediata do ciclo celular, antecipando a proteção do DNA."
+    },
+    {
+     "letter": "C",
+     "text": "Ativação de outras proteínas reguladoras, induzindo a apoptose."
+    },
+    {
+     "letter": "D",
+     "text": "Manutenção da estabilidade genética, favorecendo a longevidade."
+    },
+    {
+     "letter": "E",
+     "text": "Proliferação celular exagerada, resultando na formação de um tumor."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2018-q101",
+   "number": 101,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O deserto é um bioma que se localiza em regiões de pouca umidade. A fauna é, predominantemente, composta por animais roedores, aves, répteis e artrópodes."
+    },
+    {
+     "type": "text",
+     "text": "Uma adaptação, associada a esse bioma, presente nos seres vivos dos grupos citados é o(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Existência de numerosas glândulas sudoríparas na epiderme."
+    },
+    {
+     "letter": "B",
+     "text": "Eliminação de excretas nitrogenadas de forma concentrada."
+    },
+    {
+     "letter": "C",
+     "text": "Desenvolvimento do embrião no interior de ovo com casca."
+    },
+    {
+     "letter": "D",
+     "text": "Capacidade de controlar a temperatura corporal."
+    },
+    {
+     "letter": "E",
+     "text": "Respiração realizada por pulmões foliáceos."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2018-q102",
+   "number": 102,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O sulfeto de mercúrio(ll) foi usado como pigmento vermelho para pinturas de quadros e murais. Esse pigmento, conhecido como vermilion, escurece com o passar dos anos, fenômeno cuja origem é alvo de pesquisas. Aventou-se a hipótese de que o vermilion seja decomposto sob a ação da luz, produzindo uma fina camada de mercúrio metálico na superfície. Essa reação seria catalisada por íon cloreto presente na umidade do ar"
+    },
+    {
+     "type": "text",
+     "text": "WOGAN, T. Mercury’s Dark Influence on Art. Disponível em: www.chemistryworld.com. Acesso em: 26 abr. 2018 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Segundo a hipótese proposta, o íon cloreto atua na decomposição fotoquímica do vermilion"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Reagindo como agente oxidante."
+    },
+    {
+     "letter": "B",
+     "text": "Deslocando o equilíbrio químico."
+    },
+    {
+     "letter": "C",
+     "text": "Diminuindo a energia de ativação."
+    },
+    {
+     "letter": "D",
+     "text": "Precipitando cloreto de mercúrio."
+    },
+    {
+     "letter": "E",
+     "text": "Absorvendo a energia da luz visível."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q103",
+   "number": 103,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O sonorizador é um dispositivo físico implantado sobre a superfície de uma rodovia de modo que provoque uma trepidação e ruído quando da passagem de um veículo sobre ele, alertando para uma situação atípica à frente, como obras, pedágios ou travessia de pedestres."
+    },
+    {
+     "type": "text",
+     "text": "Ao passar sobre os sonorizadores, a suspensão do veículo sofre vibrações que produzem ondas sonoras, resultando em um barulho peculiar. Considere um veículo que passe com velocidade constante igual a 108 km/h  sobre um sonorizador cujas faixas são separadas por uma distância de 8 cm."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.denatran.gov.br. Acesso em: 2 set. 2015 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A frequência da vibração do automóvel percebida pelo condutor durante a passagem nesse sonorizador é mais próxima de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "8,6 hertz."
+    },
+    {
+     "letter": "B",
+     "text": "13,5 hertz."
+    },
+    {
+     "letter": "C",
+     "text": "375 hertz."
+    },
+    {
+     "letter": "D",
+     "text": "1 350 hertz."
+    },
+    {
+     "letter": "E",
+     "text": "4 860 hertz."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q105",
+   "number": 105,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Na mitologia grega, Nióbia era a filha de Tãntalo, dois personagens conhecidos pelo sofrimento. O elemento químico de número atômico (Z) igual a 41 tem propriedades químicas e físicas tão parecidas com as do elemento de número atômico 73 que chegaram a ser confundidos.\nPor isso, em homenagem a esses dois personagens da mitologia grega, foi conferido a esses elementos os nomes de nióbio (Z = 41) e tãntalo (Z = 73). Esses dois elementos químicos adquiriram grande importância econômica na metalurgia, na produção de supercondutores e em outras aplicações na indústria de ponta, exatamente pelas propriedades químicas e físicas comuns aos dois."
+    },
+    {
+     "type": "text",
+     "text": "KEAN, S. A colher que desaparece: e outras histórias reais de loucura, amor e morte a partir dos elementos químicos. Rio de Janeiro: Zahar, 2011 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A importância econômica e tecnológica desses elementos, pela similaridade de suas propriedades químicas e físicas, deve-se a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Terem elétrons no subnível f"
+    },
+    {
+     "letter": "B",
+     "text": "Serem elementos de transição interna."
+    },
+    {
+     "letter": "C",
+     "text": "Pertencerem ao mesmo grupo na tabela periódica."
+    },
+    {
+     "letter": "D",
+     "text": "Terem seus elétrons mais externos nos níveis 4 e 5, respectivamente."
+    },
+    {
+     "letter": "E",
+     "text": "Estarem localizados na família dos alcalinos terrosos e alcalinos, respectivamente."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q107",
+   "number": 107,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O cruzamento de duas espécies da família das Anonáceas, a cherimoia (Annona cherimola) com a fruta-pinha (Annona squamosa), resultou em uma planta híbrida denominada de atemoia. Recomenda-se que o seu plantio seja por meio de enxertia."
+    },
+    {
+     "type": "text",
+     "text": "Um dos benefícios dessa forma de plantio é a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Ampliação da variabilidade genética."
+    },
+    {
+     "letter": "B",
+     "text": "Produção de frutos das duas espécies."
+    },
+    {
+     "letter": "C",
+     "text": "Manutenção do genótipo da planta híbrida."
+    },
+    {
+     "letter": "D",
+     "text": "Reprodução de clones das plantas parentais."
+    },
+    {
+     "letter": "E",
+     "text": "Modificação do genoma decorrente da transgenia."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q110",
+   "number": 110,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um estudante relatou que o mapeamento do DNA da cevada foi quase todo concluído e seu código genético desvendado. Chamou atenção para o número de genes que compõem esse código genético e que a semente da cevada, apesar de pequena, possui um genoma mais complexo que o humano, sendo boa parte desse código constituída de sequências repetidas. Nesse contexto, o conceito de código genético está abordado de forma equivocada."
+    },
+    {
+     "type": "text",
+     "text": "Cientificamente esse conceito é definido como"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Trincas de nucleotídeos que codificam os aminoácidos."
+    },
+    {
+     "letter": "B",
+     "text": "Localização de todos os genes encontrados em um genoma."
+    },
+    {
+     "letter": "C",
+     "text": "Codificação de sequências repetidas presentes em um genoma."
+    },
+    {
+     "letter": "D",
+     "text": "Conjunto de todos os RNAs mensageiros transcritos em um organismo."
+    },
+    {
+     "letter": "E",
+     "text": "Todas as sequências de pares de bases presentes em um organismo."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2018-q111",
+   "number": 111,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A polinização, que viabiliza o transporte do grão de pólen de uma planta até o estigma de outra, pode ser realizada biótica ou abioticamente. Nos processos abióticos, as plantas dependem de fatores como o vento e a água."
+    },
+    {
+     "type": "text",
+     "text": "A estratégia evolutiva que resulta em polinização mais eficiente quando esta depende do vento é o(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Diminuição do cálice."
+    },
+    {
+     "letter": "B",
+     "text": "Alongamento do ovário."
+    },
+    {
+     "letter": "C",
+     "text": "Disponibilização do néctar."
+    },
+    {
+     "letter": "D",
+     "text": "Intensificação da cor das pétalas."
+    },
+    {
+     "letter": "E",
+     "text": "Aumento do número de estames."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2018-q113",
+   "number": 113,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Companhias que fabricam jeans usam cloro para o clareamento, seguido de lavagem. Algumas estão substituindo o cloro por substâncias ambientalmente mais seguras como peróxidos, que podem ser degradados por enzimas chamadas peroxidases. Pensando nisso, pesquisadores inseriram genes codificadores de peroxidases em leveduras cultivadas nas condições de clareamento e lavagem dos jeans e selecionaram as sobreviventes para produção dessas enzimas."
+    },
+    {
+     "type": "text",
+     "text": "TORTORA, G. J.; FUNKE, B. R.; CASE, C. L. Microbiologia. Rio de Janeiro: Artmed, 2016 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Nesse caso, o uso dessas leveduras modificadas objetiva"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Reduzir a quantidade de resíduos tóxicos nos efluentes da lavagem."
+    },
+    {
+     "letter": "B",
+     "text": "Eliminar a necessidade de tratamento da água consumida."
+    },
+    {
+     "letter": "C",
+     "text": "Elevar a capacidade de clareamento dos jeans."
+    },
+    {
+     "letter": "D",
+     "text": "Aumentar a resistência do jeans a peróxidos."
+    },
+    {
+     "letter": "E",
+     "text": "Associar ação bactericida ao clareamento."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2018-q119",
+   "number": 119,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A utilização de extratos de origem natural tem recebido a atenção de pesquisadores em todo o mundo, principalmente nos países em desenvolvimento que são altamente acometidos por doenças infecciosas e parasitárias. Um bom exemplo dessa utilização são os produtos de origem botânica que combatem insetos."
+    },
+    {
+     "type": "text",
+     "text": "O uso desses produtos pode auxiliar no controle da"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Esquistossomose."
+    },
+    {
+     "letter": "B",
+     "text": "Leptospirose."
+    },
+    {
+     "letter": "C",
+     "text": "Leishmaniose."
+    },
+    {
+     "letter": "D",
+     "text": "Hanseníase."
+    },
+    {
+     "letter": "E",
+     "text": "Aids."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q122",
+   "number": 122,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Visando a melhoria estética de um veículo, o vendedor de uma loja sugere ao consumidor que ele troque as rodas de seu automóvel de aro 15 polegadas para aro 17 polegadas, o que corresponde a um diâmetro maior do conjunto roda e pneu."
+    },
+    {
+     "type": "text",
+     "text": "Duas consequências provocadas por essa troca de\naro são:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Elevar a posição do centro de massa do veículo tornando-o mais instável e aumentar a velocidade do automóvel em relação à indicada no velocímetro."
+    },
+    {
+     "letter": "B",
+     "text": "Abaixar a posição do centro de massa do veículo tornando-o mais instável e diminuir a velocidade do automóvel em relação à indicada no velocímetro."
+    },
+    {
+     "letter": "C",
+     "text": "Elevar a posição do centro de massa do veículo tornando-o mais estável e aumentar a velocidade do automóvel em relação à indicada no velocímetro."
+    },
+    {
+     "letter": "D",
+     "text": "Abaixar a posição do centro de massa do veículo tornando-o mais estável e diminuir a velocidade do automóvel em relação à indicada no velocímetro."
+    },
+    {
+     "letter": "E",
+     "text": "Elevar a posição do centro de massa do veículo tornando-o mais estável e diminuir a velocidade do automóvel em relação à indicada no velocímetro."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2018-q124",
+   "number": 124,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O petróleo é uma fonte de energia de baixo custo e de larga utilização como matéria-prima para uma grande variedade de produtos. É um óleo formado de várias substâncias de origem orgânica, em sua maioria hidrocarbonetos de diferentes massas molares."
+    },
+    {
+     "type": "text",
+     "text": "São utilizadas técnicas de separação para obtenção dos componentes comercializáveis do petróleo.\nAlém disso, para aumentar a quantidade de frações comercializáveis, otimizando o produto de origem fóssil, utiliza-se o processo de craqueamento."
+    },
+    {
+     "type": "text",
+     "text": "O que ocorre nesse processo?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Transformação das frações do petróleo em outras moléculas menores."
+    },
+    {
+     "letter": "B",
+     "text": "Reação de óxido-redução com transferência de elétrons entre as moléculas."
+    },
+    {
+     "letter": "C",
+     "text": "Solubilização das frações do petróleo com a utilização de diferentes solventes."
+    },
+    {
+     "letter": "D",
+     "text": "Decantação das moléculas com diferentes massas molares pelo uso de centrífugas."
+    },
+    {
+     "letter": "E",
+     "text": "Separação dos diferentes componentes do petróleo em função de suas temperaturas de ebulição."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2018-q132",
+   "number": 132,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "As abelhas utilizam a sinalização química para distinguir a abelha-rainha de uma operária, sendo capazes de reconhecer diferenças entre moléculas. A rainha produz o sinalizador químico conhecido como ácido 9-hidroxidec-2-enoico, enquanto as abelhas-operárias produzem ácido 10-hidroxidec-2-enoico.\nNós podemos distinguir as abelhas-operárias e rainhas\npor sua aparência, mas, entre si, elas usam essa\nsinalização química para perceber a diferença. Pode-se\ndizer que veem por meio da química."
+    },
+    {
+     "type": "text",
+     "text": "LE COUTEUR, R; BURRESON, J. Os botões de Napoleão: as 17 moléculas que mudaram a história. Rio de Janeiro: Jorge Zahar, 2006 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "As moléculas dos sinalizadores químicos produzidas pelas abelhas rainha e operária possuem diferença na"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Fórmula estrutural."
+    },
+    {
+     "letter": "B",
+     "text": "Fórmula molecular."
+    },
+    {
+     "letter": "C",
+     "text": "Identificação dos tipos de ligação."
+    },
+    {
+     "letter": "D",
+     "text": "Contagem do número de carbonos."
+    },
+    {
+     "letter": "E",
+     "text": "Identificaçáo dos grupos funcionais."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2018-q133",
+   "number": 133,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Insetos podem apresentar três tipos de desenvolvimento. Um deles, a holometabolia (desenvolvimento completo), é constituído pelas fases de ovo, larva, pupa e adulto sexualmente maduro, que ocupam diversos hábitats. Os insetos com holometabolia pertencem às ordens mais numerosas em termos de espécies conhecidas."
+    },
+    {
+     "type": "text",
+     "text": "Esse tipo de desenvolvimento está relacionado a um maior número de espécies em razão da"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Proteção na fase de pupa, favorecendo a sobrevivência de adultos férteis."
+    },
+    {
+     "letter": "B",
+     "text": "Produção de muitos ovos, larvas e pupas, aumentando o número de adultos."
+    },
+    {
+     "letter": "C",
+     "text": "Exploração de diferentes nichos, evitando a competição entre as fases da vida."
+    },
+    {
+     "letter": "D",
+     "text": "Ingestão de alimentos em todas as fases de vida, garantindo o surgimento do adulto."
+    },
+    {
+     "letter": "E",
+     "text": "Utilização do mesmo alimento em todas as fases, otimizando a nutrição do organismo."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q134",
+   "number": 134,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Talvez você já tenha bebido suco usando dois canudinhos iguais. Entretanto, pode-se verificar que, se colocar um canudo imerso no suco e outro do lado de fora do líquido, fazendo a sucção simultaneamente em ambos, você terá dificuldade em bebê-lo."
+    },
+    {
+     "type": "text",
+     "text": "Essa dificuldade ocorre porque o(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Força necessária para a sucção do ar e do suco simultaneamente dobra de valor"
+    },
+    {
+     "letter": "B",
+     "text": "Densidade do ar é menor que a do suco, portanto, o volume de ar aspirado é muito maior que o volume de suco."
+    },
+    {
+     "letter": "C",
+     "text": "Velocidade com que o suco sobe deve ser constante nos dois canudos, o que é impossível com um dos canudos de fora."
+    },
+    {
+     "letter": "D",
+     "text": "Peso da coluna de suco é consideravelmente maior que o peso da coluna de ar, o que dificulta a sucção do líquido."
+    },
+    {
+     "letter": "E",
+     "text": "Pressão no interior da boca assume praticamente o mesmo valor daquela que atua sobre o suco."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2018-q135",
+   "number": 135,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O alemão Fritz Haber recebeu o Prêmio Nobel de química de 1918 pelo desenvolvimento de um processo viável para a síntese da amônia (NH3). Em seu discurso de premiação, Haber justificou a importância do feito dizendo que:\n“Desde a metade do século passado, tornou-se\nconhecido que um suprimento de nitrogênio é uma\nnecessidade básica para o aumento das safras de\nalimentos; entretanto, também se sabia que as plantas\nnão podem absorver o nitrogênio em sua forma simples,\nque é o principal constituinte da atmosfera. Elas precisam\nque o nitrogênio seja combinado […] para poderem\nassimilá-lo.\nEconomias agrícolas basicamente mantêm o balanço do nitrogênio ligado. No entanto, com o advento da era industrial, os produtos do solo são levados de onde cresce a colheita para lugares distantes, onde são consumidos, fazendo com que o nitrogênio ligado não retorne ã terra da qual foi retirado.\nIsso tem gerado a necessidade econômica mundial de abastecer o solo com nitrogênio ligado. […] A demanda por nitrogênio, tal como a do carvão, indica quão diferente nosso modo de vida se tornou com relação ao das pessoas que, com seus próprios corpos, fertilizam o solo que cultivam.\nDesde a metade do último século, nós vínhamos aproveitando o suprimento de nitrogênio do salitre que a natureza tinha depositado nos desertos montanhosos do Chile. Comparando o rápido crescimento da demanda com a extensão calculada desses depósitos, ficou claro que em meados do século atual uma emergência seríssima seria inevitável, a menos que a química encontrasse uma saída.”"
+    },
+    {
+     "type": "text",
+     "text": "HABER, F. The Synthesis of Ammonia from its Elements. Disponível em: www.nobelprize.org. Acesso em: 13jul. 2013 (adaptado)"
+    },
+    {
+     "type": "text",
+     "text": "De acordo com os argumentos de Haber, qual fenômeno teria provocado o desequilíbrio no “balanço do nitrogênio ligado”?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "O esgotamento das reservas de salitre no Chile."
+    },
+    {
+     "letter": "B",
+     "text": "O aumento da exploração de carvão vegetal e carvão mineral."
+    },
+    {
+     "letter": "C",
+     "text": "A redução da fertilidade do solo nas economias agrícolas."
+    },
+    {
+     "letter": "D",
+     "text": "A intensificação no fluxo de pessoas do campo para as cidades."
+    },
+    {
+     "letter": "E",
+     "text": "A necessidade das plantas de absorverem sais de nitrogênio disponíveis no solo."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2018-q141",
+   "number": 141,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A prefeitura de um pequeno município do interior decide colocar postes para  iluminação ao longo de uma estrada retilínea, que inicia em uma praça central e termina numa fazenda na zona rural. Como a praça já possui iluminação, o primeiro poste será colocado a 80 metros da praça, o segundo, a 100 metros, o terceiro, a 120 metros, e assim sucessivamente, mantendo-se sempre uma distância de vinte metros entre os postes, até que o último poste seja colocado a uma distância de 1 380 metros da praça."
+    },
+    {
+     "type": "text",
+     "text": "Se a prefeitura pode pagar, no máximo, R$ 8 000,00 por poste colocado, o maior valor que poderá gastar com a colocação desses postes é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "R$512 000,00."
+    },
+    {
+     "letter": "B",
+     "text": "R$520 000,00."
+    },
+    {
+     "letter": "C",
+     "text": "R$528 000,00."
+    },
+    {
+     "letter": "D",
+     "text": "R$552 000,00."
+    },
+    {
+     "letter": "E",
+     "text": "R$584 000,00."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q143",
+   "number": 143,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Os tipos de prata normalmente vendidos são 975, 950 e 925. Essa classificação é feita de acordo com a sua pureza. Por exemplo, a prata 975 é a substância constituída de 975 partes de prata pura e 25 partes de cobre em 1 000 partes da substância. Já a prata 950 é constituída de 950 partes de prata pura e 50 de cobre em 1 000; e a prata 925 é constituída de 925 partes de prata pura e 75 partes de cobre em 1 000. Um ourives possui 10 gramas de prata 925 e deseja obter 40 gramas de prata 950 para produção de uma joia."
+    },
+    {
+     "type": "text",
+     "text": "Nessas condições, quantos gramas de prata e de cobre, respectivamente, devem ser fundidos com os 10 gramas de prata 925?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "29,25 e 0,75"
+    },
+    {
+     "letter": "B",
+     "text": "28,75 e 1,25"
+    },
+    {
+     "letter": "C",
+     "text": "28,50 e 1,50"
+    },
+    {
+     "letter": "D",
+     "text": "27,75 e 2,25"
+    },
+    {
+     "letter": "E",
+     "text": "25,00 e 5,00"
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2018-q150",
+   "number": 150,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Para ganhar um prêmio, uma pessoa deverá retirar, sucessivamente e sem reposição, duas bolas pretas de uma mesma urna.\nInicialmente, as quantidades e cores das bolas são como descritas a seguir:\n• Urna A – Possui três bolas brancas, duas bolas pretas e uma bola verde;\n• Urna B – Possui seis bolas brancas, três bolas pretas e uma bola verde;\n• Urna C – Possui duas bolas pretas e duas bolas verdes;\n• Urna D – Possui três bolas brancas e três bolas pretas.\nA pessoa deve escolher uma entre as cinco opções apresentadas:\n• Opção 1 – Retirar, aleatoriamente, duas bolas da urna A;\n• Opção 2 – Retirar, aleatoriamente, duas bolas da urna B;\n• Opção 3 – Passar, aleatoriamente, uma bola da urna C para a urna A; após isso, retirar, aleatoriamente, duas bolas da urna A;\n• Opção 4 – Passar, aleatoriamente, uma bola da urna D para a urna C; após isso, retirar, aleatoriamente, duas bolas da urna C;\n• Opção 5 – Passar, aleatoriamente, uma bola da urna C para a urna D; após isso, retirar, aleatoriamente, duas bolas da urna D."
+    },
+    {
+     "type": "text",
+     "text": "Com o objetivo de obter a maior probabilidade possível de ganhar o prêmio, a pessoa deve escolher a opção"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "1."
+    },
+    {
+     "letter": "B",
+     "text": "2."
+    },
+    {
+     "letter": "C",
+     "text": "3."
+    },
+    {
+     "letter": "D",
+     "text": "4."
+    },
+    {
+     "letter": "E",
+     "text": "5."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2018-q156",
+   "number": 156,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um rapaz estuda em uma escola que fica longe de sua casa, e por isso precisa utilizar o transporte público. Como é muito observador, todos os dias ele anota a hora exata (sem considerar os segundos) em que o ônibus passa pelo ponto de espera. Também notou que nunca consegue chegar ao ponto de ônibus antes de 6h 15 min da manhã. Analisando os dados coletados durante o mês de fevereiro, o  qual teve 21 dias letivos, ele concluiu que 6 h 21 min foi o que mais se repetiu, e que a mediana do conjunto de dados é 6 h 22 min."
+    },
+    {
+     "type": "text",
+     "text": "A probabilidade de que, em algum dos dias letivos de fevereiro, esse rapaz tenha apanhado o ônibus antes de 6 h 21 min da manhã é, no máximo,"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "4/21"
+    },
+    {
+     "letter": "B",
+     "text": "5/21"
+    },
+    {
+     "letter": "C",
+     "text": "6/21"
+    },
+    {
+     "letter": "D",
+     "text": "7/21"
+    },
+    {
+     "letter": "E",
+     "text": "8/21"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2018-q158",
+   "number": 158,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um produtor de milho utiliza uma área de 160 hectares para as suas atividades agrícolas. Essa área é dividida em duas partes: uma de 40 hectares, com maior produtividade, e outra, de 120 hectares, com menor produtividade. A produtividade é dada pela razão entre a produção, em tonelada, e a área cultivada. Sabe-se que a área de 40 hectares tem produtividade igual a 2,5 vezes à\nda outra. Esse fazendeiro pretende aumentar sua produção total em 15%,  aumentando o tamanho da sua propriedade. Para tanto, pretende comprar uma parte de uma fazenda vizinha, que possui a mesma produtividade da parte de 120 hectares de suas terras."
+    },
+    {
+     "type": "text",
+     "text": "Qual é a área mínima, em hectare, em que o produtor precisará comprar?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "36"
+    },
+    {
+     "letter": "B",
+     "text": "33"
+    },
+    {
+     "letter": "C",
+     "text": "27"
+    },
+    {
+     "letter": "D",
+     "text": "24"
+    },
+    {
+     "letter": "E",
+     "text": "21"
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2018-q161",
+   "number": 161,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Para apagar os focos A e B de um incêndio, que estavam a uma distância de 30m um do outro, os bombeiros de um quartel decidiram se posicionar de modo que a distância de um bombeiro ao foco A, de temperatura mais elevada, fosse sempre o dobro da distância desse bombeiro ao foco B, de temperatura menos elevada."
+    },
+    {
+     "type": "text",
+     "text": "Nestas condições, a maior distância, em metro, que dois bombeiros poderiam ter entre eles é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "30."
+    },
+    {
+     "letter": "B",
+     "text": "40."
+    },
+    {
+     "letter": "C",
+     "text": "45."
+    },
+    {
+     "letter": "D",
+     "text": "60."
+    },
+    {
+     "letter": "E",
+     "text": "68."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2018-q162",
+   "number": 162,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Torneios de tênis, em geral, são disputados em sistema de eliminatória simples. Nesse sistema, são disputadas partidas entre dois competidores, com a eliminação do perdedor e promoção do vencedor para a fase seguinte. Dessa forma, se na 1ª fase o torneio conta com 2_n_ competidores, então na 2ª fase restarão n competidores, e assim sucessivamente até a partida final.\nEm um torneio de tênis, disputado nesse sistema, participam 128 tenistas."
+    },
+    {
+     "type": "text",
+     "text": "Para se definir o campeão desse torneio, o número de partidas necessárias é dado por"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "2 X 128"
+    },
+    {
+     "letter": "B",
+     "text": "64 + 32 + 16 + 8 + 4 + 2"
+    },
+    {
+     "letter": "C",
+     "text": "128 + 64 + 32 + 16 + 8 + 4 + 2 + 1"
+    },
+    {
+     "letter": "D",
+     "text": "128 + 64 + 32 + 16 + 8 + 4 + 2"
+    },
+    {
+     "letter": "E",
+     "text": "64 + 32 + 16 + 8+ 4 + 2+ 1"
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2018-q163",
+   "number": 163,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O artigo 33 da lei brasileira sobre drogas prevê a pena de reclusão de 5 a 15 anos para qualquer pessoa que seja condenada por tráfico ilícito ou produção não autorizada de drogas. Entretanto, caso o condenado seja réu primário, com bons antecedentes criminais, essa pena pode sofrer uma redução de um sexto a dois terços."
+    },
+    {
+     "type": "text",
+     "text": "Suponha que um réu primário, com bons antecedentes criminais, foi condenado pelo artigo 33 da lei brasileira sobre drogas."
+    },
+    {
+     "type": "text",
+     "text": "Após o benefício da redução de pena, sua pena poderá variar de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "1 ano e 8 meses a 12 anos e 6 meses."
+    },
+    {
+     "letter": "B",
+     "text": "1 ano e 8 meses a 5 anos."
+    },
+    {
+     "letter": "C",
+     "text": "3 anos e 4 meses a 10 anos."
+    },
+    {
+     "letter": "D",
+     "text": "4 anos e 2 meses a 5 anos."
+    },
+    {
+     "letter": "E",
+     "text": "4 anos e 2 meses a 12 anos e 6 meses."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2018-q164",
+   "number": 164,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um edifício tem a numeração dos andares iniciando no térreo (T), e continuando com primeiro, segundo, terceiro, …, até o último andar. Uma criança entrou no elevador e, tocando no painel, seguiu uma sequência de andares, parando, abrindo e fechando a porta em diversos andares. A partir de onde entrou a criança, o elevador subiu sete andares, em seguida desceu dez, desceu mais treze, subiu nove, desceu quatro e parou no quinto andar, finalizando a sequência. Considere que, no trajeto seguido pela criança, o elevador parou uma vez no último andar do edifício."
+    },
+    {
+     "type": "text",
+     "text": "De acordo com as informações dadas, o último andar do edifício é o"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "16º"
+    },
+    {
+     "letter": "B",
+     "text": "22º"
+    },
+    {
+     "letter": "C",
+     "text": "23º"
+    },
+    {
+     "letter": "D",
+     "text": "25º"
+    },
+    {
+     "letter": "E",
+     "text": "32º"
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q166",
+   "number": 166,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Os alunos da disciplina de estatística, em um curso universitário, realizam quatro avaliações por semestre com os pesos de 20%, 10%, 30% e 40%, respectivamente.\nNo final do semestre, precisam obter uma média nas quatro avaliações de, no mínimo, 60 pontos para serem aprovados. Um estudante dessa disciplina obteve os seguintes pontos nas três primeiras avaliações: 46, 60 e 50, respectivamente."
+    },
+    {
+     "type": "text",
+     "text": "O mínimo de pontos que esse estudante precisa obter na quarta avaliação para ser aprovado é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "29,8."
+    },
+    {
+     "letter": "B",
+     "text": "71,0."
+    },
+    {
+     "letter": "C",
+     "text": "74,5."
+    },
+    {
+     "letter": "D",
+     "text": "75,5."
+    },
+    {
+     "letter": "E",
+     "text": "84,0."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q167",
+   "number": 167,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O gerente do setor de recursos humanos de uma empresa está organizando uma avaliação em que uma das etapas é um jogo de perguntas e respostas. Para essa etapa, ele classificou as perguntas, pelo nível de dificuldade, em fácil, médio e difícil, e escreveu cada pergunta em cartões para colocação em uma urna."
+    },
+    {
+     "type": "text",
+     "text": "Contudo, após depositar vinte perguntas de diferentes níveis na urna, ele observou que 25% delas eram de nível fácil. Querendo que as perguntas de nível fácil sejam a maioria, o gerente decidiu acrescentar mais perguntas de nível fácil à urna, de modo que a probabilidade de o primeiro participante retirar, aleatoriamente, uma pergunta de nível fácil seja de 75%."
+    },
+    {
+     "type": "text",
+     "text": "Com essas informações, a quantidade de perguntas de nível fácil que o gerente deve acrescentar à urna é igual a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "10."
+    },
+    {
+     "letter": "B",
+     "text": "15."
+    },
+    {
+     "letter": "C",
+     "text": "35."
+    },
+    {
+     "letter": "D",
+     "text": "40."
+    },
+    {
+     "letter": "E",
+     "text": "45."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2018-q169",
+   "number": 169,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Uma empresa de comunicação tem a tarefa de elaborar um material publicitário de um estaleiro para divulgar um novo navio, equipado com um guindaste de 15m de altura e uma esteira de 90 m de comprimento. No desenho desse navio, a representação do guindaste deve ter sua altura entre 0,5 cm e 1 cm, enquanto a esteira deve apresentar comprimento superior a 4 cm. Todo o desenho deverá ser feito em uma escala 1 : X."
+    },
+    {
+     "type": "text",
+     "text": "Os valores possíveis para X são, apenas,"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "X > 1 500."
+    },
+    {
+     "letter": "B",
+     "text": "X < 3 000."
+    },
+    {
+     "letter": "C",
+     "text": "1 500 < X < 2 250."
+    },
+    {
+     "letter": "D",
+     "text": "1 500 < X < 3 000."
+    },
+    {
+     "letter": "E",
+     "text": "2 250 < X < 3 000."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q174",
+   "number": 174,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Com o avanço em ciência da computação, estamos próximos do momento em que o número de transistores no processador de um computador pessoal será da mesma ordem de grandeza que o número de neurônios em um cérebro humano, que é da ordem de 100 bilhões.\nUma das grandezas determinantes para o desempenho de um processador é a densidade de transistores, que é o número de transistores por centímetro quadrado. Em 1986, uma empresa fabricava um processador contendo 100 000 transistores distribuídos em 0,25 cm² de área. Desde então, o número de transistores por centímetro quadrado que se pode colocar em um processador dobra a cada dois anos (Lei de Moore)."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.pocket-lint.com. Acesso em: 1 dez. 2017 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Considere 0,30 como aproximação para \nEm que ano a empresa atingiu ou atingirá a densidade de 100 bilhões de transistores?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "1999"
+    },
+    {
+     "letter": "B",
+     "text": "2002"
+    },
+    {
+     "letter": "C",
+     "text": "2022"
+    },
+    {
+     "letter": "D",
+     "text": "2026"
+    },
+    {
+     "letter": "E",
+     "text": "2146"
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q175",
+   "number": 175,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Uma loja vende automóveis em N parcelas iguais sem juros. No momento de contratar o financiamento, caso o cliente queira aumentar o prazo, acrescentando mais 5 parcelas, o valor de cada uma das parcelas diminui R$200,00, ou se ele quiser diminuir o prazo, com 4 parcelas a menos, o valor de cada uma das parcelas sobe R$ 232,00. Considere ainda que, nas três possibilidades de pagamento, o valor do automóvel é o mesmo, todas são sem juros e não ê dado desconto em nenhuma das situações."
+    },
+    {
+     "type": "text",
+     "text": "Nessas condições, qual é a quantidade N de parcelas a serem pagas de acordo com a proposta inicial da loja?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "20"
+    },
+    {
+     "letter": "B",
+     "text": "24"
+    },
+    {
+     "letter": "C",
+     "text": "29"
+    },
+    {
+     "letter": "D",
+     "text": "40"
+    },
+    {
+     "letter": "E",
+     "text": "58"
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2018-q178",
+   "number": 178,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Durante uma festa de colégio, um grupo de alunos organizou uma rifa. Oitenta alunos faltaram à festa e não participaram da rifa. Entre os que compareceram, alguns compraram três bilhetes, 45 compraram 2 bilhetes, e muitos compraram apenas um. O total de alunos que comprou um único bilhete era 20% do número total de bilhetes vendidos, e o total de bilhetes vendidos excedeu em 33 o número total de alunos do colégio."
+    },
+    {
+     "type": "text",
+     "text": "Quantos alunos compraram somente um bilhete?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "34"
+    },
+    {
+     "letter": "B",
+     "text": "42"
+    },
+    {
+     "letter": "C",
+     "text": "47"
+    },
+    {
+     "letter": "D",
+     "text": "48"
+    },
+    {
+     "letter": "E",
+     "text": "79"
+    }
+   ],
+   "answer": "D"
+  }
+ ]
+}

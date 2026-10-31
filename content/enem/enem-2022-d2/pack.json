@@ -1,0 +1,1512 @@
+{
+ "id": "enem-2022-d2",
+ "vestibular": "enem",
+ "title": "ENEM 2022, dia 2",
+ "year": 2022,
+ "version": 1,
+ "source": "Questões: INEP, ENEM 2022. Transcrição: ENEM API (enem.dev).",
+ "questions": [
+  {
+   "id": "enem-2022-q92",
+   "number": 92,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "De acordo com a Organização Mundial da Saúde, a filariose e a leishmaniose são consideradas doenças\ntropicais infecciosas e constituem uma preocupação para a saúde pública por ser alto o índice de mortalidade a elas associado."
+    },
+    {
+     "type": "text",
+     "text": "Uma medida profilática comum a essas duas doenças é o(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Incineração do lixo orgânico."
+    },
+    {
+     "letter": "B",
+     "text": "Construção de rede de esgoto."
+    },
+    {
+     "letter": "C",
+     "text": "Uso de vermífugo pela população."
+    },
+    {
+     "letter": "D",
+     "text": "Controle das populações dos vetores."
+    },
+    {
+     "letter": "E",
+     "text": "Consumo de carnes vermelhas bem cozidas."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2022-q93",
+   "number": 93,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em 2017, foi inaugurado, no estado da Bahia, o Parque Solar Lapa, composto por duas usinas (Bom Jesus\nda Lapa e Lapa) e capaz de gerar cerca de 300 GWh de energia por ano. Considere que cada usina apresente potência igual a 75 MW, com o parque totalizando uma potência instalada de 150 MW. Considere ainda que a irradiância solar média é de 1 500 W/m² e que a eficiência dos painéis é de 20%."
+    },
+    {
+     "type": "text",
+     "text": "Parque Solar Lapa entra em operação. Disponível em: www.canalbioenergia.com.br. Acesso em: 9 jun. 2022 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Nessas condições, a área total dos painéis solares que compõem o Parque Solar Lapa é mais próxima de:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "1 000 000 m²"
+    },
+    {
+     "letter": "B",
+     "text": "500 000 m²"
+    },
+    {
+     "letter": "C",
+     "text": "250 000 m²"
+    },
+    {
+     "letter": "D",
+     "text": "100 000 m²"
+    },
+    {
+     "letter": "E",
+     "text": "20 000 m²"
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2022-q97",
+   "number": 97,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O urânio é empregado como fonte de energia em reatores nucleares. Para tanto, o seu mineral deve\nser refinado, convertido a hexafluoreto de urânio e posteriormente enriquecido, para aumentar de 0,7% a 3% a abundância de um isótopo específico — o urânio-235. Uma das formas de enriquecimento utiliza a pequena diferença de massa entre os hexafluoretos de urânio-235 e de urânio-238 para separá-los por efusão, precedida pela vaporização. Esses vapores devem efundir repetidamente\nmilhares de vezes através de barreiras porosas formadas por telas com grande número de pequenos orifícios. No entanto, devido à complexidade e à grande quantidade de energia envolvida, cientistas e engenheiros continuam a pesquisar procedimentos alternativos de enriquecimento."
+    },
+    {
+     "type": "text",
+     "text": "ATKINS, P.; JONES, L. Princípios de química: questionando a vida moderna e o meio ambiente. Porto Alegre: Bookman, 2006 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Considerando a diferença de massa mencionada entre os dois isótopos, que tipo de procedimento alternativo ao da efusão pode ser empregado para tal finalidade?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Peneiração."
+    },
+    {
+     "letter": "B",
+     "text": "Centrifugação."
+    },
+    {
+     "letter": "C",
+     "text": "Extração por solvente."
+    },
+    {
+     "letter": "D",
+     "text": "Destilação fracionada."
+    },
+    {
+     "letter": "E",
+     "text": "Separação magnética."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2022-q98",
+   "number": 98,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A Agência Nacional de Vigilância Sanitária (Anvisa) aprovou um produto de terapia gênica no país, indicado para o tratamento da distrofia hereditária da retina. O procedimento é recomendado para crianças acima de 12 meses e adultos com perda de visão causada pela mutação do gene humano RPE65. O produto, elaborado por engenharia genética, é composto por um vírus, no qual foi inserida uma cópia do gene normal humano RPE65 para corrigir o funcionamento das células da retina."
+    },
+    {
+     "type": "text",
+     "text": "ANVISA. Disponível em: www.gov.br/anvisa. Acesso em: 4 dez. 2021 (adaptado)"
+    },
+    {
+     "type": "text",
+     "text": "O sucesso dessa terapia advém do fato de que o produto favorecerá a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Correção do código genético para a tradução da proteína."
+    },
+    {
+     "letter": "B",
+     "text": "Alteração do RNA ribossômico ligado à síntese da proteína."
+    },
+    {
+     "letter": "C",
+     "text": "Produção de mutações benéficas para a correção do problema."
+    },
+    {
+     "letter": "D",
+     "text": "Liberação imediata da proteína normal na região ocular humana."
+    },
+    {
+     "letter": "E",
+     "text": "Expressão do gene responsável pela produção da enzima normal."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2022-q99",
+   "number": 99,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A extinção de espécies é uma ameaça real que afeta diversas regiões do país. A introdução de espécies exóticas pode ser considerada um fator maximizador desse processo. A jaqueira (Artocarpus heterophyllus), por exemplo, é uma árvore originária da Índia e de regiões do Sudeste Asiático que foi introduzida ainda na era colonial e se aclimatou muito bem em praticamente todo o território nacional."
+    },
+    {
+     "type": "text",
+     "text": "Casos como o dessa árvore podem provocar a redução da biodiversidade, pois elas"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Ocupam áreas de vegetação nativa e substituem parcialmente a flora original."
+    },
+    {
+     "letter": "B",
+     "text": "Estimulam a competição por seus frutos entre animais típicos da região e eliminam as espécies perdedoras."
+    },
+    {
+     "letter": "C",
+     "text": "Alteram os nichos e aumentam o número de possibilidades de relações entre os seres vivos daquele ambiente."
+    },
+    {
+     "letter": "D",
+     "text": "Apresentam alta taxa de reprodução e se mantêm com um número de indivíduos superior à capacidade suporte do ambiente."
+    },
+    {
+     "letter": "E",
+     "text": "Diminuem a relação de competição entre os polinizadores e facilitam a ação de dispersores de sementes de espécies nativas."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2022-q102",
+   "number": 102,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Entre as diversas técnicas para diagnóstico da covid-19, destaca-se o teste genético. Considerando as diferentes variantes e cargas virais, um exemplo é a PCR, reação efetuada por uma enzima do tipo polimerase. Essa técnica permite identificar, com confiabilidade, o material genético do SARS-CoV-2, um vírus de RNA.\nPara comprovação da infecção por esse coronavírus, são coletadas amostras de secreções do indivíduo. Uma etapa que antecede a reação de PCR precisa ser realizada para permitir a amplificação do material genético do vírus."
+    },
+    {
+     "type": "text",
+     "text": "Essa etapa deve ser realizada para"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Concentrar o RNA viral para otimizar a técnica."
+    },
+    {
+     "letter": "B",
+     "text": "Identificar nas amostras anticorpos anti-SARS-CoV-2."
+    },
+    {
+     "letter": "C",
+     "text": "Proliferar o vírus em culturas, aumentando a carga viral."
+    },
+    {
+     "letter": "D",
+     "text": "Purificar ácidos nucleicos virais, facilitando a ação da enzima."
+    },
+    {
+     "letter": "E",
+     "text": "Obter moléculas de cDNAviral por meio da transcrição reversa."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2022-q104",
+   "number": 104,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Diversas substâncias são empregadas com a intenção de incrementar o desempenho esportivo de atletas de alto nível. O chamado doping sanguíneo, por exemplo, pela utilização da eritropoietina, é proibido pelas principais federações de esportes no mundo. A eritropoietina é um hormônio produzido pelos rins e fígado e sua principal ação é regular o processo de eritropoiese. Seu uso administrado intravenosamente em quantidades superiores àquelas presentes naturalmente no organismo permite que o indivíduo aumente a sua capacidade de realização de exercícios físicos."
+    },
+    {
+     "type": "text",
+     "text": "Esse tipo de doping está diretamente relacionado ao aumento da"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Frequência cardíaca."
+    },
+    {
+     "letter": "B",
+     "text": "Capacidade pulmonar."
+    },
+    {
+     "letter": "C",
+     "text": "Massa muscular do indivíduo."
+    },
+    {
+     "letter": "D",
+     "text": "Atividade anaeróbica da musculatura."
+    },
+    {
+     "letter": "E",
+     "text": "Taxa de transporte de oxigênio pelo sangue."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2022-q105",
+   "number": 105,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em um autódromo, os carros podem derrapar em uma curva e bater na parede de proteção. Para diminuir o impacto de uma batida, pode-se colocar na parede uma barreira de pneus, isso faz com que a colisão seja mais demorada e o carro retorne com velocidade reduzida. Outra opção é colocar uma barreira de blocos de um material que se deforma, tornando-a tão demorada quanto a colisão com os pneus, mas que não permite a volta do carro após a colisão."
+    },
+    {
+     "type": "text",
+     "text": "Comparando as duas situações, como ficam a força média exercida sobre o carro e a energia mecânica dissipada?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A força é maior na colisão com a barreira de pneus, e a energia dissipada é maior na colisão com a barreira de blocos."
+    },
+    {
+     "letter": "B",
+     "text": "A força é maior na colisão com a barreira de blocos, e a energia dissipada é maior na colisão com a barreira de pneus."
+    },
+    {
+     "letter": "C",
+     "text": "A força é maior na colisão com a barreira de blocos, e a energia dissipada é a mesma nas duas situações."
+    },
+    {
+     "letter": "D",
+     "text": "A força é maior na colisão com a barreira de pneus, e a energia dissipada é maior na colisão com a barreira de pneus."
+    },
+    {
+     "letter": "E",
+     "text": "A força é maior na colisão com a barreira de blocos, e a energia dissipada é maior na colisão com a barreira de blocos."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2022-q110",
+   "number": 110,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Desde a proposição da teoria de seleção natural\npor Darwin, os seres vivos nunca mais foram olhados\nda mesma forma. No que diz respeito à reprodução de\nanfíbios anuros, os cientistas já descreveram diferentes\npadrões reprodutivos, como os exemplificados a seguir:\nEspécie 1 – As fêmeas produzem cerca de\n5 000 gametas, que são fecundados na água, em\nlagoas temporárias de estação chuvosa. Todo o\ndesenvolvimento embrionário, do ovo à metamorfose,\nocorre, nesse ambiente, independente dos pais.\nEspécie 2 – As fêmeas produzem aproximadamente\n200 gametas, que são depositados em poças próximas a\ncorpos-d’água. Os embriões são vigiados pelos machos\ndurante boa parte do seu desenvolvimento.\nEspécie 3 – As fêmeas produzem por volta de\n20 gametas, que são fecundados sobre a superfície das\nfolhas de plantas cujos galhos estão dispostos acima da\nsuperfície de corpos-d’água e aí se desenvolvem até\na eclosão.\nEspécie 4 – As fêmeas produzem poucos gametas\nque, quando fecundados, são “abocanhados” pelos\nmachos. Os embriões se desenvolvem no interior do\nsaco vocal do macho até a metamorfose, quando saem\natravés da boca do pai."
+    },
+    {
+     "type": "text",
+     "text": "Os padrões descritos evidenciam que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "As fêmeas influenciam o comportamento dos machos."
+    },
+    {
+     "letter": "B",
+     "text": "O cuidado parental é necessário para o desenvolvimento"
+    },
+    {
+     "letter": "C",
+     "text": "O grau de evolução determina o comportamento reprodutivo."
+    },
+    {
+     "letter": "D",
+     "text": "O sucesso reprodutivo pode ser garantido por estratégias diferentes."
+    },
+    {
+     "letter": "E",
+     "text": "O ambiente induz modificação na produção do número de gametas femininos."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2022-q112",
+   "number": 112,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um pai faz um balanço utilizando dois segmentos paralelos e iguais da mesma corda para fixar uma tábua a uma barra horizontal. Por segurança, opta por um tipo de corda cuja tensão de ruptura seja 25% superior à tensão máxima calculada nas seguintes condições:"
+    },
+    {
+     "type": "text",
+     "text": "• O ângulo máximo atingido pelo balanço em relação\nà vertical é igual a 90°;"
+    },
+    {
+     "type": "text",
+     "text": "• Os filhos utilizarão o balanço até que tenham uma\nmassa de 24 kg."
+    },
+    {
+     "type": "text",
+     "text": "Além disso, ele aproxima o movimento do balanço para o movimento circular uniforme, considera que a aceleração da gravidade é igual a 10  m/s² se despreza forças dissipativas."
+    },
+    {
+     "type": "text",
+     "text": "Qual é a tensão de ruptura da corda escolhida?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "120 N"
+    },
+    {
+     "letter": "B",
+     "text": "300 N"
+    },
+    {
+     "letter": "C",
+     "text": "360 N"
+    },
+    {
+     "letter": "D",
+     "text": "450 N"
+    },
+    {
+     "letter": "E",
+     "text": "900 N"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2022-q114",
+   "number": 114,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "As células da epiderme da folha da Tradescantia pallida purpurea, uma herbácea popularmente conhecida como trapoeraba-roxa, contém um vacúolo onde se encontra um pigmento que dá a coloração arroxeada a esse tecido. Em um experimento, um corte da epiderme de uma folha da trapoeraba-roxa foi imerso em ambiente hipotônico e, logo em seguida, foi colocado em uma lâmina e observado em microscópio óptico."
+    },
+    {
+     "type": "text",
+     "text": "Durante a observação desse corte, foi possível identificar o(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Acúmulo do solvente com fragmentação da organela."
+    },
+    {
+     "letter": "B",
+     "text": "Rompimento da membrana celular com liberação do citosol."
+    },
+    {
+     "letter": "C",
+     "text": "Aumento do vacúolo com diluição do pigmento no seu interior."
+    },
+    {
+     "letter": "D",
+     "text": "Quebra da parede celular com extravasamento do pigmento."
+    },
+    {
+     "letter": "E",
+     "text": "Murchamento da célula com expulsão do pigmento do vacúolo."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2022-q119",
+   "number": 119,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Uma lanterna funciona com três pilhas de resistência interna igual a 0,5 Ω cada, ligadas em série. Quando posicionadas corretamente, devem acender a lâmpada incandescente de especificações 4,5 W e 4,5 V. Cada pilha na posição correta gera uma f.e.m. (força eletromotriz) de 1,5 V. Uma pessoa, ao trocar as pilhas da lanterna, comete o equívoco de inverter a posição de uma das pilhas. Considere que as pilhas mantêm contato independentemente da posição."
+    },
+    {
+     "type": "text",
+     "text": "Com esse equívoco, qual é a intensidade de corrente que passa pela lâmpada ao se ligar a lanterna?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "0,25 A"
+    },
+    {
+     "letter": "B",
+     "text": "0,33 A"
+    },
+    {
+     "letter": "C",
+     "text": "0,75 A"
+    },
+    {
+     "letter": "D",
+     "text": "1,00 A"
+    },
+    {
+     "letter": "E",
+     "text": "1,33 A"
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2022-q122",
+   "number": 122,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O veneno da cascavel pode causar hemorragia com risco de morte a quem é picado pela serpente. No entanto, pesquisadores do Brasil e da Bélgica desenvolveram uma molécula de interesse farmacêutico, a PEG-collineína-1,\na partir de uma proteína encontrada no veneno dessa cobra, capaz de modular a coagulação sanguínea. Embora a técnica não seja nova, foi a primeira vez que o método foi usado a partir de uma toxina animal na sua forma recombinante, ou seja, produzida em laboratório por um fungo geneticamente modificado."
+    },
+    {
+     "type": "text",
+     "text": "JULIÃO, A. Técnica modifica proteína do veneno de cascavel e permite\ncriar fármaco que modula a coagulação sanguínea. Disponível em:\nhttps://agencia.fapesp.br. Acesso em: 22 nov. 2021 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Esse novo medicamento apresenta potencial aplicação para"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Impedir a formação de trombos, típicos em alguns casos de acidente vascular cerebral."
+    },
+    {
+     "letter": "B",
+     "text": "Tratar consequências da anemia profunda, em razão da perda de grande volume de sangue."
+    },
+    {
+     "letter": "C",
+     "text": "Evitar a manifestação de urticárias, comumente relacionadas a processos alérgicos."
+    },
+    {
+     "letter": "D",
+     "text": "Reduzir o inchaço dos linfonodos, parte da resposta imunitária de diferentes infecções."
+    },
+    {
+     "letter": "E",
+     "text": "Regular a oscilação da pressão arterial, característica dos quadros de hipertensão."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2022-q123",
+   "number": 123,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um Buraco Negro é um corpo celeste que possui uma grande quantidade de matéria concentrada em uma pequena região do espaço, de modo que sua força gravitacional é tão grande que qualquer partícula fica aprisionada em sua superfície, inclusive a luz. O raio dessa região caracteriza uma superfície-limite, chamada de horizonte de eventos, da qual nada consegue escapar. Considere que o Sol foi instantaneamente substituído por um Buraco Negro com a mesma massa solar, de modo que o seu horizonte de eventos seja de aproximadamente 3,0 km."
+    },
+    {
+     "type": "text",
+     "text": "SCHWARZSCHILD, K. On the Gravitational Field of a Mass Point According to Einstein’s Theory. Disponível em: arxiv.org. Acesso em: 26 maio 2022 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Após a substituição descrita, o que aconteceria aos planetas do Sistema Solar?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Eles se moveriam em órbitas espirais, aproximando-se sucessivamente do Buraco Negro."
+    },
+    {
+     "letter": "B",
+     "text": "Eles oscilariam aleatoriamente em torno de suas órbitas elípticas originais."
+    },
+    {
+     "letter": "C",
+     "text": "Eles se moveriam em direção ao centro do Buraco Negro."
+    },
+    {
+     "letter": "D",
+     "text": "Eles passariam a precessionar mais rapidamente."
+    },
+    {
+     "letter": "E",
+     "text": "Eles manteriam suas órbitas inalteradas."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2022-q124",
+   "number": 124,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Durante o ano de 2020, impulsionado pela necessidade de respostas rápidas e eficientes para desinfectar ambientes de possíveis contaminações com o SARS-CoV-2, causador da covid-19, diversas alternativas foram buscadas para\nos procedimentos de descontaminação de materiais e ambientes. Entre elas, o uso de ozônio em meio aquoso como agente sanitizante para pulverização em humanos e equipamentos de proteção em câmaras ou túneis, higienização de automóveis e de ambientes fechados e descontaminação de trajes. No entanto, pouca atenção foi dada à toxicidade do ozônio, à formação de subprodutos, ao\nnível de concentração segura e às precauções necessárias."
+    },
+    {
+     "type": "text",
+     "text": "LIMA, M. J. A.; FELIX, E. P.; CARDOSO, A. A. Aplicações e implicações do ozônio na indústria, ambiente e saúde. Química Nova, n. 9, 2021 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O grande risco envolvido no emprego indiscriminado dessa substância deve-se à sua ação química como"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Catalisador."
+    },
+    {
+     "letter": "B",
+     "text": "Oxidante."
+    },
+    {
+     "letter": "C",
+     "text": "Redutor."
+    },
+    {
+     "letter": "D",
+     "text": "Ácido."
+    },
+    {
+     "letter": "E",
+     "text": "Base."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2022-q126",
+   "number": 126,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A água bruta coletada de mananciais apresenta alto índice de sólidos suspensos, o que a deixa com um aspecto turvo. Para se obter uma água límpida e potável, ela deve passar por um processo de purificação numa estação de tratamento de água. Nesse processo, as principais etapas são, nesta ordem: coagulação, decantação, filtração, desinfecção e fluoretação."
+    },
+    {
+     "type": "text",
+     "text": "Qual é a etapa de retirada de grande parte desses sólidos?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Coagulação."
+    },
+    {
+     "letter": "B",
+     "text": "Decantação."
+    },
+    {
+     "letter": "C",
+     "text": "Filtração."
+    },
+    {
+     "letter": "D",
+     "text": "Desinfecção."
+    },
+    {
+     "letter": "E",
+     "text": "Fluoretação."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2022-q127",
+   "number": 127,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Os ursos, por não apresentarem uma hibernação verdadeira, acordam por causa da presença de termogenina, uma proteína mitocondrial que impede a chegada dos prótons até a ATP sintetase, gerando calor. Esse calor é importante para aquecer o organismo, permitindo seu despertar."
+    },
+    {
+     "type": "text",
+     "text": "SADAVA, D. et al. Vida: a ciência da biologia. Porto Alegre: Artmed, 2009 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Em qual etapa do metabolismo energético celular a termogenina interfere?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Glicólise."
+    },
+    {
+     "letter": "B",
+     "text": "Fermentação lática."
+    },
+    {
+     "letter": "C",
+     "text": "Ciclo do ácido cítrico."
+    },
+    {
+     "letter": "D",
+     "text": "Oxidação do piruvato."
+    },
+    {
+     "letter": "E",
+     "text": "Fosforilação oxidativa."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2022-q130",
+   "number": 130,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "No processo de captação da luz pelo olho para a formação de imagens estão envolvidas duas estruturas celulares: os cones e os bastonetes. Os cones são sensíveis à energia dos fótons, e os bastonetes, à quantidade de fótons incidentes. A energia dos fótons que compõem os raios luminosos está associada à sua frequência, e a intensidade, ao número de fótons incidentes."
+    },
+    {
+     "type": "text",
+     "text": "Um animal que tem bastonetes mais sensíveis irá"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Apresentar daltonismo."
+    },
+    {
+     "letter": "B",
+     "text": "Perceber cores fora do espectro do visível."
+    },
+    {
+     "letter": "C",
+     "text": "Enxergar bem em ambientes mal iluminados."
+    },
+    {
+     "letter": "D",
+     "text": "Necessitar de mais luminosidade para enxergar."
+    },
+    {
+     "letter": "E",
+     "text": "Fazer uma pequena distinção de cores em ambientes iluminados."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2022-q132",
+   "number": 132,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Os resultados de um ensaio clínico randomizado na Indonésia apontaram uma redução de 77% dos casos de dengue nas áreas que receberam o mosquito Aedes aegypti infectado com a bactéria Wolbachia. Trata-se da mesma técnica utilizada no Brasil pelo Método Wolbachia, iniciativa conduzida pela Fundação Oswaldo Cruz — Fiocruz. Essa bactéria induz a redução da carga viral no mosquito e, consequentemente, o número de casos de dengue na área, sendo repassada por meio do cruzamento entre os insetos. Como essa bactéria é um organismo intracelular e o vírus também precisa entrar nas células para se reproduzir, ambos necessitarão de recursos comuns."
+    },
+    {
+     "type": "text",
+     "text": "COSTA, G. Agência Fiocruz de Notícias. Estudo confirma eficácia do Método Wolbachia para dengue. Disponível em: https://portal.fiocruz.br. Acesso em: 3 jun. 2022 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Essa tecnologia utilizada no combate à dengue consiste na"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Predação do vírus pela bactéria."
+    },
+    {
+     "letter": "B",
+     "text": "Esterilização de mosquitos infectados."
+    },
+    {
+     "letter": "C",
+     "text": "Alteração no genótipo do mosquito pela bactéria."
+    },
+    {
+     "letter": "D",
+     "text": "Ompetição do vírus e da bactéria no hospedeiro."
+    },
+    {
+     "letter": "E",
+     "text": "Inserção de material genético do vírus na bactéria"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2022-q133",
+   "number": 133,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O protozoário Trypanosoma cruzi, causador da doença de Chagas, pode ser a nova arma da medicina contra o câncer. Pesquisadores brasileiros conseguiram criar uma vacina contra a doença usando uma variação do protozoário incapaz de desencadear a patologia (não patogênico). Para isso, realizaram uma modificação genética criando um T. cruzi capaz de produzir também moléculas fabricadas pelas células tumorais. Quando o organismo inicia o combate ao protozoário, entra em contato também com a molécula tumoral, que passa a ser\nvista também pelo sistema imune como um indicador de células do protozoário. Depois de induzidas as defesas, estas passam a destruir todas as células com a molécula tumoral, como se lutassem apenas contra o protozoário."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.estadao.com.br. Acesso em: 1 mar. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Qual o mecanismo utilizado no experimento para enganar as células de defesa, fazendo com que ataquem o tumor?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Autoimunidade."
+    },
+    {
+     "letter": "B",
+     "text": "Hipersensibilidade."
+    },
+    {
+     "letter": "C",
+     "text": "Ativação da resposta inata."
+    },
+    {
+     "letter": "D",
+     "text": "Apresentação de antígeno específico."
+    },
+    {
+     "letter": "E",
+     "text": "Desencadeamento de processo anti-inflamatório."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2022-q139",
+   "number": 139,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um casal está reformando a cozinha de casa e decidiu comprar um refrigerador novo. Observando a planta da nova cozinha, desenhada na escala de 1: 50, notaram que o espaço destinado ao refrigerador tinha 3,8 cm de altura e 1,6 cm de largura. Eles sabem que os fabricantes de refrigeradores indicam que, para um bom funcionamento e fácil manejo na limpeza, esses eletrodomésticos devem ser colocados em espaços que permitam uma distância de, pelo menos, 10 cm de outros móveis ou paredes, tanto na parte superior quanto nas laterais. O casal comprou um refrigerador que caberia no local a ele destinado na nova cozinha, seguindo as instruções do fabricante."
+    },
+    {
+     "type": "text",
+     "text": "Esse refrigerador tem altura e largura máximas, em metro, respectivamente, iguais a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "1,80 e 0,60."
+    },
+    {
+     "letter": "B",
+     "text": "1,80 e 0,70."
+    },
+    {
+     "letter": "C",
+     "text": "1,90 e 0,80."
+    },
+    {
+     "letter": "D",
+     "text": "2,00 e 0,90."
+    },
+    {
+     "letter": "E",
+     "text": "2,00 e 1,00."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2022-q140",
+   "number": 140,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Foram convidadas 32 equipes para um torneio de futebol, que foram divididas em 8 grupos com 4 equipes, sendo que, dentro de um grupo, cada equipe disputa uma única partida contra cada uma das demais equipes de seu grupo. A primeira e a segunda colocadas de cada grupo seguem para realizar as 8 partidas da próxima fase do torneio, chamada oitavas de final. Os vencedores das partidas das oitavas de final seguem para jogar as 4 partidas das quartas de final. Os vencedores das quartas de final disputam as 2 partidas das semifinais, e os vencedores avançam para a grande final, que define a campeã do torneio."
+    },
+    {
+     "type": "text",
+     "text": "Pelas regras do torneio, cada equipe deve ter um período de descanso de, no mínimo, 3 dias entre dois jogos por ela disputados, ou seja, se um time disputar uma partida, por exemplo, num domingo, só poderá disputar a partida seguinte a partir da quinta-feira da mesma semana."
+    },
+    {
+     "type": "text",
+     "text": "O número mínimo de dias necessários para a realização desse torneio é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "22."
+    },
+    {
+     "letter": "B",
+     "text": "25."
+    },
+    {
+     "letter": "C",
+     "text": "28."
+    },
+    {
+     "letter": "D",
+     "text": "48."
+    },
+    {
+     "letter": "E",
+     "text": "64."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2022-q142",
+   "number": 142,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Uma montadora de automóveis divulgou que oferta a seus clientes mais de 1 000 configurações diferentes de carro, variando o modelo, a motorização, os opcionais e a cor do veículo. Atualmente, ela oferece 7 modelos de carros com 2 tipos de motores: 1.0 e 1.6. Já em relação aos opcionais, existem 3 escolhas possíveis: central multimídia, rodas de liga leve e bancos de couro, podendo o cliente optar por incluir um, dois, três ou nenhum dos opcionais disponíveis."
+    },
+    {
+     "type": "text",
+     "text": "Para ser fiel à divulgação feita, a quantidade mínima de cores que a montadora deverá disponibilizar a seus clientes é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "8."
+    },
+    {
+     "letter": "B",
+     "text": "9."
+    },
+    {
+     "letter": "C",
+     "text": "11."
+    },
+    {
+     "letter": "D",
+     "text": "18."
+    },
+    {
+     "letter": "E",
+     "text": "24."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2022-q145",
+   "number": 145,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O pacote básico de um jogo para smartphone, que é vendido a R$ 50,00, contém 2 000 gemas e 100 000 moedas de ouro, que são itens utilizáveis nesse jogo.\nA empresa que comercializa esse jogo decidiu criar um pacote especial que será vendido a R$ 100,00 e que se diferenciará do pacote básico por apresentar maiores quantidades de gemas e moedas de ouro. Para estimular as vendas desse novo pacote, a empresa decidiu inserir nele 6 000 gemas a mais, em relação ao que o cliente teria caso optasse por comprar, com a mesma quantia, dois pacotes básicos."
+    },
+    {
+     "type": "text",
+     "text": "A quantidade de moedas de ouro que a empresa deverá inserir ao pacote especial, para que seja mantida a mesma proporção existente entre as quantidades de gemas e de moedas de ouro contidas no pacote básico, é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "50 000."
+    },
+    {
+     "letter": "B",
+     "text": "100 000."
+    },
+    {
+     "letter": "C",
+     "text": "200 000."
+    },
+    {
+     "letter": "D",
+     "text": "300 000."
+    },
+    {
+     "letter": "E",
+     "text": "400 000."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2022-q146",
+   "number": 146,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um parque tem dois circuitos de tamanhos diferentes para corridas. Um corredor treina nesse parque e, no primeiro dia, inicia seu treino percorrendo\n3 voltas em torno do circuito maior e 2 voltas em torno do menor, perfazendo um total de 1 800 m. Em seguida, dando continuidade a seu treino, corre mais 2 voltas em torno do circuito maior e 1 volta em torno do menor,\npercorrendo mais 1 100 m."
+    },
+    {
+     "type": "text",
+     "text": "No segundo dia, ele pretende percorrer 5 000 m nos circuitos do parque, fazendo um número inteiro de voltas em torno deles e de modo que o número de voltas seja o maior possível."
+    },
+    {
+     "type": "text",
+     "text": "A soma do número de voltas em torno dos dois circuitos, no segundo dia, será"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "10."
+    },
+    {
+     "letter": "B",
+     "text": "13."
+    },
+    {
+     "letter": "C",
+     "text": "14."
+    },
+    {
+     "letter": "D",
+     "text": "15."
+    },
+    {
+     "letter": "E",
+     "text": "16"
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2022-q147",
+   "number": 147,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Uma equipe de marketing digital foi contratada para aumentar as vendas de um produto ofertado em um site de comércio eletrônico. Para isso, elaborou um anúncio que, quando o cliente clica sobre ele, é direcionado\npara a página de vendas do produto. Esse anúncio foi divulgado em duas redes sociais, A e B, e foram obtidos os seguintes resultados:"
+    },
+    {
+     "type": "text",
+     "text": "• rede social A: o anúncio foi visualizado por 3 000 pessoas; 10% delas clicaram sobre o anúncio e foram redirecionadas para o site; 3% das que clicaram sobre o anúncio compraram o produto. O investimento feito para a publicação do anúncio nessa rede foi de R$ 100,00;"
+    },
+    {
+     "type": "text",
+     "text": "• rede social B: o anúncio foi visualizado por 1 000 pessoas; 30% delas clicaram sobre o anúncio e foram redirecionadas para o site; 2% das que\nclicaram sobre o anúncio compraram o produto. O investimento feito para a publicação do anúncio nessa rede foi de R$ 200,00."
+    },
+    {
+     "type": "text",
+     "text": "Por experiência, o pessoal da equipe de marketing considera que a quantidade de novas pessoas que verão o anúncio é diretamente proporcional ao investimento realizado, e que a quantidade de pessoas que comprarão o produto também se manterá proporcional à quantidade de pessoas que clicarão sobre o anúncio.\nO responsável pelo produto decidiu, então, investir mais R$ 300,00 em cada uma das duas redes sociais para a divulgação desse anúncio e obteve, de fato, o aumento proporcional esperado na quantidade de clientes que compraram esse produto. Para classificar o aumento obtido na quantidade (Q) de compradores desse produto, em consequência dessa segunda divulgação, em relação aos resultados observados na primeira divulgação, o\nresponsável pelo produto adotou o seguinte critério:"
+    },
+    {
+     "type": "text",
+     "text": "• Q ≤ 60%: não satisfatório;\n• 60% < Q ≤ 100%: regular;\n• 100% < Q ≤ 150%: bom;\n• 150% < Q ≤ 190%: muito bom;\n• 190% < Q ≤ 200%: excelente"
+    },
+    {
+     "type": "text",
+     "text": "O aumento na quantidade de compradores, em consequência dessa segunda divulgação, em relação\nao que foi registrado com a primeira divulgação, foi classificado como"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Não satisfatório."
+    },
+    {
+     "letter": "B",
+     "text": "Regular."
+    },
+    {
+     "letter": "C",
+     "text": "Bom."
+    },
+    {
+     "letter": "D",
+     "text": "Muito bom."
+    },
+    {
+     "letter": "E",
+     "text": "Excelente."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2022-q151",
+   "number": 151,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um médico faz o acompanhamento clínico de um grupo de pessoas que realizam atividades físicas diariamente. Ele observou que a perda média de massa dessas pessoas para cada hora de atividade física era de 1,5 kg. Sabendo que a massa de 1 L de água é de 1 kg, ele recomendou que ingerissem, ao longo das 3 horas seguintes ao final da atividade, uma quantidade total de água correspondente a 40% a mais do que a massa perdida na atividade física, para evitar desidratação."
+    },
+    {
+     "type": "text",
+     "text": "Seguindo a recomendação médica, uma dessas pessoas ingeriu, certo dia, um total de 1,7 L de água após\nterminar seus exercícios físicos."
+    },
+    {
+     "type": "text",
+     "text": "Para que a recomendação médica tenha efetivamente sido respeitada, a atividade física dessa pessoa, nesse dia, durou"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "30 minutos ou menos."
+    },
+    {
+     "letter": "B",
+     "text": "Mais de 35 e menos de 45 minutos."
+    },
+    {
+     "letter": "C",
+     "text": "Mais de 45 e menos de 55 minutos."
+    },
+    {
+     "letter": "D",
+     "text": "Mais de 60 e menos de 70 minutos."
+    },
+    {
+     "letter": "E",
+     "text": "70 minutos ou mais."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2022-q154",
+   "number": 154,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em janeiro de 2013, foram declaradas 1 794 272 admissões e 1 765 372 desligamentos no Brasil, ou seja,\nforam criadas 28 900 vagas de emprego, segundo dados do Cadastro Geral de Empregados e Desempregados (Caged), divulgados pelo Ministério do Trabalho e Emprego (MTE). Segundo o Caged, o número de vagas criadas em janeiro de 2013 sofreu uma queda de 75%, quando comparado com o mesmo período de 2012."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://portal.mte.gov.br. Acesso em: 23 fev. 2013 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "De acordo com as informações dadas, o número de vagas criadas em janeiro de 2012 foi"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "16 514."
+    },
+    {
+     "letter": "B",
+     "text": "86 700."
+    },
+    {
+     "letter": "C",
+     "text": "115 600."
+    },
+    {
+     "letter": "D",
+     "text": "441 343."
+    },
+    {
+     "letter": "E",
+     "text": "448 568."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2022-q163",
+   "number": 163,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em uma universidade, atuam professores que estão enquadrados funcionalmente pela sua maior titulação: mestre ou doutor. Nela há, atualmente, 60 mestres e 40 doutores. Os salários mensais dos professores mestres e dos doutores são, respectivamente, R$ 8 000,00 e\nR$ 12 000,00.\nA diretoria da instituição pretende proporcionar um aumento salarial diferenciado para o ano seguinte, de tal forma que o salário médio mensal dos professores dessa instituição não ultrapasse R$ 12 240,00. A universidade já estabeleceu que o aumento salarial será de 25% para os mestres e precisa ainda definir o percentual de reajuste para os doutores."
+    },
+    {
+     "type": "text",
+     "text": "Mantido o número atual de professores com suas atuais titulações, o aumento salarial, em porcentagem, a ser concedido aos doutores deverá ser de, no máximo,"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "14,4."
+    },
+    {
+     "letter": "B",
+     "text": "20,7."
+    },
+    {
+     "letter": "C",
+     "text": "22,0."
+    },
+    {
+     "letter": "D",
+     "text": "30,0."
+    },
+    {
+     "letter": "E",
+     "text": "37,5"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2022-q164",
+   "number": 164,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um borrifador de atuação automática libera, a cada acionamento, uma mesma quantidade de inseticida. O recipiente desse produto, quando cheio, contém 360 mL de inseticida, que duram 60 dias se o borrifador permanecer ligado ininterruptamente e for acionado a cada 48 minutos."
+    },
+    {
+     "type": "text",
+     "text": "A quantidade de inseticida que é liberada a cada acionamento do borrifador, em mililitro, é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "0,125."
+    },
+    {
+     "letter": "B",
+     "text": "0,200."
+    },
+    {
+     "letter": "C",
+     "text": "4,800."
+    },
+    {
+     "letter": "D",
+     "text": "6,000."
+    },
+    {
+     "letter": "E",
+     "text": "12,000."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2022-q165",
+   "number": 165,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Definem-se o dia e o ano de um planeta de um sistema solar como sendo, respectivamente, o tempo que o planeta leva para dar 1 volta completa em torno de seu próprio eixo de rotação e o tempo para dar 1 volta completa em torno de seu Sol.\nSuponha que exista um planeta Z, em algum sistema solar, onde um dia corresponda a 73 dias terrestres e que 2 de seus anos correspondam a 1 ano terrestre. Considere que 1 ano terrestre tem 365 de seus dias."
+    },
+    {
+     "type": "text",
+     "text": "No planeta Z, seu ano corresponderia a quantos de seus dias?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "2,5"
+    },
+    {
+     "letter": "B",
+     "text": "10,0"
+    },
+    {
+     "letter": "C",
+     "text": "730,0"
+    },
+    {
+     "letter": "D",
+     "text": "13 322,5"
+    },
+    {
+     "letter": "E",
+     "text": "53 290,0"
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2022-q167",
+   "number": 167,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em uma loja, o preço promocional de uma geladeira é de R$ 1 000,00 para pagamento somente em dinheiro. Seu preço normal, fora da promoção, é 10% maior. Para pagamento feito com o cartão de crédito da loja, é dado um desconto de 2% sobre o preço normal.\nUma cliente decidiu comprar essa geladeira, optando pelo pagamento com o cartão de crédito da loja. Ela calculou que o valor a ser pago seria o preço promocional acrescido de 8%. Ao ser informada pela loja do valor a\npagar, segundo sua opção, percebeu uma diferença entre seu cálculo e o valor que lhe foi apresentado"
+    },
+    {
+     "type": "text",
+     "text": "O valor apresentado pela loja, comparado ao valor calculado pela cliente, foi"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "R$ 2,00 menor."
+    },
+    {
+     "letter": "B",
+     "text": "R$ 100,00 menor."
+    },
+    {
+     "letter": "C",
+     "text": "R$ 200,00 menor."
+    },
+    {
+     "letter": "D",
+     "text": "R$ 42,00 maior."
+    },
+    {
+     "letter": "E",
+     "text": "R$ 80,00 maior."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2022-q169",
+   "number": 169,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Uma loja comercializa cinco modelos de caixas-d’água (I, II, III, IV e V), todos em formato de cilindro reto de base circular. Os modelos II, III, IV e V têm as especificações de suas dimensões dadas em relação às dimensões do modelo I, cuja profundidade é P e área da base é Ab, como segue:"
+    },
+    {
+     "type": "text",
+     "text": "• modelo II: o dobro da profundidade e a metade da\nárea da base do modelo I;\n• modelo III: o dobro da profundidade e a metade do\nraio da base do modelo I;\n• modelo IV: a metade da profundidade e o dobro da\nárea da base do modelo I;\n• modelo V: a metade da profundidade e o dobro do\nraio da base do modelo I."
+    },
+    {
+     "type": "text",
+     "text": "Uma pessoa pretende comprar nessa loja o modelo\nde caixa-d’água que ofereça a maior capacidade\nvolumétrica"
+    },
+    {
+     "type": "text",
+     "text": "O modelo escolhido deve ser o"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "I."
+    },
+    {
+     "letter": "B",
+     "text": "II."
+    },
+    {
+     "letter": "C",
+     "text": "III."
+    },
+    {
+     "letter": "D",
+     "text": "IV."
+    },
+    {
+     "letter": "E",
+     "text": "V."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2022-q172",
+   "number": 172,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um casal planeja construir em sua chácara uma piscina com o formato de um paralelepípedo reto retângulo com capacidade para 90 000 L de água. O casal contratou uma empresa de construções que apresentou cinco projetos com diferentes combinações nas dimensões internas de profundidade, largura e comprimento. A piscina a ser construída terá revestimento interno em suas paredes e fundo com uma mesma cerâmica, e o casal irá escolher o projeto que exija a menor área de revestimento."
+    },
+    {
+     "type": "text",
+     "text": "As dimensões internas de profundidade, largura e comprimento, respectivamente, para cada um dos projetos, são:"
+    },
+    {
+     "type": "text",
+     "text": "• projeto I: 1,8 m, 2,0 m e 25,0 m;\n• projeto II: 2,0 m, 5,0 m e 9,0 m;\n• projeto III: 1,0 m, 6,0 m e 15,0 m;\n• projeto IV: 1,5 m, 15,0 m e 4,0 m;\n• projeto V: 2,5 m, 3,0 m e 12,0 m."
+    },
+    {
+     "type": "text",
+     "text": "O projeto que o casal deverá escolher será o"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "I."
+    },
+    {
+     "letter": "B",
+     "text": "II."
+    },
+    {
+     "letter": "C",
+     "text": "III."
+    },
+    {
+     "letter": "D",
+     "text": "IV."
+    },
+    {
+     "letter": "E",
+     "text": "V."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2022-q174",
+   "number": 174,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Peças metálicas de aeronaves abandonadas em aeroportos serão recicladas. Uma dessas peças é maciça e tem o formato cilíndrico, com a medida do raio da base igual a 4 cm e a da altura igual a 50 cm. Ela será derretida, e o volume de metal resultante será utilizado para a fabricação de esferas maciças com diâmetro de 1 cm, a serem usadas para confeccionar rolamentos. Para estimar a quantidade de esferas que poderão ser produzidas a partir de cada uma das peças cilíndricas, admite-se que não ocorre perda de material durante o processo de derretimento."
+    },
+    {
+     "type": "text",
+     "text": "Quantas dessas esferas poderão ser obtidas a partir de cada peça cilíndrica?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "800"
+    },
+    {
+     "letter": "B",
+     "text": "1200"
+    },
+    {
+     "letter": "C",
+     "text": "2400"
+    },
+    {
+     "letter": "D",
+     "text": "4800"
+    },
+    {
+     "letter": "E",
+     "text": "6400"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2022-q175",
+   "number": 175,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Ao escutar a notícia de que um filme recém-lançado arrecadou, no primeiro mês de lançamento, R$ 1,35 bilhão em bilheteria, um estudante escreveu corretamente o número que representa essa quantia, com todos os seus\nalgarismos."
+    },
+    {
+     "type": "text",
+     "text": "O número escrito pelo estudante foi"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "135 000,00."
+    },
+    {
+     "letter": "B",
+     "text": "1 350 000,00."
+    },
+    {
+     "letter": "C",
+     "text": "13 500 000,00."
+    },
+    {
+     "letter": "D",
+     "text": "135 000 000,00."
+    },
+    {
+     "letter": "E",
+     "text": "1 350 000 000,00"
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2022-q178",
+   "number": 178,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Uma cozinheira produz docinhos especiais por encomenda. Usando uma receita-base de massa, ela prepara uma porção, com a qual produz 50 docinhos maciços de formato esférico, com 2 cm de diâmetro. Um cliente encomenda 150 desses docinhos, mas pede que cada um tenha formato esférico com 4 cm de diâmetro.\nA cozinheira pretende preparar o número exato de porções da receita-base de massa necessário para produzir os docinhos dessa encomenda"
+    },
+    {
+     "type": "text",
+     "text": "Quantas porções da receita-base de massa ela deve preparar para atender esse cliente?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "2"
+    },
+    {
+     "letter": "B",
+     "text": "3"
+    },
+    {
+     "letter": "C",
+     "text": "6"
+    },
+    {
+     "letter": "D",
+     "text": "12"
+    },
+    {
+     "letter": "E",
+     "text": "24"
+    }
+   ],
+   "answer": "E"
+  }
+ ]
+}

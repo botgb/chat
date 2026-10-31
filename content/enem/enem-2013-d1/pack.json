@@ -1,0 +1,2566 @@
+{
+ "id": "enem-2013-d1",
+ "vestibular": "enem",
+ "title": "ENEM 2013, dia 1",
+ "year": 2013,
+ "version": 1,
+ "source": "Questões: INEP, ENEM 2013. Transcrição: ENEM API (enem.dev).",
+ "questions": [
+  {
+   "id": "enem-2013-q2",
+   "number": 2,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Trata-se de um gigantesco movimento de construção de cidades, necessário para o assentamento residencial dessa população, bem como de suas necessidades de trabalho, abastecimento, transportes, saúde, energia, água etc. Ainda que o rumo tomado pelo crescimento urbano não tenha respondido satisfatoriamente a todas essas necessidades, o território foi ocupado e foram construídas as condições para viver nesse espaço."
+    },
+    {
+     "type": "text",
+     "text": "MARICATO, E. Brasil, cidades: alternativas para a crise urbana. Petrópolis: Vozes, 2001."
+    },
+    {
+     "type": "text",
+     "text": "A dinâmica de transformação das cidades tende a apresentar como consequência a expansão das áreas periféricas pelo(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Crescimento da população urbana e aumento da especulação imobiliária."
+    },
+    {
+     "letter": "B",
+     "text": "Direcionamento maior do fluxo de pessoas, devido à existência de um grande número de serviços."
+    },
+    {
+     "letter": "C",
+     "text": "Delimitação de áreas para uma ocupação organizada do espaço físico, melhorando a qualidade de vida."
+    },
+    {
+     "letter": "D",
+     "text": "Implantação de políticas públicas que promovem a moradia e o direito à cidade aos seus moradores."
+    },
+    {
+     "letter": "E",
+     "text": "Reurbanização de moradias nas áreas centrais, mantendo o trabalhador próximo ao seu emprego, diminuindo os deslocamentos para a periferia."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2013-q3",
+   "number": 3,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "No dia 1º de julho de 2012, a cidade do Rio de Janeiro tornou-se a primeira do mundo a receber o título da Unesco de Patrimônio Mundial como Paisagem Cultural. A candidatura, apresentada pelo Instituto do Patrimônio Histórico e Artístico Nacional (Iphan), foi aprovada durante a 36.ª Sessão do Comitê do Patrimônio Mundial. O presidente do Iphan explicou que “a paisagem carioca é a imagem mais explícita do que podemos chamar de civilização brasileira, com sua originalidade, desafios, contradições e possibilidades”. A partir de agora, os locais da cidade valorizados com o título da Unesco serão alvo de ações integradas visando à preservação da sua paisagem cultural."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.cultura.gov.br. Acesso em: 7 mar. 2013 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O reconhecimento da paisagem em questão como patrimônio mundial deriva da"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Presença do corpo artístico local."
+    },
+    {
+     "letter": "B",
+     "text": "Imagem internacional da metrópole."
+    },
+    {
+     "letter": "C",
+     "text": "Herança de prédios da ex-capital do país."
+    },
+    {
+     "letter": "D",
+     "text": "Diversidade de culturas presente na cidade."
+    },
+    {
+     "letter": "E",
+     "text": "Relação sociedade-natureza de caráter singular."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2013-q4",
+   "number": 4,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Há já algum tempo eu me apercebi de que, desde meus primeiros anos, recebera muitas falsas opiniões como verdadeiras, e de que aquilo que depois eu fundei em princípios tão mal assegurados não podia ser senão mui duvidoso e incerto. Era necessário tentar seriamente, uma vez em minha vida, desfazer-me de todas as opiniões a que até então dera crédito, e começar tudo novamente a fim de estabelecer um saber firme e inabalável."
+    },
+    {
+     "type": "text",
+     "text": "DESCARTES, R. Meditações concernentes à Primeira Filosofia. São Paulo: Abril Cultural, 1973 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "TEXTO II"
+    },
+    {
+     "type": "text",
+     "text": "É o caráter radical do que se procura que exige a radicalização do próprio processo de busca. Se todo o espaço for ocupado pela dúvida, qualquer certeza que aparecer a partir daí terá sido de alguma forma gerada pela própria dúvida, e não será seguramente nenhuma daquelas que foram anteriormente varridas por essa mesma dúvida."
+    },
+    {
+     "type": "text",
+     "text": "SILVA, F. L. Descartes: a metafísica da modernidade. São Paulo: Moderna, 2001 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A exposição e a análise do projeto cartesiano indicam que, para viabilizar a reconstrução radical do conhecimento, deve-se"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Retomar o método da tradição para edificar a ciência com legitimidade."
+    },
+    {
+     "letter": "B",
+     "text": "Questionar de forma ampla e profunda as antigas ideias e concepções."
+    },
+    {
+     "letter": "C",
+     "text": "Investigar os conteúdos da consciência dos homens menos esclarecidos."
+    },
+    {
+     "letter": "D",
+     "text": "Buscar uma via para eliminar da memória saberes antigos e ultrapassados."
+    },
+    {
+     "letter": "E",
+     "text": "Encontrar ideias e pensamentos evidentes que dispensam ser questionados."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q5",
+   "number": 5,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "De ponta a ponta, é tudo praia-palma, muito chã e muito formosa. Pelo sertão nos pareceu, vista do mar, muito grande, porque, a estender olhos, não podíamos ver senão terra com arvoredos, que nos parecia muito longa. Nela, até agora, não pudemos saber que haja ouro, nem prata, nem coisa alguma de metal ou ferro; nem lho vimos. Porém a terra em si é de muito bons ares […]. Porém o melhor fruto que dela se pode tirar me parece que será salvar esta gente."
+    },
+    {
+     "type": "text",
+     "text": "Carta de Pero Vaz de Caminha. In: MARQUES, A.; BERUTTI, F.; FARIA, R. História moderna através de textos. São Paulo: Contexto, 2001."
+    },
+    {
+     "type": "text",
+     "text": "A carta de Pero Vaz de Caminha permite entender o projeto colonizador para a nova terra. Nesse trecho, o relato enfatiza o seguinte objetivo:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Valorizar a catequese a ser realizada sobre os povos nativos."
+    },
+    {
+     "letter": "B",
+     "text": "Descrever a cultura local para enaltecer a prosperidade portuguesa."
+    },
+    {
+     "letter": "C",
+     "text": "Transmitir o conhecimento dos indígenas sobre o potencial econômico existente."
+    },
+    {
+     "letter": "D",
+     "text": "Realçar a pobreza dos habitantes nativos para demarcar a superioridade europeia."
+    },
+    {
+     "letter": "E",
+     "text": "Criticar o modo de vida dos povos autóctones para evidenciar a ausência de trabalho."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2013-q6",
+   "number": 6,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O canto triste dos conquistados: os últimos dias de Tenochtitlán"
+    },
+    {
+     "type": "text",
+     "text": "Nos caminhos jazem dardos quebrados; os cabelos estão espalhados. Destelhadas estão as casas, Vermelhas estão as águas, os rios, como se alguém as tivesse tingido, Nos escudos esteve nosso resguardo, mas os escudos não detêm a desolação…"
+    },
+    {
+     "type": "text",
+     "text": "PINSKY, J. et al. História da América através de textos. São Paulo. Contexto, 2007 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "O texto é um registro asteca, cujo sentido está relacionado ao(à)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Tragédia causada pela destruição da cultura desse povo."
+    },
+    {
+     "letter": "B",
+     "text": "Tentativa frustada de resistência a um poder considerado superior."
+    },
+    {
+     "letter": "C",
+     "text": "Extermínio das populações indígenas pelo Exército espanhol."
+    },
+    {
+     "letter": "D",
+     "text": "Dissolução da memória sobre os feitos de seus antepassados."
+    },
+    {
+     "letter": "E",
+     "text": "Profetização das consequências da colonização da América."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q8",
+   "number": 8,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "As Brigadas Internacionais foram unidades de combatentes formadas por voluntários de 53 nacionalidades dispostos a lutar em defesa da República espanhola. Estima-se que cerca de 60 mil cidadãos de várias partes do mundo – incluindo 40 brasileiros – tenham se incorporado a essas unidades. Apesar de coordenadas pelos comunistas, as Brigadas contaram com membros socialistas, liberais e de outras correntes político-ideológicas."
+    },
+    {
+     "type": "text",
+     "text": "SOUZA, I. I. A Guerra Civil Europeia. História Viva, n. 70, 2009 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "A Guerra Civil Espanhola expressou as disputas em curso na Europa na década de 1930. A perspectiva política comum que promoveu a mobilização descrita foi o(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Crítica ao stalinismo."
+    },
+    {
+     "letter": "B",
+     "text": "Combate ao fascismo."
+    },
+    {
+     "letter": "C",
+     "text": "Rejeição ao federalismo."
+    },
+    {
+     "letter": "D",
+     "text": "Apoio ao corporativismo."
+    },
+    {
+     "letter": "E",
+     "text": "Adesão ao anarquismo."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q9",
+   "number": 9,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "De todas as transformações impostas pelo meio técnico-científico-informacional à logística de transportes, interessa-nos mais de perto a intermodalidade. E por uma razão muito simples: o potencial que tal “ferramenta logística” ostenta permite que haja, de fato, um sistema de transportes condizente com a escala geográfica do Brasil."
+    },
+    {
+     "type": "text",
+     "text": "HUERTAS, D. M. O papel dos transportes na expansão recente da fronteira agrícola brasileira. Revista Transporte y Territorio, Universidade de Buenos Aires, n. 3, 2010 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A necessidade de modais de transporte interligados, no território brasileiro, justifica-se pela(s)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Variações climáticas no território, associadas à interiorização da produção."
+    },
+    {
+     "letter": "B",
+     "text": "Grandes distâncias e a busca da redução dos custos de transporte."
+    },
+    {
+     "letter": "C",
+     "text": "Formação geológica do país, que impede o uso de um único modal."
+    },
+    {
+     "letter": "D",
+     "text": "Proximidade entre a área de produção agrícola intensiva e os portos."
+    },
+    {
+     "letter": "E",
+     "text": "Diminuição dos fluxos materiais em detrimento de fluxos imateriais."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q10",
+   "number": 10,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Nasce daqui uma questão: se vale mais ser amado que temido ou temido que amado. Responde-se que ambas as coisas seriam de desejar; mas porque é difícil juntá-las, é muito mais seguro ser temido que amado, quando haja de faltar uma das duas. Porque dos homens se pode dizer, duma maneira geral, que são ingratos, volúveis, simuladores, covardes e ávidos de lucro, e enquanto lhes fazes bem são inteiramente teus, oferecem-te o sangue, os bens, a vida e os filhos, quando, como acima disse, o perigo está longe; mas quando ele chega, revoltam-se."
+    },
+    {
+     "type": "text",
+     "text": "MAQUIAVEL, N. O príncipe. Rio de Janeiro: Bertrand, 1991."
+    },
+    {
+     "type": "text",
+     "text": "A partir da análise histórica do comportamento humano em suas relações sociais e políticas. Maquiavel define o homem como um ser"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Munido de virtude, com disposição nata a praticar o bem a si e aos outros."
+    },
+    {
+     "letter": "B",
+     "text": "Possuidor de fortuna, valendo-se de riquezas para alcançar êxito na política."
+    },
+    {
+     "letter": "C",
+     "text": "Guiado por interesses, de modo que suas ações são imprevisíveis e inconstantes."
+    },
+    {
+     "letter": "D",
+     "text": "Naturalmente racional, vivendo em um estado pré-social e portando seus direitos naturais."
+    },
+    {
+     "letter": "E",
+     "text": "Sociável por natureza, mantendo relações pacíficas com seus pares."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q11",
+   "number": 11,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Nos estados, entretanto, se instalavam as oligarquias, de cujo perigo já nos advertia Saint-Hilaire, e sob o disfarce do que se chamou “a política dos governadores”. Em círculos concêntricos esse sistema vem cumular no próprio poder central que é o sol do nosso sistema."
+    },
+    {
+     "type": "text",
+     "text": "PRADO, P. Retrato do Brasil. Rio de Janeiro: José Olympio, 1972."
+    },
+    {
+     "type": "text",
+     "text": "A crítica presente no texto remete ao acordo que fundamentou o regime republicano brasileiro durante as três primeiras décadas do século XX e fortaleceu o(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Poder militar, enquanto fiador da ordem econômica."
+    },
+    {
+     "letter": "B",
+     "text": "Presidencialismo, como o objetivo de limitar o poder dos coronéis."
+    },
+    {
+     "letter": "C",
+     "text": "Domínio de grupos regionais sobre a ordem federativa."
+    },
+    {
+     "letter": "D",
+     "text": "Intervenção nos estados, autorizada pelas normas constitucionais."
+    },
+    {
+     "letter": "E",
+     "text": "Isonomia do governo federal no tratamento das disputas locais."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q12",
+   "number": 12,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "No final do século XIX, as Grandes Sociedades carnavalescas alcançaram ampla popularidade entre os foliões cariocas. Tais sociedades cultivavam um pretensioso objetivo em relação à comemoração carnavalesca em si mesma: com seus desfiles de carros enfeitados pelas principais ruas da cidade, pretendiam abolir o entrudo (brincadeira que consistia em jogar água nos foliões) e outras práticas difundidas entre a população desde os tempos coloniais, substituindo-os por formas de diversão que consideravam mais civilizadas, inspiradas nos carnavais de Veneza. Contudo, ninguém parecia disposto a abrir mão de suas diversões para assistir ao carnaval das sociedades. O entrudo, na visão dos seus animados praticantes, poderia coexistir perfeitamente com os desfiles."
+    },
+    {
+     "type": "text",
+     "text": "PEREIRA, C.S. Os senhores da alegria: a presença das mulheres nas Grandes\nSociedades carnavalescas cariocas em fins do século XIX. In: CUNHA, M.C.P.\nCarnavais e outras festas: ensaios de história social da cultura. Campinas: Unicamp; Cecult, 2002 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Manifestações culturais como o carnaval também têm sua própria história, sendo constantemente reinventadas ao longo do tempo. A atuação das Grandes Sociedades, descrita no texto, mostra que o carnaval representava um momento em que as"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Distinções sociais eram deixadas de lado em nome da celebração"
+    },
+    {
+     "letter": "B",
+     "text": "Aspirações cosmopolitas da elite impediam a realização da festa fora dos clubes."
+    },
+    {
+     "letter": "C",
+     "text": "Liberdades individuais eram extintas pelas regras das autoridades públicas."
+    },
+    {
+     "letter": "D",
+     "text": "Tradições populares se transformavam em matéria de disputas sociais."
+    },
+    {
+     "letter": "E",
+     "text": "Perseguições policiais tinham caráter xenófobo por repudiarem tradições estrangeiras."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2013-q14",
+   "number": 14,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Então, a travessia das veredas sertanejas é mais exaustiva que a de uma estepe nua. Nesta, ao menos, o viajante tem o desafogo de um horizonte largo e a perspectiva das planuras francas. Ao passo que a outra o afoga; abrevia-lhe o olhar; agride-o e estonteia-o; enlaça-o na trama espinescente e não o atrai; repulsa-o com as folhas urticantes, com o espinho, com os gravetos estalados em lanças, e desdobra-se-lhe na frente léguas e léguas, imutável no aspecto desolado; árvore sem folhas, de galhos estorcidos e secos, revoltos, entrecruzados, apontando rijamente no espaço ou estirando-se flexuosos pelo solo, lembrando um bracejar imenso, de tortura, da flora agonizante…"
+    },
+    {
+     "type": "text",
+     "text": "CUNHA, E. Os sertões. Disponível em: http://pt.scribd.com. Acesso em: 2 jun. 2012."
+    },
+    {
+     "type": "text",
+     "text": "Os elementos da paisagem descritos no texto correspondem a aspectos biogeográficos presentes na"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Composição de vegetação xerófila."
+    },
+    {
+     "letter": "B",
+     "text": "Formação de florestas latifoliadas."
+    },
+    {
+     "letter": "C",
+     "text": "Transição para mata de grande porte."
+    },
+    {
+     "letter": "D",
+     "text": "Adaptação à elevada salinidade."
+    },
+    {
+     "letter": "E",
+     "text": "Homogeneização da cobertura perenifólia."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2013-q15",
+   "number": 15,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Na produção social que os homens realizam, eles entram em determinadas relações indispensáveis e independentes de sua vontade; tais relações de produção correspondem a um estágio definido de desenvolvimento das suas forças materiais de produção. A totalidade dessas relações constitui a estrutura econômica da sociedade — fundamento real, sobre o qual se erguem as superestruturas política e jurídica, e ao qual correspondem determinadas formas de consciência social."
+    },
+    {
+     "type": "text",
+     "text": "MARX, K. Prefácio à Crítica da economia política. In: MARX, K.; ENGELS, F. Textos 3. São Paulo: Edições Sociais, 1977 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Para o autor, a relação entre economia e política estabelecida no sistema capitalista faz com que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "O proletariado seja contemplado pelo processo de mais-valia."
+    },
+    {
+     "letter": "B",
+     "text": "O trabalho se constitua como o fundamento real da produção material."
+    },
+    {
+     "letter": "C",
+     "text": "A consolidação das forças produtivas seja compatível com o progresso humano."
+    },
+    {
+     "letter": "D",
+     "text": "A autonomia da sociedade civil seja proporcional ao desenvolvimento econômico."
+    },
+    {
+     "letter": "E",
+     "text": "A burguesia revolucione o processo social de formação da consciência de classe."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q16",
+   "number": 16,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um trabalhador em tempo flexível controla o local do trabalho, mas não adquire maior controle sobre o processo em si. A essa altura, vários estudos sugerem que a supervisão do trabalho é muitas vezes maior para os ausentes do escritório do que para os presentes. O trabalho é fisicamente descentralizado e o poder sobre o trabalhador, mais direto."
+    },
+    {
+     "type": "text",
+     "text": "SENNETT, R. A corrosão do caráter: consequências pessoais do novo capitalismo. Rio de Janeiro: Record, 1999 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Comparada à organização do trabalho característica do taylorismo e do fordismo, a concepção de tempo analisada no texto pressupõe que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "As tecnologias de informação sejam usadas para democratizar as relações laborais."
+    },
+    {
+     "letter": "B",
+     "text": "As estruturas burocráticas sejam transferidas da empresa para o espaço doméstico."
+    },
+    {
+     "letter": "C",
+     "text": "Os procedimentos de terceirização sejam aprimorados pela qualificação profissional."
+    },
+    {
+     "letter": "D",
+     "text": "As organizações sindicais sejam fortalecidas com a valorização da especialização funcional."
+    },
+    {
+     "letter": "E",
+     "text": "Os mecanismos de controle sejam deslocados dos processos para os resultados do trabalho."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2013-q18",
+   "number": 18,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A África também já serviu como ponto de partida para comédias bem vulgares, mas de muito sucesso, como Um príncipe em Nova York e Ace Ventura: um maluco na África; em ambas, a África parece um lugar cheio de tribos doidas e rituais de desenho animado. A animação O rei Leão, da Disney, o mais bem-sucedido filme americano ambientado na África, não chegava a contar com elenco de seres humanos."
+    },
+    {
+     "type": "text",
+     "text": "LEIBOWITZ, E. Filmes de Hollywood sobre África ficam no clichê. Disponível em: http://noticias.uol.com.br. Acesso em 17 abr, 2010."
+    },
+    {
+     "type": "text",
+     "text": "A produção cinematográfica referida no texto contribui para a constituição de uma memória sobre a África e seus habitantes. Essa memória enfatiza e negligencia, respectivamente, os seguintes aspectos do continente africano:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A história e a natureza."
+    },
+    {
+     "letter": "B",
+     "text": "O exotismo e as culturas."
+    },
+    {
+     "letter": "C",
+     "text": "A sociedade e a economia."
+    },
+    {
+     "letter": "D",
+     "text": "O comércio e o ambiente."
+    },
+    {
+     "letter": "E",
+     "text": "A diversidade e a política."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q19",
+   "number": 19,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Disneylândia"
+    },
+    {
+     "type": "text",
+     "text": "Multinacionais japonesas instalam empresas em Hong-Kong"
+    },
+    {
+     "type": "text",
+     "text": "E produzem com matéria-prima brasileira"
+    },
+    {
+     "type": "text",
+     "text": "Para competir no mercado americano"
+    },
+    {
+     "type": "text",
+     "text": "[…]"
+    },
+    {
+     "type": "text",
+     "text": "Pilhas americanas alimentam eletrodomésticos ingleses na Nova Guiné"
+    },
+    {
+     "type": "text",
+     "text": "Gasolina árabe alimenta automóveis americanos na África do Sul"
+    },
+    {
+     "type": "text",
+     "text": "[…]"
+    },
+    {
+     "type": "text",
+     "text": "Crianças iraquianas fugidas da guerra"
+    },
+    {
+     "type": "text",
+     "text": "Não obtêm visto no consulado americano do Egito"
+    },
+    {
+     "type": "text",
+     "text": "Para entrarem na Disneylândia"
+    },
+    {
+     "type": "text",
+     "text": "ANTUNES, A. Disponível em: www.radio.uol.com.br. Acesso em: 3 fev. 2013 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "Na canção, ressalta-se a coexistência, no contexto internacional atual, das seguintes situações:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Acirramento do controle alfandegário e estímulo ao capital especulativo."
+    },
+    {
+     "letter": "B",
+     "text": "Ampliação das trocas econômicas e seletividade dos fluxos populacionais."
+    },
+    {
+     "letter": "C",
+     "text": "Intensificação do controle informacional e adoção de barreiras fitossanitárias."
+    },
+    {
+     "letter": "D",
+     "text": "Aumento da circulação mercantil e desregulamentação do sistema financeiro."
+    },
+    {
+     "letter": "E",
+     "text": "Expansão do protecionismo comercial e descaracterização de identidades nacionais."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q21",
+   "number": 21,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um gigante da indústria da internet, em gesto simbólico, mudou o tratamento que conferia à sua página palestina. O site de buscas alterou sua página quando acessada da Cisjordânia. Em vez de “territórios palestinos”, a empresa escreve agora “Palestina” logo abaixo do logotipo."
+    },
+    {
+     "type": "text",
+     "text": "Bercito, D. Google muda tratamento de territórios palestinos. Folha de S. Paulo, 4 maio 2013 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O gesto simbólico sinalizado pela mudança no status dos territórios palestinos significa o"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Surgimento de um país binacional."
+    },
+    {
+     "letter": "B",
+     "text": "Fortalecimento de movimentos antissemitas."
+    },
+    {
+     "letter": "C",
+     "text": "Esvaziamento de assentamentos judaicos."
+    },
+    {
+     "letter": "D",
+     "text": "Reconhecimento de uma autoridade jurídica."
+    },
+    {
+     "letter": "E",
+     "text": "Estabelecimento de fronteiras nacionais."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2013-q22",
+   "number": 22,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Para que não haja abuso, é preciso organizar as coisas de maneira que o poder seja contido pelo poder. Tudo estaria perdido se o mesmo homem ou o mesmo corpo dos principais, ou dos nobres, ou do povo, exercesse esses três poderes: o de fazer leis, o de executar as resoluções públicas e o de julgar os crimes ou as divergências dos indivíduos. Assim, criam-se os poderes Legislativo, Executivo e Judiciário, atuando de forma independente para a efetivação da liberdade, sendo que esta não existe se uma mesma pessoa ou grupo exercer os referidos poderes concomitantemente."
+    },
+    {
+     "type": "text",
+     "text": "MONTESQUIEU, B. Do espírito das leis. São Paulo Abril Cultural, 1979 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A divisão e a independência entre os poderes são condições necessárias para que possa haver liberdade em um Estado. Isso pode ocorrer apenas sob um modelo político em que haja"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Exercício de tutela sobre atividades jurídicas e políticas."
+    },
+    {
+     "letter": "B",
+     "text": "Consagração do poder político pela autoridade religiosa."
+    },
+    {
+     "letter": "C",
+     "text": "Concentração do poder nas mãos de elites técnico-cientifícas."
+    },
+    {
+     "letter": "D",
+     "text": "Estabelecimento de limites aos atores públicos e às instituições do governo."
+    },
+    {
+     "letter": "E",
+     "text": "Reunião das funções de legislar, julgar e executar nas mãos de um governante eleito."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2013-q23",
+   "number": 23,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Quando ninguém duvida da existência de um outro mundo, a morte é uma passagem que deve ser celebrada entre parentes e vizinhos. O homem da Idade Média tem a convicção de não desaparecer completamente, esperando a ressurreição. Pois nada se detém e tudo continua na eternidade. A perda contemporânea do sentimento religioso fez da morte uma provação aterrorizante, um trampolim para as trevas e o desconhecido."
+    },
+    {
+     "type": "text",
+     "text": "DUBY, G. Ano 2000 na pista do nossos medos. São Paulo: Unesp, 1998 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Ao comparar as maneiras com que as sociedades têm lidado com a morte, o autor considera que houve um processo de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Mercantilização das crenças religiosas."
+    },
+    {
+     "letter": "B",
+     "text": "Transformação das representações sociais."
+    },
+    {
+     "letter": "C",
+     "text": "Disseminação do ateísmo nos países de maioria cristã."
+    },
+    {
+     "letter": "D",
+     "text": "Diminuição da distância entre saber científico e eclesiástico."
+    },
+    {
+     "letter": "E",
+     "text": "Amadurecimento da consciência ligada à civilização moderna."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q24",
+   "number": 24,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O edifício é circular. Os apartamentos dos prisioneiros ocupam a circunferência. Você pode chamá-los, se quiser, de celas. O apartamento do inspetor ocupa o centro; você pode chamá-lo, se quiser de alojamento do inspetor. A moral reformada; a saúde preservada; a indústria revigorada; a instrução difundida; os encargos públicos aliviados; a economia assentada, como deve ser, sobre uma rocha; o nó górdio da Lei sobre os Pobres não cortado, mas desfeito – tudo por uma simples ideia de arquitetura!"
+    },
+    {
+     "type": "text",
+     "text": "BENTHAM, J. O panóptico. Belo Horizonte: Autêntica, 2008."
+    },
+    {
+     "type": "text",
+     "text": "Essa é a proposta de um sistema conhecido como panóptico, um modelo que mostra o poder da disciplina nas sociedades contemporâneas, exercido preferencialmente por mecanismos"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Religiosos, que se constituem como um olho divino controlador que tudo vê."
+    },
+    {
+     "letter": "B",
+     "text": "Ideológicos, que estabelecem limites pela alienação, impedindo a visão da dominação sofrida."
+    },
+    {
+     "letter": "C",
+     "text": "Repressivos, que perpetuam as relações de dominação entre os homens por meio da tortura física."
+    },
+    {
+     "letter": "D",
+     "text": "Sutis, que adestram os corpos no espaço-tempo por meio do olhar como instrumento de controle."
+    },
+    {
+     "letter": "E",
+     "text": "Consensuais, que pactuam acordos com base na compreensão dos benefícios gerais de se ter as próprias ações controladas."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2013-q26",
+   "number": 26,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Durante a realeza, e nos primeiros anos republicanos, as leis eram transmitidas oralmente de uma geração para outra. A ausência de uma legislação escrita permitia aos patrícios manipular a justiça conforme seus interesses. Em 451 a.C., porém, os plebeus conseguiram eleger uma comissão de dez pessoas – os decênviros – para escrever as leis. Dois deles viajaram a Atenas, na Grécia, para estudar a legislação de Sólon."
+    },
+    {
+     "type": "text",
+     "text": "COULANGES, F. A cidade antiga. São Paulo. Martins Fontes, 2000."
+    },
+    {
+     "type": "text",
+     "text": "A superação da tradição jurídica oral no mundo antigo, descrita no texto, esteve relacionada à"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Adoção do sufrágio universal masculino."
+    },
+    {
+     "letter": "B",
+     "text": "Extensão da cidadania aos homens livres."
+    },
+    {
+     "letter": "C",
+     "text": "Afirmação de instituições democráticas."
+    },
+    {
+     "letter": "D",
+     "text": "Implantação de direitos sociais."
+    },
+    {
+     "letter": "E",
+     "text": "Tripartição dos poderes políticos."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q27",
+   "number": 27,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A felicidade é, portanto, a melhor, a mais nobre e a mais aprazível coisa do mundo, e esses atributos não devem estar separados como na inscrição existente em Delfos “das coisas, a mais nobre é a mais justa, e a melhor é a saúde; porém a mais doce é ter o que amamos”. Todos estes atributos estão presentes nas mais excelentes atividades, e entre essas a melhor, nós a identificamos como felicidade."
+    },
+    {
+     "type": "text",
+     "text": "ARISTOTELES. A Política. São Paulo: Cia das Letras, 2010."
+    },
+    {
+     "type": "text",
+     "text": "Ao reconhecer na felicidade a reunião dos mais excelentes atributos, Aristoteles a identifica como"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Busca por bens materiais e títulos de nobreza."
+    },
+    {
+     "letter": "B",
+     "text": "Plenitude espiritual e ascese pessoal."
+    },
+    {
+     "letter": "C",
+     "text": "Finalidade das ações e condutas humanas."
+    },
+    {
+     "letter": "D",
+     "text": "Conhecimento de verdades imutáveis e perfeitas."
+    },
+    {
+     "letter": "E",
+     "text": "Expressão do sucesso individual e reconhecimento público."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q29",
+   "number": 29,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Seguiam-se vinte criados custosamente vestidos e montados em soberbos cavalos; depois destes, marchava o Embaixador do Rei do Congo magnificamente ornado de seda azul para anunciar ao Senado que a vinda do Rei estava destinada para o dia dezesseis. Em resposta obteve repetidas vivas do povo que concorreu alegre e admirado de tanta grandeza."
+    },
+    {
+     "type": "text",
+     "text": "Coroação do Rei do Congo em Santo Amaro, Bahia apud DEL PRIORE, M.\nFestas e utopias no Brasil colonial. In: CATELLI JR, R.\nUm olhar sobre as festas populares brasileiras. São Paulo: Brasiliense, 1994\n(adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Originária dos tempos coloniais, as festa da Coroação do Rei do Congo evidencia um processo de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Exclusão social."
+    },
+    {
+     "letter": "B",
+     "text": "Imposição religiosa."
+    },
+    {
+     "letter": "C",
+     "text": "Acomodação política."
+    },
+    {
+     "letter": "D",
+     "text": "Supressão simbólica."
+    },
+    {
+     "letter": "E",
+     "text": "Ressignificação cultural."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2013-q30",
+   "number": 30,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "TEXTO I"
+    },
+    {
+     "type": "text",
+     "text": "A nossa luta é pela democratização da propriedade da terra, cada vez mais concentrada em nosso país. Cerca de 1% de todos os proprietários controla 46% das terras. Fazemos pressão por meio da ocupação de latifúndios improdutivos e grandes propriedades, que não cumprem a função social, como determina a Constituição de 1988. Também ocupamos as fazendas que têm origem na grilagem de terras públicas."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.mst.org.br. Acesso em: 25 ago. 2011 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "TEXTO II"
+    },
+    {
+     "type": "text",
+     "text": "O pequeno proprietário rural é igual a um pequeno proprietário de loja: quanto menor o negócio mais difícil de manter, pois tem de ser produtivo e os encargos são difíceis de arcar. Sou a favor de propriedades produtivas e sustentáveis e que gerem empregos. Apoiar uma empresa produtiva que gere emprego é muito mais barato e gera muito mais do que apoiar a reforma agrária."
+    },
+    {
+     "type": "text",
+     "text": "LESSA, C. Disponível em: www.observadorpolitico.org.br. Acesso em: 25 ago. 2011 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Nos fragmentos dos textos, os posicionamentos em relação à reforma agrária se opõem. Isso acontece porque os autores associam a reforma agrária, respectivamente, à"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Redução do inchaço urbano e à crítica ao minifúndio camponês."
+    },
+    {
+     "letter": "B",
+     "text": "Ampliação da renda nacional e à prioridade ao mercado externo."
+    },
+    {
+     "letter": "C",
+     "text": "Contenção da mecanização agrícola e ao combate ao êxodo rural."
+    },
+    {
+     "letter": "D",
+     "text": "Privatização de empresas estatais e ao estímulo ao crescimento econômico."
+    },
+    {
+     "letter": "E",
+     "text": "Correção de distorções históricas e ao prejuízo ao agronegócio."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2013-q31",
+   "number": 31,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Tendo encarado a besta do passado olho no olho, tendo pedido e recebido perdão e tendo feito correções, viremos agora a página – não para esquecê-lo, mas para não deixá-lo aprisionar-nos para sempre. Avancemos em direção a um futuro glorioso de uma nova sociedade sul-africana, em que as pessoas valham não em razão de irrelevâncias biológicas ou de outros estranhos atributos, mas porque são pessoas de valor infinito criadas à imagem de Deus."
+    },
+    {
+     "type": "text",
+     "text": "Desmond Tutu, no encerramento da Comissão da Verdade na África do Sul. Disponível em: http://td.camara.leg.br. Acesso em 17 dez. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "No texto, relaciona-se a consolidação da democracia na África do Sul à superação de um legado"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Populista, que favorecia a cooptação de dissidentes políticos."
+    },
+    {
+     "letter": "B",
+     "text": "Totalitarista, que bloqueava o diálogo com os movimentos sociais."
+    },
+    {
+     "letter": "C",
+     "text": "Segregacionista, que impedia a universalização da cidadania."
+    },
+    {
+     "letter": "D",
+     "text": "Estagnacionista, que disseminava a pauperização social."
+    },
+    {
+     "letter": "E",
+     "text": "Fundamentalista, que engendrava conflitos religiosos."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q32",
+   "number": 32,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Ninguém desconhece a necessidade que todos os fazendeiros têm de aumentar o número de seus trabalhadores. E como até há pouco supriam-se os fazendeiros dos braços necessários? As fazendas eram alimentadas pela aquisição de escravos, sem o menor auxílio pecuniário do governo. Ora, se os fazendeiros se supriam de braços à sua custa, e se é possível obtê-los ainda, posto que de outra qualidade, por que motivo não hão de procurar alcançá-los pela mesma maneira, isto é, à sua custa?"
+    },
+    {
+     "type": "text",
+     "text": "Resposta de Manuel Felizardo de Souza e Mello, diretor geral das Terras Públicas,ao Senador Vergueiro. In: ALENCASTRO, L.F. (Org.) História da vida privada no Brasil. São Paulo:Cia das Letras, 1998 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O fragmento do discurso dirigido ao parlamentar do Império refere-se às mudanças então em curso no campo brasileiro, que confrontaram o Estado e a elite agrária em torno do objetivo de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Fomentar ações públicas para ocupação das terras do interior."
+    },
+    {
+     "letter": "B",
+     "text": "Adotar o regime assalariado para proteção da mão de obra estrangeira."
+    },
+    {
+     "letter": "C",
+     "text": "Definir uma política de subsídio governamental para o fomento da imigração."
+    },
+    {
+     "letter": "D",
+     "text": "Regulamentar o tráfico interprovincial de cativos para sobrevivência das fazendas."
+    },
+    {
+     "letter": "E",
+     "text": "Financiar a fixação de famílias camponesas para estímulo da agricultura de subsistência."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q34",
+   "number": 34,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Embora haja dados comuns que dão unidade ao fenômeno da urbanização na África, na Ásia e na América Latina, os impactos são distintos em cada continente e mesmo dentro de cada país, ainda que as modernizações se deem com o mesmo conjunto de inovações."
+    },
+    {
+     "type": "text",
+     "text": "ELIAS, D. Fim do século e urbanização no Brasil. Revista Ciência Geográfica, ano IV, n. 11, set./dez. 1988."
+    },
+    {
+     "type": "text",
+     "text": "O texto aponta para a complexidade da urbanização nos diferentes contextos socioespaciais. Comparando a organização socioeconômica das regiões citadas, a unidade desse fenômeno é perceptível no aspecto"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Espacial, em função do sistema integrado que envolve as cidades locais e globais."
+    },
+    {
+     "letter": "B",
+     "text": "Cultural, em função da semelhança histórica e da condição de modernização econômica e política."
+    },
+    {
+     "letter": "C",
+     "text": "Demográfico, em função da localização das maiores aglomerações urbanas e continuidade do fluxo campo-cidade."
+    },
+    {
+     "letter": "D",
+     "text": "Territorial, em função da estrutura de organização e planejamento das cidades que atravessam as fronteiras nacionais."
+    },
+    {
+     "letter": "E",
+     "text": "Econômico, em função da revolução agrícola que transformou o campo e a cidade e contribuiu para fixação do homem ao lugar."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q35",
+   "number": 35,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Rua Preciados, seis da tarde. Ao longe, a massa humana que abarrota a Praça Puertal Del Sol, em Madri, se levanta. Um grupo de garotas, ao ver a cena, corre em direção à multidão. Milhares de pessoas fazem ressoar o Slogan: “Que não, que não, que não nos representem”. Um garoto fala pelo megafone: “Demandamos submeter a referendo o resgate bancário”."
+    },
+    {
+     "type": "text",
+     "text": "Rodriguez. O. Puerta Del Sol, o grande alto-falante. Brasil de Fato. São Paulo, 26 maio-1 jun. 2011 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Em 2011, o acampamento dos indignados espanhóis expressou todo o descontamento político da juventude europeia. Que proposta sintetiza o conjunto de reivindicações políticas destes jovens?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Voto universal."
+    },
+    {
+     "letter": "B",
+     "text": "Democracia direta."
+    },
+    {
+     "letter": "C",
+     "text": "Pluralidade partidária."
+    },
+    {
+     "letter": "D",
+     "text": "Autonomia legislativa."
+    },
+    {
+     "letter": "E",
+     "text": "Imunidade parlamentar."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q36",
+   "number": 36,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Até hoje admitia-se que nosso conhecimento se devia regular pelos objetos; porém, todas as tentativas para descobrir, mediante conceitos, algo que ampliasse nosso conhecimento, malogravam-se com esse pressuposto. Tentemos, pois, uma vez, experimentar se não se resolverão melhor as tarefas da metafísica, admitindo que os objetos se deveriam regular pelo nosso conhecimento."
+    },
+    {
+     "type": "text",
+     "text": "KANT, I. Crítica da razão pura. Lisboa: Calouste-Gulbenkian, 1994 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O trecho em questão é uma referência ao que ficou conhecido como revolução copernicana na filosofia. Nele, confrontam-se duas posições filosóficas que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Assumem pontos de vista opostos acerca da natureza do conhecimento."
+    },
+    {
+     "letter": "B",
+     "text": "Defendem que o conhecimento é impossível, restando-nos somente o ceticismo."
+    },
+    {
+     "letter": "C",
+     "text": "Revelam a relação de interdependência entre os dados da experiência e a reflexão filosófica."
+    },
+    {
+     "letter": "D",
+     "text": "Apostam, no que diz respeito às tarefas da filosofia, na primazia das ideias em relação aos objetos."
+    },
+    {
+     "letter": "E",
+     "text": "Refutam-se mutuamente quanto à natureza do nosso conhecimento e são ambas recusadas por Kant."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2013-q37",
+   "number": 37,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Nos últimos decênios, o território conhece grandes mudanças em função de acréscimos técnicos que renovam a sua materialidade, como resultado e condição, ao mesmo tempo, dos processos econômicos e sociais em curso."
+    },
+    {
+     "type": "text",
+     "text": "SANTOS, M.; SILVEIRA; M. L. O Brasil: território e sociedade no início do século XXI. Rio de Janeiro: Record, 2004 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A partir da última década, verifica-se a ocorrência no Brasil de alterações significativas no território, ocasionando impactos sociais, culturais e econômicos sobre comunidades locais, e com maior intensidade, na Amazônia Legal, com a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Reforma e ampliação de aeroportos nas capitais dos estados."
+    },
+    {
+     "letter": "B",
+     "text": "Ampliação de estádios de futebol para a realização de eventos esportivos."
+    },
+    {
+     "letter": "C",
+     "text": "Construção de usinas hidrelétricas sobre os rios Tocantins, Xingu e Madeira."
+    },
+    {
+     "letter": "D",
+     "text": "Instalação de cabos para a formação de uma rede informatizada de comunicação."
+    },
+    {
+     "letter": "E",
+     "text": "Formação de uma infraestrutura de torres que permitem a comunicação móvel na região."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q38",
+   "number": 38,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A recuperação da herança cultural africana deve levar em conta o que é próprio do processo cultural: seu movimento, pluralidade e complexidade. Não se trata, portanto, do resgate ingênuo do passado nem do seu cultivo nostálgico, mas de procurar perceber o próprio rosto cultural brasileiro. O que se quer é captar seu movimento para melhor compreendê-lo historicamente."
+    },
+    {
+     "type": "text",
+     "text": "MINAS GERAIS: Cadernos do Arquivo 1: Escravidão em\nMinas Gerais. Belo Horizonte: Arquivo Público Mineiro, 1988."
+    },
+    {
+     "type": "text",
+     "text": "Com base no texto, a análise de manifestações culturais de origem africana, como a capoeira ou o candomblé, deve considerar que elas"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Permanecem como reprodução dos valores e costumes africanos."
+    },
+    {
+     "letter": "B",
+     "text": "Perderam a relação com o seu passado histórico."
+    },
+    {
+     "letter": "C",
+     "text": "Derivam da interação entre valores africanos e a experiência histórica brasileira."
+    },
+    {
+     "letter": "D",
+     "text": "Contribuem para o distanciamento cultural entre negros e brancos no Brasil atual."
+    },
+    {
+     "letter": "E",
+     "text": "Demonstram a maior complexidade cultural dos africanos em relação aos europeus."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q40",
+   "number": 40,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Ela acorda tarde depois de ter ido ao teatro e à dança; ela lê romances, além de desperdiçar o tempo a olhar para a rua da sua janela ou da sua varanda; passa horas no toucador a arrumar o seu complicado penteado; um número igual de horas praticando piano e mais outras na sua aula de francês ou de dança."
+    },
+    {
+     "type": "text",
+     "text": "Comentário do Padre Lopes da Gama acerca dos costumes femininos (1839) apud SILVA, T. V. Z. Mulheres, cultura e literatura brasileira. Ipotasi – Revista de Estudos Literários. Juiz de Fora, v. 2. n. 2, 1998."
+    },
+    {
+     "type": "text",
+     "text": "TEXTO II"
+    },
+    {
+     "type": "text",
+     "text": "As janelas e portas gradeadas com treliças não eram cadeias confessas, positivas; mas eram, pelo aspecto e pelo seu destino, grandes gaiolas, onde os pais e maridos zelavam, sonegadas à sociedade, as filhas e as esposas."
+    },
+    {
+     "type": "text",
+     "text": "MACEDO, J. M. Memórias da Rua do Ouvidor (1878). Disponível em: www.dominiopublico.gov.br. Acesso em: 20 maio 2013 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A representação social do feminino comum aos dois textos é o(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Submissão de gênero, apoiada pela concepção patriarcal de família."
+    },
+    {
+     "letter": "B",
+     "text": "Acesso aos produtos de beleza, decorrência da abertura dos portos."
+    },
+    {
+     "letter": "C",
+     "text": "Ampliação do espaço de entretenimento, voltado às distintas classes sociais."
+    },
+    {
+     "letter": "D",
+     "text": "Proteção da honra, mediada pela disputa masculina em relação às damas da corte."
+    },
+    {
+     "letter": "E",
+     "text": "Valorização do casamento cristão, respaldado pelos interesses vinculados à herança."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2013-q41",
+   "number": 41,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Os produtos e seu consumo constituem a meta declarada do empreendimento tecnológico. Essa meta foi proposta pela primeira vez no início da Modernidade, como expectativa de que o homem poderia dominar a natureza. No entanto, essa expectativa, convertida em programa anunciado por pensadores como Descartes e Bacon e impulsionado pelo Iluminismo, não surgiu “de um prazer de poder”, “de um mero imperialismo humano”, mas da aspiração de libertar o homem e de enriquecer sua vida, física e culturalmente."
+    },
+    {
+     "type": "text",
+     "text": "CUPANI, A. A tecnologia como problema filosófico: três enfoques. Scientiae Studia, São Paulo, v. 2, n. 4, 2004 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Autores da filosofia moderna, notadamente Descartes e Bacon, e o projeto iluminista concebem a ciência como uma forma de saber que almeja libertar o homem das intempéries da natureza. Nesse contexto, a investigação científica consiste em"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Expor a essência da verdade e resolver definitivamente as disputas teóricas ainda existentes."
+    },
+    {
+     "letter": "B",
+     "text": "Oferecer a última palavra acerca das coisas que existem e ocupar o lugar que outrora foi da filosofia."
+    },
+    {
+     "letter": "C",
+     "text": "Ser a expressão da razão e servir de modelo para outras áreas do saber que almejam o progresso."
+    },
+    {
+     "letter": "D",
+     "text": "Explicitar as leis gerais que permitem interpretar a natureza e eliminar os discursos éticos e religiosos."
+    },
+    {
+     "letter": "E",
+     "text": "Explicar a dinâmica presente entre os fenômenos naturais e impor limites aos debates acadêmicos."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q43",
+   "number": 43,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Empresa vai fornecer 230 turbinas para o segundo complexo de energia à base de ventos, no sudeste da Bahia. O Complexo Eólico Alto Sertão, em 2014, terá capacidade para gerar 375 MW (megawatts), total suficiente para abastecer uma cidade de 3 milhões de habitantes."
+    },
+    {
+     "type": "text",
+     "text": "MATOS, C. GE busca bons ventos e fecha contrato de R$ 820 mi na Bahia. Folha de S. Paulo, 2 dez. 2012."
+    },
+    {
+     "type": "text",
+     "text": "A opção tecnológica retratada na notícia proporciona a seguinte consequência para o sistema energético brasileiro:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Redução da utilização elétrica."
+    },
+    {
+     "letter": "B",
+     "text": "Ampliação do uso bioenergético."
+    },
+    {
+     "letter": "C",
+     "text": "Expansão das fontes renováveis."
+    },
+    {
+     "letter": "D",
+     "text": "Contenção da demanda urbano-industrial."
+    },
+    {
+     "letter": "E",
+     "text": "Intensificação da dependência geotérmica."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q44",
+   "number": 44,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A escravidão não há de ser suprimida no Brasil por uma guerra servil, muito menos por insurreições ou atentados locais. Não deve sê-lo, tampouco, por uma guerra civil, como o foi nos Estados Unidos. Ela poderia desaparecer, talvez, depois de uma revolução, como aconteceu na França, sendo essa revolução obra exclusiva da população livre. É no Parlamento e não em fazendas ou quilombos do interior, nem nas ruas e praças das cidades, que se há de ganhar, ou perder, a causa da liberdade."
+    },
+    {
+     "type": "text",
+     "text": "NABUCO, J. O abolicionismo (1883). Rio de Janeiro: Nova Fronteira;\nSão Paulo: Publifolha, 2000 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "No texto, Joaquim Nabuco defende um projeto político sobre como deveria ocorrer o fim da escravidão no Brasil, no qual"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Copiava o modelo haitiano de emancipação negra."
+    },
+    {
+     "letter": "B",
+     "text": "Incentivava a conquista de alforrias por meio de ações judiciais.."
+    },
+    {
+     "letter": "C",
+     "text": "Optava pela via legalista de libertação."
+    },
+    {
+     "letter": "D",
+     "text": "Priorizava a negociação em torno das indenizações aos senhores."
+    },
+    {
+     "letter": "E",
+     "text": "Antecipava a libertação paternalista dos cativos."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q45",
+   "number": 45,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Tenho 44 anos e presenciei uma transformação impressionante na condição de homens e mulheres gays nos Estados Unidos. Quando nasci, relações homossexuais eram ilegais em todos os Estados Unidos, menos Illinois. Gays e lésbicas não podiam trabalhar no governo federal. Não havia nenhum político abertamente gay. Alguns homossexuais não assumidos ocupavam posições de poder, mas a tendência era eles tormarem as coisas ainda piores para seus semelhantes."
+    },
+    {
+     "type": "text",
+     "text": "ROSS, A. Na máquina do tempo. Época, ed. 766, 28 jan. 2013."
+    },
+    {
+     "type": "text",
+     "text": "A dimensão política da transformação sugerida no texto teve como condição necessária a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Ampliação da noção de cidadania."
+    },
+    {
+     "letter": "B",
+     "text": "Reformulação de concepções religiosas."
+    },
+    {
+     "letter": "C",
+     "text": "Manutenção de ideologias conservadoras."
+    },
+    {
+     "letter": "D",
+     "text": "Implantação de cotas nas listas partidárias."
+    },
+    {
+     "letter": "E",
+     "text": "Alteração da composição étnica da população."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2013-q47",
+   "number": 47,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O brasileiro consome em média 500 miligramas de cálcio por dia, quando a quantidade recomendada é o dobro. Uma alimentação balanceada é a melhor decisão para evitar problemas no futuro, como a osteoporose, uma doença que atinge os ossos. Ela se caracteriza pela diminuição substancial de massa óssea, tornando os ossos frágeis e mais suscetíveis a fraturas."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.anvisa.gov.br. Acesso em: 1 ago. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Considerando-se o valor de 6 × 1023 mol–1 para a constante de Avogadro e a massa molar do cálcio igual a 40 g/mol, qual a quantidade mínima diária de átomos de cálcio a ser ingerida para que uma pessoa supra suas necessidades?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "7,5 × 1021"
+    },
+    {
+     "letter": "B",
+     "text": "1,5 × 1022"
+    },
+    {
+     "letter": "C",
+     "text": "7,5 × 1023"
+    },
+    {
+     "letter": "D",
+     "text": "1,5 × 1025"
+    },
+    {
+     "letter": "E",
+     "text": "4,8 × 1025"
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q50",
+   "number": 50,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Milhares de pessoas estavam morrendo de varíola humana no final do século XVIII. Em 1796, o médico Edward Jenner (1749-1823) inoculou em um menino de 8 anos o pus extraído de feridas de vacas contaminadas com o vírus da varíola bovina, que causa uma doença branda em humanos. O garoto contraiu uma infecção benigna e, dez dias depois, estava recuperado. Meses depois, Jenner inoculou, no mesmo menino, o pus varioloso humano, que causava muitas mortes. O menino não adoeceu."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.bbc.co.uk. Acesso em: 5 dez. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Considerando o resultado do experimento, qual a contribuição desse médico para a saúde humana?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A prevenção de diversas doenças infectocontagiosas em todo o mundo."
+    },
+    {
+     "letter": "B",
+     "text": "A compreensão de que vírus podem se multiplicar em matéria orgânica."
+    },
+    {
+     "letter": "C",
+     "text": "O tratamento para muitas enfermidades que acometem milhões de pessoas."
+    },
+    {
+     "letter": "D",
+     "text": "O estabelecimento da ética na utilização de crianças em modelos experimentais."
+    },
+    {
+     "letter": "E",
+     "text": "A explicação de que alguns vírus de animais podem ser transmitidos para os humanos."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2013-q51",
+   "number": 51,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Química Verde pode ser definida como a criação, o desenvolvimento e a aplicação de produtos e processos químicos para reduzir ou eliminar o uso e a geração de substâncias nocivas à saúde humana e ao ambiente. Sabe-se que algumas fontes energéticas desenvolvidas pelo homem exercem, ou têm potencial para exercer, em algum nível, impactos ambientais negativos."
+    },
+    {
+     "type": "text",
+     "text": "CORRÊA, A. G.; ZUIN, V. G. (Orgs.). Química Verde: fundamentos e aplicações. São Carlos: EdUFSCar, 2009."
+    },
+    {
+     "type": "text",
+     "text": "À luz da Química Verde, métodos devem ser desenvolvidos para eliminar ou reduzir a poluição do ar causada especialmente pelas"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Hidrelétricas."
+    },
+    {
+     "letter": "B",
+     "text": "Termelétricas."
+    },
+    {
+     "letter": "C",
+     "text": "Usinas geotérmicas."
+    },
+    {
+     "letter": "D",
+     "text": "Fontes de energia solar."
+    },
+    {
+     "letter": "E",
+     "text": "Fontes de energia eólica."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q52",
+   "number": 52,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em viagens de avião, é solicitado aos passageiros o desligamento de todos o aparelhos cujo funcionamento envolva a emissão ou a recepção de ondas eletromagnéticas. O procedimento é utilizado para eliminar fontes de radiação que possam interferir nas comunicações via rádio dos pilotos com a torre de controle."
+    },
+    {
+     "type": "text",
+     "text": "A propriedade das ondas emitidas que justifica o procedimento adotado é o fato de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Terem fases opostas."
+    },
+    {
+     "letter": "B",
+     "text": "Serem ambas audíveis."
+    },
+    {
+     "letter": "C",
+     "text": "Terem intensidades inversas."
+    },
+    {
+     "letter": "D",
+     "text": "Serem de mesma amplitude."
+    },
+    {
+     "letter": "E",
+     "text": "Terem frequências próximas"
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2013-q53",
+   "number": 53,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "As serpentes que habitam regiões de seca podem ficar em jejum por um longo período de tempo devido à escassez de alimento. Assim, a sobrevivência desses predadores está relacionada ao aproveitamento máximo dos nutrientes obtidos com a presa capturada. De acordo com essa situação, essas serpentes apresentam alterações morfológicas e fisiológicas, como o aumento das vilosidades intestinais e a intensificação da irrigação sanguínea na porção interna dessas estruturas."
+    },
+    {
+     "type": "text",
+     "text": "A função do aumento das vilosidades intestinais para essas serpentes é maximizar o(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Comprimento do trato gastrointestinal para caber mais alimento."
+    },
+    {
+     "letter": "B",
+     "text": "Área de contato com o conteúdo intestinal para absorção dos nutrientes."
+    },
+    {
+     "letter": "C",
+     "text": "Liberação de calor via irrigação sanguínea para controle térmico do sistema digestório."
+    },
+    {
+     "letter": "D",
+     "text": "Secreção de enzimas digestivas para aumentar a degradação proteica no estômago."
+    },
+    {
+     "letter": "E",
+     "text": "Processo de digestão para diminuir o tempo de permanência do alimento no intestino."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q59",
+   "number": 59,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Plantas terrestres que ainda estão em fase de crescimento fixam grandes quantidades de CO2, utilizando-o para formar novas moléculas orgânicas, e liberam grande quantidade de O2. No entanto, em florestas maduras, cujas árvores já atingiram o equilíbrio, o consumo de O2 pela respiração tende a igualar sua produção pela fotossíntese. A morte natural de árvores nessas florestas afeta temporariamente a concentração de O2 e de CO2 próximo à superfície do solo onde elas caíram."
+    },
+    {
+     "type": "text",
+     "text": "A concentração de O2 próximo ao solo, no local da queda, será"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Menor, pois haverá consumo de O2 durante a decomposição dessas árvores."
+    },
+    {
+     "letter": "B",
+     "text": "Maior, pois haverá economia de O2 pela ausência das árvores mortas."
+    },
+    {
+     "letter": "C",
+     "text": "Maior, pois haverá liberação de O2 durante a fotossíntese das árvores jovens."
+    },
+    {
+     "letter": "D",
+     "text": "Igual, pois haverá consumo e produção de O2 pelas árvores maduras restantes."
+    },
+    {
+     "letter": "E",
+     "text": "Menor, pois haverá redução de O2 pela falta da fotossíntese realizada pelas árvores mortas."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2013-q60",
+   "number": 60,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "As fêmeas de algumas espécies de aranhas, escorpiões e de outros invertebrados predam os machos após a cópula e inseminação. Como exemplo, fêmeas canibais do inseto conhecido como louva-a-deus, Tenodera aridofolia, possuem até 63% da sua dieta composta por machos parceiros. Para as fêmeas, o canibalismo sexual pode assegurar a obtenção de nutrientes importantes na reprodução. Com esse incremento na dieta, elas geralmente produzem maior quantidade de ovos."
+    },
+    {
+     "type": "text",
+     "text": "BORGES, J. C. Jogo mortal. Disponível em: http://cienciahoje.uol.com.br. Acesso em: 1 mar. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Apesar de ser um comportamento aparentemente desvantajoso para os machos, o canibalismo sexual evoluiu nesses táxons animais porque"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Promove a maior ocupação de diferentes nichos ecológicos pela espécie."
+    },
+    {
+     "letter": "B",
+     "text": "Favorece o sucesso reprodutivo individual de ambos os parentais."
+    },
+    {
+     "letter": "C",
+     "text": "Impossibilita a transmissão de genes do macho para a prole."
+    },
+    {
+     "letter": "D",
+     "text": "Impede a sobrevivência e reprodução futura do macho."
+    },
+    {
+     "letter": "E",
+     "text": "Reduz a variabilidade genética da população."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q61",
+   "number": 61,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Para oferecer acessibilidade aos portadores de dificuldades de locomoção, é utilizado, em ônibus e automóveis, o elevador hidráulico. Nesse dispositivo é usada uma bomba elétrica, para forçar um fluido a passar de uma tubulação estreita para outra mais larga, e dessa forma acionar um pistão que movimenta a plataforma. Considere um elevador hidráulico cuja área da cabeça do pistão seja cinco vezes maior do que a área da tubulação que sai da bomba. Desprezando o atrito e considerando uma aceleração gravitacional de 10 m/s², deseja-se elevar uma pessoa de 65 kg em uma cadeira de rodas de 15 kg sobre a plataforma de 20 kg"
+    },
+    {
+     "type": "text",
+     "text": "Qual deve ser a força exercida pelo motor da bomba sobre o fluido, para que o cadeirante seja elevado com velocidade constante?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "20 N."
+    },
+    {
+     "letter": "B",
+     "text": "100 N."
+    },
+    {
+     "letter": "C",
+     "text": "200 N."
+    },
+    {
+     "letter": "D",
+     "text": "1 000 N."
+    },
+    {
+     "letter": "E",
+     "text": "5 000 N."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q62",
+   "number": 62,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A estratégia de obtenção de plantas transgênicas pela inserção de transgenes em cloroplastos, em substituição à metodologia clássica de inserção do transgene no núcleo da célula hospedeira, resultou no aumento quantitativo da produção de proteínas recombinantes com diversas finalidades biotecnológicas. O mesmo tipo de estratégia poderia ser utilizada para produzir proteínas recombinantes em células de organismos eucarióticos não fotossintetizantes, como as leveduras, que são usadas para produção comercial de várias proteínas recombinantes e que podem ser cultivadas em grandes fermentadores."
+    },
+    {
+     "type": "text",
+     "text": "Considerando a estratégia metodológica descrita, qual organela celular poderia ser utilizada para inserção de transgenes em leveduras?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Lisossomo."
+    },
+    {
+     "letter": "B",
+     "text": "Mitocôndria."
+    },
+    {
+     "letter": "C",
+     "text": "Peroxissomo."
+    },
+    {
+     "letter": "D",
+     "text": "Complexo golgiense."
+    },
+    {
+     "letter": "E",
+     "text": "Retículo endoplasmático."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q63",
+   "number": 63,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "No Brasil, cerca de 80% da energia elétrica advém de hidrelétricas, cuja construção implica o represamento de rios. A formação de um reservatório para esse fim, por sua vez, pode modificar a ictiofauna local. Um exemplo é o represamento do Rio Paraná, onde se observou o desaparecimento de peixes cascudos quase que simultaneamente ao aumento do número de peixes de espécies exóticas introduzidas, como o mapará e a corvina, as três espécies com nichos ecológicos semelhantes."
+    },
+    {
+     "type": "text",
+     "text": "PETESSE, M. L.; PETRERE JR., M. Ciência Hoje, São Paulo, n. 293, v. 49, jun. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Nessa modificação da ictiofauna, o desaparecimento de cascudos é explicado pelo(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Redução do fluxo gênico da espécie nativa."
+    },
+    {
+     "letter": "B",
+     "text": "Diminuição da competição intraespecífica."
+    },
+    {
+     "letter": "C",
+     "text": "Aumento da competição interespecífica."
+    },
+    {
+     "letter": "D",
+     "text": "Isolamento geográfico dos peixes."
+    },
+    {
+     "letter": "E",
+     "text": "Extinção de nichos ecológicos."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q64",
+   "number": 64,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Uma das etapas do tratamento da água é a desinfecção, sendo a cloração o método mais empregado. Esse método consiste na dissolução do gás cloro numa solução sob pressão e sua aplicação na água a ser desinfectada. As equações das reações químicas envolvidas são:"
+    },
+    {
+     "type": "text",
+     "text": "Cl2(g) + 2 H2O (l) ⇌ HClO (aq) + H3O+ (aq) + Cl− (aq)"
+    },
+    {
+     "type": "text",
+     "text": "HClO (aq) + H2O (l) ⇌  H3O+(aq) + ClO−(aq)      pKa= − log Ka= 7,53"
+    },
+    {
+     "type": "text",
+     "text": "A ação desinfetante é controlada pelo ácido hipocloroso, que possui um potencial de desinfecção cerca de 80 vezes superior ao ânion hipoclorito. O pH do meio é importante, porque influencia na extensão com que o ácido hipocloroso se ioniza."
+    },
+    {
+     "type": "text",
+     "text": "Para que a desinfecção seja mais efetiva, o pH da água a ser tratada deve estar mais próximo de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "5"
+    },
+    {
+     "letter": "B",
+     "text": "7"
+    },
+    {
+     "letter": "C",
+     "text": "9"
+    },
+    {
+     "letter": "D",
+     "text": "14"
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q67",
+   "number": 67,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Sabe-se que o aumento da concentração de gases como CO2, CH4 e N2O na atmosfera é um dos fatores responsáveis pelo agravamento do efeito estufa. A agricultura é uma das atividades humanas que pode contribuir tanto para a emissão quanto para o sequestro desses gases, dependendo do manejo da matéria orgânica do solo."
+    },
+    {
+     "type": "text",
+     "text": "ROSA, A. H.; COELHO, J. C. R. Cadernos Temáticos de Química Nova na Escola, São Paulo, n. 5, nov. 2003 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "De que maneira as práticas agrícolas podem ajudar a minimizar o agravamento do efeito estufa?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Evitando a rotação de culturas."
+    },
+    {
+     "letter": "B",
+     "text": "Liberando o CO2 presente no solo."
+    },
+    {
+     "letter": "C",
+     "text": "Aumentando a quantidade de matéria orgânica do solo."
+    },
+    {
+     "letter": "D",
+     "text": "Queimando a matéria orgânica que se deposita no solo."
+    },
+    {
+     "letter": "E",
+     "text": "Atenuando a concentração de resíduos vegetais do solo."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q69",
+   "number": 69,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A formação frequente de grandes volumes de pirita (FeS2) em uma variedade de depósitos minerais favorece a formação de soluções ácidas ferruginosas, conhecidas como “drenagem ácida de minas”. Esse fenômeno tem sido bastante pesquisado pelos cientistas e representa uma grande preocupação entre os impactos da mineração no ambiente. Em contato com oxigênio, a 25 °C, a pirita sofre reação, de acordo com a equação química:"
+    },
+    {
+     "type": "text",
+     "text": "4 FeS2(s) + 15 O2(g) + 2 H2O(l) → 2 Fe2(SO4)3(aq) + 2 H2SO4(aq)"
+    },
+    {
+     "type": "text",
+     "text": "FIGUEIREDO, B. R. Minérios e ambiente. Campinas: Unicamp, 2000."
+    },
+    {
+     "type": "text",
+     "text": "Para corrigir os problemas ambientais causados por essa drenagem, a substância mais recomendada a ser adicionada ao meio é o"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Sulfeto de sódio."
+    },
+    {
+     "letter": "B",
+     "text": "Cloreto de amônio."
+    },
+    {
+     "letter": "C",
+     "text": "Dióxido de enxofre."
+    },
+    {
+     "letter": "D",
+     "text": "Dióxido de carbono."
+    },
+    {
+     "letter": "E",
+     "text": "Carbonato de cálcio."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2013-q71",
+   "number": 71,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Qual é o máximo volume da solução do medicamento que pode ser administrado a esse indivíduo, pela via intravenosa, de maneira que não ocorram hemorragias causadas pelo anticoagulante?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "1,0 mL"
+    },
+    {
+     "letter": "B",
+     "text": "1,7 mL"
+    },
+    {
+     "letter": "C",
+     "text": "2,7 mL"
+    },
+    {
+     "letter": "D",
+     "text": "4,0 mL"
+    },
+    {
+     "letter": "E",
+     "text": "6,7 mL"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2013-q74",
+   "number": 74,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Eu também podia decompor a água, se fosse salgada ou acidulada, usando a pilha de Daniell como fonte de força. Lembro o prazer extraordinário que sentia ao decompor um pouco de água em uma taça para ovos quentes, vendo-a separar-se em seus elementos, o oxigênio em um eletrodo, o hidrogênio no outro. A eletricidade de uma pilha de 1 volt parecia tão fraca, e no entanto podia ser suficiente para desfazer um composto químico, a água…"
+    },
+    {
+     "type": "text",
+     "text": "SACKS, O. Tio Tungstênio: memórias de uma infância química. São Paulo: Cia. das Letras, 2002"
+    },
+    {
+     "type": "text",
+     "text": "O fragmento do romance de Oliver Sacks relata a separação dos elementos que compõem a água. O princípio do método apresentado é utilizado industrialmente na"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Obtenção de ouro a partir de pepitas."
+    },
+    {
+     "letter": "B",
+     "text": "Obtenção de calcário a partir de rochas."
+    },
+    {
+     "letter": "C",
+     "text": "Obtenção de alumínio a partir da bauxita."
+    },
+    {
+     "letter": "D",
+     "text": "Obtenção de ferro a partir de seus óxidos."
+    },
+    {
+     "letter": "E",
+     "text": "Obtenção de amônia a partir de hidrogênio e nitrogênio."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q75",
+   "number": 75,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O chuveiro elétrico é um dispositivo capaz de transformar energia elétrica em energia térmica, o que possibilita a elevação da temperatura da água. Um chuveiro projetado para funcionar em 110 V pode ser adaptado para funcionar em 220 V, de modo a manter inalterada sua potência."
+    },
+    {
+     "type": "text",
+     "text": "Uma das maneiras de fazer essa adaptação é trocar a resistência do chuveiro por outra, de mesmo material e com o(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Dobro do comprimento do fio."
+    },
+    {
+     "letter": "B",
+     "text": "Metade do comprimento do fio."
+    },
+    {
+     "letter": "C",
+     "text": "Metade da área da seção reta do fio."
+    },
+    {
+     "letter": "D",
+     "text": "Quádruplo da área da seção reta do fio."
+    },
+    {
+     "letter": "E",
+     "text": "Quarta parte da área da seção reta do fio."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2013-q76",
+   "number": 76,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Uma pessoa necessita da força de atrito em seus pés para se deslocar sobre uma superfície. Logo, uma pessoa que sobe uma rampa em linha reta será auxiliada pela força de atrito exercida pelo chão em seus pés."
+    },
+    {
+     "type": "text",
+     "text": "Em relação ao movimento dessa pessoa, quais são a direção e o sentido da força de atrito mencionada no texto?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Perpendicular ao plano e no mesmo sentido do movimento."
+    },
+    {
+     "letter": "B",
+     "text": "Paralelo ao plano e no sentido contrário ao movimento."
+    },
+    {
+     "letter": "C",
+     "text": "Paralelo ao plano e no mesmo sentido do movimento"
+    },
+    {
+     "letter": "D",
+     "text": "Horizontal e no mesmo sentido do movimento."
+    },
+    {
+     "letter": "E",
+     "text": "Vertical e sentido para cima."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q77",
+   "number": 77,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A produção de aço envolve o aquecimento do minério de ferro, junto com carvão (carbono) e ar atmosférico em uma série de reações de oxirredução. O produto é chamado de ferro-gusa e contém cerca de 3,3% de carbono. Uma forma de eliminar o excesso de carbono é a oxidação a partir do aquecimento do ferro-gusa com gás oxigênio puro. Os dois principais produtos formados são aço doce (liga de ferro com teor de 0,3% de carbono restante) e gás carbônico. As massas molares aproximadas dos elementos carbono e oxigênio são, respectivamente, 12 g/mol e 16 g/mol."
+    },
+    {
+     "type": "text",
+     "text": "LEE, J. D. Química Inorgânica não tão concisa. São Paulo: Edgard Blucher, 1999 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Considerando que um forno foi alimentado com 2,5 toneladas de ferro-gusa, a massa de gás carbônico formada, em quilogramas, na produção de aço doce, é mais próxima de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "28."
+    },
+    {
+     "letter": "B",
+     "text": "75."
+    },
+    {
+     "letter": "C",
+     "text": "175."
+    },
+    {
+     "letter": "D",
+     "text": "275."
+    },
+    {
+     "letter": "E",
+     "text": "303."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2013-q78",
+   "number": 78,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A contaminação pelo vírus da rubéola é especialmente preocupante em grávidas, devido à síndrome da rubéola congênita (SRC), que pode levar ao risco de aborto e malformações congênitas. Devido a campanhas de vacinação específicas, nas últimas décadas houve uma grande diminuição de casos de rubéola entre as mulheres, e, a partir de 2008, as campanhas se intensificaram e têm dado maior enfoque à vacinação de homens jovens."
+    },
+    {
+     "type": "text",
+     "text": "BRASIL. Brasil livre da rubéola: campanha nacional de vacinação para eliminação da rubéola. Brasília: Ministério da Saúde, 2009 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Considerando a preocupação com a ocorrência da SRC, as campanhas passaram a dar enfoque à vacinação dos homens, porque eles"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Ficam mais expostos a esse vírus."
+    },
+    {
+     "letter": "B",
+     "text": "Transmitem o vírus a mulheres gestantes."
+    },
+    {
+     "letter": "C",
+     "text": "Passam a infecção diretamente para o feto."
+    },
+    {
+     "letter": "D",
+     "text": "Transferem imunidade às parceiras grávidas."
+    },
+    {
+     "letter": "E",
+     "text": "São mais suscetíveis a esse vírus que as mulheres."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q79",
+   "number": 79,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um circuito em série é formado por uma pilha, uma lâmpada incandescente e uma chave interruptora. Ao se ligar a chave, a lâmpada acende quase instantaneamente, irradiando calor e luz. Popularmente, associa-se o fenômeno da irradiação de energia a um desgaste da corrente elétrica, ao atravessar o filamento da lâmpada, e à rapidez com que a lâmpada começa a brilhar. Essa explicação está em desacordo com o modelo clássico de corrente."
+    },
+    {
+     "type": "text",
+     "text": "De acordo com o modelo mencionado, o fato de a lâmpada acender quase instantaneamente está relacionado à rapidez com que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "O fluido elétrico se desloca no circuito."
+    },
+    {
+     "letter": "B",
+     "text": "As cargas negativas móveis atravessam o circuito."
+    },
+    {
+     "letter": "C",
+     "text": "A bateria libera cargas móveis para o filamento da lâmpada."
+    },
+    {
+     "letter": "D",
+     "text": "O campo elétrico se estabelece em todos os pontos do circuito."
+    },
+    {
+     "letter": "E",
+     "text": "As cargas positivas e negativas se chocam no filamento da lâmpada."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2013-q80",
+   "number": 80,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Estudos de fluxo de energia em ecossistemas demonstram que a alta produtividade nos manguezais está diretamente relacionada às taxas de produção primária líquida e à rápida reciclagem dos nutrientes. Como exemplo de seres vivos encontrados nesse ambiente, temos: aves, caranguejos, insetos, peixes e algas."
+    },
+    {
+     "type": "text",
+     "text": "Dos grupos de seres vivos citados, os que contribuem diretamente para a manutenção dessa produtividade no referido ecossistema são"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Aves."
+    },
+    {
+     "letter": "B",
+     "text": "Algas."
+    },
+    {
+     "letter": "C",
+     "text": "Peixes."
+    },
+    {
+     "letter": "D",
+     "text": "Insetos."
+    },
+    {
+     "letter": "E",
+     "text": "Caranguejos."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q81",
+   "number": 81,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Entre as substâncias usadas para o tratamento de água está o sulfato de alumínio que, em meio alcalino, forma partículas em suspensão na água, às quais as impurezas presentes no meio se aderem."
+    },
+    {
+     "type": "text",
+     "text": "O método de separação comumente usado para retirar o sulfato de alumínio com as impurezas aderidas é a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Flotação."
+    },
+    {
+     "letter": "B",
+     "text": "Levigação."
+    },
+    {
+     "letter": "C",
+     "text": "Ventilação."
+    },
+    {
+     "letter": "D",
+     "text": "Peneiração."
+    },
+    {
+     "letter": "E",
+     "text": "Centrifugação."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2013-q84",
+   "number": 84,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Apesar de belos e impressionantes, corais exóticos encontrados na Ilha Grande podem ser uma ameaça ao equilíbrio dos ecossistemas do litoral do Rio de Janeiro. Originários do Oceano Pacífico, esses organismos foram trazidos por plataformas de petróleo e outras embarcações, provavelmente na década de 1980, e disputam com as espécies nativas elementos primordiais para a sobrevivência, como espaço e alimento. Organismos invasores são a segunda maior causa de perda de biodiversidade, superados somente pela destruição direta de hábitats pela ação do homem. As populações de espécies invasoras crescem indefinidamente e ocupam o espaço de organismos nativos."
+    },
+    {
+     "type": "text",
+     "text": "LEVY, I. Disponível em: http://cienciahoje.uol.com.br. Acesso em: 5 dez. 2011 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "As populações de espécies invasoras crescem bastante por terem a vantagem de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Não apresentarem genes deletérios no seu pool gênico."
+    },
+    {
+     "letter": "B",
+     "text": "Não possuírem parasitas e predadores naturais presentes no ambiente exótico."
+    },
+    {
+     "letter": "C",
+     "text": "Apresentarem características genéticas para se adaptarem a qualquer clima ou condição ambiental."
+    },
+    {
+     "letter": "D",
+     "text": "Apresentarem capacidade de consumir toda a variedade de alimentos disponibilizados no ambiente exótico."
+    },
+    {
+     "letter": "E",
+     "text": "Apresentarem características fisiológicas que lhes conferem maior tamanho corporal que o das espécies nativas."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q88",
+   "number": 88,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Para a identificação de um rapaz vítima de acidente, fragmentos de tecidos foram retirados e submetidos à extração de DNA nuclear, para comparação com o DNA disponível dos possíveis familiares (pai, avô materno, avó materna, filho e filha). Como o teste com o DNA nuclear não foi conclusivo, os peritos optaram por usar também DNA mitocondrial, para dirimir dúvidas."
+    },
+    {
+     "type": "text",
+     "text": "Para identificar o corpo, os peritos devem verificar se há homologia entre o DNA mitocondrial do rapaz e o DNA mitocondrial do(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Pai."
+    },
+    {
+     "letter": "B",
+     "text": "Filho."
+    },
+    {
+     "letter": "C",
+     "text": "Filha."
+    },
+    {
+     "letter": "D",
+     "text": "Avó materna."
+    },
+    {
+     "letter": "E",
+     "text": "Avô materno."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2013-q89",
+   "number": 89,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Aquecedores solares usados em residências têm o objetivo de elevar a temperatura da água até 70 °C. No entanto, a temperatura ideal da água para um banho é de 30 °C. Por isso, deve-se misturar a água aquecida com a água à temperatura ambiente de um outro reservatório, que se encontra a 25 °C."
+    },
+    {
+     "type": "text",
+     "text": "Qual a razão entre a massa de água quente e a massa de água fria na mistura para um banho à temperatura ideal?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "0,111."
+    },
+    {
+     "letter": "B",
+     "text": "0,125."
+    },
+    {
+     "letter": "C",
+     "text": "0,357."
+    },
+    {
+     "letter": "D",
+     "text": "0,428."
+    },
+    {
+     "letter": "E",
+     "text": "0,833."
+    }
+   ],
+   "answer": "B"
+  }
+ ]
+}

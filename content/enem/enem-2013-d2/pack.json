@@ -1,0 +1,2206 @@
+{
+ "id": "enem-2013-d2",
+ "vestibular": "enem",
+ "title": "ENEM 2013, dia 2",
+ "year": 2013,
+ "version": 1,
+ "source": "Questões: INEP, ENEM 2013. Transcrição: ENEM API (enem.dev).",
+ "questions": [
+  {
+   "id": "enem-2013-q91-ingles",
+   "number": 91,
+   "subject": "Inglês",
+   "statement": [
+    {
+     "type": "text",
+     "text": "After prison blaze kills hundreds in Honduras, UN warns on overcrowding"
+    },
+    {
+     "type": "text",
+     "text": "15 February 2012"
+    },
+    {
+     "type": "text",
+     "text": "A United Nations human rights official today called on Latin American countries to tackle the problem of prison overcrowding in the wake of an overnight fire at a jail in Honduras that killed hundreds of inmates. More than 300 prisoners are reported to have died in the blaze at the prison, located north of the capital, Tegucigalpa, with dozens of others still missing and presumed dead. Antonio Maldonado, human rights adviser for the UN system in Honduras, told UN Radio today that overcrowding may have contributed to the death toll. “But we have to wait until a thorough investigation is conducted so we can reach a precise cause,” he said. “But of course there is a problem of overcrowding in the prison system, not only in this country, but also in many other prisons in Latin America.”"
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.un.org. Acesso em: 22 fev. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Os noticiários destacam acontecimentos diários, que são veiculados em jornal impresso, rádio, televisão e internet. Nesse texto, o acontecimento reportado é a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Ocorrência de um incêndio em um presídio superlotado em Honduras."
+    },
+    {
+     "letter": "B",
+     "text": "Questão da superlotação nos presídios em Honduras e na América Latina."
+    },
+    {
+     "letter": "C",
+     "text": "Investigação da morte de um oficial das Nações Unidas em visita a um presídio."
+    },
+    {
+     "letter": "D",
+     "text": "Conclusão do relatório sobre a morte de mais de trezentos detentos em Honduras."
+    },
+    {
+     "letter": "E",
+     "text": "Causa da morte de doze detentos em um presídio superlotado ao norte de Honduras."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2013-q92-espanhol",
+   "number": 92,
+   "subject": "Espanhol",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Duerme negrito"
+    },
+    {
+     "type": "text",
+     "text": "Duerme, duerme, negrito,\nque tu mamá está en el campo,\nnegrito…"
+    },
+    {
+     "type": "text",
+     "text": "Te va a traer\ncodornices para ti."
+    },
+    {
+     "type": "text",
+     "text": "Te va a traer\ncarne de cerdo para ti.\nTe va a traer\nmuchas cosas para ti […]"
+    },
+    {
+     "type": "text",
+     "text": "Duerme, duerme, negrito,\nque tu mamá está en el campo,\nnegrito…\nTrabajando, trabajando duramente, trabajando sí.\nTrabajando y no le pagan,\ntrabajando sí."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://letras.mus.br. Acesso em: 26 jun. 2012 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "Duerme negrito é uma cantiga de ninar da cultura popula hispânica, cuja letra problematiza uma questão social, ao"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Destacar o orgulho da mulher como provedora do lar."
+    },
+    {
+     "letter": "B",
+     "text": "Evidenciar a ausência afetiva da mãe na criação do filho."
+    },
+    {
+     "letter": "C",
+     "text": "Retratar a precariedade das relações do trabalho no campo."
+    },
+    {
+     "letter": "D",
+     "text": "Ressaltar a inserção da mulher no mercado de trabalho rural."
+    },
+    {
+     "letter": "E",
+     "text": "Exaltar liricamente a voz materna na formação cidadã do filho."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q92-ingles",
+   "number": 92,
+   "subject": "Inglês",
+   "statement": [
+    {
+     "type": "text",
+     "text": "National Geographic News"
+    },
+    {
+     "type": "text",
+     "text": "Christine Dell’Amore\nPublished April 26, 2010"
+    },
+    {
+     "type": "text",
+     "text": "Our bodies produce a small steady amount of natural morphine, a new study suggests. Traces of the chemical are often found in mouse and human urine, leading scientists to wonder whether the drug is being made naturally or being delivered by something the subjects consumed. The new research shows that mice produce the “incredible painkiller” — and that humans and ther mammals possess the same chemical road map for making it, said study co-author Meinhart Zenk, who studies plant-based pharmaceuticals at the Donald Danforth Plant Science Center in St. Louis, Missouri."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.nationalgeographic.com. Acesso em: 27 jul. 2010."
+    },
+    {
+     "type": "text",
+     "text": "Ao ler a matéria publicada na National Geographic, para a realização de um trabalho escolar, um estudante descobriu que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Os compostos químicos da morfina, produzidos por humanos, são manipulados no Missouri."
+    },
+    {
+     "letter": "B",
+     "text": "Os ratos e os humanos possuem a mesma via metabólica para produção de morfina."
+    },
+    {
+     "letter": "C",
+     "text": "A produção de morfina em grande quantidade minimiza a dor em ratos e humanos."
+    },
+    {
+     "letter": "D",
+     "text": "Os seres humanos têm uma predisposição genética para inibir a dor."
+    },
+    {
+     "letter": "E",
+     "text": "A produção de morfina é um traço incomum entre os animais."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q93-espanhol",
+   "number": 93,
+   "subject": "Espanhol",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Pero un dia, le fue presentado a Cortés un tributo bien distinto: un obsequio de veinte esclavas llegó hasta el campamento español y entre ellas, Cortés escogió a una.\nDescrita por el cronista de la expedición, Bernal Días del Castillo, como mujer de “buen parecer y entremetida y desenvuelta”, el nombre indígena de esta mujer era Malintzin, indicativo de que había nacido bajo signos de contienda y desventura. Sus padres la vendieron como esclava; los españoles la llamaron doña Marina, pero su pueblo la llamó la Malinche, la mujer del conquistador, la traidora a los indios. Pero con cualquiera de estos nombres, la mujer conoció un extraordinario destino. Se convirtió en “mi lengua”, pues Cortés la hizo su intérprete y amante, la lengua que habría de guiarle a lo largo y alto del Imperio azteca, demonstrando que algo estaba podrido en el reino de Moctezuma, que en efecto existía gran descontento y que el Imperio tenía pies de barro."
+    },
+    {
+     "type": "text",
+     "text": "FUENTES, C. El espejo enterrado. Ciudad de México: FCE, 1992 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "Malinche, ou Malintzin, foi uma figura chave na história da conquista espanhola na América, ao atuar como"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Intérprete do conquistador, possibilitando-lhe conhecer as fragilidades do Império."
+    },
+    {
+     "letter": "B",
+     "text": "Escrava dos espanhóis, colocando-se a serviço dos objetivos da Coroa."
+    },
+    {
+     "letter": "C",
+     "text": "Amante do conquistador, dando origem à miscigenação étnica."
+    },
+    {
+     "letter": "D",
+     "text": "Voz do seu povo, defendendo os interesses políticos do Império asteca."
+    },
+    {
+     "letter": "E",
+     "text": "Maldição dos astecas, infundindo a corrupção no governo de Montezuma."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2013-q93-ingles",
+   "number": 93,
+   "subject": "Inglês",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Steve Jobs: A Life Remembered 1955-2011"
+    },
+    {
+     "type": "text",
+     "text": "Readersdigest.ca takes a look back at Steve Jobs, and his contribution to our digital world."
+    },
+    {
+     "type": "text",
+     "text": "CEO. Tech-Guru. Artist. There are few corporate figures as famous and well-regarded as former-Apple CEO Steve Jobs. His list of achievements is staggering, and his contribution to modern technology, digital media, and indeed the world as a whole, cannot be downplayed.\nWith his passing on October 5, 2011, readersdigest.ca looks back at some of his greatest achievements, and pays our respects to a digital pioneer who helped pave the way for a generation of technology, and possibilities, few could have imagined."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.readersdigest.ca. Acesso em: 25 fev. 2012"
+    },
+    {
+     "type": "text",
+     "text": "Informações sobre pessoas famosas são recorrentes na mídia, divulgadas de forma impressa ou virtualmente. Em relação a Steve Jobs, esse texto propõe"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Expor as maiores conquistas da sua empresa."
+    },
+    {
+     "letter": "B",
+     "text": "Descrever suas criações na área da tecnologia."
+    },
+    {
+     "letter": "C",
+     "text": "Enaltecer sua contribuição para o mundo digital."
+    },
+    {
+     "letter": "D",
+     "text": "Lamentar sua ausência na criação de novas tecnologias."
+    },
+    {
+     "letter": "E",
+     "text": "Discutir o impacto de seu trabalho para a geração digital."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q94-espanhol",
+   "number": 94,
+   "subject": "Espanhol",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Cabra sola"
+    },
+    {
+     "type": "text",
+     "text": "Hay quien dice que soy como la cabra;\nLo dicen lo repiten, ya lo creo;\nPero soy una cabra muy extraña\nQue lleva una medalla y siete cuernos.\n¡Cabra! Em vez de mala leche yo doy llanto.\n¡Cabra! Por lo más peligroso me paseo.\n¡Cabra! Me llevo bien con alimañas todas,\n¡Cabra! Y escribo en los tebeos.\nVivo sola, cabra sola,\n— que no quise cabrito en compañía —\ncuando subo a lo alto de este valle\nsiempre encuentro un lirio de alegría.\nY vivo por mi cuenta, cabra sola;\nQue yo a ningún rebaño pertenezco.\nSi sufrir es estar como una cabra,\nEntonces sí lo estoy, no dudar de ello."
+    },
+    {
+     "type": "text",
+     "text": "FUERTES, G. Poeta de guardia. Barcelona; Lumen, 1990."
+    },
+    {
+     "type": "text",
+     "text": "No poema, o eu lírico se compara à cabra e no quinto verso utiliza a expressão “mala leche” para se autorrepresentar como uma pessoa"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Influenciável pela opinião das demais."
+    },
+    {
+     "letter": "B",
+     "text": "Consciente de sua diferença perante as outras."
+    },
+    {
+     "letter": "C",
+     "text": "Conformada por não pertencer a nenhum grupo."
+    },
+    {
+     "letter": "D",
+     "text": "Corajosa diante de situações arriscadas."
+    },
+    {
+     "letter": "E",
+     "text": "Capaz de transformar mau humor em pranto."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2013-q94-ingles",
+   "number": 94,
+   "subject": "Inglês",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Do one thing for diversity and inclusion"
+    },
+    {
+     "type": "text",
+     "text": "The United Nations Alliance of Civilizations (UNAOC) is launching a campaign aimed at engaging people around the world to Do One Thing to support Cultural Diversity and Inclusion. Every one of us can do ONE thing for diversity and inclusion; even one very little thing can become a global action if we all take part in it."
+    },
+    {
+     "type": "text",
+     "text": "Simple things YOU can do to celebrate the World Day for Cultural Diversity for Dialogue and Development on May 21."
+    },
+    {
+     "type": "text",
+     "text": "1\\. Visit an art exhibit or a museum dedicated to other cultures.\n2\\. Read about the great thinkers of other cultures.\n3\\. Visit a place of worship different than yours and participate in the celebration.\n4\\. Spread your own culture around the world and learn about other cultures.\n5\\. Explore music of a different culture."
+    },
+    {
+     "type": "text",
+     "text": "There are thousands of things that you can do, are you taking part in it?"
+    },
+    {
+     "type": "text",
+     "text": "UNITED NATIONS ALLIANCE OF CIVILIZATIONS. Disponível em: www.unaoc.org. Acesso em: 16 fev. 2013 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Internautas costumam manifestar suas opiniões sobre artigos on-line por meio da postagem de comentários. O comentário que exemplifica o engajamento proposto na quarta dica da campanha apresentada no texto é:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "“Lá na minha escola, aprendi a jogar capoeira para uma apresentação no Dia da Consciência Negra.”"
+    },
+    {
+     "letter": "B",
+     "text": "“Outro dia assisti na TV uma reportagem sobre respeito à diversidade. Gente de todos os tipos, várias tribos. Curti bastante.”"
+    },
+    {
+     "letter": "C",
+     "text": "“Eu me inscrevi no Programa Jovens Embaixadores para mostrar o que tem de bom em meu país e conhecer outras formas de ser.”"
+    },
+    {
+     "letter": "D",
+     "text": "“Curto muito bater papo na internet. Meus amigos estrangeiros me ajudam a aperfeiçoar minha proficiência em língua estrangeira.”"
+    },
+    {
+     "letter": "E",
+     "text": "“Pesquisei em sites de culinária e preparei uma festa árabe para uns amigos da escola. Eles adoraram, principalmente, os doces!”"
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q95-espanhol",
+   "number": 95,
+   "subject": "Espanhol",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Pensar la lengua del siglo XXI"
+    },
+    {
+     "type": "text",
+     "text": "Aceptada la dicotomía entre “español general” académico y “español periférico” americano, la capacidad financiera de la Real Academia, apoyada por la corona y las grandes empresas transnacionales españolas, no promueve la conservación de la unidad, sino la unificación del español, dirigida e impuesta desde España (la Fundación Español Urgente: Fundeu). Unidad y unificación no son lo mismo: la unidad ha existido siempre y com ella la variedad de la lengua, riqueza suprema de nuestras culturas nacionales; la unificación lleva a la pérdida de las diferencias culturales, que nutren al ser humano y son tan importantes como la diversidad biológica de la Tierra.\nCulturas nacionales: desde que nacieron los primeros criollos, mestizos y mulatos en el continente hispanoamericano, las diferencias de colonización, las improntas que dejaron en las nacientes sociedades americanas los pueblos aborígenes, la explotación de las riquezas naturales, las redes comerciales coloniales fueron creando culturas propias, diferentes entre sí, aunque con el fondo común de la tradición española. Después de las independencias, cuando se instituyeron nuestras naciones, bajo diferentes influencias, ya francesas, ya inglesas; cuando los inmigrantes italianos, sobre todo, dieron su pauta a Argentina, Uruguay o Venezuela, esas culturas nacionales se consolidaron y con ellas su español, pues la lengua es, ante todo, constituyente. Así, el español actual de España no es sino una más de las lenguas nacionales del mundo hispánico. El español actual es el conjunto de veintidós españoles nacionales, que tienen sus propias características; ninguno vale más que otro. La lengua del siglo XXI es, por eso, una lengua pluricéntrica."
+    },
+    {
+     "type": "text",
+     "text": "LARA, L.F. Disponível em: www.revistaenie.clarin.com. Acesso em: 25 fev. 2013."
+    },
+    {
+     "type": "text",
+     "text": "O texto aborda a questão da língua espanhola no século XXI e tem como função apontar que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "As especificidades culturais rompem com a unidade hispânica."
+    },
+    {
+     "letter": "B",
+     "text": "As variedades do espanhol têm igual relevância linguística e cultural."
+    },
+    {
+     "letter": "C",
+     "text": "A unidade linguística do espanhol fortalece a identidade cultural hispânica."
+    },
+    {
+     "letter": "D",
+     "text": "A consolidação das diferenças da língua prejudica sua projeção mundial."
+    },
+    {
+     "letter": "E",
+     "text": "A unificação da língua enriquece a competência linguística dos falantes."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q97",
+   "number": 97,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O jogo é uma atividade ou ocupação voluntária, exercida dentro de certos e determinados limites de tempo e de espaço, segundo regras livremente consentidas, mas absolutamente obrigatórias, dotado de um fim em si mesmo, acompanhado de um sentimento de tensão e de alegria e de uma consciência de ser diferente da “vida quotidiana”."
+    },
+    {
+     "type": "text",
+     "text": "HUIZINGA, J. Homo ludens: o jogo como elemento da cultura. São Paulo: Perspectiva, 2004."
+    },
+    {
+     "type": "text",
+     "text": "Segundo o texto, o jogo comporta a possibilidade de fruição. Do ponto de vista das práticas corporais, essa fruição se estabelece por meio do(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Fixação de táticas, que define a padronização para maior alcance popular."
+    },
+    {
+     "letter": "B",
+     "text": "Competitividade, que impulsiona o interesse pelo sucesso."
+    },
+    {
+     "letter": "C",
+     "text": "Refinamento técnico, que gera resultados satisfatórios."
+    },
+    {
+     "letter": "D",
+     "text": "Caráter lúdico, que permite experiências inusitadas."
+    },
+    {
+     "letter": "E",
+     "text": "Uso tecnológico, que amplia as opções de lazer."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2013-q98",
+   "number": 98,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Novas tecnologias"
+    },
+    {
+     "type": "text",
+     "text": "Atualmente, prevalece na mídia um discurso de exaltação das novas tecnologias, principalmente aquelas ligadas às atividades de telecomunicações. Expressões frequentes como “o futuro já chegou”, “maravilhas tecnológicas” e “conexão total com o mundo” “fetichi – zam” novos produtos, transformando-os em objetos do desejo, de consumo obrigatório. Por esse motivo carregamos hoje nos bolsos, bolsas e mochilas o “futuro” tão festejado.\nTodavia, não podemos reduzir-nos a meras vítimas de um aparelho midiático perverso, ou de um aparelho capitalista controlador. Há perversão, certamente, e controle, sem sombra de dúvida. Entretanto, desenvolvemos uma relação simbiótica de dependência mútua com os veículos de comunicação, que se estreita a cada imagem compartilhada e a cada dossiê pessoal transformado em objeto público de entretenimento.\nNão mais como aqueles acorrentados na caverna de Platão, somos livres para nos aprisionar, por espontânea vontade, a esta relação sadomasoquista com as estruturas midiáticas, na qual tanto controlamos quanto somos controlados."
+    },
+    {
+     "type": "text",
+     "text": "SAMPAIO A. S. A microfísica do espetáculo. Disponível em: http://observatoriodaimprensa.com.br. Acesso em: 1 mar 2013 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Ao escrever um artigo de opinião, o produtor precisa criar uma base de orientação linguística que permita alcançar os leitores e convencê-los com relação ao ponto de vista defendido. Diante disso, nesse texto, a escolha das formas verbais em destaque objetiva"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Criar relação de subordinação entre leitor e autor, já que ambos usam as novas tecnologias."
+    },
+    {
+     "letter": "B",
+     "text": "Enfatizar a probabilidade de que toda população brasileira esteja aprisionada às novas tecnologias."
+    },
+    {
+     "letter": "C",
+     "text": "Indicar, de forma clara, o ponto de vista de que hoje as pessoas são controladas pelas novas tecnologias."
+    },
+    {
+     "letter": "D",
+     "text": "Tornar o leitor copartícipe do ponto de vista de que ele manipula as novas tecnologias e por elas é manipulado."
+    },
+    {
+     "letter": "E",
+     "text": "Demonstrar ao leitor sua parcela de responsabilidade por deixar que as novas tecnologias controlem as pessoas."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2013-q99",
+   "number": 99,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Olá! Negro"
+    },
+    {
+     "type": "text",
+     "text": "Os netos de teus mulatos e de teus cafuzos\ne a quarta e a quinta gerações de teu sangue sofredor\ntentarão apagar a tua cor!\nE as gerações dessas gerações quando apagarem\na tua tatuagem execranda,\nnão apagarão de suas almas, a tua alma, negro!\nPai-João, Mãe-negra, Fulô, Zumbi,\nnegro-fujão, negro cativo, negro rebelde\nnegro cabinda, negro congo, negro íoruba,\nnegro que foste para o algodão de USA\npara os canaviais do Brasil,\npara o tronco, para o colar de ferro, para a canga\nde todos os senhores do mundo;\neu melhor compreenda agora os teus blues\nnesta hora triste da raça branca, negro!\nOlá, Negro! Olá. Negro!\nA raça que te enforca, enforca-se de tédio, negro!"
+    },
+    {
+     "type": "text",
+     "text": "LIMA. J, Obras completas: Rio de Janeiro, Aguilar, 1958 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "O conflito de gerações e de grupos étnicos reproduz, na visão do eu lírico, um contexto social assinalado por"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Modernização dos modos de produção e consequente enriquecimento dos brancos."
+    },
+    {
+     "letter": "B",
+     "text": "Preservação da memória ancestral e resistência negra à apatia cultural dos brancos."
+    },
+    {
+     "letter": "C",
+     "text": "Superação dos costumes antigos por meio da incorporação de valores dos colonizados."
+    },
+    {
+     "letter": "D",
+     "text": "Nivelamento social de descendentes de escravos e de senhores pela condição de pobreza."
+    },
+    {
+     "letter": "E",
+     "text": "Antagonismo entre grupos de trabalhadores e lacunas de hereditariedade."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q100",
+   "number": 100,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Até quando?"
+    },
+    {
+     "type": "text",
+     "text": "Não adianta olhar pro céu\nCom muita fé e pouca luta\nLevanta aí que você tem muito protesto pra fazer\nE muita greve, você pode, você deve, pode crer\nNão adianta olhar pro chão\nVirar a cara pra não ver\nSe liga aí que te botaram numa cruz e só porque Jesus\nSofreu não quer dizer que você tenha que sofrer!"
+    },
+    {
+     "type": "text",
+     "text": "GABRIEL, O PENSADOR. Seja você mesmo (mas não seja sempre o mesmo). Rio de Janeiro: Sony Music, 2001 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "As escolhas linguísticas feitas pelo autor conferem ao texto"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Caráter atual, pelo uso de linguagem própria da internet."
+    },
+    {
+     "letter": "B",
+     "text": "Cunho apelativo, pela predominância de imagens metafóricas."
+    },
+    {
+     "letter": "C",
+     "text": "Tom de diálogo, pela recorrência de gírias."
+    },
+    {
+     "letter": "D",
+     "text": "Espontaneidade, pelo uso da linguagem coloquial."
+    },
+    {
+     "letter": "E",
+     "text": "Originalidade, pela concisão da linguagem."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2013-q101",
+   "number": 101,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Manta que costura causos e histórias no seio de uma família serve de metáfora da memória em obra escrita por autora portuguesa"
+    },
+    {
+     "type": "text",
+     "text": "O que poderia valer mais do que a manta para aquela família? Quadros de pintores famosos? Joias de rainha? Palácios? Uma manta feita de centenas de retalhos de roupas velhas aquecia os pés das crianças e a memória da avó, que a cada quadrado apontado por seus netos resgatava de suas lembranças uma história. Histórias fantasiosas como a do vestido com um bolso que abrigava um gnomo comedor de biscoitos; histórias de traquinagem como a do calção transformado em farrapos no dia em que o menino, que gostava de andar de bicicleta de olhos fechados, quebrou o braço; histórias de saudades, como o avental que carregou uma carta por mais de um mês … Muitas histórias formavam aquela manta. Os protagonistas eram pessoas da família, um tio, uma tia, o avô, a bisavó, ela mesma, os antigos donos das roupas. Um dia, a avó morreu, e as tias passaram a disputar a manta, todas a queriam, mais do que aos quadros, joias e palácios deixados por ela. Felizmente, as tias conseguiram chegar a um acordo, e a manta passou a ficar cada mês na casa de uma delas. E os retalhos, à medida que iam se acabando, eram substituídos por outros retalhos, e novas e antigas histórias foram sendo incorporadas à manta mais valiosa do mundo."
+    },
+    {
+     "type": "text",
+     "text": "LASEVICIUS, A. Língua Portuguesa, São Paulo, n. 76, 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A autora descreve a importância da manta para aquela família, ao verbalizar que “novas e antigas histórias foram sendo incorporadas à manta mais valiosa do mundo”. Essa valorização evidencia-se pela"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Oposição entre os objetos de valor, como joias, palácios e quadros, e a velha manta."
+    },
+    {
+     "letter": "B",
+     "text": "Descrição detalhada dos aspectos físicos da manta, como cor e tamanho dos retalhos."
+    },
+    {
+     "letter": "C",
+     "text": "Valorização da manta como objeto de herança familiar disputado por todos."
+    },
+    {
+     "letter": "D",
+     "text": "Comparação entre a manta que protege do frio e a manta que aquecia os pés das crianças."
+    },
+    {
+     "letter": "E",
+     "text": "Correlação entre os retalhos da manta e as muitas histórias de tradição oral que os formavam."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2013-q102",
+   "number": 102,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O hipertexto permite – ou, de certo modo, em alguns casos, até mesmo exige – a participação de diversos autores na sua construção, a redefinição dos papéis de autor e leitor e a revisão dos modelos tradicionais de leitura e de escrita. Por seu enorme potencial para se estabelecerem conexões, ele facilita o desenvolvimento de trabalhos coletivamente, o estabelecimento da comunicação e a aquisição de informação de maneira cooperativa."
+    },
+    {
+     "type": "text",
+     "text": "Embora haja quem identifique o hipertexto exclusiva – mente com os textos eletrônicos, produzidos em determinado tipo de meio ou de tecnologia, ele não deve ser limitado a isso, já que consiste numa forma organizacional que tanto pode ser concebida para o papel como para os ambientes digitais. É claro que o texto virtual permite concretizar certos aspectos que, no papel, são praticamente inviáveis: a conexão imediata, a comparação de trechos de textos na mesma tela, o “mergulho” nos diversos aprofundamentos de um tema, como se o texto tivesse camadas, dimensões ou planos."
+    },
+    {
+     "type": "text",
+     "text": "RAMAL, A. C. Educação na cibercultura: hipertextualidade, leitura, escrita e aprendizagem. Porto Alegre: Artmed, 2002."
+    },
+    {
+     "type": "text",
+     "text": "Considerando-se a linguagem específica de cada sistema de comunicação, como rádio, jornal, TV, internet, segundo o texto, a hipertextualidade configura-se como um(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Elemento originário dos textos eletrônicos."
+    },
+    {
+     "letter": "B",
+     "text": "Conexão imediata e reduzida ao texto digital."
+    },
+    {
+     "letter": "C",
+     "text": "Novo modo de leitura e de organização da escrita."
+    },
+    {
+     "letter": "D",
+     "text": "Estratégia de manutenção do papel do leitor com perfil definido."
+    },
+    {
+     "letter": "E",
+     "text": "Modelo de leitura baseado nas informações da superfície do texto."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q104",
+   "number": 104,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Lusofonia"
+    },
+    {
+     "type": "text",
+     "text": "rapariga: s.f., fem. de rapaz: mulher nova; moça; menina; (Brasil), meretriz."
+    },
+    {
+     "type": "text",
+     "text": "Escrevo um poema sobre a rapariga que está sentada\nno café, em frente da chávena de café, enquanto\nalisa os cabelos com a mão. Mas não posso escrever este\npoema sobre essa rapariga porque, no brasil, a palavra\nrapariga não quer dizer o que ela diz em portugal. Então,\nterei de escrever a mulher nova do café, a jovem do café,\na menina do café, para que a reputação da pobre rapariga\nque alisa os cabelos com a mão, num café de lisboa, não\nfique estragada para sempre quando este poema atravessar o\natlântico para desembarcar no rio de janeiro. E isto tudo\nsem pensar em áfrica, porque aí lá terei\nde escrever sobre a moça do café, para\nevitar o tom demasiado continental da rapariga, que é\numa palavra que já me está a pôr com dores\nde cabeça até porque, no fundo, a única coisa que eu queria\nera escrever um poema sobre a rapariga do\ncafé. A solução, então, é mudar de café, e limitar-me a\nescrever um poema sobre aquele café onde nenhuma\nrapariga se pode sentar à mesa porque só servem café ao balcão."
+    },
+    {
+     "type": "text",
+     "text": "JÚDICE, N. Matéria do Poema. Lisboa: D. Quixote, 2008."
+    },
+    {
+     "type": "text",
+     "text": "O texto traz em relevo as funções metalinguística e poética. Seu caráter metalinguístico justifica-se pela"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Discussão da dificuldade de se fazer arte inovadora no mundo contemporâneo."
+    },
+    {
+     "letter": "B",
+     "text": "Defesa do movimento artístico da pós-modernidade, típico do século XX."
+    },
+    {
+     "letter": "C",
+     "text": "Abordagem de temas do cotidiano, em que a arte se volta para assuntos rotineiros."
+    },
+    {
+     "letter": "D",
+     "text": "Tematização do fazer artístico, pela discussão do ato de construção da própria obra."
+    },
+    {
+     "letter": "E",
+     "text": "Valorização do efeito de estranhamento causado no público, o que faz a obra ser reconhecida."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2013-q105",
+   "number": 105,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Art. 2º Considera-se criança, para os efeitos desta lei, a pessoa até doze anos de idade incompletos, e adolescente aquela entre doze e dezoito anos de idade. […]\nArt 3º A criança e o adolescente gozam de todos os direitos fundamentais inerentes à pessoa humana, sem prejuízo da proteção integral de que trata esta Lei, assegurando-se-lhes, por lei ou por outros meios, todas as oportunidades e facilidades, a fim de lhes facultar o desenvolvimento físico, mental, moral, espiritual e social, em condições de liberdade e de dignidade.\nArt 4° É dever da família, da comunidade, da sociedade em geral e do poder público assegurar, com absoluta prioridade, a efetivação dos direitos referentes à vida, à saúde, à alimentação, à educação, ao esporte, ao lazer, à profissionalização, à cultura, à dignidade, ao respeito, à liberdade e à convivência familiar e comunitária. […]"
+    },
+    {
+     "type": "text",
+     "text": "BRASIL. Lei n. 8 069, de 13 de julho de 1990. Estatuto da criança e do adolescente. Disponível em: www.planalto.gov.br (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "Para cumprir sua função social, o Estatuto da criança e do adolescente apresenta características próprias desse gênero quanto ao uso da língua e quanto à composição textual. Entre essas características, destaca-se o emprego de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Repetição vocabular para facilitar o entendimento."
+    },
+    {
+     "letter": "B",
+     "text": "Palavras e construções que evitem ambiguidade."
+    },
+    {
+     "letter": "C",
+     "text": "Expressões informais para apresentar os direitos."
+    },
+    {
+     "letter": "D",
+     "text": "Frases na ordem direta para apresentar as informações mais relevantes."
+    },
+    {
+     "letter": "E",
+     "text": "Exemplificações que auxiliem a compreensão dos conceitos formulados."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q106",
+   "number": 106,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O sociólogo espanhol Manuel Castells sustenta que “a comunicação de valores e a mobilização em torno do sentido são fundamentais. Os movimentos culturais (entendidos como movimentos que têm como objetivo defender ou propor modos próprios de vida e sentido) constroem-se em torno de sistemas de comunicação – essencialmente a internet e os meios de comunicação – porque esta é a principal via que esses movimentos encontram para chegar àquelas pessoas que podem eventualmente partilhar os seus valores, e a partir daqui atuar na consciência da sociedade no seu conjunto”."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.compolitica.org. Acesso em: 2 mar. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Em 2011, após uma forte mobilização popular via redes sociais, houve a queda do governo de Hosni Mubarak no Egito. Esse evento ratifica o argumento de que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A internet atribui verdadeiros valores culturais aos seus usuários."
+    },
+    {
+     "letter": "B",
+     "text": "A consciência das sociedades foi estabelecida com o advento da internet."
+    },
+    {
+     "letter": "C",
+     "text": "A revolução tecnológica tem como principal objetivo a deposição de governantes antidemocráticos."
+    },
+    {
+     "letter": "D",
+     "text": "Os recursos tecnológicos estão a serviço dos opressores e do fortalecimento de suas práticas políticas."
+    },
+    {
+     "letter": "E",
+     "text": "Os sistemas de comunicação são mecanismos importantes, de adesão e compartilhamento de valores sociais."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2013-q107",
+   "number": 107,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Secretaria de Cultura"
+    },
+    {
+     "type": "text",
+     "text": "EDITAL"
+    },
+    {
+     "type": "text",
+     "text": "NOTIFICAÇÃO – Síntese da resolução publicada no Diário Oficial da Cidade, 29/07/2011 – página 41 – 511.a Reunião Ordinária, em 21/06/2011."
+    },
+    {
+     "type": "text",
+     "text": "Resolução n.o 08/2011 – TOMBAMENTO dos imóveis da Rua Augusta. n.o 349 e n.o 353, esquina com a Rua Marquês de Paranaquá, n.o 315. n.o 327 e n.o 329 (Setor 010, Quadra 026, Lotes 0016-2 e 00170-0), bairro da Consolação. Subprefeitura da Sé, conforme o processo administrativo n.o 1991-0.005.365-1."
+    },
+    {
+     "type": "text",
+     "text": "Folha de S. Paulo, 5 ago. 2011 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Um leitor interessado nas decisões governamentais escreve uma carta para o jornal que publicou o edital, concordando com a resolução sintetizada no Edital da Secretaria de Cultura. Uma frase adequada para expressar sua concordância é:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Que sábia iniciativa! Os prédios em péssimo estado de conservação devem ser derrubados."
+    },
+    {
+     "letter": "B",
+     "text": "Até que enfim! Os edifícios localizados nesse trecho descaracterizam o conjunto arquitetônico da Rua Augusta."
+    },
+    {
+     "letter": "C",
+     "text": "Parabéns! O poder público precisa mostrar sua força como guardião das tradições dos moradores locais."
+    },
+    {
+     "letter": "D",
+     "text": "Justa decisão! O governo dá mais um passo rumo à eliminação do problema da falta de moradias populares."
+    },
+    {
+     "letter": "E",
+     "text": "Congratulações! O patrimônio histórico da cidade merece todo empenho para ser preservado."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2013-q108",
+   "number": 108,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Adolescentes: mais altos, gordos e preguiçosos"
+    },
+    {
+     "type": "text",
+     "text": "A oferta de produtos industrializados e a falta de tempo têm sua parcela de responsabilidade no aumento da silhueta dos jovens. “Os nossos hábitos alimentares, de modo geral, mudaram muito”, observa Vivian Ellinger, presidente da Sociedade Brasileira de Endocrinologia e Metabologia (SBEM), no Rio de Janeiro. Pesquisas mostram que, aqui no Brasil, estamos exagerando no sal e no açúcar, além de tomar pouco leite e comer menos frutas e feijão."
+    },
+    {
+     "type": "text",
+     "text": "Outro pecado, velho conhecido de quem exibe excesso de gordura por causa da gula, surge como marca da nova geração: a preguiça, “Cem por cento das meninas que participam do Programa não praticavam nenhum esporte”, revela a psicóloga Cristina Freire, que monitora o desenvolvimento emocional das voluntárias."
+    },
+    {
+     "type": "text",
+     "text": "Você provavelmente já sabe quais são as consequências de uma rotina sedentária e cheia de gordura. “E não é novidade que os obesos têm uma sobrevida menor”, acredita Claudia Cozer, endocrinologista da Associação Brasileira para o Estudo da Obesidade e da Síndrome Metabólica. Mas, se há cinco anos os estudos projetavam um futuro sombrio para os jovens, no cenário atual as doenças que viriam na velhice já são parte da rotina deles. “Os adolescentes já estão sofrendo com hipertensão e diabete”, exemplifica Claudia."
+    },
+    {
+     "type": "text",
+     "text": "DESGUALDO, P. Revista Saúde. Disponível em: http://saude.abril.com.br.\nAcesso em: 28 jul. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Sobre a relação entre os hábitos da população adolescente e as suas condições de saúde, as informações apresentadas no texto indicam que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A falta de atividade física somada a uma alimentação nutricionalmente desequilibrada constituem fatores relacionados ao aparecimento de doenças crônicas entre os adolescentes."
+    },
+    {
+     "letter": "B",
+     "text": "A diminuição do consumo de alimentos fontes de carboidratos combinada com um maior consumo de alimentos ricos em proteínas contribuíram para o aumento da obesidade entre os adolescentes."
+    },
+    {
+     "letter": "C",
+     "text": "A maior participação dos alimentos industrializados e gordurosos na dieta da população adolescente tem tornado escasso o consumo de sais e açúcares, o que prejudica o equilíbrio metabólico."
+    },
+    {
+     "letter": "D",
+     "text": "A ocorrência de casos de hipertensão e diabetes entre os adolescentes advém das condições de alimentação, enquanto que na população adulta os fatores hereditários são preponderantes."
+    },
+    {
+     "letter": "E",
+     "text": "A prática regular de atividade física é um importante fator de controle da diabetes entre a população adolescente, por provocar um constante aumento da pressão arterial sistólica."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2013-q111",
+   "number": 111,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Própria dos festejos juninos, a quadrilha nasceu como dança aristocrática, oriunda dos salões franceses, depois difundida por toda a Europa."
+    },
+    {
+     "type": "text",
+     "text": "No Brasil, foi introduzida como dança de salão e, por sua vez, apropriada e adaptada pelo gosto popular. Para sua ocorrência, é importante a presença de um mestre “marcante” ou “marcador”, pois é quem determina as figurações diversas que os dançadores desenvolvem. Observa-se a constância das seguintes marcações: “Tour”, “En avant”, “Chez des dames”, “Chez des chevaliê”, “Cestinha de flor”, “Balancê”, “Caminho da roça”, “Olha a chuva”, “Garranchê”, “Passeio”, “Coroa de flores”, “Coroa de espinhos” etc."
+    },
+    {
+     "type": "text",
+     "text": "No Rio de Janeiro, em contexto urbano, apresenta transformações: surgem novas figurações, o francês aportuguesado inexiste, o uso de gravações substitui a música ao vivo, além do aspecto de competição, que sustenta os festivais de quadrilha, promovidos por órgãos de turismo."
+    },
+    {
+     "type": "text",
+     "text": "CASCUDO, L. C. Dicionário do folclore brasileiro. Rio de Janeiro: Melhoramentos, 1976."
+    },
+    {
+     "type": "text",
+     "text": "As diversas formas de dança são demonstrações da diversidade cultural do nosso país. Entre elas, a quadrilha é considerada uma dança folclórica por"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Possuir como característica principal os atributos divinos e religiosos e, por isso, identificar uma nação ou região."
+    },
+    {
+     "letter": "B",
+     "text": "Abordar as tradições e costumes de determinados povos ou regiões distintas de uma mesma nação."
+    },
+    {
+     "letter": "C",
+     "text": "Apresentar cunho artístico e técnicas apuradas, sendo, também, considerada dança-espetáculo."
+    },
+    {
+     "letter": "D",
+     "text": "Necessitar de vestuário específico para a sua prática, o qual define seu país de origem."
+    },
+    {
+     "letter": "E",
+     "text": "Acontecer em salões e festas e ser influenciada por diversos gêneros musicais."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q112",
+   "number": 112,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Jogar limpo"
+    },
+    {
+     "type": "text",
+     "text": "Argumentar não é ganhar uma discussão a qualquer preço. Convencer alguém de algo é, antes de tudo, uma alternativa à prática de ganhar uma questão no grito ou na violência física — ou não física. Não física, dois pontos. Um político que mente descaradamente pode cativar eleitores. Uma publicidade que joga baixo pode constranger multidões a consumir um produto danoso ao ambiente. Há manipulações psicológicas não só na religião. E é comum pessoas agirem emocionalmente, porque vítimas de ardilosa — e cangoteira — sedução. Embora a eficácia a todo preço não seja argumentar, tampouco se trata de admitir só verdades científicas — formar opinião apenas depois de ver a demonstração e as evidências, como a ciência faz. Argumentar é matéria da vida cotidiana, uma forma de retórica, mas é um raciocínio que tenta convencer sem se tornar mero cálculo manipulativo, e pode ser rigoroso sem ser científico."
+    },
+    {
+     "type": "text",
+     "text": "Língua Portuguesa, São Paulo, ano 5, n. 66, abr. 2011 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "No fragmento, opta-se por uma construção linguística bastante diferente em relação aos padrões normalmente empregados na escrita. Trata-se da frase “Não física, dois pontos”. Nesse contexto, a escolha por se representar por extenso o sinal de pontuação que deveria ser utilizado"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Enfatiza a metáfora de que o autor se vale para desenvolver seu ponto de vista sobre a arte de argumentar."
+    },
+    {
+     "letter": "B",
+     "text": "Diz respeito a um recurso de metalinguagem, evidenciando as relações e as estruturas presentes no enunciado."
+    },
+    {
+     "letter": "C",
+     "text": "É um recurso estilístico que promove satisfatoriamente a sequenciação de ideias, introduzindo apostos exemplificativos."
+    },
+    {
+     "letter": "D",
+     "text": "Ilustra a flexibilidade na estruturação do gênero textual, a qual se concretiza no emprego da linguagem conotativa."
+    },
+    {
+     "letter": "E",
+     "text": "Prejudica a sequência do texto, provocando estranheza no leitor ao não desenvolver explicitamente o raciocínio a partir de argumentos."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q113",
+   "number": 113,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A diva"
+    },
+    {
+     "type": "text",
+     "text": "Vamos ao teatro, Maria José?\nQuem me dera,\ndesmanchei em rosca quinze kilos de farinha,\ntou podre. Outro dia a gente vamos.\nFalou meio triste, culpada,\ne um pouco alegre por recusar com orgulho.\nTEATRO! Disse no espelho.\nTEATRO! Mais alto, desgrenhada.\nTEATRO! E os cacos voaram\nsem nenhum aplauso.\nPerfeita."
+    },
+    {
+     "type": "text",
+     "text": "PRADO, A. Oráculos de maio. São Paulo: Siciliano, 1999."
+    },
+    {
+     "type": "text",
+     "text": "Os diferentes gêneros textuais desempenham funções sociais diversas, reconhecidas pelo leitor com base em suas características específicas, bem como na situação comunicativa em que ele é produzido. Assim, o texto A diva"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Narra um fato real vivido por Maria José."
+    },
+    {
+     "letter": "B",
+     "text": "Surpreende o leitor pelo seu efeito poético."
+    },
+    {
+     "letter": "C",
+     "text": "Relata uma experiência teatral profissional."
+    },
+    {
+     "letter": "D",
+     "text": "Descreve uma ação típica de uma mulher sonhadora."
+    },
+    {
+     "letter": "E",
+     "text": "Defende um ponto de vista relativo ao exercício teatral."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q115",
+   "number": 115,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Querô"
+    },
+    {
+     "type": "text",
+     "text": "DELEGADO — Então desce ele. Vê o que arrancam desse sacana.\nSARARÁ — Só que tem um porém. Ele é menor.\nDELEGADO — Então vai com jeito. Depois a gente entrega pro juiz.\n_(Luz apaga no delegado e acende no repórter, que se dirige ao público.)\n_REPÓRTER — E o Querô foi espremido, empilhado, esmagado de corpo e alma num cubículo imundo, com outros meninos. Meninos todos espremidos, empilhados, esmagados de corpo e alma, alucinados pelos seus desesperos, cegados por muitas aflições. Muitos meninos, com seus desesperos e seus ódios, empilhados, espremidos, esmagados de corpo e alma no imundo cubículo do reformatório. E foi lá que o Querô cresceu."
+    },
+    {
+     "type": "text",
+     "text": "MARCOS, P. Melhor teatro. São Paulo: Global, 2003 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "No discurso do repórter, a repetição causa um efeito de sentido de intensificação, construindo a ideia de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Opressão física e moral, que gera rancor nos meninos."
+    },
+    {
+     "letter": "B",
+     "text": "Repressão policial e social, que gera apatia nos meninos."
+    },
+    {
+     "letter": "C",
+     "text": "Polêmica judicial e midiática, que gera confusão entre os meninos."
+    },
+    {
+     "letter": "D",
+     "text": "Concepção educacional e carcerária, que gera comoção nos meninos."
+    },
+    {
+     "letter": "E",
+     "text": "Informação crítica e jornalística, que gera indignação entre os meninos."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2013-q116",
+   "number": 116,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Mal secreto"
+    },
+    {
+     "type": "text",
+     "text": "Se a cólera que espuma, a dor que mora\nN’aIma, e destrói cada ilusão que nasce,\nTudo o que punge, tudo o que devora\nO coração, no rosto se estampasse;"
+    },
+    {
+     "type": "text",
+     "text": "Se se pudesse, o espirito que chora,\nVer através da máscara da face,\nQuanta gente, talvez, que inveja agora\nNos causa, então piedade nos causasse!"
+    },
+    {
+     "type": "text",
+     "text": "Quanta gente que ri, talvez, consigo\nGuarda um atroz, recôndito inimigo,\nComo invisível chaga cancerosa!"
+    },
+    {
+     "type": "text",
+     "text": "Quanta gente que ri, talvez existe,\nCuja ventura única consiste\nEm parecer aos outros venturosa!"
+    },
+    {
+     "type": "text",
+     "text": "(CORREIA, R. In: PATRIOTA, M. Para compreender Raimundo Correia. Brasilia: Alhambra, 1995.)"
+    },
+    {
+     "type": "text",
+     "text": "Coerente com a proposta parnasiana de cuidado formal e racionalidade na condução temática, o soneto de Raimundo Correia reflete sobre a forma como as emoções do indivíduo são julgadas em sociedade. Na concepção do eu lírico, esse julgamento revela que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A necessidade de ser socialmente aceito leva o indivíduo a agir de forma dissimulada."
+    },
+    {
+     "letter": "B",
+     "text": "O sofrimento íntimo torna-se mais ameno quando compartilhado por um grupo social."
+    },
+    {
+     "letter": "C",
+     "text": "A capacidade de perdoar e aceitar as diferenças neutraliza o sentimento de inveja."
+    },
+    {
+     "letter": "D",
+     "text": "O instinto de solidariedade conduz o indivíduo a apiedar-se do próximo."
+    },
+    {
+     "letter": "E",
+     "text": "A transfiguração da angústia em alegria é um artifício nocivo ao convívio social."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2013-q117",
+   "number": 117,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Mesmo tendo a trajetória do movimento interrompida com a prisão de seus dois líderes, o tropicalismo não deixou de cumprir seu papel de vanguarda na música popular brasileira. A partir da década de 70 do século passado, em lugar do produto musical de exportação de nível internacional prometido pelos baianos com a “retomada da linha evolutória”, instituiu-se nos meios de comunicação e na indústria do lazer uma nova era musical."
+    },
+    {
+     "type": "text",
+     "text": "TINHORÃO, J. R. Pequena história da música popular: da modinha ao tropicalismo. São Paulo: Art, 1986 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A nova era musical mencionada no texto evidencia um gênero que incorporou a cultura de massa e se adequou à realidade brasileira. Esse gênero está representado pela obra cujo trecho da letra é:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A estrela d'alva / No céu desponta / E a lua anda tonta / Com tamanho esplendor. (As pastorinhas, Noel Rosa e João de Barro)"
+    },
+    {
+     "letter": "B",
+     "text": "Hoje / Eu quero a rosa mais linda que houver / Quero a primeira estrela que vier / Para enfeitar a noite do meu bem. (A noite do meu bem, Dolores Duran)"
+    },
+    {
+     "letter": "C",
+     "text": "No rancho fundo / Bem pra lá do fim do mundo / Onde a dor e a saudade / Contam coisas da cidade. (No rancho fundo, Ary Barroso e Lamartine Babo)"
+    },
+    {
+     "letter": "D",
+     "text": "Baby Baby / Não adianta chamar / Quando alguém está perdido / Procurando se encontrar. (Ovelha negra, Rita Lee)"
+    },
+    {
+     "letter": "E",
+     "text": "Pois há menos peixinhos a nadar no mar / Do que os beijinhos que eu darei / Na sua boca. (Chega de saudade, Tom Jobim e Vinicius de Moraes)"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2013-q118",
+   "number": 118,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Futebol: “A rebeldia é que muda o mundo”"
+    },
+    {
+     "type": "text",
+     "text": "Conheça a história de Afonsinho, o primeiro jogador do futebol brasileiro a derrotar a cartolagem e a conquistar o Passe Livre, há exatos 40 anos"
+    },
+    {
+     "type": "text",
+     "text": "Pelé estava se aposentando pra valer pela primeira vez, então com a camisa do Santos (porque depois voltaria a atuar pelo New York Cosmos, dos Estados Unidos), em 1972, quando foi questionado se, finalmente, sentia-se um homem livre. O Rei respondeu sem titubear:\n— Homem livre no futebol só conheço um: o Afonsinho. Este sim pode dizer, usando as suas palavras, que deu o grito de independência ou morte. Ninguém mais. O resto é conversa.\nApesar de suas declarações serem motivo de chacota por parte da mídia futebolística e até dos torcedores brasileiros, o Atleta do Século acertou. E provavelmente acertaria novamente hoje.\nPela admiração por um de seus colegas de clube daquele ano. Pelo reconhecimento do caráter e personalidade de um dos jogadores mais contestadores do futebol nacional. E principalmente em razão da história de luta — e vitória — de Afonsinho sobre os cartolas."
+    },
+    {
+     "type": "text",
+     "text": "ANDREUCCI, R. Disponível em: http://carosamigos.terra.com.br. Acesso em: 19 ago. 2011."
+    },
+    {
+     "type": "text",
+     "text": "O autor utiliza marcas linguísticas que dão ao texto um caráter informal. Uma dessas marcas é identificada em:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "“[...] o Atleta do Século acertou.”"
+    },
+    {
+     "letter": "B",
+     "text": "“O Rei respondeu sem titubear [...]”."
+    },
+    {
+     "letter": "C",
+     "text": "“E provavelmente acertaria novamente hoje.”"
+    },
+    {
+     "letter": "D",
+     "text": "“Pelé estava se aposentando pra valer pela primeira vez [...]”."
+    },
+    {
+     "letter": "E",
+     "text": "“Pela admiração por um de seus colegas de clube daquele ano.”"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2013-q121",
+   "number": 121,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Gripado, penso entre espirros em como a palavra gripe nos chegou após uma série de contágios entre línguas. Partiu da Itália em 1743 a epidemia de gripe que disseminou pela Europa, além do vírus propriamente dito, dois vocábulos virais: o italiano influenza e o francês grippe. O primeiro era um termo derivado do latim medieval influentia, que significava “influência dos astros sobre os homens”. O segundo era apenas a forma nominal do verbo gripper, isto é, “agarrar”. Supõe-se que fizesse referência ao modo violento como o vírus se apossa do organismo infectado."
+    },
+    {
+     "type": "text",
+     "text": "RODRIGUES, S. Sobre palavras.Veja, São Paulo, 30 nov. 2011."
+    },
+    {
+     "type": "text",
+     "text": "Para se entender o trecho como uma unidade de sentido, é preciso que o leitor reconheça a ligação entre seus elementos. Nesse texto, a coesão é construída predominantemente pela retomada de um termo por outro e pelo uso da elipse. O fragmento do texto em que há coesão por elipse do sujeito é:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "“[...] a palavra gripe nos chegou após uma série de contágios entre línguas.”"
+    },
+    {
+     "letter": "B",
+     "text": "“Partiu da Itália em 1743 a epidemia de gripe [...]”."
+    },
+    {
+     "letter": "C",
+     "text": "“O primeiro era um termo derivado do latim medieval influentia, que significava ‘influência dos astros sobre os homens’.”"
+    },
+    {
+     "letter": "D",
+     "text": "“O segundo era apenas a forma nominal do verbo gripper [...]”."
+    },
+    {
+     "letter": "E",
+     "text": "“Supõe-se que fizesse referência ao modo violento como o vírus se apossa do organismo infectado.”"
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2013-q122",
+   "number": 122,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Capítulo LIV — A pêndula"
+    },
+    {
+     "type": "text",
+     "text": "Saí dali a saborear o beijo. Não pude dormir; estirei-me na cama, é certo, mas foi o mesmo que nada. Ouvi as horas todas da noite. Usualmente, quando eu perdia o sono, o bater da pêndula fazia-me muito mal; esse tiquetaque soturno, vagaroso e seco parecia dizer a cada golpe que eu ia ter um instante menos de vida. Imaginava então um velho diabo, sentado entre dois sacos, o da vida e o da morte, e a contá-las assim:"
+    },
+    {
+     "type": "text",
+     "text": "— Outra de menos…\n— Outra de menos…\n— Outra de menos…\n— Outra de menos…"
+    },
+    {
+     "type": "text",
+     "text": "O mais singular é que, se o relógio parava, eu dava-lhe corda, para que ele não deixasse de bater nunca, e eu pudesse contar todos os meus instantes perdidos. Invenções há, que se transformam ou acabam; as mesmas instituições morrem; o relógio é definitivo e perpétuo. O derradeiro homem, ao despedir-se do sol frio e gasto, há de ter um relógio na algibeira, para saber a hora exata em que morre.\nNaquela noite não padeci essa triste sensação de enfado, mas outra, e deleitosa. As fantasias tumultuavam-me cá dentro, vinham umas sobre outras, à semelhança de devotas que se abalroam para ver o anjo-cantor das procissões. Não ouvia os instantes perdidos, mas os minutos ganhados."
+    },
+    {
+     "type": "text",
+     "text": "ASSIS, M. Memórias póstumas de Brás Cubas. Rio de Janeiro: Nova Aguilar, 1992 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "O capítulo apresenta o instante em que Brás Cubas revive a sensação do beijo trocado com Virgília, casada com Lobo Neves. Nesse contexto, a metáfora do relógio desconstrói certos paradigmas românticos, porque"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "O narrador e Virgília não têm percepção do tempo em seus encontros adúlteros."
+    },
+    {
+     "letter": "B",
+     "text": "Como “defunto autor”, Brás Cubas reconhece a inutilidade de tentar acompanhar o fluxo do tempo."
+    },
+    {
+     "letter": "C",
+     "text": "Na contagem das horas, o narrador metaforiza o desejo de triunfar e acumular riquezas."
+    },
+    {
+     "letter": "D",
+     "text": "O relógio representa a materialização do tempo e redireciona o comportamento idealista de Brás Cubas."
+    },
+    {
+     "letter": "E",
+     "text": "O narrador compara a duração do sabor do beijo à perpetuidade do relógio."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2013-q123",
+   "number": 123,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Para Carr, internet atua no comércio da distração"
+    },
+    {
+     "type": "text",
+     "text": "Autor de “A Geração Superficial” analisa a influência da tecnologia na mente"
+    },
+    {
+     "type": "text",
+     "text": "O jornalista americano Nicholas Carr acredita que a internet não estimula a inteligência de ninguém. O autor explica descobertas científicas sobre o funcionamento do cérebro humano e teoriza sobre a influência da internet em nossa forma de pensar.\nPara ele, a rede torna o raciocínio de quem navega mais raso, além de fragmentar a atenção de seus usuários.\nMais: Carr afirma que há empresas obtendo lucro com a recente fragilidade de nossa atenção. “Quanto mais tempo passamos on-line e quanto mais rápido passamos de uma informação para a outra, mais dinheiro as empresas de internet fazem”, avalia.\n“Essas empresas estão no comércio da distração e são experts em nos manter cada vez mais famintos por informação fragmentada em partes pequenas. É claro que elas têm interesse em nos estimular e tirar vantagem da nossa compulsão por tecnologia.”"
+    },
+    {
+     "type": "text",
+     "text": "ROXO, E. Folha de S. Paulo, 18 fev. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A crítica do jornalista norte-americano que justifica o título do texto é a de que a internet"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Mantém os usuários cada vez menos preocupados com a qualidade da informação."
+    },
+    {
+     "letter": "B",
+     "text": "Torna o raciocínio de quem navega mais raso, além de fragmentar a atenção de seus usuários."
+    },
+    {
+     "letter": "C",
+     "text": "Desestimula a inteligência, de acordo com descobertas científicas sobre o cérebro."
+    },
+    {
+     "letter": "D",
+     "text": "Influencia nossa forma de pensar com a superficialidade dos meios eletrônicos."
+    },
+    {
+     "letter": "E",
+     "text": "Garante a empresas a obtenção de mais lucro com a recente fragilidade de nossa atenção."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2013-q124",
+   "number": 124,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Tudo no mundo começou com um sim. Uma molécula disse sim a outra molécula e nasceu a vida. Mas antes da pré-história havia a pré-história da pré-história e havia o nunca e havia o sim. Sempre houve. Não sei o quê, mas sei que o universo jamais começou.\n[…]\nEnquanto eu tiver perguntas e não houver resposta continuarei a escrever. Como começar pelo início, se as coisas acontecem antes de acontecer? Se antes da pré- pré-história já havia os monstros apocalípticos? Se esta história não existe, passará a existir. Pensar é um ato. Sentir é um fato. Os dois juntos — sou eu que escrevo o que estou escrevendo. […] Felicidade? Nunca vi palavra mais doida, inventada pelas nordestinas que andam por aí aos montes.\nComo eu irei dizer agora, esta história será o resultado de uma visão gradual — há dois anos e meio venho aos poucos descobrindo os porquês. É visão da iminência de. De quê? Quem sabe se mais tarde saberei. Como que estou escrevendo na hora mesma em que sou lido. Só não inicio pelo fim que justificaria o começo — como a morte parece dizer sobre a vida — porque preciso registrar os fatos antecedentes."
+    },
+    {
+     "type": "text",
+     "text": "LISPECTOR, C. A hora da estrela. Rio de Janeiro: Rocco, 1998 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "A elaboração de uma voz narrativa peculiar acompanha a trajetória literária de Clarice Lispector, culminada com a obra A hora da estrela, de 1977, ano da morte da escritora. Nesse fragmento, nota-se essa peculiaridade porque o narrador"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Observa os acontecimentos que narra sob uma ótica distante, sendo indiferente aos fatos e às personagens."
+    },
+    {
+     "letter": "B",
+     "text": "Relata a história sem ter tido a preocupação de investigar os motivos que levaram aos eventos que a compõem."
+    },
+    {
+     "letter": "C",
+     "text": "Revela-se um sujeito que reflete sobre questões existenciais e sobre a construção do discurso."
+    },
+    {
+     "letter": "D",
+     "text": "Admite a dificuldade de escrever uma história em razão da complexidade para escolher as palavras exatas."
+    },
+    {
+     "letter": "E",
+     "text": "Propõe-se a discutir questões de natureza filosófica e metafísica, incomuns na narrativa de ficção."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q125",
+   "number": 125,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "TEXTO I"
+    },
+    {
+     "type": "text",
+     "text": "É evidente que a vitamina D é importante — mas como obtê-la? Realmente, a vitamina D pode ser produzida naturalmente pela exposição à luz do sol, mas ela também existe em alguns alimentos comuns. Entretanto, como fonte dessa vitamina, certos alimentos são melhores do que outros. Alguns possuem uma quantidade significativa de vitamina D, naturalmente, e são alimentos que talvez você não queira exagerar: manteiga, nata, gema de ovo e fígado."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://saude.hsw.uol.com.br. Acesso em: 31 jul. 2012."
+    },
+    {
+     "type": "text",
+     "text": "TEXTO II"
+    },
+    {
+     "type": "text",
+     "text": "Todos nós sabemos que a vitamina D (colecalciferol) é crucial para sua saúde. Mas a vitamina D é realmente uma vitamina? Está presente nas comidas que os humanos normalmente consomem? Embora exista em algum percentual na gordura do peixe, a vitamina D não está em nossas dietas, a não ser que os humanos artificialmente incrementem um produto alimentar, como o leite enriquecido com vitamina D. A natureza planejou que você a produzisse em sua pele, e não a colocasse direto em sua boca. Então, seria a vitamina D realmente uma vitamina?"
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.umaoutravisao.com.br. Acesso em: 31 jul. 2012."
+    },
+    {
+     "type": "text",
+     "text": "Frequentemente circulam na mídia textos de divulgação científica que apresentam informações divergentes sobre um mesmo tema. Comparando os dois textos, constata-se que o Texto II contrapõe-se ao I quando"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Comprova cientificamente que a vitamina D não é uma vitamina."
+    },
+    {
+     "letter": "B",
+     "text": "Demonstra a verdadeira importância da vitamina D para a saúde."
+    },
+    {
+     "letter": "C",
+     "text": "Enfatiza que a vitamina D é mais comumente produzida pelo corpo que absorvida por meio de alimentos."
+    },
+    {
+     "letter": "D",
+     "text": "Afirma que a vitamina D existe na gordura dos peixes e no leite, não em seus derivados."
+    },
+    {
+     "letter": "E",
+     "text": "Levanta a possibilidade de o corpo humano produzir artificialmente a vitamina D."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q126",
+   "number": 126,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O bit na galáxia de Gutenberg"
+    },
+    {
+     "type": "text",
+     "text": "Neste século, a escrita divide terreno com diversos meios de comunicação. Essa questão nos faz pensar na necessidade da “imbricação, na coexistência e interpretação recíproca dos diversos circuitos de produção e difusão do saber…”.\nÉ necessário relativizar nossa postura frente às modernas tecnologias, principalmente à informática. Ela é um campo novidativo, sem dúvida, mas suas bases estão nos modelos informativos anteriores, inclusive, na tradição oral e na capacidade natural de simular mentalmente os acontecimentos do mundo e antecipar as consequências de nossos atos. A impressão é a matriz que deflagrou todo esse processo comunicacional eletrônico. Enfatizo, assim, o parentesco que há entre o computador e os outros meios de comunicação, principalmente a escrita, uma visão da informática como um “desdobramento daquilo que a produção literária impressa e, anteriormente, a tradição oral já traziam consigo”."
+    },
+    {
+     "type": "text",
+     "text": "NEITZEL, L. C. Disponível em: www.geocities.com. Acesso em: 1 ago. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Ao tecer considerações sobre as tecnologias da contemporaneidade e os meios de comunicação do passado, esse texto concebe que a escrita contribui para uma evolução das novas tecnologias por"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Se desenvolver paralelamente nos meios tradicionais de comunicação e informação."
+    },
+    {
+     "letter": "B",
+     "text": "Cumprir função essencial na contemporaneidade por meio das impressões em papel."
+    },
+    {
+     "letter": "C",
+     "text": "Realizar transição relevante da tradição oral para o progresso das sociedades humanas."
+    },
+    {
+     "letter": "D",
+     "text": "Oferecer melhoria sistemática do padrão de vida e do desenvolvimento social humano."
+    },
+    {
+     "letter": "E",
+     "text": "Fornecer base essencial para o progresso das tecnologias de comunicação e informação."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2013-q130",
+   "number": 130,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Na verdade, o que se chama genericamente de índios é um grupo de mais de trezentos povos que, juntos, falam mais de 180 línguas diferentes. Cada um desses povos possui diferentes histórias, lendas, tradições, conceitos e olhares sobre a vida, sobre a liberdade, sobre o tempo e sobre a natureza. Em comum, tais comunidades apresentam a profunda comunhão com o ambiente em que vivem, o respeito em relação aos indivíduos mais velhos, a preocupação com as futuras gerações, e o senso de que a felicidade individual depende do êxito do grupo. Para eles, o sucesso é resultado de uma construção coletiva. Estas ideias, partilhadas pelos povos indígenas, são indispensáveis para construir qualquer noção moderna de civilização. Os verdadeiros representantes do atraso no nosso país não são os índios, mas aqueles que se pautam por visões preconceituosas e ultrapassadas de “progresso”."
+    },
+    {
+     "type": "text",
+     "text": "AZZI, R. As razões de ser guarani-kaiowá. Disponível em: www.outraspalavras.net. Acesso em: 7 dez. 2012."
+    },
+    {
+     "type": "text",
+     "text": "Considerando-se as informações abordadas no texto, ao iniciá-lo com a expressão “Na verdade”, o autor tem como objetivo principal"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Expor as características comuns entre os povos indígenas no Brasil e suas ideias modernas e civilizadas."
+    },
+    {
+     "letter": "B",
+     "text": "Trazer uma abordagem inédita sobre os povos indígenas no Brasil e, assim, ser reconhecido como especialista no assunto."
+    },
+    {
+     "letter": "C",
+     "text": "Mostrar os povos indígenas vivendo em comunhão com a natureza, e, por isso, sugerir que se deve respeitar o meio ambiente e esses povos."
+    },
+    {
+     "letter": "D",
+     "text": "Usar a conhecida oposição entre moderno e antigo como uma forma de respeitar a maneira ultrapassada como vivem os povos indígenas em diferentes regiões do Brasil."
+    },
+    {
+     "letter": "E",
+     "text": "Apresentar informações pouco divulgadas a respeito dos indígenas no Brasil, para defender o caráter desses povos como civilizações, em contraposição a visões preconcebidas."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2013-q132",
+   "number": 132,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Dúvida"
+    },
+    {
+     "type": "text",
+     "text": "Dois compadres viajavam de carro por uma estrada de fazenda quando um bicho cruzou a frente do carro.\nUm dos compadres falou:\n— Passou um largato ali!\nO outro perguntou:\n— Lagarto ou largato?\nO primeiro respondeu:\n— Num sei não, o bicho passou muito rápido."
+    },
+    {
+     "type": "text",
+     "text": "Piadas coloridas. Rio de Janeiro: Gênero, 2006."
+    },
+    {
+     "type": "text",
+     "text": "Na piada, a quebra de expectativa contribui para produzir o efeito de humor. Esse efeito ocorre porque um dos personagens"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Reconhece a espécie do animal avistado."
+    },
+    {
+     "letter": "B",
+     "text": "Tem dúvida sobre a pronúncia do nome do réptil."
+    },
+    {
+     "letter": "C",
+     "text": "Desconsidera o conteúdo linguístico da pergunta."
+    },
+    {
+     "letter": "D",
+     "text": "Constata o fato de um bicho cruzar a frente do carro."
+    },
+    {
+     "letter": "E",
+     "text": "Apresenta duas possibilidades de sentido para a mesma palavra."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q134",
+   "number": 134,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O que é bullying virtual ou cyberbullying?"
+    },
+    {
+     "type": "text",
+     "text": "É o bullying que ocorre em meios eletrônicos, com mensagens difamatórias ou ameaçadoras circulando por e-mails, sites, blogs (os diários virtuais), redes sociais e celulares. É quase uma extensão do que dizem e fazem na escola, mas com o agravante de que as pessoas envolvidas não estão cara a cara. Dessa forma, o anonimato pode aumentar a crueldade dos comentários e das ameaças e os efeitos podem ser tão graves ou piores. “O autor, assim como o alvo, tem dificuldade de sair de seu papel e retomar valores esquecidos ou formar novos”, explica Luciene Tognetta, doutora em Psicologia Escolar e pesquisadora da Faculdade de Educação da Universidade Estadual de Campinas (Unicamp)."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://revistaescola.abril.com.br. Acesso em: 3 ago. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Segundo o texto, com as tecnologias de informação e comunicação, a prática do bullying ganha novas nuances de perversidade e é potencializada pelo fato de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Atingir um grupo maior de espectadores."
+    },
+    {
+     "letter": "B",
+     "text": "Dificultar a identificação do agressor incógnito."
+    },
+    {
+     "letter": "C",
+     "text": "Impedir a retomada de valores consolidados pela vítima."
+    },
+    {
+     "letter": "D",
+     "text": "Possibilitar a participação de um número maior de autores."
+    },
+    {
+     "letter": "E",
+     "text": "Proporcionar o uso de uma variedade de ferramentas da internet."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q139",
+   "number": 139,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Qual foi o valor mais aproximado do total de água desperdiçada nesse período, em litros?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "0,2"
+    },
+    {
+     "letter": "B",
+     "text": "1,2"
+    },
+    {
+     "letter": "C",
+     "text": "1,4"
+    },
+    {
+     "letter": "D",
+     "text": "12,9"
+    },
+    {
+     "letter": "E",
+     "text": "64,8"
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q148",
+   "number": 148,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um dos grandes problemas enfrentados nas rodovias brasileiras é o excesso de carga transportada pelos caminhões. Dimensionado para o tráfego dentro dos limites legais de carga, o piso das estradas se deteriora com o peso excessivo dos caminhões. Além disso, o excesso de carga interfere na capacidade de frenagem\ne no funcionamento da suspensão do veículo, causas frequentes de acidentes."
+    },
+    {
+     "type": "text",
+     "text": "Ciente dessa responsabilidade e com base na experiência adquirida com pesagens, um caminhoneiro sabe que seu caminhão pode carregar, no máximo, 1 500 telhas ou 1 200 tijolos."
+    },
+    {
+     "type": "text",
+     "text": "Considerando esse caminhão carregado com 900 telhas, quantos tijolos, no máximo, podem ser acrescentados à carga de modo a não ultrapassar a carga máxima do caminhão?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "300 tijolos"
+    },
+    {
+     "letter": "B",
+     "text": "360 tijolos"
+    },
+    {
+     "letter": "C",
+     "text": "400 tijolos"
+    },
+    {
+     "letter": "D",
+     "text": "480 tijolos"
+    },
+    {
+     "letter": "E",
+     "text": "600 tijolos"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2013-q150",
+   "number": 150,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Numa escola com 1 200 alunos foi realizada uma pesquisa sobre o conhecimento desses em duas línguas estrangeiras, inglês e espanhol."
+    },
+    {
+     "type": "text",
+     "text": "Nessa pesquisa constatou-se que 600 alunos falam inglês, 500 falam espanhol e 300 não falam qualquer um desses idiomas."
+    },
+    {
+     "type": "text",
+     "text": "Escolhendo-se um aluno dessa escola ao acaso e sabendo-se que ele não fala inglês, qual a probabilidade de que esse aluno fale espanhol?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "1/2"
+    },
+    {
+     "letter": "B",
+     "text": "5/8"
+    },
+    {
+     "letter": "C",
+     "text": "1/4"
+    },
+    {
+     "letter": "D",
+     "text": "5/6"
+    },
+    {
+     "letter": "E",
+     "text": "5/14"
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2013-q155",
+   "number": 155,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Uma indústria tem um reservatório de água com capacidade para 900 m³. Quando há necessidade de limpeza do reservatório, toda a água precisa ser escoada. O escoamento da água é feito por seis ralos, e dura 6 horas quando o reservatório está cheio. Esta indústria construirá um novo reservatório, com capacidade de 500 m³, cujo escoamento da água deverá ser realizado em 4 horas, quando o reservatório estiver cheio. Os ralos utilizados no novo reservatório deverão ser idênticos aos do já existente."
+    },
+    {
+     "type": "text",
+     "text": "A quantidade de ralos do novo reservatório deverá ser igual a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "2"
+    },
+    {
+     "letter": "B",
+     "text": "4"
+    },
+    {
+     "letter": "C",
+     "text": "5"
+    },
+    {
+     "letter": "D",
+     "text": "8"
+    },
+    {
+     "letter": "E",
+     "text": "9"
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q156",
+   "number": 156,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Uma fábrica de fórmicas produz placas quadradas de lados de medida igual a y  centímetros. Essas placas são vendidas em caixas com N unidades e, na caixa, é\nespecificada a área máxima S que pode ser coberta pelas N placas."
+    },
+    {
+     "type": "text",
+     "text": "Devido a uma demanda do mercado por placas maiores, a fábrica triplicou a medida dos lados de suas placas e conseguiu reuni-las em uma nova caixa, de tal forma que a área coberta S não fosse alterada."
+    },
+    {
+     "type": "text",
+     "text": "A quantidade X, de placas do novo modelo, em cada nova caixa será igual a:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "N/9"
+    },
+    {
+     "letter": "B",
+     "text": "N/6"
+    },
+    {
+     "letter": "C",
+     "text": "N/3"
+    },
+    {
+     "letter": "D",
+     "text": "3N"
+    },
+    {
+     "letter": "E",
+     "text": "9N"
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2013-q158",
+   "number": 158,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O contribuinte que vende mais de R$ 20 mil de ações em Bolsa de Valores em um mês deverá pagar Imposto de Renda. O pagamento para a Receita Federal consistirá em 15% do lucro obtido com a venda das ações."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www1.folha.uol.com.br. Acesso em: 26 abr. 2010 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Um contribuinte que vende por R$ 34 mil um lote de ações que custou R$ 26 mil terá de pagar de Imposto de Renda à Receita Federal o valor de:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "R$ 900,00."
+    },
+    {
+     "letter": "B",
+     "text": "R$ 1 200,00."
+    },
+    {
+     "letter": "C",
+     "text": "R$ 2 100,00."
+    },
+    {
+     "letter": "D",
+     "text": "R$ 3 900,00."
+    },
+    {
+     "letter": "E",
+     "text": "R$ 5 100,00."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q159",
+   "number": 159,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Para se construir um contrapiso, é comum, na constituição do concreto, se utilizar cimento, areia e brita, na seguinte proporção: 1 parte de cimento, 4 partes de\nareia e 2 partes de brita. Para construir o contrapiso de uma garagem, uma construtora encomendou um caminhão betoneira com 14 m³ de concreto."
+    },
+    {
+     "type": "text",
+     "text": "Qual é o volume de cimento, em m³, na carga de concreto trazido pela betoneira?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "1,75"
+    },
+    {
+     "letter": "B",
+     "text": "2,00"
+    },
+    {
+     "letter": "C",
+     "text": "2,33"
+    },
+    {
+     "letter": "D",
+     "text": "4,00"
+    },
+    {
+     "letter": "E",
+     "text": "8,00"
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q163",
+   "number": 163,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Para aumentar as vendas no início do ano, uma loja de departamentos remarcou os preços de seus produtos 20% abaixo do preço original. Quando chegam ao caixa, os clientes que possuem o cartão fidelidade da loja têm direito a um desconto adicional de 10% sobre o valor total de suas compras."
+    },
+    {
+     "type": "text",
+     "text": "Um cliente deseja comprar um produto que custava R$ 50,00 antes da remarcação de preços. Ele não possui o cartão fidelidade da loja."
+    },
+    {
+     "type": "text",
+     "text": "Caso esse cliente possuísse o cartão fidelidade da loja, a economia adicional que obteria ao efetuar a compra, em reais, seria de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "15,00"
+    },
+    {
+     "letter": "B",
+     "text": "14,00"
+    },
+    {
+     "letter": "C",
+     "text": "10,00"
+    },
+    {
+     "letter": "D",
+     "text": "5,00"
+    },
+    {
+     "letter": "E",
+     "text": "4,00"
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2013-q166",
+   "number": 166,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Considere 0,3 como aproximação para log10 2."
+    },
+    {
+     "type": "text",
+     "text": "Qual o tempo necessário, em anos, para que uma quantidade de massa do césio-137 se reduza a 10% da quantidade inicial?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "27"
+    },
+    {
+     "letter": "B",
+     "text": "36"
+    },
+    {
+     "letter": "C",
+     "text": "50"
+    },
+    {
+     "letter": "D",
+     "text": "54"
+    },
+    {
+     "letter": "E",
+     "text": "100"
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2013-q167",
+   "number": 167,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Disponível em: www.arq.ufsc.br. Acesso em: 3 mar. 2012."
+    },
+    {
+     "type": "text",
+     "text": "Suponha que uma peça, quando moldada em argila, possuía uma base retangular cujos lados mediam 30 cm e 15 cm. Após o cozimento, esses lados foram reduzidos em 20%."
+    },
+    {
+     "type": "text",
+     "text": "Em relação à área original, a área da base dessa peça, após o cozimento, ficou reduzida em"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "4%"
+    },
+    {
+     "letter": "B",
+     "text": "20%"
+    },
+    {
+     "letter": "C",
+     "text": "36%"
+    },
+    {
+     "letter": "D",
+     "text": "64%"
+    },
+    {
+     "letter": "E",
+     "text": "96%"
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q170",
+   "number": 170,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Nos Estados Unidos a unidade de medida de volume mais utilizada em latas de refrigerante é a onça fluida (fl oz), que equivale a aproximadamente 2,95 centilitros (cL)."
+    },
+    {
+     "type": "text",
+     "text": "Sabe-se que o centilitro é a centésima parte do litro e que a lata de refrigerante usualmente comercializada no Brasil tem capacidade de 355 mL."
+    },
+    {
+     "type": "text",
+     "text": "Assim, a medida do volume da lata de refrigerante de 355 mL, em onça fluida (fl oz), é mais próxima de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "0,83"
+    },
+    {
+     "letter": "B",
+     "text": "1,20"
+    },
+    {
+     "letter": "C",
+     "text": "12,03"
+    },
+    {
+     "letter": "D",
+     "text": "104,73"
+    },
+    {
+     "letter": "E",
+     "text": "120,34"
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2013-q171",
+   "number": 171,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Qual é a expressão que representa a relação entre X e Y"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "5X − 3Y + 15 = 0"
+    },
+    {
+     "letter": "B",
+     "text": "5X − 2Y + 10 = 0"
+    },
+    {
+     "letter": "C",
+     "text": "3X − 3Y + 15 = 0"
+    },
+    {
+     "letter": "D",
+     "text": "3X − 2Y + 15 = 0"
+    },
+    {
+     "letter": "E",
+     "text": "3X − 2Y + 10 = 0"
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2013-q173",
+   "number": 173,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O ciclo de atividade magnética do Sol tem um período de 11 anos. O início do primeiro ciclo registrado se deu no começo de 1755 e se estendeu até o final de 1765. Desde então, todos os ciclos de atividade magnética do Sol têm sido registrados."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://g1.globo.com. Acesso em: 27 fev. 2013."
+    },
+    {
+     "type": "text",
+     "text": "No ano de 2101, o Sol estará no ciclo de atividade magnética de número"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "32"
+    },
+    {
+     "letter": "B",
+     "text": "34"
+    },
+    {
+     "letter": "C",
+     "text": "33"
+    },
+    {
+     "letter": "D",
+     "text": "35"
+    },
+    {
+     "letter": "E",
+     "text": "31"
+    }
+   ],
+   "answer": "A"
+  }
+ ]
+}

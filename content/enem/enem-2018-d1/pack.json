@@ -1,0 +1,3154 @@
+{
+ "id": "enem-2018-d1",
+ "vestibular": "enem",
+ "title": "ENEM 2018, dia 1",
+ "year": 2018,
+ "version": 1,
+ "source": "Questões: INEP, ENEM 2018. Transcrição: ENEM API (enem.dev).",
+ "questions": [
+  {
+   "id": "enem-2018-q1-espanhol",
+   "number": 1,
+   "subject": "Espanhol",
+   "statement": [
+    {
+     "type": "text",
+     "text": "El día en que lo iban a matar, Santiago Nasar se levantó a las 5:30 de la mañana para esperar el buque en que llegaba el obispo. Había soñado que atravesaba un bosque de higuerones donde caía una llovizna tierna, y por un instante fue feliz en el sueño, pero al despertar se sintió por completo salpicado de cagada de pájaros. “Siempre soñaba con árboles”, me dijo Plácida Linero, su madre, evocando 27 años después los pormenores de aquel lunes ingrato. “La semana anterior había soñado que iba solo en un avión de papel de estaño que volaba sin tropezar por entre los almendros”, me dijo. Tenía una reputación muy bien ganada de intérprete certera de los sueños ajenos, siempre que se los contaran en ayunas, pero no había advertido ningún augurio aciago en esos dos sueños de su hijo, ni en los otros sueños con árboles que él le había contado en las mañanas que precedieron a su muerte."
+    },
+    {
+     "type": "text",
+     "text": "MARQUEZ, G. G. Crónica de una muerte anunciada. Disponível em: http://biblio3.url.edu.gt. Acesso em: 2 jan. 2015."
+    },
+    {
+     "type": "text",
+     "text": "Na introdução do romance, o narrador resgata lembranças de Plácida Linero relacionadas a seu filho Santiago Nasar. Nessa introdução, o uso da expressão augurio aciago remete ao(à)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Relação mística que se estabelece entre Plácida e seu filho Santiago."
+    },
+    {
+     "letter": "B",
+     "text": "Destino trágico de Santiago, que Plácida foi incapaz de prever nos sonhos."
+    },
+    {
+     "letter": "C",
+     "text": "Descompasso entre a felicidade de Santiago nos sonhos e seu azar na realidade."
+    },
+    {
+     "letter": "D",
+     "text": "Crença de Plácida na importância da interpretação dos sonhos para mudar o futuro."
+    },
+    {
+     "letter": "E",
+     "text": "Presença recorrente de elementos sombrios que se revelam nos sonhos de Santiago."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2018-q1-ingles",
+   "number": 1,
+   "subject": "Inglês",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Lava Mae: Creating Showers on Wheels for the Homeless"
+    },
+    {
+     "type": "text",
+     "text": "San Francisco, according to recent city numbers, has 4,300 people living on the streets. Among the many problems the homeless face is little or no access to showers.  San Francisco only has about 16 to 20 shower stalls to accommodate them. But Doniece Sandoval has made it her mission to change that. The 51 -year-old former marketing executive started Lava Mae, a sort of showers on wheels, a new\nproject that aims to turn decommissioned city buses into shower stations for the homeless. Each bus will have two shower stations and Sandoval expects that they’ll be able to provide 2,000 showers a week."
+    },
+    {
+     "type": "text",
+     "text": "ANDREANO, C. Disponível em: http://abcnews.go. Acesso em: 26 jun, 2018 (adaptado)"
+    },
+    {
+     "type": "text",
+     "text": "A relação dos vocábulos shower, bus e homeless, no texto, refere-se a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Empregar moradores de rua em lava a jatos para ônibus."
+    },
+    {
+     "letter": "B",
+     "text": "Criar acesso a banhos gratuitos para moradores de rua."
+    },
+    {
+     "letter": "C",
+     "text": "Comissionar sem-teto para dirigir os ônibus da cidade."
+    },
+    {
+     "letter": "D",
+     "text": "Exigir das autoridades que os ônibus municipais tenham banheiros."
+    },
+    {
+     "letter": "E",
+     "text": "Abrigar dois mil moradores de rua em ônibus que foram adaptados."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2018-q2-espanhol",
+   "number": 2,
+   "subject": "Espanhol",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Revolución en la arquitectura china\nLevantar rascacielos en 19 días"
+    },
+    {
+     "type": "text",
+     "text": "Un rascacielos de 57 pisos no llama la atención en la China del siglo XXI. Salvo que se haya construido en 19 días, claro. Y eso es precisamente lo que ha  conseguido Broad Sustainable Building (BSB), una empresa dedicada a la fabricación de purificadores de aire y de equipos de aire acondicionado para grandes infraestructuras que ahora se ha empeñado en liderar una revolución con su propio modelo de arquitectura modular prefabricada. Como subraya su presidente, Zhang Yue, es una fórmula económica, ecológica segura, y limpia. Ese último término, además, lo utiliza tanto para referirse al polvo que se produce en la construcción como a los gruesos sobres que suelen circular por debajo de las mesas en adjudicaciones y permisos varios. “Quiero que nuestros edificios alumbren una nueva era en la arquitectura, y que se conviertan en\nsímbolo de la lucha contra la contaminación y el cambio climático, que es la mayor amenaza a la que se enfrenta la humanidad”, sentencia.\n“Es como montar un Lego. Apenas hay subcontratación, lo cual ayuda a mantener un costo bajo y un control de calidad estricto, y nos permite eliminar\ntambién la corrupción inherente al sector”, explica la vicepresidenta de BSB y responsable del mercado internacional, Jiang Yan."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://tecnologia.elpais.com. Acesso em: 23 jun. 2015 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "No texto, alguns dos benefícios de se utilizar estruturas pré-moldadas na construção de altos edifícios estão expressos por meio da palavra limpia. Essa expressão indica que, além de produzir menos resíduos, o uso desse tipo de estrutura"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Reduz o contingente de mão de obra."
+    },
+    {
+     "letter": "B",
+     "text": "Inibe a corrupção na construção civil."
+    },
+    {
+     "letter": "C",
+     "text": "Facilita o controle da qualidade da obra."
+    },
+    {
+     "letter": "D",
+     "text": "Apresenta um modelo arquitetônico conciso."
+    },
+    {
+     "letter": "E",
+     "text": "Otimiza os custos da construção de edifícios."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2018-q3-espanhol",
+   "number": 3,
+   "subject": "Espanhol",
+   "statement": [
+    {
+     "type": "text",
+     "text": "¿Qué es la X Solidaria?"
+    },
+    {
+     "type": "text",
+     "text": "La X Solidaria es una equis que ayuda a las personas más vulnerables. Podrás marcarla cuando hagas la declaración de la renta. Es la casilla que se denomina\n“Fines Sociales”. Nosotros preferimos llamarla X Solidaria:"
+    },
+    {
+     "type": "text",
+     "text": "*   porque al marcada haces que se destine un 0,7 de tus impuestos a programas sociales que realizan las ONG.\n*   porque se benefician los colectivos más desfavorecidos, sin ningún coste económico para ti.\n*   porque NO marcarla es tomar una actitud pasiva, y dejar que sea el Estado quien decida el destino de esa parte de tus impuestos.\n*   porque marcándola te conviertes en contribuyente activo solidario."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://xsolidaria.org. Acesso em: 20 fev. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "As ações solidárias contribuem para o enfrentamento de problemas sociais. No texto, a ação solidária ocorre quando o contribuinte"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Delega ao governo o destino de seus impostos."
+    },
+    {
+     "letter": "B",
+     "text": "Escolhe projetos que terão isenção de impostos."
+    },
+    {
+     "letter": "C",
+     "text": "Destina parte de seus impostos para custeio de programas sociais."
+    },
+    {
+     "letter": "D",
+     "text": "Determina a criação de impostos para implantação de projetos sociais."
+    },
+    {
+     "letter": "E",
+     "text": "Seleciona vários programas para beneficiar cidadãos vulneráveis socialmente."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q3-ingles",
+   "number": 3,
+   "subject": "Inglês",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Don’t write in English, they said,\nEnglish is not your mother tongue…\n…The language I speak\nBecomes mine, its distortions, its queerness\nAll mine, mine alone, it is half English, half\nIndian, funny perhaps, but it is honest,\nIt is as human as I am human…\n…It voices my joys, my longings my\nHopes…\n(Kamala Das, 1965:10)"
+    },
+    {
+     "type": "text",
+     "text": "GARGESH, R. South Asian Englishes. In: KACHRU, B. B.; KACHRU, Y.; NELSON, C. L.\n(Eds.). The Handbook of World Englishes. Singapore: Blackwell, 2006."
+    },
+    {
+     "type": "text",
+     "text": "A poetisa Kamala Das, como muitos escritores indianos, escreve suas obras em inglês, apesar de essa não ser sua primeira língua. Nesses versos, ela"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Usa a língua inglesa com efeito humorístico."
+    },
+    {
+     "letter": "B",
+     "text": "Recorre a vozes de vários escritores ingleses."
+    },
+    {
+     "letter": "C",
+     "text": "Adverte sobre o uso distorcido da língua inglesa."
+    },
+    {
+     "letter": "D",
+     "text": "Demonstra consciência de sua identidade linguística."
+    },
+    {
+     "letter": "E",
+     "text": "Reconhece a incompreensão na sua maneira de falar inglês."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2018-q4-espanhol",
+   "number": 4,
+   "subject": "Espanhol",
+   "statement": [
+    {
+     "type": "text",
+     "text": "¿Cómo gestionar la diversidad lingüística en el aula?"
+    },
+    {
+     "type": "text",
+     "text": "El aprendizaje de idiomas es una de las demandas de la sociedad en la escuela: los alumnos tienen que finalizar la escolarización con un buen conocimiento, por lo menos, de las tres lenguas curriculares: catalán, castellano e inglés (o francés, portugués…).\nLa metodología que promueve el aprendizaje integrado de idiomas en la escuela tiene en cuenta las relaciones entre las diferentes lenguas: la mejor enseñanza de una lengua incide en la mejora de todas las demás. Se trata de educar en y para la diversidad lingüística y cultural.\nPor eso, la V Jornada de Buenas Prácticas de Gestión del Multilingüismo, que se celebrará en Barcelona, debatirá sobre la gestión del multilingüismo en el aula. El objetivo es difundir propuestas para el aprendizaje integrado de idiomas y presentar experiencias prácticas de gestión de la diversidad lingüística presente en las aulas."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www10.gencat.cat. Acesso em: 15 set. 2010 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Na região da Catalunha, Espanha, convivem duas línguas oficiais: o catalão e o espanhol. Além dessas, ensinam-se outras línguas nas escolas. De acordo com o texto, para administrar a variedade linguística nas aulas, é necessário"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Ampliar o número de línguas ofertadas para enriquecer o conteúdo."
+    },
+    {
+     "letter": "B",
+     "text": "Divulgar o estudo de diferentes idiomas e culturas para atrair os estudantes"
+    },
+    {
+     "letter": "C",
+     "text": "Privilegiar o estudo de línguas maternas para valorizar os aspectos regionais."
+    },
+    {
+     "letter": "D",
+     "text": "Explorar as relações entre as línguas estudadas para promover a diversidade."
+    },
+    {
+     "letter": "E",
+     "text": "Debater as práticas sobre multilinguismo para formar melhor os professores de línguas."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2018-q4-ingles",
+   "number": 4,
+   "subject": "Inglês",
+   "statement": [
+    {
+     "type": "text",
+     "text": "TEXTO I"
+    },
+    {
+     "type": "text",
+     "text": "A Free World-class Education for Anyone Anywhere"
+    },
+    {
+     "type": "text",
+     "text": "The Khan Academy is an organization on a mission. We’re a not-for-profit with the goal of changing education for the better by providing a free world-class education to anyone anywhere. All of the site’s resources are available to anyone. The Khan Academy’s materials and resources are available to you completely free of charge."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.khanacademy.org. Acesso em: 24 fev. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "TEXTO II"
+    },
+    {
+     "type": "text",
+     "text": "I didn’t have a problem with Khan Academy site until very recently. For me, the problem is the way Khan Academy is being promoted. The way the media sees it as “revolutionizing education”. The way people with power and money view education as simply “sit-and-get”. If your philosophy of education is “sit-and-get”, i.e., teaching is telling and learning is listening, then Khan Academy is way more efficient than classroom lecturing. Khan Academy does it better. But TRUE progressive educators, TRUE education visionaries and revolutionaries don’t want to do these things better. We want to DO BETTER THINGS."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://fnoschese.wordpress.com. Acesso em: 2 mar. 2012."
+    },
+    {
+     "type": "text",
+     "text": "Com o impacto das tecnologias e a ampliação das redes sociais, consumidores encontram na internet possibilidades de opinar sobre serviços oferecidos. Nesse sentido, o segundo texto, que é um comentário sobre o site divulgado no primeiro, apresenta a intenção do autor de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Elogiar o trabalho proposto para a educação nessa era tecnológica."
+    },
+    {
+     "letter": "B",
+     "text": "Reforçar como a mídia pode contribuir para revolucionar a educação."
+    },
+    {
+     "letter": "C",
+     "text": "Chamar a atenção das pessoas influentes para o significado da educação."
+    },
+    {
+     "letter": "D",
+     "text": "Destacar que o site tem melhores resultados do que a educação tradicional."
+    },
+    {
+     "letter": "E",
+     "text": "Criticar a concepção de educação em que se baseia a organização."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2018-q5-espanhol",
+   "number": 5,
+   "subject": "Espanhol",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Mayo\n15\nQue mañana no sea otro nombre de hoy"
+    },
+    {
+     "type": "text",
+     "text": "En el año 2011, miles de jóvenes, despojados de sus casas y de sus empleos, ocuparon las plazas y las calles de varias ciudades de España.\nY la indignación se difundió. La buena salud resultó más contagiosa que las pestes, y las voces de los indignados atravesaron las fronteras dibujadas en los mapas. Así resonaron en el mundo:\nNos dijeron “¡a la puta calle!”, y aquí estamos.\nApaga la tele y enciende la calle.\nLa llaman crisis, pero es estafa.\nNo falta dinero: sobran ladrones.\nLos mercados gobiernan. Yo no los voté.\nEllos toman decisiones por nosotros, sin nosotros.\nSe alquila esclavo económico.\nEstoy buscando mis derechos. ¿Alguien los ha visto?\nSi no nos dejan soñar, no los dejaremos dormir"
+    },
+    {
+     "type": "text",
+     "text": "GALEANO, E. Los hijos de los dias. Buenos Aires: Siglo Veintiuno, 2012."
+    },
+    {
+     "type": "text",
+     "text": "Ao elencar algumas frases proferidas durante protestos na Espanha, o enunciador transcreve, de forma direta, as\nreivindicações dos manifestantes para"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Provocá-los de forma velada."
+    },
+    {
+     "letter": "B",
+     "text": "Dar voz ao movimento popular."
+    },
+    {
+     "letter": "C",
+     "text": "Fomentar o engajamento do leitor."
+    },
+    {
+     "letter": "D",
+     "text": "Favorecer o diálogo entre governo e sociedade."
+    },
+    {
+     "letter": "E",
+     "text": "Instaurar dúvidas sobre a legitimidade da causa."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2018-q5-ingles",
+   "number": 5,
+   "subject": "Inglês",
+   "statement": [
+    {
+     "type": "text",
+     "text": "‘Is it your opinion, Winston, that the past has real\nexistence?’ […] O’Brien smiled faintly. ‘I will put it more\nprecisely. Does the past exist concretely, in space? Is\nthere somewhere or other a place, a world of solid objects,\nwhere the past is still happening?’\n‘No.’\n‘Then where does the past exist, if at all?’\n‘In records. It is written down.’\n‘In records. And — —?’\n‘In the mind. In human memories.’\n‘In memory. Very well, then. We, the Party, control all\nrecords, and we control all memories. Then we control the\npast, do we not?’"
+    },
+    {
+     "type": "text",
+     "text": "ORWELL, G. Nineteen Eighty-Four. New York: Signet Classics, 1977."
+    },
+    {
+     "type": "text",
+     "text": "O romance 1984 descreve os perigos de um Estado totalitário. A ideia evidenciada nessa passagem é que o controle do Estado se dá por meio do(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Boicote a ideais libertários."
+    },
+    {
+     "letter": "B",
+     "text": "Veto ao culto das tradições."
+    },
+    {
+     "letter": "C",
+     "text": "Poder sobre memórias e registros"
+    },
+    {
+     "letter": "D",
+     "text": "Censura a produções orais e escritas."
+    },
+    {
+     "letter": "E",
+     "text": "Manipulação de pensamentos individuais."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q6",
+   "number": 6,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "“A Declaração Universal dos Direitos Humanos está completando 70 anos em tempos de desafios crescentes, quando o ódio, a discriminação e a violência permanecem vivos”, disse a diretora-geral da Organização das Nações Unidas para a Educação, a Ciência e a Cultura (Unesco), Audrey Azoulay.\n“Ao final da Segunda Guerra Mundial, a humanidade inteira resolveu promover a dignidade humana em todos os lugares e para sempre. Nesse espírito, as Nações Unidas adotaram a Declaração Universal dos Direitos Humanos como um padrão comum de conquistas para todos os povos e todas as nações”, disse Audrey.\n“Centenas de milhões de mulheres e homens são destituídos e privados de condições básicas de subsistência e de oportunidades. Movimentos populacionais forçados geram violações aos direitos em uma escala sem precedentes. A Agenda 2030 para o Desenvolvimento Sustentável promete não deixar ninguém para trás – e os direitos humanos devem ser o alicerce para todo o progresso.”\nSegundo ela, esse processo precisa começar o quanto antes nas carteiras das escolas. Diante disso, a Unesco lidera a educação em direitos humanos para\nassegurar que todas as meninas e meninos saibam seus direitos e os direitos dos outros."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: https://nacoesunidas.org. Acesso em: 3 abr. 2018 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Defendendo a ideia de que “os direitos humanos devem ser o alicerce para todo o progresso”, a diretora-geral da Unesco aponta, como estratégia para atingir esse fim, a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Inclusão de todos na Agenda 2030."
+    },
+    {
+     "letter": "B",
+     "text": "Extinção da intolerância entre os indivíduos."
+    },
+    {
+     "letter": "C",
+     "text": "Discussão desse tema desde a educação básica."
+    },
+    {
+     "letter": "D",
+     "text": "Conquista de direitos para todos os povos e nações."
+    },
+    {
+     "letter": "E",
+     "text": "Promoção da dignidade humana em todos os lugares."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q8",
+   "number": 8,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "— Famigerado? […]\n— Famigerado é “inóxio”, é “célebre”, “notório”, “notável”…\n— Vosmecê mal não veja em minha grossaria no não entender. Mais me diga: é desaforado? É caçoável? É de arrenegar? Farsância? Nome de ofensa?\n— Vilta nenhuma, nenhum doesto. São expressões neutras, de outros usos…\n— Pois… e o que é que é, em fala de pobre, linguagem de em dia de semana?\n— Famigerado? Bem. É: “importante”, que merece louvor, respeito…"
+    },
+    {
+     "type": "text",
+     "text": "ROSA, G. Famigerado. In: Primeiras estórias. Rio de Janeiro: Nova Fronteira, 2001."
+    },
+    {
+     "type": "text",
+     "text": "Nesse texto, a associação de vocábulos da língua portuguesa a determinados dias da semana remete ao"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Local de origem dos interlocutores."
+    },
+    {
+     "letter": "B",
+     "text": "Estado emocional dos interlocutores."
+    },
+    {
+     "letter": "C",
+     "text": "Grau de coloquialidade da comunicação."
+    },
+    {
+     "letter": "D",
+     "text": "Nível de intimidade entre os interlocutores."
+    },
+    {
+     "letter": "E",
+     "text": "Conhecimento compartilhado na comunicação."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q9",
+   "number": 9,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Na sociologia e na literatura, o brasileiro foi por vezes tratado como cordial e hospitaleiro, mas não é isso o que acontece nas redes sociais: a democracia\nracial apregoada por Gilberto Freyre passa ao largo do que acontece diariamente nas comunidades virtuais do país. Levantamento inédito realizado pelo projeto Comunica que Muda […] mostra em números a intolerância do internauta tupiniquim. Entre abril e junho, um algoritmo vasculhou plataformas […] atrás de mensagens e textos sobre temas sensíveis, como racismo, posicionamento político e homofobia. Foram identificadas 393 284 menções, sendo 84% delas com abordagem negativa, de exposição do preconceito e da discriminação."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: https://oglobo.globo.com. Acesso em: 6 dez. 2017 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Ao abordar a postura do internauta brasileiro mapeada por meio de uma pesquisa em plataformas virtuais, o texto"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Minimiza o alcance da comunicação digital."
+    },
+    {
+     "letter": "B",
+     "text": "Refuta ideias preconcebidas sobre o brasileiro."
+    },
+    {
+     "letter": "C",
+     "text": "Relativiza responsabilidades sobre a noção de respeito."
+    },
+    {
+     "letter": "D",
+     "text": "Exemplifica conceitos contidos na literatura e na sociologia."
+    },
+    {
+     "letter": "E",
+     "text": "Expõe a ineficácia dos estudos para alterar tal comportamento."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2018-q10",
+   "number": 10,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Quebranto"
+    },
+    {
+     "type": "text",
+     "text": "às vezes sou o policial que me suspeito\nme peço documentos\ne mesmo de posse deles\nme prendo e me dou porrada\nàs vezes sou o porteiro\nnão me deixando entrar em mim mesmo\na não ser\npela porta de serviço\n[…]\nàs vezes faço questão de não me ver\ne entupido com a visão deles\nsinto-me a miséria concebida como um eterno\ncomeço\nfecho-me o cerco\nsendo o gesto que me nego\na pinga que me bebo e me embebedo\no dedo que me aponto\ne denuncio\no ponto em que me entrego.\nàs vezes!…"
+    },
+    {
+     "type": "text",
+     "text": "CUTI. Negroesia. Belo Horizonte: Mazza, 2007 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "Na literatura de temática negra produzida no Brasil, é recorrente a presença de elementos que traduzem experiências históricas de preconceito e violência. No poema, essa vivência revela que o eu lírico"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Incorpora seletivamente o discurso do seu opressor."
+    },
+    {
+     "letter": "B",
+     "text": "Submete-se à discriminação como meio de fortalecimento."
+    },
+    {
+     "letter": "C",
+     "text": "Engaja-se na denúncia do passado de opressão e injustiças."
+    },
+    {
+     "letter": "D",
+     "text": "Sofre uma perda de identidade e de noção de pertencimento."
+    },
+    {
+     "letter": "E",
+     "text": "Acredita esporadicamente na utopia de uma sociedade igualitária."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2018-q12",
+   "number": 12,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Deficientes visuais já podem ir a algumas salas de cinema e teatros para curtir, em maior intensidade, as atrações em cartaz. Quem ajuda na tarefa é o aplicativo Whatscine, recém-chegado ao Brasil e disponível para os sistemas operacionais iOS (Apple) ou Android (Google). Ao ser conectado à rede wi-fí de cinemas e teatros, o app sincroniza um áudio que descreve o que ocorre na tela\nou no palco com o espetáculo em andamento: o usuário, então, pode ouvir a narração em seu celular.\nO programa foi desenvolvido por pesquisadores da Universidade Carlos III, em Madri. “Na Espanha, 200 salas de cinema já oferecem o recurso e flimes de grandes estúdios já são exibidos com o recurso do Whatscine!”, diz o brasileiro Luis Mauch, que trouxe a tecnologia para o país. “No Brasil, já fechamos parceria com a São Paulo Companhia de Dança para adaptar os espetáculos deles! Isso já é um avanço. Concorda?”"
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://veja.abril.com.br. Acesso em: 25jun. 2014 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Por ser múltipla e apresentar peculiaridades de acordo com a intenção do emissor, a linguagem apresenta funções diferentes. Nesse fragmento, predomina a função referencial da linguagem, porque há a presença de elementos que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Buscam convencer o leitor, incitando o uso do aplicativo."
+    },
+    {
+     "letter": "B",
+     "text": "Definem o aplicativo, revelando o ponto de vista da autora,."
+    },
+    {
+     "letter": "C",
+     "text": "Evidenciam a subjetividade, explorando a entonação emotiva."
+    },
+    {
+     "letter": "D",
+     "text": "Expõem dados sobre o aplicativo, usando linguagem denotativa."
+    },
+    {
+     "letter": "E",
+     "text": "Objetivam manter um diálogo com o leitor, recorrendo a uma indagação."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2018-q14",
+   "number": 14,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "No tradicional concurso de miss, as candidatas apresentaram dados de feminicídio, abuso sexual e estupro no país.\nNo lugar das medidas de altura, peso, busto, cintura e quadril, dados da violência contra as mulheres no Peru. Foi assim que as 23 candidatas ao Miss Peru 2017 protestaram contra os altos índices de feminicídio e abuso sexual no país no tradicional desflie em trajes de banho.\nO tom político, porém, marcou a atração desde o começo: logo no início, quando as peruanas se apresentaram, uma a uma, denunciaram os abusos morais e físicos, a exploração sexual, o assédio, entre outros crimes contra as mulheres."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.cartacapital.com.br. Acesso em: 29 nov. 2017."
+    },
+    {
+     "type": "text",
+     "text": "Quanto à materialização da linguagem, a apresentação de dados relativos à violência contra a mulher"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Configura uma discussão sobre os altos índices de abuso físico contra as peruanas."
+    },
+    {
+     "letter": "B",
+     "text": "Propõe um novo formato no enredo dos concursos de beleza feminina"
+    },
+    {
+     "letter": "C",
+     "text": "Condena o rigor estético exigido pelos concursos tradicionais."
+    },
+    {
+     "letter": "D",
+     "text": "Recupera informações sensacionalistas a respeito desse tema."
+    },
+    {
+     "letter": "E",
+     "text": "Subverte a função social da fala das candidatas a miss."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2018-q15",
+   "number": 15,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Dia 20/10"
+    },
+    {
+     "type": "text",
+     "text": "É preciso não beber mais. Não é preciso sentir vontade de beber e não beber: é preciso não sentir vontade de beber. É preciso não dar de comer aos urubus. É preciso fechar para balanço e reabrir. É preciso não dar de comer aos urubus. Nem esperanças aos urubus. É preciso sacudir a poeira. É preciso poder beber sem se oferecer em holocausto. É preciso. É preciso não morrer por enquanto. É preciso sobreviver para verificar. Não pensar mais na solidão de Rogério, e deixá-lo. É preciso não dar de comer aos urubus. É preciso enquanto é tempo não morrer na via pública."
+    },
+    {
+     "type": "text",
+     "text": "TORQUATO NETO. In: MENDONÇA, J. (Org.) Poesia (im)popular brasileira.\nSão Bernardo do Campo: Lamparina Luminosa, 2012."
+    },
+    {
+     "type": "text",
+     "text": "O processo de construção do texto formata uma mensagem por ele dimensionada, uma vez que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Configura o estreitamento da linguagem poética."
+    },
+    {
+     "letter": "B",
+     "text": "Reflete as lacunas da lucidez em desconstrução."
+    },
+    {
+     "letter": "C",
+     "text": "Projeta a persistência das emoções reprimidas."
+    },
+    {
+     "letter": "D",
+     "text": "Repercute a consciência da agonia antecipada."
+    },
+    {
+     "letter": "E",
+     "text": "Revela a fragmentação das relações humanas."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q16",
+   "number": 16,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Somente uns tufos secos de capim empedrados crescem na silenciosa baixada que se perde de vista. Somente uma árvore, grande e esgalhada mas com pouquíssimas folhas, abre-se em farrapos de sombra. Único ser nas cercanias, a mulher é magra, ossuda, seu rosto está lanhado de vento. Não se vê o cabelo, coberto por um pano desidratado. Mas seus olhos, a boca, a pele – tudo é de uma aridez sufocante. Ela está de pé. A seu lado está uma pedra. O sol explode.\nEla estava de pé no fim do mundo. Como se andasse para aquela baixada largando para trás suas noções de si mesma. Não tem retratos na memória. Desapossada e despojada, não se abate em autoacusações e remorsos. Vive. Sua sombra somente é que lhe faz companhia. Sua sombra, que se derrama em traços grossos na areia, é que adoça como um gesto a claridade esquelética. A mulher esvaziada emudece, se dessangra, se cristaliza, se mineraliza. Já é quase de pedra como a pedra a seu lado. Mas os traços de sua sombra caminham e, tornando-se mais longos e finos, esticam-se para os farrapos de sombra da ossatura da árvore, com os quais se enlaçam."
+    },
+    {
+     "type": "text",
+     "text": "FRÓES, L. Vertigens: obra reunida. Rio de Janeiro: Rocco, 1998"
+    },
+    {
+     "type": "text",
+     "text": "Na apresentação da paisagem e da personagem, o narrador estabelece uma correlação de sentidos em que esses elementos se entrelaçam. Nesse processo, a condição humana configura-se"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Amalgamada pelo processo comum de desertificação e de solidão."
+    },
+    {
+     "letter": "B",
+     "text": "Fortalecida pela adversidade extensiva à terra e aos seres vivos"
+    },
+    {
+     "letter": "C",
+     "text": "Redimensionada pela intensidade da luz e da exuberância local."
+    },
+    {
+     "letter": "D",
+     "text": "Imersa num drama existencial de identidade e de origem."
+    },
+    {
+     "letter": "E",
+     "text": "Imobilizada pela escassez e pela opressão do ambiente."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2018-q17",
+   "number": 17,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Aconteceu mais de uma vez: ele me abandonou. Como todos os outros. O quinto. A gente já estava junto há mais de um ano. Parecia que dessa vez seria para sempre. Mas não: ele desapareceu de repente, sem deixar rastro. Quando me dei conta, fiquei horas ligando sem parar – mas só chamava, chamava, e ninguém atendia. E então fiz o que precisava ser feito: bloqueei a linha.\nA verdade é que nenhum telefone celular me suporta. Já tentei de todas as marcas e operadoras, apenas para descobrir que eles são todos iguais: na primeira oportunidade, dão no pé. Esse último aproveitou que eu estava distraído e não desceu do táxi junto comigo. Ou será que ele já tinha pulado do meu bolso no momento em que eu embarcava no táxi? Tomara que sim. Depois\nde fazer o que me fez, quero mais é que ele tenha ido parar na sarjeta. […] Se ainda fossem embora do jeito que chegaram, tudo bem. […] Mas já sei o que vou fazer. No caminho da loja de celulares, vou passar numa papelaria. Pensando bem, nenhuma das minhas agendinhas de papel jamais me abandonou."
+    },
+    {
+     "type": "text",
+     "text": "FREIRE, R. Começar de novo. O Estado de S. Paulo, 24 nov. 2006"
+    },
+    {
+     "type": "text",
+     "text": "Nesse fragmento, a fim de atrair a atenção do leitor e de estabelecer um fio condutor de sentido, o autor utiliza-se de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Primeira pessoa do singular para imprimir subjetividade ao relato de mais uma desilusão amorosa."
+    },
+    {
+     "letter": "B",
+     "text": "Ironia para tratar da relação com os celulares na era de produtos altamente descartáveis."
+    },
+    {
+     "letter": "C",
+     "text": "Frases feitas na apresentação de situações amorosas estereotipadas para construir a ambientação do texto."
+    },
+    {
+     "letter": "D",
+     "text": "Quebra de expectativa como estratégia argumentativa para ocultar informações."
+    },
+    {
+     "letter": "E",
+     "text": "Verbos no tempo pretérito para enfatizar uma aproximação com os fatos abordados ao longo do texto."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q18",
+   "number": 18,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Enquanto isso, nos bastidores do universo"
+    },
+    {
+     "type": "text",
+     "text": "Você planeja passar um longo tempo em outro país, trabalhando e estudando, mas o universo está preparando a chegada de um amor daqueles de tirar o chão, um amor que fará você jogar fora seu atlas e criar raízes no quintal como se fosse uma figueira.\nVocê treina para a maratona mais desafiadora de todas, mas não chegará com as duas pernas intactas na hora da largada, e a primeira perplexidade será esta: a experiência da frustração.\nO universo nunca entrega o que promete. Aliás, ele nunca prometeu nada, você é que escuta vozes.\nNo dia em que você pensa que não tem nada a dizer para o analista, faz a revelação mais bombástica dos seus dois anos de terapia. O resultado de um\nexame de rotina coloca sua rotina de cabeça para baixo. Você não imaginava que iriam tantos amigos à sua festa, e tampouco imaginou que justo sua grande paixão não iria. Quando achou que estava bela, não arrasou corações. Quando saiu sem maquiagem e com uma camiseta puída, chamou a atenção. E assim seguem os dias à prova de planejamento e contrariando nossas vontades, pois, por mais que tenhamos ensaiado nossa fala e estejamos preparados para a melhor cena, nos bastidores do universo alguém troca nosso papel de última hora, tornando surpreendente a nossa vida."
+    },
+    {
+     "type": "text",
+     "text": "MEDEIROS, M. O Globo, 21 jun. 2015."
+    },
+    {
+     "type": "text",
+     "text": "Entre as estratégias argumentativas utilizadas para sustentar a tese apresentada nesse fragmento, destaca-se a recorrência de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Estruturas sintáticas semelhantes, para reforçar a velocidade das mudanças da vida."
+    },
+    {
+     "letter": "B",
+     "text": "Marcas de interlocução, para aproximar o leitor das experiências vividas pela autora."
+    },
+    {
+     "letter": "C",
+     "text": "Formas verbais no presente, para exprimir reais possibilidades de concretização das ações."
+    },
+    {
+     "letter": "D",
+     "text": "Construções de oposição, para enfatizar que as expectativas são afetadas pelo inesperado."
+    },
+    {
+     "letter": "E",
+     "text": "Sequências descritivas, para promover a identificação do leitor com as situações apresentadas."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2018-q20",
+   "number": 20,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Vó Clarissa deixou cair os talheres no prato, fazendo a porcelana estalar. Joaquim, meu primo, continuava com o queixo suspenso, batendo com o garfo nos lábios, esperando a resposta. Beatriz ecoou a palavra como pergunta, “o que é lésbica?”. Eu fiquei muda. Joaquim sabia sobre mim e me entregaria para a vó e, mais tarde, para toda a família. Senti um calor letal subir pelo meu pescoço e me doer atrás das orelhas. Previ a cena: vó, a senhora é lésbica? Porque a Joana é. A vergonha estava na minha cara e me denunciava antes mesmo da delação. Apertei os olhos e contraí o peito, esperando o tiro. […]\n[…] Pensei na naturalidade com que Taís e eu levávamos a nossa história. Pensei na minha insegurança de contar isso à minha família, pensei em todos os colegas e professores que já sabiam, fechei os olhos e vi a boca da minha vó e a boca da tia Carolina se tocando, apesar de todos os impedimentos. Eu quis saber mais, eu quis saber tudo, mas não consegui perguntar."
+    },
+    {
+     "type": "text",
+     "text": "POLESSO, N. B. Vó, a senhora é lésbica? Amora. Porto Alegre: Não Editora, 2015 (fragmento)"
+    },
+    {
+     "type": "text",
+     "text": "A situação narrada revela uma tensão fundamentada na perspectiva do"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Conflito com os interesses de poder."
+    },
+    {
+     "letter": "B",
+     "text": "Silêncio em nome do equilíbrio familiar."
+    },
+    {
+     "letter": "C",
+     "text": "Medo instaurado pelas ameaças de punição."
+    },
+    {
+     "letter": "D",
+     "text": "Choque imposto pela distância entre as gerações."
+    },
+    {
+     "letter": "E",
+     "text": "Apego aos protocolos de conduta segundo os gêneros."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2018-q21",
+   "number": 21,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Ó Pátria amada,\nIdolatrada,\nSalve! Salve!\nBrasil, de amor eterno seja símbolo\nO lábaro que ostentas estrelado,\nE diga o verde-louro dessa flâmula\n— “Paz no futuro e glória no passado.”\nMas, se ergues da justiça a clava forte,\nVerás que um filho teu não foge à luta,\nNem teme, quem te adora, a própria morte.\nTerra adorada,\nEntre outras mil,\nÉs tu, Brasil,\nÓ Pátria amada!\nDos filhos deste solo és mãe gentil,\nPátria amada, Brasil!"
+    },
+    {
+     "type": "text",
+     "text": "Hino Nacional do Brasil. Letra: Joaquim Osório Duque Estrada.\nMúsica: Francisco Manuel da Silva (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "O uso da norma-padrão na letra do Hino Nacional do Brasil é justificado por tratar-se de um(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Reverência de um povo a seu país."
+    },
+    {
+     "letter": "B",
+     "text": "Gênero solene de característica protocolar."
+    },
+    {
+     "letter": "C",
+     "text": "Canção concebida sem interferência da oralidade."
+    },
+    {
+     "letter": "D",
+     "text": "Escrita de uma fase mais antiga da língua portuguesa."
+    },
+    {
+     "letter": "E",
+     "text": "Artefato cultural respeitado por todo o povo brasileiro."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2018-q23",
+   "number": 23,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O trabalho não era penoso: colar rótulos, meter vidros em caixas, etiquetá-las, selá-las, envolvê-las em papel celofane, branco, verde, azul, conforme o produto, separá-las em dúzias… Era fastidioso. Para passar mais rapidamente as oito horas havia o remédio: conversar. Era proibido, mas quem ia atrás de proibições? O patrão vinha? Vinha o encarregado do serviço? Calavam o bico, aplicavam-se ao trabalho. Mal viravam as costas, voltavam a taramelar. As mãos não paravam, as línguas não paravam. Nessas conversas intermináveis, de linguagem solta e assuntos crus, Leniza se completou. Isabela, Afonsina, Idália, Jurete, Deolinda – foram mestras. O mundo acabou de se desvendar. Leniza perdeu o tom ingênuo que ainda podia ter. Ganhou um jogar de corpo que convida, um quebrar de olhos que promete tudo, à toa, gratuitamente. Modificou-se o timbre de sua voz. Ficou mais quente. A própria inteligência se transformou.\nTornou-se mais aguda, mais trepidante"
+    },
+    {
+     "type": "text",
+     "text": "REBELO, M. A estrela sobe. Rio de Janeiro: José Olympio, 2009."
+    },
+    {
+     "type": "text",
+     "text": "O romance, de 1939, traz à cena tipos e situações que espelham o Rio de Janeiro daquela década. No fragmento, o narrador delineia esse contexto centrado no"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Julgamento da mulher fora do espaço doméstico."
+    },
+    {
+     "letter": "B",
+     "text": "Relato sobre as condições de trabalho no Estado Novo."
+    },
+    {
+     "letter": "C",
+     "text": "Destaque a grupos populares na condição de protagonistas"
+    },
+    {
+     "letter": "D",
+     "text": "Processo de inclusão do palavrão nos hábitos de linguagem."
+    },
+    {
+     "letter": "E",
+     "text": "Vínculo entre as transformações urbanas e os papéis femininos."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2018-q24",
+   "number": 24,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A imagem da negra e do negro em produtos de\nbeleza e a estética do racismo"
+    },
+    {
+     "type": "text",
+     "text": "Resumo: Este artigo tem por finalidade discutir a representação da população negra, especialmente da mulher negra, em imagens de produtos de beleza presentes em comércios do nordeste goiano. Evidencia-se que a presença de estereótipos negativos nessas imagens dissemina um imaginário racista apresentado sob a forma de uma estética racista que camufla a exclusão e normaliza a inferiorização sofrida pelos(as) negros(as) na sociedade brasileira. A análise do material imagético aponta a desvalorização estética do negro,\nespecialmente da mulher negra, e a idealização da beleza e do branqueamento a serem alcançados por meio do uso dos produtos apresentados. O discurso midiático-publicitário dos produtos de beleza rememora e legitima a prática de uma ética racista construída e atuante no cotidiano. Frente a essa discussão, sugere-se que o trabalho antirracismo, feito nos diversos espaços sociais, considere o uso de estratégias para uma “descolonização estética” que empodere os sujeitos negros por meio de sua valorização estética e protagonismo na construção de uma ética da diversidade."
+    },
+    {
+     "type": "text",
+     "text": "Palavras-chave: Estética, racismo, mídia, educação, diversidade."
+    },
+    {
+     "type": "text",
+     "text": "SANT’ANA, J. A imagem da negra e do negro em produtos de beleza e a estética do racismo. Dossiê: trabalho e educação básica. Margens Interdisciplinar.\nVersão digital. Abaetetuba, n.16,jun. 2017 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O cumprimento da função referencial da linguagem é uma marca característica do gênero resumo de artigo acadêmico. Na estrutura desse texto, essa função é estabelecida pela"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Impessoalidade, na organização da objetividade das informações, como em “Este artigo tem por finalidade” e “Evidencia-se”."
+    },
+    {
+     "letter": "B",
+     "text": "Seleção lexical, no desenvolvimento sequencial do texto, como em “imaginário racista” e “estética do negro”."
+    },
+    {
+     "letter": "C",
+     "text": "Metaforização, relativa à construção dos sentidos figurados, como nas expressões “descolonização estética” e “discurso midiático-publicitário”."
+    },
+    {
+     "letter": "D",
+     "text": "Nominalização, produzida por meio de processos derivacionais na formação de palavras, como “inferiorização” e “desvalorização”."
+    },
+    {
+     "letter": "E",
+     "text": "Adjetivação, organizada para criar uma terminologia antirracista, como em “ética da diversidade” e “descolonização estética”."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2018-q26",
+   "number": 26,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Tanto os Jogos Olímpicos quanto os Paralímpicos são mais que uma corrida por recordes, medalhas e busca da excelência. Por trás deles está a filosofia do barão\nPierre de Coubertin, fundador do Movimento Olímpico. Como educador, ele viu nos Jogos a oportunidade para que os povos desenvolvessem valores, que poderiam ser aplicados não somente ao esporte, mas à educação e à sociedade. Existem atualmente sete valores associados aos Jogos. Os valores olímpicos são: a amizade, a excelência e o respeito, enquanto os valores paralímpicos são: a determinação, a coragem, a igualdade e a inspiração."
+    },
+    {
+     "type": "text",
+     "text": "MIRAGAYA, A. Valores para toda a vida. Disponível em: ww.esporteessencial.com.br. Acesso em: 9 ago. 2017 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "No contexto das aulas de Educação Física escolar, os valores olímpicos e paralímpicos podem ser identificados\nquando o colega"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Procura entender o próximo, assumindo atitudes positivas como simpatia, empatia, honestidade, compaixão, confiança e solidariedade, o que caracteriza o valor da igualdade."
+    },
+    {
+     "letter": "B",
+     "text": "Faz com que todos possam ser iguais e receber o mesmo tratamento, assegurando imparcialidade, oportunidades e tratamentos iguais para todos, o que caracteriza o valor da amizade."
+    },
+    {
+     "letter": "C",
+     "text": "Dá o melhor de si na vivência das diversas atividades relacionadas ao esporte ou aos jogos, participando e progredindo de acordo com seus objetivos, o que caracteriza o valor da coragem."
+    },
+    {
+     "letter": "D",
+     "text": "Manifesta a habilidade de enfrentar a dor, o sofrimento, o medo, a incerteza e a intimidação nas atividades, agindo corretamente contra a vergonha, a desonra e o desânimo, o que caracteriza o valor da determinação."
+    },
+    {
+     "letter": "E",
+     "text": "Inclui em suas ações o fair play (jogo limpo), a honestidade, o sentimento positivo de consideração por outra pessoa, o conhecimento dos seus limites, a valorização de sua própria saúde e o combate ao doping, o que caracteriza o valor do respeito."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2018-q27",
+   "number": 27,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Mais big do que bang"
+    },
+    {
+     "type": "text",
+     "text": "A comunidade científica mundial recebeu, na semana passada, a confirmação oficial de uma descoberta sobre a qual se falava com enorme expectativa há alguns meses. Pesquisadores do Centro de Astrofísica Harvard-Smithsonian\nrevelaram ter obtido a mais forte evidência até agora de que o universo em que vivemos começou mesmo pelo Big Bang, mas este não foi explosão, e sim uma súbita expansão de matéria e energia infinitas concentradas em um ponto microscópico que, sem muitas opções semânticas, os cientistas chamam de “singularidade”. Essa semente cósmica permanecia em estado latente e, sem que exista ainda uma explicação definitiva, começou a inchar rapidamente […]. No intervalo de um piscar de olhos, por exemplo, seria possível, portanto, que ocorressem mais de 10 trilhões de Big Bangs."
+    },
+    {
+     "type": "text",
+     "text": "ALLEGRETTI, F. Veja, 26 mar. 2014 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "No título proposto para esse texto de divulgação científica, ao dissociar os elementos da expressão Big Bang, a autora revela a intenção de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Evidenciar a descoberta recente que comprova a explosão de matéria e energia."
+    },
+    {
+     "letter": "B",
+     "text": "Resumir os resultados de uma pesquisa que trouxe evidências para a teoria do Big Bang."
+    },
+    {
+     "letter": "C",
+     "text": "Sintetizar a ideia de que a teoria da expansão de matéria e energia substitui a teoria da explosão."
+    },
+    {
+     "letter": "D",
+     "text": "Destacar a experiência que confirma uma investigação anterior sobre a teoria de matéria e energia."
+    },
+    {
+     "letter": "E",
+     "text": "Condensar a conclusão de que a explosão de matéria e energia ocorre em um ponto microscópico."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q30",
+   "number": 30,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Eu sobrevivi do nada, do nada\nEu não existia\nNão tinha uma existência\nNão tinha uma matéria\nComecei existir com quinhentos milhões\ne quinhentos mil anos\nLogo de uma vez, já velha\nEu não nasci criança, nasci já velha\nDepois é que eu virei criança\nE agora continuei velha\nMe transformei novamente numa velha\nVoltei ao que eu era, uma velha"
+    },
+    {
+     "type": "text",
+     "text": "PATROCÍNIO, S. In: MOSÉ, V. (Org ). Reino dos bichos e dos animais é meu nome. Rio de Janeiro: Azougue, 2009"
+    },
+    {
+     "type": "text",
+     "text": "Nesse poema de Stela do Patrocínio, a singularidade da expressão lírica manifesta-se na"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Representação da infância, redimensionada no resgate da memória."
+    },
+    {
+     "letter": "B",
+     "text": "Associação de imagens desconexas, articuladas por uma fala delirante."
+    },
+    {
+     "letter": "C",
+     "text": "Expressão autobiográfica, fundada no relato de experiências de alteridade."
+    },
+    {
+     "letter": "D",
+     "text": "Incorporação de elementos fantásticos, explicitada por versos incoerentes"
+    },
+    {
+     "letter": "E",
+     "text": "Transgressão à razão, ecoada na desconstrução de referências temporais."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2018-q31",
+   "number": 31,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A história do futebol é uma triste viagem do prazer ao dever. […] O jogo se transformou em espetáculo, com poucos protagonistas e muitos espectadores, futebol para olhar, e o espetáculo se transformou num dos negócios mais lucrativos do mundo, que não é organizado para ser jogado, mas para impedir que se jogue. A tecnocracia do esporte profissional foi impondo um futebol de pura velocidade e muita força, que renuncia ã alegria, atrofia a fantasia e proíbe a ousadia. Por sorte ainda aparece nos campos, […] algum atrevido que sai do roteiro e comete o disparate de driblar o time adversário inteirinho, além do juiz e do público das arquibancadas, pelo puro prazer do corpo que se lança na proibida aventura da liberdade."
+    },
+    {
+     "type": "text",
+     "text": "GALEANO, E. Futebol ao sol e à sombra. Porto Alegre: L&PM Pockets, 1995 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O texto indica que as mudanças nas práticas corporais, especificamente no futebol,"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Fomentaram uma tecnocracia, promovendo uma vivência mais lúdica e irreverente."
+    },
+    {
+     "letter": "B",
+     "text": "Promoveram o surgimento de atletas mais habilidosos, para que fossem inovadores."
+    },
+    {
+     "letter": "C",
+     "text": "Incentivaram a associação dessa manifestação à fruição, favorecendo o improviso."
+    },
+    {
+     "letter": "D",
+     "text": "Tornaram a modalidade em um produto a ser consumido, negando sua dimensão criativa."
+    },
+    {
+     "letter": "E",
+     "text": "Contribuíram para esse esporte ter mais jogadores, bem como acompanhado de torcedores."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2018-q33",
+   "number": 33,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A trajetória de Liesel Meminger é contada por uma narradora mórbida, surpreendentemente simpática. Ao perceber que a pequena ladra de livros lhe escapa, a Morte afeiçoa-se à menina e rastreia suas pegadas de 1939 a 1943. Traços de uma sobrevivente: a mãe comunista, perseguida pelo nazismo, envia Liesel e o irmão para o subúrbio pobre de uma cidade alemã, onde um casal se dispõe a adotá-los por dinheiro. O garoto morre no trajeto e é enterrado por um coveiro que deixa cair um livro na neve. É o primeiro de uma série que a menina vai surrupiar ao longo dos anos. O único vínculo\ncom a família é esta obra, que ela ainda não sabe ler. A vida ao redor é a pseudorrealidade criada em torno do culto a Hitler na Segunda Guerra. Ela assiste à eufórica celebração do aniversário do Führer pela vizinhança. A Morte, perplexa diante da violência humana, dá um tom leve e divertido à narrativa deste duro confronto entre a infância perdida e a crueldade do mundo adulto, um sucesso absoluto – e raro – de crítica e público."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.odevoradordelivros.com. Acesso em: 24jun. 2014"
+    },
+    {
+     "type": "text",
+     "text": "Os gêneros textuais podem ser caracterizados, dentre outros fatores, por seus objetivos. Esse fragmento é um(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Reportagem, pois busca convencer o interlocutor da tese defendida ao longo do texto."
+    },
+    {
+     "letter": "B",
+     "text": "Resumo, pois promove o contato rápido do leitor com uma informação desconhecida."
+    },
+    {
+     "letter": "C",
+     "text": "Sinopse, pois sintetiza as informações relevantes de uma obra de modo impessoal."
+    },
+    {
+     "letter": "D",
+     "text": "Instrução, pois ensina algo por meio de explicações sobre uma obra específica."
+    },
+    {
+     "letter": "E",
+     "text": "Resenha, pois apresenta uma produção intelectual de forma crítica."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2018-q35",
+   "number": 35,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "o que será que ela quer\nessa mulher de vermelho\nalguma coisa ela quer\npra ter posto esse vestido\nnão pode ser apenas\numa escolha casual\npodia ser um amarelo\nverde ou talvez azul\nmas ela escolheu vermelho\nela sabe o que ela quer\ne ela escolheu vestido\ne ela é uma mulher\nentão com base nesses fatos\neu já posso afirmar\nque conheço o seu desejo\ncaro watson, elementar:\no que ela quer sou euzinho\nsou euzinho o que ela quer\nsó pode ser euzinho\no que mais podia ser"
+    },
+    {
+     "type": "text",
+     "text": "FREITAS, A. Um útero é do tamanho de um punho. São Paulo: Cosac Naify, 2013."
+    },
+    {
+     "type": "text",
+     "text": "No processo de elaboração do poema, a autora confere ao eu lírico uma identidade que aqui representa a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Hipocrisia do discurso alicerçado sobre o senso comum."
+    },
+    {
+     "letter": "B",
+     "text": "Mudança de paradigmas de imagem atribuídos à mulher."
+    },
+    {
+     "letter": "C",
+     "text": "Tentativa de estabelecer preceitos da psicologia feminina."
+    },
+    {
+     "letter": "D",
+     "text": "Importância da correlação entre ações e efeitos causados."
+    },
+    {
+     "letter": "E",
+     "text": "Valorização da sensibilidade como característica de gênero."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2018-q36",
+   "number": 36,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O rio que fazia uma volta atrás de nossa casa era a imagem de um vidro mole que fazia uma volta atrás de casa.\nPassou um homem e disse: Essa volta que o rio faz por trás de sua casa se chama enseada. Não era mais a imagem de uma cobra de vidro que fazia uma volta atrás de casa.\nEra uma enseada.\nAcho que o nome empobreceu a imagem."
+    },
+    {
+     "type": "text",
+     "text": "BARROS, M. O livro das ignorãças. Rio de Janeiro: Best Seller, 2008."
+    },
+    {
+     "type": "text",
+     "text": "O sujeito poético questiona o uso do vocábulo “enseada” porque a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Terminologia mencionada é incorreta."
+    },
+    {
+     "letter": "B",
+     "text": "Nomeação minimiza a percepção subjetiva."
+    },
+    {
+     "letter": "C",
+     "text": "Palavra é aplicada a outro espaço geográfico."
+    },
+    {
+     "letter": "D",
+     "text": "Designação atribuída ao termo é desconhecida."
+    },
+    {
+     "letter": "E",
+     "text": "Definição modifica o significado do termo no dicionário."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2018-q37",
+   "number": 37,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "“Acuenda o Pajubá”: conheça o “dialeto secreto”\nutilizado por gays e travestis"
+    },
+    {
+     "type": "text",
+     "text": "Com origem no iorubá, linguagem foi adotada por\ntravestis e ganhou a comunidade"
+    },
+    {
+     "type": "text",
+     "text": "“Nhaí, amapô! Não faça a loka e pague meu acué, deixe de equê se não eu puxo teu picumã!” Entendeu as palavras dessa frase? Se sim, é porque você manja alguma coisa de pajubá, o “dialeto secreto” dos gays e travestis.\nAdepto do uso das expressões, mesmo nos ambientes mais formais, um advogado afirma: “É claro que eu não vou falar durante uma audiência ou numa reunião, mas na firma, com meus colegas de trabalho, eu falo de ‘acué’ o tempo inteiro”, brinca. “A gente tem que ter cuidado de falar outras palavras porque hoje o pessoal já entende, né? Tá na internet, tem até dicionário…”,  comenta.\nO dicionário a que ele se refere é o Aurélia, a dicionária da Ungua afíada, lançado no ano de 2006 e escrito pelo jornalista Angelo Vip e por Fred Libi. Na obra, há mais de 1 300 verbetes revelando o significado das palavras do pajubá.\nNão se sabe ao certo quando essa linguagem surgiu, mas sabe-se que há  claramente uma relação entre o pajubá e a cultura africana, numa costura iniciada ainda na época do Brasil colonial."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.midiamax.com.br. Acesso em: 4 abr. 2017 (adaptado)"
+    },
+    {
+     "type": "text",
+     "text": "Da perspectiva do usuário, o pajubá ganha status de dialeto, caracterizando-se como elemento de patrimônio linguístico, especialmente por"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Ter mais de mil palavras conhecidas."
+    },
+    {
+     "letter": "B",
+     "text": "Ter palavras diferentes de uma linguagem secreta."
+    },
+    {
+     "letter": "C",
+     "text": "Ser consolidado por objetos formais de registro."
+    },
+    {
+     "letter": "D",
+     "text": "Ser utilizado por advogados em situações formais."
+    },
+    {
+     "letter": "E",
+     "text": "Ser comum em conversas no ambiente de trabalho."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q38",
+   "number": 38,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Certa vez minha mãe surrou-me com uma corda nodosa que me pintou as costas de manchas sangrentas. Moído, virando a cabeça com dificuldade, eu distinguia nas costelas grandes lanhos vermelhos. Deitaram-me, enrolaram-me em panos molhados com água de sal – e houve uma discussão na família. Minha avó, que nos visitava, condenou o procedimento da filha e esta afligiu-se. Irritada,  ferira-me ã toa, sem querer. Não guardei ódio a minha mãe: o culpado era o nó."
+    },
+    {
+     "type": "text",
+     "text": "RAMOS, G. Infância. Rio de Janeiro: Record, 1998."
+    },
+    {
+     "type": "text",
+     "text": "Num texto narrativo, a sequência dos fatos contribui para a progressão temática. No fragmento, esse processo é indicado pela"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Alternância das pessoas do discurso que determinam o foco narrativo."
+    },
+    {
+     "letter": "B",
+     "text": "Utilização de formas verbais que marcam tempos narrativos variados."
+    },
+    {
+     "letter": "C",
+     "text": "Indeterminação dos sujeitos de ações que caracterizam os eventos narrados."
+    },
+    {
+     "letter": "D",
+     "text": "Justaposição de frases que relacionam semanticamente os acontecimentos narrados."
+    },
+    {
+     "letter": "E",
+     "text": "Recorrência de expressões adverbiais que organizam temporalmente a narrativa."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2018-q40",
+   "number": 40,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "ABL lança novo concurso cultural:\n“Conte o conto sem aumentar um ponto”"
+    },
+    {
+     "type": "text",
+     "text": "Em razão da grande repercussão do concurso de Microcontos do Twitter da ABL, o Abletras, a Academia Brasileira de Letras lançou no dia do seu aniversário de 113 anos um novo concurso cultural intitulado “Conte o conto sem aumentar um ponto”, baseado na obra A cartomante, de Machado de Assis.\n“Conte o conto sem aumentar um ponto” tem como objetivo dar um final distinto do original ao conto A cartomante, de Machado de Assis, utilizando-se o mesmo número de caracteres – ou inferior – que Machado concluiu seu trabalho, ou seja, 1 778 caracteres.\nVale ressaltar que, para participar do concurso, o concorrente deverá ser seguidor do Twitter da ABL, o Abletras."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.academia.org.br. Acesso em: 18 out. 2015 (adaptado)"
+    },
+    {
+     "type": "text",
+     "text": "O Twitter é reconhecido por promover o compartilhamento de textos. Nessa notícia, essa rede social foi utilizada como veículo/suporte para um concurso literário por causa do(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Limite predeterminado de extensão do texto."
+    },
+    {
+     "letter": "B",
+     "text": "Interesse pela participação de jovens."
+    },
+    {
+     "letter": "C",
+     "text": "Atualidade do enredo proposto."
+    },
+    {
+     "letter": "D",
+     "text": "Fidelidade a fatos cotidianos."
+    },
+    {
+     "letter": "E",
+     "text": "Dinâmica da sequência narrativa."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2018-q42",
+   "number": 42,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A Casa de Vidro"
+    },
+    {
+     "type": "text",
+     "text": "Houve protestos.\nDeram uma bola a cada criança e tempo para brincar. Elas aprenderam malabarismos incríveis e algumas viajavam pelo mundo exibindo sua alegre habilidade. (O problema é que muitos, a maioria, não tinham jeito e eram feios de noite, assustadores. Seria melhor prender essa gente – havia quem dissesse.)\nHouve protestos.\nAumentaram o preço da carne, liberaram os preços dos cereais e abriram crédito a juros baixos para o agricultor. O dinheiro que sobrasse, bem, digamos, ora o dinheiro que sobrasse!\nHouve protestos.\nDiminuíram os salários (infelizmente aumentou o número de assaltos) porque precisamos combater a inflação e, como se sabe, quando os salários estão acima do índice de produtividade eles se tornam altamente inflacionários, de modo que.\nHouve protestos.\nProibiram os protestos.\nE no lugar dos protestos nasceu o ódio. Então surgiu a Casa de Vidro, para acabar com aquele ódio."
+    },
+    {
+     "type": "text",
+     "text": "ÂNGELO, I. A casa de vidro. São Paulo: Círculo do Livro, 1985."
+    },
+    {
+     "type": "text",
+     "text": "Publicado em 1979, o texto compartilha com outras obras da literatura brasileira escritas no período as marcas  o\ncontexto em que foi produzido, como a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Referência à censura e à opressão para alegorizar a falta de liberdade de expressão característica da época."
+    },
+    {
+     "letter": "B",
+     "text": "Valorização de situações do cotidiano para atenuar os sentimentos de revolta em relação ao governo instituído."
+    },
+    {
+     "letter": "C",
+     "text": "Utilização de metáforas e ironias para expressar um olhar crítico em relação à situação social e política do país."
+    },
+    {
+     "letter": "D",
+     "text": "Tendência realista para documentar com verossimilhança o drama da população brasileira durante o Regime Militar."
+    },
+    {
+     "letter": "E",
+     "text": "Sobreposição das manifestações populares pelo discurso oficial para destacar o autoritarismo do momento histórico."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q43",
+   "number": 43,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Encontrando base em argumentos supostamente científicos, o mito do sexo frágil contribuiu historicamente para controlar as práticas corporais desempenhadas pelas mulheres. Na história do Brasil, exatamente na transição entre os séculos XIX e XX, destacam-se os esforços para impedir a participação  da mulher no campo das práticas esportivas. As desconfianças em relação à presença da mulher no esporte estiveram culturalmente associadas ao medo de masculinizar o corpo feminino pelo esforço físico intenso. Em relação ao futebol feminino, o mito do sexo frágil atuou como obstáculo ao consolidar a crença de que o esforço físico seria  inapropriado para proteger a feminilidade da mulher “normal”. Tal mito sustentou um forte movimento contrário à aceitação do futebol como prática esportiva feminina. Leis e propagandas buscaram desacreditar o futebol, considerando-o inadequado á delicadeza. Na verdade, as mulheres eram consideradas incapazes de se adequar ás múltiplas dificuldades do “esporte-rei”."
+    },
+    {
+     "type": "text",
+     "text": "TEIXEIRA, F L. S.; CAMINHA, I. O. Preconceito no futebol feminino: uma revisão sistemática. Movimento, Porto Alegre, n. 1,2013 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "No contexto apresentado, a relação entre a prática do futebol e as mulheres é caracterizada por um"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Argumento biológico para justificar desigualdades históricas e sociais."
+    },
+    {
+     "letter": "B",
+     "text": "Discurso midiático que atua historicamente na desconstrução do mito do sexo frágil."
+    },
+    {
+     "letter": "C",
+     "text": "Apelo para a preservação do futebol como uma modalidade praticada apenas pelos homens."
+    },
+    {
+     "letter": "D",
+     "text": "Olhar feminista que qualifica o futebol como uma atividade masculinizante para as mulheres."
+    },
+    {
+     "letter": "E",
+     "text": "Receio de que sua inserção subverta o “esporte-rei” ao demonstrarem suas capacidades de jogo."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2018-q44",
+   "number": 44,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Farejador de Plágio: uma ferramenta contra a cópia ilegal No mundo acadêmico ou nos veículos de comunicação, as cópias ilegais podem surgir de diversas maneiras, sendo integrais, parciais ou paráfrases. Para ajudar a combater esse crime, o professor Maximiliano Zambonatto Pezzin, engenheiro de computação, desenvolveu junto com os seus alunos o programa Farejador de Plágio. O programa é capaz de detectar: trechos contínuos e fragmentados, frases soltas, partes de textos reorganizadas, frases reescritas, mudanças na ordem dos períodos e erros fonéticos e sintáticos. Mas como o programa realmente funciona? Considerando o texto como uma sequência de palavras, a ferramenta analisa e busca trecho por trecho nos sites de busca, assim como um professor desconfiado de um aluno faria. A diferença é que o programa permite que se pesquise em vários buscadores, gerando assim muito mais resultados."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://reporterunesp.jor.br. Acesso em: 19 mar. 2018"
+    },
+    {
+     "type": "text",
+     "text": "Segundo o texto, a ferramenta Farejador de Plágio alcança seu objetivo por meio da"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Seleção de cópias integrais."
+    },
+    {
+     "letter": "B",
+     "text": "Busca em sites especializados."
+    },
+    {
+     "letter": "C",
+     "text": "Simulação da atividade docente."
+    },
+    {
+     "letter": "D",
+     "text": "Comparação de padrões estruturais."
+    },
+    {
+     "letter": "E",
+     "text": "Identificação de sequência de fonemas."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2018-q46",
+   "number": 46,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "No Segundo Congresso internacional de Ciências Geográficas, em 1875, a que compareceram o presidente da República, o governador de Paris e o presidente da Assembleia, o discurso inaugural do almirante La Roucière-Le Noury expôs a atitude predominante no encontro: “Cavalheiros, a Providência nos ditou a obrigação de conhecer e conquistar a terra. Essa ordem suprema é um dos deveres imperiosos inscritos em nossas inteligências e nossas atividades. A geografia, essa ciência que inspira tão bela devoção e em cujo nome foram sacrificadas tantas vítimas, tornou-se a filosofia da terra”."
+    },
+    {
+     "type": "text",
+     "text": "SAID, E. Cultura e política. São Paulo: Cia. das Letras, 1995."
+    },
+    {
+     "type": "text",
+     "text": "No contexto histórico apresentado, a exaltação da ciência geográfica decorre do seu uso para o(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Preservação cultural dos territórios ocupados."
+    },
+    {
+     "letter": "B",
+     "text": "Formação humanitária da sociedade europeia."
+    },
+    {
+     "letter": "C",
+     "text": "Catalogação de dados úteis aos propósitos colonialistas."
+    },
+    {
+     "letter": "D",
+     "text": "Desenvolvimento de técnicas matemáticas de construção de cartas."
+    },
+    {
+     "letter": "E",
+     "text": "Consolidação do conhecimento topográfico como campo acadêmico."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q47",
+   "number": 47,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A existência em Jerusalém de um hospital voltado para o alojamento e o cuidado dos peregrinos, assim como daqueles entre eles que estavam cansados ou doentes, fortaleceu o elo entre a obra de assistência e de caridade e a Terra Santa. Ao fazer, em 1113, do Hospital de Jerusalém um estabelecimento central da\nordem, Pascoal II estimulava a filiação dos hospitalários do Ocidente a ele, sobretudo daqueles que estavam ligados à peregrinação na Terra Santa ou em outro lugar. A militarização do Hospital de Jerusalém não diminuiu a vocação caritativa primitiva, mas a fortaleceu."
+    },
+    {
+     "type": "text",
+     "text": "DEMURGER, A. Os Cavaleiros de Cristo. Rio de Janeiro: Jorge Zahar, 2002 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O acontecimento descrito vincula-se ao fenômeno ocidental do(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Surgimento do monasticismo guerreiro, ocasionado pelas cruzadas."
+    },
+    {
+     "letter": "B",
+     "text": "Descentralização do poder eclesiástico, produzida pelo feudalismo."
+    },
+    {
+     "letter": "C",
+     "text": "Alastramento da peste bubônica, provocado pela expansão comercial."
+    },
+    {
+     "letter": "D",
+     "text": "Afirmação da fraternidade mendicante, estimulada pela reforma espiritual."
+    },
+    {
+     "letter": "E",
+     "text": "Criação das faculdades de medicina, promovida pelo renascimento urbano."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2018-q48",
+   "number": 48,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A tribo não possui um rei, mas um chefe que não é chefe de Estado. O que significa isso? Simplesmente que o chefe não dispõe de nenhuma autoridade, de nenhum poder de coerção, de nenhum meio de dar uma ordem. O chefe não é um comandante, as pessoas da tribo não têm nenhum dever de obediência. O espaço da chefia não é o lugar do poder. Essencialmente encarregado de eliminar conflitos que podem surgir entre indivíduos, famílias e linhagens, o chefe só dispõe, para restabelecer a ordem e a concórdia, do prestígio que lhe reconhece a sociedade. Mas evidentemente prestígio não significa poder, e os meios que o chefe detém para realizar sua tarefa de pacificador limitam-se ao uso exclusivo da palavra."
+    },
+    {
+     "type": "text",
+     "text": "CLASTRES, P. A sociedade contra o Estado. Rio de Janeiro: Francisco Alves, 1982 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O modelo político das sociedades discutidas no texto contrasta com o do Estado liberal burguês porque se baseia em:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Imposição ideológica e normas hierárquicas."
+    },
+    {
+     "letter": "B",
+     "text": "Determinação divina e soberania monárquica."
+    },
+    {
+     "letter": "C",
+     "text": "Intervenção consensual e autonomia comunitária."
+    },
+    {
+     "letter": "D",
+     "text": "Mediação jurídica e regras contratualistas."
+    },
+    {
+     "letter": "E",
+     "text": "Gestão coletiva e obrigações tributárias."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q49",
+   "number": 49,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O filósofo reconhece-se pela posse inseparável do gosto da evidência e do sentido da ambiguidade. Quando se limita a suportar a ambiguidade, esta se chama equívoco. Sempre aconteceu que, mesmo aqueles que pretenderam construir uma filosofia absolutamente positiva, sô conseguiram ser filósofos na medida em que,\nsimultaneamente, se recusaram o direito de se instalar no saber absoluto. O que caracteriza o filósofo é o movimento que leva incessantemente do saber à ignorância, da ignorância ao saber, e um certo repouso neste movimento."
+    },
+    {
+     "type": "text",
+     "text": "MERLEAU-PONTY, M. Elogio da filosofia. Lisboa: Guimarães, 1998 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O texto apresenta um entendimento acerca dos elementos constitutivos da atividade do fllósofo, que se caracteriza por"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Reunir os antagonismos das opiniões ao método dialético."
+    },
+    {
+     "letter": "B",
+     "text": "Ajustar a clareza do conhecimento ao inatismo das ideias."
+    },
+    {
+     "letter": "C",
+     "text": "Associar a certeza do intelecto à imutabilidade da verdade."
+    },
+    {
+     "letter": "D",
+     "text": "Conciliar o rigor da investigação à inquietude do questionamento."
+    },
+    {
+     "letter": "E",
+     "text": "Compatibilizar as estruturas do pensamento aos princípios fundamentais."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2018-q51",
+   "number": 51,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Desde que tenhamos compreendido o significado da palavra “Deus”, sabemos, de imediato, que Deus existe. Com efeito, essa palavra designa uma coisa de tal ordem que não podemos conceber nada que lhe seja maior. Ora, o que existe na realidade e no pensamento é maior do que o que existe apenas no pensamento. Donde se segue que o objeto designado pela palavra “Deus”, que existe no pensamento, desde que se entenda essa palavra, também existe na realidade. Por conseguinte, a\nexistência de Deus é evidente."
+    },
+    {
+     "type": "text",
+     "text": "TOMÁS DE AQUINO. Suma teológica. Rio de Janeiro: Loyola, 2002."
+    },
+    {
+     "type": "text",
+     "text": "O texto apresenta uma elaboração teórica de Tomás de Aquino caracterizada por"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Reiterar a ortodoxia religiosa contra os heréticos."
+    },
+    {
+     "letter": "B",
+     "text": "Sustentar racionalmente doutrina alicerçada na fé."
+    },
+    {
+     "letter": "C",
+     "text": "Explicar as virtudes teologais pela demonstração."
+    },
+    {
+     "letter": "D",
+     "text": "Flexibilizar a interpretação oficial dos textos sagrados."
+    },
+    {
+     "letter": "E",
+     "text": "Justificar pragmaticamente crença livre de dogmas."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2018-q52",
+   "number": 52,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Tudo aquilo que é válido para um tempo de guerra, em que todo homem é inimigo de todo homem, é válido também para o tempo durante o qual os homens vivem sem outra segurança senão a que lhes pode ser oferecida por sua própria força e invenção."
+    },
+    {
+     "type": "text",
+     "text": "HOBBES, T. Leviatã. São Paulo: Abril Cultural, 1983"
+    },
+    {
+     "type": "text",
+     "text": "Não vamos concluir, com Hobbes que, por não ter nenhuma ideia de bondade, o homem seja naturalmente mau. Esse autor deveria dizer que, sendo o estado de natureza aquele em que o cuidado de nossa conservação é menos prejudicial à dos outros, esse estado era, por conseguinte, o mais próprio à paz e o mais conveniente\nao gênero humano."
+    },
+    {
+     "type": "text",
+     "text": "ROUSSEAU, J.-J. Discurso sobre a origem e o fundamento da desigualdade entre os homens. São Paulo: Martins Fontes, 1993 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Os trechos apresentam divergências conceituais entre autores que sustentam um entendimento segundo o qual a igualdade entre os homens se dá em razão de uma"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Predisposição ao conhecimento."
+    },
+    {
+     "letter": "B",
+     "text": "Submissão ao transcendente."
+    },
+    {
+     "letter": "C",
+     "text": "Tradição epistemológica."
+    },
+    {
+     "letter": "D",
+     "text": "Condição original."
+    },
+    {
+     "letter": "E",
+     "text": "Vocação política."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2018-q53",
+   "number": 53,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Foi-se o tempo em que era possível mostrar um mundo econômico organizado em camadas bem definidas, onde grandes centros urbanos se ligavam, por si próprios, a economias adjacentes “lentas”, com o ritmo muito mais rápido do comércio e das finanças de longo alcance. Hoje tudo ocorre como se essas camadas sobrepostas estivessem mescladas e interpermeadas.\nInterdependências de curto e longo alcance não podem mais ser separadas umas das outras."
+    },
+    {
+     "type": "text",
+     "text": "BRENNER, N. A globalização como reterritorialização. Cadernos Metrópole, n. 24, jul.-dez. 2010 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A maior complexidade dos espaços urbanos contemporâneos ressaltada no texto explica-se pela"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Expansão de áreas metropolitanas."
+    },
+    {
+     "letter": "B",
+     "text": "Emancipação de novos municípios."
+    },
+    {
+     "letter": "C",
+     "text": "Consolidação de domínios jurídicos."
+    },
+    {
+     "letter": "D",
+     "text": "Articulação de redes multiescalares."
+    },
+    {
+     "letter": "E",
+     "text": "Redefinição de regiões administrativas."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2018-q54",
+   "number": 54,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "E pois que em outra cousa nesta parte me não posso vingar do demônio, admoesto da parte da cruz de Cristo Jesus a todos que este lugar lerem, que deem a esta terra o nome que com tanta solenidade lhe foi posto, sob pena de a mesma cruz que nos há de ser mostrada no dia final, os acusar de mais devotos do pau-brasil que dela."
+    },
+    {
+     "type": "text",
+     "text": "BARROS, J. In: SOUZA, L. M. Inferno atlântico: demonologia e colonização: séculos XVI-XVIII. São Paulo: Cia. das Letras, 1993."
+    },
+    {
+     "type": "text",
+     "text": "E deste modo se hão os povoadores, os quais, por mais arraigados que na terra estejam e mais ricos que sejam, tudo pretendem levar a Portugal, e, se as fazendas e bens que possuem souberam falar, também lhes houveram de ensinar a dizer como os papagaios, aos\nquais a primeira coisa que ensinam é: papagaio real para Portugal, porque tudo querem para lá."
+    },
+    {
+     "type": "text",
+     "text": "SALVADOR, F. V. In: SOUZA, L. M. (Org.). História da vida privada no Brasil: cotidiano e vida privada na América portuguesa. São Paulo: Cia. das Letras, 1997."
+    },
+    {
+     "type": "text",
+     "text": "As críticas desses cronistas ao processo de colonização portuguesa na América estavam relacionadas à"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Utilização do trabalho escravo."
+    },
+    {
+     "letter": "B",
+     "text": "Implantação de polos urbanos."
+    },
+    {
+     "letter": "C",
+     "text": "Devastação de áreas naturais."
+    },
+    {
+     "letter": "D",
+     "text": "Ocupação de terras indígenas."
+    },
+    {
+     "letter": "E",
+     "text": "Expropriação de riquezas locais."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2018-q55",
+   "number": 55,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Os soviéticos tinham chegado a Cuba muito cedo na década de 1960, esgueirando-se pela fresta aberta pela imediata hostilidade norte-americana em relação ao processo social revolucionário. Durante três décadas os soviéticos mantiveram sua presença em Cuba com bases e ajuda militar, mas, sobretudo, com todo o apoio econômico que, como saberíamos anos mais tarde, mantinha o país à tona, embora nos deixasse em dívida com os irmãos soviéticos – e depois com seus herdeiros russos – por cifras que chegavam a US$ 32 bilhões. Ou seja, o que era oferecido em nome da solidariedade socialista tinha um preço definido."
+    },
+    {
+     "type": "text",
+     "text": "PADURA, L. Cuba e os russos. Folha de São Paulo, 19 jul. 2014 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O texto indica que durante a Guerra Fria as relações internas em um mesmo bloco foram marcadas pelo(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Busca da neutralidade política."
+    },
+    {
+     "letter": "B",
+     "text": "Estímulo à competição comercial."
+    },
+    {
+     "letter": "C",
+     "text": "Subordinação à potência hegemônica."
+    },
+    {
+     "letter": "D",
+     "text": "Elasticidade das fronteiras geográficas."
+    },
+    {
+     "letter": "E",
+     "text": "Compartilhamento de pesquisas científicas."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q57",
+   "number": 57,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A poetisa Emília Freitas subiu a um palanque, nervosa, pedindo desculpas por não possuir títulos nem conhecimentos, mas orgulhosa ofereceu a sua pena que “sem ser hábil, é, em compensação, guiada pelo poder da vontade”. Maria Tomásia pronunciava orações que levantavam os ouvintes. A escritora Francisca Clotilde arrebatava, declamando seus poemas. Aquelas\n“angélicas senhoras”, “heroínas da caridade”, levantavam dinheiro para comprar liberdades e usavam de seu entusiasmo a fim de convencer os donos de escravos a fazerem alforrias gratuitamente."
+    },
+    {
+     "type": "text",
+     "text": "MIRANDA, A. Disponível em: www.opovoonline.com.br. Acesso em: 10 jun. 2015"
+    },
+    {
+     "type": "text",
+     "text": "As práticas culturais narradas remetem, historicamente, ao movimento"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Feminista."
+    },
+    {
+     "letter": "B",
+     "text": "Sufragista."
+    },
+    {
+     "letter": "C",
+     "text": "Socialista."
+    },
+    {
+     "letter": "D",
+     "text": "Republicano."
+    },
+    {
+     "letter": "E",
+     "text": "Abolicionista."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2018-q58",
+   "number": 58,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A democracia que eles pretendem é a democracia dos privilégios, a democracia da intolerância e do ódio. A democracia que eles querem é para liquidar com a Petrobras, é a democracia dos monopólios, nacionais e internacionais, a democracia que pudesse lutar contra\no povo. Ainda ontem eu afirmava que a democracia jamais poderia ser ameaçada pelo povo, quando o povo livremente vem para as praças – as praças que são do povo. Para as ruas – que são do povo."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.revistadehistoria.com.br/secao/artigos/discurso-de-joao-goulart-nocomicio-da-central. Acesso em: 29 out. 2015"
+    },
+    {
+     "type": "text",
+     "text": "Em um momento de radicalização política, a retórica no discurso do presidente João Goulart, proferido no comício da Central do Brasil, buscava justificar a necessidade de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Conter a abertura econômica para conseguir a adesão das elites."
+    },
+    {
+     "letter": "B",
+     "text": "Impedir a ingerência externa para garantir a conservação de direitos."
+    },
+    {
+     "letter": "C",
+     "text": "Regulamentar os meios de comunicação para coibir os partidos de oposição."
+    },
+    {
+     "letter": "D",
+     "text": "Aprovar os projetos reformistas para atender a mobilização de setores trabalhistas."
+    },
+    {
+     "letter": "E",
+     "text": "Incrementar o processo de desestatização para diminuir a pressão da opinião pública."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2018-q59",
+   "number": 59,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A rebelião luso-brasileira em Pernambuco começou a ser urdida em 1644 e explodiu em 13 de junho de 1645, dia de Santo Antônio. Uma das primeiras medidas de João Fernandes foi decretar nulas as dívidas que os rebeldes tinham com os holandeses. Houve grande adesão da “nobreza da terra”, entusiasmada com esta proclamação heroica."
+    },
+    {
+     "type": "text",
+     "text": "VAINFAS, R. Guerra declarada e paz fingida na restauração portuguesa. Tempo, n. 27, 2009."
+    },
+    {
+     "type": "text",
+     "text": "O desencadeamento dessa revolta na América portuguesa seiscentista foi o resultado do(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Fraqueza bélica dos protestantes batavos."
+    },
+    {
+     "letter": "B",
+     "text": "Comércio transatlântico da África ocidental."
+    },
+    {
+     "letter": "C",
+     "text": "Auxílio financeiro dos negociantes flamengos."
+    },
+    {
+     "letter": "D",
+     "text": "Diplomacia internacional dos Estados ibéricos."
+    },
+    {
+     "letter": "E",
+     "text": "Interesse econômico dos senhores de engenho."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2018-q60",
+   "number": 60,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em Beirute, no Líbano, quando perguntado sobre onde se encontram os refugiados sírios, a resposta do homem é imediata: “em todos os lugares e em lugar nenhum”. Andando ao acaso, não é raro ver, sob um prédio ou num canto de calçada, ao abrigo do vento, uma família refugiada em volta de uma refeição frugal posta sobre jornais como se fossem guardanapos. Também se vê de vez em quando uma tenda com a sigla ACNUR (Alto Comissariado das Nações Unidas para Refugiados), erguida em um dos raros terrenos vagos da capital."
+    },
+    {
+     "type": "text",
+     "text": "JABER, H. Quem realmente acolhe os refugiados? Le Monde Diplomatique Brasil, out. 2015 (adaptado)"
+    },
+    {
+     "type": "text",
+     "text": "O cenário descrito aponta para uma crise humanitária que é explicada pelo processo de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Migração massiva de pessoas atingidas por catástrofe natural."
+    },
+    {
+     "letter": "B",
+     "text": "Hibridização cultural de grupos caracterizados por homogeneidade social."
+    },
+    {
+     "letter": "C",
+     "text": "Desmobilização voluntária de militantes cooptados por seitas extremistas."
+    },
+    {
+     "letter": "D",
+     "text": "Peregrinação religiosa de fiéis orientados por lideranças fundamentalistas."
+    },
+    {
+     "letter": "E",
+     "text": "Desterritorialização forçada de populações afetadas por conflitos armados."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2018-q61",
+   "number": 61,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Programa do Partido Social Democrático (PSD)\n   Capitais estrangeiros\nÉ indispensável manter clima propício à entrada de capitais estrangeiros. A manutenção desse clima recomenda a adoção de normas disciplinadoras dos investimentos e suas rendas, visando reter no país a maior parcela possível dos lucros auferidos."
+    },
+    {
+     "type": "text",
+     "text": "Programa da União Democrática Nacional (UDN)\n O capital\nApelar para o capital estrangeiro, necessário para os\nempreendimentos da reconstrução nacional e, sobretudo,\npara o aproveitamento das nossas reservas inexploradas,\ndando-lhe um tratamento equitativo e liberdade para a\nsaída dos juros."
+    },
+    {
+     "type": "text",
+     "text": "CHACON, V. História dos partidos brasileiros: discurso e práxis dos seus programas. Brasília: UnB, 1981 (adaptado)"
+    },
+    {
+     "type": "text",
+     "text": "Considerando as décadas de 1950 e 1960 no Brasil, os trechos dos programas do PSD e UDN convergiam na defesa da"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Autonomia de atuação das multinacionais."
+    },
+    {
+     "letter": "B",
+     "text": "Descentralização da cobrança tributária."
+    },
+    {
+     "letter": "C",
+     "text": "Flexibilização das reservas cambiais."
+    },
+    {
+     "letter": "D",
+     "text": "Liberdade de remessa de ganhos."
+    },
+    {
+     "letter": "E",
+     "text": "Captação de recursos do exterior."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2018-q64",
+   "number": 64,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Outra importante manifestação das crenças e tradições africanas na Colônia eram os objetos conhecidos como “bolsas de mandinga”. A insegurança tanto física como espiritual gerava uma necessidade generalizada de proteção: das catástrofes da natureza, das doenças, da má sorte, da violência dos núcleos\nurbanos, dos roubos, das brigas, dos malefícios de feiticeiros etc. Também para trazer sorte, dinheiro e até atrair mulheres, o costume era corrente nas primeiras décadas do século XVIII, envolvendo não apenas escravos, mas também homens brancos."
+    },
+    {
+     "type": "text",
+     "text": "CALAINHO, D. B. Feitiços e feiticeiros. In: FIGUEIREDO, L. História do Brasil para ocupados. Rio de Janeiro: Casa da Palavra, 2013 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A prática histórico-cultural de matriz africana descrita no texto representava um(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Expressão do valor das festividades da população pobre."
+    },
+    {
+     "letter": "B",
+     "text": "Ferramenta para submeter os cativos ao trabalho forçado."
+    },
+    {
+     "letter": "C",
+     "text": "Estratégia de subversão do poder da monarquia portuguesa."
+    },
+    {
+     "letter": "D",
+     "text": "Elemento de conversão dos escravos ao catolicismo romano."
+    },
+    {
+     "letter": "E",
+     "text": "Instrumento para minimizar o sentimento de desamparo social."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2018-q65",
+   "number": 65,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Os portos sempre foram respostas ao comércio praticado em grande volume, que se dá via marítima, lacustre e fluvial, e sofreram adaptações, ou modernizações, de acordo com um conjunto de fatores que vão desde a sua localização privilegiada frente a extensas hinterlândias, passando por sua conectividade\ncom modernas redes de transportes que garantam acessibilidade, associados, no atual momento, à tecnologia, que os transformam em pontas de lança de uma economia globalizada que comprime o tempo em nome da produtividade e da competitividade."
+    },
+    {
+     "type": "text",
+     "text": "ROCHA NETO, J. M.; CRAVIDÃO, F. D. Portos no contexto do meio técnico. Mercator, n. 2, maio-ago. 2014 (adaptado)"
+    },
+    {
+     "type": "text",
+     "text": "Uma mudança que permitiu aos portos adequarem-se às novas necessidades comerciais apontadas no texto foi a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Intensificação do uso de contêineres."
+    },
+    {
+     "letter": "B",
+     "text": "Compactação das áreas de estocagem."
+    },
+    {
+     "letter": "C",
+     "text": "Burocratização dos serviços de alfândega."
+    },
+    {
+     "letter": "D",
+     "text": "Redução da profundidade dos atracadouros."
+    },
+    {
+     "letter": "E",
+     "text": "Superação da especialização dos cargueiros."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2018-q66",
+   "number": 66,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O século XVIII é, por diversas razões, um século diferenciado. Razão e experimentação se aliavam no que se acreditava ser o verdadeiro caminho para o estabelecimento do conhecimento científico, por tanto tempo almejado. O fato, a análise e a indução passavam a ser parceiros fundamentais da razão. É ainda no século XVIII que o homem começa a tomar consciência de sua situação na história."
+    },
+    {
+     "type": "text",
+     "text": "ODALIA, N. In: PINSKY, J.; PINSKY, C. B. História da cidadania. São Paulo: Contexto, 2003."
+    },
+    {
+     "type": "text",
+     "text": "No ambiente cultural do Antigo Regime, a discussão filosófica mencionada no texto tinha como uma de suas características a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Aproximação entre inovação e saberes antigos."
+    },
+    {
+     "letter": "B",
+     "text": "Conciliação entre revelação e metafísica platônica."
+    },
+    {
+     "letter": "C",
+     "text": "Vinculação entre escolástica e práticas de pesquisa."
+    },
+    {
+     "letter": "D",
+     "text": "Separação entre teologia e fundamentalismo religioso."
+    },
+    {
+     "letter": "E",
+     "text": "Contraposição entre clericalismo e liberdade de pensamento."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2018-q68",
+   "number": 68,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O encontro entre o Velho e o Novo Mundo, que a descoberta de Colombo tornou possível, é de um tipo muito particular: é uma guerra – ou a Conquista -, como se dizia então. E um mistério continua: o resultado do combate. Por que a vitória fulgurante, se os habitantes da América eram tão superiores em número aos adversários e lutaram no próprio solo? Se nos limitarmos à conquista do México – a mais espetacular, já que a civilização mexicana é a mais brilhante do mundo pré-colombiano – como explicar que Cortez, liderando centenas de homens, tenha conseguido tomar o reino de Montezuma, que dispunha de centenas de milhares de guerreiros?"
+    },
+    {
+     "type": "text",
+     "text": "TODOROV, T. A conquista da América. São Paulo: Martins Fontes, 1991 (adaptado)"
+    },
+    {
+     "type": "text",
+     "text": "No contexto da conquista, conforme análise apresentada no texto, uma estratégia para superar as disparidades\nlevantadas foi"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Implantar as missões cristãs entre as comunidades submetidas."
+    },
+    {
+     "letter": "B",
+     "text": "Utilizar a superioridade física dos mercenários africanos."
+    },
+    {
+     "letter": "C",
+     "text": "Explorar as rivalidades existentes entre os povos nativos."
+    },
+    {
+     "letter": "D",
+     "text": "Introduzir vetores para a disseminação de doenças epidêmicas."
+    },
+    {
+     "letter": "E",
+     "text": "Comprar terras para o enfraquecimento das teocracias autóctones."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q69",
+   "number": 69,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "São Paulo, 10 de janeiro de 1979.\nExmo. Sr. Presidente Ernesto Geisel.\nConsiderando as instruções dadas por V. S. de que sejam negados os passaportes aos senhores Francisco Julião, Miguel Arraes, Leonel Brizola, Luis Prestes, Paulo Schilling, Gregório Bezerra, Márcio Moreira Alves\ne Paulo Freire. Considerando que, desde que nasci, me identifico plenamente com a pele, a cor dos cabelos, a cultura, o sorriso, as aspirações, a história e o sangue destes oito senhores. Considerando tudo isto, por imperativo de minha\nconsciência, venho por meio desta devolver o passaporte que, negado a eles, me foi concedido pelos órgãos competentes de seu governo."
+    },
+    {
+     "type": "text",
+     "text": "Carta do cartunista Henrique de Souza Fiiho, conhecido como Henfíi. In: HENFIL. Cartas da mãe. Rio de Janeiro: Codecri, 1981 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "No referido contexto histórico, a manifestação do cartunista Henfil expressava uma crítica ao(à)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Censura moral das produções culturais."
+    },
+    {
+     "letter": "B",
+     "text": "Limite do processo de distensão política."
+    },
+    {
+     "letter": "C",
+     "text": "Interferência militar de países estrangeiros."
+    },
+    {
+     "letter": "D",
+     "text": "Representação social das agremiações partidárias."
+    },
+    {
+     "letter": "E",
+     "text": "Representação social das agremiações partidárias."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2018-q70",
+   "number": 70,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A primeira fase da dominação da economia sobre a vida social acarretou, no modo de definir toda realização humana, uma evidente degradação do ser para o ter. A fase atual, em que a vida social está totalmente tomada pelos resultados da economia, leva a um deslizamento generalizado do ter para o parecer, do qual todo ter efetivo deve extrair seu prestígio imediato e sua função última. Ao mesmo tempo, toda realidade individual tornou-se social, diretamente dependente da força social, moldada por ela."
+    },
+    {
+     "type": "text",
+     "text": "DEBORD, G. A sociedade do espetáculo. Rio de Janeiro: Contraponto, 2015."
+    },
+    {
+     "type": "text",
+     "text": "Uma manifestação contemporânea do fenômeno descrito no texto é o(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Valorização dos conhecimentos acumulados."
+    },
+    {
+     "letter": "B",
+     "text": "Exposição nos meios de comunicação."
+    },
+    {
+     "letter": "C",
+     "text": "Aprofundamento da vivência espiritual."
+    },
+    {
+     "letter": "D",
+     "text": "Fortalecimento das relações interpessoais."
+    },
+    {
+     "letter": "E",
+     "text": "Reconhecimento na esfera artística."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2018-q71",
+   "number": 71,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Os seus líderes terminaram presos e assassinados. A “marujada” rebelde foi inteiramente expulsa da esquadra. Num sentido histórico, porém, eles foram\nvitoriosos. A “chibata” e outros castigos físicos infamantes nunca mais foram oficialmente utilizados; a partir de então, os marinheiros – agora respeitados – teriam suas condições de vida melhoradas significativamente. Sem dúvida fizeram avançar a História."
+    },
+    {
+     "type": "text",
+     "text": "MAESTRI, M. 1910: a revolta dos marinheiros-um a saga negra. São Paulo: Global, 1982."
+    },
+    {
+     "type": "text",
+     "text": "A eclosão desse conflito foi resultado da tensão acumulada na Marinha do Brasil pelo(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Engajamento de civis analfabetos após a emergência de guerras externas."
+    },
+    {
+     "letter": "B",
+     "text": "Insatisfação de militares positivistas após a consolidação da política dos governadores."
+    },
+    {
+     "letter": "C",
+     "text": "Rebaixamento de comandantes veteranos após a repressão a insurreições milenaristas."
+    },
+    {
+     "letter": "D",
+     "text": "Sublevação das classes populares do campo após a instituição do alistamento obrigatório."
+    },
+    {
+     "letter": "E",
+     "text": "Manutenção da mentalidade escravocrata da oficialidade após a queda do regime imperial."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2018-q72",
+   "number": 72,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Uma pesquisa realizada por Carolina Levis, especialista em ecologia do Instituto Nacional de Pesquisas da Amazônia, e publicada na revista Science, demonstra que as espécies vegetais domesticadas pelas civilizações pré-colombianas são as mais dominantes. “A domesticação de plantas na floresta começou há mais de     8 000 anos. Primeiro eram selecionadas as plantas com características que poderiam ser úteis ao homem e em um segundo momento era feita a propagação dessas espécies. Começaram a cultivá-las em pátios e jardins, por meio de um processo quase intuitivo de seleção”."
+    },
+    {
+     "type": "text",
+     "text": "OLIVEIRA, J. Indígenas foram os primeiros a alterar o ecossistema da Amazônia. Disponível em: https://brasil.elpais.com. Acesso em: 11 dez. 2017 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O texto apresenta um novo olhar sobre a configuração da Floresta Amazônica por romper com a ideia de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Primazia de saberes locais."
+    },
+    {
+     "letter": "B",
+     "text": "Ausência de ação antrópica."
+    },
+    {
+     "letter": "C",
+     "text": "Insuficiência de recursos naturais."
+    },
+    {
+     "letter": "D",
+     "text": "Necessidade de manejo ambiental."
+    },
+    {
+     "letter": "E",
+     "text": "Predominância de práticas agropecuárias."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2018-q73",
+   "number": 73,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "TEXTO I\nQuando um exército atravessa montanhas, florestas, zonas de precipícios, ou marcha ao longo de desfiladeiros, alagadiços ou pântanos, ou qualquer outro terreno onde a deslocação é árdua, está em terreno difícil. O terreno onde é apertado e a sua saída é tortuosa e onde uma pequena força inimiga pode atacar a minha, embora maior, é cercado."
+    },
+    {
+     "type": "text",
+     "text": "TZU, S. A arte da guerra. São Paulo: Martin Claret, 2001"
+    },
+    {
+     "type": "text",
+     "text": "TEXTO II\nO objetivo principal era encontrar e matar Osama Bin Laden. Onde ele se esconde? Não podemos esquecer a dificuldade de ocupação do país, que possui um relevo montanhoso, cheio de cavernas, onde fica fácil, para quem está acostumado com esse relevo, esconder-se."
+    },
+    {
+     "type": "text",
+     "text": "OLIVEIRA, M. G.; SANTOS, M. S. Ásia: uma visão histórica, política e econômica do continente. Rio de Janeiro: E-Papers, 2009 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "As situações apresentadas atestam a importância da relação entre a topografia e o(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Construção de vias terrestres."
+    },
+    {
+     "letter": "B",
+     "text": "Preservação do meio ambiente."
+    },
+    {
+     "letter": "C",
+     "text": "Preservação do meio ambiente."
+    },
+    {
+     "letter": "D",
+     "text": "Intimidação contínua da população local."
+    },
+    {
+     "letter": "E",
+     "text": "Domínio cognitivo da configuração espacial."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2018-q75",
+   "number": 75,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Os países industriais adotaram uma concepção diferente das relações familiares e do lugar da fecundidade na vida familiar e social. A preocupação de garantir uma\ntransmissão integral das vantagens econômicas e sociais adquiridas tem como resultado uma ação voluntária de limitação do número de nascimentos."
+    },
+    {
+     "type": "text",
+     "text": "GEORGE, P Panorama do mundo atual. São Paulo: Difusão Européia do Livro, 1968 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Em meados do século XX, o fenômeno social descrito contribuiu para o processo europeu de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Estabilização da pirâmide etária."
+    },
+    {
+     "letter": "B",
+     "text": "Conclusão da transição demográfica."
+    },
+    {
+     "letter": "C",
+     "text": "Contenção da entrada de imigrantes."
+    },
+    {
+     "letter": "D",
+     "text": "Elevação do crescimento vegetativo."
+    },
+    {
+     "letter": "E",
+     "text": "Formação de espaços superpovoados."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2018-q76",
+   "number": 76,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Código Penal dos Estados Unidos do Brasil, 1890\n                                 Dos crimes contra a saúde pública\nArt. 156. Exercer a medicina em qualquer dos seus ramos, a arte dentária ou a farmácia; praticar a homeopatia, a dosimetria, o hipnotismo ou magnetismo animal, sem estar habilitado segundo as leis e regulamentos.\nArt. 158. Ministrar, ou simplesmente prescrever, como meio curativo para uso interno ou externo, e sob qualquer forma preparada, substância de qualquer dos\nreinos da natureza, fazendo, ou exercendo assim, o ofício denominado curandeiro"
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://legis.senado.gov.br. Acesso em: 21 dez. 2014 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "No início da Primeira República, a legislação penal vigente evidenciava o(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Negligência das religiões cristãs sobre as moléstias."
+    },
+    {
+     "letter": "B",
+     "text": "Desconhecimento das origens das crenças tradicionais."
+    },
+    {
+     "letter": "C",
+     "text": "Preferência da população pelos tratamentos alopáticos."
+    },
+    {
+     "letter": "D",
+     "text": "Abandono pela comunidade das práticas terapêuticas de magia."
+    },
+    {
+     "letter": "E",
+     "text": "Condenação pela ciência dos conhecimentos populares de cura."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2018-q77",
+   "number": 77,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A presunção de que a superfície das chapadas e chapadões representa uma velha peneplanície é corroborada pelo fato de que ela é coberta por acumulações\nsuperficiais, tais como massas de areia, camadas de cascalhos e seixos e pela ocorrência generalizada de concreções ferruginosas que formam uma crosta laterítica, denominada “canga”."
+    },
+    {
+     "type": "text",
+     "text": "WEIBEL, L. Disponível em: http://biblioteca.ibge.gov.br. Acesso em: 8jul. 2015 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Qual tipo climático favorece o processo de alteração do solo descrito no texto?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Árido, com déficit hídrico."
+    },
+    {
+     "letter": "B",
+     "text": "Subtropical, com baixas temperaturas."
+    },
+    {
+     "letter": "C",
+     "text": "Temperado, com invernos frios e secos."
+    },
+    {
+     "letter": "D",
+     "text": "Tropical, com sazonalidade das chuvas."
+    },
+    {
+     "letter": "E",
+     "text": "Equatorial, com pluviosidade abundante."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2018-q78",
+   "number": 78,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O marco inicial das discussões parlamentares em torno do direito do voto feminino são os debates que antecederam a Constituição de 1824, que não\ntrazia qualquer impedimento ao exercício dos direitos políticos por mulheres, mas, por outro lado, também não era explícita quanto à possibilidade desse exercício. Foi somente em 1932, dois anos antes de estabelecido o voto aos 18 anos, que as mulheres obtiveram o direito de votar, o que veio a se concretizar\nno ano seguinte. Isso ocorreu a partir da aprovação do Código Eleitoral de 1932."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://tse.jusbrasil.com.br. Acesso em: 14 maio 2018."
+    },
+    {
+     "type": "text",
+     "text": "Um dos fatores que contribuíram para a efetivação da medida mencionada no texto foi a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Superação da cultura patriarcal."
+    },
+    {
+     "letter": "B",
+     "text": "Influência de igrejas protestantes."
+    },
+    {
+     "letter": "C",
+     "text": "Pressão do governo revolucionário."
+    },
+    {
+     "letter": "D",
+     "text": "Fragilidade das oligarquias regionais."
+    },
+    {
+     "letter": "E",
+     "text": "Campanha de extensão da cidadania."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2018-q79",
+   "number": 79,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A quem não basta pouco, nada basta."
+    },
+    {
+     "type": "text",
+     "text": "EPICURO. Os pensadores. São Paulo: Abril Cultural, 1985."
+    },
+    {
+     "type": "text",
+     "text": "Remanescente do período helenístico, a máxima apresentada valoriza a seguinte virtude:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Esperança, tida como confiança no porvir."
+    },
+    {
+     "letter": "B",
+     "text": "Justiça, interpretada como retidão de caráter."
+    },
+    {
+     "letter": "C",
+     "text": "Temperança, marcada pelo domínio da vontade."
+    },
+    {
+     "letter": "D",
+     "text": "Coragem, definida como fortitude na dificuldade."
+    },
+    {
+     "letter": "E",
+     "text": "Prudência, caracterizada pelo correto uso da razão."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q80",
+   "number": 80,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em algumas línguas de Moçambique não existe a palavra “pobre”. O indivíduo é pobre quando não tem parentes. A pobreza é a solidão, a ruptura das relações familiares que, na sociedade rural, servem de apoio à sobrevivência. Os consultores internacionais, especialistas em elaborar relatórios sobre a miséria, talvez não tenham em conta o impacto dramático da destruição dos laços familiares e das relações de entreajuda. Nações inteiras estão tornando-se “órfãs”, e a mendicidade parece ser a única via de uma agonizante sobrevivência."
+    },
+    {
+     "type": "text",
+     "text": "COUTO, M. E se Obama fosse africano? & outras intervenções. Portugal: Caminho, 2009 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Em uma leitura que extrapola a esfera econômica, o autor associa o acirramento da pobreza à"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Afirmação das origens ancestrais."
+    },
+    {
+     "letter": "B",
+     "text": "Fragilização das redes de sociabilidade."
+    },
+    {
+     "letter": "C",
+     "text": "Padronização das políticas educacionais."
+    },
+    {
+     "letter": "D",
+     "text": "Fragmentação das propriedades agrícolas."
+    },
+    {
+     "letter": "E",
+     "text": "Globalização das tecnologias de comunicação."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2018-q81",
+   "number": 81,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "TEXTO I\nAs fronteiras, ao mesmo tempo que se separam, unem e articulam, por elas passando discursos de legitimação da ordem social tanto quanto do conflito."
+    },
+    {
+     "type": "text",
+     "text": "CUNHA, L. Terras lusitanas e gentes dos brasis: a nação e o seu retrato literário.\nRevista Ciências Sociais, n. 2, 2009."
+    },
+    {
+     "type": "text",
+     "text": "TEXTO II\nAs últimas barreiras ao livre movimento do dinheiro e das mercadorias e informação que rendem dinheiro andam de mãos dadas com a pressão para cavar novos fossos e erigir novas muralhas que barrem o movimento daqueles que em consequência perdem, física ou espiritualmente, suas raízes."
+    },
+    {
+     "type": "text",
+     "text": "BAUMAN, Z. Globalização: as consequências humanas. Rio de Janeiro: Jorge Zahar, 1999."
+    },
+    {
+     "type": "text",
+     "text": "A ressignificação contemporânea da ideia de fronteira compreende a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Liberação da circulação de pessoas."
+    },
+    {
+     "letter": "B",
+     "text": "Preponderância dos limites naturais."
+    },
+    {
+     "letter": "C",
+     "text": "Supressão dos obstáculos aduaneiros."
+    },
+    {
+     "letter": "D",
+     "text": "Desvalorização da noção de nacionalismo."
+    },
+    {
+     "letter": "E",
+     "text": "Seletividade dos mecanismos segregadores."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2018-q83",
+   "number": 83,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Não é verdade que estão ainda cheios de velhice espiritual aqueles que nos dizem: “Que fazia Deus antes de criar o céu e a terra? Se estava ocioso e nada realizava”, dizem eles, “por que não ficou sempre assim no decurso dos séculos, abstendo-se, como antes, de toda ação? Se existiu em Deus um novo movimento, uma vontade nova para dar o ser a criaturas que nunca antes criara, como pode haver verdadeira eternidade, se n’Ele aparece uma vontade que antes não existia?”"
+    },
+    {
+     "type": "text",
+     "text": "AGOSTINHO. Confissões. São Paulo: Abril Cuitural, 1984."
+    },
+    {
+     "type": "text",
+     "text": "A questão da eternidade, tal como abordada pelo autor, é um exemplo da reflexão filosófica sobre a(s)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Essência da ética cristã."
+    },
+    {
+     "letter": "B",
+     "text": "Natureza universal da tradição."
+    },
+    {
+     "letter": "C",
+     "text": "Certezas inabaláveis da experiência."
+    },
+    {
+     "letter": "D",
+     "text": "Abrangência da compreensão humana."
+    },
+    {
+     "letter": "E",
+     "text": "Interpretações da realidade circundante."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2018-q84",
+   "number": 84,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Rodrigo havia sido indicado pela oposição para fiscal duma das mesas eleitorais. Pôs o revólver na cintura, uma caixa de balas no bolso e encaminhou-se para seu posto. A chamada dos eleitores começou às sete da manhã. Plantados junto da porta, os capangas do Trindade ofereciam cédulas com o nome dos candidatos\noficiais a todos os eleitores que entravam. Estes, em sua  quase totalidade, tomavam docilmente dos papeluchos e depositavam-nos na urna, depois de assinar a autêntica. Os que se recusavam a isso tinham seus nomes\nacintosamente anotados."
+    },
+    {
+     "type": "text",
+     "text": "VERISSIMO, E. O tempo e o vento. São Paulo: Globo, 2003 (adaptado)"
+    },
+    {
+     "type": "text",
+     "text": "Erico Veríssimo tematiza em obra flccional o seguinte aspecto característico da vida política durante a Primeira República:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Identificação forçada de homens analfabetos."
+    },
+    {
+     "letter": "B",
+     "text": "Monitoramento legal dos pleitos legislativos."
+    },
+    {
+     "letter": "C",
+     "text": "Repressão explícita ao exercício de direito."
+    },
+    {
+     "letter": "D",
+     "text": "Propaganda direcionada à população do campo."
+    },
+    {
+     "letter": "E",
+     "text": "Cerceamento policial dos operários sindicalizados."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2018-q85",
+   "number": 85,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Então disse: “Este é o local onde construirei. Tudo pode chegar aqui pelo Eufrates, o Tigre e uma rede de canais. Só um lugar como este sustentará o exército e a população geral”. Assim ele traçou e destinou as verbas para a sua construção, e deitou o primeiro tijolo com sua própria mão, dizendo: “Em nome de Deus, e em louvor a Ele. Construí, e que Deus vos abençoe”."
+    },
+    {
+     "type": "text",
+     "text": "AL-TABARI, M. Uma história dos povos árabes. São Paulo: Cia. das Letras, 1995 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A decisão do califa Al-Mansur (754-775) de construir Bagdá nesse local orientou-se pela"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Disponibilidade de rotas e terras férteis como base da dominação política."
+    },
+    {
+     "letter": "B",
+     "text": "Proximidade de áreas populosas como afirmação da superioridade bélica."
+    },
+    {
+     "letter": "C",
+     "text": "Submissão à hierarquia e à lei islâmica como controle do poder real."
+    },
+    {
+     "letter": "D",
+     "text": "Fuga da península arábica como afastamento dos conflitos sucessórios."
+    },
+    {
+     "letter": "E",
+     "text": "Ocupação de região fronteiriça como contenção do avanço mongol."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2018-q86",
+   "number": 86,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A agricultura ecológica e a produção orgânica de alimentos estão ganhando relevância em diferentes partes do mundo. No campo brasileiro, também acontece o mesmo. Impulsionado especialmente pela expansão da demanda de alimentos saudáveis, o setor cresce a cada ano, embora permaneça relativamente\nmarginalizado na agenda de prioridades da política agrícola praticada no país."
+    },
+    {
+     "type": "text",
+     "text": "AQUINO, J. R.; GAZOLLA, M.; SCHNEIDER, S. In: SAMBUICHI, R. H. R. et al. (Org.). A política nacional de agroecologia e produção orgânica no Brasil: uma trajetória de luta pelo desenvolvimento rural sustentável. Brasília: Ipea, 2017 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Que tipo de intervenção do poder público no espaço rural é capaz de reduzir a marginalização produtiva apresentada no texto?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Subsidiar os cultivos de base familiar."
+    },
+    {
+     "letter": "B",
+     "text": "Favorecer as práticas de fertilização química."
+    },
+    {
+     "letter": "C",
+     "text": "Restringir o emprego de maquinário moderno."
+    },
+    {
+     "letter": "D",
+     "text": "Controlar a expansão de sistemas de irrigação."
+    },
+    {
+     "letter": "E",
+     "text": "Regulamentar o uso de sementes selecionadas."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2018-q89",
+   "number": 89,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "No início da década de 1990, dois biólogos importantes, Redford e Robinson, produziram um modelo largamente aceito de “produção sustentável” que previa quantos indivíduos de cada espécie poderiam ser caçados de forma\nsustentável baseado nas suas taxas de reprodução. Os seringueiros do Alto Juruá tinham um modelo diferente: a quem lhes afirmava que estavam caçando acima do sustentável (dentro do modelo), eles diziam que não, que o nível da caça dependia da existência de áreas de refúgio em que ninguém caçava. Ora, esse acabou sendo o modelo batizado de “fonte-ralo” proposto dez anos após o primeiro por Novaro, Bodmer e o próprio Redford e que suplantou o modelo anterior."
+    },
+    {
+     "type": "text",
+     "text": "CUNHA, M. C. Revista USP, n. 75, set.-nov. 2007."
+    },
+    {
+     "type": "text",
+     "text": "No contexto da produção científlca, a necessidade de reconstrução desse modelo, conforme exposto no texto, foi\ndeterminada pelo confronto com um(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Conclusão operacional obtida por lógica dedutiva."
+    },
+    {
+     "letter": "B",
+     "text": "Visão de mundo marcada por preconceitos morais."
+    },
+    {
+     "letter": "C",
+     "text": "Hábito social condicionado pela religiosidade popular."
+    },
+    {
+     "letter": "D",
+     "text": "Conhecimento empírico apropriado pelo senso comum."
+    },
+    {
+     "letter": "E",
+     "text": "Padrão de preservação construído por experimentação dirigida."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2018-q90",
+   "number": 90,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um dos teóricos da democracia moderna, Hans Kelsen, considera elemento essencial da democracia real (não da democracia ideal, que não existe em lugar algum) o método da seleção dos líderes, ou seja, a eleição. Exemplar, neste sentido, é a afirmação de um juiz da Corte Suprema dos Estados Unidos, por ocasião de uma eleição de 1902: “A cabine eleitoral é o templo das instituições americanas, onde cada um de nós é um sacerdote, ao qual é confiada a guarda da arca da aliança e cada um oficia do seu próprio altar^’."
+    },
+    {
+     "type": "text",
+     "text": "BOBBIO, N. Teoria geral da política. Rio de Janeiro: EIsevier, 2000 (adaptado)"
+    },
+    {
+     "type": "text",
+     "text": "As metáforas utilizadas no texto referem-se a uma concepção de democracia fundamentada no(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Justificação teísta do direito."
+    },
+    {
+     "letter": "B",
+     "text": "Rigidez da hierarquia de classe."
+    },
+    {
+     "letter": "C",
+     "text": "Ênfase formalista na administração."
+    },
+    {
+     "letter": "D",
+     "text": "Protagonismo do Executivo no poder."
+    },
+    {
+     "letter": "E",
+     "text": "Centralidade do indivíduo na sociedade."
+    }
+   ],
+   "answer": "E"
+  }
+ ]
+}

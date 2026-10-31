@@ -1,0 +1,2414 @@
+{
+ "id": "enem-2011-d2",
+ "vestibular": "enem",
+ "title": "ENEM 2011, dia 2",
+ "year": 2011,
+ "version": 1,
+ "source": "Questões: INEP, ENEM 2011. Transcrição: ENEM API (enem.dev).",
+ "questions": [
+  {
+   "id": "enem-2011-q91",
+   "number": 91,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Going to university seems to reduce the risk of dying from coronary heart disease. An American study that involved 10 000 patients from around the world has found that people who leave school before the age of 16 are five times more likely to suffer a heart attack and die than university graduates."
+    },
+    {
+     "type": "text",
+     "text": "World Report News. Magazine Speak Up. Ano XIV, n° 170. Editora Camelot, 2001."
+    },
+    {
+     "type": "text",
+     "text": "Em relação às pesquisas, a utilização da expressão university graduates evidencia a intenção de informar que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "As doenças do coração atacam dez mil pacientes."
+    },
+    {
+     "letter": "B",
+     "text": "As doenças do coração ocorrem na faixa dos dezesseis anos."
+    },
+    {
+     "letter": "C",
+     "text": "As pesquisas sobre doenças são divulgadas no meio acadêmico."
+    },
+    {
+     "letter": "D",
+     "text": "Jovens americanos são alertados dos riscos de doenças do coração."
+    },
+    {
+     "letter": "E",
+     "text": "Maior nível de estudo reduz riscos de ataques do coração."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2011-q91-espanhol",
+   "number": 91,
+   "subject": "Espanhol",
+   "statement": [
+    {
+     "type": "text",
+     "text": "‘Desmachupizar’ el turismo"
+    },
+    {
+     "type": "text",
+     "text": "Es ya un lugar común escuchar aquello de que hay que desmachupizar el turismo en Perú y buscar visitantes en las demás atracciones (y son muchas) que tiene el país, naturales y arqueológicas, pero la ciudadela inca tiene un imán innegable. La Cámara Nacional de Turismo considera que Machu Picchu significa el 70% de los ingresos por turismo en Perú, ya que cada turista que tiene como primer destino la ciudadela inca visita entre tres y cinco lugares más (la ciudad de Cuzco, la de Arequipa, las líneas de Nazca, el Lago Titicaca y la selva) y deja en el país un promedio de 2 200 dólares (unos 1 538 euros)."
+    },
+    {
+     "type": "text",
+     "text": "Carlos Canales, presidente de Canatur, señaló que la ciudadela tiene capacidad para recibir más visitantes que en la actualidad (un máximo de 3 000) con un sistema planificado de horarios y rutas, pero no quiso avanzar una cifra. Sin embargo, la Unesco ha advertido en varias ocasiones que el monumento se encuentra cercano al punto de saturación y el Gobierno no debe emprender ninguna política de captación de nuevos visitantes, algo con lo que coincide el viceministro Roca Rey."
+    },
+    {
+     "type": "text",
+     "text": "Disponivel em: http://www.elpais.com. Acesso em: 21 jun. 2011."
+    },
+    {
+     "type": "text",
+     "text": "A reportagem do jornal espanhol mostra a preocupação diante de um problema no Peru, que pode ser resumido pelo vocábulo “desmachupizar”, referindo-se"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "À escassez de turistas no país."
+    },
+    {
+     "letter": "B",
+     "text": "Ao difícil acesso ao lago Titicaca."
+    },
+    {
+     "letter": "C",
+     "text": "À destruição da arqueologia no país."
+    },
+    {
+     "letter": "D",
+     "text": "Ao excesso de turistas na terra dos incas."
+    },
+    {
+     "letter": "E",
+     "text": "À falta de atrativos turísticos em Arequipa."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2011-q92-espanhol",
+   "number": 92,
+   "subject": "Espanhol",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Los fallos de software en aparatos médicos, como marcapasos, van a ser una creciente amenaza para la salud pública, según el informe de Software Freedom Law Center (SFLC) que ha sido presentado hoy en Portland (EEUU), en la Open Source Convention (OSCON)."
+    },
+    {
+     "type": "text",
+     "text": "La ponencia “Muerto por el código: transparencia de software en los dispositivos médicos implantables” aborda el riesgo potencialmente mortal de los defectos informáticos en los aparatos médicos implantados en las personas."
+    },
+    {
+     "type": "text",
+     "text": "Según SFLC, millones de personas con condiciones crónicas del corazón, epilepsia, diabetes, obesidad e, incluso, la depresión dependen de implantes, pero el software permanece oculto a los pacientesy sus médicos."
+    },
+    {
+     "type": "text",
+     "text": "La SFLC recuerda graves fallos informáticos ocurridos en otros campos, como en elecciones, en la fabricación de coches, en las líneas aéreas comerciales o en los mercados financieros."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://www.elpais.com. Acesso em: 24 jul. 2010 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O título da palestra, citado no texto, antecipa o tema que será tratado e mostra que o autor tem a intenção de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Relatar novas experiências em tratamento de saúde."
+    },
+    {
+     "letter": "B",
+     "text": "Alertar sobre os riscos mortais de determinados softwares de uso médico para o ser humano."
+    },
+    {
+     "letter": "C",
+     "text": "Denunciar falhas médicas na implantação de softwares em seres humanos."
+    },
+    {
+     "letter": "D",
+     "text": "Divulgar novos softwares presentes em aparelhos médicos lançados no mercado."
+    },
+    {
+     "letter": "E",
+     "text": "Apresentar os defeitos mais comuns de softwares em aparelhos médicos."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2011-q93-espanhol",
+   "number": 93,
+   "subject": "Espanhol",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Bienvenido a Brasília"
+    },
+    {
+     "type": "text",
+     "text": "El Gobierno de Brasil, por medio del Ministerio de la Cultura y del Instituto del Patrimonio Histórico y Artístico Nacional (IPHAN), da la bienvenida a los participantes de la 34a Sesión del Comité del Patrimonio Mundial, encuentro realizado poria Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO)."
+    },
+    {
+     "type": "text",
+     "text": "Respaldado por la Convención del Patrimonio Mundial, de 1972, el Comité reúne en su 34a sesión más de 180 delegaciones nacionales para deliberar sobre las nuevas candidaturas y el estado de conservación y de riesgo de los bienes ya declarados Patrimonio Mundial, con base en los análisis del Consejo Internacional de Monumentos y Sitios (Icomos), del Centro Internacional para el Estudio de la Preservación y la Restauración del Patrimonio Cultural (ICCROM) y de la Union Internacional para la Conservación de la Naturaleza (IUCN)."
+    },
+    {
+     "type": "text",
+     "text": "Disponivel em: http://www.34whc.brasilia2010.oig.br. Acesso em: 28 jul. 2010."
+    },
+    {
+     "type": "text",
+     "text": "O Comitê do Patrimônio Mundial reúne-se regularmente para deliberar sobre ações que visem à conservação e à preservação do patrimônio mundial. Entre as tarefas atribuídas às delegações nacionais que participaram da 34a Sessão do Comitê do Patrimônio Mundial, destaca-se a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Participação em reuniões do Conselho Internacional de Monumentos e Sítios."
+    },
+    {
+     "letter": "B",
+     "text": "Realização da cerimônia de recepção da Convenção do Patrimônio Mundial."
+    },
+    {
+     "letter": "C",
+     "text": "Organização das análises feitas pelo Ministério da Cultura brasileiro."
+    },
+    {
+     "letter": "D",
+     "text": "Discussão sobre o estado de conservação dos bens já declarados patrimônios mundiais."
+    },
+    {
+     "letter": "E",
+     "text": "Estruturação da próxima reunião do Comitê do Patrimônio Mundial."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2011-q94",
+   "number": 94,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "War"
+    },
+    {
+     "type": "text",
+     "text": "Until the philosophy which holds one race superior\nAnd another inferior\nIs finally and permanently discredited and abandoned,\nEverywhere is war — Me say war."
+    },
+    {
+     "type": "text",
+     "text": "That until there is no longer\nFirst class and second class citizens of any nation,\nUntil the color of a man’s skin\nIs of no more significance than the color of his eyes —\nMe say war.\n[…]"
+    },
+    {
+     "type": "text",
+     "text": "And until the ignoble and unhappy regimes\nthat hold our brothers in Angola, in Mozambique,\nSouth Africa, sub-human bondage have been toppled,\nUtterly destroyed —\nWell, everywhere is war — Me say war."
+    },
+    {
+     "type": "text",
+     "text": "War in the east, war in the west,\nWar up north, war down south —\nWar — war — Rumors of war.\nAnd until that day, the African continent will not know peace.\nWe, Africans, will fight — we find it necessary —\nAnd we know we shall win\nAs we are confident in the victory.\n[…]"
+    },
+    {
+     "type": "text",
+     "text": "MARLEY, B. Disponível em: http://www.sing365.com. Acesso em: 30 jun. 2011 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "Bob Marley foi um artista popular e atraiu muitos fãs com suas canções. Ciente de sua influência social, na música War, o cantor se utiliza de sua arte para alertar sobre"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A inércia do continente africano diante das injustiças sociais."
+    },
+    {
+     "letter": "B",
+     "text": "A persistência da guerra enquanto houver diferenças raciais e sociais."
+    },
+    {
+     "letter": "C",
+     "text": "As acentuadas diferenças culturais entre os países africanos."
+    },
+    {
+     "letter": "D",
+     "text": "As discrepâncias sociais entre moçambicanos e angolanos como causa de conflitos."
+    },
+    {
+     "letter": "E",
+     "text": "A fragilidade das diferenças raciais e sociais como justificativas para o início de uma guerra."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2011-q94-espanhol",
+   "number": 94,
+   "subject": "Espanhol",
+   "statement": [
+    {
+     "type": "text",
+     "text": "El tango"
+    },
+    {
+     "type": "text",
+     "text": "Ya sea como danza, música, poesía o cabal expresión de una filosofía de vida, el tango posee una larga y valiosa trayectoria, jalonada de encuentros y desencuentros, amores y odios, nacida desde lo más hondo de la historia argentina."
+    },
+    {
+     "type": "text",
+     "text": "El nuevo ambiente es el cabaret, su nuevo cultor la clase media porteña, que ameniza sus momentos de diversión con nuevas composiciones, sustituyendo el carácter malevo del tango primitivo por una nueva poesía más acorde con las concepciones estéticas provenientes de Londres y París."
+    },
+    {
+     "type": "text",
+     "text": "Ya en la década del ‘20 el tango se anima incluso a traspasar las fronteras del país, recalando en lujosos salones parisinos donde es aclamado por públicos selectos que adhieren entusiastas a la sensualidad del nuevo baile. Ya no es privativo de los bajos fondos porteños; ahora se escucha y se baila en salones elegantes, clubs y casas particulares."
+    },
+    {
+     "type": "text",
+     "text": "El tango revive con juveniles fuerzas en ajironadas versiones de grupos rockeros, presentaciones en elegantes reductos de San Telmo, Barracas y La Boca y películas foráneas que lo divulgan por el mundo entero."
+    },
+    {
+     "type": "text",
+     "text": "Disponivel em: http://vww.elpdwrin.over-blog.es. Acesso em: 22 jun. 2011 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Sabendo-se que a produção cultural de um país pode influenciar, retratar ou, inclusive, ser reflexo de acontecimentos de sua história, o tango, dentro do contexto histórico argentino, é reconhecido por"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Manter-se inalterado ao longo de sua história no país."
+    },
+    {
+     "letter": "B",
+     "text": "Influenciar os subúrbios, sem chegar a outras regiões."
+    },
+    {
+     "letter": "C",
+     "text": "Sobreviver e se difundir, ultrapassando as fronteiras do país."
+    },
+    {
+     "letter": "D",
+     "text": "Manifestar seu valor primitivo nas diferentes camadas sociais."
+    },
+    {
+     "letter": "E",
+     "text": "Ignorar a influência de países europeus, como Inglaterra e França."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2011-q95",
+   "number": 95,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Es posible reducir la basura"
+    },
+    {
+     "type": "text",
+     "text": "En México se producen más de 10 millones de m3 de basura mensualmente, depositados en más de 50 mil tiraderos de basura legales y clandestinos, que afectan de manera directa nuestra calidad de vida, pues nuestros recursos naturales son utilizados desproporcionalmente, como materias primas que luego desechamos y tiramos convirtiéndolos en materiales inútiles y focos de infección."
+    },
+    {
+     "type": "text",
+     "text": "Todo aquello que compramos y consumimos tiene una relación directa con lo que tiramos. Consumiendo racionalmente, evitando el derroche y usando sólo lo indispensable, directamente colaboramos con el cuidado del ambiente."
+    },
+    {
+     "type": "text",
+     "text": "Si la basura se compone de varios desperdicios y si como desperdicios no fueron basura, si los separamos adecuadamente, podremos controlarlos y evitar posteriores problemas. Reciclar se traduce en importantes ahorros de energía, ahorro de agua potable, ahorro de materias primas, menor impacto en los ecosistemas y sus recursos naturales y ahorro de tiempo, dinero y esfuerzo."
+    },
+    {
+     "type": "text",
+     "text": "Es necesario saber para empezar a actuar…"
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://www.tododecarton.com. Acesso em: 27 abr. 2010 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A partir do que se afirma no último parágrafo: “Es necesario saber para empezar a actuar…”, pode-se constatar que o texto foi escrito com a intenção de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Informar o leitor a respeito da importância da reciclagem para a conservação do meio ambiente."
+    },
+    {
+     "letter": "B",
+     "text": "Indicar os cuidados que se deve ter para não consumir alimentos que podem ser focos de infecção."
+    },
+    {
+     "letter": "C",
+     "text": "Denunciar o quanto o consumismo é nocivo, pois é o gerador dos dejetos produzidos no México."
+    },
+    {
+     "letter": "D",
+     "text": "Ensinar como economizar tempo, dinheiro e esforço a partir dos 50 mil depósitos de lixo legalizados."
+    },
+    {
+     "letter": "E",
+     "text": "Alertar a população mexicana para os perigos causados pelos consumidores de matéria-prima reciclável."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2011-q96",
+   "number": 96,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Na modernidade, o corpo foi descoberto, despido e modelado pelos exercícios físicos da moda. Novos espaços e práticas esportivas e de ginástica passaram a convocar as pessoas a modelarem seus corpos. Multiplicaram-se as academias de ginástica, as salas de musculação e o número de pessoas correndo pelas ruas."
+    },
+    {
+     "type": "text",
+     "text": "SECRETARIA DA EDUCAÇÃO. Caderno do professor: educação física. São Paulo, 2008."
+    },
+    {
+     "type": "text",
+     "text": "Diante do exposto, é possível perceber que houve um aumento da procura por"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Exercícios físicos aquáticos (natação/hidroginástica), que são exercícios de baixo impacto, evitando o atrito (não prejudicando as articulações), e que previnem o envelhecimento precoce e melhoram a qualidade de vida."
+    },
+    {
+     "letter": "B",
+     "text": "Mecanismos que permitem combinar alimentação e exercício físico, que permitem a aquisição e manutenção de níveis adequados de saúde, sem a preocupação com padrões de beleza instituídos socialmente."
+    },
+    {
+     "letter": "C",
+     "text": "Programas saudáveis de emagrecimento, que evitam os prejuízos causados na regulação metabólica, função imunológica, integridade óssea e manutenção da capacidade funcional ao longo do envelhecimento."
+    },
+    {
+     "letter": "D",
+     "text": "Exercícios de relaxamento, reeducação postural e alongamentos, que permitem um melhor funcionamento do organismo como um todo, bem como uma dieta alimentar e hábitos saudáveis com base em produtos naturais."
+    },
+    {
+     "letter": "E",
+     "text": "Dietas que preconizam a ingestão excessiva ou restrita de um ou mais macronutrientes (carboidratos, gorduras ou proteínas), bem como exercícios que permitem um aumento de massa muscular e/ou modelar o corpo."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2011-q98",
+   "number": 98,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O hipertexto refere-se à escritura eletrônica não sequencial e não linear, que se bifurca e permite ao leitor o acesso a um número praticamente ilimitado de outros textos a partir de escolhas locais e sucessivas, em tempo real. Assim, o leitor tem condições de definir interativamente o fluxo de sua leitura a partir de assuntos tratados no texto sem se prender a uma sequência fixa ou a tópicos estabelecidos por um autor. Trata-se de uma forma de estruturação textual que faz do leitor simultaneamente coautor do texto final. O hipertexto se caracteriza, pois, como um processo de escritura/leitura eletrônica multilinearizado, multisequencial e indeterminado, realizado em um novo espaço de escrita. Assim, ao permitir vários níveis de tratamento de um tema, o hipertexto oferece a possibilidade de múltiplos graus de profundidade simultaneamente, já que não tem sequência definida, mas liga textos não necessariamente correlacionados."
+    },
+    {
+     "type": "text",
+     "text": "MARCUSCHI, L. A. Disponível em: http://www.pucsp.br. Acesso em: 29 jun. 2011."
+    },
+    {
+     "type": "text",
+     "text": "O computador mudou nossa maneira de ler e escrever, e o hipertexto pode ser considerado como um novo espaço de escrita e leitura. Definido como um conjunto de blocos autônomos de texto, apresentado em meio eletrônico computadorizado e no qual há remissões associando entre si diversos elementos, o hipertexto"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "É uma estratégia que, ao possibilitar caminhos totalmente abertos, desfavorece o leitor, ao confundir os conceitos cristalizados tradicionalmente."
+    },
+    {
+     "letter": "B",
+     "text": "É uma forma artificial de produção da escrita, que, ao desviar o foco da leitura, pode ter como consequência o menosprezo pela escrita tradicional."
+    },
+    {
+     "letter": "C",
+     "text": "Exige do leitor um maior grau de conhecimentos prévios, por isso deve ser evitado pelos estudantes nas suas pesquisas escolares."
+    },
+    {
+     "letter": "D",
+     "text": "Facilita a pesquisa, pois proporciona uma informação específica, segura e verdadeira, em qualquer site de busca ou blog oferecidos na internet."
+    },
+    {
+     "letter": "E",
+     "text": "Possibilita ao leitor escolher seu próprio percurso de leitura, sem seguir sequência predeterminada, constituindo-se em atividade mais coletiva e colaborativa."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2011-q99",
+   "number": 99,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "TEXTO I"
+    },
+    {
+     "type": "text",
+     "text": "O meu nome é Severino,\nnão tenho outro de pia.\nComo há muitos Severinos,\nque é santo de romaria,\nderam então de me chamar\nSeverino de Maria;\ncomo há muitos Severinos\ncom mães chamadas Maria,\nfiquei sendo o da Maria\ndo finado Zacarias,\nmas isso ainda diz pouco:\nhá muitos na freguesia,\npor causa de um coronel\nque se chamou Zacarias\ne que foi o mais antigo\nsenhor desta sesmaria.\nComo então dizer quem fala\nora a Vossas Senhorias?"
+    },
+    {
+     "type": "text",
+     "text": "MELO NETO, J. C. Obra completa. Rio de Janeiro: Aguilar, 1994 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "TEXTO II"
+    },
+    {
+     "type": "text",
+     "text": "João Cabral, que já emprestara sua voz ao rio, transfere-a, aqui, ao retirante Severino, que, como o Capibaribe, também segue no caminho do Recife. A autoapresentação do personagem, na fala inicial do texto, nos mostra um Severino que, quanto mais se define, menos se individualiza, pois seus traços biográficos são sempre partilhados por outros homens."
+    },
+    {
+     "type": "text",
+     "text": "SECCHIN, A. C. João Cabral: a poesia do menos. Rio de Janeiro: Topbooks, 1999 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "Com base no trecho de Morte e Vida Severina (Texto I) e na análise crítica (Texto II), observa-se que a relação entre o texto poético e o contexto social a que ele faz referência aponta para um problema social expresso literariamente pela pergunta “Como então dizer quem fala / ora a Vossas Senhorias?”. A resposta à pergunta expressa no poema é dada por meio da"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Descrição minuciosa dos traços biográficos do personagem-narrador."
+    },
+    {
+     "letter": "B",
+     "text": "Construção da figura do retirante nordestino como um homem resignado com a sua situação."
+    },
+    {
+     "letter": "C",
+     "text": "Representação, na figura do personagem-narrador, de outros Severinos que compartilham sua condição."
+    },
+    {
+     "letter": "D",
+     "text": "Apresentação do personagem-narrador como uma projeção do próprio poeta, em sua crise existencial."
+    },
+    {
+     "letter": "E",
+     "text": "Descrição de Severino, que, apesar de humilde, orgulha-se de ser descendente do coronel Zacarias."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2011-q101",
+   "number": 101,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "TEXTO I\nOnde está a honestidade?"
+    },
+    {
+     "type": "text",
+     "text": "Você tem palacete reluzente\nTem joias e criados à vontade\nSem ter nenhuma herança ou parente\nSó anda de automóvel na cidade…"
+    },
+    {
+     "type": "text",
+     "text": "E o povo pergunta com maldade:\nOnde está a honestidade?\nOnde está a honestidade?"
+    },
+    {
+     "type": "text",
+     "text": "O seu dinheiro nasce de repente\nE embora não se saiba se é verdade\nVocê acha nas ruas diariamente\nAnéis, dinheiro e felicidade…"
+    },
+    {
+     "type": "text",
+     "text": "Vassoura dos salões da sociedade\nQue varre o que encontrar em sua frente\nPromove festivais de caridade\nEm nome de qualquer defunto ausente…"
+    },
+    {
+     "type": "text",
+     "text": "ROSA, N. Disponível em: http://www.mpbnet.com.br. Acesso em: abr. 2010."
+    },
+    {
+     "type": "text",
+     "text": "TEXTO II"
+    },
+    {
+     "type": "text",
+     "text": "Um vulto da história da música popular brasileira, reconhecido nacionalmente, é Noel Rosa. Ele nasceu em 1910, no Rio de Janeiro; portanto, se estivesse vivo, estaria completando 100 anos. Mas faleceu aos 26 anos de idade, vítima de tuberculose, deixando um acervo de grande valor para o patrimônio cultural brasileiro. Muitas de suas letras representam a sociedade contemporânea, como se tivessem sido escritas no século XXI."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://www.mpbnet.com.br. Acesso em: abr. 2010."
+    },
+    {
+     "type": "text",
+     "text": "Um texto pertencente ao patrimônio literário-cultural brasileiro é atualizável, na medida em que ele se refere a valores e situações de um povo. A atualidade da canção Onde está a honestidade?, de Noel Rosa, evidencia-se por meio"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Da ironia, ao se referir ao enriquecimento de origem duvidosa de alguns."
+    },
+    {
+     "letter": "B",
+     "text": "Da crítica aos ricos que possuem joias, mas não têm herança."
+    },
+    {
+     "letter": "C",
+     "text": "Da maldade do povo a perguntar sobre a honestidade."
+    },
+    {
+     "letter": "D",
+     "text": "Do privilégio de alguns em clamar pela honestidade."
+    },
+    {
+     "letter": "E",
+     "text": "Da insistência em promover eventos beneficentes."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2011-q102",
+   "number": 102,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Quem é pobre, pouco se apega, é um giro-o-giro no vago dos gerais, que nem os pássaros de rios e lagoas. O senhor vê: o Zé-Zim, o melhor meeiro meu aqui, risonho e habilidoso. Pergunto: — Zé-Zim, por que é que você não cria galinhas-d’angola, como todo o mundo faz? — Quero criar nada não… — me deu resposta: — Eu gosto muito de mudar… […] Belo um dia, ele tora. Ninguém discrepa. Eu, tantas, mesmo digo. Eu dou proteção. […] Essa não faltou também à minha mãe, quando eu era menino, no sertãozinho de minha terra. […] Gente melhor do lugar eram todos dessa família Guedes, Jidião Guedes; quando saíram de lá, nos trouxeram junto, minha mãe e eu. Ficamos existindo em território baixio da Sirga, da outra banda, ali onde o de-Janeiro vai no São Francisco, o senhor sabe."
+    },
+    {
+     "type": "text",
+     "text": "ROSA, J. G. Grande Sertão: Veredas. Rio de Janeiro: José Olympio (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "Na passagem citada, Riobaldo expõe uma situação decorrente de uma desigualdade social típica das áreas rurais brasileiras marcadas pela concentração de terras e pela relação de dependência entre agregados e fazendeiros. No texto, destaca-se essa relação porque o personagem-narrador"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Relata a seu interlocutor a história de Zé-Zim, demonstrando sua pouca disposição em ajudar seus agregados, uma vez que superou essa condição graças à sua força de trabalho."
+    },
+    {
+     "letter": "B",
+     "text": "Descreve o processo de transformação de um meeiro — espécie de agregado — em proprietário de terra."
+    },
+    {
+     "letter": "C",
+     "text": "Denuncia a falta de compromisso e a desocupação dos moradores, que pouco se envolvem no trabalho da terra."
+    },
+    {
+     "letter": "D",
+     "text": "Mostra como a condição material da vida do sertanejo é dificultada pela sua dupla condição de homem livre e, ao mesmo tempo, dependente."
+    },
+    {
+     "letter": "E",
+     "text": "Mantém o distanciamento narrativo condizente com sua posição social, de proprietário de terras."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2011-q103",
+   "number": 103,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A discussão sobre “o fim do livro de papel” com a chegada da mídia eletrônica me lembra a discussão idêntica sobre a obsolescência do folheto de cordel. Os folhetos talvez não existam mais daqui a 100 ou 200 anos, mas, mesmo que isso aconteça, os poemas de Leandro Gomes de Barros ou Manuel Camilo dos Santos continuarão sendo publicados e lidos — em CD-ROM, em livro eletrônico, em “chips quânticos”, sei lá o quê. O texto é uma espécie de alma imortal, capaz de reencarnar em corpos variados: página impressa, livro em Braille, folheto, “coffee-table book”, cópia manuscrita, arquivo PDF… Qualquer texto pode se reencarnar nesses (e em outros) formatos, não importa se é Moby Dick ou Viagem a São Saruê, se é Macbeth ou O livro de piadas de Casseta & Planeta."
+    },
+    {
+     "type": "text",
+     "text": "TAVARES, B. Disponível em: http://jornaldaparaiba.globo.com."
+    },
+    {
+     "type": "text",
+     "text": "Ao refletir sobre a possível extinção do livro impresso e o surgimento de outros suportes em via eletrônica, o cronista manifesta seu ponto de vista, defendendo que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "O cordel é um dos gêneros textuais, por exemplo, que será extinto com o avanço da tecnologia."
+    },
+    {
+     "letter": "B",
+     "text": "O livro impresso permanecerá como objeto cultural veiculador de impressões e de valores culturais."
+    },
+    {
+     "letter": "C",
+     "text": "O surgimento da mídia eletrônica decretou o fim do prazer de se ler textos em livros e suportes impressos."
+    },
+    {
+     "letter": "D",
+     "text": "Os textos continuarão vivos e passíveis de reprodução em novas tecnologias, mesmo que os livros desapareçam."
+    },
+    {
+     "letter": "E",
+     "text": "Os livros impressos desaparecerão e, com eles, a possibilidade de se ler obras literárias dos mais diversos gêneros."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2011-q104",
+   "number": 104,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Não tem tradução"
+    },
+    {
+     "type": "text",
+     "text": "[…]\nLá no morro, se eu fizer uma falseta\nA Risoleta desiste logo do francês e do inglês\nA gíria que o nosso morro criou\nBem cedo a cidade aceitou e usou\n[…]\nEssa gente hoje em dia que tem mania de exibição\nNão entende que o samba não tem tradução no idioma francês\nTudo aquilo que o malandro pronuncia\nCom voz macia é brasileiro, já passou de português\nAmor lá no morro é amor pra chuchu\nAs rimas do samba não são I love you\nE esse negócio de alô, alô boy e alô Johnny\nSó pode ser conversa de telefone"
+    },
+    {
+     "type": "text",
+     "text": "ROSA, N. In: SOBRAL, João J. V. A tradução dos bambas. Revista Língua Portuguesa. Ano 4, n° 54. São Paulo: Segmento, abr. 2010 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "As canções de Noel Rosa, compositor brasileiro de Vila Isabel, apesar de revelarem uma aguçada preocupação do artista com seu tempo e com as mudanças político-culturais no Brasil, no início dos anos 1920, ainda são modernas. Nesse fragmento do samba Não tem tradução, por meio do recurso da metalinguagem, o poeta propõe"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Incorporar novos costumes de origem francesa e americana, juntamente com vocábulos estrangeiros."
+    },
+    {
+     "letter": "B",
+     "text": "Respeitar e preservar o português padrão como forma de fortalecimento do idioma do Brasil."
+    },
+    {
+     "letter": "C",
+     "text": "Valorizar a fala popular brasileira como patrimônio linguístico e forma legítima de identidade nacional."
+    },
+    {
+     "letter": "D",
+     "text": "Mudar os valores sociais vigentes à época, com o advento do novo e quente ritmo da música popular brasileira."
+    },
+    {
+     "letter": "E",
+     "text": "Ironizar a malandragem carioca, aculturada pela invasão de valores étnicos de sociedades mais desenvolvidas."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2011-q105",
+   "number": 105,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A dança é um importante componente cultural da humanidade. O folclore brasileiro é rico em danças que representam as tradições e a cultura de várias regiões do país. Estão ligadas aos aspectos religiosos, festas, lendas, fatos históricos, acontecimentos do cotidiano e brincadeiras e caracterizam-se pelas músicas animadas (com letras simples e populares), figurinos e cenários representativos."
+    },
+    {
+     "type": "text",
+     "text": "SECRETARIA DA EDUCAÇÃO. Proposta Curricular do Estado de São Paulo: Educação Física. São Paulo: 2009 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A dança, como manifestação e representação da cultura rítmica, envolve a expressão corporal própria de um povo. Considerando-a como elemento folclórico, a dança revela"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Manifestações afetivas, históricas, ideológicas, intelectuais e espirituais de um povo, refletindo seu modo de expressar-se no mundo."
+    },
+    {
+     "letter": "B",
+     "text": "Aspectos eminentemente afetivos, espirituais e de entretenimento de um povo, desconsiderando fatos históricos."
+    },
+    {
+     "letter": "C",
+     "text": "Acontecimentos do cotidiano, sob influência mitológica e religiosa de cada região, sobrepondo aspectos políticos."
+    },
+    {
+     "letter": "D",
+     "text": "Tradições culturais de cada região, cujas manifestações rítmicas são classificadas em um ranking das mais originais."
+    },
+    {
+     "letter": "E",
+     "text": "Lendas, que se sustentam em inverdades históricas, uma vez que são inventadas, e servem apenas para a vivência lúdica de um povo."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2011-q106",
+   "number": 106,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Cultivar um estilo de vida saudável é extremamente importante para diminuir o risco de infarto, mas também de problemas como morte súbita e derrame. Significa que manter uma alimentação saudável e praticar atividade física regularmente já reduz, por si só, as chances de desenvolver vários problemas. Além disso, é importante para o controle da pressão arterial, dos níveis de colesterol e de glicose no sangue. Também ajuda a diminuir o estresse e aumentar a capacidade física, fatores que, somados, reduzem as chances de infarto. Exercitar-se, nesses casos, com acompanhamento médico e moderação, é altamente recomendável."
+    },
+    {
+     "type": "text",
+     "text": "ATALIA, M. Nossa vida. Época. 23 mar. 2009."
+    },
+    {
+     "type": "text",
+     "text": "As idéias veiculadas no texto se organizam estabelecendo relações que atuam na construção do sentido. A esse respeito, identifica-se, no fragmento, que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A expressão “Além disso” marca uma sequenciação de idéias."
+    },
+    {
+     "letter": "B",
+     "text": "O conectivo “mas também” inicia oração que exprime ideia de contraste."
+    },
+    {
+     "letter": "C",
+     "text": "O termo “como”, em “como morte súbita e derrame”, introduz uma generalização."
+    },
+    {
+     "letter": "D",
+     "text": "O termo “Também” exprime uma justificativa."
+    },
+    {
+     "letter": "E",
+     "text": "O termo “fatores” retoma coesivamente “níveis de colesterol e de glicose no sangue”."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2011-q108",
+   "number": 108,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Conceitos e importância das lutas"
+    },
+    {
+     "type": "text",
+     "text": "Antes de se tornarem esporte, as lutas ou as artes marciais tiveram duas conotações principais: eram praticadas com o objetivo guerreiro ou tinham um apelo filosófico como concepção de vida bastante significativo."
+    },
+    {
+     "type": "text",
+     "text": "Atualmente, nos deparamos com a grande expansão das artes marciais em nível mundial. As raízes orientais foram se disseminando, ora pela necessidade de luta pela sobrevivência ou para a “defesa pessoal”, ora pela possibilidade de ter as artes marciais como própria filosofia de vida."
+    },
+    {
+     "type": "text",
+     "text": "CARREIRO, E. A. Educação Física na escola: Implicações para a prática pedagógica. Rio de Janeiro: Guanabara Koogan, 2008 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "Um dos problemas da violência que está presente principalmente nos grandes centros urbanos são as brigas e os enfrentamentos de torcidas organizadas, além da formação de gangues, que se apropriam de gestos das lutas, resultando, muitas vezes, em fatalidades. Portanto, o verdadeiro objetivo da aprendizagem desses movimentos foi mal compreendido, afinal as lutas"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Se tornaram um esporte, mas eram praticadas com o objetivo guerreiro a fim de garantir a sobrevivência."
+    },
+    {
+     "letter": "B",
+     "text": "Apresentam a possibilidade de desenvolver o autocontrole, o respeito ao outro e a formação do caráter."
+    },
+    {
+     "letter": "C",
+     "text": "Possuem como objetivo principal a “defesa pessoal” por meio de golpes agressivos sobre o adversário."
+    },
+    {
+     "letter": "D",
+     "text": "Sofreram transformações em seus princípios filosóficos em razão de sua disseminação pelo mundo."
+    },
+    {
+     "letter": "E",
+     "text": "Se disseminaram pela necessidade de luta pela sobrevivência ou como filosofia pessoal de vida."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2011-q109",
+   "number": 109,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O tema da velhice foi objeto de estudo de brilhantes filósofos ao longo dos tempos. Um dos melhores livros sobre o assunto foi escrito pelo pensador e orador romano Cícero: A Arte do Envelhecimento. Cícero nota, primeiramente, que todas as idades têm seus encantos e suas dificuldades. E depois aponta para um paradoxo da humanidade. Todos sonhamos ter uma vida longa, o que significa viver muitos anos. Quando realizamos a meta, em vez de celebrar o feito, nos atiramos a um estado de melancolia e amargura. Ler as palavras de Cícero sobre envelhecimento pode ajudar a aceitar melhor a passagem do tempo."
+    },
+    {
+     "type": "text",
+     "text": "NOGUEIRA, P. Saúde & Bem-Estar Antienvelhecimento. Época. 28 abr. 2008."
+    },
+    {
+     "type": "text",
+     "text": "O autor discute problemas relacionados ao envelhecimento, apresentando argumentos que levam a inferir que seu objetivo é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Esclarecer que a velhice é inevitável."
+    },
+    {
+     "letter": "B",
+     "text": "Contar fatos sobre a arte de envelhecer."
+    },
+    {
+     "letter": "C",
+     "text": "Defender a ideia de que a velhice é desagradável."
+    },
+    {
+     "letter": "D",
+     "text": "Influenciar o leitor para que lute contra o envelhecimento."
+    },
+    {
+     "letter": "E",
+     "text": "Mostrar às pessoas que é possível aceitar, sem angústia, o envelhecimento."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2011-q111",
+   "number": 111,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "No capricho"
+    },
+    {
+     "type": "text",
+     "text": "O Adãozinho, meu cumpade, enquanto esperava pelo delegado, olhava para um quadro, a pintura de uma senhora. Ao entrar a autoridade e percebendo que o cabôco admirava tal figura, perguntou: “Que tal? Gosta desse quadro?”"
+    },
+    {
+     "type": "text",
+     "text": "E o Adãozinho, com toda a sinceridade que Deus dá ao cabôco da roça: “Mas pelo amor de Deus, hein, dotô! Que muié feia! Parece fiote de cruis-credo, parente do deus-me-livre, mais horríver que briga de cego no escuro.”"
+    },
+    {
+     "type": "text",
+     "text": "Ao que o delegado não teve como deixar de confessar, um pouco secamente: “É a minha mãe.” E o cabôco, em cima da bucha, não perde a linha: “Mais dotô, inté que é uma feiura caprichada.”"
+    },
+    {
+     "type": "text",
+     "text": "BOLDRIN, R. Almanaque Brasil de Cultura Popular. São Paulo: Andreato Comunicação e Cultura, n° 62, 2004 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Por suas características formais, por sua função e uso, o texto pertence ao gênero"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Anedota, pelo enredo e humor característicos."
+    },
+    {
+     "letter": "B",
+     "text": "Crônica, pela abordagem literária de fatos do cotidiano."
+    },
+    {
+     "letter": "C",
+     "text": "Depoimento, pela apresentação de experiências pessoais."
+    },
+    {
+     "letter": "D",
+     "text": "Relato, pela descrição minuciosa de fatos verídicos."
+    },
+    {
+     "letter": "E",
+     "text": "Reportagem, pelo registro impessoal de situações reais."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2011-q113",
+   "number": 113,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Estrada"
+    },
+    {
+     "type": "text",
+     "text": "Esta estrada onde moro, entre duas voltas do caminho,\nInteressa mais que uma avenida urbana.\nNas cidades todas as pessoas se parecem.\nTodo mundo é igual. Todo mundo é toda a gente.\nAqui, não: sente-se bem que cada um traz a sua alma.\nCada criatura é única.\nAté os cães.\nEstes cães da roça parecem homens de negócios:\nAndam sempre preocupados.\nE quanta gente vem e vai!\nE tudo tem aquele caráter impressivo que faz meditar:\nEnterro a pé ou a carrocinha de leite puxada por um bodezinho manhoso.\nNem falta o murmúrio da água, para sugerir, pela voz dos símbolos,\nQue a vida passa! que a vida passa!\nE que a mocidade vai acabar."
+    },
+    {
+     "type": "text",
+     "text": "BANDEIRA, M. O ritmo dissoluto. Rio de Janeiro: Aguilar, 1967."
+    },
+    {
+     "type": "text",
+     "text": "A lírica de Manuel Bandeira é pautada na apreensão de significados profundos a partir de elementos do cotidiano. No poema Estrada, o lirismo presente no contraste entre campo e cidade aponta para"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "O desejo do eu lírico de resgatar a movimentação dos centros urbanos, o que revela sua nostalgia com relação à cidade."
+    },
+    {
+     "letter": "B",
+     "text": "A percepção do caráter efêmero da vida, possibilitada pela observação da aparente inércia da vida rural."
+    },
+    {
+     "letter": "C",
+     "text": "A opção do eu lírico pelo espaço bucólico como possibilidade de meditação sobre a sua juventude."
+    },
+    {
+     "letter": "D",
+     "text": "A visão negativa da passagem do tempo, visto que esta gera insegurança."
+    },
+    {
+     "letter": "E",
+     "text": "A profunda sensação de medo gerada pela reflexão acerca da morte."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2011-q115",
+   "number": 115,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "No Brasil, a condição cidadã, embora dependa da leitura e da escrita, não se basta pela enunciação do direito, nem pelo domínio desses instrumentos, o que, sem dúvida, viabiliza melhor participação social. A condição cidadã depende, seguramente, da ruptura com o ciclo da pobreza, que penaliza um largo contingente populacional."
+    },
+    {
+     "type": "text",
+     "text": "Formação de leitores e construção da cidadania, memória e presença do PROLER. Rio de Janeiro: FBN, 2008."
+    },
+    {
+     "type": "text",
+     "text": "Ao argumentar que a aquisição das habilidades de leitura e escrita não são suficientes para garantir o exercício da cidadania, o autor"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Critica os processos de aquisição da leitura e da escrita."
+    },
+    {
+     "letter": "B",
+     "text": "Fala sobre o domínio da leitura e da escrita no Brasil."
+    },
+    {
+     "letter": "C",
+     "text": "Incentiva a participação efetiva na vida da comunidade."
+    },
+    {
+     "letter": "D",
+     "text": "Faz uma avaliação crítica a respeito da condição cidadã do brasileiro."
+    },
+    {
+     "letter": "E",
+     "text": "Define instrumentos eficazes para elevar a condição social da população do Brasil."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2011-q116",
+   "number": 116,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Lépida e leve"
+    },
+    {
+     "type": "text",
+     "text": "Língua do meu Amor velosa e doce,\nque me convences de que sou frase,\nque me contornas, que me vestes quase,\ncomo se o corpo meu de ti vindo me fosse.\nLíngua que me cativas, que me enleias\nos surtos de ave estranha,\nem linhas longas de invisíveis teias,\nde que és, há tanto, habilidosa aranha…\n[…]\nAmo-te as sugestões gloriosas e funestas,\namo-te como todas as mulheres\nte amam, ó língua-lama, ó língua-resplendor,\npela carne de som que à ideia emprestas\ne pelas frases mudas que proferes\nnos silêncios de Amor!…"
+    },
+    {
+     "type": "text",
+     "text": "MACHADO, G. In: MORICONI, I. (org.). Os cem melhores poemas brasileiros do século. Rio de Janeiro: Objetiva, 2001 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "A poesia de Gilka Machado identifica-se com as concepções artísticas simbolistas. Entretanto, o texto selecionado incorpora referências temáticas e formais modernistas, já que, nele, a poeta"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Procura desconstruir a visão metafórica do amor e abandona o cuidado formal."
+    },
+    {
+     "letter": "B",
+     "text": "Concebe a mulher como um ser sem linguagem e questiona o poder da palavra."
+    },
+    {
+     "letter": "C",
+     "text": "Questiona o trabalho intelectual da mulher e antecipa a construção do verso livre."
+    },
+    {
+     "letter": "D",
+     "text": "Propõe um modelo novo de erotização na lírica amorosa e propõe a simplificação verbal."
+    },
+    {
+     "letter": "E",
+     "text": "Explora a construção da essência feminina, a partir da polissemia de “língua”, e inova o léxico."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2011-q117",
+   "number": 117,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Abatidos pelo fadinho harmonioso e nostálgico dos desterrados, iam todos, até mesmo os brasileiros, se concentrando e caindo em tristeza; mas, de repente, o cavaquinho de Porfiro, acompanhado pelo violão do Firmo, romperam vibrantemente com um chorado baiano. Nada mais que os primeiros acordes da música crioula para que o sangue de toda aquela gente despertasse logo, como se alguém lhe fustigasse o corpo com urtigas bravas. E seguiram-se outras notas, e outras, cada vez mais ardentes e mais delirantes. Já não eram dois instrumentos que soavam, eram lúbricos gemidos e suspiros soltos em torrente, a correrem serpenteando, como cobras numa floresta incendiada; eram ais convulsos, chorados em frenesi de amor: música feita de beijos e soluços gostosos; carícia de fera, carícia de doer, fazendo estalar de gozo."
+    },
+    {
+     "type": "text",
+     "text": "AZEVEDO, A. O Cortiço. São Paulo: Ática, 1983 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "No romance O Cortiço (1890), de Aluízio Azevedo, as personagens são observadas como elementos coletivos caracterizados por condicionantes de origem social, sexo e etnia. Na passagem transcrita, o confronto entre brasileiros e portugueses revela prevalência do elemento brasileiro, pois"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Destaca o nome de personagens brasileiras e omite o de personagens portuguesas."
+    },
+    {
+     "letter": "B",
+     "text": "Exalta a força do cenário natural brasileiro e considera o do português inexpressivo."
+    },
+    {
+     "letter": "C",
+     "text": "Mostra o poder envolvente da música brasileira, que cala o fado português."
+    },
+    {
+     "letter": "D",
+     "text": "Destaca o sentimentalismo brasileiro, contrário à tristeza dos portugueses."
+    },
+    {
+     "letter": "E",
+     "text": "Atribui aos brasileiros uma habilidade maior com instrumentos musicais."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2011-q118",
+   "number": 118,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Guardar"
+    },
+    {
+     "type": "text",
+     "text": "Guardar uma coisa não é escondê-la ou trancá-la.\nEm cofre não se guarda coisa alguma.\nEm cofre perde-se a coisa à vista.\nGuardar uma coisa é olhá-la, fitá-la, mirá-la por\nadmirá-la, isto é, iluminá-la ou ser por ela iluminado.\nGuardar uma coisa é vigiá-la, isto é, fazer vigília por\nela, isto é, velar por ela, isto é, estar acordado por ela,\nisto é, estar por ela ou ser por ela.\nPor isso melhor se guarda o voo de um pássaro\nDo que um pássaro sem voos.\nPor isso se escreve, por isso se diz, por isso se publica,\npor isso se declara e declama um poema:\nPara guardá-lo:\nPara que ele, por sua vez, guarde o que guarda:\nGuarde o que quer que guarda um poema:\nPor isso o lance do poema:\nPor guardar-se o que se quer guardar."
+    },
+    {
+     "type": "text",
+     "text": "MACHADO, G. In: MORICONI, I. (org.). Os cem melhores poemas brasileiros do século. Rio de Janeiro: Objetiva, 2001."
+    },
+    {
+     "type": "text",
+     "text": "A memória é um importante recurso do patrimônio cultural de uma nação. Ela está presente nas lembranças do passado e no acervo cultural de um povo. Ao tratar o fazer poético como uma das maneiras de se guardar o que se quer, o texto"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Ressalta a importância dos estudos históricos para a construção da memória social de um povo."
+    },
+    {
+     "letter": "B",
+     "text": "Valoriza as lembranças individuais em detrimento das narrativas populares ou coletivas."
+    },
+    {
+     "letter": "C",
+     "text": "Reforça a capacidade da literatura em promover a subjetividade e os valores humanos."
+    },
+    {
+     "letter": "D",
+     "text": "Destaca a importância de reservar o texto literário àqueles que possuem maior repertório cultural."
+    },
+    {
+     "letter": "E",
+     "text": "Revela a superioridade da escrita poética como forma ideal de preservação da memória cultural."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2011-q119",
+   "number": 119,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Quando os portugueses se instalaram no Brasil, o país era povoado de índios. Importaram, depois, da África, grande número de escravos. O Português, o Índio e o Negro constituem, durante o período colonial, as três bases da população brasileira. Mas no que se refere à cultura, a contribuição do Português foi de longe a mais notada."
+    },
+    {
+     "type": "text",
+     "text": "Durante muito tempo o português e o tupi viveram lado a lado como línguas de comunicação. Era o tupi que utilizavam os bandeirantes nas suas expedições. Em 1694, dizia o Padre Antônio Vieira que “as famílias dos portugueses e índios em São Paulo estão tão ligadas hoje umas com as outras, que as mulheres e os filhos se criam mística e domesticamente, e a língua que nas ditas famílias se fala é a dos Índios, e a portuguesa a vão os meninos aprender à escola.”"
+    },
+    {
+     "type": "text",
+     "text": "TEYSSIER, P. História da língua portuguesa. Lisboa: Livraria Sá da Costa, 1984 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A identidade de uma nação está diretamente ligada à cultura de seu povo. O texto mostra que, no período colonial brasileiro, o Português, o Índio e o Negro formaram a base da população e que o patrimônio linguístico brasileiro é resultado da"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Contribuição dos índios na escolarização dos brasileiros."
+    },
+    {
+     "letter": "B",
+     "text": "Diferença entre as línguas dos colonizadores e as dos indígenas."
+    },
+    {
+     "letter": "C",
+     "text": "Importância do padre Antônio Vieira para a literatura de língua portuguesa."
+    },
+    {
+     "letter": "D",
+     "text": "Origem das diferenças entre a língua portuguesa e as línguas tupi."
+    },
+    {
+     "letter": "E",
+     "text": "Interação pacífica no uso da língua portuguesa e da língua tupi."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2011-q120",
+   "number": 120,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Pequeno concerto que virou canção"
+    },
+    {
+     "type": "text",
+     "text": "Não, não há por que mentir ou esconder\nA dor que foi maior do que é capaz meu coração\nNão, nem há por que seguir cantando só para explicar\nNão vai nunca entender de amor quem nunca soube amar\nAh, eu vou voltar pra mim\nSeguir sozinho assim\nAté me consumir ou consumir toda essa dor\nAté sentir de novo o coração capaz de amor"
+    },
+    {
+     "type": "text",
+     "text": "VANDRÉ, G. Disponível em: http://www.letras.terra.com.br. Acesso em: 29 jun. 2011."
+    },
+    {
+     "type": "text",
+     "text": "Na canção de Geraldo Vandré, tem-se a manifestação da função poética da linguagem, que é percebida na elaboração artística e criativa da mensagem, por meio de combinações sonoras e rítmicas. Pela análise do texto, entretanto, percebe-se, também, a presença marcante da função emotiva ou expressiva, por meio da qual o emissor"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Imprime à canção as marcas de sua atitude pessoal, seus sentimentos."
+    },
+    {
+     "letter": "B",
+     "text": "Transmite informações objetivas sobre o tema de que trata a canção."
+    },
+    {
+     "letter": "C",
+     "text": "Busca persuadir o receptor da canção a adotar um certo comportamento."
+    },
+    {
+     "letter": "D",
+     "text": "Procura explicar a própria linguagem que utiliza para construir a canção."
+    },
+    {
+     "letter": "E",
+     "text": "Objetiva verificar ou fortalecer a eficiência da mensagem veiculada."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2011-q121",
+   "number": 121,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "É água que não acaba mais"
+    },
+    {
+     "type": "text",
+     "text": "Dados preliminares divulgados por pesquisadores da Universidade Federal do Pará (UFPA) apontaram o Aquífero Alter do Chão como o maior depósito de água potável do planeta. Com volume estimado em 86 000 quilômetros cúbicos de água doce, a reserva subterrânea está localizada sob os estados do Amazonas, Pará e Amapá. “Essa quantidade de água seria suficiente para abastecer a população mundial durante 500 anos”, diz Milton Matta, geólogo da UFPA. Em termos comparativos, Alter do Chão tem quase o dobro do volume de água do Aquífero Guarani (com 45 000 quilômetros cúbicos). Até então, Guarani era a maior reserva subterrânea do mundo, distribuída por Brasil, Argentina, Paraguai e Uruguai."
+    },
+    {
+     "type": "text",
+     "text": "Época. N° 623, 26 abr. 2010."
+    },
+    {
+     "type": "text",
+     "text": "Essa notícia, publicada em uma revista de grande circulação, apresenta resultados de uma pesquisa científica realizada por uma universidade brasileira. Nessa situação específica de comunicação, a função referencial da linguagem predomina, porque o autor do texto prioriza"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "As suas opiniões, baseadas em fatos."
+    },
+    {
+     "letter": "B",
+     "text": "Os aspectos objetivos e precisos."
+    },
+    {
+     "letter": "C",
+     "text": "Os elementos de persuasão do leitor."
+    },
+    {
+     "letter": "D",
+     "text": "Os elementos estéticos na construção do texto."
+    },
+    {
+     "letter": "E",
+     "text": "Os aspectos subjetivos da mencionada pesquisa."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2011-q125",
+   "number": 125,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Entre ideia e tecnologia"
+    },
+    {
+     "type": "text",
+     "text": "O grande conceito por trás do Museu da Língua é apresentar o idioma como algo vivo e fundamental para o entendimento do que é ser brasileiro. Se nada nos define com clareza, a forma como falamos o português nas mais diversas situações cotidianas é talvez a melhor expressão da brasilidade."
+    },
+    {
+     "type": "text",
+     "text": "SCARDOVELI, E. Revista Língua Portuguesa. São Paulo: Segmento, Ano II, n° 6, 2006."
+    },
+    {
+     "type": "text",
+     "text": "O texto propõe uma reflexão acerca da língua portuguesa, ressaltando para o leitor a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Inauguração do museu e o grande investimento em cultura no país."
+    },
+    {
+     "letter": "B",
+     "text": "Importância da língua para a construção da identidade nacional."
+    },
+    {
+     "letter": "C",
+     "text": "Afetividade tão comum ao brasileiro, retratada através da língua."
+    },
+    {
+     "letter": "D",
+     "text": "Relação entre o idioma e as políticas públicas na área de cultura."
+    },
+    {
+     "letter": "E",
+     "text": "Diversidade étnica e linguística existente no território nacional."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2011-q126",
+   "number": 126,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "TEXTO I"
+    },
+    {
+     "type": "text",
+     "text": "O Brasil sempre deu respostas rápidas através da solidariedade do seu povo. Mas a mesma força que nos motiva a ajudar o próximo deveria também nos motivar a ter atitudes cidadãs. Não podemos mais transferir a culpa para quem é vítima ou até mesmo para a própria natureza, como se essa seguisse a lógica humana. Sobram desculpas esfarrapadas e falta competência da classe política."
+    },
+    {
+     "type": "text",
+     "text": "Cartas. Istoé. 28 abr. 2010."
+    },
+    {
+     "type": "text",
+     "text": "TEXTO II"
+    },
+    {
+     "type": "text",
+     "text": "Não podemos negar ao povo sofrido todas as hipóteses de previsão dos desastres. Demagogos culpam os moradores; o governo e a prefeitura apelam para as pessoas saírem das áreas de risco e agora dizem que será compulsória a realocação. Então temos a realocar o Brasil inteiro! Criemos um serviço, similar ao SUS, com alocação obrigatória de recursos orçamentários com rede de atendimento preventivo, onde participariam arquitetos, engenheiros, geólogos. Bem ou mal, esse “SUS” organizaria brigadas nos locais. Nos casos da dengue, por exemplo, poderia verificar as condições de acontecer epidemias. Seriam boas ações preventivas."
+    },
+    {
+     "type": "text",
+     "text": "Carta do Leitor. Carta Capital. 28 abr. 2010 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Os textos apresentados expressam opiniões de leitores acerca de relevante assunto para a sociedade brasileira. Os autores dos dois textos apontam para a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Necessidade de trabalho voluntário contínuo para a resolução das mazelas sociais."
+    },
+    {
+     "letter": "B",
+     "text": "Importância de ações preventivas para evitar catástrofes, indevidamente atribuídas aos políticos."
+    },
+    {
+     "letter": "C",
+     "text": "Incapacidade política para agir de forma diligente na resolução das mazelas sociais."
+    },
+    {
+     "letter": "D",
+     "text": "Urgência de se criarem novos órgãos públicos com as mesmas características do SUS."
+    },
+    {
+     "letter": "E",
+     "text": "Impossibilidade de o homem agir de forma eficaz ou preventiva diante das ações da natureza."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2011-q128",
+   "number": 128,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Motivadas ou não historicamente, normas prestigiadas ou estigmatizadas pela comunidade sobrepõem-se ao longo do território, seja numa relação de oposição, seja de complementaridade, sem, contudo, anular a interseção de usos que configuram uma norma nacional distinta da do português europeu. Ao focalizar essa questão, que opõe não só as normas do português de Portugal às normas do português brasileiro, mas também as chamadas normas cultas locais às populares ou vernáculas, deve-se insistir na ideia de que essas normas se consolidaram em diferentes momentos da nossa história e que só a partir do século XVIII se pode começar a pensar na bifurcação das variantes continentais, ora em consequência de mudanças ocorridas no Brasil, ora em Portugal, ora, ainda, em ambos os territórios."
+    },
+    {
+     "type": "text",
+     "text": "CALLOU, D. Gramática, variação e normas. In: VIEIRA, S. R.; BRANDÃO, S. (orgs). Ensino de gramática: descrição e uso. São Paulo: Contexto, 2007 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O português do Brasil não é uma língua uniforme. A variação linguística é um fenômeno natural, ao qual todas as línguas estão sujeitas. Ao considerar as variedades linguísticas, o texto mostra que as normas podem ser aprovadas ou condenadas socialmente, chamando a atenção do leitor para a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Desconsideração da existência das normas populares pelos falantes da norma culta."
+    },
+    {
+     "letter": "B",
+     "text": "Difusão do português de Portugal em todas as regiões do Brasil só a partir do século XVIII."
+    },
+    {
+     "letter": "C",
+     "text": "Existência de usos da língua que caracterizam uma norma nacional do Brasil, distinta da de Portugal."
+    },
+    {
+     "letter": "D",
+     "text": "Inexistência de normas cultas locais e populares ou vernáculas em um determinado país."
+    },
+    {
+     "letter": "E",
+     "text": "Necessidade de se rejeitar a ideia de que os usos frequentes de uma língua devem ser aceitos."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2011-q130",
+   "number": 130,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "MANDIOCA — mais um presente da Amazônia"
+    },
+    {
+     "type": "text",
+     "text": "Aipim, castelinha, macaxeira, maniva, maniveira. As designações da Manihot utilissima podem variar de região, no Brasil, mas uma delas deve ser levada em conta em todo o território nacional: pão-de-pobre — e por motivos óbvios."
+    },
+    {
+     "type": "text",
+     "text": "Rica em fécula, a mandioca — uma planta rústica e nativa da Amazônia disseminada no mundo inteiro, especialmente pelos colonizadores portugueses — é a base de sustento de muitos brasileiros e o único alimento disponível para mais de 600 milhões de pessoas em vários pontos do planeta, e em particular em algumas regiões da África."
+    },
+    {
+     "type": "text",
+     "text": "O melhor do Globo Rural. Fev. 2005 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "De acordo com o texto, há no Brasil uma variedade de nomes para a Manihot utilissima, nome científico da mandioca. Esse fenômeno revela que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Existem variedades regionais para nomear uma mesma espécie de planta."
+    },
+    {
+     "letter": "B",
+     "text": "Mandioca é nome específico para a espécie existente na região amazônica."
+    },
+    {
+     "letter": "C",
+     "text": "“pão-de-pobre” é designação específica para a planta da região amazônica."
+    },
+    {
+     "letter": "D",
+     "text": "Os nomes designam espécies diferentes da planta, conforme a região."
+    },
+    {
+     "letter": "E",
+     "text": "A planta é nomeada conforme as particularidades que apresenta."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2011-q131",
+   "number": 131,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Há certos usos consagrados na fala, e até mesmo na escrita, que, a depender do estrato social e do nível de escolaridade do falante, são, sem dúvida, previsíveis. Ocorrem até mesmo em falantes que dominam a variedade padrão, pois, na verdade, revelam tendências existentes na língua em seu processo de mudança que não podem ser bloqueadas em nome de um “ideal linguístico” que estaria representado pelas regras da gramática normativa. Usos como ter por haver em construções existenciais (tem muitos livros na estante), o do pronome objeto na posição de sujeito (para mim fazer o trabalho), a não-concordância das passivas com se (aluga-se casas) são indícios da existência, não de uma norma única, mas de uma pluralidade de normas, entendida, mais uma vez, norma como conjunto de hábitos linguísticos, sem implicar juízo de valor."
+    },
+    {
+     "type": "text",
+     "text": "CALLOU, D. Gramática, variação e normas. In: VIEIRA, S. R.; BRANDÃO, S. (orgs). Ensino de gramática: descrição e uso. São Paulo: Contexto, 2007 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "Considerando a reflexão trazida no texto a respeito da multiplicidade do discurso, verifica-se que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Estudantes que não conhecem as diferenças entre língua escrita e língua falada empregam, indistintamente, usos aceitos na conversa com amigos quando vão elaborar um texto escrito."
+    },
+    {
+     "letter": "B",
+     "text": "Falantes que dominam a variedade padrão do português do Brasil demonstram usos que confirmam a diferença entre a norma idealizada e a efetivamente praticada, mesmo por falantes mais escolarizados."
+    },
+    {
+     "letter": "C",
+     "text": "Moradores de diversas regiões do país que enfrentam dificuldades ao se expressar na escrita revelam a constante modificação das regras de emprego de pronomes e os casos especiais de concordância."
+    },
+    {
+     "letter": "D",
+     "text": "Pessoas que se julgam no direito de contrariar a gramática ensinada na escola gostam de apresentar usos não aceitos socialmente para esconderem seu desconhecimento da norma padrão."
+    },
+    {
+     "letter": "E",
+     "text": "Usuários que desvendam os mistérios e sutilezas da língua portuguesa empregam formas do verbo ter quando, na verdade, deveriam usar formas do verbo haver, contrariando as regras gramaticais."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2011-q132",
+   "number": 132,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Palavra indígena"
+    },
+    {
+     "type": "text",
+     "text": "A história da tribo Sapucaí, que traduziu para o idioma guarani os artefatos da era da computação que ganharam importância em sua vida, como mouse (que eles chamam de angojhá) e windows (oventã)"
+    },
+    {
+     "type": "text",
+     "text": "Quando a internet chegou àquela comunidade, que abriga em torno de 400 guaranis, há quatro anos, por meio de um projeto do Comitê para Democratização da Informática (CDI), em parceria com a ONG Rede Povos da Floresta e com antena cedida pela Star One (da Embratel), Potty e sua aldeia logo vislumbraram as possibilidades de comunicação que a web traz."
+    },
+    {
+     "type": "text",
+     "text": "Ele conta que usam a rede, por enquanto, somente para preparação e envio de documentos, mas perceberam que ela pode ajudar na preservação da cultura indígena."
+    },
+    {
+     "type": "text",
+     "text": "A apropriação da rede se deu de forma gradual, mas os guaranis já incorporaram a novidade tecnológica ao seu estilo de vida. A importância da internet e da computação para eles está expressa num caso de rara incorporação: a do vocabulário."
+    },
+    {
+     "type": "text",
+     "text": "— Um dia, o cacique da aldeia Sapucaí me ligou. “A gente não está querendo chamar computador de “computador”. Sugeri a eles que criassem uma palavra em guarani. E criaram aiú irú rive, “caixa pra acumular a língua”. Nós, brancos, usamos mouse, w_indows_ e outros termos, que eles começaram a adaptar para o idioma deles, como angojhá (rato) e oventã (janela) — conta Rodrigo Baggio, diretor do CDI."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://www.revistalingua.uol.com.br. Acesso em: 22 jul. 2010."
+    },
+    {
+     "type": "text",
+     "text": "O uso das novas tecnologias de informação e comunicação fez surgir uma série de novos termos que foram acolhidos na sociedade brasileira em sua forma original, como: mouse, windows, download, site, homepage, entre outros. O texto trata da adaptação de termos da informática à língua indígena como uma reação da tribo Sapucaí, o que revela"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A possibilidade que o índio Potty vislumbrou em relação à comunicação que a web pode trazer a seu povo e à facilidade no envio de documentos e na conversação em tempo real."
+    },
+    {
+     "letter": "B",
+     "text": "O uso da internet para preparação e envio de documentos, bem como a contribuição para as atividades relacionadas aos trabalhos da cultura indígena."
+    },
+    {
+     "letter": "C",
+     "text": "A preservação da identidade, demonstrada pela conservação do idioma, mesmo com a utilização de novas tecnologias características da cultura de outros grupos sociais."
+    },
+    {
+     "letter": "D",
+     "text": "Adesão ao projeto do Comitê para Democratização da Informática (CDI), que, em parceria com a ONG Rede Povos da Floresta, possibilitou o acesso à web, mesmo em ambiente inóspito."
+    },
+    {
+     "letter": "E",
+     "text": "A apropriação da nova tecnologia de forma gradual, evidente quando os guaranis incorporaram a novidade tecnológica ao seu estilo de vida com a possibilidade de acesso à internet."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2011-q135",
+   "number": 135,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O que é possível dizer em 140 caracteres?"
+    },
+    {
+     "type": "text",
+     "text": "Sucesso do Twitter no Brasil é oportunidade única de compreender a importância da concisão nos gêneros de escrita"
+    },
+    {
+     "type": "text",
+     "text": "A máxima “menos é mais” nunca fez tanto sentido como no caso do microblog Twitter, cuja premissa é dizer algo — não importa o quê — em 140 caracteres. Desde que o serviço foi criado, em 2006, o número de usuários da ferramenta é cada vez maior, assim como a diversidade de usos que se faz dela. Do estilo “querido diário” à literatura concisa, passando por aforismos, citações, jornalismo, fofoca, humor etc., tudo ganha o espaço de um tweet (“pio” em inglês), e entender seu sucesso pode indicar um caminho para o aprimoramento de um recurso vital à escrita: a concisão."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://www.revistalingua.com.br. Acesso em: 28 abr. 2010 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O Twitter se presta a diversas finalidades, entre elas, à comunicação concisa, por isso essa rede social"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "É um recurso elitizado, cujo público precisa dominar a língua padrão."
+    },
+    {
+     "letter": "B",
+     "text": "Constitui recurso próprio para a aquisição da modalidade escrita da língua."
+    },
+    {
+     "letter": "C",
+     "text": "É restrita à divulgação de textos curtos e pouco significativos e, portanto, é pouco útil."
+    },
+    {
+     "letter": "D",
+     "text": "Interfere negativamente no processo de escrita e acaba por revelar uma cultura pouco reflexiva."
+    },
+    {
+     "letter": "E",
+     "text": "Estimula a produção de frases com clareza e objetividade, fatores que potencializam a comunicação interativa."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2011-q136",
+   "number": 136,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Para colocar o pistão no motor que está sendo consertado, o dono da oficina terá de adquirir aquele que tenha o diâmetro mais próximo do que precisa."
+    },
+    {
+     "type": "text",
+     "text": "Nessa condição, o dono da oficina deverá comprar o pistão de diâmetro"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "68,21 mm."
+    },
+    {
+     "letter": "B",
+     "text": "68,102 mm."
+    },
+    {
+     "letter": "C",
+     "text": "68,02 mm."
+    },
+    {
+     "letter": "D",
+     "text": "68,012 mm."
+    },
+    {
+     "letter": "E",
+     "text": "68,001 mm."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2011-q141",
+   "number": 141,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "– Enquanto você fala ao telefone, faça agachamentos: 100 calorias gastas em 20 minutos.\n– Meia hora de supermercado: 100 calorias.\n– Cuidar do jardim por 30 minutos: 200 calorias.\n– Passear com o cachorro: 200 calorias em 30 minutos.\n– Tirar o pó dos móveis: 150 calorias em 30 minutos.\n– Lavar roupas por 30 minutos: 200 calorias."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://cyberdiet.terra.com.br. Acesso em: 27 abr. 2010 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Uma pessoa deseja executar essas atividades, porém, ajustando o tempo para que, em cada uma, gaste igualmente 200 calorias."
+    },
+    {
+     "type": "text",
+     "text": "A partir dos ajustes, quanto tempo a mais será necessário para realizar todas as atividades?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "50 minutos."
+    },
+    {
+     "letter": "B",
+     "text": "60 minutos."
+    },
+    {
+     "letter": "C",
+     "text": "80 minutos."
+    },
+    {
+     "letter": "D",
+     "text": "120 minutos."
+    },
+    {
+     "letter": "E",
+     "text": "170 minutos."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2011-q143",
+   "number": 143,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Para uma atividade realizada no laboratório de Matemática, um aluno precisa construir uma maquete da quadra de esportes da escola que tem 28 m de comprimento por 12 m de largura. A maquete deverá ser construída na escala de 1 : 250."
+    },
+    {
+     "type": "text",
+     "text": "Que medidas de comprimento e largura, em cm, o aluno utilizará na construção da maquete?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "4,8 e 11,2"
+    },
+    {
+     "letter": "B",
+     "text": "7,0 e 3,0"
+    },
+    {
+     "letter": "C",
+     "text": "11,2 e 4,8"
+    },
+    {
+     "letter": "D",
+     "text": "28,0 e 12,0"
+    },
+    {
+     "letter": "E",
+     "text": "30,0 e 70,0"
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2011-q145",
+   "number": 145,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O consumo atingiu o maior nível da história no ano passado: os brasileiros beberam o equivalente a 331 bilhões de xícaras."
+    },
+    {
+     "type": "text",
+     "text": "Veja. Ed. 2158, 31 mar. 2010."
+    },
+    {
+     "type": "text",
+     "text": "Considere que a xícara citada na notícia seja equivalente a, aproximadamente, 120 mL de café. Suponha que em 2010 os brasileiros bebam ainda mais café, aumentando o consumo em 1/5 do que foi consumido no ano anterior."
+    },
+    {
+     "type": "text",
+     "text": "De acordo com essas informações, qual a previsão mais aproximada para consumo de café em 2010?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "8 bilhões de litros."
+    },
+    {
+     "letter": "B",
+     "text": "16 bilhões de litros."
+    },
+    {
+     "letter": "C",
+     "text": "32 bilhões de litros."
+    },
+    {
+     "letter": "D",
+     "text": "40 bilhões de litros."
+    },
+    {
+     "letter": "E",
+     "text": "48 bilhões de litros."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2011-q146",
+   "number": 146,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Sabe-se que a distância real, em linha reta, de uma cidade A, localizada no estado de São Paulo, a uma cidade B, localizada no estado de Alagoas, é igual a 2 000 km. Um estudante, ao analisar um mapa, verificou com sua régua que a distância entre essas duas cidades, A e B, era 8 cm."
+    },
+    {
+     "type": "text",
+     "text": "Os dados nos indicam que o mapa observado pelo estudante está na escala de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "1 : 250."
+    },
+    {
+     "letter": "B",
+     "text": "1 : 2 500."
+    },
+    {
+     "letter": "C",
+     "text": "1 : 25 000."
+    },
+    {
+     "letter": "D",
+     "text": "1 : 250 000."
+    },
+    {
+     "letter": "E",
+     "text": "1 : 25 000 000."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2011-q148",
+   "number": 148,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em 2010, um caos aéreo afetou o continente europeu, devido à quantidade de fumaça expelida por um vulcão na Islândia, o que levou ao cancelamento de inúmeros voos."
+    },
+    {
+     "type": "text",
+     "text": "Cinco dias após o início desse caos, todo o espaço aéreo europeu acima de 6 000 metros estava liberado, com exceção do espaço aéreo da Finlândia. Lá, apenas voos internacionais acima de 31 mil pés estavam liberados."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://www1.folha.uol.com.br. Acesso em: 21 abr. 2010 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Considere que 1 metro equivale a aproximadamente 3,3 pés."
+    },
+    {
+     "type": "text",
+     "text": "Qual a diferença, em pés, entre as altitudes liberadas na Finlândia e no restante do continente europeu cinco dias após o início do caos?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "3 390 pés"
+    },
+    {
+     "letter": "B",
+     "text": "9 390 pés"
+    },
+    {
+     "letter": "C",
+     "text": "11 200 pés"
+    },
+    {
+     "letter": "D",
+     "text": "19 800 pés"
+    },
+    {
+     "letter": "E",
+     "text": "50 800 pés"
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2011-q153",
+   "number": 153,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Observe as dicas para calcular a quantidade certa de alimentos e bebidas para as festas de fim de ano:"
+    },
+    {
+     "type": "text",
+     "text": "*   Para o prato principal, estime 250 gramas de carne para cada pessoa.\n*   Um copo americano cheio de arroz rende o suficiente para quatro pessoas.\n*   Para a farofa, calcule quatro colheres de sopa por convidado.\n*   Uma garrafa de vinho serve seis pessoas.\n*    Uma garrafa de cerveja serve duas.\n*    Uma garrafa de espumante serve três convidados."
+    },
+    {
+     "type": "text",
+     "text": "Quem organiza festas faz esses cálculos em cima do total de convidados, independente do gosto de cada um."
+    },
+    {
+     "type": "text",
+     "text": "Quantidade certa de alimentos e bebidas evita o desperdício da ceia.\nJornal Hoje 17 dez. 2010 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Um anfitrião decidiu seguir essas dicas ao se preparar para receber 30 convidados para a ceia de Natal. Para seguir essas orientações à risca, o anfitrião deverá dispor de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "120\tkg de carne, 7 copos americanos e meio de arroz, 120 colheres de sopa de farofa, 5 garrafas de vinho, 15 de cerveja e 10 de espumante."
+    },
+    {
+     "letter": "B",
+     "text": "120 kg de carne, 7 copos americanos e meio de arroz, 120 colheres de sopa de farofa, 5 garrafas de vinho, 30 de cerveja e 10 de espumante."
+    },
+    {
+     "letter": "C",
+     "text": "75 kg de carne, 7 copos americanos e meio de arroz, 120 colheres de sopa de farofa, 5 garrafas de vinho, 15 de cerveja e 10 de espumante."
+    },
+    {
+     "letter": "D",
+     "text": "7,5 kg de carne, 7 copos americanos de arroz, 120 colheres de sopa de farofa, 5 garrafas de vinho, 30 de cerveja e 10 de espumante."
+    },
+    {
+     "letter": "E",
+     "text": "7,5 kg de carne, 7 copos americanos e meio de arroz arroz, 120 colheres de sopa de farofa, 5 garrafas de vinho, 15 de cerveja e 10 de espumante."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2011-q156",
+   "number": 156,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O saldo de contratações no mercado formal no setor varejista da região metropolitana de São Paulo registrou alta. Comparando as contratações deste setor no mês de fevereiro com as de janeiro deste ano, houve incremento de 4 300 vagas no setor, totalizando 880 605 trabalhadores com carteira assinada."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://www.folha.uol.com.br. Acesso em: 26 abr. 2010 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Considerando-se que y e x representam, respectivamente, as quantidades de trabalhadores no setor varejista e os meses, janeiro sendo o primeiro, fevereiro, o segundo, e assim por diante, a expressão algébrica que relaciona essas quantidades nesses meses é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Y = 4 300x"
+    },
+    {
+     "letter": "B",
+     "text": "Y = 884 905x"
+    },
+    {
+     "letter": "C",
+     "text": "Y = 872 005 + 4 300x"
+    },
+    {
+     "letter": "D",
+     "text": "Y = 876 305 + 4 300x"
+    },
+    {
+     "letter": "E",
+     "text": "Y = 880 605 + 4 300x"
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2011-q159",
+   "number": 159,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O prefeito de uma cidade deseja construir uma rodovia para dar acesso a outro município. Para isso, foi aberta uma licitação na qual concorreram duas empresas. A primeira cobrou R$ 100 000,00 por km construído (n), acrescidos de um valor fixo de R$ 350 000,00, enquanto a segunda cobrou R$ 120 000,00 por km construído (n) acrescido de um valor fixo de R$ 150  000,00. As duas empresas apresentam o mesmo padrão de qualidade dos serviços prestados, mas apenas uma delas poderá ser contratada."
+    },
+    {
+     "type": "text",
+     "text": "Do ponto de vista econômico, qual equação possibilitaria encontrar a extensão da rodovia que tornaria indiferente para a prefeitura escolher qualquer uma das propostas apresentadas?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "100n + 350 = 120n + 150"
+    },
+    {
+     "letter": "B",
+     "text": "100n + 150 = 120n + 350"
+    },
+    {
+     "letter": "C",
+     "text": "100(n + 350) = 120(n + 150)"
+    },
+    {
+     "letter": "D",
+     "text": "100(n + 350 000) = 120(n + 150 000)"
+    },
+    {
+     "letter": "E",
+     "text": "350(n + 100 000) = 150(n + 120 000)"
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2011-q160",
+   "number": 160,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Uma pessoa aplicou certa quantia em ações. No primeiro mês, ela perdeu 30% do total do investimento e, no segundo mês, recuperou 20% do que havia perdido. Depois desses dois meses, resolveu tirar o montante de R$ 3 800,00 gerado pela aplicação."
+    },
+    {
+     "type": "text",
+     "text": "A quantia inicial que essa pessoa aplicou em ações corresponde ao valor de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "R$ 4 222,22."
+    },
+    {
+     "letter": "B",
+     "text": "R$ 4 523,80."
+    },
+    {
+     "letter": "C",
+     "text": "R$ 5 000,00."
+    },
+    {
+     "letter": "D",
+     "text": "D R$ 13 300,00."
+    },
+    {
+     "letter": "E",
+     "text": "R$ 17 100,00."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2011-q161",
+   "number": 161,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Cerca de 20 milhões de brasileiros vivem na região coberta pela caatinga, em quase 800 mil km² de área. Quando não chove, o homem do sertão e dua família precisam caminhar quilômetros em busca da água dos açudes. A irregularidade climática é um dos fatores que mais interferem na vida do sertanejo."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://www.wwf.org.br. Acesso em: 23 abr. 2010."
+    },
+    {
+     "type": "text",
+     "text": "Segundo este levantamento, a densidade demográfica da região coberta pela caatinga, em habitantes por km², é de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "250."
+    },
+    {
+     "letter": "B",
+     "text": "25."
+    },
+    {
+     "letter": "C",
+     "text": "2,5."
+    },
+    {
+     "letter": "D",
+     "text": "0,25."
+    },
+    {
+     "letter": "E",
+     "text": "0,025."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2011-q162",
+   "number": 162,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O número mensal de passagens de uma determinada empresa aérea aumentou no ano passado nas seguintes condições: em janeiro foram vendidas 33 000 passagens; em fevereiro, 34 500; em março, 36 000. Esse padrão de crescimento se mantém para os meses subsequentes."
+    },
+    {
+     "type": "text",
+     "text": "Quantas passagens foram vendidas por essa empresa em julho do ano passado?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "38 000"
+    },
+    {
+     "letter": "B",
+     "text": "40 500"
+    },
+    {
+     "letter": "C",
+     "text": "41 000"
+    },
+    {
+     "letter": "D",
+     "text": "42 000"
+    },
+    {
+     "letter": "E",
+     "text": "48 000"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2011-q164",
+   "number": 164,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Muitas medidas podem ser tomadas em nossas casas visando à utilização racional de energia elétrica. Isso deve ser uma atitude diária de cidadania. Uma delas pode ser a redução do tempo no banho. Um chuveiro com potência de 4 800 W consome 4,8 kW por hora."
+    },
+    {
+     "type": "text",
+     "text": "Uma pessoa que toma dois banhos diariamente, de 10 minutos cada, consumirá, em sete dias, quantos kW?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "0,8"
+    },
+    {
+     "letter": "B",
+     "text": "1,6"
+    },
+    {
+     "letter": "C",
+     "text": "5,6"
+    },
+    {
+     "letter": "D",
+     "text": "11,2"
+    },
+    {
+     "letter": "E",
+     "text": "33,6"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2011-q166",
+   "number": 166,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Nos últimos cinco anos, 32 mil mulheres de 20 a 24 anos foram internadas nos hospitais do SUS por causa de AVC. Entre os homens da mesma faixa etária, houve 28 mil internações pelo mesmo motivo."
+    },
+    {
+     "type": "text",
+     "text": "Época.26 abr. 2010 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Supondo que, nos próximos cinco anos, haja um acréscimo de 8 mil internações de mulheres e que o acréscimo de internações de homens por AVC ocorra na mesma proporção."
+    },
+    {
+     "type": "text",
+     "text": "De acordo com as informações dadas, o número de homens que seriam internados por AVC, nos próximos cinco anos, corresponderia a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "4 mil."
+    },
+    {
+     "letter": "B",
+     "text": "9 mil."
+    },
+    {
+     "letter": "C",
+     "text": "21 mil."
+    },
+    {
+     "letter": "D",
+     "text": "35 mil."
+    },
+    {
+     "letter": "E",
+     "text": "39 mil."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2011-q167",
+   "number": 167,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "É possível usar água ou comida para atrair as aves e observá-las. Muitas pessoas costumam usar água com açúcar, por exemplo, para atrair beija-flores. Mas é importante saber que, na hora de fazer a mistura, você deve sempre usar uma parte de açúcar para cinco  partes de água. Além disso, em dias quentes, precisa trocar a água de duas a três vezes, pois com o calor ela pode fermentar e, se for ingerida pela ave, pode deixá-la doente. O excesso de açúcar, ao cristalizar, também pode manter o bico da ave fechado, impedindo-a de se alimentar. Isso pode até matá-la."
+    },
+    {
+     "type": "text",
+     "text": "Ciência Hoje das Crianças. FNDE; Instituto Ciência Hoje, ano 19, n.166, mar.1996"
+    },
+    {
+     "type": "text",
+     "text": "Pretende-se encher completamente um copo com a mistura para atrais beija-flores."
+    },
+    {
+     "type": "text",
+     "text": "O copo tem formato cilíndrico, e suas medidas são 10 cm de altura e 4 cm de diâmetro. A quantidade de água que deve ser utilizada na mistura é cerca de (utilize π = 3)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "20 mL."
+    },
+    {
+     "letter": "B",
+     "text": "24 mL."
+    },
+    {
+     "letter": "C",
+     "text": "100 mL."
+    },
+    {
+     "letter": "D",
+     "text": "120 mL."
+    },
+    {
+     "letter": "E",
+     "text": "600 mL."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2011-q168",
+   "number": 168,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em um jogo disputado em uma mesa de sinuca, há 16 bolas: 1 branca e 15 coloridas, as quais, de acordo com a coloração, valem de 1 a 15 pontos (um valor para cada bola colorida)."
+    },
+    {
+     "type": "text",
+     "text": "O jogador acerta o taco na bola branca de forma que esta acerte as outras, com o objetivo de acertar duas das quinze bolas em quaisquer caçapas. Os valores dessas duas bolas são somados e devem resultar em um valor escolhido pelo jogador antes do início da jogada."
+    },
+    {
+     "type": "text",
+     "text": "Arthur, Bernardo e Caio escolhem os números 12, 17 e 22 como sendo resultados de suas respectivas somas."
+    },
+    {
+     "type": "text",
+     "text": "Com essa escolha, quem tem a maior probabilidade de ganhar o jogo é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Arthur, pois a soma que escolheu é a menor."
+    },
+    {
+     "letter": "B",
+     "text": "Bernardo, pois há 7 possibilidades de compor a soma escolhida por ele, contra 4 possibilidades para a escolha de Arthur e 4 possibilidades para a escolha de Caio."
+    },
+    {
+     "letter": "C",
+     "text": "Bernardo, pois há 7 possibilidades de compor a soma escolhida por ele, contra 5 possibilidades para a escolha de Arthur e 4 possibilidades para a escolha de Caio."
+    },
+    {
+     "letter": "D",
+     "text": "Caio, pois há 10 possibilidades de compor a soma escolhida por ele, contra 5 possibilidades para a escolha de Arthur e 8 possibilidades para a escolha de Bernardo."
+    },
+    {
+     "letter": "E",
+     "text": "Caio, pois a soma que escolheu é a maior."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2011-q174",
+   "number": 174,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O setor de recursos humanos de uma empresa vai realizar uma entrevista com 120 candidatos a uma vaga de contador. Por sorteio, eles pretendem atribuir a cada candidato um número, colocar a lista de números em ordem numérica crescente e usá-la para convocar\nos interessados. Acontece que, por um defeito do computador, foram gerados números com 5 algarismos distintos e, em nenhum deles, apareceram dígitos pares."
+    },
+    {
+     "type": "text",
+     "text": "Em razão disso, a ordem de chamada do candidato que tiver recebido o número 75 913 é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "24"
+    },
+    {
+     "letter": "B",
+     "text": "31"
+    },
+    {
+     "letter": "C",
+     "text": "32"
+    },
+    {
+     "letter": "D",
+     "text": "88"
+    },
+    {
+     "letter": "E",
+     "text": "89"
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2011-q180",
+   "number": 180,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Uma indústria fabrica um único tipo de produto e sempre vende tudo o que produz. O custo total para fabricar uma quantidade q de produtos é dado por uma função, simbolizada por CT, enquanto o faturamento que a empresa obtém com a venda da quantidade q também é uma função, simbolizada por FT. O lucro total (LT) obtido pela venda da quantidade q de produtos é dado pela expressão LT(q) = FT(q) – CT(q)."
+    },
+    {
+     "type": "text",
+     "text": "Considerando-se as funções FT(q) = 5q e CT(q) = 2q + 12 como faturamento e custo, qual a quantidade mínima de produtos que a indústria terá de fabricar para não ter prejuízo?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "1"
+    },
+    {
+     "letter": "B",
+     "text": "3"
+    },
+    {
+     "letter": "C",
+     "text": "4"
+    },
+    {
+     "letter": "D",
+     "text": "5"
+    }
+   ],
+   "answer": "D"
+  }
+ ]
+}

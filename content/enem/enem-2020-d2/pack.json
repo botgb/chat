@@ -1,0 +1,1324 @@
+{
+ "id": "enem-2020-d2",
+ "vestibular": "enem",
+ "title": "ENEM 2020, dia 2",
+ "year": 2020,
+ "version": 1,
+ "source": "Questões: INEP, ENEM 2020. Transcrição: ENEM API (enem.dev).",
+ "questions": [
+  {
+   "id": "enem-2020-q92",
+   "number": 92,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A enorme quantidade de resíduos gerados pelo consumo crescente da sociedade traz para a humanidade uma preocupação socioambiental, em especial pela quantidade de lixo produzido. Além da reciclagem e do reúso, pode-se melhorar ainda mais a qualidade de vida, substituindo polímeros convencionais por polímeros biodegradáveis."
+    },
+    {
+     "type": "text",
+     "text": "Esses polímeros têm grandes vantagens socioambientais em relação aos convencionais porque"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Não são tóxicos."
+    },
+    {
+     "letter": "B",
+     "text": "Não precisam ser reciclados."
+    },
+    {
+     "letter": "C",
+     "text": "Não causam poluição ambiental quando descartados."
+    },
+    {
+     "letter": "D",
+     "text": "São degradados em um tempo bastante menor que os convencionais."
+    },
+    {
+     "letter": "E",
+     "text": "Apresentam propriedades mecânicas semelhantes aos convencionais."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2020-q95",
+   "number": 95,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A fragmentação dos hábitats é caracterizada pela formação de ilhas da paisagem original, circundadas por áreas transformadas. Esse tipo de interferência no ambiente ameaça a biodiversidade. Imagine que uma população de onças foi isolada em uma mata pequena. Elas se extinguiriam mesmo sem terem sido abatidas. Diversos componentes da ilha de hábitat, como o tamanho, a heterogeneidade, o seu entorno, a sua conectividade e o efeito de borda são determinantes para a persistência ou não das espécies originais.\nUma medida que auxilia na conservação da biodiversidade nas ilhas mencionadas no texto compreende a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Formação de micro-hábitats."
+    },
+    {
+     "letter": "B",
+     "text": "Ampliação do efeito de borda."
+    },
+    {
+     "letter": "C",
+     "text": "Construção de corredores ecológicos."
+    },
+    {
+     "letter": "D",
+     "text": "Promoção da sucessão ecológica."
+    },
+    {
+     "letter": "E",
+     "text": "Introdução de novas espécies de animais e vegetais."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2020-q96",
+   "number": 96,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A sacarase (ou invertase) é uma enzima que atua no intestino humano hidrolisando o dissacarídeo sacarose nos monossacarídeos glicose e frutose. Em um estudo cinético da reação de hidrólise da sacarose (C12H22O11), foram dissolvidos 171 g de sacarose em 500 mL de água. Observou-se que, a cada 100 minutos de reação, a concentração de sacarose foi reduzida à metade, qualquer que fosse o momento escolhido como tempo inicial. As massas molares dos elementos H, C e O são iguais a 1, 12 e 16 g mo1–1, respectivamente."
+    },
+    {
+     "type": "text",
+     "text": "Qual é a concentração de sacarose depois de 400 minutos do início da reação de hidrólise?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "2,50 x 10–3 mol L–1"
+    },
+    {
+     "letter": "B",
+     "text": "6,25 x 10–2 mol L–1"
+    },
+    {
+     "letter": "C",
+     "text": "1,25 x 10–1 mol L–1"
+    },
+    {
+     "letter": "D",
+     "text": "2,50 x 10–1 mol L–1"
+    },
+    {
+     "letter": "E",
+     "text": "4,27 x 10–1 mol L–1"
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2020-q97",
+   "number": 97,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Grandes reservatórios de óleo leve de melhor qualidade e que produz petróleo mais fino foram descobertos no litoral brasileiro numa camada denominada pré-sal, formada há 150 milhões de anos."
+    },
+    {
+     "type": "text",
+     "text": "A utilização desse recurso energético acarreta para o ambiente um desequilíbrio no ciclo do"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Nitrogênio, devido à nitrificação ambiental transformando amônia em nitrito."
+    },
+    {
+     "letter": "B",
+     "text": "Nitrogênio, devido ao aumento dos compostos nitrogenados no ambiente terrestre."
+    },
+    {
+     "letter": "C",
+     "text": "Carbono, devido ao aumento dos carbonatos dissolvidos no ambiente marinho."
+    },
+    {
+     "letter": "D",
+     "text": "Carbono, devido à liberação das cadeias carbônicas aprisionadas abaixo dos sedimentos."
+    },
+    {
+     "letter": "E",
+     "text": "Fósforo, devido à liberação dos fosfatos acumulados no ambiente marinho."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2020-q98",
+   "number": 98,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em uma usina geradora de energia elétrica, seja através de uma queda-d’água ou através de vapor sob pressão, as pás do gerador são postas a girar. O movimento relativo de um ímã em relação a um conjunto de bobinas produz um fluxo magnético variável através delas, gerando uma diferença de potencial em seus terminais. Durante o funcionamento de um dos geradores, o operador da usina percebeu que houve um aumento inesperado da diferença de potencial elétrico nos terminais das bobinas."
+    },
+    {
+     "type": "text",
+     "text": "Nessa situação, o aumento do módulo da diferença de potencial obtida nos terminais das bobinas resulta do aumento do(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Intervalo de tempo em que as bobinas ficam imersas no campo magnético externo, por meio de uma diminuição de velocidade no eixo de rotação do gerador."
+    },
+    {
+     "letter": "B",
+     "text": "Fluxo magnético através das bobinas, por meio de um aumento em sua área interna exposta ao campo magnético aplicado."
+    },
+    {
+     "letter": "C",
+     "text": "Intensidade do campo magnético no qual as bobinas estão imersas, por meio de aplicação de campos magnéticos mais intensos."
+    },
+    {
+     "letter": "D",
+     "text": "Rapidez com que o fluxo magnético varia através das bobinas, por meio de um aumento em sua velocidade angular."
+    },
+    {
+     "letter": "E",
+     "text": "Resistência interna do condutor que constitui as bobinas, por meio de um aumento na espessura dos terminais."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2020-q103",
+   "number": 103,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O dióxido de carbono passa para o estado sólido (gelo seco) a –78 °C e retorna ao estado gasoso à temperatura ambiente. O gás é facilmente solubilizado em água, capaz de absorver radiação infravermelha da superfície da terra e não conduz eletricidade. Ele é utilizado como maté – ria-prima para a fotossíntese até o limite de saturação. Após a fixação pelos organismos autotróficos, o gás retorna ao meio ambiente pela respiração aeróbica, fermentação, decomposição ou por resíduos industriais, queima de combustíveis fósseis e queimadas. Apesar da sua importância ecológica, seu excesso causa perturbações no equilíbrio ambiental."
+    },
+    {
+     "type": "text",
+     "text": "Considerando as propriedades descritas, o aumento atmosférico da substância afetará os organismos aquáticos em razão da"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Redução do potencial hidrogeniônico da água."
+    },
+    {
+     "letter": "B",
+     "text": "Restrição da aerobiose pelo excesso de poluentes."
+    },
+    {
+     "letter": "C",
+     "text": "Diminuição da emissão de oxigênio pelos autótrofos."
+    },
+    {
+     "letter": "D",
+     "text": "Limitação de transferência de energia entre os seres vivos."
+    },
+    {
+     "letter": "E",
+     "text": "Retração dos oceanos pelo congelamento do gás nos polos."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2020-q104",
+   "number": 104,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Grupos de proteção ao meio ambiente conseguem resgatar muitas aves aquáticas vítimas de vazamentos de petróleo. Essas aves são lavadas com água e detergente neutro para a retirada completa do óleo de seu corpo e, posteriormente, são aquecidas, medicadas, desintoxicadas e alimentadas. Mesmo após esses cuidados, o retorno ao ambiente não pode ser imediato, pois elas precisam recuperar a capacidade de flutuação."
+    },
+    {
+     "type": "text",
+     "text": "Para flutuar, essas aves precisam"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Recuperar o tônus muscular."
+    },
+    {
+     "letter": "B",
+     "text": "Restaurar a massa corporal."
+    },
+    {
+     "letter": "C",
+     "text": "Substituir as penas danificadas."
+    },
+    {
+     "letter": "D",
+     "text": "Restabelecer a capacidade de homeotermia."
+    },
+    {
+     "letter": "E",
+     "text": "Refazer a camada de cera impermeabilizante das penas."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2020-q105",
+   "number": 105,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Os manuais de refrigerador apresentam a recomendação de que o equipamento não deve ser instalado próximo a fontes de calor, como fogão e aquecedores, ou em local onde incida diretamente a luz do sol. A instalação em local inadequado prejudica o funcionamento do refrigerador e aumenta o consumo de energia."
+    },
+    {
+     "type": "text",
+     "text": "O não atendimento dessa recomendação resulta em aumento do consumo de energia porque"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "O fluxo de calor por condução no condensador sofre considerável redução."
+    },
+    {
+     "letter": "B",
+     "text": "A temperatura da substância refrigerante no condensador diminui mais rapidamente."
+    },
+    {
+     "letter": "C",
+     "text": "O fluxo de calor promove significativa elevação da temperatura no interior do refrigerador."
+    },
+    {
+     "letter": "D",
+     "text": "A liquefação da substância refrigerante no condensador exige mais trabalho do compressor."
+    },
+    {
+     "letter": "E",
+     "text": "As correntes de convecção nas proximidades do condensador ocorrem com maior dificuldade."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2020-q108",
+   "number": 108,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "“Na indústria farmacêutica, é muito comum o emprego de substâncias de revestimento em medicamentos de uso oral, pois trazem uma série de benefícios como alteração de sabor em medicamentos que tenham gosto ruim, melhoria da assimilação do composto, entre outras ações. Alguns compostos poliméricos à base do polissacarídeo celulose são utilizados para garantir que o fármaco somente seja liberado quando em contato com soluções aquosas cujo pH se encontre próximo da faixa da neutralidade.”"
+    },
+    {
+     "type": "text",
+     "text": "(BORTOLINI, K. et al. Análise de perfil de dissolução de cápsulas gastrorresistentes utilizando polímeros industriais com aplicação em farmácias magistrais, Revista da Unifebe, n. 12, 2013. Adaptado.)"
+    },
+    {
+     "type": "text",
+     "text": "Qual é a finalidade do uso desse revestimento à base de celulose?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Diminuir a absorção do princípio ativo no intestino."
+    },
+    {
+     "letter": "B",
+     "text": "Impedir que o fármaco seja solubilizado no intestino."
+    },
+    {
+     "letter": "C",
+     "text": "Garantir que o fármaco não seja afetado pelas secreções gástricas."
+    },
+    {
+     "letter": "D",
+     "text": "Permitir a liberação do princípio ativo pela ação das amilases salivares."
+    },
+    {
+     "letter": "E",
+     "text": "Facilitar a liberação do fármaco pela ação dos sais biliares sobre o revestimento."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2020-q109",
+   "number": 109,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "As panelas de pressão reduzem o tempo de cozimento dos alimentos por elevar a temperatura de ebulição da água. Os usuários conhecedores do utensílio normalmente abaixam a intensidade do fogo em panelas de pressão após estas iniciarem a saída dos vapores."
+    },
+    {
+     "type": "text",
+     "text": "Ao abaixar o fogo, reduz-se a chama, pois assim evita-se o(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Aumento da pressão interna e os riscos de explosão."
+    },
+    {
+     "letter": "B",
+     "text": "Dilatação da panela e a desconexão com sua tampa."
+    },
+    {
+     "letter": "C",
+     "text": "Perda da qualidade nutritiva do alimento."
+    },
+    {
+     "letter": "D",
+     "text": "Deformação da borracha de vedação."
+    },
+    {
+     "letter": "E",
+     "text": "Consumo de gás desnecessário."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2020-q110",
+   "number": 110,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A nanotecnologia pode ser caracterizada quando os compostos estão na ordem de milionésimos de milímetros, como na utilização de nanomateriais catalíticos nos processos industriais. O uso desses materiais aumenta a eficiência da produção, consome menos energia e gera menores quantidades de resíduos. O sucesso dessa aplicação tecnológica muitas vezes está relacionado ao aumento da velocidade da reação química envolvida."
+    },
+    {
+     "type": "text",
+     "text": "O êxito da aplicação dessa tecnologia é por causa da realização de reações químicas que ocorrem em condições de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Alta pressão."
+    },
+    {
+     "letter": "B",
+     "text": "Alta temperatura."
+    },
+    {
+     "letter": "C",
+     "text": "Excesso de reagentes."
+    },
+    {
+     "letter": "D",
+     "text": "Maior superfície de contato."
+    },
+    {
+     "letter": "E",
+     "text": "Elevada energia de ativação."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2020-q111",
+   "number": 111,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Os fones de ouvido tradicionais transmitem a música diretamente para os nossos ouvidos. Já os modelos dotados de tecnologia redutora de ruído — Cancelamento de Ruído (CR) — além de transmitirem música, também reduzem todo ruído inconsistente à nossa volta, como o barulho de turbinas de avião e aspiradores de pó. Os fones de ouvido CR não reduzem realmente barulhos irregulares como discursos e choros de bebês. Mesmo assim, a supressão do ronco das turbinas do avião contribui para reduzir a “fadiga de ruído”, um cansaço persistente provocado pela exposição a um barulho alto por horas a fio. Esses aparelhos também permitem que nós ouçamos músicas ou assistamos a vídeos no trem ou no avião a um volume muito menor (e mais seguro)."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://tecnologia.uol.com.br, Acesso em: 21 abr, 2015 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A tecnologia redutora de ruído CR utilizada na produção de fones de ouvido baseia-se em qual fenômeno ondulatório?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Absorção."
+    },
+    {
+     "letter": "B",
+     "text": "Interferência."
+    },
+    {
+     "letter": "C",
+     "text": "Polarização."
+    },
+    {
+     "letter": "D",
+     "text": "Reflexão."
+    },
+    {
+     "letter": "E",
+     "text": "Difração."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2020-q114",
+   "number": 114,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Dois engenheiros estão verificando se uma cavidade perfurada no solo está de acordo com o planejamento de uma obra, cuja profundidade requerida é de 30 m. O teste é feito por um dispositivo denominado oscilador de áudio de frequência variável, que permite relacionar a profundidade com os valores da frequência de duas ressonâncias consecutivas, assim como em um tubo sonoro fechado. A menor frequência de ressonância que o aparelho mediu foi 135 Hz. Considere que a velocidade do som dentro da cavidade perfurada é de 360 m s–1."
+    },
+    {
+     "type": "text",
+     "text": "Se a profundidade estiver de acordo com o projeto, qual será o valor da próxima frequência de ressonância que\nserá medida?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "137 Hz."
+    },
+    {
+     "letter": "B",
+     "text": "138 Hz."
+    },
+    {
+     "letter": "C",
+     "text": "141 Hz."
+    },
+    {
+     "letter": "D",
+     "text": "144 Hz"
+    },
+    {
+     "letter": "E",
+     "text": "159 Hz"
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2020-q115",
+   "number": 115,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Instituições acadêmicas e de pesquisa no mundo estão inserindo genes em genomas de plantas que possam codificar produtos de interesse farmacológico. No Brasil, está sendo desenvolvida uma variedade de soja com um viricida ou microbicida capaz de prevenir a contaminação pelo vírus causador da aids. Essa leguminosa está sendo induzida a produzir a enzima cianovirina-N, que tem eficiência comprovada contra o vírus."
+    },
+    {
+     "type": "text",
+     "text": "(OLIVEIRA, M. Remédio na planta. Pesquisa Fapesp, n. 206, abr. 2013.)"
+    },
+    {
+     "type": "text",
+     "text": "A técnica para gerar essa leguminosa é um exemplo de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Hibridismo."
+    },
+    {
+     "letter": "B",
+     "text": "Transgenia."
+    },
+    {
+     "letter": "C",
+     "text": "Conjugação."
+    },
+    {
+     "letter": "D",
+     "text": "Terapia gênica."
+    },
+    {
+     "letter": "E",
+     "text": "Melhoramento genético."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2020-q117",
+   "number": 117,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "“Pesquisadores dos Estados Unidos desenvolveram uma nova técnica, que utiliza raios de luz infravermelha (invisíveis a olho nu) para destruir tumores. Primeiramente, o paciente recebe uma injeção com versões modificadas de anticorpos que têm a capacidade de “grudar” apenas nas células cancerosas. Sozinhos, eles não fazem nada contra o tumor. Entretanto, esses anticorpos estão ligados a uma molécula, denominada IR700, que funcionará como uma “microbomba”, que irá destruir o câncer. Em seguida, o paciente recebe raios infravermelhos. Esses raios penetram no corpo e chegam até a molécula IR700, que é ativada e libera uma substância que ataca a célula cancerosa.”"
+    },
+    {
+     "type": "text",
+     "text": "(Disponível em: http://super.abril.com.br. Acesso em: 13 dez. 2012. Adaptado.)"
+    },
+    {
+     "type": "text",
+     "text": "Com base nas etapas de desenvolvimento, o nome apropriado para a técnica descrita é:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Radioterapia."
+    },
+    {
+     "letter": "B",
+     "text": "Cromoterapia."
+    },
+    {
+     "letter": "C",
+     "text": "Quimioterapia."
+    },
+    {
+     "letter": "D",
+     "text": "Fotoimunoterapia."
+    },
+    {
+     "letter": "E",
+     "text": "Terapia magnética."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2020-q118",
+   "number": 118,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Aranhas, escorpiões, carrapatos e ácaros são representantes da classe dos Aracnídeos. Esses animais são terrestres em sua grande maioria e ocupam os mais variados hábitats, tais como montanhas altas, pântanos, desertos e solos arenosos. Podem ter sido os primeiros representantes do filo Arthropoda a habitar a terra seca."
+    },
+    {
+     "type": "text",
+     "text": "A característica que justifica o sucesso adaptativo desse grupo na ocupação do ambiente terrestre é a presença de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Quelíceras e pedipalpos que coordenam o movimento corporal."
+    },
+    {
+     "letter": "B",
+     "text": "Excreção de ácido úrico que confere estabilidade ao pH corporal."
+    },
+    {
+     "letter": "C",
+     "text": "Exoesqueleto constituído de quitina que auxilia no controle hídrico corporal."
+    },
+    {
+     "letter": "D",
+     "text": "Circulação sanguínea aberta que impede a desidratação dos tecidos corporais."
+    },
+    {
+     "letter": "E",
+     "text": "Sistema nervoso ganglionar que promove a coordenação central do movimento corporal."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2020-q120",
+   "number": 120,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O crescimento da frota de veículos em circulação no mundo tem levado à busca e desenvolvimento de tecnologias que permitam minimizar emissões de poluentes atmosféricos. O uso de veículos elétricos é uma das propostas mais propagandeadas por serem de emissão zero. Podemos comparar a emissão de carbono na forma de CO2 (massa molar igual a 44 g mol–1) para os dois tipos de carros (a combustão e elétrico). Considere que os veículos tradicionais a combustão, movidos a etanol (massa molar igual a 46 g mol–1), emitem uma média de 2,6 mol de CO2 por quilômetro rodado, e os elétricos emitem o equivalente a 0,45 mol de CO2 por quilômetro rodado (considerando as emissões na geração e transmissão da eletricidade). A reação  e combustão do etanol pode ser representada pela equação química:"
+    },
+    {
+     "type": "text",
+     "text": "C2H5OH (l) + 3 O2 (g) → 2 CO2 (g) + 3 H2O (g)"
+    },
+    {
+     "type": "text",
+     "text": "Foram analisadas as emissões de CO2 envolvidas em dois veículos, um movido a etanol e outro elétrico, em um mesmo trajeto de 1 000 km."
+    },
+    {
+     "type": "text",
+     "text": "CHIARADIA, C. A. Estudo da viabilidade da implantação de frotas de veículos elétricos e híbridos elétricos no atual cenário econômico, político, energético e ambiental brasileiro. Guaratinguetá: Unesp, 2015 (adaptado)"
+    },
+    {
+     "type": "text",
+     "text": "A quantidade equivalente de etanol economizada, em quilograma, com o uso do veículo elétrico nesse trajeto, é mais próxima de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "50."
+    },
+    {
+     "letter": "B",
+     "text": "60."
+    },
+    {
+     "letter": "C",
+     "text": "95."
+    },
+    {
+     "letter": "D",
+     "text": "99."
+    },
+    {
+     "letter": "E",
+     "text": "120."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2020-q124",
+   "number": 124,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em 2011, uma falha no processo de perfuração realizado\npor uma empresa petrolífera ocasionou derramamento de\npetróleo na bacia hidrográfica de Campos, no Rio de\nJaneiro.\nOs impactos decorrentes desse derramamento ocorrem\nporque os componentes do petróleo"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Reagem com a água do mar e sofrem degradação, gerando compostos com elevada toxicidade."
+    },
+    {
+     "letter": "B",
+     "text": "Acidificam o meio, promovendo o desgaste das conchas calcárias de moluscos e a morte de corais."
+    },
+    {
+     "letter": "C",
+     "text": "Dissolvem-se na água, causando a mortandade dos seres marinhos por ingestão da água contaminada."
+    },
+    {
+     "letter": "D",
+     "text": "Têm caráter hidrofóbico e baixa densidade, impedindo as trocas gasosas entre o meio aquático e a atmosfera."
+    },
+    {
+     "letter": "E",
+     "text": "Têm cadeia pequena e elevada volatilidade, conta - minando a atmosfera local e regional em função dos ventos nas orlas marítimas."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2020-q126",
+   "number": 126,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Embora a energia nuclear possa ser utilizada para fins\npacíficos, recentes conflitos geopolíticos têm trazido\npreocupações em várias partes do planeta e estimulado\ndiscussões visando o combate ao uso de armas de\ndestruição em massa. Além do potencial destrutivo da\nbomba atômica, uma grande preocupação associada ao\nemprego desse artefato bélico é a poeira radioativa\ndeixada após a bomba ser detonada.\nQual é o processo envolvido na detonação dessa bomba?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Fissão nuclear do urânio, provocada por nêutrons."
+    },
+    {
+     "letter": "B",
+     "text": "Fusão nuclear do hidrogênio, provocada por prótons."
+    },
+    {
+     "letter": "C",
+     "text": "Desintegração nuclear do plutônio, provocada por elétrons."
+    },
+    {
+     "letter": "D",
+     "text": "Associação em cadeia de chumbo, provocada por pósitrons."
+    },
+    {
+     "letter": "E",
+     "text": "Decaimento radioativo do carbono, provocado por partículas beta."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2020-q127",
+   "number": 127,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Plantas pioneiras são as que iniciam o processo natural de cicatrização de uma área desprovida de vegetação. Em geral, têm pequeno porte e crescem muito rápido, desenvolvem-se a pleno sol e são pouco exigentes quanto às condições do solo. Produzem grande quantidade de sementes e possuem ciclo de vida curto."
+    },
+    {
+     "type": "text",
+     "text": "(BLUM, C. T. Lista preliminar de espécies vegetais pioneiras nativas do Paraná – versão 2005. Disponível em: www.chaua.org.br. Acesso em: 10 fev. 2015.)"
+    },
+    {
+     "type": "text",
+     "text": "Essas plantas são importantes em um projeto de restauração ambiental, pois promovem, no solo,"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Aumento da incidência de luz solar."
+    },
+    {
+     "letter": "B",
+     "text": "Diminuição da absorção de água."
+    },
+    {
+     "letter": "C",
+     "text": "Estabilização da umidade"
+    },
+    {
+     "letter": "D",
+     "text": "Elevação de temperatura."
+    },
+    {
+     "letter": "E",
+     "text": "Liberação de oxigênio."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2020-q128",
+   "number": 128,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Mesmo para peixes de aquário, como o peixe arco-íris, a temperatura da água fora da faixa ideal (26°C a 28°C), bem como sua variação brusca, pode afetar a saúde do animal. Para manter a temperatura da água dentro do aquário na média desejada, utilizam-se dispositivos de aquecimento com termostato. Por exemplo, para um aquário de 50 L, pode-se utilizar um sistema de aquecimento de 50 W otimizado para suprir sua taxa de resfriamento. Essa taxa pode ser considerada praticamente constante, já que a temperatura externa ao aquário é mantida pelas estufas. Utilize para a água o calor específico 4,0 kJ kg–1 K–1 e a densidade 1 kg L–1."
+    },
+    {
+     "type": "text",
+     "text": "Se o sistema de aquecimento for desligado por 1 h, qual o valor mais próximo para a redução da temperatura da água do aquário?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "4,0ºC"
+    },
+    {
+     "letter": "B",
+     "text": "3,6°C"
+    },
+    {
+     "letter": "C",
+     "text": "0,9°C"
+    },
+    {
+     "letter": "D",
+     "text": "0,6°C"
+    },
+    {
+     "letter": "E",
+     "text": "0,3°C"
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2020-q131",
+   "number": 131,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A Química Verde é um ramo da química que prega o desenvolvimento de processos eficientes, que transformem a maior parte do reagente em produto, de  forma mais rápida e seletiva, que utilizem poucos reagentes, que produzam somente o produto desejado, evitando a formação de coprodutos, e que utilizem solventes não agressivos ao meio ambiente. Assim, as indústrias contornariam problemas relacionados à poluição ambiental e ao desperdício de água e energia."
+    },
+    {
+     "type": "text",
+     "text": "O perfil de um processo que segue todos os princípios desse ramo da química pode ser representado por:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A + B + C → D (a reação ocorre a altas pressões)."
+    },
+    {
+     "letter": "B",
+     "text": "A + B → C + D (a reação é fortemente endotérmica)."
+    },
+    {
+     "letter": "C",
+     "text": "A +3B → C (a reação ocorre com uso de solvente orgânico)."
+    },
+    {
+     "letter": "D",
+     "text": "3A + 2B → 2C → 3D + 2E (a reação ocorre sob pressão atmosférica)."
+    },
+    {
+     "letter": "E",
+     "text": "A + 1/2 B → C (a reação ocorre com o uso de um catalisador contendo um metal não tóxico)."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2020-q132",
+   "number": 132,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Megaespetáculos com queima de grande quantidade de fogos de artifício em festas de final de ano são muito comuns no Brasil. Após a queima, grande quantidade de material particulado permanece suspensa no ar. Entre os\nresíduos, encontram-se compostos de sódio, potássio, bário, cálcio, chumbo, antimônio, cromo, além de percloratos e gases, como os dióxidos de nitrogênio e\nenxofre."
+    },
+    {
+     "type": "text",
+     "text": "(BRUNNING, A. The Chemistry of Firework Pollution. Disponível em: www.compoundchem.com. Acesso em: 1 dez. 2017. Adaptado.)"
+    },
+    {
+     "type": "text",
+     "text": "Esses espetáculos promovem riscos ambientais, porque"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "As substâncias resultantes da queima de fogos de artifício são inflamáveis."
+    },
+    {
+     "letter": "B",
+     "text": "Os resíduos produzidos na queima de fogos de artifício ainda são explosivos."
+    },
+    {
+     "letter": "C",
+     "text": "O sódio e o potássio são os principais responsáveis pela toxicidade do produto da queima."
+    },
+    {
+     "letter": "D",
+     "text": "Os produtos da queima contêm metais pesados e gases tóxicos que resultam em poluição atmosférica."
+    },
+    {
+     "letter": "E",
+     "text": "O material particulado gerado se deposita na superfície das folhas das plantas impedindo os processos de respiração celular."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2020-q133",
+   "number": 133,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Há muitos mitos em relação a como se proteger de raios, cobrir espelhos e não pegar em facas, garfos e outros objetos metálicos, por exemplo. Mas, de fato, se houver uma tempestade com raios, alguns cuidados são importantes, como evitar ambientes abertos. Um bom abrigo para proteção é o interior de um automóvel, desde que este não seja conversível."
+    },
+    {
+     "type": "text",
+     "text": "OLIVEIRA, A. Raios nas tempestades de verão. Disponível em: http://cienciahoje.uol.com.br. Acesso em: 10 dez, 2014 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Qual o motivo físico da proteção fornecida pelos automóveis, conforme citado no texto?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Isolamento elétrico dos pneus."
+    },
+    {
+     "letter": "B",
+     "text": "Efeito de para-raios da antena."
+    },
+    {
+     "letter": "C",
+     "text": "Blindagem pela carcaça metálica."
+    },
+    {
+     "letter": "D",
+     "text": "Escoamento da água pela lataria."
+    },
+    {
+     "letter": "E",
+     "text": "Aterramento pelo fio terra da bateria."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2020-q135",
+   "number": 135,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Os diferentes tipos de café que consumimos nem sempre vêm da mesma espécie de planta. As duas espécies de café mais utilizadas são Coffea canephora e Coffea arabica. A primeira é diploide (2n = 22) e a segunda é tetraploide (2n\n\\= 44). Acredita-se que a espécie tetraploide surgiu de um cruzamento natural entre C. canephora e C. eugenioides, ambas diploides, há milhões de anos. De fato, as análises genéticas atuais nos cromossomos de C. arabica detectam os alelos de ambas as origens."
+    },
+    {
+     "type": "text",
+     "text": "A alteração cromossômica que poderia explicar o surgimento do café da espécie C. arabica é:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Duplicação em uma das plantas parentais antes do cruzamento."
+    },
+    {
+     "letter": "B",
+     "text": "Inversão durante a meiose gamética em ambas as plantas parentais."
+    },
+    {
+     "letter": "C",
+     "text": "Separação desigual na meiose gamética de uma das plantas parentais."
+    },
+    {
+     "letter": "D",
+     "text": "Falha na separação durante a meiose gamética em ambas as plantas parentais."
+    },
+    {
+     "letter": "E",
+     "text": "Deleções durante as primeiras mitoses zigóticas na planta descendente C. arabica"
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2020-q138",
+   "number": 138,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A caixa-d’água de um edifício terá a forma de um paralelepípedo retângulo reto com volume igual a 28 080 litros. Em uma maquete que representa o edifício, a caixa d’água tem dimensões 2 cm x 3,51 cm x 4 cm."
+    },
+    {
+     "type": "text",
+     "text": "Dado: 1 dm3 = 1 L"
+    },
+    {
+     "type": "text",
+     "text": "A escala usada pelo arquiteto foi"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "1 : 10"
+    },
+    {
+     "letter": "B",
+     "text": "1 : 100"
+    },
+    {
+     "letter": "C",
+     "text": "1 : 1 000"
+    },
+    {
+     "letter": "D",
+     "text": "1 : 10 000"
+    },
+    {
+     "letter": "E",
+     "text": "1 : 100 000"
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2020-q140",
+   "number": 140,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O proprietário de um apartamento decidiu instalar porcelanato no piso da sala. Essa sala tem formato retangular com 3,2 m de largura e 3,6 m de comprimento. As peças do porcelanato têm formato de um quadrado com lado medindo 80 cm. Esse porcelanato é vendido em dois tipos de caixas, com os preços indicados a seguir."
+    },
+    {
+     "type": "text",
+     "text": "*   Caixas do tipo A: 4 unidades de piso, R$ 35,00;\n*   Caixas do tipo B: 3 unidades de piso, R$ 27,00."
+    },
+    {
+     "type": "text",
+     "text": "Na instalação do porcelanato, as peças podem ser recortadas e devem ser assentadas sem espaçamento entre elas, aproveitando-se ao máximo os recortes feitos."
+    },
+    {
+     "type": "text",
+     "text": "A compra que atende às necessidades do proprietário, proporciona a menor sobra de pisos e resulta no menor preço é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "5 caixas do tipo A."
+    },
+    {
+     "letter": "B",
+     "text": "1 caixa do tipo A e 4 caixas do tipo B."
+    },
+    {
+     "letter": "C",
+     "text": "3 caixas do tipo A e 1 caixa do tipo B."
+    },
+    {
+     "letter": "D",
+     "text": "5 caixas do tipo A e 1 caixa do tipo B."
+    },
+    {
+     "letter": "E",
+     "text": "6 caixas do tipo B."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2020-q141",
+   "number": 141,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um hotel de 3 andares está sendo construído. Cada andar terá 100 quartos. Os quartos serão numerados de 100 a 399 e cada um terá seu número afixado à porta. Cada número será composto por peças individuais, cada uma simbolizando um único algarismo."
+    },
+    {
+     "type": "text",
+     "text": "Qual a quantidade mínima de peças, simbolizando o algarismo 2, necessárias para identificar o número de todos os quartos?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "160"
+    },
+    {
+     "letter": "B",
+     "text": "157"
+    },
+    {
+     "letter": "C",
+     "text": "130"
+    },
+    {
+     "letter": "D",
+     "text": "120"
+    },
+    {
+     "letter": "E",
+     "text": "60"
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2020-q151",
+   "number": 151,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Uma das Sete Maravilhas do Mundo Moderno é o Templo de Kukulkán, localizado na cidade de Chichén Itzá, no México. Geometricamente, esse templo pode ser representado por um tronco reto de pirâmide de base quadrada."
+    },
+    {
+     "type": "text",
+     "text": "As quantidades de cada tipo de figura plana que formam esse tronco de pirâmide são"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "2 quadrados e 4 retângulos."
+    },
+    {
+     "letter": "B",
+     "text": "1 retângulo e 4 triângulos isósceles."
+    },
+    {
+     "letter": "C",
+     "text": "2 quadrados e 4 trapézios isósceles."
+    },
+    {
+     "letter": "D",
+     "text": "1 quadrado, 3 retângulos e 2 trapézios retângulos."
+    },
+    {
+     "letter": "E",
+     "text": "2 retângulos, 2 quadrados e 2 trapézios retângulos."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2020-q160",
+   "number": 160,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um motociclista planeja realizar uma viagem cujo destino fica a 500 km de sua casa. Sua moto consome 5 litros de gasolina para cada 100 km rodados, e o tanque da moto tem capacidade para 22 litros. Pelo mapa, observou que no trajeto da viagem o último posto disponível para reabastecimento, chamado Estrela, fica a 80 km do seu destino. Ele pretende partir com o tanque da moto cheio e planeja fazer somente duas paradas para reabastecimento, uma na ida e outra na volta, ambas no posto Estrela. No reabastecimento para a viagem de ida, deve considerar também combustível suficiente para se deslocar por 200 km no seu destino."
+    },
+    {
+     "type": "text",
+     "text": "A quantidade mínima de combustível, em litro, que esse motociclista deve reabastecer no posto Estrela na viagem de ida, que seja suficiente para fazer o segundo reabastecimento, é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "13."
+    },
+    {
+     "letter": "B",
+     "text": "14."
+    },
+    {
+     "letter": "C",
+     "text": "17."
+    },
+    {
+     "letter": "D",
+     "text": "18."
+    },
+    {
+     "letter": "E",
+     "text": "21."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2020-q165",
+   "number": 165,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O técnico de um time de basquete pretende aumentar a estatura média de sua equipe de 1,93 m para, no mínimo, 1,99 m. Para tanto, dentre os 15 jogadores que fazem parte de sua equipe, irá substituir os quatro mais baixos, de estaturas: 1,78 m, 1,82 m, 1,84 m e 1,86 m. Para isso, o técnico contratou um novo jogador de 2,02 m. Os outros três jogadores que ele ainda precisa contratar devem satisfazer à sua necessidade de aumentar a média das estaturas da equipe. Ele fixará a média das estaturas para os três jogadores que ainda precisa contratar dentro do critério inicialmente estabelecido."
+    },
+    {
+     "type": "text",
+     "text": "Qual deverá ser a média mínima das estaturas, em metro, que ele deverá fixar para o grupo de três novos jogadores que ainda irá contratar?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "1,96"
+    },
+    {
+     "letter": "B",
+     "text": "1,98"
+    },
+    {
+     "letter": "C",
+     "text": "2,05"
+    },
+    {
+     "letter": "D",
+     "text": "2,06"
+    },
+    {
+     "letter": "E",
+     "text": "2,08"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2020-q169",
+   "number": 169,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um grupo sanguíneo, ou tipo sanguíneo, baseia-se na presença ou ausência de dois antígenos, A e B, na superfície das células vermelhas do sangue. Como dois antígenos estão envolvidos, os quatro tipos sanguíneos distintos são:"
+    },
+    {
+     "type": "text",
+     "text": "*   Tipo A: apenas o antígeno A está presente;\n*   Tipo B: apenas o antígeno B está presente;\n*   Tipo AB: ambos os antígenos estão presentes;\n*   Tipo O: nenhum dos antígenos está presente."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://saude.hsw.uol.com.br. Acesso em: 15 abr. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Foram coletadas amostras de sangue de 200 pessoas e, após análise laboratorial, foi identificado que em 100 amostras está presente o antígeno A, em 110 amostras há presença do antígeno B e em 20 amostras nenhum dos antígenos está presente."
+    },
+    {
+     "type": "text",
+     "text": "Dessas pessoas que foram submetidas à coleta de sangue, o número das que possuem o tipo sanguíneo A é igual a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "30."
+    },
+    {
+     "letter": "B",
+     "text": "60."
+    },
+    {
+     "letter": "C",
+     "text": "70."
+    },
+    {
+     "letter": "D",
+     "text": "90."
+    },
+    {
+     "letter": "E",
+     "text": "100."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2020-q178",
+   "number": 178,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Suponha que uma equipe de corrida de automóveis disponha de cinco tipos de pneu (I, II, III, IV, V), em que o fator de eficiência climática EC (índice que fornece o comportamento do pneu em uso, dependendo do clima) é apresentado:"
+    },
+    {
+     "type": "text",
+     "text": "*   EC do pneu I: com chuva 6, sem chuva 3;\n*   EC do pneu II: com chuva 7, sem chuva –4;\n*   EC do pneu III: com chuva –2, sem chuva 10;\n*   EC do pneu IV: com chuva 2, sem chuva 8;\n*   EC do pneu V: com chuva –6, sem chuva 7."
+    },
+    {
+     "type": "text",
+     "text": "O coeficiente de rendimento climático (CRC) de um pneu é calculado como a soma dos produtos dos fatores de EC, com ou sem chuva, pelas correspondentes probabilidades de se ter tais condições climáticas: ele é utilizado para determinar qual pneu deve ser selecionado para uma dada corrida, escolhendo-se o pneu que apresentar o maior CRC naquele dia. No dia de certa corrida, a probabilidade de chover era de 70% e o chefe da equipe calculou o CRC de cada um dos cinco tipos de pneu."
+    },
+    {
+     "type": "text",
+     "text": "O pneu escolhido foi"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "I."
+    },
+    {
+     "letter": "B",
+     "text": "II."
+    },
+    {
+     "letter": "C",
+     "text": "III."
+    },
+    {
+     "letter": "D",
+     "text": "IV."
+    },
+    {
+     "letter": "E",
+     "text": "V."
+    }
+   ],
+   "answer": "A"
+  }
+ ]
+}

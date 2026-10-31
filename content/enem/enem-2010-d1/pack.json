@@ -1,0 +1,2916 @@
+{
+ "id": "enem-2010-d1",
+ "vestibular": "enem",
+ "title": "ENEM 2010, dia 1",
+ "year": 2010,
+ "version": 1,
+ "source": "Questões: INEP, ENEM 2010. Transcrição: ENEM API (enem.dev).",
+ "questions": [
+  {
+   "id": "enem-2010-q2",
+   "number": 2,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Antes, eram apenas as grandes cidades que se apresentavam como o império da técnica, objeto de modificações, suspensões, acréscimos, cada vez mais sofisticadas e carregadas de artifício. Esse mundo artificial inclui, hoje, o mundo rural."
+    },
+    {
+     "type": "text",
+     "text": "SANTOS, M. A Natureza do Espaço. São Paulo: Hucitec, 1996."
+    },
+    {
+     "type": "text",
+     "text": "Considerando a transformação mencionada no texto, uma consequência socioespacial que caracteriza o atual mundo rural brasileiro é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A redução do processo de concentração de terras."
+    },
+    {
+     "letter": "B",
+     "text": "O aumento do aproveitamento de solos menos férteis."
+    },
+    {
+     "letter": "C",
+     "text": "A ampliação do isolamento do espaço rural."
+    },
+    {
+     "letter": "D",
+     "text": "A estagnação da fronteira agrícola do país."
+    },
+    {
+     "letter": "E",
+     "text": "A diminuição do nível de emprego formal."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2010-q3",
+   "number": 3,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A maioria das pessoas daqui era do campo. Vila Maria é hoje exportadora de trabalhadores. Empresários de Primavera do Leste, Estado de Mato Grosso, procuram o bairro de Vila Maria para conseguir mão de obra. É gente indo distante daqui 300, 400 quilômetros para ir trabalhar, para ganhar sete conto por dia. (Carlito, 43 anos, maranhense, entrevistado em 22/03/98)."
+    },
+    {
+     "type": "text",
+     "text": "Ribeiro, H. S. O migrante e a cidade: dilemas e conflitos. Araraquara: Wunderlich, 2001 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O texto retrata um fenômeno vivenciado pela agricultura brasileira nas últimas décadas do século XX, consequência"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Dos impactos sociais da modernização da agricultura."
+    },
+    {
+     "letter": "B",
+     "text": "Da recomposição dos salários do trabalhador rural."
+    },
+    {
+     "letter": "C",
+     "text": "Da exigência de qualificação do trabalhador rural."
+    },
+    {
+     "letter": "D",
+     "text": "Da diminuição da importância da agricultura."
+    },
+    {
+     "letter": "E",
+     "text": "Dos processos de desvalorização de áreas rurais."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2010-q4",
+   "number": 4,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Os lixões são o pior tipo de disposição final dos resíduos sólidos de uma cidade, representando um grave problema ambiental e de saúde pública. Nesses locais, o lixo é jogado diretamente no solo e a céu aberto, sem nenhuma norma de controle, o que causa, entre outros problemas, a contaminação do solo e das águas pelo chorume (líquido escuro com alta carga poluidora, proveniente da decomposição da matéria orgânica presente no lixo)."
+    },
+    {
+     "type": "text",
+     "text": "RICARDO, B.; CANPANILLI, M. Almanaque Brasil\nSocioambiental 2008.\nSão Paulo, Instituto Socioambiental, 2007."
+    },
+    {
+     "type": "text",
+     "text": "Considere um município que deposita os resíduos sólidos produzidos por sua população em um lixão. Esse procedimento é considerado um problema de saúde pública porque os lixões"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Causam problemas respiratórios, devido ao mau cheiro que provém da decomposição."
+    },
+    {
+     "letter": "B",
+     "text": "São locais propícios à proliferação de vetores de doenças, além de contaminarem o solo e as águas."
+    },
+    {
+     "letter": "C",
+     "text": "Provocam o fenômeno da chuva ácida, devido aos gases oriundos da decomposição da matéria orgânica."
+    },
+    {
+     "letter": "D",
+     "text": "São instalados próximos ao centro das cidades, afetando toda a população que circula diariamente na área."
+    },
+    {
+     "letter": "E",
+     "text": "São responsáveis pelo desaparecimento das nascentes na região onde são instalados, o que leva à escassez de água."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2010-q7",
+   "number": 7,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Pensando nas correntes e prestes a entrar no braço que deriva da Corrente do Golfo para o norte, lembrei-me de um vidro de café solúvel vazio. Coloquei no vidro uma nota cheia de zeros, uma bola cor rosa-choque. Anotei a posição e data: Latitude 49º49′ N, Longitude 23º49′ W. Tampei e joguei na água. Nunca imaginei que receberia uma carta com a foto de um menino norueguês, segurando a bolinha e a estranha nota."
+    },
+    {
+     "type": "text",
+     "text": "KLINK, A. Parati: entre dois pólos. São Paulo: Companhia das Letras, 1998 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "No texto, o autor anota sua coordenada geográfica, que é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A relação que se estabelece entre as distâncias representadas no mapa e as distâncias reais da superfície cartografada."
+    },
+    {
+     "letter": "B",
+     "text": "O registro de que os paralelos são verticais e o convergem para os polos, e os meridianos são círculos imaginários, horizontais e equidistantes."
+    },
+    {
+     "letter": "C",
+     "text": "A informação de um conjunto de linhas imaginárias que permitem localizar um ponto ou acidente geográfico na superfície terrestre."
+    },
+    {
+     "letter": "D",
+     "text": "A latitude como distância em graus entre um ponto e o Meridiano de Greenwich, e a longitude como a distância em graus entre um ponto e o Equador."
+    },
+    {
+     "letter": "E",
+     "text": "A forma de projeção cartográfica, usado para navegação, onde os meridianos e paralelos distorcem a superfície do planeta."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2010-q9",
+   "number": 9,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O G-20 é o grupo que reúne os países do G-7, os mais industrializados do mundo (EUA, Japão, Alemanha, França, Reino Unido, Itália e Canadá), a União Europeia e os principais emergentes (Brasil, Rússia, Índia, China, África do Sul, Arábia Saudita, Argentina, Austrália, Coreia do Sul, Indonésia, México e Turquia). Esse grupo de países vem ganhando força nos fóruns internacionais de decisão e consulta."
+    },
+    {
+     "type": "text",
+     "text": "ALLAN. R. Crise global. Dísponivel em: http://conteudoclippingmp.planejamento.gov.br. Acesso em: 31 jul. 2010."
+    },
+    {
+     "type": "text",
+     "text": "Entre os países emergentes que formam o G-20, estão os chamados BRIC (Brasil, Rússia, Índia e China), termo criado em 2001 para referir-se aos países que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Apresentam características econômicas promissoras para as próximas décadas."
+    },
+    {
+     "letter": "B",
+     "text": "Possuem base tecnológica mais elevada."
+    },
+    {
+     "letter": "C",
+     "text": "Apresentam índices de igualdade social e econômica mais acentuados."
+    },
+    {
+     "letter": "D",
+     "text": "Apresentam diversidade ambiental suficiente para impulsionar a economia global."
+    },
+    {
+     "letter": "E",
+     "text": "Possuem similaridades culturais capazes de alavancar a economia mundial."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2010-q10",
+   "number": 10,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A Inglaterra pedia lucros e recebia lucros. Tudo se transformava em lucro. As cidades tinham sua sujeira lucrativa, suas favelas lucrativas, sua fumaça lucrativa, sua desordem lucrativa, sua ignorância lucrativa, seu desespero lucrativo. As novas fábricas e os novos altos-fornos eram como as Pirâmides, mostrando mais a escravização do homem que seu poder."
+    },
+    {
+     "type": "text",
+     "text": "DEANE, P. A Revolução Industrial. Rio de Janeiro: Zahar, 1979 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Qual relação é estabelecida no texto entre os avanços tecnológicos ocorridos no contexto da Revolução Industrial Inglesa e as características das cidades industriais no início do século XIX?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A facilidade em se estabelecerem relações lucrativas transformava as cidades em espaços privilegiados para a livre iniciativa, característica da nova sociedade capitalista."
+    },
+    {
+     "letter": "B",
+     "text": "O desenvolvimento de métodos de planejamento urbano aumentava a eficiência do trabalho industrial."
+    },
+    {
+     "letter": "C",
+     "text": "A construção de núcleos urbanos integrados por meios de transporte facilitava o deslocamento dos trabalhadores das periferias até as fábricas."
+    },
+    {
+     "letter": "D",
+     "text": "A grandiosidade dos prédios onde se localizavam as fábricas revelava os avanços da engenharia e da arquitetura do período, transformando as cidades em locais de experimentação estética e artística."
+    },
+    {
+     "letter": "E",
+     "text": "O alto nível de exploração dos trabalhadores industriais ocasionava o surgimento de aglomerados urbanos marcados por péssimas condições de moradia, saúde e higiene."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2010-q11",
+   "number": 11,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A evolução do processo de transformação de matérias-primas em produtos acabados ocorreu em três estágios: artesanato, manufatura e maquinofatura."
+    },
+    {
+     "type": "text",
+     "text": "Um desses estágios foi o artesanato, em que se"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Trabalhava conforme o ritmo das máquinas e de maneira padronizada."
+    },
+    {
+     "letter": "B",
+     "text": "Trabalhava geralmente sem o uso de máquinas e de modo diferente do modelo de produção em série."
+    },
+    {
+     "letter": "C",
+     "text": "Empregavam fontes de energia abundantes para o funcionamento das máquinas."
+    },
+    {
+     "letter": "D",
+     "text": "Realizava parte da produção por cada operário, com uso de máquinas e trabalho assalariado."
+    },
+    {
+     "letter": "E",
+     "text": "Faziam interferência do processo produtivo por técnicos e gerentes com vistas a determinar o ritmo de produção."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2010-q12",
+   "number": 12,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A serraria construía ramais ferroviários que adentravam as grandes matas, onde grandes locomotivas com guindastes e correntes gigantescas de mais de 100 metros arrastavam, para as composições de trem, as toras que jaziam abatidas por equipes de trabalhadores que anteriormente passavam pelo local. Quando o guindaste arrastava as grandes toras em direção à composição de trem, os ervais nativos que existiam em meio às matas eram destruídos por este deslocamento."
+    },
+    {
+     "type": "text",
+     "text": "MACHADO P. P. Lideranças do Contestado. Campinas: Unicamp, 2004 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "No início do século XX, uma série de empreendimentos capitalistas chegou à região do meio-oeste de Santa Catarina – ferrovias, serrarias e projetos de colonização. Os impactos sociais gerados por esse processo estão na origem da chamada Guerra do Contestado. Entre tais impactos, encontrava-se"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A absorção dos trabalhadores rurais como trabalhadores da serraria, resultando em um processo de êxodo rural."
+    },
+    {
+     "letter": "B",
+     "text": "O desemprego gerado pela introdução das novas máquinas, que diminuíam a necessidade de mão de obra."
+    },
+    {
+     "letter": "C",
+     "text": "A desorganização da economia tradicional, que sustentava os posseiros e os trabalhadores rurais da região."
+    },
+    {
+     "letter": "D",
+     "text": "A diminuição do poder dos grandes coronéis da região, que passavam disputar o poder político com os novos agentes."
+    },
+    {
+     "letter": "E",
+     "text": "O crescimento dos conflitos entre os operários empregados nesses empreendimentos e os seus proprietários, ligados ao capital internacional."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2010-q13",
+   "number": 13,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "As secas e o apelo econômico da borracha — produto que no final do século XIX alcançava preços altos nos mercados internacionais — motivaram a movimentação de massas humanas oriundas do Nordeste do Brasil para o Acre. Entretanto, até o início do século XX, essa região pertencia à Bolívia, embora a maioria da sua população fosse brasileira e não obedecesse à autoridade boliviana."
+    },
+    {
+     "type": "text",
+     "text": "Para reagir à presença de brasileiros, o governo de La Paz negociou o arrendamento da região a uma entidade internacional, o Bolivian Syndicate, iniciando violentas disputas dos dois lados da fronteira. O conflito só terminou em 1903, com a assinatura do Tratado de Petrópolis, pelo qual o Brasil comprou o território por 2 milhões de libras esterlinas."
+    },
+    {
+     "type": "text",
+     "text": "DISPONÍVEL em: www.mre.gov.br.  Acesso em: 03 nov. 2008 (adaptado)"
+    },
+    {
+     "type": "text",
+     "text": "Compreendendo o contexto em que ocorreram os fatos apresentados, o Acre tornou-se parte do território nacional brasileiro"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Pela formalização do Tratado de Petrópolis, que indenizava o Brasil pela sua anexação."
+    },
+    {
+     "letter": "B",
+     "text": "Por meio do auxílio do Bolivian Syndicate aos emigrantes brasileiros na região."
+    },
+    {
+     "letter": "C",
+     "text": "Devido à crescente emigração de brasileiros que exploravam os seringais."
+    },
+    {
+     "letter": "D",
+     "text": "Em função da presença de inúmeros imigrantes estrangeiros na região."
+    },
+    {
+     "letter": "E",
+     "text": "Pela indenização que os emigrantes brasileiros pagaram à Bolívia."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2010-q14",
+   "number": 14,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "No dia 28 de fevereiro de 1985, era inaugurada a Estrada de Ferro Carajás, pertencente e diretamente operada pela Companhia Vale do Rio Doce (CVRD), na região Norte do país, ligando o interior ao principal porto da região, em São Luís. Por seus, aproximadamente, 900 quilômetros de linha, passam, hoje, 5353 vagões e 100 locomotivas."
+    },
+    {
+     "type": "text",
+     "text": "Dísponivel em: http://www.transportes.gov.br. Acesso em 27 jul. 2010 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A ferrovia em questão é de extrema importância para a logística do setor primário da economia brasileira, em especial para porções dos estados do Pará e Maranhão. Um argumento que destaca a importância estratégica dessa porção do território é a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Produção de energia para as principais áreas industriais do país."
+    },
+    {
+     "letter": "B",
+     "text": "Produção sustentável de recursos minerais não metálicos."
+    },
+    {
+     "letter": "C",
+     "text": "Capacidade de produção de minerais metálicos."
+    },
+    {
+     "letter": "D",
+     "text": "Logística de importação de matérias-primas industriais."
+    },
+    {
+     "letter": "E",
+     "text": "Produção de recursos minerais energéticos."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2010-q15",
+   "number": 15,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A usina hidrelétrica de Belo Monte será construída no rio Xingu, no município de Vitória de Xingu, no Pará. A usina será a terceira maior do mundo e a maior totalmente brasileira, com capacidade de 11,2 mil megawatts. Os índios do Xingu tomam a paisagem com seus cocares, arcos e flechas. Em Altamira, no Pará, agricultores fecharam estradas de uma região que será inundada pelas águas da usina."
+    },
+    {
+     "type": "text",
+     "text": "BACOCCINA, D. QUEIROZ, G.: BORGES, R. Fim do leilão, começo da confusão.\nIstoé Dinheiro. Ano 13, n.o 655, 28 abri 2010 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Os impasses, resistências e desafios associados à construção da Usina Hidrelétrica de Belo Monte estão relacionados"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Ao potencial hidrelétrico dos rios no norte e nordeste quando comparados às bacias hidrográficas das regiões Sul, Sudeste e Centro-Oeste do país."
+    },
+    {
+     "letter": "B",
+     "text": "À necessidade de equilibrar e compatibilizar o investimento no crescimento do país com os esforços para a conservação ambiental."
+    },
+    {
+     "letter": "C",
+     "text": "À grande quantidade de recursos disponíveis para as obras e à escassez dos recursos direcionados para o pagamento pela desapropriação das terras."
+    },
+    {
+     "letter": "D",
+     "text": "Ao direito histórico dos indígenas à posse dessas terras e à ausência de reconhecimento desse direito por parte das empreiteiras."
+    },
+    {
+     "letter": "E",
+     "text": "Ao aproveitamento da mão de obra especializada disponível na região Norte e o interesse das construtoras na vinda de profissionais do Sudeste do país."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2010-q16",
+   "number": 16,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O Império Inca, que corresponde principalmente aos territórios da Bolívia e do Peru, chegou a englobar enorme contingente populacional. Cuzco, a cidade sagrada, era o centro administrativo, com uma sociedade fortemente estratificada e composta por imperadores, nobres, sacerdotes, funcionários do governo, artesãos, camponeses, escravos e soldados. A religião contava com vários deuses, e a base da economia era a agricultura. principalmente o cultivo da batata e do milho."
+    },
+    {
+     "type": "text",
+     "text": "A principal característica da sociedade inca era a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Ditadura teocrática, que igualava a todos."
+    },
+    {
+     "letter": "B",
+     "text": "Existência da igualdade social e da coletivização da terra."
+    },
+    {
+     "letter": "C",
+     "text": "Estrutura social desigual compensada pela coletivização de todos os bens."
+    },
+    {
+     "letter": "D",
+     "text": "Existência de mobilidade social, o que levou à composição da elite pelo mérito."
+    },
+    {
+     "letter": "E",
+     "text": "Impossibilidade de se mudar de extrato social e a existência de uma aristocracia hereditária."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2010-q17",
+   "number": 17,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Coube aos Xavante e aos Timbira, povos indígenas do Cerrado, um recente e marcante gesto simbólico: a realização de sua tradicional corrida de toras (de buriti) em plena Avenida Paulista (SP), para denunciar o cerco de suas terras e a degradação de seus entornos pelo avanço do agronegócio."
+    },
+    {
+     "type": "text",
+     "text": "RICARDO, B.; RICARDO, F. Povos indígenas do Brasil: 2001-\n2005. São Paulo: Instituto Socioambiental, 2006 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A questão indígena contemporânea no Brasil evidencia a relação dos usos socioculturais da terra com os atuais problemas socioambientais, caracterizados pelas tensões entre"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A expansão territorial do agronegócio, em especial nas regiões Centro-Oeste e Norte, e as leis de proteção indígena e ambiental."
+    },
+    {
+     "letter": "B",
+     "text": "Os grileiros articuladores do agronegócio e os povos indígenas pouco organizados no Cerrado."
+    },
+    {
+     "letter": "C",
+     "text": "As leis mais brandas sobre o uso tradicional do meio ambiente e as severas leis sobre o uso capitalista do meio ambiente."
+    },
+    {
+     "letter": "D",
+     "text": "Os povos indígenas do Cerrado e os polos econômicos representados pelas elites industriais paulistas."
+    },
+    {
+     "letter": "E",
+     "text": "O campo e a cidade no Cerrado, que faz com que as terras indígenas dali sejam alvo de invasões urbanas."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2010-q18",
+   "number": 18,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Os vestígios dos povos Tupi-guarani encontram-se desde as Missões e o rio da Prata, ao sul, até o Nordeste, com algumas ocorrências ainda mal conhecidas no sul da Amazônia. A leste, ocupavam toda a faixa litorânea, desde o Rio Grande do Sul até o Maranhão. A oeste, aparece (no rio da Prata) no Paraguai e nas terras baixas da Bolívia. Evitam as terras inundáveis do Pantanal e marcam sua presença discretamente nos cerrados do Brasil central. De fato, ocuparam, de preferência, as regiões de floresta tropical e subtropical."
+    },
+    {
+     "type": "text",
+     "text": "PROUS. A. O Brasil antes dos brasileiros. Rio de Janeiro: Jorge\nZahar. Editor, 2005."
+    },
+    {
+     "type": "text",
+     "text": "Os povos indígenas citados possuíam tradições culturais específicas que os distinguiam de outras sociedades indígenas e dos colonizadores europeus. Entre as tradições tupi-guarani, destacava-se"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A organização em aldeias politicamente independentes, dirigidas por um chefe, eleito pelos indivíduos mais velhos da tribo."
+    },
+    {
+     "letter": "B",
+     "text": "A ritualização da guerra entre as tribos e o caráter semissedentário de sua organização social."
+    },
+    {
+     "letter": "C",
+     "text": "A conquista de terras mediante operações militares, o que permitiu seu domínio sobre vasto território."
+    },
+    {
+     "letter": "D",
+     "text": "O caráter pastoril de sua economia, que prescindia da agricultura para investir na criação de animais."
+    },
+    {
+     "letter": "E",
+     "text": "O desprezo pelos rituais antropofágicos praticados em outras sociedades indígenas."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2010-q19",
+   "number": 19,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Os tropeiros foram figuras decisivas na formação de vilarejos e cidades do Brasil colonial. A palavra tropeiro vem de “tropa” que, no passado, se referia ao conjunto de homens que transportava gado e mercadoria. Por volta do século XVIII, muita coisa era levada de um lugar a outro no lombo de mulas. O tropeirismo acabou associado à atividade mineradora, cujo auge foi a exploração de ouro em Minas Gerais e, mais tarde, em Goiás. A extração de pedras preciosas também atraiu grandes contingentes populacionais para as novas áreas e, por isso, era cada vez mais necessário dispor de alimentos e produtos básicos. A alimentação dos tropeiros era constituída por toucinho, feijão preto, farinha, pimenta-do-reino, café, fubá e coité (um molho de vinagre com fruto cáustico espremido). Nos pousos, os tropeiros comiam feijão quase sem molho com pedaços de carne de sol e toucinho, que era servido com farofa e couve picada. O feijão tropeiro é um dos pratos típicos da cozinha mineira e recebe esse nome porque era preparado pelos cozinheiros das tropas que conduziam o gado."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em http://www.tribunadoplanalto.com.br.\nAcesso em: 27 nov. 2008."
+    },
+    {
+     "type": "text",
+     "text": "A criação do feijão tropeiro na culinária brasileira está relacionada à"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Atividade comercial exercida pelos homens que trabalhavam nas minas."
+    },
+    {
+     "letter": "B",
+     "text": "Atividade culinária exercida pelos moradores cozinheiros que viviam nas regiões das minas."
+    },
+    {
+     "letter": "C",
+     "text": "Atividade mercantil exercida pelos homens que transportavam gado e mercadoria."
+    },
+    {
+     "letter": "D",
+     "text": "Atividade agropecuária exercida pelos tropeiros que necessitavam dispor de alimentos."
+    },
+    {
+     "letter": "E",
+     "text": "Atividade mineradora exercida pelos tropeiros no auge da exploração do ouro."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2010-q20",
+   "number": 20,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Quem construiu a Tebas de sete portas?\nNos livros estão nomes de reis.\nArrastaram eles os blocos de pedra?\nE a Babilônia várias vezes destruída. Quem a reconstruiu tantas vezes?\nEm que casas da Lima dourada moravam os construtores?\nPara onde foram os pedreiros, na noite em que a Muralha\nda China ficou pronta?\nA grande Roma está cheia de arcos do triunfo.\nQuem os ergueu? Sobre quem triunfaram os césares?"
+    },
+    {
+     "type": "text",
+     "text": "BRECHT, B. Perguntas de um trabalhador que lê.\nDisponível em: http://recantodasletras.uol.com.br. Acesso em:\n28 abr. 2010."
+    },
+    {
+     "type": "text",
+     "text": "Partindo das reflexões de um trabalhador que lê um livro de História, o autor censura a memória construída sobre determinados monumentos e acontecimentos históricos. A crítica refere-se ao fato de que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Os agentes históricos de uma determinada sociedade deveriam ser aqueles que realizaram feitos heroicos ou grandiosos e, por isso, ficaram na memória."
+    },
+    {
+     "letter": "B",
+     "text": "A História deveria se preocupar em memorizar os nomes de reis ou dos governantes das civilizações que se desenvolveram ao longo do tempo."
+    },
+    {
+     "letter": "C",
+     "text": "Grandes monumentos históricos foram construídos por trabalhadores, mas sua memória está vinculada aos governantes das sociedades que os construíram."
+    },
+    {
+     "letter": "D",
+     "text": "Os trabalhadores consideram que a História é uma ciência de difícil compreensão, pois trata de sociedades antigas e distantes no tempo."
+    },
+    {
+     "letter": "E",
+     "text": "As civilizações citadas no texto, embora muito importantes, permanecem sem terem sido alvos de pesquisas históricas."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2010-q21",
+   "number": 21,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "As ruínas do povoado de Canudos, no sertão norte da Bahia, além de significativas para a identidade cultural, dessa região, são úteis às investigações sobre a Guerra de Canudos e o modo de vida dos antigos revoltosos."
+    },
+    {
+     "type": "text",
+     "text": "Essas ruínas foram reconhecidas como patrimônio cultural material pelo Iphan (Instituto do Patrimônio Histórico e Artístico Nacional) porque reúnem um conjunto de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Objetos arqueológicos e paisagísticos."
+    },
+    {
+     "letter": "B",
+     "text": "Acervos museológicos e bibliográficos."
+    },
+    {
+     "letter": "C",
+     "text": "Núcleos urbanos e etnográficos"
+    },
+    {
+     "letter": "D",
+     "text": "Práticas e representações de uma sociedade."
+    },
+    {
+     "letter": "E",
+     "text": "Expressões e técnicas de uma sociedade extinta."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2010-q22",
+   "number": 22,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Substitui-se então uma história crítica, profunda, por uma crônica de detalhes onde o patriotismo e a bravura dos nossos soldados encobrem a vilania dos motivos que levaram a Inglaterra a armar brasileiros e argentinos para a destruição da mais gloriosa república que já se viu na América Latina, a do Paraguai."
+    },
+    {
+     "type": "text",
+     "text": "CHIAVENATTO, J. J. Genocídio americano: A Guerra do\nParaguai. São Paulo: Brasiliense, 1979 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O imperialismo inglês, “destruindo o Paraguai, mantém o status quo na América Meridional, impedindo a ascensão do seu único Estado economicamente livre”. Essa teoria conspiratória vai contra a realidade dos fatos e não tem provas documentais. Contudo essa teoria tem alguma repercussão."
+    },
+    {
+     "type": "text",
+     "text": "(DORATIOTO. F. Maldita guerra: nova história da\nGuerra do Paraguai. São Paulo: Cia. das Letras, 2002\n(adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Uma leitura dessas narrativas divergentes demonstra que ambas estão refletindo sobre"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A carência de fontes para a pesquisa sobre os reais motivos dessa Guerra."
+    },
+    {
+     "letter": "B",
+     "text": "O caráter positivista das diferentes versões sobre essa Guerra."
+    },
+    {
+     "letter": "C",
+     "text": "O resultado das intervenções britânicas nos cenários de batalha."
+    },
+    {
+     "letter": "D",
+     "text": "A dificuldade de elaborar explicações convincentes sobre os motivos dessa Guerra."
+    },
+    {
+     "letter": "E",
+     "text": "O nível de crueldade das ações do exército brasileiro e argentino durante o conflito."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2010-q23",
+   "number": 23,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Negro, filho de escrava e fidalgo português, o baiano Luiz Gama fez da lei e das letras suas armas na luta pela liberdade. Foi vendido ilegalmente como escravo pelo seu pai para cobrir dívidas de jogo. Sabendo ler e escrever, aos 18 anos de idade conseguiu provas de que havia nascido livre. Autodidata, advogado sem diploma, fez do direito o seu ofício e transformou-se, em pouco tempo, em proeminente advogado da causa abolicionista."
+    },
+    {
+     "type": "text",
+     "text": "AZEVEDO, E. O Orfeu de carapinha. In: Revista de\nHistória.Ano 1, n.o 3. Rio de Janeiro:\nBiblioteca Nacional, jan. 2004 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A conquista da liberdade pelos afro-brasileiros na segunda metade do séc. XIX foi resultado de importantes lutas sociais condicionadas historicamente. A biografia de Luiz Gama exemplifica a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Impossibilidade de ascensão social do negro forro em uma sociedade escravocrata, mesmo sendo alfabetizado."
+    },
+    {
+     "letter": "B",
+     "text": "Extrema dificuldade de projeção dos intelectuais negros nesse contexto e a utilização do Direito como canal de luta pela liberdade."
+    },
+    {
+     "letter": "C",
+     "text": "Rigidez de uma sociedade, assentada na escravidão, que inviabilizava os mecanismos de ascensão social."
+    },
+    {
+     "letter": "D",
+     "text": "Possibilidade de ascensão social, viabilizada pelo apoio das elites dominantes, a um mestiço filho de pai português."
+    },
+    {
+     "letter": "E",
+     "text": "Troca de favores entre um representante negro e a elite agrária escravista que outorgara o direito advocatício ao mesmo."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2010-q24",
+   "number": 24,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Eu, o Príncipe Regente, faço saber aos que o presente Alvará virem: que desejando promover e adiantar a riqueza nacional, e sendo um dos mananciais dela as manufaturas e a indústria, sou servido abolir e revogar toda e qualquer proibição que haja a este respeito no Estado do Brasil."
+    },
+    {
+     "type": "text",
+     "text": "Alvará de liberdade para as indústrias (1.o de Abril de 1808).\nIn Bonavides, P.; Amaral, R. Textos políticos da História do\nBrasil. Vol. 1. Brasília: Senado Federal, 2002 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O projeto industrializante de D. João, conforme expresso no alvará, não se concretizou. Que características desse período explicam esse fato?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A ocupação de Portugal pelas tropas francesas e o fechamento das manufaturas portuguesas."
+    },
+    {
+     "letter": "B",
+     "text": "A dependência portuguesa da Inglaterra e o predomínio industrial inglês sobre suas redes de comércio."
+    },
+    {
+     "letter": "C",
+     "text": "A desconfiança da burguesia industrial colonial diante da chegada da família real portuguesa."
+    },
+    {
+     "letter": "D",
+     "text": "O confronto entre a França e a Inglaterra e a posição dúbia assumida por Portugal no comércio internacional."
+    },
+    {
+     "letter": "E",
+     "text": "O atraso industrial da colônia provocado pela perda de mercados para as indústrias portuguesas."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2010-q25",
+   "number": 25,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em 2008 foram comemorados os 200 anos da mudança da família real portuguesa para o Brasil, onde foi instalada a sede do reino. Uma sequência de eventos importantes ocorreu no período 1808-1821, durante os 13 anos em que D. João VI e a família real portuguesa permaneceram no Brasil."
+    },
+    {
+     "type": "text",
+     "text": "Entre esses eventos, destacam-se os seguintes:"
+    },
+    {
+     "type": "text",
+     "text": "• Bahia – 1808: Parada do navio que trazia a família real\nportuguesa para o Brasil, sob a proteção da marinha\nbritânica, fugindo de um possível ataque de Napoleão.\n• Rio de Janeiro – 1808: desembarque da família real\nportuguesa na cidade onde residiriam durante sua\npermanência no Brasil.\n• Salvador – 1810: D. João VI assina a carta régia de\nabertura dos portos ao comércio de todas as nações\namigas, ato antecipadamente negociado com a Inglaterra\nem troca da escolta dada à esquadra portuguesa.\n• Rio de Janeiro – 1816: D. João VI torna-se rei do Brasil\ne de Portugal, devido à morte de sua mãe, D. Maria I.\n• Pernambuco – 1817: As tropas de D. João VI sufocam\na revolução republicana."
+    },
+    {
+     "type": "text",
+     "text": "GOMES. L. 1808: como uma rainha louca, um príncipe\nmedroso e uma corte corrupta enganaram Napoleão e\nmudaram a história de Portugal e do Brasil. São Paulo:\nEditora Planeta, 2007 (adaptado)"
+    },
+    {
+     "type": "text",
+     "text": "Uma das consequências desses eventos foi"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A decadência do império britânico, em razão do contrabando de produtos ingleses através dos portos brasileiros,"
+    },
+    {
+     "letter": "B",
+     "text": "O fim do comércio de escravos no Brasil, porque a Inglaterra decretara, em 1806, a proibição do tráfico de escravos em seus domínios."
+    },
+    {
+     "letter": "C",
+     "text": "A conquista da região do rio da Prata em represália à aliança entre a Espanha e a França de Napoleão."
+    },
+    {
+     "letter": "D",
+     "text": "A abertura de estradas, que permitiu o rompimento do isolamento que vigorava entre as províncias do país, o que dificultava a comunicação antes de 1808."
+    },
+    {
+     "letter": "E",
+     "text": "O grande desenvolvimento econômico de Portugal após a vinda de D. João VI para o Brasil, uma vez que cessaram as despesas de manutenção do rei e de sua família."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2010-q26",
+   "number": 26,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "I — Para consolidar-se como governo, a República precisava eliminar as arestas, conciliar-se com o passado monarquista, incorporar distintas vertentes do republicanismo. Tiradentes não deveria ser visto como herói republicano radical, mas sim como herói cívico-religioso, como mártir, integrador, portador da imagem do povo inteiro."
+    },
+    {
+     "type": "text",
+     "text": "CARVALHO, J. M. C. A formação das almas: O imaginário da República no Brasil.\nSão Paulo: Companhia das Letras, 1990"
+    },
+    {
+     "type": "text",
+     "text": "I — Ei-lo, o gigante da praça, / O Cristo da multidão!"
+    },
+    {
+     "type": "text",
+     "text": "É Tiradentes quem passa / Deixem passar o Titão."
+    },
+    {
+     "type": "text",
+     "text": "ALVES, C. Gonzaga ou a revolução de Minas. In: CARVALHO, J. M. C. A formação das almas.\nO imaginário da República no Brasil. São Paulo: Companhia das Letras, 1990."
+    },
+    {
+     "type": "text",
+     "text": "A 1ª República brasileira, nos seus primórdios, precisava constituir uma figura heroica capaz de congregar diferenças e sustentar simbolicamente o novo regime. Optando pela figura de Tiradentes, deixou de lado figuras como Frei Caneca ou Bento Gonçalves. A transformação do inconfidente em herói nacional evidencia que o esforço de construção de um simbolismo por parte da República estava relacionado"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Ao caráter nacionalista e republicano da Inconfidência, evidenciado nas ideias e na atuação de Tiradentes."
+    },
+    {
+     "letter": "B",
+     "text": "À identificação da Conjuração Mineira como o movimento precursor do positivismo brasileiro."
+    },
+    {
+     "letter": "C",
+     "text": "Ao fato de a proclamação da República ter sido um movimento de poucas raízes populares, que precisava de legitimação."
+    },
+    {
+     "letter": "D",
+     "text": "À semelhança física entre Tiradentes e Jesus, que proporcionaria, a um povo católico como o brasileiro, uma fácil identificação."
+    },
+    {
+     "letter": "E",
+     "text": "Ao fato de Frei Caneca e Bento Gonçalves terem liderado movimentos separatistas no Nordeste e no Sul do país."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2010-q27",
+   "number": 27,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O artigo 402 do Código penal Brasileiro de 1890 dizia: Fazer nas ruas e praças públicas exercícios de agilidade e destreza corporal, conhecidos pela denominação de capoeiragem: andar em correrias, com armas ou instrumentos capazes de produzir uma lesão corporal, provocando tumulto ou desordens."
+    },
+    {
+     "type": "text",
+     "text": "Pena: Prisão de dois a seis meses."
+    },
+    {
+     "type": "text",
+     "text": "SOARES, C. E. L. A Negregada instituição: os capoeiras\nno Rio de Janeiro: 1850-1890. Rio de Janeiro: Secretaria\nMunicipal de Cultura, 1994 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O artigo do primeiro Código Penal Republicano naturaliza medidas socialmente excludentes. Nesse contexto, tal regulamento expressava"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A manutenção de parte da legislação do Império com vistas ao controle da criminalidade urbana."
+    },
+    {
+     "letter": "B",
+     "text": "A defesa do retorno do cativeiro e escravidão pelos primeiros governos do período republicano."
+    },
+    {
+     "letter": "C",
+     "text": "O caráter disciplinador de uma sociedade industrializada, desejosa de um equilíbrio entre progresso e civilização."
+    },
+    {
+     "letter": "D",
+     "text": "A criminalização de práticas culturais e a persistência de valores que vinculavam certos grupos ao passado de escravidão."
+    },
+    {
+     "letter": "E",
+     "text": "O poder do regime escravista, que mantinha os negros como categoria social inferior, discriminada e segregada."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2010-q28",
+   "number": 28,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em nosso país queremos substituir o egoísmo pela moral, a honra pela probidade, os usos pelos princípios, as conveniências pelos deveres, a tirania da moda pelo império da razão, o desprezo à desgraça pelo desprezo ao vício, a insolência pelo orgulho, a vaidade pela grandeza de alma, o amor ao dinheiro pelo amor à glória, a boa companhia pelas boas pessoas, a intriga pelo mérito, o espirituoso pelo gênio, o brilho pela verdade, o tédio da volúpia pelo encanto da felicidade, a mesquinharia dos grandes pela grandeza do homem."
+    },
+    {
+     "type": "text",
+     "text": "HUNT, L. Revolução Francesa e Vida Privada. In: PERROT,\nM. (Org.) História da Vida Privada: da Revolução Francesa à\nPrimeira Guerra. Vol. 4. São Paulo: Companhia das Letras,\n1991 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O discurso de Robespierre, de 5 de fevereiro de 1794, do qual o trecho transcrito é parte, relaciona-se a qual dos grupos político-sociais envolvidos na Revolução Francesa?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "À alta burguesia, que desejava participar do poder legislativo francês como força política dominante."
+    },
+    {
+     "letter": "B",
+     "text": "Ao clero francês, que desejava justiça social e era ligado à alta burguesia."
+    },
+    {
+     "letter": "C",
+     "text": "A militares oriundos da pequena e média burguesia, que derrotaram as potências rivais e queriam reorganizar a França internamente."
+    },
+    {
+     "letter": "D",
+     "text": "À nobreza esclarecida, que, em função do seu contato, com os intelectuais iluministas, desejava extinguir o absolutismo francês."
+    },
+    {
+     "letter": "E",
+     "text": "Aos representantes da pequena e média burguesia e das camadas populares, que desejavam justiça social e direitos políticos."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2010-q29",
+   "number": 29,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A política foi, inicialmente, a arte de impedir as pessoas de se ocuparem do que lhes diz respeito. Posteriormente, passou a ser a arte de compelir as pessoas a decidirem sobre aquilo de que nada entendem."
+    },
+    {
+     "type": "text",
+     "text": "VALÉRY, P. Cadernos. Apud BENEVIDES, M. V. M.\nA cidadania ativa. São Paulo: Ática, 1996."
+    },
+    {
+     "type": "text",
+     "text": "Nessa definição, o autor entende que a história da política está dividida em dois momentos principais: um primeiro, marcado pelo autoritarismo excludente, e um segundo, caracterizado por uma democracia incompleta. Considerando o texto, qual é o elemento comum a esses dois momentos da história política?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A distribuição equilibrada do poder."
+    },
+    {
+     "letter": "B",
+     "text": "O impedimento da participação popular."
+    },
+    {
+     "letter": "C",
+     "text": "O controle das decisões por uma minoria."
+    },
+    {
+     "letter": "D",
+     "text": "A valorização das opiniões mais competentes."
+    },
+    {
+     "letter": "E",
+     "text": "A sistematização dos processos decisórios."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2010-q30",
+   "number": 30,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O príncipe, portanto, não deve se incomodar com a reputação de cruel, se seu propósito é manter o povo unido e leal. De fato, com uns poucos exemplos duros poderá ser mais clemente do que outros que, por muita piedade, permitem os distúrbios que levem ao assassínio e ao roubo."
+    },
+    {
+     "type": "text",
+     "text": "MAQUIAVEL, N. O Príncipe, São Paulo: Martin Claret, 2009."
+    },
+    {
+     "type": "text",
+     "text": "No século XVI, Maquiavel escreveu O Príncipe, reflexão sobre a Monarquia e a função do governante. A manutenção da ordem social, segundo esse autor, baseava-se na"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Inércia do julgamento de crimes polêmicos."
+    },
+    {
+     "letter": "B",
+     "text": "Bondade em relação ao comportamento dos mercenários."
+    },
+    {
+     "letter": "C",
+     "text": "Compaixão quanto à condenação de transgressões religiosas."
+    },
+    {
+     "letter": "D",
+     "text": "Neutralidade diante da condenação dos servos."
+    },
+    {
+     "letter": "E",
+     "text": "Conveniência entre o poder tirânico e a moral do príncipe."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2010-q31",
+   "number": 31,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Após a abdicação de D. Pedro I, o Brasil atravessou um período marcado por inúmeras crises: as diversas forças políticas lutavam pelo poder e as reivindicações populares eram por melhores condições de vida e pelo direito de participação na vida política do país. Os conflitos representavam também o protesto contra a centralização do governo. Nesse período, ocorreu também a expansão da cultura cafeeira e o surgimento do poderoso grupo dos “barões do café”, para o qual era fundamental a manutenção da escravidão e do tráfico negreiro."
+    },
+    {
+     "type": "text",
+     "text": "O contexto do Período Regencial foi marcado"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Por revoltas populares que reclamavam a volta da monarquia."
+    },
+    {
+     "letter": "B",
+     "text": "Por várias crises e pela submissão das forças políticas ao poder central."
+    },
+    {
+     "letter": "C",
+     "text": "Pela luta entre os principais grupos políticos que reivindicavam melhores condições de vida."
+    },
+    {
+     "letter": "D",
+     "text": "Pelo governo dos chamados regentes, que promoveram a ascensão social dos \"barões do café\"."
+    },
+    {
+     "letter": "E",
+     "text": "Pela convulsão política e por novas realidades econômicas que exigiam o reforço de velhas realidades sociais."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2010-q32",
+   "number": 32,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "De março de 1931 a fevereiro de 1940, foram decretadas mais de 150 leis novas de proteção social e de regulamentação do trabalho em todos os seus setores. Todas elas têm sido simplesmente uma dádiva do governo. Desde aí, o trabalhador brasileiro encontra nos quadros gerais do regime o seu verdadeiro lugar."
+    },
+    {
+     "type": "text",
+     "text": "DANTAS, M. A força nacionalizadora do Estado Novo. Rio\nde Janeiro: DIP, 1942. Apud BERCITO, S. R. Nos Tempos\nde Getúlio: da revolução de 30 ao fim do Estado Novo. São\nPaulo: Atual, 1990."
+    },
+    {
+     "type": "text",
+     "text": "A adoção de novas políticas públicas e as mudanças jurídico-institucionais ocorridas no Brasil, com a ascensão de Getúlio Vargas ao poder, evidenciam o papel histórico de certas lideranças e a importância das lutas sociais na conquista da cidadania. Desse processo resultou a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Criação do Ministério do Trabalho, Indústria e Comércio, que garantiu ao operariado autonomia para o exercício de atividades sindicais."
+    },
+    {
+     "letter": "B",
+     "text": "Legislação previdenciária, que proibiu migrantes de ocuparem cargos de direção nos sindicatos."
+    },
+    {
+     "letter": "C",
+     "text": "Criação da Justiça do Trabalho, para coibir ideologias consideradas perturbadoras da \"harmonia social\"."
+    },
+    {
+     "letter": "D",
+     "text": "Legislação trabalhista que atendeu reivindicações dos operários, garantido-lhes vários direitos e formas de proteção."
+    },
+    {
+     "letter": "E",
+     "text": "Decretação da Consolidação das Leis do Trabalho (CLT), que impediu o controle estatal sobre as atividades políticas da classe operária."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2010-q33",
+   "number": 33,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Não é difícil entender o que ocorreu no Brasil nos anos imediatamente anteriores ao golpe militar de 1964. A diminuição da oferta de empregos e a desvalorização dos salários, provocadas pela inflação, levaram a uma intensa mobilização política popular, marcada por sucessivas ondas grevistas de várias categorias profissionais, o que aprofundou as tensões sociais. Dessa vez, as classes trabalhadoras se recusaram a pagar o pato pelas sobras” do modelo econômico juscelinista."
+    },
+    {
+     "type": "text",
+     "text": "MENDONÇA, S. R. A industrialização Brasileira. São\nPaulo: Moderna, 2002 (adaptado)"
+    },
+    {
+     "type": "text",
+     "text": "Segundo o texto, os conflitos sociais ocorridos no início dos anos 1960 decorreram principalmente"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Da manipulação política empreendida pelo governo Joao Goulart."
+    },
+    {
+     "letter": "B",
+     "text": "Das contradições econômicas do modelo desenvolvimentista."
+    },
+    {
+     "letter": "C",
+     "text": "Do poder político adquirido pelos sindicatos populistas."
+    },
+    {
+     "letter": "D",
+     "text": "Da desmobilização das classes dominantes frente ao avanço das greves."
+    },
+    {
+     "letter": "E",
+     "text": "Da recusa dos sindicatos em aceitar mudanças na legislação trabalhista."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2010-q34",
+   "number": 34,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A lei não nasce da natureza, junto das fontes frequentadas pelos primeiros pastores: a lei nasce das batalhas reais, das vitórias, dos massacres, das conquistas que têm sua data e seus heróis de horror: a lei nasce das cidades incendiadas, das terras devastadas; ela nasce com os famosos inocentes que agonizam no dia que está amanhecendo."
+    },
+    {
+     "type": "text",
+     "text": "FOUCAULT. M. Aula de 14 de janeiro de 1976. In. Em defesa da\nsociedade. São Paulo: Martins Fontes. 1999"
+    },
+    {
+     "type": "text",
+     "text": "O filósofo Michel Foucault (séc. XX) inova ao pensar a política e a lei em relação ao poder e à organização social. Com base na reflexão de Foucault, a finalidade das leis na organização das sociedades modernas é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Combater ações violentas na guerra entre as nações."
+    },
+    {
+     "letter": "B",
+     "text": "Coagir e servir para refrear a agressividade humana."
+    },
+    {
+     "letter": "C",
+     "text": "Criar limites entre a guerra e a paz praticadas entre os indivíduos de uma mesma nação."
+    },
+    {
+     "letter": "D",
+     "text": "Estabelecer princípios éticos que regulamentam as ações bélicas entre países inimigos."
+    },
+    {
+     "letter": "E",
+     "text": "Organizar as relações de poder na sociedade e entre os Estados."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2010-q35",
+   "number": 35,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Opinião"
+    },
+    {
+     "type": "text",
+     "text": "Podem me prender\nPodem me bater\nPodem até deixar-me sem comer\nQue eu não mudo de opinião.\nAqui do morro eu não saio não\nAqui do morro eu não saio não."
+    },
+    {
+     "type": "text",
+     "text": "Se não tem água\nEu furo um poço"
+    },
+    {
+     "type": "text",
+     "text": "Se não tem carne\nEu compro um osso e ponho na sopa\nE deixa andar, deixa andar…"
+    },
+    {
+     "type": "text",
+     "text": "Falem de mim\nQuem quiser falar\nAqui eu não pago aluguel\nSe eu morrer amanhã seu doutor,\nEstou pertinho do céu"
+    },
+    {
+     "type": "text",
+     "text": "Zé Ketti. Opinião. Disponível em: http:/www.mpbnet.com.br.\nAcesso em: 28 abr. 2010."
+    },
+    {
+     "type": "text",
+     "text": "Essa música fez parte de um importante espetáculo teatral que estreou no ano de 1964, no Rio de Janeiro. O papel exercido pela Música Popular Brasileira (MPB) nesse contexto, evidenciado pela letra de música citada, foi o de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Entretenimento para os grupos intelectuais."
+    },
+    {
+     "letter": "B",
+     "text": "Valorização do progresso econômico do país."
+    },
+    {
+     "letter": "C",
+     "text": "Crítica à passividade dos setores populares."
+    },
+    {
+     "letter": "D",
+     "text": "Denúncia da situação social e política do país."
+    },
+    {
+     "letter": "E",
+     "text": "Mobilização dos setores que apoiavam a Ditadura Militar."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2010-q36",
+   "number": 36,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A caixa de pandora tecnológica penetra nos lares e libera suas cabeças falantes, astros, novelas, noticiários e as fabulosas, irresistíveis garotas-propaganda, versões modernizadas do tradicional homem-sanduíche."
+    },
+    {
+     "type": "text",
+     "text": "SEVCENKO, N. (Org). História da Vida Privada no Brasil 3.\nRepública: da Belle Époque à Era do Rádio.\nSão Paulo: Cia das Letras, 1998."
+    },
+    {
+     "type": "text",
+     "text": "A TV, a partir da década de 1950, entrou nos lares brasileiros provocando mudanças consideráveis nos hábitos da população. Certos episódios da história brasileira revelaram que a TV, especialmente como espaço de ação da imprensa, tornou-se também veículo de utilidade pública, a favor da democracia, na medida em que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Amplificou os discursos nacionalistas e autoritários durante o governo Vargas."
+    },
+    {
+     "letter": "B",
+     "text": "Revelou para o país casos de corrupção na esfera política de vários governos."
+    },
+    {
+     "letter": "C",
+     "text": "Maquiou indicadores sociais negativos durante as décadas de 1970 e 1980."
+    },
+    {
+     "letter": "D",
+     "text": "Apoiou, no governo Castelo Branco, as iniciativas de fechamento do parlamento."
+    },
+    {
+     "letter": "E",
+     "text": "Corroborou a construção de obras faraônicas durante os governos militares."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2010-q37",
+   "number": 37,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Os meios de comunicação funcionam como um elo entre os diferentes segmentos de uma sociedade. Nas últimas décadas, acompanhamos a inserção de um novo meio de comunicação que supera em muito outros já existentes, visto que pode contribuir para a democratização da vida social e política da sociedade à medida que possibilita a instituição de mecanismos eletrônicos para a efetiva participação política e disseminação de informações."
+    },
+    {
+     "type": "text",
+     "text": "Constitui o exemplo mais expressivo desse novo conjunto de redes informacionais a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Internet."
+    },
+    {
+     "letter": "B",
+     "text": "Fibra ótica."
+    },
+    {
+     "letter": "C",
+     "text": "TV digital."
+    },
+    {
+     "letter": "D",
+     "text": "Telefonia móvel."
+    },
+    {
+     "letter": "E",
+     "text": "Portabilidade telefônica."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2010-q38",
+   "number": 38,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A poluição e outras ofensas ambientais ainda não tinham esse nome, mas já eram largamente notadas no século XIX, nas grandes cidades inglesas e continentais. E a própria chegada ao campo das estradas de ferro suscitou protestos. A reação antimaquinista, protagonizada pelos diversos luddismos, antecipa a batalha atual dos ambientalistas. Esse era, então, o combate social contra os miasmas urbanos."
+    },
+    {
+     "type": "text",
+     "text": "SANTOS M. A natureza do espaço: técnica e tempo, razão e emoção. São Paulo: EDUSP, 2002 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O crescente desenvolvimento técnico-produtivo impõe modificações na paisagem e nos objetos culturais vivenciados pelas sociedades. De acordo com o texto, pode-se dizer que tais movimentos sociais emergiram e se expressaram por meio"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Das ideologias conservacionistas, com milhares de adeptos no meio urbano."
+    },
+    {
+     "letter": "B",
+     "text": "Das políticas governamentais de preservação dos objetos naturais e culturais."
+    },
+    {
+     "letter": "C",
+     "text": "Das teorias sobre a necessidade de harmonização entre técnica e natureza."
+    },
+    {
+     "letter": "D",
+     "text": "Dos boicotes aos produtos das empresas exploradoras e poluentes."
+    },
+    {
+     "letter": "E",
+     "text": "Da contestação à degradação do trabalho, das tradições e da natureza."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2010-q39",
+   "number": 39,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A ética precisa ser compreendida como um empreendimento coletivo a ser constantemente retomado e rediscutido, porque é produto da relação interpessoal e social. A ética supõe ainda que cada grupo social se organize sentindo-se responsável por todos e que crie condições para o exercício de um pensar e agir autônomos. A relação entre ética e política é também uma questão de educação e luta pela soberania dos povos. É necessária uma ética renovada, que se construa a partir da natureza dos valores sociais para organizar também uma nova prática política."
+    },
+    {
+     "type": "text",
+     "text": "CORDI et al. Para filosofar. São Paulo: Scipione, 2007 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O Século XX teve de repensar a ética para enfrentar novos problemas oriundos de diferentes crises sociais, conflitos ideológicos e contradições da realidade. Sob esse enfoque e a partir do texto, a ética pode ser compreendida como"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Instrumento de garantia da cidadania, porque através dela os cidadãos passam a pensar e agir de acordo com valores coletivos."
+    },
+    {
+     "letter": "B",
+     "text": "Mecanismo de criação de direitos humanos, porque é da natureza do homem ser ético e virtuoso."
+    },
+    {
+     "letter": "C",
+     "text": "Meio para resolver os conflitos sociais no cenário da globalização, pois a partir do entendimento do que é efetivamente a ética, a política internacional se realiza."
+    },
+    {
+     "letter": "D",
+     "text": "Parâmetro para assegurar o exercício político primando pelos interesses e ação privada dos cidadãos."
+    },
+    {
+     "letter": "E",
+     "text": "Aceitação de valores universais implícitos numa sociedade que busca dimensionar sua vinculação à outras sociedades."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2010-q40",
+   "number": 40,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Homens da Inglaterra, por que arar para os senhores que\nvos mantêm na miséria?"
+    },
+    {
+     "type": "text",
+     "text": "Por que tecer com esforços e cuidado as ricas roupas que\nvossos tiranos vestem?"
+    },
+    {
+     "type": "text",
+     "text": "Por que alimentar, vestir e poupar do berço até o túmulo\nesses parasitas ingratos que exploram vosso suor — ah,\nque bebem vosso sangue?"
+    },
+    {
+     "type": "text",
+     "text": "SHELLEY. Os homens da Inglaterra. Apud HUBERMAN, L.\nHistória da Riqueza do Homem. Rio de Janeiro: Zahar, 1982."
+    },
+    {
+     "type": "text",
+     "text": "A análise do trecho permite identificar que o poeta romântico Shelley (1792-1822) registrou uma contradição nas condições socioeconômicas da nascente classe trabalhadora inglesa durante a Revolução Industrial. Tal contradição está identificada"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Na pobreza dos empregados, que estava dissociada da riqueza dos patrões."
+    },
+    {
+     "letter": "B",
+     "text": "No salário dos operários, que era proporcional aos seus esforços nas indústrias."
+    },
+    {
+     "letter": "C",
+     "text": "Na burguesia, que tinha seus negócios financiados pelo proletariado."
+    },
+    {
+     "letter": "D",
+     "text": "No trabalho, que era considerado uma garantia de liberdade."
+    },
+    {
+     "letter": "E",
+     "text": "Na riqueza, que não era usufruída por aqueles que a produziam."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2010-q41",
+   "number": 41,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "“Pecado nefando” era expressão correntemente utilizada pelos inquisidores para a sodomia. Nefandus: o que não pode ser dito. A Assembleia de clérigos reunida em Salvador, em 1707, considerou a sodomia “tão péssimo e horrendo crime”, tao contrário à lei da natureza, que “era indigno de ser nomeado” e, por isso mesmo, nefando."
+    },
+    {
+     "type": "text",
+     "text": "NOVAIS, F.; MELLO E SOUZA L. História da vida privada no\nBrasil. V. 1. São Paulo: Companhia das Letras. 1997 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "TEXTO II"
+    },
+    {
+     "type": "text",
+     "text": "O número de homossexuais assassinados no Brasil bateu o recorde histórico em 2009. De acordo com o Relatório Anual de Assassinato de Homossexuais (LGBT – Lés – bicas, Gays, Bissexuais e Travestis), nesse ano foram registrados 195 mortos por motivação homofóbica no País."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.alemdanoticia.com.br/utimas_noticias.php?codnoticia=3871. Acesso em: 29 abr. 2010 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A homofobia é a rejeição e menosprezo à orientação sexual do outro e, muitas vezes, expressa-se sob a forma de comportamentos violentos. Os textos indicam que as condenações públicas, perseguições e assassinatos de homossexuais no país estão associadas"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "À baixa representatividade polítíca de grupos organizados que defendem os direitos de cidadania dos homossexuais."
+    },
+    {
+     "letter": "B",
+     "text": "À falência da democracia no país, que torna impeditiva a divulgação de estatísticas relacionadas à violência contra homossexuais."
+    },
+    {
+     "letter": "C",
+     "text": "À Constituição de 1988, que exclui do tecido social os homossexuais, além de impedi-los de exercer seus direitos políticos."
+    },
+    {
+     "letter": "D",
+     "text": "A um passado histórico marcado pela demonização do corpo e por formas recorrentes de tabus e intolerância."
+    },
+    {
+     "letter": "E",
+     "text": "A uma política eugênica desenvolvida pelo Estado, justificada a partir dos posicionamentos de correntes filosófico-científicas."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2010-q42",
+   "number": 42,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "As cortes de apelação rejeitaram mais de 10 mil habeas corpus nos casos das pessoas desaparecidas. Nos tribunais militares, todas as causas foram concluídas com suspensões temporárias ou definitivas, e os desaparecimentos políticos tiveram apenas trâmite formal na Justiça. Assim, o Poder Judiciário contribuiu para que os agentes estatais ficassem impunes."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://www.cartamaior.com.br.\nAcesso em: 20 jul. 2010 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Segundo o texto, durante a ditadura chilena na década de 1970, a relação entre os poderes Executivo e Judiciário caracterizava-se pela"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Preservação da autonomia institucional entre os poderes."
+    },
+    {
+     "letter": "B",
+     "text": "Valorização da atuação independente de alguns juízes."
+    },
+    {
+     "letter": "C",
+     "text": "Manutenção da interferência jurídica nos atos executivos."
+    },
+    {
+     "letter": "D",
+     "text": "Transferência das funções dos juízes para o chefe de Estado."
+    },
+    {
+     "letter": "E",
+     "text": "Subordinação do poder judiciário aos interesses políticos dominantes."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2010-q43",
+   "number": 43,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um banco inglês decidiu cobrar de seus clientes cinco libras toda vez que recorressem aos funcionários de suas agências. E o motivo disso é que, na verdade, não querem clientes em suas agências; o que querem é reduzir o número de agências, fazendo com que os clientes usem as máquinas automáticas em todo o tipo de transações. Em suma, eles querem se livrar de seus funcionários."
+    },
+    {
+     "type": "text",
+     "text": "HOBSBAWM, E. O novo século. São Paulo: Companhia das Letras,\n2000 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O exemplo mencionado permite identificar um aspecto da adoção de novas tecnologias na economia capitalista contemporânea. Um argumento utilizado pelas empresas e uma consequência social de tal aspecto estão em"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Qualidade total e estabilidade no trabalho."
+    },
+    {
+     "letter": "B",
+     "text": "Pleno emprego e enfraquecimento dos sindicatos."
+    },
+    {
+     "letter": "C",
+     "text": "Diminuição dos custos e insegurança no emprego."
+    },
+    {
+     "letter": "D",
+     "text": "Responsabilidade social e redução do desemprego."
+    },
+    {
+     "letter": "E",
+     "text": "Maximização dos lucros e aparecimento de empregos."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2010-q44",
+   "number": 44,
+   "subject": "Ciências Humanas",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Na ética contemporânea, o sujeito não é mais um sujeito substancial, soberano e absolutamente livre, nem um sujeito empírico puramente natural. Ele é simultaneamente os dois, na medida em que é um sujeito histórico-social. Assim, a ética adquire um dimensionamento político, uma vez que a ação do sujeito não pode mais ser vista e avaliada fora da relação social coletiva. Desse modo, a ética se entrelaça, necessariamente, com a política, entendida esta como a área de avaliação dos valores que atravessam as relações sociais e que interliga os indivíduos entre si."
+    },
+    {
+     "type": "text",
+     "text": "SEVERINO. A. J. Filosofia. São Paulo: Cortez, 1992 (adaptado)"
+    },
+    {
+     "type": "text",
+     "text": "O texto, ao evocar a dimensão histórica do processo de formação da ética na sociedade contemporânea, ressalta"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Os conteúdos éticos decorrentes das ideologias político-partidárias."
+    },
+    {
+     "letter": "B",
+     "text": "O valor da ação humana derivada de preceitos metafísicos."
+    },
+    {
+     "letter": "C",
+     "text": "A sistematização de valores desassociados da cultura."
+    },
+    {
+     "letter": "D",
+     "text": "O sentido coletivo e político das ações humanas individuais."
+    },
+    {
+     "letter": "E",
+     "text": "O julgamento da ação ética pelos políticos eleitos democraticamente."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2010-q46",
+   "number": 46,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A vacina, o soro e os antibióticos submetem os organismos a processos biológicos diferentes. Pessoas que viajam para regiões em que ocorrem altas incidências de febre amarela, de picadas de cobras peçonhentas e de leptospirose e querem evitar ou tratar problemas de saúde relacionados a essas ocorrências devem seguir determinadas orientações."
+    },
+    {
+     "type": "text",
+     "text": "Ao procurar um posto de saúde, um viajante deveria ser orientado por um médico a tomar preventivamente ou como medida de tratamento"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Antibiótico contra o vírus da febre amarela, soro antiofídico caso seja picado por uma cobra e vacina contra a leptospirose."
+    },
+    {
+     "letter": "B",
+     "text": "Vacina contra o vírus da febre amarela, soro antiofídico caso seja picado por uma cobra e antibiótico caso entre em contato com a Leptospira sp."
+    },
+    {
+     "letter": "C",
+     "text": "Soro contra o vírus da febre amarela, antibiótico caso seja picado por uma cobra e soro contra toxinas bacterianas."
+    },
+    {
+     "letter": "D",
+     "text": "Antibiótico ou soro, tanto contra o vírus da febre amarela como para veneno de cobras, e vacina contra a leptospirose."
+    },
+    {
+     "letter": "E",
+     "text": "Soro antiofídico e antibiótico contra a Leptospira sp e vacina contra a febre amarela caso entre em contato com o vírus causador da doença."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2010-q47",
+   "number": 47,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "As ondas eletromagnéticas, como a luz visível e as ondas de rádio, viajam em linha reta em um meio homogêneo. Então, as ondas de rádio emitidas na região litorânea do Brasil não alcançariam a região amazônica do Brasil por causa da curvatura da Terra. Entretanto sabemos que é possível transmitir ondas de rádio entre essas localidades devido à ionosfera."
+    },
+    {
+     "type": "text",
+     "text": "Com ajuda da ionosfera, a transmissão de ondas planas entre o litoral do Brasil e a região amazônica é possível por meio da"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Reflexão."
+    },
+    {
+     "letter": "B",
+     "text": "Refração."
+    },
+    {
+     "letter": "C",
+     "text": "Difração."
+    },
+    {
+     "letter": "D",
+     "text": "Polarização."
+    },
+    {
+     "letter": "E",
+     "text": "Interferência."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2010-q49",
+   "number": 49,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A cárie dental resulta da atividade de bactérias que degradam os açúcares e os transformam em ácidos que corroem a porção mineralizada dos dentes. O flúor, juntamente com o cálcio e um açúcar chamado xilitol, agem inibindo esse processo. Quando não se escovam os dentes corretamente e neles acumulam-se restos de alimentos, as bactérias que vivem na boca aderem aos dentes, formando a placa bacteriana ou biofilme. Na placa, elas transformam o açúcar dos restos de alimentos em ácidos, que corroem o esmalte do dente formando uma cavidade, que é a cárie. Vale lembrar que a placa bacteriana se forma mesmo na ausência de ingestão de carboidratos fermentáveis, pois as bactérias possuem polissacarídeos intracelulares de reserva."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://www.diariodasaude.com.br. Acesso em: 11 ago. 2010 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "cárie 1. destruição de um osso por corrosão progressiva.\n* cárie dentária: efeito da destruição da estrutura dentária por bactérias."
+    },
+    {
+     "type": "text",
+     "text": "HOUAISS, Antônio. Dicionário eletrônico. Versão 1.0. Editora\nObjetiva, 2001 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A partir da leitura do texto, que discute as causas do aparecimento de cáries, e da sua relação com as informações do dicionário, conclui-se que a cárie dental resulta, principalmente, de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Falta de flúor e de cálcio na alimentação diária da população brasileira."
+    },
+    {
+     "letter": "B",
+     "text": "Consumo exagerado do xilitol, um açúcar, na dieta alimentar diária do indivíduo."
+    },
+    {
+     "letter": "C",
+     "text": "Redução na proliferação bacteriana quando a saliva é desbalanceada pela má alimentação."
+    },
+    {
+     "letter": "D",
+     "text": "Uso exagerado do flúor, um agente que em alta quantidade torna-se tóxico à formação dos dentes."
+    },
+    {
+     "letter": "E",
+     "text": "Consumo excessivo de açúcares na alimentação e má higienizaçao bucal, que contribuem para a proliferação de bactérias."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2010-q50",
+   "number": 50,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em nosso cotidiano, utilizamos as palavras “calor” e “temperatura” de forma diferente de como elas são usadas no meio científico. Na linguagem corrente, calor é identificado como “algo quente” e temperatura mede a “quantidade de calor de um corpo”. Esses significados, no entanto, não conseguem explicar diversas situações que podem ser verificadas na prática."
+    },
+    {
+     "type": "text",
+     "text": "Do ponto de vista científico, que situação prática mostra a limitação dos conceitos corriqueiros de calor e temperatura?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A temperatura da água pode ficar constante durante o tempo em que estiver fervendo."
+    },
+    {
+     "letter": "B",
+     "text": "Uma mãe coloca a mão na água da banheira do bebê para verificar a temperatura da água."
+    },
+    {
+     "letter": "C",
+     "text": "A chama de um fogão pode ser usada para aumentar a temperatura da água em uma panela."
+    },
+    {
+     "letter": "D",
+     "text": "A água quente que está em uma caneca é passada para outra caneca a fim de diminuir sua temperatura."
+    },
+    {
+     "letter": "E",
+     "text": "Um forno pode fornecer calor para uma vasilha de água que está em seu interior com menor temperatura do que a dele."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2010-q51",
+   "number": 51,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O texto “O vôo das Folhas” traz uma visão dos índios\nTicunas para um fenômeno usualmente observado na\nnatureza:"
+    },
+    {
+     "type": "text",
+     "text": "O vôo das Folhas\nCom o vento\nas folhas se movimentam.\nE quando caem no chão\nficam paradas em silêncio.\nAssim se forma o ngaura. O ngaura cobre o chão da\nfloresta, enriquece a terra e alimenta as árvores.]\nAs folhas velhas morrem para ajudar o crescimento das\nfolhas novas.]\nDentro do ngaura vivem aranhas, formigas, escorpiões,\ncentopeias, minhocas, cogumelos e vários tipos de outros\nseres muito pequenos.]\nAs folhas também caem nos lagos, nos igarapés e igapós."
+    },
+    {
+     "type": "text",
+     "text": "A natureza segundo os Ticunas/Livro das Árvores.\nOrganização Geral dos Professores Bilíngues Ticunas, 2000"
+    },
+    {
+     "type": "text",
+     "text": "Na visão dos índios Ticunas, a descrição sobre o ngaura permite classificá-lo como um produto diretamente relacionado ao ciclo"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Da água."
+    },
+    {
+     "letter": "B",
+     "text": "Do oxigênio."
+    },
+    {
+     "letter": "C",
+     "text": "Do fósforo."
+    },
+    {
+     "letter": "D",
+     "text": "Do carbono."
+    },
+    {
+     "letter": "E",
+     "text": "Do nitrogênio."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2010-q52",
+   "number": 52,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Com o objetivo de se testar a eficiência de fornos de micro-ondas, planejou-se o aquecimento em 10°C de amostras de diferentes substâncias, cada uma com determinada massa, em cinco fornos de marcas distintas. Nesse teste, cada forno operou à potência máxima."
+    },
+    {
+     "type": "text",
+     "text": "O forno mais eficiente foi aquele que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Forneceu a maior quantidade de energia às amostras."
+    },
+    {
+     "letter": "B",
+     "text": "Cedeu energia à amostra de maior massa em mais tempo."
+    },
+    {
+     "letter": "C",
+     "text": "Forneceu a maior quantidade de energia em menos tempo."
+    },
+    {
+     "letter": "D",
+     "text": "Cedeu energia à amostra de menor calor específico mais lentamente."
+    },
+    {
+     "letter": "E",
+     "text": "Forneceu a menor quantidade de energia às amostras em menos tempo."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2010-q53",
+   "number": 53,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O fósforo, geralmente representado pelo íon de fosfato (PO4−3), é um ingrediente insubstituível da vida, já que é parte constituinte das membranas celulares e das moléculas do DNA e do trifosfato de adenosina (ATP), principal forma de armazenamento de energia das células. O fósforo utilizado nos fertilizantes agrícolas é extraído de minas, cujas reservas estão cada vez mais escassas. Certas práticas agrícolas aceleram a erosão do solo, provocando o transporte de fósforo para sistemas aquáticos, que fica imobilizado nas rochas. Ainda, a colheita das lavouras e o transporte dos restos alimentares para os lixões diminuem a disponibilidade dos íons no solo. Tais fatores têm ameaçado a sustentabilidade desse íon."
+    },
+    {
+     "type": "text",
+     "text": "Uma medida que amenizaria esse problema seria:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Incentivar a reciclagem de resíduos biológicos, utilizando dejetos animais e restos de culturas para produção de adubo."
+    },
+    {
+     "letter": "B",
+     "text": "Repor o estoque retirado das minas com um íon sintético de fósforo para garantir o abastecimento da indústria de fertilizantes."
+    },
+    {
+     "letter": "C",
+     "text": "Aumentar a importação de íons fosfato dos países ricos para suprir as exigências das indústrias nacionais de fertilizantes."
+    },
+    {
+     "letter": "D",
+     "text": "Substituir o fósforo dos fertilizantes por outro elemento com a mesma função para suprir as necessidades do uso de seus íons."
+    },
+    {
+     "letter": "E",
+     "text": "Proibir, por meio de lei federal, o uso de fertilizantes com fósforo pelos agricultores, para diminuir sua extração das reservas naturais."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2010-q55",
+   "number": 55,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em visita a uma usina sucroalcooleira, um grupo de alunos pôde observar a série de processos de beneficiamento da cana-de-açúcar, entre os quais se destacam:\n1\\. A cana chega cortada da lavoura por meio de caminhões e é despejada em mesas alimentadoras que a conduzem para as moendas. Antes de ser esmagada\npara a retirada do caldo açucarado, toda a cana é transportada por esteiras e passada por um eletroímã para a retirada de materiais metálicos.\n2\\. Após se esmagar a cana, o bagaço segue para as caldeiras, que geram vapor e energia para toda a usina.\n3\\. O caldo primário, resultante do esmagamento, é passado por filtros e sofre tratamento para transformar-se em açúcar refinado e etanol."
+    },
+    {
+     "type": "text",
+     "text": "Com base nos destaques da observação dos alunos, quais operações físicas de separação de materiais foram realizadas nas etapas de beneficiamento da cana-de-açúcar?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Separação mecânica, extração, decantação."
+    },
+    {
+     "letter": "B",
+     "text": "Separação magnética, combustão, filtração."
+    },
+    {
+     "letter": "C",
+     "text": "Separação magnética, extração, filtração."
+    },
+    {
+     "letter": "D",
+     "text": "Imantação, combustão, peneiração."
+    },
+    {
+     "letter": "E",
+     "text": "Imantação, destilação, filtração."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2010-q57",
+   "number": 57,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O despejo de dejetos de esgotos domésticos e industriais vem causando sérios problemas aos rios brasileiros. Esses poluentes são ricos em substâncias que contribuem para a eutrofização de ecossistemas, que é um enriquecimento da água por nutrientes, o que provoca um grande crescimento bacteriano e, por fim, pode promover escassez de oxigênio."
+    },
+    {
+     "type": "text",
+     "text": "Uma maneira de evitar a diminuição da concentração de oxigênio no ambiente é:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Aquecer as águas dos rios para aumentar a velocidade de decomposição dos dejetos."
+    },
+    {
+     "letter": "B",
+     "text": "Retirar do esgoto os materiais ricos em nutrientes para diminuir a sua concentração nos rios."
+    },
+    {
+     "letter": "C",
+     "text": "Adicionar bactérias anaeróbicas às águas dos rios para que elas sobrevivam mesmo sem oxigênio."
+    },
+    {
+     "letter": "D",
+     "text": "Substituir produtos não degradáveis por biodegradáveis para que as bactérias possam utilizar os nutrientes."
+    },
+    {
+     "letter": "E",
+     "text": "Aumentar a solubilidade dos dejetos no esgoto para que os nutrientes fiquem mais acessíveis às bactérias."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2010-q58",
+   "number": 58,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Sob pressão normal (ao nível do mar), a água entra em ebulição à temperatura de 100 °C. Tendo por base essa afirmação, um garoto residente em uma cidade litorânea fez a seguinte experiência:"
+    },
+    {
+     "type": "text",
+     "text": "*   – Colocou uma caneca metálica contendo água no fogareiro do fogão de sua casa.\n*   – Quando a água começou a ferver, encostou, cuidadosamente, a extremidade mais estreita de uma seringa de injeção, desprovida de agulha, na superfície do líquido e, erguendo o êmbolo da seringa, aspirou certa quantidade de água para seu interior, tampando-a em seguida.\n*   – Verificando após alguns instantes que a água da seringa havia parado de ferver, ele ergueu o êmbolo da seringa, constatando, intrigado, que a água voltou a ferver após um pequeno deslocamento do êmbolo."
+    },
+    {
+     "type": "text",
+     "text": "Considerando o procedimento anterior, a água volta a ferver porque esse deslocamento"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Permite a entrada de calor do ambiente externo para o interior da seringa."
+    },
+    {
+     "letter": "B",
+     "text": "Provoca, por atrito, um aquecimento da água contida na seringa."
+    },
+    {
+     "letter": "C",
+     "text": "Produz um aumento de volume que aumenta o ponto de ebulição da água."
+    },
+    {
+     "letter": "D",
+     "text": "Proporciona uma queda de pressão no interior da seringa que diminui o ponto de ebulição da água."
+    },
+    {
+     "letter": "E",
+     "text": "Possibilita uma diminuição da densidade da água que facilita sua ebulição."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2010-q59",
+   "number": 59,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "As cidades industrializadas produzem grandes proporções de gases como o CO2. o principal gás causador de efeito estufa. Isso ocorre por causa da quantidade de combustíveis fósseis queimados, principalmente no transporte, mas também em caldeiras industriais. Além disso, nessas cidades concentram-se as maiores áreas com solos asfaltados e concretados, o que aumenta a retenção de calor, formando o que se conhece por “ilhas de calor”. Tal fenômeno ocorre porque esses materiais absorvem o calor e o devolvem para o ar sob a forma de radiação térmica."
+    },
+    {
+     "type": "text",
+     "text": "Em áreas urbanas, devido à atuação conjunta do efeito estufa e das “ilhas de calor”, espera-se que o consumo de energia elétrica"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Diminua devido a utilização de caldeiras por indústrias metalúrgicas."
+    },
+    {
+     "letter": "B",
+     "text": "Aumente devido ao bloqueio da luz do sol pelos gases do efeito estufa."
+    },
+    {
+     "letter": "C",
+     "text": "Diminua devido à não necessidade de aquecer a água utilizada em indústrias."
+    },
+    {
+     "letter": "D",
+     "text": "Aumente devido à necessidade de maior refrigeração de indústrias e residências."
+    },
+    {
+     "letter": "E",
+     "text": "Diminua devido à grande quantidade de radiação térmica reutilizada."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2010-q60",
+   "number": 60,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A lavoura arrozeira na planície costeira da região sul do Brasil comumente sofre perdas elevadas devido a salinização da água de irrigação, que ocasiona prejuízos diretos, como a redução de produção da lavoura. Solos com processo de salinização avançado não são indicados, por exemplo, para o cultivo de arroz. As plantas retiram a água do solo quando as forças de embebição dos tecidos das raízes são superiores às forças com que a água é retida no solo."
+    },
+    {
+     "type": "text",
+     "text": "WINKEL, H.L.; TSCHIEDEL, M. Cultura do arroz: salinização de solos em cultivo do arroz.\nDisponível em: http://agropage.tripod.com/saliniza.hml. Acesso em: 25 jun. 2010 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A presença de sais na solução do solo faz com que seja dificultada a absorção de água pelas plantas, o que provoca o fenômeno conhecido por seca fisiológica, caracterizado pelo(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Aumento da salinidade, em que a água do solo atinge uma concentração de sais maior que a das células das raízes das plantas, impedindo, assim, que a água seja absorvida."
+    },
+    {
+     "letter": "B",
+     "text": "Aumento da salinidade, em que o solo atinge um nível muito baixo de água, e as plantas não tem força de sucção para absorver a água."
+    },
+    {
+     "letter": "C",
+     "text": "Diminuição da salinidade, que atinge um nível em que as plantas não têm força de sucção, fazendo com que a água não seja absorvida."
+    },
+    {
+     "letter": "D",
+     "text": "Aumento da salinidade, que atinge um nível em que as plantas têm muita sudação, não tendo força de sucção para superá-la."
+    },
+    {
+     "letter": "E",
+     "text": "Diminuição da salinidade, que atinge um nível em que as plantas ficam túrgidas e não têm força de sudação para superá-la."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2010-q61",
+   "number": 61,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "No ano de 2000, um vazamento em um duto de óleo na baía de Guanabara (RJ) causou um dos maiores acidentes ambientais do Brasil. Além de afetar a fauna e a flora, o acidente abalou o equilíbrio da cadeia alimentar de toda a baía. O petróleo forma uma película na superfície da água, o que prejudica as trocas gasosas da atmosfera com a água e desfavorece a realização de fotossíntese pelas algas, que estão na base da cadeia alimentar hídrica. Além disso, o derramamento de óleo contribuiu para o envenenamento das árvores e, consequentemente, para a intoxicação da fauna e flora aquáticas, bem como conduziu à morte diversas espécies de animais, entre outras formas de vida, afetando também a atividade pesqueira."
+    },
+    {
+     "type": "text",
+     "text": "LAUBIER, L. Diversidade da Maré Negra. In: Scientific American Brasil. 4(39), ago. 2005 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A situação exposta no texto e suas implicações"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Indicam a independência da espécie humana com relação ao ambiente marinho."
+    },
+    {
+     "letter": "B",
+     "text": "Alertam para a necessidade do controle da poluição ambiental para a redução do efeito estufa."
+    },
+    {
+     "letter": "C",
+     "text": "Ilustram a interdependência das diversas formas de vida (animal, vegetal e outras) e o seu habitat."
+    },
+    {
+     "letter": "D",
+     "text": "Indicam a alta resistência do meio ambiente à ação do homem, além de evidenciar a sua sustentabilidade  mesmo em condições extremas de poluição."
+    },
+    {
+     "letter": "E",
+     "text": "Evidenciam a grande capacidade animal de se adaptar às mudanças ambientais, em contraste com a baixa capacidade das espécies vegetais, que estão na base da cadeia alimentar hídrica."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2010-q64",
+   "number": 64,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Alguns anfíbios e répteis são adaptados à vida subterrânea. Nessa situação, apresentam algumas características corporais como, por exemplo, ausência de patas, corpo anelado que facilita o deslocamento no subsolo e, em alguns casos, ausência de olhos."
+    },
+    {
+     "type": "text",
+     "text": "Suponha que um biólogo tentasse explicar a origem das adaptações mencionadas no texto utilizando conceitos da teoria evolutiva de Lamark. Ao adotar esse ponto de vista, ele diria que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "As características citadas no texto foram originadas pela seleção natural."
+    },
+    {
+     "letter": "B",
+     "text": "A ausência de olhos teria sido causada pela falta de uso dos mesmos, segundo a lei do uso e desuso."
+    },
+    {
+     "letter": "C",
+     "text": "O corpo anelado é uma característica fortemente adaptativa, mas transmitida apenas à primeira geração de descendentes."
+    },
+    {
+     "letter": "D",
+     "text": "As patas teriam sido perdidas pela falta de uso e, em seguida, essa característica foi incorporada ao patrimônio genético e então transmitidas aos descendentes."
+    },
+    {
+     "letter": "E",
+     "text": "As características citadas no texto foram adquiridas por meio de mutações e depois, ao longo do tempo, foram selecionadas por serem mais adaptadas ao ambiente em que os organismos se encontram."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2010-q65",
+   "number": 65,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "As misturas efervescentes, em pó ou comprimidos, são comuns para a administração de vitamina C ou de medicamentos para azia. Essa forma farmacêutica sólida foi desenvolvida para facilitar o transporte, aumentar a estabilidade de substâncias e, quando em solução, acelerar a absorção do fármaco pelo organismo.\nAs matérias primas que atuam na efervescência são, em geral, o ácido tartárico ou ácido cítrico que reagem como um sal de caráter básico, como o bicarbonato de sódio (NaHCO3), quando em contato com a água. A partir do contato da mistura efervescente com a água, ocorre uma série de reações químicas simultâneas: liberação de íons, formação de ácido e liberação de gás carbônico – gerando a efervescência.\nAs equações a seguir representam as etapas da reação da mistura efervescente na água, em que foram omitidos os estados de agregação dos reagentes, e H3A representa o ácido cítrico.\nI – NaHCO3 → NA+ + HCO3\nII – H2CO3 ↔H2O + CO2\nIII – HCO3 + H+ ↔ H2CO3\nIV – H3A ↔ 3H+ + A−"
+    },
+    {
+     "type": "text",
+     "text": "A ionização, a dissociação iônica, a formação do ácido e a liberação do gás ocorrem, respectivamente, nas seguintes etapas:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "IV, I, II e III."
+    },
+    {
+     "letter": "B",
+     "text": "I, IV, III e II."
+    },
+    {
+     "letter": "C",
+     "text": "IV, III, I e II."
+    },
+    {
+     "letter": "D",
+     "text": "I, IV, II e III."
+    },
+    {
+     "letter": "E",
+     "text": "IV, I, III e II."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2010-q66",
+   "number": 66,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Um ambiente capaz de asfixiar todos os animais conhecidos do planeta foi colonizado por pelo menos três espécies diferentes de invertebrados marinhos. Descobertos a mais de 3.000 m de profundidade no Mediterrâneo, eles são os primeiros membros do reino animal a prosperar mesmo diante da ausência total de oxigênio. Até agora, achava-se que só bactérias pudessem ter esse estilo de vida. Não admira que os bichos pertençam a um grupo pouco conhecido, o dos loriciferos, que mal chegam a 1,0 mm. Apesar do tamanho, possuem cabeça, boca, sistema digestivo e carapaça. A adaptação dos bichos à vida no sufoco é tão profunda que suas células dispensaram as chamadas mitocôndrias."
+    },
+    {
+     "type": "text",
+     "text": "LOPES, R. J. Italianos descobrem animal que vive em água sem oxigênio. Disponível em: http://www1.folha.uol.com.br. Acesso em: 10 abr. 2010 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Que substâncias poderiam ter a mesma função do O<sub>2</sub> na respiração celular realizada pelos loricíferos?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "S e CH4"
+    },
+    {
+     "letter": "B",
+     "text": "S e NO3-"
+    },
+    {
+     "letter": "C",
+     "text": "H2 e NO3-"
+    },
+    {
+     "letter": "D",
+     "text": "CO2 e CH4"
+    },
+    {
+     "letter": "E",
+     "text": "H2 e CO2"
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2010-q67",
+   "number": 67,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O abastecimento de nossas necessidades energéticas futuras dependerá certamente do desenvolvimento de tecnologias para aproveitar a energia solar com maior eficiência. A energia solar é a maior fonte de energia mundial. Num dia ensolarado, por exemplo, aproximadamente 1 kJ de energia solar atinge cada metro quadrado de superfície terrestre por segundo. No entanto, o aproveitamento dessa energia é difícil porque ela é diluída (distribuída por uma área muito extensa) e oscila com o horário e as condições climáticas. O uso efetivo da energia solar depende de formas de estocar a energia coletada para o uso posterior."
+    },
+    {
+     "type": "text",
+     "text": "BROWN, T. Química e Ciência Central. São Paulo: Pearson Prentice Hall, 2005."
+    },
+    {
+     "type": "text",
+     "text": "Atualmente, uma das formas de se utilizar a energia solar tem sido armazená-la por meio de processos químicos endotérmicos que mais tarde podem ser revertidos para liberar calor. Considerando a reação: CH4(g)+ H2O(v) + calor ↔CO(g) + 3H2(g) e analisando-a como potencial mecanismo para aproveitamento posterior da energia solar, conclui-se que se trata de uma estratégia"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Insatisfatória, pois a reação apresentada não permite que a energia presente no meio externo seja absorvida pelo sistema para ser utilizada posteriormente."
+    },
+    {
+     "letter": "B",
+     "text": "Insatisfatória, uma vez que há formação de gases poluentes e com potencial poder explosivo, tornando-a uma reação perigosa e de difícil controle."
+    },
+    {
+     "letter": "C",
+     "text": "Insatisfatória, uma vez que a a formação do gás CO que não possui conteúdo energético passível de ser aproveitado posteriormente e é considerado um gás poluente."
+    },
+    {
+     "letter": "D",
+     "text": "Satisfatória, uma vez que a reação direta ocorre com absorção de calor e promove a formação das substâncias combustíveis que poderão ser utilizadas posteriormente para a obtenção de energia e realização de trabalho útil."
+    },
+    {
+     "letter": "E",
+     "text": "Satisfatória, uma vez que a reação direta ocorre com liberação de calor havendo ainda a formação das substâncias combustíveis que poderão ser utilizadas posteriormente para a obtenção de energia a realização de trabalho útil."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2010-q71",
+   "number": 71,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O uso prolongado de lentes de contato, sobretudo durante a noite, aliado a condições precárias de higiene representam fatores de risco para o aparecimento de uma infecção denominada ceratite microbiana, que causa ulceração inflamatória na córnea. Para interromper o processo da doença, é necessário tratamento antibiótico. De modo geral, os fatores de risco provocam a diminuição da oxigenação corneana e determinam mudanças no seu metabolismo, de um estado aeróbico para anaeróbico. Como decorrência, observa-se a diminuição no número e na velocidade de mitoses do epitélio, o que predispõe ao aparecimento de defeitos epiteliais e à invasão bacteriana."
+    },
+    {
+     "type": "text",
+     "text": "CRESTA, F. Lente de contato e infecção ocular. Revista Sinopse de Oftalmologia. São Paulo: Moreira Jr., v.04, n.04, 2002 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A instalação das bactérias e o avanço do processo infeccioso na córnea estão relacionados a algumas características gerais desses micro-organismos, tais como:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A grande capacidade de adaptação, considerando as constantes mudanças no ambiente em que se reproduzem e o processo aeróbico como a melhor opção desses micro-organismos para a obtenção de energia."
+    },
+    {
+     "letter": "B",
+     "text": "A grande capacidade de sofrer mutações, aumentando a probabilidade do aparecimento de formas resistentes e o processo anaeróbico da fermentação como a principal via de obtenção de energia."
+    },
+    {
+     "letter": "C",
+     "text": "A diversidade morfológica entre as bactérias, aumentando a variedade de tipos de agentes infecciosos e a nutrição heterotrófica, como forma de esses micro-organismos obterem matéria-prima e energia."
+    },
+    {
+     "letter": "D",
+     "text": "O alto poder de reprodução, aumentando a variabilidade genética dos milhares de indivíduos e a nutrição heterotrófica, como única forma de obtenção de matéria-prima e energia desses micro-organismos."
+    },
+    {
+     "letter": "E",
+     "text": "O alto poder de reprodução, originando milhares de descendentes geneticamente idênticos entre si e a diversidade metabólica, considerando processos aeróbicos e anaeróbicos para a obtenção de energia."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2010-q72",
+   "number": 72,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Todos os organismos necessitam de água e grande parte deles vive em rios, lagos e oceanos. Os processos biológicos, como respiração e fotossíntese, exercem profunda influência na química das águas naturais em todo o planeta. O oxigênio é ator dominante na química e na bioquímica da hidrosfera. Devido a sua baixa solubilidade em água (9,0 mg/l a 20 °C) a disponibilidade de oxigênio nos ecossistemas aquáticos estabelece o limite entre a vida aeróbica e anaeróbica. Nesse contexto, um parâmetro chamado Demanda Bioquímica de Oxigênio (DBO) foi definido para medir a quantidade de matéria orgânica presente em um sistema hídrico. A DBO corresponde à massa de O2 em miligramas necessárias para realizar a oxidação total do carbono orgânico em um litro de água.\nBAIRD, C. Química Ambiental. Ed. Bookmam, 2005 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Dados: Massas molares em g/mol: C = 12; H = 1; O = 16."
+    },
+    {
+     "type": "text",
+     "text": "Suponha que 10 mg de açúcar (fórmula mínima CH2O e massa molar a 30 g/mol) são dissolvidos em um litro de água; em quanto a DBO será aumentada?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "0,4 mg de O2/litro"
+    },
+    {
+     "letter": "B",
+     "text": "1,7 mg de O2/litro"
+    },
+    {
+     "letter": "C",
+     "text": "2,7 mg de O2/litro"
+    },
+    {
+     "letter": "D",
+     "text": "9,4 mg de O2/litro"
+    },
+    {
+     "letter": "E",
+     "text": "10,7 mg de O2/litro"
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2010-q74",
+   "number": 74,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A eletrólise é muito empregada na indústria com o objetivo de reaproveitar parte dos metais sucateados. O cobre, por exemplo, é um dos metais com maior rendimento no processo de eletrólise, com uma recuperação de aproximadamente 99,9%. Por ser um metal de alto valor comercial e de múltiplas aplicações, sua recuperação torna-se viável economicamente."
+    },
+    {
+     "type": "text",
+     "text": "Suponha que, em um processo de recuperação de cobre puro, tenha-se eletrolisado uma solução de sulfato de cobre (II) (CuSO4) durante 3h, empregando-se uma corrente elétrica de intensidade igual a 10A. A massa de cobre puro recuperada é de aproximadamente\nDados: Constante de Faraday F = 96500C/mol; Massa molar em g/mol: Cu = 63,5"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "0,02 g"
+    },
+    {
+     "letter": "B",
+     "text": "0,04 g"
+    },
+    {
+     "letter": "C",
+     "text": "2,40 g"
+    },
+    {
+     "letter": "D",
+     "text": "35,5 g"
+    },
+    {
+     "letter": "E",
+     "text": "71,0 g"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2010-q76",
+   "number": 76,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Investigadores das Universidades de Oxford e da Califórnia desenvolveram uma variedade de Aedes aegypti geneticamente modificada que é candidata para uso na busca de redução na transmissão do vírus da dengue. Nessa nova variedade de mosquito, as fêmeas não conseguem voar devido à interrupção do desenvolvimento do músculo das asas. A modificação genética introduzida é um gene dominante condicional, isso é, o gene tem\nexpressão dominante (basta apenas uma cópia do alelo) e este só atua nas fêmeas."
+    },
+    {
+     "type": "text",
+     "text": "FU, G. et al. Female-specific flightless phenotype for mosquito control.\nPNAS 107 (10): 4550-4554, 2010."
+    },
+    {
+     "type": "text",
+     "text": "Prevê-se, porém, que a utilização dessa variedade de Aedes aegypti demore ainda anos para ser implementada, pois há demanda de muitos estudos com relação ao impacto ambiental. A liberação de machos de Aedes aegypti dessa variedade geneticamente modificada reduziria o número de casos de dengue em uma determinada região porque"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Diminuiria o sucesso reprodutivo desses machos transgênicos."
+    },
+    {
+     "letter": "B",
+     "text": "Restringiria a área geográfica de voo dessa espécie de mosquito."
+    },
+    {
+     "letter": "C",
+     "text": "Dificultaria a contaminação e reprodução do vetor natural da doença."
+    },
+    {
+     "letter": "D",
+     "text": "Tornaria o mosquito menos resistente ao agente etiológico da doença."
+    },
+    {
+     "letter": "E",
+     "text": "Dificultaria a obtenção de alimentos pelos machos geneticamente modificados."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2010-q78",
+   "number": 78,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Duas irmãs que dividem o mesmo quarto de estudos combinaram de comprar duas caixas com tampas para guardarem seus pertences dentro de suas caixas, evitando, assim, a bagunça sobre a mesa de estudos. Uma delas comprou uma metálica, e a outra, uma caixa de madeira de área e espessura lateral diferentes, para facilitar a identificação. Um dia as meninas foram estudar para a prova de Física e, ao se acomodarem na mesa de estudos, guardarem seus celulares ligados dentro de suas caixas. Ao longo desse dia, uma delas recebeu ligações telefônicas, enquanto os amigos da outra tentavam ligar e recebiam a mensagem de que o celular estava fora da área de cobertura ou desligado."
+    },
+    {
+     "type": "text",
+     "text": "Para explicar essa situação, um físico deveria afirmar que o material da caixa, cujo telefone celular não recebeu as ligações é de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Madeira, e o telefone não funcionava porque a madeira não é um bom condutor de eletricidade."
+    },
+    {
+     "letter": "B",
+     "text": "Metal, e o telefone não funcionava devido à blindagem eletrostática que o metal proporcionava."
+    },
+    {
+     "letter": "C",
+     "text": "Metal, e o telefone não funcionava porque o metal refletia todo tipo de radiação que nele incidia."
+    },
+    {
+     "letter": "D",
+     "text": "Metal, e o telefone não funcionava porque a área lateral da caixa de metal era maior."
+    },
+    {
+     "letter": "E",
+     "text": "Madeira, e o telefone não funcionava porque a espessura desta caixa era maior que a espessura da caixa de metal."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2010-q79",
+   "number": 79,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "As mobilizações para promover um planeta melhor para as futuras gerações são cada vez frequentes. A maior parte dos meios de transporte de massa é atualmente movida pela queima de um combustível fóssil. A título de exemplificação do ônus causado por essa prática, basta saber que um carro produz, em média, cerca de 200g de dióxido de carbono por km percorrido."
+    },
+    {
+     "type": "text",
+     "text": "Revista Aquecimento Global. Ano 2, no 8. Publicação do Instituto Brasileiro de Cultura Ltda."
+    },
+    {
+     "type": "text",
+     "text": "Um dos principais constituintes da gasolina é o octano (C8H18). Por meio da combustão do octano é possível a liberação de energia, permitindo que o carro entre em movimento. A equação que representa a reação química desse processo demonstra que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "No processo há liberação de oxigênio, sob a forma de O2"
+    },
+    {
+     "letter": "B",
+     "text": "O coeficiente estequiométrico para a água é de 8 para 1 do octano."
+    },
+    {
+     "letter": "C",
+     "text": "No processo há consumo de água, para que haja liberação de energia."
+    },
+    {
+     "letter": "D",
+     "text": "O coeficiente estequiométrico para o oxigênio é de 12,5 para 1 do octano."
+    },
+    {
+     "letter": "E",
+     "text": "O coeficiente estequiométrico para o gás carbônico é de 9 para 1 do octano"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2010-q81",
+   "number": 81,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Durante uma obra em um clube, um grupo de trabalhadores teve de remover uma escultura de ferro maciço colocada no fundo de uma piscina vazia. Cinco trabalhadores amarraram cordas à escultura e tentaram puxá-la para cima, sem sucesso."
+    },
+    {
+     "type": "text",
+     "text": "Se a piscina for preenchida com água, ficará mais fácil para os trabalhadores removerem a escultura, pois a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Escultura flutuará, desta forma, os homens não precisarão fazer força para remover a escultura do fundo."
+    },
+    {
+     "letter": "B",
+     "text": "Escultura ficará como peso menor. Desta forma, a intensidade da força necessária para elevar a escultura será menor."
+    },
+    {
+     "letter": "C",
+     "text": "Água exercerá uma força na escultura proporcional a sua massa, e para cima. Esta força se somará à força que os trabalhadores fazem para anular a ação da força peso da escultura."
+    },
+    {
+     "letter": "D",
+     "text": "Água exercerá uma força na escultura para baixo, e esta passará a receber uma força ascendente do piso da piscina. Esta força ajudará a anular a ação da força peso na escultura."
+    },
+    {
+     "letter": "E",
+     "text": "Água exercerá uma força na escultura proporcional ao seu volume, e para cima. Esta força se somará à força que os trabalhadores fazem, podendo resultar em uma força ascendente maior que o peso da escultura."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2010-q85",
+   "number": 85,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Decisão de asfaltamento da rodovia MG-010, acompanha da introdução de espécies exóticas, e a prática de incêndios criminosos, ameaçam o sofisticado ecossistema do campo rupestre da reserva da Serra do Espinhaço. As plantas nativas desta região, altamente adaptadas a uma alta concentração de alumínio, que inibe o crescimento das raízes e dificultam a absorção de nutrientes e água, estão sendo substituídas por espécies invasoras que não teriam naturalmente adaptação para este ambiente, no entanto elas estão dominando as margens da rodovia, equivocadamente chamada de “estrada ecológica”. Possivelmente a entrada de espécies de plantas exóticas neste ambiente foi provocada pelo uso, neste empreendimento, de um tipo de asfalto (cimento-solo), que possui uma mistura rica em cálcio, que causou modificações químicas aos solos adjacentes à rodovia MG-010."
+    },
+    {
+     "type": "text",
+     "text": "Scientific American. Brasil. Ano 7, nº 79. 2008 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Essa afirmação baseia-se no uso de cimento-solo, mistura rica em cálcio que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Inibe a toxicidade do alumínio, elevando o pH dessas áreas."
+    },
+    {
+     "letter": "B",
+     "text": "Inibe a toxicidade do alumínio, reduzindo o pH dessas áreas."
+    },
+    {
+     "letter": "C",
+     "text": "Aumenta a toxicidade do alumínio, elevando o pH dessas áreas."
+    },
+    {
+     "letter": "D",
+     "text": "Aumenta a toxicidade do alumínio, reduzindo o pH dessas áreas."
+    },
+    {
+     "letter": "E",
+     "text": "Neutraliza a toxicidade do alumínio, reduzindo o pH dessas áreas."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2010-q87",
+   "number": 87,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "De 15% a 20% da área de um canavial precisa ser renovada anualmente. Entre o período de corte e o de plantação de novas canas, os produtores estão optando por plantar leguminosas, pois elas fixam nitrogênio no solo, um adubo natural para a cana. Essa opção de rotação é agronomicamente favorável, de forma que municípios canavieiros são hoje grandes produtores de soja, amendoim e feijão."
+    },
+    {
+     "type": "text",
+     "text": "As encruzilhadas da fome. Planeta. São Paulo, ano 36, no 430, jul. 2008 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A rotação de culturas citada no texto pode beneficiar economicamente os produtores de cana porque"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A decomposição da cobertura morta dessas culturas resulta em economia na aquisição de adubos industrializados."
+    },
+    {
+     "letter": "B",
+     "text": "O plantio de cana-de-açúcar propicia um solo mais adequado para o cultivo posterior da soja, do amendoim e do feijão."
+    },
+    {
+     "letter": "C",
+     "text": "As leguminosas absorvem do solo elementos químicos diferentes dos absorvidos pela cana, restabelecendo o equilíbrio do solo."
+    },
+    {
+     "letter": "D",
+     "text": "A queima dos restos de vegetais do cultivo da cana-de-açúcar transforma-se em cinzas, sendo reincorporadas ao solo, o que gera economia na aquisição de adubo."
+    },
+    {
+     "letter": "E",
+     "text": "A soja, o amendoim e o feijão, além de possibilitarem a incorporação ao solo de determinadas moléculas disponíveis na atmosfera, são grãos comercializados no mercado produtivo."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2010-q88",
+   "number": 88,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Diversos comportamentos e funções fisiológicas do nosso corpo são periódicos, sendo assim, são classificados como ritmo biológico. Quando o ritmo biológico responde a um período aproximado de 24 horas, ele é denominado ritmo circadiano. Esse ritmo diário é mantido pelas pistas ambientais de claro-escuro e determina comportamentos como o ciclo do sono-vigília e o da alimentação. Uma pessoa, em condições normais, acorda às 8 h e vai dormir às 21 h, mantendo seu ciclo de sono dentro do ritmo dia e noite. Imagine que essa mesma pessoa tenha sido mantida numa sala totalmente escura por mais de quinze dias. Ao sair de lá, ela dormia às 18 h e acordava às 3 h da manhã. Além disso, dormia mais vezes durante o dia, por curtos períodos de tempo, e havia perdido a noção da contagem dos dias, pois, quando saiu, achou que havia passado muito mais tempo no escuro."
+    },
+    {
+     "type": "text",
+     "text": "Brandão, M. L. Psicofisiologia. São Paulo: Atheneu, 2000 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Em função das características observadas, conclui-se que a pessoa"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Apresentou aumento do seu período de sono contínuo e passou a dormir durante o dia, pois seu ritmo biológico foi alterado apenas no período noturno."
+    },
+    {
+     "letter": "B",
+     "text": "Apresentou pouca alteração do seu ritmo circadiano, sendo que sua noção de tempo foi alterada somente pela sua falta de atenção à passagem do tempo."
+    },
+    {
+     "letter": "C",
+     "text": "Estava com seu ritmo já alterado antes de entrar na sala, o que significa que apenas progrediu para um estado mais avançado de perda do ritmo biológico no escuro."
+    },
+    {
+     "letter": "D",
+     "text": "Teve seu ritmo biológico alterado devido à ausência de luz e de contato com o mundo externo, no qual a noção de tempo de um dia é modulada pela presença ou ausência do sol."
+    },
+    {
+     "letter": "E",
+     "text": "Deveria não ter apresentado nenhuma mudança do seu período de sono porque, na realidade, continua com seu ritmo normal, independentemente do ambiente em que seja colocada."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2010-q89",
+   "number": 89,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Deseja-se instalar uma estação de geração de energia elétrica em um município localizado no interior de um pequeno vale cercado de altas montanhas de difícil acesso. A cidade é cruzada por um rio, que é fonte de água para consumo, irrigação das lavouras de subsistência e pesca. Na região, que possui pequena extensão territorial, a incidência solar é alta o ano todo. A estação em questão irá abastecer apenas o município apresentado."
+    },
+    {
+     "type": "text",
+     "text": "Qual forma de obtenção de energia, entre as apresentadas, é a mais indicada para ser implantada nesse município de modo a causar o menor impacto ambiental?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Termoelétrica, pois é possível utilizar a água do rio no sistema de refrigeração."
+    },
+    {
+     "letter": "B",
+     "text": "Eólica, pois a geografia do local é própria para a captação desse tipo de energia."
+    },
+    {
+     "letter": "C",
+     "text": "Nuclear, pois o modo de resfriamento de seus sistemas não afetariam a população."
+    },
+    {
+     "letter": "D",
+     "text": "Fotovoltaica, pois é possível aproveitar a energia solar que chega à superfície do local."
+    },
+    {
+     "letter": "E",
+     "text": "Hidrelétrica, pois o rio que corta o município é suficiente para abastecer a usina construída."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2010-q90",
+   "number": 90,
+   "subject": "Ciências da Natureza",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O lixão que recebia 130 toneladas de lixo e contaminava a região com seu chorume (líquido derivado da decomposição de compostos orgânicos) foi recuperado, transformando-se em um aterro sanitário controlado, mudando a qualidade de vida e a paisagem e proporcionando condições dignas de trabalho para os que dele subsistiam."
+    },
+    {
+     "type": "text",
+     "text": "Revista Promoção da Saúde da Secretaria de Políticas da Saúde. Ano 1, nº 4, dez. 2000 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Quais procedimentos técnicos tornam o aterro sanitário mais vantajoso que o lixão, em relação às problemáticas abordadas no texto?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "O lixo é recolhido e incinerado pela combustão a altas temperaturas."
+    },
+    {
+     "letter": "B",
+     "text": "O lixo hospitalar é separado para ser enterrado e sobre ele, colocada cal virgem."
+    },
+    {
+     "letter": "C",
+     "text": "O lixo orgânico e inorgânico é encoberto, e o chorume canalizado para ser tratado e neutralizado."
+    },
+    {
+     "letter": "D",
+     "text": "O lixo orgânico é completamente separado do lixo inorgânico, evitando a formação de chorume."
+    },
+    {
+     "letter": "E",
+     "text": "O lixo industrial é separado e acondicionado de forma adequada, formando uma bolsa de resíduos."
+    }
+   ],
+   "answer": "C"
+  }
+ ]
+}

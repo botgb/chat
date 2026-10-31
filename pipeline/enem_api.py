@@ -5,8 +5,8 @@ Uso: python3 pipeline/enem_api.py <pasta public/ do enem-api> <ano> [<ano> ...]
 Gera content/enem/enem-<ano>-d1|d2/pack.json e atualiza content/manifest.json.
 
 Regras desta primeira versão:
-- A área vem da numeração oficial (1–45 Linguagens, 46–90 Humanas, 91–135 Natureza,
-  136–180 Matemática), mais confiável que a classificação do conjunto de dados.
+- A área vem da numeração oficial de cada ano (ver layout()), mais confiável que a
+  classificação do conjunto de dados.
 - Questões com imagem ficam de fora até passarem pela checagem de licença das imagens
   (ver docs/estrategias.md e a conversa sobre direitos autorais). Elas são contadas no relatório.
 - Texto e gabarito são do INEP; a transcrição é do ENEM API. Ambos aparecem como fonte.
@@ -20,17 +20,25 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENT = os.path.join(ROOT, 'content')
 PACK_VERSION = 1
 
-AREAS = [(1, 45, 'Linguagens'), (46, 90, 'Ciências Humanas'), (91, 135, 'Ciências da Natureza'), (136, 180, 'Matemática')]
 LANG = {'ingles': 'Inglês', 'espanhol': 'Espanhol'}
+NAT, HUM, LIN, MAT = 'Ciências da Natureza', 'Ciências Humanas', 'Linguagens', 'Matemática'
 
 
-def area(index: int, language: str | None) -> str:
-    if language and index <= 5:
+def layout(year: int) -> list[str]:
+    """Área de cada bloco de 45 questões; a ordem das provas mudou ao longo dos anos."""
+    if year == 2009:
+        return [NAT, HUM, LIN, MAT]
+    if year <= 2016:
+        return [HUM, NAT, LIN, MAT]
+    return [LIN, HUM, NAT, MAT]
+
+
+def area(year: int, index: int, language: str | None) -> str:
+    if language:
         return LANG[language]
-    for lo, hi, name in AREAS:
-        if lo <= index <= hi:
-            return name
-    raise ValueError(f'índice fora do ENEM: {index}')
+    if not 1 <= index <= 180:
+        raise ValueError(f'índice fora do ENEM: {index}')
+    return layout(year)[(index - 1) // 45]
 
 
 def has_image(q: dict) -> bool:
@@ -77,7 +85,7 @@ def convert_year(public: str, year: int) -> list[dict]:
         days[1 if idx <= 90 else 2].append({
             'id': f'enem-{year}-q{idx}' + (f'-{lang}' if lang else ''),
             'number': idx,
-            'subject': area(idx, lang),
+            'subject': area(year, idx, lang),
             'statement': blocks(q),
             'alternatives': [{'letter': a['letter'], 'text': clean(a['text'] or '')} for a in q['alternatives']],
             'answer': q['correctAlternative'],

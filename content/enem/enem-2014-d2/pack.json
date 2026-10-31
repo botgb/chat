@@ -1,0 +1,2632 @@
+{
+ "id": "enem-2014-d2",
+ "vestibular": "enem",
+ "title": "ENEM 2014, dia 2",
+ "year": 2014,
+ "version": 1,
+ "source": "Questões: INEP, ENEM 2014. Transcrição: ENEM API (enem.dev).",
+ "questions": [
+  {
+   "id": "enem-2014-q91-ingles",
+   "number": 91,
+   "subject": "Inglês",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A Tall Order"
+    },
+    {
+     "type": "text",
+     "text": "The sky isn’t the limit for an architect building the world’s first invisible skyscraper"
+    },
+    {
+     "type": "text",
+     "text": "Charles Wee, one of the world’s leading high-rise architects, has a confession to make: he’s bored with skyscrapers. After designing more than 30, most of which punctuate the skulines od rapidly expanding Asian cities, he has struck upon a novel concept: the firts invisible skyscraper."
+    },
+    {
+     "type": "text",
+     "text": "As the tallest structure in South Korea, his Infinity Tower loom over Seoul until somebody pushes a button and it completely disappears."
+    },
+    {
+     "type": "text",
+     "text": "When he entered a 2004 competition to design a landmark tower, the Korean-American architect rejected the notion of competing with Dubai, Toronto, and Shanghai to reach the summit of man-made summits. “I thought, let’s not jump into this stupid race to build another ‘tallest’ tower,” he says in a phone conversation. “Let’s take an opposite approach — let’s make an anti-tower.”"
+    },
+    {
+     "type": "text",
+     "text": "The result will be a 150-story building that fades from view at the flick of a switch. The tower will effectively function as an enormous television screen, being able to project an exact replica of whatever is happening behind it onto its façade. To the human eye, the building will appear to have melted away."
+    },
+    {
+     "type": "text",
+     "text": "It will be the most extraordinary achievement of Wee’s stellar architectural career. After graduating from UCLA, he worked under Anthony Lumsdenm, a prolific California architect who helped devise the modern technique of wrapping buildings inside smooth glass skins."
+    },
+    {
+     "type": "text",
+     "text": "HINES, N. Disponível em: (http://mag.newsweek.com). Acesso em: 13 out. 2013 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "No título e no subtítulo desse texto, as expressões A Tall Order e The sky isn’t the limit são usadas para apresentar uma matéria cujo tema é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Inovações tecnológicas usadas para a construção de um novo arranha-céu em Seul."
+    },
+    {
+     "letter": "B",
+     "text": "Confissões de um arquiteto que busca se destacar na construção de arranha-céus."
+    },
+    {
+     "letter": "C",
+     "text": "Técnicas a serem estabelecidas para a construção de edifícios altos na Califórnia."
+    },
+    {
+     "letter": "D",
+     "text": "Competição entre arquitetos para a construção do edifício mais alto do mundo."
+    },
+    {
+     "letter": "E",
+     "text": "Construção de altas torres de apartamentos nas grandes metrópoles da Ásia."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2014-q92-espanhol",
+   "number": 92,
+   "subject": "Espanhol",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Emigrantes"
+    },
+    {
+     "type": "text",
+     "text": "En todo emigrante existen dos posibles actitudes vitales: una la de considerar su experiencia como aventura pasajera, vivir mental y emocionalmente en la patria de origen, cultivando su nostalgia, y definir la realidad presente por comparación con el mundo que se ha dejado; la otra es vivir el presente tal como viene dado, proyectarlo en el futuro, cortar raíces y dominar nostalgias, sumergirse en la nueva cultura, aprenderla y asimilarla. El drama personal del emigrante reside en el hecho de que casi nunca es posible esa elección en términos absolutos y, al igual que el mestizo, se siente parte de dos mundos sin integrarse por completo en uno de ellos con exclusión del otro."
+    },
+    {
+     "type": "text",
+     "text": "DEL CASTILLO, G. C. América hispánica (1492-1892). In: DE LARA, M. T. Historia de España. Barcelona: Labor, 1985"
+    },
+    {
+     "type": "text",
+     "text": "O texto apresenta uma reflexão sobre a condição do imigrante, o qual, para o autor, tem de lidar com o dilema da"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Constatação de sua existência no entrelugar."
+    },
+    {
+     "letter": "B",
+     "text": "Instabilidade da vida em outro país."
+    },
+    {
+     "letter": "C",
+     "text": "Ausência de referências do passado."
+    },
+    {
+     "letter": "D",
+     "text": "Apropriação dos valores do outro."
+    },
+    {
+     "letter": "E",
+     "text": "Ruptura com o país de origem."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2014-q92-ingles",
+   "number": 92,
+   "subject": "Inglês",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Masters of War"
+    },
+    {
+     "type": "text",
+     "text": "Come you masters of war\nYou that build all the guns You that build the death planes\nYou that build the big bombs\nYou that hide behind walls\nYou that hide behind desks\nI just want you to know\nI can see through your masks"
+    },
+    {
+     "type": "text",
+     "text": "You that never done nothin’\nBut build to destroy\nYou play with my world\nLike it’s your little toy\nYou put a gun in my hand\nAnd you hide from my eyes\nAnd you turn and run farther\nWhen the fast bullets fly"
+    },
+    {
+     "type": "text",
+     "text": "Like Judas of old\nYou lie and deceive\nA world war can be won\nYou want me to believe\nBut I see through your eyes\nAnd I see through your brain\nLike I see through the water\nThat runs down my drain."
+    },
+    {
+     "type": "text",
+     "text": "BOB DYLAN. The Freewheelin’ Bob Dylan. Nova York: Columbia Records, 1963 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "Na letra da canção Masters of War, há questionamentos e reflexões que aparecem na forma de protesto contra"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "O envio de jovens à guerra para promover a expansão territorial dos Estados Unidos."
+    },
+    {
+     "letter": "B",
+     "text": "O comportamento dos soldados norte-americanos nas guerras de que participaram."
+    },
+    {
+     "letter": "C",
+     "text": "O sistema que recruta soldados para guerras motivadas por interesses econômicos."
+    },
+    {
+     "letter": "D",
+     "text": "O desinteresse do governo pelas famílias dos soldados mortos em campos de batalha."
+    },
+    {
+     "letter": "E",
+     "text": "As Forças Armadas norte-americanas, que enviavam homens despreparados para as guerras."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2014-q93-espanhol",
+   "number": 93,
+   "subject": "Espanhol",
+   "statement": [
+    {
+     "type": "text",
+     "text": "En un año de campaña paraguaya, he visto muchas cosas tristes…"
+    },
+    {
+     "type": "text",
+     "text": "He visto la tierra, con su fertilidad incoercible y salvaje, sofocar al hombre, que arroja una semilla y obtiene cien plantas diferentes y no sabe cuál es la suya. He visto los viejos caminos que abrió la tiranía devorados por la vegetación, desleídos por las innundaciones, borrados por el abandono."
+    },
+    {
+     "type": "text",
+     "text": "BARRET, R. Lo que he visto. Cuba: XX Feria Internacional del Libro de la Habana, 2011."
+    },
+    {
+     "type": "text",
+     "text": "Rafael Barret nasceu na Espanha e, ainda jovem, foi viver no Paraguai."
+    },
+    {
+     "type": "text",
+     "text": "O fragmento do texto Lo que hai visto revela um pouco da percepção do escritor sobre a realidade paraguaia, marcada, em essência, pelo(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Desalento frente às adversidades naturais."
+    },
+    {
+     "letter": "B",
+     "text": "Amplo conhecimento da flora paraguaia."
+    },
+    {
+     "letter": "C",
+     "text": "Impossibilidade de cultivo da terra."
+    },
+    {
+     "letter": "D",
+     "text": "Necessidade de se construírem novos caminhos."
+    },
+    {
+     "letter": "E",
+     "text": "Despreparo do agricultor no trato com a terra."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2014-q93-ingles",
+   "number": 93,
+   "subject": "Inglês",
+   "statement": [
+    {
+     "type": "text",
+     "text": "The Road Not Taken (by Robert Frost)"
+    },
+    {
+     "type": "text",
+     "text": "Two roads diverged in a wood, and I —\nI took the one less traveled by,\nAnd that has made all the difference."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.poetryfoundation.org. Acesso em: 29 nov. 2011 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "Estes são os versos finais do famoso poema The Road Not Taken, do poeta americano Robert Frost. Levando-se em consideração que a vida é comumente metaforizada como uma viagem, esses versos indicam que o autor"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Festeja o fato de ter sido ousado na escolha que fez em sua vida."
+    },
+    {
+     "letter": "B",
+     "text": "Lamenta por ter sido um viajante que encontrou muitas bifurcações."
+    },
+    {
+     "letter": "C",
+     "text": "Viaja muito pouco e que essa escolha fez toda a diferença em sua vida."
+    },
+    {
+     "letter": "D",
+     "text": "Reconhece que as dificuldades em sua vida foram todas superadas."
+    },
+    {
+     "letter": "E",
+     "text": "Percorre várias estradas durante as diferentes fases de sua vida."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2014-q94-espanhol",
+   "number": 94,
+   "subject": "Espanhol",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Aunque me cuesta mucho trabajo y me hace sudar la gota gorda, y, como todo escritor, siento a veces la amenaza de la parálisis, de la sequía de la imaginación, nada me ha hecho gozar en la vida tanto como pasarme los meses y los años construyendo una historia, desde su incierto despuntar, esa imagen que la memoria almacenó de alguna experiencia vivida, que se volvió un desasosiego, un entusiasmo, un fantaseo que germinó luego en un proyecto y en la decisión de intentar convertir esa niebla agitada de fantasmas en una historia. “Escribir es una manera de vivir”, dijo Flaubert."
+    },
+    {
+     "type": "text",
+     "text": "Discurso de Mario Vargas Llosa al recibir el Premio Nobel de Literatura 2010."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: www.nobelprize.org. Acesso em: 7 maio 2014 (fragmento)"
+    },
+    {
+     "type": "text",
+     "text": "O trecho apresentado trata do fazer literário, a partir da perspectiva de Vargas Llosa."
+    },
+    {
+     "type": "text",
+     "text": "Com base no fragmento “me hace sudar la gota gorda”, infere-se que o artifício da escritura, para o escritor,"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Ativa a memória e a fantasia."
+    },
+    {
+     "letter": "B",
+     "text": "Baseia-se na imaginação inspiradora."
+    },
+    {
+     "letter": "C",
+     "text": "Fundamenta-se nas experiências de vida."
+    },
+    {
+     "letter": "D",
+     "text": "Requer entusiasmo e motivação."
+    },
+    {
+     "letter": "E",
+     "text": "Demanda expressiva dedicação."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2014-q95-espanhol",
+   "number": 95,
+   "subject": "Espanhol",
+   "statement": [
+    {
+     "type": "text",
+     "text": "El robo"
+    },
+    {
+     "type": "text",
+     "text": "Para los niños\nanchos espacios tiene el día\ny las horas\nson calles despejadas\nabiertas avenidas."
+    },
+    {
+     "type": "text",
+     "text": "A nosotros, se estrecha\nel tiempo de tal modo\nque todo está apretado y oprimido."
+    },
+    {
+     "type": "text",
+     "text": "Se atropellan los tiempos\nCasi no da lugar un día a otro.\nNo bien ha amanecido\ncae la luz a pique\nen veloz mediodía\ny apenas la contemplas\nhuye en atardeceres\nhacia pozos de sombra."
+    },
+    {
+     "type": "text",
+     "text": "Dice una voz:\nentre vueltas y vueltas\nse me fue el día."
+    },
+    {
+     "type": "text",
+     "text": "Algún ladrón\noculto roba mi vida."
+    },
+    {
+     "type": "text",
+     "text": "MAIA, C. Obra poética. Montevidéu: Rebecalinke, 2010."
+    },
+    {
+     "type": "text",
+     "text": "O poema El robo, de Circe Maia, poetisa uruguaia contemporânea, trata do(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Problema do abandono de crianças nas ruas."
+    },
+    {
+     "letter": "B",
+     "text": "Excesso de trabalho na sociedade atual."
+    },
+    {
+     "letter": "C",
+     "text": "Angústia provocada pela fugacidade do tempo."
+    },
+    {
+     "letter": "D",
+     "text": "Violência nos grandes centros urbanos."
+    },
+    {
+     "letter": "E",
+     "text": "Repressão dos sentimentos e da liberdade."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2014-q95-ingles",
+   "number": 95,
+   "subject": "Inglês",
+   "statement": [
+    {
+     "type": "text",
+     "text": "If You Can’t Master English, Try Globish"
+    },
+    {
+     "type": "text",
+     "text": "PARIS — It happens all the time: during an airport delay the man to the left, a Korean perhaps, starts talking to the man opposite, who might be Colombian, and soon they are chatting away in what seems to be English. But the native English speaker sitting between them cannot understand a word."
+    },
+    {
+     "type": "text",
+     "text": "They don’t know it, but the Korean and the Colombian are speaking Globish, the latest addition to the 6,800 languages that are said to be spoken across the world. Not that its inventor, Jean-Paul Nerrière, considers it a proper language."
+    },
+    {
+     "type": "text",
+     "text": "“It is not a language, it is a tool,” he says. “A language is the vehicle of a culture. Globish doesn’t want to be that at all. It is a means of communication.”"
+    },
+    {
+     "type": "text",
+     "text": "Nerrière doesn’t see Globish in the same light as utopian efforts such as Kosmos, Volapuk, Novial or staunch Esperanto. Nor should it be confused with barbaric Algol (for Algorithmic language). It is a sort of English lite: a means of simplifying the language and giving it rules so it can be understood by all."
+    },
+    {
+     "type": "text",
+     "text": "BLUME, M. Disponível em: www.nytimes.com. Acesso em: 28 out. 2013 (fragmento)"
+    },
+    {
+     "type": "text",
+     "text": "Considerando as ideias apresentadas no texto, o Globish (Global English) é uma variedade da língua inglesa que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Tem status de língua por refletir uma cultura global."
+    },
+    {
+     "letter": "B",
+     "text": "Facilita o entendimento entre o falante nativo e o não nativo."
+    },
+    {
+     "letter": "C",
+     "text": "Tem as mesmas características de projetos utópicos como o esperanto."
+    },
+    {
+     "letter": "D",
+     "text": "Altera a estrutura do idioma para possibilitar a comunicação internacional."
+    },
+    {
+     "letter": "E",
+     "text": "Apresenta padrões de fala idênticos aos da variedade usada pelos falantes nativos."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2014-q97",
+   "number": 97,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O boxe está perdendo cada vez mais espaço para um fenômeno relativamente recente do esporte, o MMA. E o maior evento de Artes Marciais Mistas do planeta é o Ultimate Fighting Championship, ou simplesmente UFC. O ringue, com oito cantos, foi desenhado para deixar os lutadores com mais espaço para as lutas. Os atletas podem usar as mãos e aplicar golpes de jiu-jitsu. Muitos podem falar que a modalidade é uma espécie de vale-tudo, mas isso já ficou no passado: agora, a modalidade tem regras e acompanhamento médico obrigatório para que o esporte apague o estigma negativo."
+    },
+    {
+     "type": "text",
+     "text": "CORREIA, D. UFC: saiba como o MMA nocauteou o boxe em oito golpes. Veja, 10 jun. 2011 (fragmento)"
+    },
+    {
+     "type": "text",
+     "text": "O processo de modificação das regras do MMA retrata a tendência de redimensionamento de algumas práticas corporais, visando enquadrá-las em um determinado formato."
+    },
+    {
+     "type": "text",
+     "text": "Qual o sentido atribuído a essas transformações incorporadas historicamente ao MMA?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A modificação das regras busca associar valores lúdicos ao MMA, possibilitando a participação de diferentes populações como atividade de lazer."
+    },
+    {
+     "letter": "B",
+     "text": "As transformações do MMA aumentam o grau de violência das lutas, favorecendo a busca de emoções mais fortes tanto aos competidores como ao público."
+    },
+    {
+     "letter": "C",
+     "text": "As mudanças de regras do MMA atendem à necessidade de tornar a modalidade menos violenta, visando sua introdução nas academias de ginástica na dimensão da saúde."
+    },
+    {
+     "letter": "D",
+     "text": "As modificações incorporadas ao MMA têm por finalidade aprimorar as técnicas das diferentes artes marciais, favorecendo o desenvolvimento da modalidade enquanto defesa pessoal."
+    },
+    {
+     "letter": "E",
+     "text": "As transformações do MMA visam delimitar a violência das lutas, preservando a integridade dos atletas e enquadrando a modalidade no formato do esporte de espetáculo."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2014-q98",
+   "number": 98,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Uso de suplementos alimentares por adolescentes"
+    },
+    {
+     "type": "text",
+     "text": "Evidências médicas sugerem que a suplementação alimentar pode ser benéfica para um pequeno grupo de pessoas, aí incluídos atletas competitivos, cuja dieta não seja balanceada. Tem-se observado que adolescentes envolvidos em atividade física ou atlética estão usando cada vez mais tais suplementos. A prevalência desse uso varia entre os tipos de esportes, aspectos culturais, faixas etárias (mais comum em adolescentes) e sexo (maior prevalência em homens). Poucos estudos se referem a frequência, tipo e quantidade de suplementos usados, mas parece ser comum que as doses recomendadas sejam excedidas."
+    },
+    {
+     "type": "text",
+     "text": "A mídia é um dos importantes estímulos ao uso de suplementos alimentares ao veicular, por exemplo, o mito do corpo ideal. Em 2001, a indústria de suplementos alimentares investiu globalmente US$ 46 bilhões em propaganda, como meio de persuadir potenciais consumidores a adquirir seus produtos. Na adolescência, período de autoafirmação, muitos deles não medem esforços para atingir tal objetivo."
+    },
+    {
+     "type": "text",
+     "text": "ALVES, C.; LIMA, R. J. Pediatr. v.85, n.4, 2009 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "Sobre a associação entre a prática de atividades físicas e o uso de suplementos alimentares, o texto informa que a ingestão desses suplementos"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "É indispensável para as pessoas que fazem atividades físicas regularmente."
+    },
+    {
+     "letter": "B",
+     "text": "É estimulada pela indústria voltada para adolescentes que buscam um corpo ideal."
+    },
+    {
+     "letter": "C",
+     "text": "É indicada para atividades físicas como a musculação com fins de promoção da saúde."
+    },
+    {
+     "letter": "D",
+     "text": "Direciona-se para adolescentes com distúrbios metabólicos e que praticam atividades físicas."
+    },
+    {
+     "letter": "E",
+     "text": "Melhora a saúde do indivíduo que não tem uma dieta balanceada e nem pratica atividades físicas."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2014-q99",
+   "number": 99,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "TEXTO I"
+    },
+    {
+     "type": "text",
+     "text": "João Guedes, um dos assíduos frequentadores do boliche do capitão, mudara-se da campanha havia três anos. Três anos de pobreza na cidade bastaram para o degradar. Ao morrer, não tinha um vintém nos bolsos e fazia dois meses que saíra da cadeia, onde estivera preso por roubo de ovelha."
+    },
+    {
+     "type": "text",
+     "text": "A história de sua desgraça se confunde com a da maioria dos que povoam a aldeia de Boa Ventura, uma cidadezinha distante, triste e precocemente envelhecida, situada nos confins da fronteira do Brasil com o Uruguai."
+    },
+    {
+     "type": "text",
+     "text": "MARTINS, C. Porteira fechada. Porto Alegre: Movimento, 2001 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "TEXTO II"
+    },
+    {
+     "type": "text",
+     "text": "Comecei a procurar emprego, já topando o que desse e viesse, menos complicação com os homens, mas não tava fácil. Fui na feira, fui nos bancos de sangue, fui nesses lugares que sempre dão para descolar algum, fui de porta em porta me oferecendo de faxineiro, mas tava todo mundo escabreado pedindo referências, e referências eu só tinha do diretor do presídio."
+    },
+    {
+     "type": "text",
+     "text": "FONSECA, R. Feliz Ano Novo. São Paulo: Cia. das Letras, 1989 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "A oposição entre campo e cidade esteve entre as temáticas tradicionais da literatura brasileira. Nos fragmentos dos dois autores contemporâneos, esse embate incorpora um elemento novo: a questão da violência e do desemprego."
+    },
+    {
+     "type": "text",
+     "text": "As narrativas apresentam confluência, pois nelas o(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Criminalidade é algo inerente ao ser humano, que sucumbe a suas manifestações."
+    },
+    {
+     "letter": "B",
+     "text": "Meio urbano, especialmente o das grandes cidades, estimula uma vida mais violenta."
+    },
+    {
+     "letter": "C",
+     "text": "Falta de oportunidades na cidade dialoga com a pobreza do campo rumo à criminalidade."
+    },
+    {
+     "letter": "D",
+     "text": "Êxodo rural e a falta de escolaridade são causas da violência nas grandes cidades."
+    },
+    {
+     "letter": "E",
+     "text": "Complacência das leis e a inércia das personagens são estímulos à prática criminosa."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2014-q100",
+   "number": 100,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O correr da vida embrulha tudo. A vida é assim: esquenta e esfria, aperta e daí afrouxa, sossega e depois desinquieta. O que ela quer da gente é coragem."
+    },
+    {
+     "type": "text",
+     "text": "ROSA, J. G. Grande sertão: veredas. Rio de Janeiro: Nova Fronteira, 1986."
+    },
+    {
+     "type": "text",
+     "text": "No romance Grande sertão: veredas, o protagonista Riobaldo narra sua trajetória de jagunço."
+    },
+    {
+     "type": "text",
+     "text": "A leitura do trecho permite identificar que o desabafo de Riobaldo se aproxima de um(a):"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Diário, por trazer lembranças pessoais."
+    },
+    {
+     "letter": "B",
+     "text": "Fábula, por apresentar uma lição de moral."
+    },
+    {
+     "letter": "C",
+     "text": "Notícia, por informar sobre um acontecimento."
+    },
+    {
+     "letter": "D",
+     "text": "Aforismo, por expor uma máxima em poucas palavras."
+    },
+    {
+     "letter": "E",
+     "text": "Crônica, por tratar de fatos do cotidiano."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2014-q101",
+   "number": 101,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Há qualquer coisa de especial nisso de botar a cara na janela em crônica de jornal — eu não fazia isso há muitos anos, enquanto me escondia em poesia e ficção. Crônica algumas vezes também é feita, intencionalmente, para provocar. Além do mais, em certos dias mesmo o escritor mais escolado não está lá grande coisa. Tem os que mostram sua cara escrevendo para reclamar: moderna demais, antiquada demais. Alguns discorrem sobre o assunto, e é gostoso compartilhar ideias. Há os textos que parecem passar despercebidos, outros rendem um montão de recados: “Você escreveu exatamente o que eu sinto”, “Isso é exatamente o que falo com meus pacientes”, “É isso que digo para meus pais”, “Comentei com minha namorada”. Os estímulos são valiosos pra quem nesses tempos andava meio assim: é como me botarem no colo — também eu preciso. Na verdade, nunca fui tão posta no colo por leitores como na janela do jornal. De modo que está sendo ótima, essa brincadeira séria, com alguns textos que iam acabar neste livro, outros espalhados por aí. Porque eu levo a sério ser sério… mesmo quando parece que estou brincando: essa é uma das maravilhas de escrever. Como escrevi há muitos anos e continua sendo a minha verdade: palavras são meu jeito mais secreto de calar."
+    },
+    {
+     "type": "text",
+     "text": "LUFT, L. Pensar é transgredir. Rio de Janeiro: Record, 2004."
+    },
+    {
+     "type": "text",
+     "text": "Os textos fazem uso constante de recursos que permitem a articulação entre suas partes. Quanto à construção do fragmento, o elemento"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "“nisso” introduz o fragmento “botar a cara na janela em crônica de jornal”."
+    },
+    {
+     "letter": "B",
+     "text": "“assim” é uma paráfrase de “é como me botarem no colo”."
+    },
+    {
+     "letter": "C",
+     "text": "“isso” remete a “escondia em poesia e ficção”."
+    },
+    {
+     "letter": "D",
+     "text": "“alguns” antecipa a informação “É isso que digo para meus pais”."
+    },
+    {
+     "letter": "E",
+     "text": "“essa” recupera a informação anterior “janela do jornal”."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2014-q102",
+   "number": 102,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Era um dos meus primeiros dias na sala de música. A fim de descobrirmos o que deveríamos estar fazendo ali, propus à classe um problema. Inocentemente perguntei: — O que é música?"
+    },
+    {
+     "type": "text",
+     "text": "Passamos dois dias inteiros tateando em busca de uma definição. Descobrimos que tínhamos de rejeitar todas as definições costumeiras porque elas não eram suficientemente abrangentes."
+    },
+    {
+     "type": "text",
+     "text": "O simples fato é que, à medida que a crescente margem a que chamamos de vanguarda continua suas explorações pelas fronteiras do som, qualquer definição se torna difícil. Quando John Cage abre a porta da sala de concerto e encoraja os ruídos da rua a atravessar suas composições, ele ventila a arte da música com conceitos novos e aparentemente sem forma."
+    },
+    {
+     "type": "text",
+     "text": "SCHAFER, R. M. O ouvido pensante. São Paulo: Unesp, 1991 (adaptado)"
+    },
+    {
+     "type": "text",
+     "text": "A frase “Quando John Cage abre a porta da sala de concerto e encoraja os ruídos da rua a atravessar suas composições”, na proposta de Schafer de formular uma nova conceituação de música, representa a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Acessibilidade à sala de concerto como metáfora, num momento em que a arte deixou de ser elitizada."
+    },
+    {
+     "letter": "B",
+     "text": "Abertura da sala de concerto, que permitiu que a música fosse ouvida do lado de fora do teatro."
+    },
+    {
+     "letter": "C",
+     "text": "Postura inversa à música moderna, que desejava se enquadrar em uma concepção conformista."
+    },
+    {
+     "letter": "D",
+     "text": "Intenção do compositor de que os sons extramusicais sejam parte integrante da música."
+    },
+    {
+     "letter": "E",
+     "text": "Necessidade do artista contemporâneo de atrair maior público para o teatro."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2014-q103",
+   "number": 103,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Censura Moralista"
+    },
+    {
+     "type": "text",
+     "text": "Há tempos que a leitura está em pauta. E, diz-se, em crise. Comenta-se esta crise, por exemplo, apontando a precariedade das práticas de leitura, lamentando a falta de familiaridade dos jovens com livros, reclamando da falta de bibliotecas em tantos municípios, do preço dos livros em livrarias, num nunca acabar de problemas e de carências. Mas, de um tempo para cá, pesquisas acadêmicas vêm dizendo que talvez não seja exatamente assim, que brasileiros leem, sim, só que leem livros que as pesquisas tradicionais não levam em conta. E, também de um tempo para cá, políticas educacionais têm tomado a peito investir em livros e em leitura."
+    },
+    {
+     "type": "text",
+     "text": "LAJOLO, M. Disponível em: www.estadao.com.br. Acesso em: 2 dez. 2013 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "Os falantes, nos textos que produzem, sejam orais ou escritos, posicionam-se frente a assuntos que geram consenso ou despertam polêmica."
+    },
+    {
+     "type": "text",
+     "text": "No texto, a autora"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Ressalta a importância de os professores incentivarem os jovens às práticas de leitura."
+    },
+    {
+     "letter": "B",
+     "text": "Critica pesquisas tradicionais que atribuem a falta de leitura à precariedade de bibliotecas."
+    },
+    {
+     "letter": "C",
+     "text": "Rebate a ideia de que as políticas educacionais são eficazes no combate à crise de leitura."
+    },
+    {
+     "letter": "D",
+     "text": "Questiona a existência de uma crise de leitura com base nos dados de pesquisas acadêmicas."
+    },
+    {
+     "letter": "E",
+     "text": "Atribui a crise da leitura à falta de incentivos e ao desinteresse dos jovens por livros de qualidade."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2014-q104",
+   "number": 104,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Só há uma saída para a escola se ela quiser ser mais bem-sucedida: aceitar a mudança da língua como um fato. Isso deve significar que a escola deve aceitar qualquer forma da língua em suas atividades escritas? Não deve mais corrigir? Não!"
+    },
+    {
+     "type": "text",
+     "text": "Há outra dimensão a ser considerada: de fato, no mundo real da escrita, não existe apenas um português correto, que valeria para todas as ocasiões: o estilo dos contratos não é o mesmo do dos manuais de instrução; o dos juízes do Supremo não é o mesmo do dos cordelistas; o dos editoriais dos jornais não é o mesmo do dos cadernos de cultura dos mesmos jornais. Ou do de seus colunistas."
+    },
+    {
+     "type": "text",
+     "text": "POSSENTI, S. Gramática na cabeça. Língua Portuguesa, ano 5, n. 67, maio 2011 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Sírio Possenti defende a tese de que não existe um único “português correto”."
+    },
+    {
+     "type": "text",
+     "text": "Assim sendo, o domínio da língua portuguesa implica, entre outras coisas, saber"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Descartar as marcas de informalidade do texto."
+    },
+    {
+     "letter": "B",
+     "text": "Reservar o emprego da norma padrão aos textos de circulação ampla."
+    },
+    {
+     "letter": "C",
+     "text": "Moldar a norma padrão do português pela linguagem do discurso jornalístico."
+    },
+    {
+     "letter": "D",
+     "text": "Adequar as formas da língua a diferentes tipos de texto e contexto."
+    },
+    {
+     "letter": "E",
+     "text": "Desprezar as formas da língua previstas pelas gramáticas e manuais divulgados pela escola."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2014-q106",
+   "number": 106,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "eu acho um fato interessante… né… foi como meu pai e minha mãe vieram se conhecer… né… que… minha mãe morava no Piauí com toda família… né… meu… meu avô… materno no caso… era maquinista… ele sofreu um acidente… infelizmente morreu… minha mãe tinha cinco anos… né… e o irmão mais velho dela… meu padrinho… tinha dezessete e ele foi obrigado a trabalhar… foi trabalhar no banco… e… ele foi… o banco… no caso… estava… com um número de funcionários cheio e ele teve que ir para outro local e pediu transferência prum local mais perto de Parnaíba que era a cidade onde eles moravam e por engano o… o… escrivão entendeu Paraíba… né… e meu… e minha família veio parar em Mossoró que era exatamente o local mais perto onde tinha vaga pra funcionário do Banco do Brasil e:: ela foi parar na rua do meu pai… né… e começaram a se conhecer… namoraram onze anos… né… pararam algum tempo… brigaram… é lógico… porque todo relacionamento tem uma briga… né… e eu achei esse fato muito interessante porque foi uma coincidência incrível… né… como vieram a se conhecer… namoraram e hoje… e até hoje estão juntos… dezessete anos de casados…"
+    },
+    {
+     "type": "text",
+     "text": "CUNHA, M. A. F. (Org.) . Corpus discurso & gramática: a língua falada e escrita na cidade do Natal. Natal: EdUFRN, 1998"
+    },
+    {
+     "type": "text",
+     "text": "Na transcrição de fala, há um breve relato de experiência pessoal, no qual se observa a frequente repetição de “né”."
+    },
+    {
+     "type": "text",
+     "text": "Essa repetição é um(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Índice de baixa escolaridade do falante."
+    },
+    {
+     "letter": "B",
+     "text": "Estratégia típica de manutenção da interação oral."
+    },
+    {
+     "letter": "C",
+     "text": "Marca de conexão lógica entre conteúdos na fala."
+    },
+    {
+     "letter": "D",
+     "text": "Manifestação característica da fala regional nordestina."
+    },
+    {
+     "letter": "E",
+     "text": "Recurso enfatizador da informação mais relevante da narrativa."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2014-q107",
+   "number": 107,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Blog é concebido como um espaço onde o blogueiro é livre para expressar e discutir o que quiser na atividade da sua escrita, com a escolha de imagens e sons que compõem o todo do texto veiculado pela internet, por meio dos posts. Assim, essa ferramenta deixa de ter como única função a exposição de vida e/ou rotina de alguém — como em um diário pessoal —, função para qual serviu inicialmente e que o popularizou, permitindo também que seja um espaço para a discussão de ideias, trocas e divulgação de informações."
+    },
+    {
+     "type": "text",
+     "text": "A produção dos blogs requer uma relação de troca, que acaba unindo pessoas em torno de um ponto de interesse comum. A força dos blogs está em possibilitar que qualquer pessoa, sem nenhum conhecimento técnico, publique suas ideias e opiniões na web e que milhões de outras pessoas publiquem comentários sobre o que foi escrito, criando um grande debate aberto a todos."
+    },
+    {
+     "type": "text",
+     "text": "LOPES, B. O. A linguagem dos blogs e as redes sociais. Disponível em: www.fateczl.edu.br. Acesso em: 29 abr. 2013 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "De acordo com o texto, o blog ultrapassou sua função inicial e vem se destacando como"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Estratégia para estimular relações de amizade."
+    },
+    {
+     "letter": "B",
+     "text": "Espaço para exposição de opiniões e circulação de ideias."
+    },
+    {
+     "letter": "C",
+     "text": "Gênero discursivo substituto dos tradicionais diários pessoais."
+    },
+    {
+     "letter": "D",
+     "text": "Ferramenta para aperfeiçoamento da comunicação virtual escrita."
+    },
+    {
+     "letter": "E",
+     "text": "Recurso para incentivar a ajuda mútua e a divulgação da rotina diária."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2014-q108",
+   "number": 108,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Camelôs"
+    },
+    {
+     "type": "text",
+     "text": "Abençoado seja o camelô dos brinquedos de tostão:\nO que vende balõezinhos de cor\nO macaquinho que trepa no coqueiro\nO cachorrinho que bate com o rabo\nOs homenzinhos que jogam boxe\nA perereca verde que de repente dá um pulo que engraçado\nE as canetinhas-tinteiro que jamais escreverão coisa alguma."
+    },
+    {
+     "type": "text",
+     "text": "Alegria das calçadas\nUns falam pelos cotovelos:\n– “O cavalheiro chega em casa e diz: Meu filho, vai buscar um\npedaço de banana para eu acender o charuto.\nNaturalmente o menino pensará: Papai está malu…”"
+    },
+    {
+     "type": "text",
+     "text": "Outros, coitados, têm a língua atada."
+    },
+    {
+     "type": "text",
+     "text": "Todos porém sabem mexer nos cordéis como o tino\ningênuo de\ndemiurgos de inutilidades.\nE ensinam no tumulto das ruas os mitos heroicos da\nmeninice…\nE dão aos homens que passam preocupados ou tristes\numa lição de infância."
+    },
+    {
+     "type": "text",
+     "text": "BANDEIRA, M. Estrela da vida inteira. Rio de Janeiro: Nova Fronteira, 2007."
+    },
+    {
+     "type": "text",
+     "text": "Uma das diretrizes do Modernismo foi a percepção de elementos do cotidiano como matéria de inspiração poética."
+    },
+    {
+     "type": "text",
+     "text": "O poema de Manuel Bandeira exemplifica essa tendência e alcança expressividade porque"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Realiza um inventário dos elementos lúdicos tradicionais da criança brasileira."
+    },
+    {
+     "letter": "B",
+     "text": "Promove uma reflexão sobre a realidade de pobreza dos centros urbanos."
+    },
+    {
+     "letter": "C",
+     "text": "Traduz em linguagem lírica o mosaico de elementos de significação corriqueira."
+    },
+    {
+     "letter": "D",
+     "text": "Introduz a interlocução como mecanismo de construção de uma poética nova."
+    },
+    {
+     "letter": "E",
+     "text": "Constata a condição melancólica dos homens distantes da simplicidade infantil."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2014-q109",
+   "number": 109,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Talvez pareça excessivo o escrúpulo do Cotrim, a quem não souber que ele possuía um caráter ferozmente honrado. Eu mesmo fui injusto com ele durante os anos que se seguiram ao inventário de meu pai. Reconheço que era um modelo. Arguíam-no de avareza, e cuido que tinham razão; mas a avareza é apenas a exageração de uma virtude, e as virtudes devem ser como os orçamentos: melhor é o saldo que o déficit. Como era muito seco de maneiras, tinha inimigos que chegavam a acusá-lo de bárbaro. O único fato alegado neste particular era o de mandar com frequência escravos ao calabouço, donde eles desciam a escorrer sangue; mas, além de que ele só mandava os perversos e os fujões, ocorre que, tendo longamente contrabandeado em escravos, habituara-se de certo modo ao trato um pouco mais duro que esse gênero de negócio requeria, e não se pode honestamente atribuir à índole original de um homem o que é puro efeito de relações sociais. A prova de que o Cotrim tinha sentimentos pios encontrava-se no seu amor aos filhos, e na dor que padeceu quando morreu Sara, dali a alguns meses; prova irrefutável, acho eu, e não única. Era tesoureiro de uma confraria, e irmão de várias irmandades, e até irmão remido de uma destas, o que não se coaduna muito com a reputação da avareza; verdade é que o benefício não caíra no chão: a irmandade (de que ele fora juiz) mandara-lhe tirar o retrato a óleo."
+    },
+    {
+     "type": "text",
+     "text": "ASSIS, M. Memórias póstumas de Brás Cubas. Rio de Janeiro: Nova Aguilar, 1992."
+    },
+    {
+     "type": "text",
+     "text": "Obra que inaugura o Realismo na literatura brasileira, Memórias póstumas de Brás Cubas condensa numa expressividade que caracterizaria o estilo machadiano: a ironia."
+    },
+    {
+     "type": "text",
+     "text": "Descrevendo a moral de seu cunhado, Cotrim, o narrador-personagem Brás Cubas refina a percepção irônica ao"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Acusar o cunhado de ser avarento para confessar-se injustiçado na divisão da herança paterna."
+    },
+    {
+     "letter": "B",
+     "text": "Atribuir a “efeito de relações sociais” a naturalidade com que Cotrim prendia e torturava os escravos."
+    },
+    {
+     "letter": "C",
+     "text": "Considerar os “sentimentos pios” demonstrados pelo personagem quando da perda da filha Sara."
+    },
+    {
+     "letter": "D",
+     "text": "Menosprezar Cotrim por ser tesoureiro de uma confraria e membro remido de várias irmandades."
+    },
+    {
+     "letter": "E",
+     "text": "Insinuar que o cunhado era um homem vaidoso e egocêntrico, contemplado com um retrato a óleo."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2014-q110",
+   "number": 110,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O exercício da crônica"
+    },
+    {
+     "type": "text",
+     "text": "Escrever prosa é uma arte ingrata. Eu digo prosa como se faz um cronista; não a prosa de um ficcionista, na qual este é levado meio a tapas pelas personagens e situações que, azar dele, criou porque quis. Com um prosador do cotidiano, a coisa fia mais fino. Senta-se ele diante de sua máquina, olha através da janela e busca fundo em sua imaginação um fato qualquer, de preferência colhido no noticiário matutino, ou da véspera, em que, com as suas artimanhas peculiares, possa injetar um sangue novo. Se nada houver, resta-lhe o recurso de olhar em torno e esperar que, através de um processo associativo, surja-lhe de repente a crônica, provinda dos fatos e feitos de sua vida emocionalmente despertados pela concentração. Ou então, em última instância, recorrer ao assunto da falta de assunto, já bastante gasto, mas do qual, no ato de escrever, pode surgir o inesperado."
+    },
+    {
+     "type": "text",
+     "text": "MORAES, V. Para viver um grande amor: crônicas e poemas. São Paulo: Cia. das Letras, 1991."
+    },
+    {
+     "type": "text",
+     "text": "Predomina nesse texto a função da linguagem que se constitui"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Nas diferenças entre o cronista e o ficcionista."
+    },
+    {
+     "letter": "B",
+     "text": "Nos elementos que servem de inspiração ao cronista."
+    },
+    {
+     "letter": "C",
+     "text": "Nos assuntos que podem ser tratados em uma crônica."
+    },
+    {
+     "letter": "D",
+     "text": "No papel da vida do cronista no processo de escrita da crônica."
+    },
+    {
+     "letter": "E",
+     "text": "Nas dificuldades de se escrever uma crônica por meio de uma crônica."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2014-q111",
+   "number": 111,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "E se a água potável acabar? O que aconteceria se a água potável do mundo acabasse?"
+    },
+    {
+     "type": "text",
+     "text": "As teorias mais pessimistas dizem que a água potável deve acabar logo, em 2050. Nesse ano, ninguém mais tomará banho todo dia. Chuveiro com água só duas vezes por semana. Se alguém exceder 55 litros de consumo (metade do que a ONU recomenda), seu abastecimento será interrompido. Nos mercados, não haveria carne, pois, se não há água para você, imagine para o gado. Gastam-se 43 mil litros de água para produzir 1 kg de carne. Mas, não é só ela que faltará. A Região Centro-Oeste do Brasil, maior produtor de grãos da América Latina em 2012, não conseguiria manter a produção. Afinal, no país a agricultura e a agropecuária são, hoje, as maiores consumidoras de água, com mais de 70% do uso. Faltariam arroz, feijão, soja, milho e outros grãos."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://super.abril.com.br. Acesso em: 30 jul. 2012"
+    },
+    {
+     "type": "text",
+     "text": "A língua portuguesa dispõe de vários recursos para indicar a atitude do falante em relação ao conteúdo de seu enunciado."
+    },
+    {
+     "type": "text",
+     "text": "No início do texto, o verbo “dever” contribui para expressar"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Uma constatação sobre como as pessoas administram os recursos hídricos."
+    },
+    {
+     "letter": "B",
+     "text": "A habilidade das comunidades em lidar com problemas ambientais contemporâneos."
+    },
+    {
+     "letter": "C",
+     "text": "A capacidade humana de substituir recursos naturais renováveis."
+    },
+    {
+     "letter": "D",
+     "text": "Uma previsão trágica a respeito das fontes de água potável."
+    },
+    {
+     "letter": "E",
+     "text": "Uma situação ficcional com base na realidade ambiental brasileira."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2014-q113",
+   "number": 113,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Quando Deus redimiu da tirania\nDa mão do Faraó endurecido\nO Povo Hebreu amado, e esclarecido,\nPáscoa ficou da redenção o dia."
+    },
+    {
+     "type": "text",
+     "text": "Páscoa de flores, dia de alegria\nÀquele Povo foi tão afligido\nO dia, em que por Deus foi redimido;\nErgo sois vós, Senhor, Deus da Bahia."
+    },
+    {
+     "type": "text",
+     "text": "Pois mandado pela alta Majestade\nNos remiu de tão triste cativeiro,\nNos livrou de tão vil calamidade."
+    },
+    {
+     "type": "text",
+     "text": "Quem pode ser senão um verdadeiro Deus,\nque veio estirpar desta cidade\nO Faraó do povo brasileiro."
+    },
+    {
+     "type": "text",
+     "text": "DAMASCENO, D. (Org.). Melhores poemas: Gregório de Matos. São Paulo: Globo, 2006."
+    },
+    {
+     "type": "text",
+     "text": "Com uma elaboração de linguagem e uma visão de mundo que apresentam princípios barrocos, o soneto de Gregório de Matos apresenta temática expressa por"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Visão cética sobre as relações sociais."
+    },
+    {
+     "letter": "B",
+     "text": "Preocupação com a identidade brasileira."
+    },
+    {
+     "letter": "C",
+     "text": "Crítica velada à forma de governo vigente."
+    },
+    {
+     "letter": "D",
+     "text": "Reflexão sobre os dogmas do cristianismo."
+    },
+    {
+     "letter": "E",
+     "text": "Questionamento das práticas pagãs na Bahia."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2014-q114",
+   "number": 114,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O Brasil é sertanejo"
+    },
+    {
+     "type": "text",
+     "text": "Que tipo de música simboliza o Brasil? Eis uma questão discutida há muito tempo, que desperta opiniões extremadas. Há fundamentalistas que desejam impor ao público um tipo de som nascido das raízes socioculturais do país. O samba. Outros, igualmente nacionalistas, desprezam tudo aquilo que não tem estilo. Sonham com o império da MPB de Chico Buarque e Caetano Veloso. Um terceiro grupo, formado por gente mais jovem, escuta e cultiva apenas a música internacional, em todas as vertentes. E mais ou menos ignora o resto."
+    },
+    {
+     "type": "text",
+     "text": "A realidade dos hábitos musicais do brasileiro agora está claro, nada tem a ver com esses estereótipos. O gênero que encanta mais da metade do país é o sertanejo, seguido de longe pela MPB e pelo pagode. Outros gêneros em ascensão, sobretudo entre as classes C, D e E, são o funk e o religioso, em especial o gospel. Rock e música eletrônica são músicas de minoria."
+    },
+    {
+     "type": "text",
+     "text": "É o que demonstra uma pesquisa pioneira feita entre agosto de 2012 e agosto de 2013 pelo Instituto Brasileiro de Opinião Pública e Estatística (Ibope). A pesquisa Tribos musicais – o comportamento dos ouvintes de rádio sob uma nova ótica faz um retrato do ouvinte brasileiro e traz algumas novidades. Para quem pensava que a MPB e o samba ainda resistiam como baluartes da nacionalidade, uma má notícia: os dois gêneros foram superados em popularidade. O Brasil moderno não tem mais o perfil sonoro dos anos 1970, que muitos gostariam que se eternizasse. A cara musical do país agora é outra."
+    },
+    {
+     "type": "text",
+     "text": "GIRON, L. A. Época, n. 805, out. 2013 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "O texto objetiva convencer o leitor de que a configuração da preferência musical dos brasileiros não é mais a mesma da dos anos 1970."
+    },
+    {
+     "type": "text",
+     "text": "A estratégia de argumentação para comprovar essa posição baseia-se no(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Apresentação dos resultados de uma pesquisa que retrata o quadro atual da preferência popular relativa à música brasileira."
+    },
+    {
+     "letter": "B",
+     "text": "Caracterização das opiniões relativas a determinados gêneros, considerados os mais representativos da brasilidade, como meros estereótipos."
+    },
+    {
+     "letter": "C",
+     "text": "Uso de estrangeirismos, como rock, funk e gospel, para compor um estilo próximo ao leitor, em sintonia com o ataque aos nacionalistas."
+    },
+    {
+     "letter": "D",
+     "text": "Ironia com relação ao apego a opiniões superadas, tomadas como expressão de conservadorismo e anacronismo, com o uso das designações “império” e “baluarte”."
+    },
+    {
+     "letter": "E",
+     "text": "Contraposição a impressões fundadas em elitismo e preconceito, com a alusão a artistas de renome para melhor demonstrar a consolidação da mudança do gosto musical popular."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2014-q116",
+   "number": 116,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Linotipos"
+    },
+    {
+     "type": "text",
+     "text": "O Museu da Imprensa exibe duas linotipos. Trata-se de um tipo de máquina de composição de tipos de chumbo, inventada em 1884 em Baltimore, nos Estados Unidos, pelo alemão Ottmar Mergenthaler. O invento foi de grande importância por ter significado um novo e fundamental avanço na história das artes gráficas. A linotipia provocou, na verdade, uma revolução porque venceu a lentidão da composição dos textos executada na tipografia tradicional, em que o texto era composto à mão, juntando tipos móveis um por um. Constituía-se, assim, no principal meio de composição tipográfica até 1950. A linotipo, a partir do século XIX, passou a produzir impressos a baixo custo, o que levou informação às massas, democratizou a informação. Promoveu uma revolução na educação. Antes da linotipo, os jornais e revistas eram escassos, com poucas páginas e caros. Os livros didáticos eram também caros, pouco acessíveis."
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://portal.in.gov.br. Acesso em: 23 fev. 2013 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "O texto apresenta um histórico da linotipo, uma máquina tipográfica inventada no século XIX e responsável pela dinamização da imprensa."
+    },
+    {
+     "type": "text",
+     "text": "Em termos sociais, a contribuição da linotipo teve impacto direto na"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Produção vagarosa de materiais didáticos."
+    },
+    {
+     "letter": "B",
+     "text": "Composição aprimorada de tipos de chumbo."
+    },
+    {
+     "letter": "C",
+     "text": "Montagem acelerada de textos para impressão."
+    },
+    {
+     "letter": "D",
+     "text": "Produção acessível de materiais informacionais."
+    },
+    {
+     "letter": "E",
+     "text": "Impressão dinamizada de imagens em revistas."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2014-q117",
+   "number": 117,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Cordel resiste à tecnologia gráfica"
+    },
+    {
+     "type": "text",
+     "text": "O Cariri mantém uma das mais ricas tradições da cultura popular. É a literatura de cordel, que atravessa os séculos sem ser destruída pela avalanche de modernidade que invade o sertão lírico e telúrico. Na contramão do progresso, que informatizou a indústria gráfica, a Lira Nordestina, de Juazeiro do Norte, e a Academia dos Cordelistas do Crato conservam, em suas oficinas, velhas máquinas para impressão dos seus cordéis."
+    },
+    {
+     "type": "text",
+     "text": "A chapa para impressão do cordel é feita à mão, letra por letra, um trabalho artesanal que dura cerca de uma hora para confecção de uma página. Em seguida, a chapa é levada para a impressora, também manual, para imprimir. A manutenção desse sistema antigo de impressão faz parte da filosofia do trabalho. A outra etapa é a confecção da xilogravura para a capa do cordel."
+    },
+    {
+     "type": "text",
+     "text": "As xilogravuras são ilustrações populares obtidas por gravuras talhadas em madeira. A origem da xilogravura nordestina até hoje é ignorada. Acredita-se que os missionários portugueses tenham ensinado sua técnica aos índios, como uma atividade extra-catequese, partindo do princípio religioso que defende a necessidade de ocupar as mãos para que a mente não fique livre, sujeita aos maus pensamentos, ao pecado. A xilogravura antecedeu ao clichê, placa fotomecanicamente gravada em relevo sobre metal, usualmente zinco, que era utilizada nos jornais impressos em rotoplanas."
+    },
+    {
+     "type": "text",
+     "text": "VICELMO, A. Disponível em: www.onordeste.com. Acesso em: 24 fev. 2013 (adaptado)"
+    },
+    {
+     "type": "text",
+     "text": "A estratégia gráfica constituída pela união entre as técnicas da impressão manual e da confecção da xilogravura na produção de folhetos de cordel"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Realça a importância da xilogravura sobre o clichê."
+    },
+    {
+     "letter": "B",
+     "text": "Oportuniza a renovação dessa arte na modernidade."
+    },
+    {
+     "letter": "C",
+     "text": "Demonstra a utilidade desses textos para a catequese."
+    },
+    {
+     "letter": "D",
+     "text": "Revela a necessidade da busca das origens dessa literatura."
+    },
+    {
+     "letter": "E",
+     "text": "Auxilia na manutenção da essência identitária dessa tradição popular."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2014-q118",
+   "number": 118,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em bom português"
+    },
+    {
+     "type": "text",
+     "text": "No Brasil, as palavras envelhecem e caem como folhas secas. Não é somente pela gíria que a gente é apanhada (aliás, já não se usa mais a primeira pessoa, tanto do singular como do plural: tudo é “a gente”). A própria linguagem corrente vai-se renovando e a cada dia uma parte do léxico cai em desuso."
+    },
+    {
+     "type": "text",
+     "text": "Minha amiga Lila, que vive descobrindo essas coisas, chamou minha atenção para os que falam assim:"
+    },
+    {
+     "type": "text",
+     "text": "— Assisti a uma fita de cinema com um artista que representa muito bem."
+    },
+    {
+     "type": "text",
+     "text": "Os que acharam natural essa frase, cuidado! Não saberão dizer que viram um filme com um ator que trabalha bem. E irão ao banho de mar em vez de ir à praia, vestido de roupa de banho em vez de biquíni, carregando guarda-sol em vez de barraca. Comprarão um automóvel em vez de comprar um carro, pegarão um defluxo em vez de um resfriado, vão andar no passeio em vez de passear na calçada. Viajarão de trem de ferro e apresentarão sua esposa ou sua senhora em vez de apresentar sua mulher."
+    },
+    {
+     "type": "text",
+     "text": "SABINO, F. Folha de S. Paulo, 13 abr. 1984 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "A língua varia no tempo, no espaço e em diferentes classes socioculturais. O texto exemplifica essa característica da língua, evidenciando que"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "O uso de palavras novas deve ser incentivado em detrimento das antigas."
+    },
+    {
+     "letter": "B",
+     "text": "A utilização de inovações no léxico é percebida na comparação de gerações."
+    },
+    {
+     "letter": "C",
+     "text": "O emprego de palavras com sentidos diferentes caracteriza diversidade geográfica."
+    },
+    {
+     "letter": "D",
+     "text": "A pronúncia e o vocabulário são aspectos identificadores da classe social a que pertence o falante."
+    },
+    {
+     "letter": "E",
+     "text": "O modo de falar específico de pessoas de diferentes faixas etárias é frequente em todas as regiões."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2014-q119",
+   "number": 119,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Psicologia de um vencido"
+    },
+    {
+     "type": "text",
+     "text": "Eu, filho do carbono e do amoníaco,\nMonstro de escuridão e rutilância,\nSofro, desde a epigênesis da infância,\nA influência má dos signos do zodíaco."
+    },
+    {
+     "type": "text",
+     "text": "Profundíssimamente hipocondríaco,\nEste ambiente me causa repugnância…\nSobe-me à boca uma ânsia análoga à ânsia\nQue se escapa da boca de um cardíaco."
+    },
+    {
+     "type": "text",
+     "text": "Já o verme — este operário das ruínas —\nQue o sangue podre das carnificinas\nCome, e à vida em geral declara guerra,"
+    },
+    {
+     "type": "text",
+     "text": "Anda a espreitar meus olhos para roê-los,\nE há de deixar-me apenas os cabelos,\nNa frialdade inorgânica da terra!"
+    },
+    {
+     "type": "text",
+     "text": "ANJOS, A. Obra completa. Rio de Janeiro: Nova Aguilar, 1994."
+    },
+    {
+     "type": "text",
+     "text": "A poesia de Augusto dos Anjos revela aspectos de uma literatura de transição designada como pré-modernista. Com relação à poética e à abordagem temática presentes no soneto, identificam-se marcas dessa literatura de transição, como"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A forma do soneto, os versos metrificados, a presença de rimas e o vocabulário requintado, além do ceticismo, que antecipam conceitos estéticos vigentes no Modernismo."
+    },
+    {
+     "letter": "B",
+     "text": "O empenho do eu lírico pelo resgate da poesia simbolista, manifesta em metáforas como “Monstro de escuridão e rutilância” e “influência má dos signos do zodíaco”."
+    },
+    {
+     "letter": "C",
+     "text": "A seleção lexical emprestada ao cientificismo, como se lê em “carbono e amoníaco”, “epigênesis da infância” e “frialdade inorgânica”, que restitui a visão naturalista do homem."
+    },
+    {
+     "letter": "D",
+     "text": "A manutenção de elementos formais vinculados à estética do Parnasianismo e do Simbolismo, dimensionada pela inovação na expressividade poética, e o desconcerto existencial."
+    },
+    {
+     "letter": "E",
+     "text": "A ênfase no processo de construção de uma poesia descritiva e ao mesmo tempo filosófica, que incorpora valores morais e científicos mais tarde renovados pelos modernistas."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2014-q120",
+   "number": 120,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O negócio"
+    },
+    {
+     "type": "text",
+     "text": "Grande sorriso do canino de ouro, o velho Abílio propõe às donas que se abastecem de pão e banana:\n— Como é o negócio?\nDe cada três dá certo com uma. Ela sorri, não responde ou é uma promessa a recusa:\n— Deus me livre, não! Hoje não…\nAbílio interpelou a velha:\n— Como é o negócio?\nEla concordou e, o que foi melhor, a filha também aceitou o trato. Com a dona Julietinha foi assim. Ele se chegou:\n— Como é o negócio?\nEla sorriu, olhinho baixo. Abílio espreitou o cometa partir. Manhã cedinho saltou a cerca. Sinal combinado, duas batidas na porta da cozinha. A dona saiu para o quintal, cuidadosa de não acordar os filhos. Ela trazia a capa de viagem, estendida na grama orvalhada.\nO vizinho espionou os dois, aprendeu o sinal. Decidiu imitar a proeza. No crepúsculo, pum-pum, duas pancadas fortes na porta. O marido em viagem, mas não era dia do Abílio. Desconfiada, a moça surgiu à janela e o vizinho repetiu:\n— Como é o negócio?"
+    },
+    {
+     "type": "text",
+     "text": "Diante da recusa, ele ameaçou:"
+    },
+    {
+     "type": "text",
+     "text": "— Então você quer o velho e não quer o moço? Olhe que eu conto!"
+    },
+    {
+     "type": "text",
+     "text": "TREVISAN, D. Mistérios de Curitiba. Rio de Janeiro: Record, 1979 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "Quanto à abordagem do tema e aos recursos expressivos, essa crônica tem um caráter"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Filosófico, pois reflete sobre as mazelas sofridas pelos vizinhos."
+    },
+    {
+     "letter": "B",
+     "text": "Lírico, pois relata com nostalgia o relacionamento da vizinhança."
+    },
+    {
+     "letter": "C",
+     "text": "Irônico, pois apresenta com malícia a convivência entre vizinhos."
+    },
+    {
+     "letter": "D",
+     "text": "Crítico, pois deprecia o que acontece nas relações de vizinhança."
+    },
+    {
+     "letter": "E",
+     "text": "Didático, pois expõe uma conduta a ser evitada na relação entre vizinhos."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2014-q121",
+   "number": 121,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A última edição deste periódico apresenta mais uma vez tema relacionado ao tratamento dado ao lixo caseiro, aquele que produzimos no dia a dia. A informação agora passa pelo problema do material jogado na estrada vicinal que liga o município de Rio Claro ao distrito de Ajapi. Infelizmente, no local em questão, a reportagem encontrou mais uma forma errada de destinação do lixo: material atirado ao lado da pista como se isso fosse o ideal. Muitos moradores, por exemplo, retiram o lixo de suas residências e, em vez de um destino correto, procuram dispensá-lo em outras regiões. Uma situação no mínimo incômoda. Se você sai de casa para jogar o lixo em outra localidade, por que não o fazer no local ideal? É muita falta de educação achar que aquilo que não é correto para sua região possa ser para outra. A reciclagem do lixo doméstico é um passo inteligente e de consciência. Olha o exemplo que passamos aos mais jovens! Quem aprende errado coloca em prática o errado. Um perigo!"
+    },
+    {
+     "type": "text",
+     "text": "Disponível em: http://jornaldacidade.uol.com.br. Acesso em: 10 ago. 2012 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Esse editorial faz uma leitura diferenciada de uma notícia veiculada no jornal. Tal diferença traz à tona uma das funções sociais desse gênero textual, que é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Apresentar fatos que tenham sido noticiados pelo próprio veículo."
+    },
+    {
+     "letter": "B",
+     "text": "Chamar a atenção do leitor para temas raramente abordados no jornal."
+    },
+    {
+     "letter": "C",
+     "text": "Provocar a indignação dos cidadãos por força dos argumentos apresentados."
+    },
+    {
+     "letter": "D",
+     "text": "Interpretar criticamente fatos noticiados e considerados relevantes para a opinião pública."
+    },
+    {
+     "letter": "E",
+     "text": "Trabalhar uma informação previamente apresentada com base no ponto de vista do autor da notícia."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2014-q123",
+   "number": 123,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Por onde houve colonização portuguesa, a música popular se desenvolveu basicamente com o mesmo instrumental. Podemos ver cavaquinho e violão atuarem juntos aqui, em Cabo Verde, em Jacarta, na Indonésia, ou em Goa. O caráter nostálgico, sentimental, é outro ponto comum da música das colônias portuguesas em todo o mundo. O kronjong, a música típica de Jacarta, é uma espécie de lundu mais lento, tocado comumente com flauta, cavaquinho e violão. Em Goa não é muito diferente."
+    },
+    {
+     "type": "text",
+     "text": "De acordo com o texto de Henrique Cazes, grande parte da música popular desenvolvida nos países colonizados por Portugal compartilham um instrumental, destacando-se o cavaquinho e o violão. No Brasil, são exemplos de música popular que empregam esses mesmos instrumentos:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Maracatu e ciranda."
+    },
+    {
+     "letter": "B",
+     "text": "Carimbó e baião."
+    },
+    {
+     "letter": "C",
+     "text": "Choro e samba."
+    },
+    {
+     "letter": "D",
+     "text": "Chula e siriri."
+    },
+    {
+     "letter": "E",
+     "text": "Xote e frevo."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2014-q124",
+   "number": 124,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Vida obscura"
+    },
+    {
+     "type": "text",
+     "text": "Ninguém sentiu o teu espasmo obscuro,\nó ser humilde entre os humildes seres,\nembriagado, tonto de prazeres,\no mundo para ti foi negro e duro."
+    },
+    {
+     "type": "text",
+     "text": "Atravessaste no silêncio escuro\na vida presa a trágicos deveres\ne chegaste ao saber de altos saberes\ntornando-te mais simples e mais puro."
+    },
+    {
+     "type": "text",
+     "text": "Ninguém te viu o sentimento inquieto,\nmagoado, oculto e aterrador, secreto,\nque o coração te apunhalou no mundo,"
+    },
+    {
+     "type": "text",
+     "text": "Mas eu que sempre te segui os passos\nsei que cruz infernal prendeu-te os braços\ne o teu suspiro como foi profundo!"
+    },
+    {
+     "type": "text",
+     "text": "SOUSA, C. Obra completa. Rio de Janeiro: Nova Aguilar, 1961."
+    },
+    {
+     "type": "text",
+     "text": "Com uma obra densa e expressiva no Simbolismo brasileiro, Cruz e Sousa transpôs para seu lirismo uma sensibilidade em conflito com a realidade vivenciada. No soneto, essa percepção traduz-se em"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Sofrimento tácito diante dos limites impostos pela discriminação."
+    },
+    {
+     "letter": "B",
+     "text": "Tendência latente ao vício como resposta ao isolamento social."
+    },
+    {
+     "letter": "C",
+     "text": "Extenuação condicionada a uma rotina de tarefas degradantes."
+    },
+    {
+     "letter": "D",
+     "text": "Frustração amorosa canalizada para as atividades intelectuais."
+    },
+    {
+     "letter": "E",
+     "text": "Vocação religiosa manifesta na aproximação com a fé cristã."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2014-q125",
+   "number": 125,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A História, mais ou menos"
+    },
+    {
+     "type": "text",
+     "text": "Negócio seguinte. Três reis magrinhos ouviram um plá de que tinha nascido um Guri. Viram o cometa no Oriente e tal e se flagraram que o Guri tinha pintado por lá. Os profetas, que não eram de dar cascata, já tinham dicado o troço: em Belém, da Judeia, vai nascer o Salvador, e tá falado. Os três magrinhos se mandaram. Mas deram o maior fora. Em vez de irem direto para Belém, como mandava o catálogo, resolveram dar uma incerta no velho Herodes, em Jerusalém. Pra quê! Chegaram lá de boca aberta e entregaram toda a trama. Perguntaram: Onde está o rei que acaba de nascer? Vimos sua estrela no Oriente e viemos adorá-lo. Quer dizer, pegou mal. Muito mal. O velho Herodes, que era um oligão, ficou grilado. Que rei era aquele? Ele é que era o dono da praça. Mas comeu em boca e disse: Joia. Onde é que esse guri vai se apresentar? Em que canal? Quem é o empresário? Tem baixo elétrico? Quero saber tudo. Os magrinhos disseram que iam flagrar o Guri e na volta dicavam tudo para o coroa."
+    },
+    {
+     "type": "text",
+     "text": "VERISSIMO, L. F. O nariz e outras crônicas. São Paulo: Ática, 1994."
+    },
+    {
+     "type": "text",
+     "text": "Na crônica de Verissimo, a estratégia para gerar o efeito de humor decorre do(a)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Linguagem rebuscada utilizada pelo narrador no tratamento do assunto."
+    },
+    {
+     "letter": "B",
+     "text": "Inserção de perguntas diretas acerca do acontecimento narrado."
+    },
+    {
+     "letter": "C",
+     "text": "Caracterização dos lugares onde se passa a história."
+    },
+    {
+     "letter": "D",
+     "text": "Emprego de termos bíblicos de forma descontextualizada."
+    },
+    {
+     "letter": "E",
+     "text": "Contraste entre o tema abordado e a linguagem utilizada."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2014-q126",
+   "number": 126,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "FABIANA, arrepelando-se de raiva — Hum! Ora, eis aí está para que se casou meu filho, e trouxe a mulher para minha casa. É isto constantemente. Não sabe o senhor meu filho que quem casa quer casa…. Já não posso, não posso, não posso! (Batendo com o pé). Um dia arrebento, e então veremos!"
+    },
+    {
+     "type": "text",
+     "text": "PENA, M. Quem casa quer casa. www.dominiopublico.gov.br. Acesso em: 7 dez. 2012."
+    },
+    {
+     "type": "text",
+     "text": "As rubricas em itálico, como as trazidas no trecho de Martins Pena, em uma atuação teatral, constituem"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Necessidade, porque as encenações precisam ser fiéis às diretrizes do autor."
+    },
+    {
+     "letter": "B",
+     "text": "Possibilidade, porque o texto pode ser mudado, assim como outros elementos."
+    },
+    {
+     "letter": "C",
+     "text": "Preciosismo, porque são irrelevantes para o texto ou para a encenação."
+    },
+    {
+     "letter": "D",
+     "text": "Exigência, porque elas determinam as características do texto teatral."
+    },
+    {
+     "letter": "E",
+     "text": "Imposição, porque elas anulam a autonomia do diretor."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2014-q128",
+   "number": 128,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Tarefa"
+    },
+    {
+     "type": "text",
+     "text": "Morder o fruto amargo e não cuspir\nMas avisar aos outros quanto é amargo\nCumprir o trato injusto e não falhar\nMas avisar aos outros quanto é injusto\nSofrer o esquema falso e não ceder\nMas avisar aos outros quanto é falso\nDizer também que são coisas mutáveis…\nE quando em muitos a não pulsar\n— do amargo e injusto e falso por mudar —\nentão confiar à gente exausta o plano\nde um mundo novo e muito mais humano."
+    },
+    {
+     "type": "text",
+     "text": "CAMPOS, G. Tarefa. Rio de Janeiro: Civilização Brasileira, 1981."
+    },
+    {
+     "type": "text",
+     "text": "Na organização do poema, os empregos da conjunção “mas” articulam, para além de sua função sintática,"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "A ligação entre verbos semanticamente semelhantes."
+    },
+    {
+     "letter": "B",
+     "text": "A oposição entre ações aparentemente inconciliáveis."
+    },
+    {
+     "letter": "C",
+     "text": "A introdução do argumento mais forte de uma sequência."
+    },
+    {
+     "letter": "D",
+     "text": "O reforço da causa apresentada no enunciado introdutório."
+    },
+    {
+     "letter": "E",
+     "text": "A intensidade dos problemas sociais presentes no mundo."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2014-q129",
+   "number": 129,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Óia eu aqui de novo xaxando\nÓia eu aqui de novo para xaxar"
+    },
+    {
+     "type": "text",
+     "text": "Vou mostrar pr’esses cabras\nQue eu ainda dou no couro\nIsso é um desaforo\nQue eu não posso levar\nQue eu aqui de novo cantando\nQue eu aqui de novo xaxando\nÓia eu aqui de novo mostrando\nComo se deve xaxar"
+    },
+    {
+     "type": "text",
+     "text": "Vem cá morena linda\nVestida de chita\nVocê é a mais bonita\nDesse meu lugar\nVai, chama Maria, chama Luzia\nVai, chama Zabé, chama Raque\nDiz que eu tou aqui com alegria"
+    },
+    {
+     "type": "text",
+     "text": "BARROS, A. Óia eu aqui de novo. Disponível em: www.luizluagonzaga.mus.br. Acesso em: 5 maio 2013 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "A letra da canção de Antônio de Barros manifesta aspectos do repertório linguístico e cultural do Brasil. O verso que singulariza uma forma característica do falar popular regional é:"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "“Isso é um desaforo”."
+    },
+    {
+     "letter": "B",
+     "text": "“Diz que eu tou aqui com alegria”."
+    },
+    {
+     "letter": "C",
+     "text": "“Vou mostrar pr’esses cabras”."
+    },
+    {
+     "letter": "D",
+     "text": "“Vai, chama Maria, chama Luzia”."
+    },
+    {
+     "letter": "E",
+     "text": "“Vem cá morena linda, vestida de chita”."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2014-q130",
+   "number": 130,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Em uma escala de 0 a 10, o Brasil está entre 3 e 4 no quesito segurança da informação. “Estamos começando a acordar para o problema. Nessa história de espionagem corporativa, temos muita lição a fazer. Falta consciência institucional e um longo aprendizado. A sociedade caiu em si e viu que é uma coisa que nos afeta”, diz S.P., pós-doutor em segurança da informação. Para ele, devem ser estabelecidos canais de denúncia para esse tipo de situação. De acordo com o conselheiro do Comitê Gestor da Internet (CGI), o Brasil tem condições de desenvolver tecnologia própria para garantir a segurança dos dados do país, tanto do governo quanto da população. “Há uma massa de conhecimento dentro das universidades e em empresas inovadoras que podem contribuir propondo medidas para que possamos mudar isso [falta de segurança] no longo prazo”. Ele acredita que o governo tem de usar o seu poder de compra de softwares e hardwares para a área da segurança cibernética, de forma a fomentar essas empresas, a produção de conhecimento na área e a construção de uma cadeia de produção nacional."
+    },
+    {
+     "type": "text",
+     "text": "SARRES, C. Disponível em: www.ebc.com.br. Acesso em: 22 nov. 2013 (adaptado)."
+    },
+    {
+     "type": "text",
+     "text": "Considerando-se o surgimento da espionagem corporativa em decorrência do amplo uso da internet, o texto aponta uma necessidade advinda desse impacto, que se resume em"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Alertar a sociedade sobre os riscos de ser espionada."
+    },
+    {
+     "letter": "B",
+     "text": "Promover a indústria de segurança da informação."
+    },
+    {
+     "letter": "C",
+     "text": "Discutir a espionagem em fóruns internacionais."
+    },
+    {
+     "letter": "D",
+     "text": "Incentivar o aparecimento de delatores."
+    },
+    {
+     "letter": "E",
+     "text": "Treinar o país em segurança digital."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2014-q132",
+   "number": 132,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "TEXTO I"
+    },
+    {
+     "type": "text",
+     "text": "Ditado popular é uma frase sentenciosa, concisa, de verdade comprovada, baseada na secular experiência do povo, exposta de forma poética, contendo uma norma de conduta ou qualquer outro ensinamento."
+    },
+    {
+     "type": "text",
+     "text": "WEITZEL, A. H. Folclore literário e linguístico. Juiz de Fora: Esdeva, 1984 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "TEXTO II"
+    },
+    {
+     "type": "text",
+     "text": "Rindo brincalhona, dando-lhe tapinhas nas costas, prima Constança disse isto, dorme no assunto, ouça o travesseiro, não tem melhor conselheiro."
+    },
+    {
+     "type": "text",
+     "text": "Enquanto prima Biela dormia no assunto, toda a casa se alvoroçava."
+    },
+    {
+     "type": "text",
+     "text": "[Prima Constança] ia rezar, pedir a Deus para iluminar prima Biela. Mas ia também tomar suas providências. Casamento e mortalha, no céu se talha. Deus escreve direito por linhas tortas. O que for soará. Dizia os ditados todos, procurando interpretar os desígnios de Deus, transformar os seus desejos nos desígnios de Deus. Se achava um instrumento de Deus."
+    },
+    {
+     "type": "text",
+     "text": "DOURADO, A. Uma vida em segredo. Rio de Janeiro: Francisco Alves, 1990 (fragmento)."
+    },
+    {
+     "type": "text",
+     "text": "O uso que prima Constança faz dos ditados populares, no Texto II, constitui uma maneira de utilizar o tipo de saber definido no Texto I, porque"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Cita-os pela força do hábito."
+    },
+    {
+     "letter": "B",
+     "text": "Aceita-os como verdade absoluta."
+    },
+    {
+     "letter": "C",
+     "text": "Aciona-os para justificar suas ações."
+    },
+    {
+     "letter": "D",
+     "text": "Toma-os para solucionar um problema."
+    },
+    {
+     "letter": "E",
+     "text": "Considera-os como uma orientação divina."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2014-q133",
+   "number": 133,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "No Brasil, a origem do funk e do hip-hop remonta aos anos 1970, quando da proliferação dos chamados “bailes black” nas periferias dos grandes centros urbanos. Embalados pela black music americana, milhares de jovens encontravam nos bailes de final de semana uma alternativa de lazer antes inexistente. Em cidades como o Rio de Janeiro ou São Paulo, formavam-se equipes de som que promoviam bailes onde foi se disseminando um estilo que buscava a valorização da cultura negra, tanto na música como nas roupas e nos penteados. No Rio de Janeiro ficou conhecido como “Black Rio”. A indústria fonográfica descobriu o filão e, lançando discos de “equipe” com as músicas de sucesso nos bailes, difundia a moda pelo restante do país."
+    },
+    {
+     "type": "text",
+     "text": "DAYRELL, J. A música entra em cena: o rap e o funk na socialização da juventude.Belo Horizonte: UFMG, 2005."
+    },
+    {
+     "type": "text",
+     "text": "A presença da cultura hip-hop no Brasil caracteriza-se como uma forma de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Lazer gerada pela diversidade de práticas artísticas nas periferias urbanas."
+    },
+    {
+     "letter": "B",
+     "text": "Entretenimento inventada pela indústria fonográfica nacional."
+    },
+    {
+     "letter": "C",
+     "text": "Subversão de sua proposta original já nos primeiros bailes."
+    },
+    {
+     "letter": "D",
+     "text": "Afirmação de identidade dos jovens que a praticam."
+    },
+    {
+     "letter": "E",
+     "text": "Reprodução da cultura musical norte-americana."
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2014-q134",
+   "number": 134,
+   "subject": "Linguagens",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A forte presença de palavras indígenas e africanas e de termos trazidos pelos imigrantes a partir do século XIX é um dos traços que distinguem o português do Brasil e o português de Portugal. Mas, olhando para a história dos empréstimos que o português brasileiro recebeu de línguas europeias a partir do século XX, outra diferença também aparece: com a vinda ao Brasil da família real portuguesa (1808) e, particularmente, com a Independência, Portugal deixou de ser o intermediário obrigatório da assimilação desses empréstimos e, assim, Brasil e Portugal começaram a divergir, não só por terem sofrido influências diferentes, mas também pela maneira como reagiram a elas."
+    },
+    {
+     "type": "text",
+     "text": "ILARI, R.; BASSO, R. O português da gente: a língua que estudamos, a língua que falamos. São Paulo: Contexto, 2006."
+    },
+    {
+     "type": "text",
+     "text": "Os empréstimos linguísticos, recebidos de diversas línguas, são importantes na constituição do português do Brasil porque"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Deixaram marcas da história vivida pela nação, como a colonização e a imigração."
+    },
+    {
+     "letter": "B",
+     "text": "Transformaram em um só idioma línguas diferentes, como as africanas, as indígenas e as europeias."
+    },
+    {
+     "letter": "C",
+     "text": "Promoveram uma língua acessível a falantes de origens distintas, como o africano, o indígena e o europeu."
+    },
+    {
+     "letter": "D",
+     "text": "Guardaram uma relação de identidade entre os falantes do português do Brasil e os do português de Portugal."
+    },
+    {
+     "letter": "E",
+     "text": "Tornaram a língua do Brasil mais complexa do que as línguas de outros países que também tiveram colonização portuguesa."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2014-q139",
+   "number": 139,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A razão entre a largura da nova porta e a largura da porta anterior é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "1/8"
+    },
+    {
+     "letter": "B",
+     "text": "7/8"
+    },
+    {
+     "letter": "C",
+     "text": "8/7"
+    },
+    {
+     "letter": "D",
+     "text": "8/9"
+    },
+    {
+     "letter": "E",
+     "text": "9/8"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2014-q146",
+   "number": 146,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O número de divisores de N, diferentes de N, é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "X. y. z"
+    },
+    {
+     "letter": "B",
+     "text": "(x+ 1).(y + 1)"
+    },
+    {
+     "letter": "C",
+     "text": "X . y . z - 1"
+    },
+    {
+     "letter": "D",
+     "text": "(x + 1).(y + 1).z"
+    },
+    {
+     "letter": "E",
+     "text": "(x + 1).(y + 1).(z + 1) - 1"
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2014-q149",
+   "number": 149,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Qual é o tempo mínimo para que todos passem pelas catracas?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "1 hora."
+    },
+    {
+     "letter": "B",
+     "text": "1 hora e 15 minutos."
+    },
+    {
+     "letter": "C",
+     "text": "5 horas."
+    },
+    {
+     "letter": "D",
+     "text": "6 horas."
+    },
+    {
+     "letter": "E",
+     "text": "6 horas e 15 minutos."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2014-q152",
+   "number": 152,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Se o volume de esgoto gerado permanecer o mesmo e a meta dessa campanha se concretizar, o percentual de esgoto tratado passará a ser"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "72%"
+    },
+    {
+     "letter": "B",
+     "text": "68%"
+    },
+    {
+     "letter": "C",
+     "text": "64%"
+    },
+    {
+     "letter": "D",
+     "text": "54%"
+    },
+    {
+     "letter": "E",
+     "text": "18%"
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2014-q154",
+   "number": 154,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Qual desses jogadores apresentou maior desempenho?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "I"
+    },
+    {
+     "letter": "B",
+     "text": "II"
+    },
+    {
+     "letter": "C",
+     "text": "III"
+    },
+    {
+     "letter": "D",
+     "text": "IV"
+    },
+    {
+     "letter": "E",
+     "text": "V"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2014-q156",
+   "number": 156,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O volume real do armário, em centímetros cúbicos, será"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "6."
+    },
+    {
+     "letter": "B",
+     "text": "600."
+    },
+    {
+     "letter": "C",
+     "text": "6 000."
+    },
+    {
+     "letter": "D",
+     "text": "60 000."
+    },
+    {
+     "letter": "E",
+     "text": "6 000 000."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2014-q159",
+   "number": 159,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O número máximo de mudas que essa pessoa poderá plantar no espaço disponível é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "4."
+    },
+    {
+     "letter": "B",
+     "text": "8."
+    },
+    {
+     "letter": "C",
+     "text": "9."
+    },
+    {
+     "letter": "D",
+     "text": "12."
+    },
+    {
+     "letter": "E",
+     "text": "20."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2014-q164",
+   "number": 164,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A probabilidade de o teste terminar na quinta pergunta é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "0,02048."
+    },
+    {
+     "letter": "B",
+     "text": "0,08192."
+    },
+    {
+     "letter": "C",
+     "text": "0,24000."
+    },
+    {
+     "letter": "D",
+     "text": "0,40960."
+    },
+    {
+     "letter": "E",
+     "text": "0,49152."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2014-q167",
+   "number": 167,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Use 3 como valor aproximado para π."
+    },
+    {
+     "type": "text",
+     "text": "A redução do volume da pílula, em milímetros cúbicos, após a reprogramação da máquina, será igual a"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "168."
+    },
+    {
+     "letter": "B",
+     "text": "304."
+    },
+    {
+     "letter": "C",
+     "text": "306."
+    },
+    {
+     "letter": "D",
+     "text": "378."
+    },
+    {
+     "letter": "E",
+     "text": "514."
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2014-q168",
+   "number": 168,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O Brasil é um país com uma vantagem econômica clara no terreno dos recursos naturais, dispondo de uma das maiores áreas com vocação agrícola do mundo. Especialistas calculam que, dos 853 milhões de hectares do país, as cidades, as reservas indígenas e as áreas de preservação, incluindo florestas e mananciais, cubram por volta de 470 milhões de hectares. Aproximadamente 280 milhões se destinam à agropecuária, 200 milhões para pastagens e 80 milhões para a agricultura, somadas as lavouras anuais e as perenes, como o café e a fruticultura."
+    },
+    {
+     "type": "text",
+     "text": "FORTES, G. Recuperação de pastagens é alternativa para ampliar cultivos. Folha de S. Paulo, 30 out. 2011."
+    },
+    {
+     "type": "text",
+     "text": "De acordo com os dados apresentados, o percentual correspondente à área utilizada para agricultura em relação à área do território brasileiro é mais próximo de"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "32,8%"
+    },
+    {
+     "letter": "B",
+     "text": "28,6%"
+    },
+    {
+     "letter": "C",
+     "text": "10,7%"
+    },
+    {
+     "letter": "D",
+     "text": "9,4%"
+    },
+    {
+     "letter": "E",
+     "text": "8,0%"
+    }
+   ],
+   "answer": "D"
+  },
+  {
+   "id": "enem-2014-q171",
+   "number": 171,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "No caso de carga máxima, as cargas recebidas pelos três pontos de sustentação serão, respectivamente,"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "1,8 t; 8,4 t; 1,8 t."
+    },
+    {
+     "letter": "B",
+     "text": "3,0 t; 6,0 t; 3,0 t."
+    },
+    {
+     "letter": "C",
+     "text": "2,4 t; 7,2 t; 2,4 t."
+    },
+    {
+     "letter": "D",
+     "text": "3,6 t; 4,8 t; 3,6 t."
+    },
+    {
+     "letter": "E",
+     "text": "4,2 t; 3,6 t; 4,2 t."
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2014-q173",
+   "number": 173,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Qual é o valor, em metros quadrados, da área coberta pelo terreno da piscina?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "8"
+    },
+    {
+     "letter": "B",
+     "text": "80"
+    },
+    {
+     "letter": "C",
+     "text": "800"
+    },
+    {
+     "letter": "D",
+     "text": "8 000"
+    },
+    {
+     "letter": "E",
+     "text": "80 000"
+    }
+   ],
+   "answer": "E"
+  },
+  {
+   "id": "enem-2014-q174",
+   "number": 174,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "O secretário de saúde comprará recipientes de um mesmo tipo, de modo a instalar 20 deles em cada escola, abastecidos com álcool em gel na sua capacidade máxima, de forma a utilizar todo o gel dos galões de uma só vez."
+    },
+    {
+     "type": "text",
+     "text": "Que tipo de recipiente o secretário de saúde deve comprar?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "I"
+    },
+    {
+     "letter": "B",
+     "text": "II"
+    },
+    {
+     "letter": "C",
+     "text": "III"
+    },
+    {
+     "letter": "D",
+     "text": "IV"
+    },
+    {
+     "letter": "E",
+     "text": "V"
+    }
+   ],
+   "answer": "C"
+  },
+  {
+   "id": "enem-2014-q175",
+   "number": 175,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "De acordo com as informações, o intervalo das porcentagens que representam a variação total possível de P é"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "[35 ; 63]."
+    },
+    {
+     "letter": "B",
+     "text": "[40 ; 63]."
+    },
+    {
+     "letter": "C",
+     "text": "[50 ; 70]."
+    },
+    {
+     "letter": "D",
+     "text": "[50 ; 90]."
+    },
+    {
+     "letter": "E",
+     "text": "[70 ; 90]."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2014-q178",
+   "number": 178,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Qual deve ser a ação desse proprietário para que ele atinja o seu objetivo?"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "Retirar 16 células."
+    },
+    {
+     "letter": "B",
+     "text": "Retirar 40 células."
+    },
+    {
+     "letter": "C",
+     "text": "Acrescentar 5 células."
+    },
+    {
+     "letter": "D",
+     "text": "Acrescentar 20 células."
+    },
+    {
+     "letter": "E",
+     "text": "Acrescentar 40 células."
+    }
+   ],
+   "answer": "A"
+  },
+  {
+   "id": "enem-2014-q179",
+   "number": 179,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "A quantia que essa pessoa levava semanalmente para fazer a compra era"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "R$ 166,00."
+    },
+    {
+     "letter": "B",
+     "text": "R$ 156,00."
+    },
+    {
+     "letter": "C",
+     "text": "R$ 84,00."
+    },
+    {
+     "letter": "D",
+     "text": "R$ 46,00."
+    },
+    {
+     "letter": "E",
+     "text": "R$ 24,00."
+    }
+   ],
+   "answer": "B"
+  },
+  {
+   "id": "enem-2014-q180",
+   "number": 180,
+   "subject": "Matemática",
+   "statement": [
+    {
+     "type": "text",
+     "text": "Para que o executivo chegue à cidade A no horário correto e admitindo que não haja atrasos, ele deve pegar um voo saindo da cidade B, em horário local de B, no máximo à(s)"
+    }
+   ],
+   "alternatives": [
+    {
+     "letter": "A",
+     "text": "16h."
+    },
+    {
+     "letter": "B",
+     "text": "10h."
+    },
+    {
+     "letter": "C",
+     "text": "7h."
+    },
+    {
+     "letter": "D",
+     "text": "4h."
+    },
+    {
+     "letter": "E",
+     "text": "1h."
+    }
+   ],
+   "answer": "D"
+  }
+ ]
+}
