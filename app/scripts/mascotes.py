@@ -183,6 +183,33 @@ for k, trocas in FALA.items():
         b = b.replace(fechada, aberta)
     FALANDO[k] = b
 
+# Expressões extras usadas nos vídeos. Cada uma tem o quadro fechado e o de fala.
+def olho_arregalado(cx, cy, brow):
+    return (f'<ellipse cx="{cx}" cy="{cy}" rx="6.4" ry="6.8" fill="{W}"/>'
+            f'<circle cx="{cx}" cy="{cy + 0.5}" r="1.9" fill="{INK}"/>'
+            f'<path d="M{cx - 6} {cy - 11} Q{cx} {cy - 14} {cx + 6} {cy - 11}" fill="none" stroke="{brow}" stroke-width="2.6" stroke-linecap="round"/>')
+
+
+def _troca(body, pares):
+    for a, b in pares:
+        assert a in body, a
+        body = body.replace(a, b)
+    return body
+
+
+_olhos_tatu = eye(51, 54, SKIN, brow=INK, tilt=0.8) + eye(69, 54, SKIN, brow=INK, tilt=-1.6)
+_boca_tatu = FALA['gabaritatu'][0][0]
+_sorrisao = (f'<path d="M54 68 Q66 86 80 64 Q67 72 54 68 Z" fill="{W}" stroke="{INK}" stroke-width="2.4" stroke-linejoin="round"/>'
+             f'<path d="M62 71 V76 M68 71 V77 M74 69 V74" stroke="{INK}" stroke-width="1.4"/>')
+_sorrisao_fala = (f'<path d="M54 67 Q66 92 80 63 Q67 71 54 67 Z" fill="{INK}"/>'
+                  f'<path d="M56 68 Q67 72 78 65 L77 68 Q67 74 57 71 Z" fill="{W}"/>')
+EXPRESSOES = {
+    'gabaritatu-sorrisao': (
+        _troca(MASCOTES['gabaritatu'], [(_olhos_tatu, olho_arregalado(51, 54, INK) + olho_arregalado(69, 54, INK)), (_boca_tatu, _sorrisao)]),
+        _troca(MASCOTES['gabaritatu'], [(_olhos_tatu, olho_arregalado(51, 54, INK) + olho_arregalado(69, 54, INK)), (_boca_tatu, _sorrisao_fala)]),
+    ),
+}
+
 NOMES = {
     'gabaritatu': ('Gabaritatu', 'O confiante', 'Gabarito + tatu'),
     'gabamico': ('Gabamico', 'O zoeiro', 'Gabarito + mico'),
@@ -209,7 +236,11 @@ if __name__ == '__main__':
            'export const MASCOTS_TALK: Record<keyof typeof MASCOTS, string> = {']
     for k, body_ in FALANDO.items():
         ts.append(f'  {k}: {json.dumps(" ".join(svg(body_).split()), ensure_ascii=False)},')
-    ts += ['};', '', 'export type MascotName = keyof typeof MASCOTS;', '',
+    ts += ['};', '', '/** Expressões extras: [boca fechada, boca aberta]. */',
+           'export const EXPRESSIONS = {']
+    for k, (a, b) in EXPRESSOES.items():
+        ts.append(f"  '{k}': [{json.dumps(' '.join(svg(a).split()), ensure_ascii=False)}, {json.dumps(' '.join(svg(b).split()), ensure_ascii=False)}],")
+    ts += ['} as const;', '', 'export type ExpressionName = keyof typeof EXPRESSIONS;', '', 'export type MascotName = keyof typeof MASCOTS;', '',
            'export const MASCOT_NAMES: Record<MascotName, string> = {']
     ts += [f"  {k}: '{NOMES[k][0]}'," for k in MASCOTES]
     ts += ['};', '']
@@ -220,7 +251,7 @@ if __name__ == '__main__':
         f'<figcaption><b>{NOMES[k][0]}</b><i>{NOMES[k][1]}</i><span>{NOMES[k][2]}</span></figcaption></figure>'
         for k in MASCOTES
     )
-    fala = ''.join(f'<span>{svg(MASCOTES[k], 90)}{svg(FALANDO[k], 90)}</span>' for k in MASCOTES)
+    fala = ''.join(f'<span>{svg(a, 90)}{svg(b, 90)}</span>' for a, b in EXPRESSOES.values()) + ''.join(f'<span>{svg(MASCOTES[k], 90)}{svg(FALANDO[k], 90)}</span>' for k in MASCOTES)
     dark = ''.join(f'<span>{svg(MASCOTES[k], 64)}</span>' for k in MASCOTES)
     html = f'''<!doctype html><html><head><meta charset="utf-8"><style>
 body{{margin:0;padding:32px 36px;background:#fff;font-family:system-ui,sans-serif;color:#2B2D42;width:760px}}

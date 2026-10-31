@@ -1,0 +1,87 @@
+{
+  "sobre": "Falas dos vídeos do Plus. Lido pelo app (src/promos/roteiros.ts) e por scripts/vozes.py. 'direcao' vai para o VoiceStudio como instrução de estilo.",
+  "personagens": {
+    "gabaritatu": {
+      "teste": "Bora gabaritar? Com o Aprova Plus, errar não é mais o fim do mundo.",
+      "vozes": {
+        "A": "Young Brazilian man in his early twenties, confident and relaxed, warm medium-low voice, a smile in the voice, Brazilian Portuguese.",
+        "B": "Brazilian teenage boy, 17, cocky and playful, bright clear voice, Brazilian Portuguese.",
+        "C": "Young Brazilian man, smooth persuasive late-night radio host voice, calm and slightly creepy, Brazilian Portuguese."
+      }
+    },
+    "gabamico": {
+      "teste": "Essa eu sei! É a letra C! Tá, talvez a B. Ou a A...",
+      "vozes": {
+        "A": "Brazilian teenage boy, 16, hyperactive prankster, fast-talking, slightly nasal and squeaky, Brazilian Portuguese.",
+        "B": "Young Brazilian man, raspy comedic voice, very energetic and loud, Brazilian Portuguese.",
+        "C": "Brazilian teenage boy, high-pitched cartoonish voice, excitable and whiny, Brazilian Portuguese."
+      }
+    },
+    "aprovaca": {
+      "teste": "Não posso sair da frente. Eu sou um anúncio. E estou trabalhando.",
+      "vozes": {
+        "A": "Young Brazilian woman in her twenties, calm, deadpan and dry sarcastic, Brazilian Portuguese.",
+        "B": "Young Brazilian woman, crisp and articulate, slightly bossy, Brazilian Portuguese.",
+        "C": "Brazilian woman, low smooth voice, ironic and composed, Brazilian Portuguese."
+      }
+    },
+    "radacao": {
+      "teste": "Finalmente terminei a fase! Agora vou estudar mais uma, sem ninguém me atrapalhar.",
+      "vozes": {
+        "A": "Brazilian teenage boy, laid-back artist, dreamy and a bit slow, Brazilian Portuguese.",
+        "B": "Young Brazilian man, slightly hoarse, chill and easygoing, Brazilian Portuguese.",
+        "C": "Brazilian teenager, expressive and theatrical, dramatic reactions, Brazilian Portuguese."
+      }
+    },
+    "simulaguia": {
+      "teste": "Quantas questões você resolveu hoje? Sem desculpa. Foco no treino.",
+      "vozes": {
+        "A": "Brazilian woman around 35, firm sports coach voice, strong and commanding, Brazilian Portuguese.",
+        "B": "Brazilian woman, deep slightly raspy voice, cool and sly like a smooth saleswoman, Brazilian Portuguese.",
+        "C": "Brazilian woman, energetic sports announcer voice, punchy, Brazilian Portuguese."
+      }
+    },
+    "passarinho": {
+      "teste": "Faltam trinta dias pro vestibular! E eu ainda nem comecei a revisar!",
+      "vozes": {
+        "A": "Brazilian teenage boy, soft and anxious, slightly high voice, Brazilian Portuguese.",
+        "B": "Young Brazilian man, gentle and breathy, nervous, Brazilian Portuguese.",
+        "C": "Brazilian teenager, light chirpy voice, panicky and fast, Brazilian Portuguese."
+      }
+    }
+  },
+  "videos": {
+    "vidas": [
+      { "id": "vidas-01", "quem": "gabamico", "texto": "Essa eu sei! É a letra C!", "direcao": "very confident, excited" },
+      { "id": "vidas-02", "quem": "gabamico", "texto": "Tá... letra B?", "direcao": "unsure, embarrassed" },
+      { "id": "vidas-03", "quem": "gabamico", "texto": "EU SÓ QUERIA ESTUDAR!", "direcao": "desperate shouting, frustrated" },
+      { "id": "vidas-04", "quem": "gabaritatu", "texto": "Já pensou em... errar infinitamente?", "direcao": "slow, whispery, creepy happy" },
+      { "id": "vidas-05", "quem": "gabamico", "texto": "...Quê?", "direcao": "confused, startled" },
+      { "id": "vidas-06", "quem": "gabaritatu", "texto": "Com o Aprova Plus, você tem VIDAS INFINITAS!", "direcao": "big announcement, enthusiastic" },
+      { "id": "vidas-07", "quem": "gabamico", "texto": "ENTÃO POSSO ERRAR O QUANTO QUISER?!", "direcao": "euphoric, celebrating" },
+      { "id": "vidas-08", "quem": "gabaritatu", "texto": "Pode!", "direcao": "cheerful, short" },
+      { "id": "vidas-09", "quem": "gabaritatu", "texto": "Só não recomendo fazer isso no ENEM.", "direcao": "serious deadpan, dry" }
+    ],
+    "anuncio": [
+      { "id": "anuncio-01", "quem": "radacao", "texto": "Finalmente! Agora vou estudar mais uma!", "direcao": "relieved, motivated" },
+      { "id": "anuncio-02", "quem": "radacao", "texto": "Sai da frente!", "direcao": "annoyed" },
+      { "id": "anuncio-03", "quem": "aprovaca", "texto": "Não posso. Sou um anúncio.", "direcao": "deadpan, matter-of-fact" },
+      { "id": "anuncio-04", "quem": "radacao", "texto": "MAS EU QUERO ESTUDAR!", "direcao": "shouting, frustrated" },
+      { "id": "anuncio-05", "quem": "aprovaca", "texto": "Então assina o Plus.", "direcao": "calm, dry" },
+      { "id": "anuncio-06", "quem": "radacao", "texto": "Você tá fazendo propaganda... dentro de uma propaganda?", "direcao": "incredulous, slow" },
+      { "id": "anuncio-07", "quem": "aprovaca", "texto": "Sim.", "direcao": "deadpan" },
+      { "id": "anuncio-08", "quem": "aprovaca", "texto": "E tá funcionando?", "direcao": "hopeful, slightly awkward, looking at the camera" }
+    ],
+    "assinatura": [
+      { "id": "assinatura-01", "quem": "passarinho", "texto": "FALTAM 30 DIAS PRO VESTIBULAR!", "direcao": "panicking, shouting" },
+      { "id": "assinatura-02", "quem": "simulaguia", "texto": "E quantas questões você resolveu hoje?", "direcao": "cool, stern" },
+      { "id": "assinatura-03", "quem": "passarinho", "texto": "Duas.", "direcao": "small voice, ashamed" },
+      { "id": "assinatura-04", "quem": "simulaguia", "texto": "DUAS?!", "direcao": "shocked, loud" },
+      { "id": "assinatura-05", "quem": "passarinho", "texto": "Acabaram minhas vidas...", "direcao": "sad, whiny" },
+      { "id": "assinatura-06", "quem": "simulaguia", "texto": "Isso é um problema.", "direcao": "slow, dramatic" },
+      { "id": "assinatura-07", "quem": "simulaguia", "texto": "Que eu posso resolver por uma pequena quantia mensal.", "direcao": "smooth salesperson, sly" },
+      { "id": "assinatura-08", "quem": "passarinho", "texto": "VOCÊ TÁ ME VENDENDO UMA ASSINATURA?!", "direcao": "outraged, shouting" },
+      { "id": "assinatura-09", "quem": "simulaguia", "texto": "E você tá perdendo tempo discutindo comigo.", "direcao": "unbothered, confident" }
+    ]
+  }
+}

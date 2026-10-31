@@ -1,94 +1,94 @@
-# Roteiros dos vídeos do Plus
+# Vídeos do Plus
 
-Vídeos curtos exibidos ao fim de cada lição para quem não tem o Plus, sorteados sem repetir o
-anterior. São animações feitas no próprio app (não arquivos de vídeo): funcionam offline e não
-pesam no download. Os personagens conversam em balões de fala, mexem a boca enquanto falam,
-pulam ao começar cada fala e se inclinam para quem está falando.
+Vídeos exibidos ao fim de cada lição para quem não tem o Plus, sorteados sem repetir o
+anterior. Podem ser pulados depois de 5 s. São animações feitas no próprio app (não arquivos
+de vídeo): funcionam offline e quase não pesam no download.
 
-**Formato comum (10 s):**
+## Estilo: animação de recorte (cutout)
+- **Cenários desenhados** em papel recortado: quarto à noite, biblioteca e sala de aula
+  (`app/scripts/cenarios.py`). Bordas cortadas à mão e sombra de papel em cada peça.
+- **12 quadros por segundo**, de propósito: o movimento anda em degraus, como recorte.
+- Personagens se movem como peças rígidas: deslizam, pulam, tremem e balançam o corpo
+  inteiro enquanto falam; a boca abre e fecha a cada quadro.
+- **Câmera com cortes secos**: closes, cortes rápidos e pausas dramáticas.
+- Os personagens e cenários são todos originais do app.
 
-| Tempo | O que acontece | Som |
-|---|---|---|
-| 0–0,6 s | Os personagens entram pelos lados (diálogo) ou de baixo (monólogo) | pop |
-| 0,8–3,8 s | **Fala 1, o problema** | boing + voz 1 |
-| 3,85 s | Troca de cena | whoosh |
-| 4–7 s | **Fala 2, a solução no Plus** | boing + voz 2 |
-| 7–10 s | **Fechamento**: selo "Plus", benefício e botão "Conhecer o Plus" | vinheta, ding |
-| 0–5 s | Botão no canto mostra "Pular em 5… 4…" | |
-| 5 s em diante | "Pular" liberado | |
+Arquivos: falas em `app/src/promos/falas.json`, roteiros (câmera, movimentos e sons) em
+`app/src/promos/roteiros.ts`, motor em `app/src/promos/timeline.ts`. Prévia para
+desenvolvimento: `/promo-preview?id=vidas` (ou `anuncio`, `assinatura`).
 
-A trilha de fundo toca baixinho o vídeo inteiro (mais baixa ainda quando há voz gravada).
-Os sons respeitam a opção **Efeitos sonoros** das configurações e a chave de silencioso do
-celular, e não interrompem a música que a pessoa estiver ouvindo. Efeitos e trilha foram
-sintetizados do zero por `app/scripts/sons.py` (sem direitos de terceiros).
+## 1. Vidas (quarto) — Gabamico e Gabaritatu
+1. Gabamico resolve uma questão: "Essa eu sei! É a letra C!" Buzina, um coração some.
+2. "Tá... letra B?" Outro coração some.
+3. Cortes rápidos: mais três questões erradas, os cinco corações acabam.
+4. Close: "EU SÓ QUERIA ESTUDAR!"
+5. O Gabaritatu surge devagar, de olhos arregalados e sorrisão: "Já pensou em... errar infinitamente?"
+6. Gabamico: "...Quê?"  Gabaritatu: "Com o Aprova Plus, você tem VIDAS INFINITAS!"
+7. Chuva de corações; Gabamico comemora: "ENTÃO POSSO ERRAR O QUANTO QUISER?!"  "Pode!"
+8. Pausa dramática, close: "Só não recomendo fazer isso no ENEM."
+9. Final: **APROVA PLUS** — Vidas infinitas. Zero anúncios.
 
-## 1. Vidas — Gabamico e Gabaritatu (azul)
-- **Gabamico:** "Acabaram suas vidas de novo, Gabaritatu?" Cinco corações se apagam.
-- **Gabaritatu:** "Que nada. No Plus, minhas vidas não acabam." Um coração volta com ∞.
-- **Fechamento:** "Vidas ilimitadas".
+## 2. Anúncio (biblioteca) — Rãdação e Aprovaca
+1. Rãdação termina uma fase com três estrelas: "Finalmente! Agora vou estudar mais uma!"
+2. Aprovaca entra na frente da câmera com a placa ANÚNCIO. "Sai da frente!" / "Não posso. Sou um anúncio."
+3. "MAS EU QUERO ESTUDAR!" / "Então assina o Plus."
+4. Silêncio, close no Rãdação: "Você tá fazendo propaganda... dentro de uma propaganda?"
+5. "Sim." Pausa. Close olhando para a câmera: "E tá funcionando?"
+6. Final: **APROVA PLUS** — Estude sem anúncios e com vidas infinitas.
 
-## 2. Simulado — Simuláguia, sozinha (vermelho)
-- **Simuláguia:** "Questão solta é aquecimento." Cartões de questão espalhados.
-- **Simuláguia:** "Quer passar? Treine a prova inteira, no tempo oficial." Cronômetro de 5h30.
-- **Fechamento:** "Simulados completos".
+## 3. Assinatura (sala de aula) — Passarinho e Simuláguia
+1. Passarinho, suando, diante do calendário: "FALTAM 30 DIAS PRO VESTIBULAR!"
+2. Simuláguia chega de óculos escuros: "E quantas questões você resolveu hoje?" / "Duas." / "DUAS?!"
+3. "Acabaram minhas vidas..." Close: ela tira os óculos devagar. "Isso é um problema."
+4. Pausa dramática. "Que eu posso resolver por uma pequena quantia mensal."
+5. "VOCÊ TÁ ME VENDENDO UMA ASSINATURA?!" / "E você tá perdendo tempo discutindo comigo."
+6. Final: **APROVA PLUS** — Vidas infinitas. Sem anúncios. Mais tempo estudando.
 
-## 3. Estatísticas — Rãdação e Aprovaca (roxo)
-- **Rãdação:** "Eu acho que vou bem em tudo."
-- **Aprovaca:** "Acha? No Plus eu sei: Física, 38%." As barras sobem; Física fica vermelha.
-- **Fechamento:** "Estatísticas por assunto".
+## Sons
+Efeitos sintetizados do zero (`app/scripts/sons.py`): pop, whoosh, boing, ding, vinheta,
+buzina de erro, coração perdido, "tchan" dramático e festa, mais uma trilha de fundo em loop
+que fica mais baixa quando há voz. Tudo respeita a opção **Efeitos sonoros**, a chave de
+silencioso do celular e a música que a pessoa estiver ouvindo.
 
-## 4. Ofensiva — Gabaritatu e Passarinho (verde-azulado)
-- **Gabaritatu:** "120 dias de ofensiva! Mas amanhã eu viajo…" A chama balança.
-- **Passarinho:** "Relaxa. No Plus, o congelamento segura pra você." Um escudo de gelo envolve a chama.
-- **Fechamento:** "Ofensiva protegida".
+## Vozes (VoiceStudio)
+As vozes são geradas no seu computador pelo [VoiceStudio](https://github.com/debpalash/VoiceStudio),
+com o script `app/scripts/vozes.mjs`. A duração de cada fala gravada ajusta o vídeo sozinha.
 
-## 5. Sem anúncios — Gabamico, sozinho (laranja)
-- **Gabamico:** "Sim, eu sou um anúncio." Um cartão "Anúncio" aparece.
-- **Gabamico:** "No Plus, eu sumo. Nada de interrupção." Um X cobre o cartão, que sai da tela.
-- **Fechamento:** "Estude sem anúncios".
+**Licença, leia antes:** o VoiceStudio é livre (AGPL), mas cada modelo de voz tem a própria
+licença. O modelo padrão (OmniVoice) tem pesos **CC-BY-NC, só para uso não comercial**, então
+não serve para um app pago. Use um motor com pesos liberados para uso comercial e que fale
+português, por exemplo:
+- **VoxCPM2** (padrão do script): cria vozes a partir de uma descrição. Confirme a licença dos
+  pesos na página do modelo antes de publicar.
+- **dots.tts**: Apache-2.0 (código e pesos), 24 idiomas.
+- **MOSS-TTS-Nano**: Apache-2.0, fala português, clona a partir de um áudio de referência.
 
-## 6. Elenco — Rãdação e Gabaritatu, com o time (azul-escuro)
-- **Rãdação:** "E aí, time? Bora estudar?" Os outros quatro mascotes entram um por um.
-- **Gabaritatu:** "Bora gabaritar! Com o Plus, tudo liberado!" O time inteiro pula junto.
-- **Fechamento:** "Plus: tudo liberado".
+Guarde um print da licença do modelo usado. Não clone a voz de pessoas reais sem autorização.
 
-## Vozes para gravar
+**Passo a passo** (na pasta `app/`, com o VoiceStudio aberto e o motor instalado):
+1. `node scripts/vozes.mjs elenco` gera 3 vozes diferentes (A, B, C) por personagem em
+   `scripts/vozes/elenco/`, todas lendo uma frase de teste.
+2. Ouça e escolha. Para a voz ficar idêntica em todas as falas, no VoiceStudio abra Voice
+   Clone, envie o arquivo escolhido e salve o perfil com o nome do personagem: Gabaritatu,
+   Gabamico, Aprovaca, Radacao, Simulaguia ou Passarinho.
+3. `node scripts/vozes.mjs falas --takes 3` gera 3 versões de cada fala em
+   `scripts/vozes/takes/` e já liga a 1ª ao app. Quem não tiver perfil salvo usa a descrição
+   escolhida: `--voz gabamico=B --voz aprovaca=A`. Para gerar um vídeo só: `--video vidas`.
+4. `node scripts/vozes.mjs escolher vidas-03=2 anuncio-08=3` troca a versão de uma fala.
+5. Reinicie o Expo e assista. Para gerar com outro motor: `--motor dots-tts`.
 
-Cada fala tem cerca de 2,5 s. Grave em MP3, sem silêncio no começo, e salve com o nome
-indicado em `app/assets/vozes/`. Depois, registre os arquivos em `VOICES`, no arquivo
-`app/src/lib/promoAudio.ts` (o comentário ali mostra como). Enquanto não houver voz, o vídeo
-toca só os efeitos e a trilha.
+As descrições das vozes e a direção de cada fala (o tom) estão em `app/src/promos/falas.json`.
 
-| Personagem | Voz sugerida | Arquivos |
-|---|---|---|
-| Gabaritatu | jovem, confiante, tranquilo | vidas-2, ofensiva-1, elenco-2 |
-| Gabamico | jovem, zoeiro, rápido e debochado | vidas-1, sem-anuncios-1, sem-anuncios-2 |
-| Aprovaca | jovem adulta, segura, levemente irônica | estatisticas-2 |
-| Rãdação | jovem, descontraído, um pouco sonhador | estatisticas-1, elenco-1 |
-| Simuláguia | adulta, firme, tom de treinadora | simulado-1, simulado-2 |
-| Passarinho | jovem, calmo, voz macia | ofensiva-2 |
-
-| Arquivo | Personagem | Fala | Direção |
+| Personagem | Voz A | Voz B | Voz C |
 |---|---|---|---|
-| vidas-1.mp3 | Gabamico | Acabaram suas vidas de novo, Gabaritatu? | provocando, rindo |
-| vidas-2.mp3 | Gabaritatu | Que nada. No Plus, minhas vidas não acabam. | despreocupado, convencido |
-| simulado-1.mp3 | Simuláguia | Questão solta é aquecimento. | seca, firme |
-| simulado-2.mp3 | Simuláguia | Quer passar? Treine a prova inteira, no tempo oficial. | motivando, ritmo de treino |
-| estatisticas-1.mp3 | Rãdação | Eu acho que vou bem em tudo. | otimista, distraído |
-| estatisticas-2.mp3 | Aprovaca | Acha? No Plus eu sei: Física, 38%. | irônica, depois objetiva |
-| ofensiva-1.mp3 | Gabaritatu | 120 dias de ofensiva! Mas amanhã eu viajo… | orgulhoso, depois preocupado |
-| ofensiva-2.mp3 | Passarinho | Relaxa. No Plus, o congelamento segura pra você. | calmo, acolhedor |
-| sem-anuncios-1.mp3 | Gabamico | Sim, eu sou um anúncio. | quebrando a quarta parede, cínico |
-| sem-anuncios-2.mp3 | Gabamico | No Plus, eu sumo. Nada de interrupção. | brincalhão |
-| elenco-1.mp3 | Rãdação | E aí, time? Bora estudar? | animado, chamando a galera |
-| elenco-2.mp3 | Gabaritatu | Bora gabaritar! Com o Plus, tudo liberado! | empolgado, fechando com energia |
-
-**Licença:** use apenas vozes sintéticas cujo plano permita uso comercial em app publicado, e
-guarde o comprovante (print da página de termos e do plano). Não imite a voz de pessoas reais.
+| Gabaritatu | jovem confiante, voz quente | adolescente convencido | locutor calmo e meio assustador |
+| Gabamico | adolescente elétrico e anasalado | voz rouca de comediante | agudo, de desenho animado |
+| Aprovaca | jovem seca e sarcástica | jovem articulada e mandona | voz grave, irônica |
+| Rãdação | artista sonhador | tranquilo e rouco | dramático e teatral |
+| Simuláguia | treinadora firme | vendedora esperta, voz grave | locutora esportiva |
+| Passarinho | adolescente ansioso | suave e nervoso | agudo e em pânico |
 
 ## Regras de exibição
 - Aparece ao tocar em "Continuar" no fim de uma lição, para quem não tem o Plus.
 - Sorteio aleatório, sem repetir o vídeo anterior.
-- "Conhecer o Plus" abre a aba Assinatura; "Pular" e o fim do vídeo voltam para a trilha.
-- Prévia para desenvolvimento: `/promo-preview?id=vidas` (ou simulado, estatisticas, ofensiva,
-  sem-anuncios, elenco).
+- "Pular" liberado depois de 5 s. "Conhecer o Plus" abre a aba Assinatura.

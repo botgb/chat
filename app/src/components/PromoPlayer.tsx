@@ -1,269 +1,214 @@
-// Vídeos curtos do Plus exibidos após as lições (roteiros em docs/roteiros-plus.md).
-// São animações nativas com diálogo entre os mascotes, efeitos sonoros e trilha:
-// funcionam offline e não pesam no download.
-import { ReactNode, useEffect, useMemo, useRef, useState } from 'react';
-import { Animated, Easing, Modal, Pressable, StyleSheet, Text, View } from 'react-native';
+// Vídeos do Plus exibidos após as lições: animação de recorte (cutout) com cenário, câmera,
+// diálogo, efeitos e vozes. Roteiros em src/promos/roteiros.ts; motor em src/promos/timeline.ts.
+import { memo, useEffect, useMemo, useRef, useState } from 'react';
+import { Modal, Pressable, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { Art, Mascot, MascotName, TalkingMascot } from '../illustrations/Art';
-import { createPromoAudio, PromoAudio, Sfx } from '../lib/promoAudio';
+import { SvgXml } from 'react-native-svg';
+import { Art } from '../illustrations/Art';
+import { EXPRESSIONS, ExpressionName, MASCOTS, MASCOTS_TALK, MascotName } from '../illustrations/mascots';
+import { SCENES, SceneName } from '../illustrations/scenes';
+import { createPromoAudio, PromoAudio } from '../lib/promoAudio';
+import { SCRIPTS } from '../promos/roteiros';
+import { ActorState, buildTimeline, cues, FRAME_MS, FrameState, frameAt, Script, Timeline } from '../promos/timeline';
 import { useApp } from '../state/AppState';
-import { fonts, space, type } from '../theme';
+import { fonts } from '../theme';
 
-export const PROMO_MS = 10_000;
 export const SKIP_AFTER_MS = 5_000;
-export const FINAL_AT = 7_000;
-const SCENE_2 = 4_000;
-const ENTER_MS = 600;
-const TICK_MS = 100;
+const SW = 360; // largura do cenário
+const SH = 640; // altura do cenário
+const FEET = 590; // onde os pés tocam o chão
+const BOX_W = 176; // tamanho base do personagem no cenário
+const BOX_H = 235;
 
-type T = Animated.Value; // tempo em milissegundos, de 0 a PROMO_MS
-
-/** Opacidade que aparece em `from` e some em `to` (ou fica, se `to` for omitido). */
-const show = (t: T, from: number, to = PROMO_MS + 1) =>
-  t.interpolate({ inputRange: [from - 250, from, to - 250, to], outputRange: [0, 1, 1, 0], extrapolate: 'clamp' });
-
-/** Valor que vai de `a` a `b` entre os instantes `from` e `until`. */
-const tween = (t: T, from: number, until: number, a: number, b: number) =>
-  t.interpolate({ inputRange: [from, until], outputRange: [a, b], extrapolate: 'clamp' });
-
-/** Uma fala: quem fala (posição no elenco), quando começa e termina, e o texto do balão. */
-export type Line = { who: number; from: number; to: number; text: string };
-
-export type Promo = {
-  id: string;
-  cast: MascotName[]; // um (monólogo) ou dois (diálogo: esquerda e direita)
-  lines: Line[];
-  bg: string;
-  bgDark: string;
-  benefit: string;
-  prop: (t: T) => ReactNode;
-};
-
-const Heart = ({ opacity, scale = 1 }: { opacity: Animated.AnimatedInterpolation<number> | number; scale?: number }) => (
-  <Animated.View style={{ opacity, transform: [{ scale }] }}>
-    <Art name="vidas" size={30} />
-  </Animated.View>
-);
-
-export const PROMOS: Promo[] = [
-  {
-    id: 'vidas',
-    cast: ['gabamico', 'gabaritatu'],
-    lines: [
-      { who: 0, from: 800, to: 3800, text: 'Acabaram suas vidas de novo, Gabaritatu?' },
-      { who: 1, from: SCENE_2, to: FINAL_AT, text: 'Que nada. No Plus, minhas vidas não acabam.' },
-    ],
-    bg: '#2F6FE8',
-    bgDark: '#1F4FB8',
-    benefit: 'Vidas ilimitadas',
-    prop: (t) => (
-      <View style={{ alignItems: 'center' }}>
-        <Animated.View style={[s.row, { opacity: show(t, 600, SCENE_2) }]}>
-          {[0, 1, 2, 3, 4].map((i) => (
-            <Heart key={i} opacity={tween(t, 1400 + i * 400, 1700 + i * 400, 1, 0.15)} />
-          ))}
-        </Animated.View>
-        <Animated.View style={[s.row, s.overlay, { opacity: show(t, SCENE_2 + 600) }]}>
-          <Heart opacity={1} scale={1.4} />
-          <Text style={s.bigSymbol}>∞</Text>
-        </Animated.View>
-      </View>
-    ),
-  },
-  {
-    id: 'simulado',
-    cast: ['simulaguia'],
-    lines: [
-      { who: 0, from: 800, to: 3800, text: 'Questão solta é aquecimento.' },
-      { who: 0, from: SCENE_2, to: FINAL_AT, text: 'Quer passar? Treine a prova inteira, no tempo oficial.' },
-    ],
-    bg: '#D93030',
-    bgDark: '#A32121',
-    benefit: 'Simulados completos',
-    prop: (t) => (
-      <View style={{ alignItems: 'center' }}>
-        <Animated.View style={[s.row, { opacity: show(t, 600, SCENE_2) }]}>
-          {[0, 1, 2].map((i) => (
-            <Animated.View key={i} style={{ opacity: show(t, 1000 + i * 400, SCENE_2), transform: [{ rotate: `${(i - 1) * 12}deg` }] }}>
-              <Art name="prova" size={40} />
-            </Animated.View>
-          ))}
-        </Animated.View>
-        <Animated.View style={[s.row, s.overlay, { opacity: show(t, SCENE_2) }]}>
-          <Animated.View style={{ transform: [{ rotate: tween(t, SCENE_2, FINAL_AT, 0, 360).interpolate({ inputRange: [0, 360], outputRange: ['0deg', '360deg'] }) }] }}>
-            <Art name="cronometro" size={48} />
-          </Animated.View>
-          <Text style={s.bigText}>5h30</Text>
-        </Animated.View>
-      </View>
-    ),
-  },
-  {
-    id: 'estatisticas',
-    cast: ['radacao', 'aprovaca'],
-    lines: [
-      { who: 0, from: 800, to: 3800, text: 'Eu acho que vou bem em tudo.' },
-      { who: 1, from: SCENE_2, to: FINAL_AT, text: 'Acha? No Plus eu sei: Física, 38%.' },
-    ],
-    bg: '#7A4FD8',
-    bgDark: '#5C35B3',
-    benefit: 'Estatísticas por assunto',
-    prop: (t) => (
-      <Animated.View style={[s.bars, { opacity: show(t, SCENE_2) }]}>
-        {[
-          { label: 'Bio', pct: 0.82 },
-          { label: 'Quím', pct: 0.7 },
-          { label: 'Mat', pct: 0.64 },
-          { label: 'Fís', pct: 0.38, low: true },
-        ].map((b, i) => (
-          <View key={b.label} style={s.barCol}>
-            {b.low && <Animated.Text style={[s.barTag, { opacity: show(t, 5800) }]}>38%</Animated.Text>}
-            <View style={s.barTrack}>
-              <Animated.View
-                style={[
-                  s.barFill,
-                  { backgroundColor: b.low ? '#FF5C5C' : '#FFFFFF', transform: [{ scaleY: tween(t, 4300 + i * 250, 5300 + i * 250, 0, b.pct) }] },
-                ]}
-              />
-            </View>
-            <Text style={s.barLabel}>{b.label}</Text>
-          </View>
-        ))}
-      </Animated.View>
-    ),
-  },
-  {
-    id: 'ofensiva',
-    cast: ['gabaritatu', 'passarinho'],
-    lines: [
-      { who: 0, from: 800, to: 3800, text: '120 dias de ofensiva! Mas amanhã eu viajo…' },
-      { who: 1, from: SCENE_2, to: FINAL_AT, text: 'Relaxa. No Plus, o congelamento segura pra você.' },
-    ],
-    bg: '#14A090',
-    bgDark: '#0E7A6E',
-    benefit: 'Ofensiva protegida',
-    prop: (t) => (
-      <View style={s.row}>
-        <Animated.View
-          style={{
-            opacity: show(t, 600),
-            transform: [{ rotate: t.interpolate({ inputRange: [2200, 2600, 3000, 3400, 3800], outputRange: ['0deg', '-10deg', '10deg', '-10deg', '0deg'], extrapolate: 'clamp' }) }],
-          }}
-        >
-          <View style={s.flameWrap}>
-            <Animated.View style={[s.iceShield, { opacity: show(t, 4800), transform: [{ scale: tween(t, 4800, 5400, 0.6, 1) }] }]} />
-            <Art name="ofensiva" size={52} />
-          </View>
-        </Animated.View>
-        <Animated.Text style={[s.bigText, { opacity: show(t, 600) }]}>120</Animated.Text>
-      </View>
-    ),
-  },
-  {
-    id: 'sem-anuncios',
-    cast: ['gabamico'],
-    lines: [
-      { who: 0, from: 800, to: 3800, text: 'Sim, eu sou um anúncio.' },
-      { who: 0, from: SCENE_2, to: FINAL_AT, text: 'No Plus, eu sumo. Nada de interrupção.' },
-    ],
-    bg: '#E8780F',
-    bgDark: '#B85A00',
-    benefit: 'Estude sem anúncios',
-    prop: (t) => (
-      <Animated.View
-        style={{
-          opacity: show(t, 600, 6400),
-          transform: [{ translateX: tween(t, 5400, 6400, 0, 400) }, { rotate: '-4deg' }],
-        }}
-      >
-        <View style={s.adCard}>
-          <Text style={s.adText}>Anúncio</Text>
-          <Animated.Text style={[s.adX, { opacity: show(t, 4600) }]}>✕</Animated.Text>
-        </View>
-      </Animated.View>
-    ),
-  },
-  {
-    id: 'elenco',
-    cast: ['radacao', 'gabaritatu'],
-    lines: [
-      { who: 0, from: 800, to: 3600, text: 'E aí, time? Bora estudar?' },
-      { who: 1, from: 3800, to: FINAL_AT, text: 'Bora gabaritar! Com o Plus, tudo liberado!' },
-    ],
-    bg: '#22305E',
-    bgDark: '#141D3D',
-    benefit: 'Plus: tudo liberado',
-    prop: (t) => (
-      <View style={s.row}>
-        {(['gabamico', 'aprovaca', 'simulaguia', 'passarinho'] as MascotName[]).map((m, i) => (
-          <Animated.View
-            key={m}
-            style={{
-              opacity: show(t, 1600 + i * 350),
-              transform: [
-                { translateY: tween(t, 1600 + i * 350, 1900 + i * 350, 40, 0) },
-                // todos pulam juntos quando o Gabaritatu chama o time
-                { translateY: t.interpolate({ inputRange: [4200, 4400, 4600], outputRange: [0, -14, 0], extrapolate: 'clamp' }) },
-              ],
-            }}
-          >
-            <Mascot name={m} size={46} />
-          </Animated.View>
-        ))}
-      </View>
-    ),
-  },
-];
+export const PROMOS = SCRIPTS;
 
 let lastPromo: string | null = null;
 
 /** Sorteia um vídeo diferente do último exibido. */
-export function pickPromo(random = Math.random): Promo {
-  const pool = PROMOS.filter((p) => p.id !== lastPromo);
+export function pickPromo(random = Math.random): Script {
+  const pool = SCRIPTS.filter((p) => p.id !== lastPromo);
   const p = pool[Math.floor(random() * pool.length)];
   lastPromo = p.id;
   return p;
 }
 
-export type Cue = { at: number; sfx?: Sfx; voice?: number };
+const SCENE_BG: Record<SceneName, string> = { quarto: '#4E5296', biblioteca: '#E9C98F', sala: '#86BDAF' };
+const END_BG: Record<string, string> = { vidas: '#2F6FE8', anuncio: '#7A4FD8', assinatura: '#D93030' };
 
-/** Linha do tempo de sons: entradas, pulo a cada fala, troca de cena e vinheta final. */
-export function promoCues(promo: Promo): Cue[] {
-  const cues: Cue[] = promo.cast.map((_, i) => ({ at: i * 250, sfx: 'pop' as Sfx }));
-  promo.lines.forEach((l, i) => cues.push({ at: l.from, sfx: 'boing' }, { at: l.from + 80, voice: i }));
-  cues.push({ at: SCENE_2 - 150, sfx: 'whoosh' }, { at: FINAL_AT, sfx: 'vinheta' }, { at: FINAL_AT + 500, sfx: 'ding' });
-  return cues.sort((a, b) => a.at - b.at);
-}
+// ---------- Peças do recorte ----------
 
-/** Pulo curto do personagem no início de cada fala dele. */
-function hops(t: T, lines: Line[], who: number) {
-  const starts = lines.filter((l) => l.who === who).map((l) => l.from);
-  if (!starts.length) return 0;
-  const input: number[] = [];
-  const output: number[] = [];
-  for (const f of starts) {
-    input.push(f, f + 140, f + 300);
-    output.push(0, -18, 0);
-  }
-  return t.interpolate({ inputRange: input, outputRange: output, extrapolate: 'clamp' });
-}
+const SceneBg = memo(function SceneBg({ name, k }: { name: SceneName; k: number }) {
+  return <SvgXml xml={SCENES[name]} width={SW * k} height={SH * k} />;
+});
 
-function Bubble({ t, line, side }: { t: T; line: Line; side: 'left' | 'right' | 'center' }) {
-  const align = side === 'left' ? 'flex-start' : side === 'right' ? 'flex-end' : 'center';
+/** Os dois quadros (boca fechada e aberta) ficam montados; só a opacidade muda. */
+const MascotFrames = memo(function MascotFrames({ name, expr, open, w, h }: { name: MascotName; expr: ExpressionName | null; open: boolean; w: number; h: number }) {
+  const [closedXml, openXml] = expr ? EXPRESSIONS[expr] : [MASCOTS[name], MASCOTS_TALK[name]];
   return (
-    <Animated.View
-      style={[
-        s.bubbleWrap,
-        { alignItems: align, opacity: show(t, line.from + 100, line.to), transform: [{ scale: tween(t, line.from, line.from + 220, 0.7, 1) }] },
-      ]}
-    >
-      <View style={s.bubble}>
-        <Text style={s.bubbleText}>{line.text}</Text>
-      </View>
-      <View style={[s.tail, side === 'left' ? { marginLeft: 44 } : side === 'right' ? { marginRight: 44 } : null]} />
-    </Animated.View>
+    <View style={{ width: w, height: h }}>
+      <SvgXml xml={closedXml} width={w} height={h} style={{ position: 'absolute', opacity: open ? 0 : 1 }} />
+      <SvgXml xml={openXml} width={w} height={h} style={{ position: 'absolute', opacity: open ? 1 : 0 }} />
+    </View>
+  );
+});
+
+// Acessórios no mesmo sistema de coordenadas do mascote (120 x 160).
+const OCULOS =
+  '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160"><path d="M38 44 H58 Q60 44 59 48 L57 56 Q56 60 52 60 H44 Q40 60 39 56 L37 48 Q36 44 38 44 Z M62 44 H82 Q84 44 83 48 L81 56 Q80 60 76 60 H68 Q64 60 63 56 L61 48 Q60 44 62 44 Z" fill="#14151C"/><path d="M58 47 H62" stroke="#14151C" stroke-width="3"/><path d="M42 47 L47 47 M66 47 L71 47" stroke="#FFFFFF" stroke-width="2" opacity="0.6" stroke-linecap="round"/></svg>';
+const SUOR = (f: number) =>
+  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160"><path d="M90 ${34 + (f % 3) * 4} q-5 8 0 11 q5 -3 0 -11 Z" fill="#8FD3FF"/><path d="M30 ${40 + ((f + 1) % 3) * 4} q-5 8 0 11 q5 -3 0 -11 Z" fill="#8FD3FF"/></svg>`;
+
+function Actor({ a, st, k }: { a: ActorState; st: FrameState; k: number }) {
+  const w = BOX_W * a.s * k;
+  const h = BOX_H * a.s * k;
+  const left = (a.x - (BOX_W * a.s) / 2 + a.shakeX) * k;
+  const top = (FEET + a.y - BOX_H * a.s) * k;
+  const oculosOn = a.name === 'simulaguia' && st.vars.oculos !== undefined;
+  // Tirando os óculos: sobem e somem em 1 s (em degraus, como o resto).
+  const tirando = oculosOn && st.vars.oculos === 0 ? Math.min(1, (st.t - (st.since.oculos ?? 0)) / 1000) : 0;
+  return (
+    <View style={{ position: 'absolute', left, top, width: w, height: h, transform: [{ rotate: `${a.rot}deg` }] }}>
+      <MascotFrames name={a.name} expr={a.expr} open={a.mouthOpen} w={w} h={h} />
+      {oculosOn && tirando < 1 && (
+        <SvgXml xml={OCULOS} width={w} height={h} style={{ position: 'absolute', opacity: 1 - tirando, transform: [{ translateY: -tirando * 30 * k }] }} />
+      )}
+      {a.name === 'passarinho' && st.vars.suor === 1 && <SvgXml xml={SUOR(st.frame)} width={w} height={h} style={{ position: 'absolute' }} />}
+      {a.name === 'aprovaca' && st.vars.placa === 1 && (
+        <View style={[s.placa, { left: w * 0.02, top: h * 0.5, width: w * 0.96, paddingVertical: 8 * k, borderRadius: 6 * k, transform: [{ rotate: '-3deg' }] }]}>
+          <Text style={[s.placaText, { fontSize: 26 * k * a.s }]}>ANÚNCIO</Text>
+        </View>
+      )}
+    </View>
   );
 }
+
+// ---------- Objetos de cena de cada vídeo ----------
+
+const QUESTOES = [
+  { area: 'MATEMÁTICA', q: 'Se 2x + 3 = 11, quanto vale x?', alts: ['2', '3', '5', '4', '6'] },
+  { area: 'QUÍMICA', q: 'Qual é a fórmula da água?', alts: ['H₂O', 'CO₂', 'O₂', 'NaCl', 'H₂O₂'] },
+  { area: 'MATEMÁTICA', q: 'Quanto é √81?', alts: ['8', '9', '7', '81', '18'] },
+  { area: 'LITERATURA', q: 'Quem escreveu Dom Casmurro?', alts: ['Machado de Assis', 'Gabamico', 'Clarice Lispector', 'Jorge Amado', 'Cecília Meireles'] },
+];
+
+function QuestionCard({ st, k }: { st: FrameState; k: number }) {
+  const q = QUESTOES[st.vars.q ?? 0];
+  const marca = st.vars.marca ?? 0;
+  return (
+    <View style={[s.card, { left: 24 * k, top: 96 * k, width: 312 * k, padding: 12 * k, borderRadius: 14 * k, transform: [{ rotate: '-1.5deg' }] }]}>
+      <Text style={[s.cardArea, { fontSize: 11 * k }]}>{q.area}</Text>
+      <Text style={[s.cardQ, { fontSize: 16 * k, marginBottom: 6 * k }]}>{q.q}</Text>
+      {q.alts.map((alt, i) => {
+        const bad = marca === i + 1;
+        return (
+          <View key={i} style={[s.alt, { paddingVertical: 4 * k, paddingHorizontal: 8 * k, marginTop: 4 * k, borderRadius: 8 * k }, bad && s.altBad]}>
+            <Text style={[s.altText, { fontSize: 13 * k }, bad && { color: '#FFFFFF' }]}>
+              {String.fromCharCode(65 + i)}) {alt}
+              {bad ? '   ✕' : ''}
+            </Text>
+          </View>
+        );
+      })}
+    </View>
+  );
+}
+
+function PhaseDone({ st, k }: { st: FrameState; k: number }) {
+  const t = st.t - (st.since.fase ?? 0);
+  return (
+    <View style={[s.card, { left: 70 * k, top: 120 * k, width: 220 * k, padding: 14 * k, borderRadius: 16 * k, alignItems: 'center', transform: [{ rotate: '2deg' }] }]}>
+      <Text style={[s.cardQ, { fontSize: 18 * k }]}>Fase concluída!</Text>
+      <View style={{ flexDirection: 'row', gap: 6 * k, marginTop: 6 * k }}>
+        {[0, 1, 2].map((i) => (
+          <Text key={i} style={{ fontSize: (t > 250 + i * 250 ? 34 : 0.1) * k, color: '#FFC531' }}>
+            ★
+          </Text>
+        ))}
+      </View>
+    </View>
+  );
+}
+
+function HeartsHud({ st, k }: { st: FrameState; k: number }) {
+  const lost = st.vars.perdidos ?? 0;
+  const inf = st.vars.infinito === 1;
+  return (
+    <View style={[s.hudWrap, { top: 14 * k }]}>
+      <View style={[s.hud, { gap: 4 * k, paddingHorizontal: 10 * k, paddingVertical: 4 * k }]}>
+      {[0, 1, 2, 3, 4].map((i) => (
+        <Art key={i} name="vidas" size={22 * k} opacity={!inf && i >= 5 - lost ? 0.18 : 1} />
+      ))}
+      {inf && <Text style={[s.hudInf, { fontSize: 22 * k }]}>∞</Text>}
+      </View>
+    </View>
+  );
+}
+
+/** Chuva de corações: posições fixas por índice, caindo em degraus. */
+function HeartRain({ st, k }: { st: FrameState; k: number }) {
+  const t = st.t - (st.since.chuva ?? 0);
+  return (
+    <>
+      {Array.from({ length: 16 }, (_, i) => {
+        const x = (i * 97) % 340;
+        const y = -40 + ((t * (0.35 + (i % 4) * 0.08) + i * 53) % 700);
+        return (
+          <View key={i} style={{ position: 'absolute', left: x * k, top: y * k, transform: [{ rotate: `${(i % 5) * 12 - 24}deg` }] }}>
+            <Art name="vidas" size={(22 + (i % 3) * 8) * k} />
+          </View>
+        );
+      })}
+    </>
+  );
+}
+
+function Bubble({ st, k }: { st: FrameState; k: number }) {
+  const line = st.line;
+  const a = line && st.actors.find((x) => x.name === line.who);
+  if (!line || !a) return null;
+  // Topo da cabeça na tela, já com a câmera aplicada.
+  const toScreenX = (dx: number) => (dx - st.cam.x) * st.cam.s + SW / 2;
+  const toScreenY = (dy: number) => (dy - st.cam.y) * st.cam.s + SH / 2;
+  const hx = Math.min(SW - 20, Math.max(20, toScreenX(a.x)));
+  const headTop = toScreenY(FEET + a.y - BOX_H * a.s * 0.92);
+  const width = 250;
+  const left = Math.min(SW - width - 8, Math.max(8, hx - width / 2));
+  const bottom = Math.max(150, Math.min(SH - 40, headTop - 4));
+  const shout = line.text === line.text.toUpperCase() && /[A-Z]/.test(line.text);
+  return (
+    <View style={{ position: 'absolute', left: left * k, width: width * k, bottom: (SH - bottom) * k, alignItems: 'flex-start' }}>
+      <View style={[s.bubble, { padding: 10 * k, borderRadius: 16 * k, borderWidth: 2.5 * k, alignSelf: hx < SW / 3 ? 'flex-start' : hx > (SW * 2) / 3 ? 'flex-end' : 'center' }]}>
+        <Text style={[s.bubbleText, { fontSize: (shout ? 18 : 16) * k, lineHeight: (shout ? 22 : 20) * k }]}>{line.text}</Text>
+      </View>
+      <View style={[s.tail, { marginLeft: (hx - left - 9) * k, borderLeftWidth: 9 * k, borderRightWidth: 9 * k, borderTopWidth: 14 * k }]} />
+    </View>
+  );
+}
+
+function EndCard({ tl, st, k, onCta }: { tl: Timeline; st: FrameState; k: number; onCta: () => void }) {
+  const t = st.t - tl.endAt;
+  const { title, lines } = tl.script.end;
+  return (
+    <View style={[StyleSheet.absoluteFill, s.end, { backgroundColor: END_BG[tl.script.id] ?? '#2F6FE8', gap: 10 * k }]}>
+      <View style={[s.badge, { gap: 8 * k, paddingHorizontal: 16 * k, paddingVertical: 8 * k, transform: [{ rotate: '-3deg' }, { scale: t < 160 ? 0.6 : 1 }] }]}>
+        <Art name="assinatura" size={30 * k} />
+        <Text style={[s.badgeText, { fontSize: 26 * k }]}>{title}</Text>
+      </View>
+      {lines.map((l, i) =>
+        t > 300 + i * 330 ? (
+          <Text key={l} style={[s.endLine, { fontSize: 30 * k, lineHeight: 36 * k, transform: [{ rotate: `${i % 2 ? 1.5 : -1.5}deg` }] }]}>
+            {l}
+          </Text>
+        ) : null,
+      )}
+      <Pressable onPress={onCta} accessibilityRole="button" style={({ pressed }) => [s.cta, { marginTop: 20 * k, paddingVertical: 14 * k, paddingHorizontal: 28 * k, borderRadius: 16 * k }, pressed && { transform: [{ translateY: 3 }] }]}>
+        <Text style={[s.ctaText, { fontSize: 18 * k, color: END_BG[tl.script.id] ?? '#2F6FE8' }]}>Conhecer o Plus</Text>
+      </Pressable>
+    </View>
+  );
+}
+
+// ---------- Player ----------
 
 export function PromoPlayer({
   visible,
@@ -277,50 +222,51 @@ export function PromoPlayer({
   forceId?: string; // só para a prévia de desenvolvimento
 }) {
   const { settings } = useApp();
-  const promo = useMemo(
-    () => (forceId ? PROMOS.find((p) => p.id === forceId) ?? PROMOS[0] : visible ? pickPromo() : PROMOS[0]),
+  const script = useMemo(
+    () => (forceId ? SCRIPTS.find((p) => p.id === forceId) ?? SCRIPTS[0] : visible ? pickPromo() : SCRIPTS[0]),
     [visible, forceId],
   );
-  const t = useRef(new Animated.Value(0)).current;
-  const [elapsed, setElapsed] = useState(0);
+  const tl = useMemo(() => buildTimeline(script), [script]);
+  const [ms, setMs] = useState(0);
+  const [box, setBox] = useState({ w: 0, h: 0 });
   const audio = useRef<PromoAudio | null>(null);
+  const closeRef = useRef(onClose);
+  closeRef.current = onClose;
 
   useEffect(() => {
     if (!visible) return;
-    t.setValue(0);
-    setElapsed(0);
-    const sound = createPromoAudio(promo.id, settings.sound);
+    setMs(0);
+    const sound = createPromoAudio(tl.lines.map((l) => l.id), settings.sound);
     audio.current = sound;
-    const cues = promoCues(promo);
+    const list = cues(tl);
     let next = 0;
-    const anim = Animated.timing(t, { toValue: PROMO_MS, duration: PROMO_MS, easing: Easing.linear, useNativeDriver: true });
-    anim.start(({ finished }) => finished && onClose());
     const started = Date.now();
     const tick = setInterval(() => {
       const now = Date.now() - started;
-      setElapsed(now);
-      while (next < cues.length && cues[next].at <= now) {
-        const c = cues[next++];
+      setMs(now);
+      while (next < list.length && list[next].at <= now) {
+        const c = list[next++];
         if (c.sfx) sound.sfx(c.sfx);
-        if (c.voice !== undefined) sound.voice(c.voice);
+        if (c.voice) sound.voice(c.voice);
       }
-    }, TICK_MS);
+      if (now >= tl.total) {
+        clearInterval(tick);
+        closeRef.current();
+      }
+    }, FRAME_MS);
     return () => {
-      anim.stop();
       clearInterval(tick);
       sound.release();
       audio.current = null;
     };
-    // onClose muda a cada renderização de quem chama; o vídeo só reinicia quando abre
+    // O som é preparado quando o vídeo abre; mudar a configuração no meio não o reinicia.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [visible, t, promo]);
+  }, [visible, tl]);
 
-  const canSkip = elapsed >= SKIP_AFTER_MS;
-  const showCta = elapsed >= FINAL_AT - 250;
-  const left = Math.max(1, Math.ceil((SKIP_AFTER_MS - elapsed) / 1000));
-  // A boca mexe durante a fala e para um pouco antes de o balão sumir.
-  const speaking = promo.lines.find((l) => elapsed >= l.from && elapsed < l.to - 500)?.who;
-  const duo = promo.cast.length > 1;
+  const st = frameAt(tl, ms);
+  const k = box.w ? Math.min(box.w / SW, box.h / SH) : 0;
+  const canSkip = ms >= SKIP_AFTER_MS;
+  const left = Math.max(1, Math.ceil((SKIP_AFTER_MS - ms) / 1000));
   const close = () => {
     audio.current?.release();
     onClose();
@@ -329,119 +275,82 @@ export function PromoPlayer({
     audio.current?.release();
     onCta();
   };
+  const camT = [
+    { translateX: (SW / 2 - st.cam.x) * st.cam.s * k },
+    { translateY: (SH / 2 - st.cam.y) * st.cam.s * k },
+    { scale: st.cam.s },
+  ];
 
   return (
-    <Modal
-      visible={visible}
-      animationType="fade"
-      onRequestClose={() => {
+    <Modal visible={visible} animationType="fade" onRequestClose={() => {
         if (canSkip) close();
-      }}
-    >
-      <SafeAreaView style={[s.screen, { backgroundColor: promo.bg }]}>
+      }}>
+      <SafeAreaView style={[s.screen, { backgroundColor: st.ending ? END_BG[script.id] : SCENE_BG[script.scene] }]}>
         <View style={s.top}>
-          <View style={[s.track, { backgroundColor: promo.bgDark }]}>
-            <Animated.View style={[s.fill, { transform: [{ scaleX: tween(t, 0, PROMO_MS, 0, 1) }] }]} />
+          <View style={s.track}>
+            <View style={[s.trackFill, { width: `${Math.min(100, (ms / tl.total) * 100)}%` }]} />
           </View>
           <Pressable
             onPress={close}
             disabled={!canSkip}
             accessibilityRole="button"
             accessibilityLabel={canSkip ? 'Pular' : `Pular em ${left} segundos`}
-            style={[s.skip, { backgroundColor: promo.bgDark }]}
+            style={s.skip}
           >
             <Text style={s.skipText}>{canSkip ? 'Pular ✕' : `Pular em ${left}`}</Text>
           </Pressable>
         </View>
-
-        <View style={s.stage}>
-          <View style={s.talk}>
-            {promo.lines.map((l, i) => (
-              <Bubble key={i} t={t} line={l} side={duo ? (l.who === 0 ? 'left' : 'right') : 'center'} />
-            ))}
-            <Animated.View style={[s.abs, s.finalBox, { opacity: show(t, FINAL_AT), transform: [{ scale: tween(t, FINAL_AT, FINAL_AT + 400, 0.8, 1) }] }]}>
-              <View style={s.badge}>
-                <Art name="assinatura" size={28} />
-                <Text style={s.badgeText}>Plus</Text>
+        <View style={s.fill} onLayout={(e) => setBox({ w: e.nativeEvent.layout.width, h: e.nativeEvent.layout.height })}>
+          {k > 0 && (
+            <View style={[s.stage, { width: SW * k, height: SH * k }]}>
+              <View style={[StyleSheet.absoluteFill, { transform: camT }]}>
+                <SceneBg name={script.scene} k={k} />
+                {script.id === 'vidas' && st.vars.card === 1 && <QuestionCard st={st} k={k} />}
+                {script.id === 'anuncio' && st.vars.fase === 1 && <PhaseDone st={st} k={k} />}
+                {st.actors.map((a) => (
+                  <Actor key={a.name} a={a} st={st} k={k} />
+                ))}
               </View>
-              <Text style={s.benefit}>{promo.benefit}</Text>
-            </Animated.View>
-          </View>
-
-          <View style={s.propArea}>{promo.prop(t)}</View>
-
-          <View style={[s.cast, { justifyContent: duo ? 'space-between' : 'center' }]}>
-            {promo.cast.map((m, i) => {
-              const fromSide = !duo ? 0 : i === 0 ? -320 : 320;
-              const delay = i * 250;
-              return (
-                <Animated.View
-                  key={m}
-                  style={{
-                    transform: [
-                      { translateX: tween(t, delay, delay + ENTER_MS, fromSide, 0) },
-                      { translateY: duo ? 0 : tween(t, 0, ENTER_MS, 280, 0) },
-                      { translateY: hops(t, promo.lines, i) },
-                      // respira de leve o tempo todo
-                      { translateY: t.interpolate({ inputRange: [ENTER_MS, 2600, 4600, 6600, 8600, PROMO_MS], outputRange: [0, -5, 0, -5, 0, -3] }) },
-                      // inclina um pouco na direção de quem está falando
-                      { rotate: duo && speaking !== undefined && speaking !== i ? (i === 0 ? '4deg' : '-4deg') : '0deg' },
-                    ],
-                  }}
-                >
-                  <TalkingMascot name={m} size={duo ? 128 : 156} talking={speaking === i} />
-                </Animated.View>
-              );
-            })}
-          </View>
-        </View>
-
-        <View style={[s.bottom, { opacity: showCta ? 1 : 0 }]} pointerEvents={showCta ? 'auto' : 'none'}>
-          <Pressable onPress={cta} accessibilityRole="button" style={({ pressed }) => [s.cta, pressed && { transform: [{ translateY: 3 }] }]}>
-            <Text style={[s.ctaText, { color: promo.bgDark }]}>Conhecer o Plus</Text>
-          </Pressable>
+              {script.id === 'vidas' && st.vars.chuva === 1 && <HeartRain st={st} k={k} />}
+              {script.id === 'vidas' && !st.ending && <HeartsHud st={st} k={k} />}
+              <Bubble st={st} k={k} />
+              {st.ending && <EndCard tl={tl} st={st} k={k} onCta={cta} />}
+            </View>
+          )}
         </View>
       </SafeAreaView>
     </Modal>
   );
 }
 
+const INK = '#22242F';
 const s = StyleSheet.create({
   screen: { flex: 1 },
-  top: { flexDirection: 'row', alignItems: 'center', gap: space(3), paddingHorizontal: space(4), paddingTop: space(2) },
-  track: { flex: 1, height: 6, borderRadius: 3, overflow: 'hidden' },
-  fill: { height: 6, width: '100%', backgroundColor: '#FFFFFF', transformOrigin: 'left' },
-  skip: { borderRadius: 999, paddingHorizontal: space(3), paddingVertical: space(1.5), minWidth: 104, alignItems: 'center' },
-  skipText: { fontFamily: fonts.display, fontSize: type.small + 1, color: '#FFFFFF' },
-  stage: { flex: 1, justifyContent: 'center', gap: space(4), paddingHorizontal: space(5) },
-  talk: { minHeight: 150, justifyContent: 'flex-end' },
-  bubbleWrap: { position: 'absolute', left: 0, right: 0, bottom: 0 },
-  bubble: { backgroundColor: '#FFFFFF', borderRadius: 20, paddingHorizontal: space(4), paddingVertical: space(3), maxWidth: '86%' },
-  bubbleText: { fontFamily: fonts.display, fontSize: type.lead + 1, lineHeight: (type.lead + 1) * 1.25, color: '#22242F' },
-  tail: { width: 0, height: 0, borderLeftWidth: 10, borderRightWidth: 10, borderTopWidth: 14, borderLeftColor: 'transparent', borderRightColor: 'transparent', borderTopColor: '#FFFFFF' },
-  abs: { position: 'absolute', left: 0, right: 0 },
-  finalBox: { alignItems: 'center', gap: space(2), bottom: 0 },
-  badge: { flexDirection: 'row', alignItems: 'center', gap: space(2), backgroundColor: '#2B2D42', paddingHorizontal: space(4), paddingVertical: space(1.5), borderRadius: 999 },
-  badgeText: { fontFamily: fonts.display, fontSize: type.lead, color: '#FFC531' },
-  benefit: { fontFamily: fonts.display, fontSize: type.hero, lineHeight: type.hero * 1.1, color: '#FFFFFF', textAlign: 'center' },
-  propArea: { minHeight: 90, alignItems: 'center', justifyContent: 'center' },
-  cast: { flexDirection: 'row', alignItems: 'flex-end', paddingHorizontal: space(2) },
-  row: { flexDirection: 'row', alignItems: 'center', gap: space(2) },
-  overlay: { position: 'absolute' },
-  bigSymbol: { fontFamily: fonts.display, fontSize: 60, color: '#FFFFFF' },
-  bigText: { fontFamily: fonts.display, fontSize: 40, color: '#FFFFFF' },
-  bars: { flexDirection: 'row', alignItems: 'flex-end', gap: space(4), height: 110 },
-  barCol: { alignItems: 'center', gap: space(1) },
-  barTrack: { width: 28, height: 80, borderRadius: 8, backgroundColor: 'rgba(255,255,255,0.18)', justifyContent: 'flex-end', overflow: 'hidden' },
-  barFill: { width: 28, height: 80, borderRadius: 8, transformOrigin: 'bottom' },
-  barLabel: { fontFamily: fonts.display, fontSize: type.small, color: '#FFFFFF' },
-  barTag: { fontFamily: fonts.display, fontSize: type.small, color: '#FFFFFF', backgroundColor: '#FF5C5C', paddingHorizontal: 6, borderRadius: 6, overflow: 'hidden' },
-  flameWrap: { width: 90, height: 90, alignItems: 'center', justifyContent: 'center' },
-  iceShield: { position: 'absolute', width: 90, height: 90, borderRadius: 45, borderWidth: 5, borderColor: '#BDEBFF', backgroundColor: 'rgba(189,235,255,0.25)' },
-  adCard: { backgroundColor: '#FFFFFF', borderRadius: 14, paddingHorizontal: space(8), paddingVertical: space(4), alignItems: 'center', justifyContent: 'center' },
-  adText: { fontFamily: fonts.display, fontSize: type.title, color: '#9AA0B5' },
-  adX: { position: 'absolute', fontFamily: fonts.display, fontSize: 72, color: '#D93030' },
-  bottom: { paddingHorizontal: space(5), paddingBottom: space(5) },
-  cta: { backgroundColor: '#FFFFFF', borderRadius: 16, borderBottomWidth: 5, borderBottomColor: 'rgba(0,0,0,0.18)', paddingVertical: space(3.5), alignItems: 'center' },
-  ctaText: { fontFamily: fonts.display, fontSize: type.lead },
+  fill: { flex: 1, alignItems: 'center', justifyContent: 'center' },
+  stage: { overflow: 'hidden' },
+  top: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingHorizontal: 16, paddingVertical: 8 },
+  track: { flex: 1, height: 6, borderRadius: 3, overflow: 'hidden', backgroundColor: 'rgba(0,0,0,0.25)' },
+  trackFill: { height: 6, backgroundColor: '#FFFFFF' },
+  skip: { borderRadius: 999, paddingHorizontal: 12, paddingVertical: 6, minWidth: 104, alignItems: 'center', backgroundColor: 'rgba(0,0,0,0.45)' },
+  skipText: { fontFamily: fonts.display, fontSize: 14, color: '#FFFFFF' },
+  bubble: { backgroundColor: '#FFFFFF', borderColor: INK, maxWidth: '100%' },
+  bubbleText: { fontFamily: fonts.display, color: INK },
+  tail: { width: 0, height: 0, marginTop: -2, borderLeftColor: 'transparent', borderRightColor: 'transparent', borderTopColor: INK },
+  card: { position: 'absolute', backgroundColor: '#FFFDF6', borderWidth: 2, borderColor: INK },
+  cardArea: { fontFamily: fonts.display, color: '#2F6FE8', letterSpacing: 1 },
+  cardQ: { fontFamily: fonts.display, color: INK },
+  alt: { backgroundColor: '#EEF0F6' },
+  altBad: { backgroundColor: '#D93030' },
+  altText: { fontFamily: fonts.display, color: INK },
+  placa: { position: 'absolute', backgroundColor: '#FFFDF6', borderWidth: 3, borderColor: '#D93030', alignItems: 'center' },
+  placaText: { fontFamily: fonts.display, color: '#D93030', letterSpacing: 1 },
+  hudWrap: { position: 'absolute', left: 0, right: 0, alignItems: 'center' },
+  hud: { flexDirection: 'row', alignItems: 'center', borderRadius: 999, backgroundColor: 'rgba(0,0,0,0.35)' },
+  hudInf: { fontFamily: fonts.display, color: '#FFFFFF' },
+  end: { alignItems: 'center', justifyContent: 'center', padding: 24 },
+  badge: { flexDirection: 'row', alignItems: 'center', backgroundColor: INK, borderRadius: 999 },
+  badgeText: { fontFamily: fonts.display, color: '#FFC531' },
+  endLine: { fontFamily: fonts.display, color: '#FFFFFF', textAlign: 'center' },
+  cta: { backgroundColor: '#FFFFFF', borderBottomWidth: 5, borderBottomColor: 'rgba(0,0,0,0.2)' },
+  ctaText: { fontFamily: fonts.display },
 });

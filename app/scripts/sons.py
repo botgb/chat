@@ -123,4 +123,49 @@ for i in range(fade):
     music[-1 - i] *= i / fade
 save('trilha', music, 0.6)
 
+# Errado: buzina curta de resposta errada (dois toques graves).
+total = int(0.45 * RATE)
+buzz = [0.0] * total
+for k in range(2):
+    n = int(0.17 * RATE)
+    for i in range(n):
+        ph = 2 * math.pi * 150 * i / RATE
+        v = (1 if math.sin(ph) > 0 else -1) * 0.5 + 0.5 * math.sin(2 * ph)
+        j = int(k * 0.22 * RATE) + i
+        if j < total:
+            buzz[j] += v * env(i, n, attack=0.004, release=0.9)
+save('errado', buzz, 0.55)
+
+# Coração perdido: nota que cai.
+cor = []
+n = int(0.4 * RATE)
+phase = 0.0
+for i in range(n):
+    f = 880 * (0.5 ** (i / n * 1.2))
+    phase += 2 * math.pi * f / RATE
+    cor.append((2 / math.pi * math.asin(math.sin(phase))) * env(i, n, attack=0.003, release=0.5))
+save('coracao', cor, 0.6)
+
+# Tchan: acorde dramático (pausa dramática, revelação).
+total = int(1.3 * RATE)
+tracks = [at([0.5 * s for s in tone(f, 1.3, 'square', release=0.55, vibrato=0.004)], 0.0, total) for f in [110.0, 130.81, 164.81, 220.0]]
+tracks.append([random.uniform(-1, 1) * env(i, int(0.3 * RATE), attack=0.001, release=0.25) for i in range(int(0.3 * RATE))])
+save('tchan', mix(*tracks), 0.6)
+
+# Festa: língua de sogra (glissando), confete (estalos) e brilho.
+total = int(1.0 * RATE)
+gl = []
+phase = 0.0
+n = int(0.5 * RATE)
+for i in range(n):
+    f = 400 + 500 * (i / n)
+    phase += 2 * math.pi * f / RATE
+    gl.append((0.6 if math.sin(phase) > 0 else -0.6) * env(i, n, attack=0.02, release=0.9))
+parts = [at(gl, 0.0, total)]
+for k in range(10):
+    c = [random.uniform(-1, 1) * env(i, 600, attack=0.001, release=0.15) for i in range(600)]
+    parts.append(at([0.5 * x for x in c], 0.45 + k * 0.05 + random.uniform(0, 0.03), total))
+parts += [at([0.4 * x for x in tone(f, 0.4, 'triangle', release=0.5)], 0.5 + j * 0.08, total) for j, f in enumerate([784, 988, 1175, 1568])]
+save('festa', mix(*parts), 0.6)
+
 print('sons gerados em', OUT, sorted(os.listdir(OUT)))

@@ -18,7 +18,9 @@ import {
 } from '../lib/gamification';
 jest.mock('expo-audio', () => ({ createAudioPlayer: jest.fn(), setAudioModeAsync: jest.fn() }));
 jest.mock('../state/AppState', () => ({ useApp: jest.fn() }));
-import { FINAL_AT, pickPromo, promoCues, PROMOS } from '../components/PromoPlayer';
+import { pickPromo, PROMOS } from '../components/PromoPlayer';
+import falas from '../promos/falas.json';
+import { buildTimeline, cues, frameAt, FRAME_MS, lineMs } from '../promos/timeline';
 import { buildLesson, buildTrail, filterQuestions } from '../lib/lesson';
 import { buildMap, buildPath, recordLevel, starsFor } from '../lib/levels';
 import { CHEST_ID, CHEST_REWARD, claim, dailyMissions, missionStatus } from '../lib/missions';
@@ -257,8 +259,8 @@ describe('configurações', () => {
 });
 
 describe('vídeos do Plus', () => {
-  it('tem 6 vídeos e nunca repete o anterior', () => {
-    expect(PROMOS).toHaveLength(6);
+  it('sorteia sem repetir o anterior', () => {
+    expect(PROMOS).toHaveLength(3);
     let last = pickPromo(() => 0).id;
     for (let i = 0; i < 50; i++) {
       const next = pickPromo(Math.random).id;
@@ -267,23 +269,32 @@ describe('vídeos do Plus', () => {
     }
   });
 
-  it('cada vídeo tem falas de personagens do elenco, em ordem e antes do fechamento', () => {
+  it('cada roteiro usa todas as suas falas, em ordem, sem sobreposição', () => {
     for (const p of PROMOS) {
-      expect(p.cast.length).toBeGreaterThanOrEqual(1);
-      expect(p.cast.length).toBeLessThanOrEqual(2);
-      let prev = 0;
-      for (const l of p.lines) {
-        expect(l.who).toBeLessThan(p.cast.length);
-        expect(l.from).toBeGreaterThanOrEqual(prev);
-        expect(l.to).toBeGreaterThan(l.from);
-        expect(l.to).toBeLessThanOrEqual(FINAL_AT);
-        prev = l.to;
-      }
-      // em diálogo, os dois personagens falam
-      if (p.cast.length === 2) expect(new Set(p.lines.map((l) => l.who)).size).toBe(2);
-      const cues = promoCues(p);
-      expect(cues.map((c) => c.at)).toEqual([...cues.map((c) => c.at)].sort((a, b) => a - b));
-      expect(cues.some((c) => c.sfx === 'vinheta')).toBe(true);
+      const tl = buildTimeline(p);
+      const ids = (falas.videos as Record<string, { id: string }[]>)[p.id].map((l) => l.id);
+      expect(tl.lines.map((l) => l.id)).toEqual(ids);
+      for (let i = 1; i < tl.lines.length; i++) expect(tl.lines[i].from).toBeGreaterThanOrEqual(tl.lines[i - 1].to);
+      expect(tl.endAt).toBeGreaterThan(tl.lines[tl.lines.length - 1].to);
+      const c = cues(tl);
+      expect(c.map((x) => x.at)).toEqual([...c.map((x) => x.at)].sort((a, b) => a - b));
+      expect(tl.total).toBeLessThan(40_000);
     }
+  });
+
+  it('quem fala mexe a boca; os outros não', () => {
+    const tl = buildTimeline(PROMOS.find((p) => p.id === 'vidas')!);
+    const line = tl.lines[3]; // Gabaritatu: "Já pensou em... errar infinitamente?"
+    const frames = [0, 1, 2, 3].map((n) => frameAt(tl, line.from + 200 + n * FRAME_MS));
+    const tatu = frames.map((f) => f.actors.find((a) => a.name === 'gabaritatu')!);
+    expect(tatu.every((a) => a.talking)).toBe(true);
+    expect(new Set(tatu.map((a) => a.mouthOpen)).size).toBe(2);
+    expect(frames.every((f) => !f.actors.find((a) => a.name === 'gabamico')!.talking)).toBe(true);
+    expect(frames[0].line?.who).toBe('gabaritatu');
+  });
+
+  it('estima a duração pelo texto enquanto não há voz gravada', () => {
+    expect(lineMs('vidas-08')).toBeGreaterThanOrEqual(700); // "Pode!"
+    expect(lineMs('assinatura-07')).toBeGreaterThan(lineMs('assinatura-03'));
   });
 });
