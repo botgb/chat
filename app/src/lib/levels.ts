@@ -1,6 +1,8 @@
-// Mapa de fases: cada matéria é uma unidade com fases de LEVEL_SIZE questões.
-// Dentro da unidade as fases abrem em sequência; a primeira de cada unidade já vem aberta,
-// para o aluno escolher por onde começar.
+// Mapa de fases: cada matéria é uma unidade (uma constelação) com fases de LEVEL_SIZE questões.
+// A matéria vem do motor de assuntos; sem ela, usa a área da prova. Dentro da unidade as
+// questões ficam agrupadas por assunto e as fases abrem em sequência; a primeira de cada
+// unidade já vem aberta, para o aluno escolher por onde começar.
+import { MATERIA_ORDER } from '../illustrations/sky';
 import { Question } from './types';
 
 export const LEVEL_SIZE = 5;
@@ -12,6 +14,7 @@ export type Level = {
   index: number; // posição dentro da unidade (0..)
   last: boolean; // última fase da unidade: o "desafio"
   questionIds: string[];
+  assunto?: string; // assunto da maior parte das questões da fase
   stars: number; // 0 = não concluída
   unlocked: boolean;
   current: boolean; // próxima fase a jogar na unidade
@@ -36,27 +39,44 @@ function stableOrder(a: Question, b: Question): number {
   return a.id.localeCompare(b.id, 'en', { numeric: true });
 }
 
+const materiaOf = (q: Question) => q.materia ?? q.subject;
+
+/** Exatas juntas, depois natureza, humanas e linguagens; matérias desconhecidas no fim. */
+function materiaRank(m: string): number {
+  const i = MATERIA_ORDER.indexOf(m);
+  return i < 0 ? MATERIA_ORDER.length : i;
+}
+
+function mainAssunto(qs: Question[]): string | undefined {
+  const count = new Map<string, number>();
+  for (const q of qs) if (q.assunto) count.set(q.assunto, (count.get(q.assunto) ?? 0) + 1);
+  return [...count.entries()].sort((a, b) => b[1] - a[1])[0]?.[0];
+}
+
 export function buildMap(
   pool: Question[],
   vestibular: string,
   results: Record<string, LevelResult>,
 ): Unit[] {
-  const bySubject = new Map<string, Question[]>();
-  for (const q of pool) bySubject.set(q.subject, [...(bySubject.get(q.subject) ?? []), q]);
+  const byMateria = new Map<string, Question[]>();
+  for (const q of pool) byMateria.set(materiaOf(q), [...(byMateria.get(materiaOf(q)) ?? []), q]);
 
-  return [...bySubject.entries()]
-    .sort(([a], [b]) => a.localeCompare(b, 'pt-BR'))
+  return [...byMateria.entries()]
+    .sort(([a], [b]) => materiaRank(a) - materiaRank(b) || a.localeCompare(b, 'pt-BR'))
     .map(([subject, qs]) => {
-      const sorted = [...qs].sort(stableOrder);
+      // Questões do mesmo assunto ficam juntas; dentro do assunto, ordem estável.
+      const sorted = [...qs].sort((a, b) => (a.assunto ?? '').localeCompare(b.assunto ?? '', 'pt-BR') || stableOrder(a, b));
       const levels: Level[] = [];
       for (let i = 0; i * LEVEL_SIZE < sorted.length; i++) {
         const id = levelId(vestibular, subject, i);
         const stars = results[id]?.stars ?? 0;
         const unlocked = i === 0 || (levels[i - 1]?.stars ?? 0) > 0;
+        const chunk = sorted.slice(i * LEVEL_SIZE, (i + 1) * LEVEL_SIZE);
         levels.push({
           id,
           index: i,
-          questionIds: sorted.slice(i * LEVEL_SIZE, (i + 1) * LEVEL_SIZE).map((q) => q.id),
+          questionIds: chunk.map((q) => q.id),
+          assunto: mainAssunto(chunk),
           stars,
           unlocked,
           last: false,

@@ -3,7 +3,8 @@ import { useRef, useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Button } from '../../components/Button';
-import { LevelMap, LevelMapHandle, unitColor } from '../../components/LevelMap';
+import { LevelMap, LevelMapHandle } from '../../components/LevelMap';
+import { SKY, SKY_DEFAULT } from '../../illustrations/sky';
 import { Sheet } from '../../components/Sheet';
 import { TopBar } from '../../components/TopBar';
 import { Art } from '../../illustrations/Art';
@@ -46,7 +47,9 @@ export default function Trilha() {
 
   const units = study.units;
   const unit = units[Math.min(unitIndex, units.length - 1)];
-  const color = unitColor(Math.min(unitIndex, units.length - 1));
+  // A faixa do topo usa o céu da matéria, para combinar com a constelação.
+  const sky = unit ? SKY[unit.subject] ?? SKY_DEFAULT : SKY_DEFAULT;
+  const color = { main: sky.base, dark: sky.top };
   const unitDone = unit ? unit.levels.filter((l) => l.stars > 0).length : 0;
   const unitStars = unit ? unit.levels.reduce((s, l) => s + l.stars, 0) : 0;
   const st = unit ? progress.subjectStats[unit.subject] : undefined;
