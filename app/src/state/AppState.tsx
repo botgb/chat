@@ -14,10 +14,12 @@ import {
 } from '../lib/gamification';
 import { claim } from '../lib/missions';
 import { recordLevel } from '../lib/levels';
+import { defaultSettings, mergeSettings, Settings } from '../lib/settings';
 import { ExamPack, Manifest } from '../lib/types';
 
 const PROGRESS_KEY = 'progress:v1';
 const PREFS_KEY = 'prefs:v1';
+const SETTINGS_KEY = 'settings:v1';
 
 /** examId null = todas as provas baixadas do vestibular. */
 export type Prefs = { vestibular: string | null; examId: string | null; subjects: string[] };
@@ -41,6 +43,12 @@ type AppState = {
   refreshManifest: () => Promise<void>;
   install: (examId: string) => Promise<void>;
   uninstall: (examId: string) => Promise<void>;
+  settings: Settings;
+  updateSettings: (next: Settings) => void;
+  /** "Sair da conta": apaga os dados de perfil deste aparelho, mantendo o progresso. */
+  signOut: () => void;
+  /** "Excluir conta": apaga tudo do aparelho (progresso, provas, perfil e configurações). */
+  deleteEverything: () => Promise<void>;
 };
 
 const Ctx = createContext<AppState | null>(null);
@@ -53,6 +61,7 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
   const [offline, setOffline] = useState(false);
   const [packs, setPacks] = useState<ExamPack[]>([]);
   const [installed, setInstalled] = useState<Record<string, number>>({});
+  const [settings, setSettings] = useState<Settings>(defaultSettings);
 
   const refreshManifest = useCallback(async () => {
     const r = await content.loadManifest();
@@ -67,10 +76,12 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     (async () => {
-      const [p, pr] = await Promise.all([
+      const [p, pr, st] = await Promise.all([
         AsyncStorage.getItem(PROGRESS_KEY),
         AsyncStorage.getItem(PREFS_KEY),
+        AsyncStorage.getItem(SETTINGS_KEY),
       ]);
+      setSettings(mergeSettings(st ? JSON.parse(st) : null));
       if (p) setProgress({ ...initialProgress(Date.now()), ...JSON.parse(p) });
       if (pr) setPrefsState({ vestibular: null, examId: null, subjects: [], ...JSON.parse(pr) });
       await reloadPacks();
@@ -141,6 +152,24 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
     },
     uninstall: async (examId) => {
       await content.removePack(examId);
+      await reloadPacks();
+    },
+    settings,
+    updateSettings: (next) => {
+      setSettings(next);
+      AsyncStorage.setItem(SETTINGS_KEY, JSON.stringify(next));
+    },
+    signOut: () => {
+      const next = { ...settings, profile: defaultSettings().profile };
+      setSettings(next);
+      AsyncStorage.setItem(SETTINGS_KEY, JSON.stringify(next));
+    },
+    deleteEverything: async () => {
+      for (const id of Object.keys(installed)) await content.removePack(id);
+      await AsyncStorage.clear();
+      setProgress(initialProgress(Date.now()));
+      setPrefsState({ vestibular: null, examId: null, subjects: [] });
+      setSettings(defaultSettings());
       await reloadPacks();
     },
   };

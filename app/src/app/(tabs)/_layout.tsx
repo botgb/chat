@@ -9,9 +9,9 @@ const icon = (art: ArtName) =>
     return (
       <View
         style={{
-          width: 52,
-          height: 44,
-          borderRadius: 12,
+          width: 58,
+          height: 54,
+          borderRadius: 14,
           borderWidth: 2,
           borderColor: focused ? colors.primary : 'transparent',
           backgroundColor: focused ? '#EAF1FF' : 'transparent',
@@ -19,7 +19,7 @@ const icon = (art: ArtName) =>
           justifyContent: 'center',
         }}
       >
-        <Art name={art} size={30} opacity={focused ? 1 : 0.75} />
+        <Art name={art} size={40} opacity={focused ? 1 : 0.75} />
       </View>
     );
   };
@@ -30,7 +30,7 @@ export default function TabsLayout() {
       screenOptions={{
         headerShown: false,
         tabBarShowLabel: false,
-        tabBarStyle: { borderTopWidth: 2, borderTopColor: colors.line, height: 72, paddingTop: 10 },
+        tabBarStyle: { borderTopWidth: 2, borderTopColor: colors.line, height: 84, paddingTop: 12 },
       }}
     >
       <Tabs.Screen name="index" options={{ title: 'Trilha', tabBarAccessibilityLabel: 'Trilha', tabBarIcon: icon('inicio') }} />

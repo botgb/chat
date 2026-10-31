@@ -21,7 +21,7 @@ type Panel = 'exam' | 'subject' | 'streak' | 'diamonds' | 'hearts' | null;
 function Item({ icon, value, color, label, onPress }: { icon: ArtName; value: string | number; color: string; label: string; onPress: () => void }) {
   return (
     <Pressable onPress={onPress} style={styles.item} accessibilityRole="button" accessibilityLabel={label} hitSlop={4}>
-      <Art name={icon} size={24} />
+      <Art name={icon} size={30} />
       <Text style={[styles.value, { color }]} numberOfLines={1}>
         {value}
       </Text>
@@ -151,14 +151,15 @@ const styles = StyleSheet.create({
   bar: {
     flexDirection: 'row',
     alignItems: 'center',
-    paddingHorizontal: space(2),
+    justifyContent: 'space-between',
+    paddingHorizontal: space(4),
     paddingVertical: space(3),
     borderBottomWidth: 2,
     borderBottomColor: colors.line,
     backgroundColor: colors.bg,
   },
-  // Cinco itens com a mesma largura: espaçamento igual entre eles.
-  item: { flex: 1, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 3, minWidth: 0 },
-  value: { fontFamily: fonts.display, fontSize: type.body - 1, flexShrink: 1 },
+  // Cinco itens com o mesmo espaço entre eles; cada um ocupa só a largura que precisa.
+  item: { flexDirection: 'row', alignItems: 'center', gap: 3, flexShrink: 1, minWidth: 0 },
+  value: { fontFamily: fonts.display, fontSize: type.body + 1, flexShrink: 1 },
   info: { fontFamily: fonts.body, fontSize: type.body, lineHeight: type.body * 1.45, color: colors.inkSoft },
 });

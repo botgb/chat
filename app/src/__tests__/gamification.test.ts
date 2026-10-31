@@ -19,6 +19,7 @@ import {
 import { buildLesson, buildTrail, filterQuestions } from '../lib/lesson';
 import { buildMap, buildPath, recordLevel, starsFor } from '../lib/levels';
 import { CHEST_ID, CHEST_REWARD, claim, dailyMissions, missionStatus } from '../lib/missions';
+import { defaultSettings, formatPhone, isValidEmail, mergeSettings } from '../lib/settings';
 import { ExamPack, Question } from '../lib/types';
 
 const at = (day: string, hour = 12) => {
@@ -225,5 +226,29 @@ describe('caminho da trilha', () => {
     const p = openPathChest(initialProgress(0), 'x:bau')!;
     expect(p.diamonds).toBeGreaterThan(0);
     expect(openPathChest(p, 'x:bau')).toBeNull();
+  });
+});
+
+describe('configurações', () => {
+
+  it('formata telefone brasileiro enquanto digita', () => {
+    expect(formatPhone('11')).toBe('(11');
+    expect(formatPhone('1191234')).toBe('(11) 9123-4');
+    expect(formatPhone('11912345678')).toBe('(11) 91234-5678');
+    expect(formatPhone('(11) 3123-4567')).toBe('(11) 3123-4567');
+  });
+
+  it('valida e-mail e aceita campo vazio', () => {
+    expect(isValidEmail('')).toBe(true);
+    expect(isValidEmail('maria@exemplo.com')).toBe(true);
+    expect(isValidEmail('maria@')).toBe(false);
+  });
+
+  it('completa configurações antigas com os padrões', () => {
+    const s = mergeSettings({ sound: false, profile: { nome: 'Ana' } } as never);
+    expect(s.sound).toBe(false);
+    expect(s.vibration).toBe(defaultSettings().vibration);
+    expect(s.profile).toEqual({ ...defaultSettings().profile, nome: 'Ana' });
+    expect(s.notifications).toEqual(defaultSettings().notifications);
   });
 });

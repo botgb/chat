@@ -1,5 +1,5 @@
 import { router } from 'expo-router';
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Button } from '../../components/Button';
 import { Chip } from '../../components/Chip';
@@ -34,10 +34,32 @@ export default function Perfil() {
   const { progress } = app;
   const totalStars = Object.values(progress.levels).reduce((s, l) => s + l.stars, 0);
   const answered = Object.values(progress.subjectStats).reduce((s, x) => s + x.attempts, 0);
+  const profile = app.settings.profile;
+  const fullName = `${profile.nome} ${profile.sobrenome}`.trim();
 
   return (
     <SafeAreaView style={styles.screen} edges={['top']}>
       <TopBar />
+      <View style={styles.header}>
+        <Art name="perfil" size={52} />
+        <View style={{ flex: 1 }}>
+          <Text style={styles.name} numberOfLines={1}>
+            {fullName || 'Seu perfil'}
+          </Text>
+          <Text style={styles.muted} numberOfLines={1}>
+            {profile.usuario ? `@${profile.usuario}` : 'Complete seus dados nas configurações'}
+          </Text>
+        </View>
+        <Pressable
+          onPress={() => router.push('/configuracoes')}
+          accessibilityRole="button"
+          accessibilityLabel="Configurações"
+          hitSlop={8}
+          style={({ pressed }) => [styles.gear, pressed && { opacity: 0.6 }]}
+        >
+          <Art name="configuracoes" size={34} />
+        </Pressable>
+      </View>
       <ScrollView contentContainerStyle={{ padding: space(4), gap: space(6), paddingBottom: space(12) }}>
         <View style={styles.grid}>
           <Stat icon="ofensiva" value={visibleStreak(progress, dayKey(new Date()))} label="dias seguidos" />
@@ -82,6 +104,9 @@ export default function Perfil() {
 
 const styles = StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.bg },
+  header: { flexDirection: 'row', alignItems: 'center', gap: space(3), paddingHorizontal: space(4), paddingTop: space(4) },
+  name: { fontFamily: fonts.display, fontSize: type.title, color: colors.ink },
+  gear: { padding: space(1) },
   grid: { flexDirection: 'row', flexWrap: 'wrap', gap: space(3) },
   stat: { flexBasis: '47%', flexGrow: 1, flexDirection: 'row', alignItems: 'center', gap: space(3), padding: space(3), borderRadius: 16, borderWidth: 2, borderColor: colors.line },
   statValue: { fontFamily: fonts.display, fontSize: type.lead, color: colors.ink },

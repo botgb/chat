@@ -9,6 +9,7 @@ import { Art } from '../illustrations/Art';
 import { currentHearts, dayKey, HEART_REFILL_COST, XP_LESSON_COMPLETE } from '../lib/gamification';
 import { buildLesson, filterQuestions, LessonMode } from '../lib/lesson';
 import { Question } from '../lib/types';
+import { feedback } from '../lib/settings';
 import { useApp } from '../state/AppState';
 import { colors, fonts, space, type } from '../theme';
 
@@ -80,6 +81,7 @@ export default function Licao() {
     const correct = selected === question.answer;
     const r = app.answer({ questionId: question.id, subject: question.subject, correct, inTime: timer.inTime, useHearts, review: mode === 'revisao' });
     setResults((rs) => [...rs, { correct, xp: r.xpGained }]);
+    feedback(app.settings, correct ? 'right' : 'wrong');
     setRevealed(true);
   };
 

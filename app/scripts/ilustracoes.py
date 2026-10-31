@@ -209,6 +209,14 @@ ICONS['trilha'] = f'''
 <path d="M14 44 C20 34 30 40 34 30" fill="none" stroke="{W}" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 6"/>
 <path d="M44 16 C38 16 36 21 36 24 C36 30 44 36 44 36 C44 36 52 30 52 24 C52 21 50 16 44 16 Z" fill="{R}"/><circle cx="44" cy="24" r="3" fill="{W}"/>'''
 
+
+# ---- configurações ----
+_teeth = ''.join(f'<rect x="27" y="4" width="10" height="14" rx="4" fill="{P}" transform="rotate({a} 32 32)"/>' for a in range(0, 360, 45))
+ICONS['configuracoes'] = _teeth + f'''
+<circle cx="32" cy="32" r="19" fill="{P}"/>
+<circle cx="32" cy="32" r="8" fill="{W}"/>
+<circle cx="25" cy="24" r="3" fill="{W}" opacity="0.45"/>'''
+
 def svg(name, body, size=64):
     return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="{size}" height="{size}">{body}</svg>'
 
@@ -218,13 +226,14 @@ GROUPS = [
     ('Trilha', ['estrela', 'bau', 'guia']),
     ('Matérias', ['matematica', 'biologia', 'quimica', 'fisica', 'historia', 'geografia', 'portugues', 'literatura', 'idiomas', 'filosofia', 'sociologia', 'artes', 'redacao']),
     ('Missões', ['cronometro', 'raio', 'revisar', 'trilha']),
+    ('Perfil', ['configuracoes']),
 ]
 LABELS = {'prova': 'Prova', 'materias': 'Matérias', 'ofensiva': 'Ofensiva', 'diamantes': 'Diamantes', 'vidas': 'Vidas',
           'inicio': 'Início', 'missoes': 'Missões', 'ranking': 'Ranking', 'assinatura': 'Assinatura', 'perfil': 'Perfil',
           'estrela': 'Fase', 'bau': 'Baú', 'guia': 'Guia', 'matematica': 'Matemática', 'biologia': 'Biologia', 'quimica': 'Química',
           'fisica': 'Física', 'historia': 'História', 'geografia': 'Geografia', 'portugues': 'Português', 'literatura': 'Literatura',
           'idiomas': 'Idiomas', 'filosofia': 'Filosofia', 'sociologia': 'Sociologia', 'artes': 'Artes', 'redacao': 'Redação',
-          'cronometro': 'No tempo', 'raio': 'XP', 'revisar': 'Revisar', 'trilha': 'Fases'}
+          'configuracoes': 'Configurações', 'cronometro': 'No tempo', 'raio': 'XP', 'revisar': 'Revisar', 'trilha': 'Fases'}
 
 ts = ['// Gerado por scripts/ilustracoes.py. Não edite à mão.', 'export const ART = {']
 for n, body in ICONS.items():
