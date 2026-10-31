@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { ActivityIndicator, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Button } from '../components/Button';
+import { FREE_EXAM_LIMIT, hasUltra } from '../lib/plus';
 import { useApp } from '../state/AppState';
 import { Colors, fonts, space, type } from '../theme';
 import { useColors, useStyles } from '../theme/ThemeContext';
@@ -27,6 +28,9 @@ export default function Provas() {
   };
 
   const manifest = app.manifest;
+  // Grátis e Plus: até 5 provas no aparelho ao mesmo tempo; Ultra: sem limite.
+  const installedCount = Object.keys(app.installed).length;
+  const atLimit = !hasUltra() && installedCount >= FREE_EXAM_LIMIT;
   // Provas baixadas que saíram do catálogo (ex.: a demonstração antiga) precisam poder ser removidas.
   const retired = manifest ? app.packs.filter((p) => !manifest.exams.some((e) => e.id === p.id)) : [];
 
@@ -41,6 +45,13 @@ export default function Provas() {
       <ScrollView contentContainerStyle={{ padding: space(4), gap: space(6), paddingBottom: space(12) }}>
         <Text style={styles.lead}>Baixe as provas que você vai prestar. Depois de baixadas, funcionam sem internet.</Text>
         {error && <Text style={styles.error}>Não foi possível concluir: {error}</Text>}
+        {!hasUltra() && (
+          <Text style={[styles.muted, atLimit && { color: colors.wrong }]}>
+            {atLimit
+              ? `Você já tem ${FREE_EXAM_LIMIT} provas baixadas, o limite do seu plano. Remova uma para baixar outra, ou conheça o Ultra para provas ilimitadas.`
+              : `Provas baixadas: ${installedCount} de ${FREE_EXAM_LIMIT}.`}
+          </Text>
+        )}
         {!manifest && (
           <View style={{ gap: space(4) }}>
             <Text style={styles.lead}>
@@ -73,7 +84,11 @@ export default function Provas() {
                     {busy === e.id ? (
                       <ActivityIndicator color={colors.primary} />
                     ) : installed === undefined ? (
-                      <Button label="Baixar prova" onPress={() => run(e.id, app.install)} />
+                      atLimit ? (
+                        <Button label="Limite de 5 provas: veja o Ultra" variant="ghost" onPress={() => router.push('/assinatura')} />
+                      ) : (
+                        <Button label="Baixar prova" onPress={() => run(e.id, app.install)} />
+                      )
                     ) : (
                       <View style={{ gap: space(2) }}>
                         {outdated && <Button label="Atualizar prova" onPress={() => run(e.id, app.install)} />}

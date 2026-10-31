@@ -12,3 +12,6 @@ export function currentPlan(): Plan {
 export const hasPlus = (): boolean => currentPlan() !== 'gratis';
 /** Ultra: provas ilimitadas, ofensiva protegida e estatísticas por assunto. */
 export const hasUltra = (): boolean => currentPlan() === 'ultra';
+
+/** Provas no aparelho ao mesmo tempo nos planos grátis e Plus. */
+export const FREE_EXAM_LIMIT = 5;

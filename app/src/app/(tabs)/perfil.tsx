@@ -7,7 +7,6 @@ import { TopBar } from '../../components/TopBar';
 import { Art, ArtName } from '../../illustrations/Art';
 import { dayKey, visibleStreak } from '../../lib/gamification';
 import { useApp } from '../../state/AppState';
-import { useStudy } from '../../state/useStudy';
 import { Colors, fonts, space, type } from '../../theme';
 import { useStyles } from '../../theme/ThemeContext';
 
@@ -33,10 +32,9 @@ function Stat({ icon, value, label }: { icon: ArtName; value: string | number; l
 export default function Perfil() {
   const styles = useStyles(createStyles);
   const app = useApp();
-  const study = useStudy();
   const { progress } = app;
   const totalStars = Object.values(progress.levels).reduce((s, l) => s + l.stars, 0);
-  const answered = Object.values(progress.subjectStats).reduce((s, x) => s + x.attempts, 0);
+  const answered = Object.values(progress.questions).reduce((s, x) => s + x.attempts, 0);
   const profile = app.settings.profile;
   const fullName = `${profile.nome} ${profile.sobrenome}`.trim();
 
@@ -82,24 +80,6 @@ export default function Perfil() {
 
         <Button label="Gerenciar provas baixadas" variant="ghost" onPress={() => router.push('/provas')} />
 
-        <View style={{ gap: space(3) }}>
-          <Text style={styles.section}>Acerto por matéria</Text>
-          {study.subjects.map((s) => {
-            const st = progress.subjectStats[s];
-            const pct = st && st.attempts ? st.correct / st.attempts : 0;
-            return (
-              <View key={s} style={{ gap: space(1) }}>
-                <View style={styles.rowBetween}>
-                  <Text style={styles.subject}>{s}</Text>
-                  <Text style={styles.muted}>{st?.attempts ? `${Math.round(pct * 100)}% de ${st.attempts}` : 'sem respostas'}</Text>
-                </View>
-                <View style={styles.track}>
-                  <View style={[styles.fill, { width: `${pct * 100}%` }]} />
-                </View>
-              </View>
-            );
-          })}
-        </View>
       </ScrollView>
     </SafeAreaView>
   );
@@ -116,9 +96,5 @@ const createStyles = (colors: Colors) =>
   statValue: { fontFamily: fonts.display, fontSize: type.lead, color: colors.ink },
   section: { fontFamily: fonts.display, fontSize: type.lead, color: colors.ink },
   wrap: { flexDirection: 'row', flexWrap: 'wrap', gap: space(2) },
-  rowBetween: { flexDirection: 'row', justifyContent: 'space-between' },
-  subject: { fontFamily: fonts.displayMedium, fontSize: type.body, color: colors.ink },
   muted: { fontFamily: fonts.body, fontSize: type.small, color: colors.inkSoft },
-  track: { height: 12, borderRadius: 6, backgroundColor: colors.surface, overflow: 'hidden' },
-  fill: { height: 12, borderRadius: 6, backgroundColor: colors.right },
 });

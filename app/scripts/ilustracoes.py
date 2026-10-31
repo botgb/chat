@@ -64,11 +64,15 @@ ICONS['vidas'] = f'''
 <ellipse cx="21" cy="20" rx="5.5" ry="3.5" fill="{W}" opacity="0.55" transform="rotate(-35 21 20)"/>'''
 
 # ---- abas ----
+# Casa no padrão do perfil: uma cor só (roxo), com sombra no lado direito e um brilho.
 ICONS['inicio'] = f'''
-{rounded_poly("32,8 55,30 9,30", R, 6)}
-<rect x="14" y="27" width="36" height="30" rx="7" fill="{G}"/>
-<rect x="27" y="39" width="10" height="18" rx="5" fill="{B}"/>
-<circle cx="32" cy="22" r="4" fill="{W}"/>'''
+{rounded_poly("32,7 57,30 7,30", P, 6)}
+<polygon points="32,7 57,30 32,30" fill="{Pd}" opacity="0.35"/>
+<rect x="13" y="27" width="38" height="31" rx="7" fill="{P}"/>
+<path d="M32 27 H44 Q51 27 51 34 V51 Q51 58 44 58 H32 Z" fill="{Pd}" opacity="0.35"/>
+<rect x="27" y="40" width="10" height="18" rx="5" fill="{Pd}"/>
+<circle cx="23" cy="34" r="3" fill="{W}" opacity="0.6"/>
+<circle cx="25" cy="19" r="2.2" fill="{W}" opacity="0.45"/>'''
 
 ICONS['missoes'] = f'''
 <circle cx="30" cy="34" r="24" fill="{R}"/><circle cx="30" cy="34" r="17" fill="{W}"/>
@@ -83,11 +87,32 @@ ICONS['ranking'] = f'''
 <rect x="28" y="40" width="8" height="8" fill="{Gd}"/>
 <rect x="17" y="47" width="30" height="10" rx="5" fill="{O}"/>'''
 
-ICONS['assinatura'] = f'''
-{rounded_poly("11,47 14,20 24,32 32,13 40,32 50,20 53,47", G, 6)}
-<rect x="10" y="44" width="44" height="12" rx="5" fill="{Gd}"/>
-<circle cx="14" cy="19" r="4.5" fill="{K}"/><circle cx="32" cy="12" r="4.5" fill="{B}"/><circle cx="50" cy="19" r="4.5" fill="{T}"/>
-<circle cx="22" cy="50" r="2.5" fill="{W}"/><circle cx="32" cy="50" r="2.5" fill="{W}"/><circle cx="42" cy="50" r="2.5" fill="{W}"/>'''
+# Coroas dos planos: Plus é a coroa dourada; Ultra é a coroa com gemas.
+CROWN = "11,47 14,20 24,32 32,13 40,32 50,20 53,47"
+
+def crown_plus():
+    return (rounded_poly(CROWN, G, 6) +
+            f'<polygon points="32,13 40,32 50,20 53,47 32,47" fill="{Gd}" opacity="0.28"/>'
+            f'<rect x="10" y="44" width="44" height="12" rx="5" fill="{Gd}"/>'
+            f'<circle cx="14" cy="19" r="4" fill="{G}"/><circle cx="32" cy="12" r="4" fill="{G}"/><circle cx="50" cy="19" r="4" fill="{G}"/>'
+            f'<circle cx="20" cy="33" r="2.6" fill="{W}" opacity="0.6"/>')
+
+def crown_ultra():
+    return (rounded_poly(CROWN, G, 6) +
+            f'<polygon points="32,13 40,32 50,20 53,47 32,47" fill="{Gd}" opacity="0.28"/>'
+            f'<rect x="10" y="44" width="44" height="12" rx="5" fill="{Gd}"/>'
+            f'<circle cx="14" cy="19" r="4.5" fill="{K}"/><circle cx="32" cy="12" r="4.5" fill="{B}"/><circle cx="50" cy="19" r="4.5" fill="{T}"/>'
+            f'<polygon points="32,32 38,38 32,44 26,38" fill="{C}"/><polygon points="32,32 38,38 32,38 26,38" fill="{Cl}"/>'
+            f'<circle cx="19" cy="50" r="2.4" fill="{K}"/><circle cx="45" cy="50" r="2.4" fill="{T}"/>'
+            f'<circle cx="20" cy="33" r="2.6" fill="{W}" opacity="0.6"/>')
+
+ICONS['plus'] = crown_plus()
+ICONS['ultra'] = crown_ultra()
+# Aba de baixo: a coroa do Ultra na frente da do Plus, com sombra entre elas.
+ICONS['assinatura'] = (
+    f'<g transform="translate(-2 -3) scale(0.74)">{crown_plus()}</g>'
+    f'<g transform="translate(16.5 18.5) scale(0.76)" opacity="0.22"><polygon points="{CROWN}" fill="{I}" stroke="{I}" stroke-width="6" stroke-linejoin="round"/><rect x="10" y="44" width="44" height="12" rx="5" fill="{I}"/></g>'
+    f'<g transform="translate(15 16) scale(0.76)">{crown_ultra()}</g>')
 
 ICONS['perfil'] = f'''
 <circle cx="32" cy="22" r="12" fill="{P}"/>
@@ -223,13 +248,14 @@ def svg(name, body, size=64):
 GROUPS = [
     ('Barra de cima', ['prova', 'materias', 'ofensiva', 'diamantes', 'vidas']),
     ('Abas de baixo', ['inicio', 'missoes', 'ranking', 'assinatura', 'perfil']),
+    ('Planos', ['plus', 'ultra']),
     ('Trilha', ['estrela', 'bau', 'guia']),
     ('Matérias', ['matematica', 'biologia', 'quimica', 'fisica', 'historia', 'geografia', 'portugues', 'literatura', 'idiomas', 'filosofia', 'sociologia', 'artes', 'redacao']),
     ('Missões', ['cronometro', 'raio', 'revisar', 'trilha']),
     ('Perfil', ['configuracoes']),
 ]
 LABELS = {'prova': 'Prova', 'materias': 'Matérias', 'ofensiva': 'Ofensiva', 'diamantes': 'Diamantes', 'vidas': 'Vidas',
-          'inicio': 'Início', 'missoes': 'Missões', 'ranking': 'Ranking', 'assinatura': 'Assinatura', 'perfil': 'Perfil',
+          'inicio': 'Início', 'missoes': 'Missões', 'ranking': 'Ranking', 'assinatura': 'Assinatura', 'perfil': 'Perfil', 'plus': 'Plus', 'ultra': 'Ultra',
           'estrela': 'Fase', 'bau': 'Baú', 'guia': 'Guia', 'matematica': 'Matemática', 'biologia': 'Biologia', 'quimica': 'Química',
           'fisica': 'Física', 'historia': 'História', 'geografia': 'Geografia', 'portugues': 'Português', 'literatura': 'Literatura',
           'idiomas': 'Idiomas', 'filosofia': 'Filosofia', 'sociologia': 'Sociologia', 'artes': 'Artes', 'redacao': 'Redação',
