@@ -11,7 +11,7 @@ import { Art } from '../illustrations/Art';
 import { currentHearts, dayKey, HEART_REFILL_COST, XP_LESSON_COMPLETE } from '../lib/gamification';
 import { buildLesson, filterQuestions, LessonMode } from '../lib/lesson';
 import { Question } from '../lib/types';
-import { hasPlus } from '../lib/plus';
+import { shouldShowPromo } from '../lib/plus';
 import { feedback, TEXT_SCALE, TEXT_SIZES } from '../lib/settings';
 import { useApp } from '../state/AppState';
 import { Colors, fonts, space, type } from '../theme';
@@ -151,7 +151,7 @@ export default function Licao() {
                 : 'As erradas voltam amanhã para revisão.'
               : 'Acerte pelo menos 3 de 5 para liberar a próxima fase.'}
           </Text>
-          <Button label="Continuar" variant="success" onPress={() => (hasPlus() ? router.back() : setPromo(true))} />
+          <Button label="Continuar" variant="success" onPress={() => (shouldShowPromo(Object.keys(app.progress.daily).length, app.progress.daily[dayKey(new Date())]?.levels ?? 0) ? setPromo(true) : router.back())} />
           <PromoPlayer visible={promo} onClose={() => router.back()} onCta={() => router.replace('/assinatura')} />
         </View>
       </SafeAreaView>
@@ -173,7 +173,8 @@ export default function Licao() {
             onPress={app.buyHeartRefill}
           />
           <Text style={[styles.muted, { textAlign: 'center' }]}>Você tem {app.progress.diamonds} diamantes</Text>
-          <Button label="Voltar" variant="ghost" onPress={() => router.back()} />
+          <Button label="Vidas infinitas no Plus" variant="success" onPress={() => router.replace('/assinatura')} />
+          <Button label="Agora não" variant="ghost" onPress={() => router.back()} />
         </View>
       </SafeAreaView>
     );
@@ -278,7 +279,7 @@ const createStyles = (colors: Colors) =>
   metaRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', gap: space(3) },
   credit: { fontFamily: fonts.body, fontSize: type.small - 1, color: colors.inkSoft, marginTop: space(2) },
   source: { flex: 1, fontFamily: fonts.displayMedium, fontSize: type.small + 1, color: colors.primary },
-  footer: { padding: space(5), gap: space(4), borderTopWidth: 2, borderTopColor: colors.line, backgroundColor: colors.bg },
+  footer: { padding: space(5), gap: space(4), borderTopWidth: StyleSheet.hairlineWidth, borderTopColor: colors.separator, backgroundColor: colors.bar },
   feedback: { fontFamily: fonts.display, fontSize: type.title - 2 },
   feedbackSub: { fontFamily: fonts.displayMedium, fontSize: type.body },
 });

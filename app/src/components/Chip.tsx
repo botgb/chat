@@ -19,7 +19,7 @@ export function Chip({ label, active, onPress }: { label: string; active: boolea
 
 const createStyles = (colors: Colors) =>
   StyleSheet.create({
-  chip: { paddingVertical: space(2), paddingHorizontal: space(4), borderRadius: 12, borderWidth: 2, borderBottomWidth: 4, borderColor: colors.line, backgroundColor: colors.bg },
+  chip: { paddingVertical: space(2), paddingHorizontal: space(4), borderRadius: 12, borderWidth: 2, borderBottomWidth: 4, borderColor: colors.line, backgroundColor: colors.card },
   chipActive: { borderColor: colors.primary, backgroundColor: colors.selectedBg },
   chipText: { fontFamily: fonts.displayMedium, fontSize: type.small + 2, color: colors.inkSoft },
 });

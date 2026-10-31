@@ -1,12 +1,18 @@
-// Visual divertido de jogo: cores vivas, botões "gordinhos" com sombra sólida e
-// mapa de fases. Texto das questões continua numa fonte de alta legibilidade.
+// Mistura de Duolingo e Apple: das telas da Apple vêm o fundo cinza agrupado, os cartões
+// brancos com sombra suave e cantos contínuos, os separadores finos e a fonte do sistema no
+// texto; do Duolingo ficam os botões 3D, as ilustrações, as cores vivas e a fonte arredondada
+// nos títulos e números. As questões usam uma fonte de alta legibilidade.
 // As telas leem as cores pelo hook useColors() (theme/ThemeContext), para trocar de tema na hora.
 export const lightColors = {
-  bg: '#FFFFFF',
-  surface: '#F5F6FA',
-  line: '#E3E5EE',
-  ink: '#2B2D42',
-  inkSoft: '#6E7387',
+  bg: '#F2F2F7', // fundo agrupado (systemGroupedBackground)
+  card: '#FFFFFF', // cartões e linhas de lista
+  cardShadow: '0 1px 2px rgba(0, 0, 0, 0.04), 0 4px 14px rgba(0, 0, 0, 0.05)',
+  bar: 'rgba(249, 249, 251, 0.94)', // barras de cima e de baixo, translúcidas
+  separator: 'rgba(60, 60, 67, 0.18)',
+  surface: '#EFEFF4', // trilhas de progresso e campos dentro dos cartões
+  line: '#E3E3EA',
+  ink: '#1C1C1E',
+  inkSoft: '#6C6C72',
   locked: '#D9DCE6',
   lockedDark: '#B8BCCB',
 
@@ -43,13 +49,17 @@ export const lightColors = {
 
 export type Colors = typeof lightColors;
 
-// Escuro azulado, para não cansar a vista em estudos à noite; cores de destaque mais claras.
+// Escuro no padrão da Apple (preto e cinzas), com as cores de destaque mais claras.
 export const darkColors: Colors = {
-  bg: '#141826',
-  surface: '#1E2335',
-  line: '#2C3248',
-  ink: '#F2F4FA',
-  inkSoft: '#A3A9BE',
+  bg: '#000000',
+  card: '#1C1C1E',
+  cardShadow: '0 0 0 1px rgba(255, 255, 255, 0.04)',
+  bar: 'rgba(22, 22, 24, 0.94)',
+  separator: 'rgba(84, 84, 88, 0.6)',
+  surface: '#2C2C2E',
+  line: '#38383A',
+  ink: '#FFFFFF',
+  inkSoft: '#9A9AA1',
   locked: '#2C3248',
   lockedDark: '#4E5674',
 
@@ -93,12 +103,20 @@ export const unitColors = [
 ];
 
 export const fonts = {
+  // Arredondada, do lado Duolingo: títulos, números e botões.
   display: 'Fredoka_700Bold',
   displayMedium: 'Fredoka_600SemiBold',
-  ui: 'Fredoka_500Medium',
-  body: 'AtkinsonHyperlegible_400Regular',
-  bodyBold: 'AtkinsonHyperlegible_700Bold',
+  // Fonte do sistema (SF Pro no iPhone), do lado Apple: textos de apoio e rótulos.
+  ui: undefined as string | undefined,
+  body: undefined as string | undefined,
+  bodyBold: undefined as string | undefined,
+  // Leitura das questões, com alta legibilidade.
+  reading: 'AtkinsonHyperlegible_400Regular',
+  readingBold: 'AtkinsonHyperlegible_700Bold',
 };
+
+/** Cantos e cartões no padrão da Apple. */
+export const radius = { card: 20, row: 14 };
 
 export const type = {
   small: 13,

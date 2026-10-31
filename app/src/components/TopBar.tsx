@@ -159,9 +159,9 @@ const createStyles = (colors: Colors) =>
     justifyContent: 'space-between',
     paddingHorizontal: space(4),
     paddingVertical: space(3),
-    borderBottomWidth: 2,
-    borderBottomColor: colors.line,
-    backgroundColor: colors.bg,
+    borderBottomWidth: StyleSheet.hairlineWidth,
+    borderBottomColor: colors.separator,
+    backgroundColor: colors.bar,
   },
   // Cinco itens com o mesmo espaço entre eles; cada um ocupa só a largura que precisa.
   item: { flexDirection: 'row', alignItems: 'center', gap: 3, flexShrink: 1, minWidth: 0 },

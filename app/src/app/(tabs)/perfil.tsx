@@ -7,7 +7,7 @@ import { TopBar } from '../../components/TopBar';
 import { Art, ArtName } from '../../illustrations/Art';
 import { dayKey, visibleStreak } from '../../lib/gamification';
 import { useApp } from '../../state/AppState';
-import { Colors, fonts, space, type } from '../../theme';
+import { Colors, fonts, radius, space, type } from '../../theme';
 import { useStyles } from '../../theme/ThemeContext';
 
 const GOALS = [
@@ -92,7 +92,7 @@ const createStyles = (colors: Colors) =>
   name: { fontFamily: fonts.display, fontSize: type.title, color: colors.ink },
   gear: { padding: space(1) },
   grid: { flexDirection: 'row', flexWrap: 'wrap', gap: space(3) },
-  stat: { flexBasis: '47%', flexGrow: 1, flexDirection: 'row', alignItems: 'center', gap: space(3), padding: space(3), borderRadius: 16, borderWidth: 2, borderColor: colors.line },
+  stat: { flexBasis: '47%', flexGrow: 1, flexDirection: 'row', alignItems: 'center', gap: space(3), padding: space(3), backgroundColor: colors.card, borderRadius: radius.card, borderCurve: 'continuous', boxShadow: colors.cardShadow },
   statValue: { fontFamily: fonts.display, fontSize: type.lead, color: colors.ink },
   section: { fontFamily: fonts.display, fontSize: type.lead, color: colors.ink },
   wrap: { flexDirection: 'row', flexWrap: 'wrap', gap: space(2) },

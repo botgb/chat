@@ -8,7 +8,7 @@ const palette = (colors: Colors): Record<Variant, { bg: string; edge: string; te
   primary: { bg: colors.btnPrimary, edge: colors.btnPrimaryEdge, text: colors.onColor },
   success: { bg: colors.btnSuccess, edge: colors.btnSuccessEdge, text: colors.onColor },
   danger: { bg: colors.btnDanger, edge: colors.btnDangerEdge, text: colors.onColor },
-  ghost: { bg: colors.bg, edge: colors.line, text: colors.inkSoft },
+  ghost: { bg: colors.card, edge: colors.line, text: colors.inkSoft },
 });
 
 const EDGE = 4;

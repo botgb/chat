@@ -9,7 +9,7 @@ import { dayKey, xpHistory } from '../../lib/gamification';
 import { hasUltra } from '../../lib/plus';
 import { assuntoRows, materiaRows, pct, StatRow } from '../../lib/stats';
 import { useApp } from '../../state/AppState';
-import { Colors, fonts, space, type } from '../../theme';
+import { Colors, fonts, radius, space, type } from '../../theme';
 import { useColors, useStyles } from '../../theme/ThemeContext';
 
 const WEEKDAYS = ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'];
@@ -166,10 +166,10 @@ const createStyles = (colors: Colors) =>
   colFill: { width: '100%', backgroundColor: colors.primary, borderRadius: 8 },
   colLabel: { fontFamily: fonts.display, fontSize: type.small, color: colors.inkSoft },
   grid: { flexDirection: 'row', flexWrap: 'wrap', gap: space(3) },
-  record: { flexBasis: '47%', flexGrow: 1, flexDirection: 'row', alignItems: 'center', gap: space(3), padding: space(3), borderRadius: 16, borderWidth: 2, borderBottomWidth: 4, borderColor: colors.line },
+  record: { flexBasis: '47%', flexGrow: 1, flexDirection: 'row', alignItems: 'center', gap: space(3), padding: space(3), backgroundColor: colors.card, borderRadius: radius.card, borderCurve: 'continuous', boxShadow: colors.cardShadow },
   recordValue: { fontFamily: fonts.display, fontSize: type.body + 1, color: colors.ink },
   muted: { fontFamily: fonts.body, fontSize: type.small, color: colors.inkSoft, lineHeight: type.small * 1.4 },
-  card: { gap: space(3), padding: space(4), borderRadius: 16, borderWidth: 2, borderBottomWidth: 4, borderColor: colors.line },
+  card: { gap: space(3), padding: space(4), backgroundColor: colors.card, borderRadius: radius.card, borderCurve: 'continuous', boxShadow: colors.cardShadow },
   cardTitle: { fontFamily: fonts.display, fontSize: type.lead, color: colors.ink },
   statRow: { gap: space(1) },
   statHead: { flexDirection: 'row', justifyContent: 'space-between', gap: space(2) },

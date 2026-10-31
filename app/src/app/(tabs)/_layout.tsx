@@ -1,10 +1,9 @@
 import { Tabs } from 'expo-router';
-import { View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { Art, ArtName } from '../../illustrations/Art';
-import {  } from '../../theme';
 import { useColors } from '../../theme/ThemeContext';
 
-// Abas só com ícones; a aba ativa ganha uma moldura destacada.
+// Abas só com ícones; a aba ativa ganha um fundo suave, como nas barras da Apple.
 const icon = (art: ArtName) =>
   function TabIcon({ focused }: { focused: boolean }) {
     const colors = useColors();
@@ -13,9 +12,8 @@ const icon = (art: ArtName) =>
         style={{
           width: 58,
           height: 54,
-          borderRadius: 14,
-          borderWidth: 2,
-          borderColor: focused ? colors.primary : 'transparent',
+          borderRadius: 16,
+          borderCurve: 'continuous',
           backgroundColor: focused ? colors.selectedBg : 'transparent',
           alignItems: 'center',
           justifyContent: 'center',
@@ -33,7 +31,7 @@ export default function TabsLayout() {
       screenOptions={{
         headerShown: false,
         tabBarShowLabel: false,
-        tabBarStyle: { backgroundColor: colors.bg, borderTopWidth: 2, borderTopColor: colors.line, height: 84, paddingTop: 12 },
+        tabBarStyle: { backgroundColor: colors.bar, borderTopWidth: StyleSheet.hairlineWidth, borderTopColor: colors.separator, height: 84, paddingTop: 12 },
       }}
     >
       <Tabs.Screen name="index" options={{ title: 'Trilha', tabBarAccessibilityLabel: 'Trilha', tabBarIcon: icon('inicio') }} />

@@ -8,7 +8,7 @@ import { Sheet } from '../components/Sheet';
 import { applyNotifications, defaultSettings, formatPhone, isValidEmail, Profile, REMINDER_HOURS, Settings, STREAK_REMINDER_HOUR } from '../lib/settings';
 import { useApp } from '../state/AppState';
 import type { ThemeMode } from '../theme/ThemeContext';
-import { Colors, fonts, space, type } from '../theme';
+import { Colors, fonts, radius, space, type } from '../theme';
 import { useColors, useStyles } from '../theme/ThemeContext';
 
 function Section({ title, children }: { title: string; children: ReactNode }) {
@@ -268,7 +268,7 @@ const createStyles = (colors: Colors) =>
   back: { fontFamily: fonts.display, fontSize: 36, color: colors.inkSoft, lineHeight: 38 },
   headerTitle: { fontFamily: fonts.display, fontSize: type.lead + 2, color: colors.ink },
   section: { fontFamily: fonts.display, fontSize: type.lead, color: colors.ink },
-  card: { borderRadius: 16, borderWidth: 2, borderBottomWidth: 4, borderColor: colors.line, overflow: 'hidden' },
+  card: { backgroundColor: colors.card, borderRadius: radius.card, borderCurve: 'continuous', boxShadow: colors.cardShadow, overflow: 'hidden' },
   row: { flexDirection: 'row', alignItems: 'center', gap: space(3), paddingHorizontal: space(4), paddingVertical: space(3.5) },
   rowLine: { borderBottomWidth: 2, borderBottomColor: colors.line },
   rowLabel: { fontFamily: fonts.displayMedium, fontSize: type.body, color: colors.ink },
@@ -280,7 +280,7 @@ const createStyles = (colors: Colors) =>
   saveRow: { padding: space(4), gap: space(3) },
   themes: { flexDirection: 'row', flexWrap: 'wrap', gap: space(2), paddingVertical: space(1) },
   hours: { flexDirection: 'row', gap: space(2), paddingHorizontal: space(4), paddingBottom: space(3) },
-  danger: { borderRadius: 16, borderWidth: 2, borderBottomWidth: 4, borderColor: colors.line, paddingVertical: space(3.5), alignItems: 'center' },
+  danger: { backgroundColor: colors.card, borderRadius: radius.card, borderCurve: 'continuous', boxShadow: colors.cardShadow, paddingVertical: space(3.5), alignItems: 'center' },
   dangerText: { fontFamily: fonts.display, fontSize: type.body + 1, color: colors.wrong },
   info: { fontFamily: fonts.body, fontSize: type.body, lineHeight: type.body * 1.45, color: colors.inkSoft },
 });

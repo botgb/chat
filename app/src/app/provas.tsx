@@ -5,7 +5,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Button } from '../components/Button';
 import { FREE_EXAM_LIMIT, hasUltra } from '../lib/plus';
 import { useApp } from '../state/AppState';
-import { Colors, fonts, space, type } from '../theme';
+import { Colors, fonts, radius, space, type } from '../theme';
 import { useColors, useStyles } from '../theme/ThemeContext';
 
 export default function Provas() {
@@ -133,7 +133,7 @@ const createStyles = (colors: Colors) =>
   section: { fontFamily: fonts.display, fontSize: type.title, color: colors.ink },
   title: { fontFamily: fonts.displayMedium, fontSize: type.lead, color: colors.ink, flexShrink: 1 },
   muted: { fontFamily: fonts.body, fontSize: type.small + 1, color: colors.inkSoft, lineHeight: (type.small + 1) * 1.4 },
-  card: { borderRadius: 18, borderWidth: 2, borderBottomWidth: 5, borderColor: colors.line, padding: space(4), gap: space(3) },
+  card: { backgroundColor: colors.card, borderRadius: radius.card, borderCurve: 'continuous', boxShadow: colors.cardShadow, padding: space(4), gap: space(3) },
   rowBetween: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', gap: space(2) },
   badge: { fontFamily: fonts.display, fontSize: type.small, color: colors.right, backgroundColor: colors.rightBg, paddingHorizontal: space(2), paddingVertical: 2, borderRadius: 8, overflow: 'hidden' },
   error: { fontFamily: fonts.bodyBold, fontSize: type.body, color: colors.wrong },

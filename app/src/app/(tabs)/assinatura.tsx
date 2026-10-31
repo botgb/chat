@@ -4,7 +4,7 @@ import { Button } from '../../components/Button';
 import { TopBar } from '../../components/TopBar';
 import { Art, ArtName } from '../../illustrations/Art';
 import { currentPlan } from '../../lib/plus';
-import { Colors, fonts, space, type } from '../../theme';
+import { Colors, fonts, radius, space, type } from '../../theme';
 import { useStyles } from '../../theme/ThemeContext';
 
 // Apresentação dos planos. A cobrança exige compras dentro do app (App Store / Google Play)
@@ -90,13 +90,13 @@ const createStyles = (colors: Colors) =>
   StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.bg },
   current: { fontFamily: fonts.displayMedium, fontSize: type.body, color: colors.inkSoft, textAlign: 'center' },
-  card: { borderRadius: 20, borderWidth: 2, borderBottomWidth: 6, padding: space(5), gap: space(4) },
+  card: { borderRadius: radius.card, borderCurve: 'continuous', borderWidth: 2, borderBottomWidth: 6, padding: space(5), gap: space(4) },
   cardPlus: { backgroundColor: colors.goldBg, borderColor: colors.gold, borderBottomColor: colors.goldDark },
   cardUltra: { backgroundColor: '#2B2D42', borderColor: '#2B2D42', borderBottomColor: '#14151F' },
   head: { flexDirection: 'row', alignItems: 'center', gap: space(3) },
   name: { fontFamily: fonts.display, fontSize: type.title, color: colors.ink },
   tagline: { fontFamily: fonts.ui, fontSize: type.body - 1, color: colors.inkSoft },
-  benefit: { flexDirection: 'row', alignItems: 'center', gap: space(3), padding: space(3), borderRadius: 14, backgroundColor: colors.bg },
+  benefit: { flexDirection: 'row', alignItems: 'center', gap: space(3), padding: space(3), borderRadius: radius.row, borderCurve: 'continuous', backgroundColor: colors.card },
   benefitUltra: { backgroundColor: 'rgba(255,255,255,0.08)' },
   benefitTitle: { fontFamily: fonts.displayMedium, fontSize: type.body, color: colors.ink },
   benefitText: { fontFamily: fonts.body, fontSize: type.small, color: colors.inkSoft, lineHeight: type.small * 1.4 },

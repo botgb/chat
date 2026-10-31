@@ -256,7 +256,7 @@ const createStyles = (colors: Colors) =>
   stars: { position: 'absolute', bottom: -20, flexDirection: 'row', gap: 1 },
   star: { fontSize: 16 },
   tipWrap: { position: 'absolute', top: -44, left: '50%', marginLeft: -80, width: 160, alignItems: 'center', zIndex: 2 },
-  tip: { backgroundColor: colors.bg, borderWidth: 2, borderBottomWidth: 4, borderRadius: 12, paddingHorizontal: space(3), paddingVertical: space(1) },
+  tip: { backgroundColor: colors.card, borderWidth: 2, borderBottomWidth: 4, borderRadius: 12, paddingHorizontal: space(3), paddingVertical: space(1) },
   tipText: { fontFamily: fonts.display, fontSize: type.body - 1 },
   decor: { position: 'absolute', top: -ROW / 2, width: 120, height: 120, alignItems: 'center', justifyContent: 'center' },
   decorBlob: { position: 'absolute', width: 104, height: 104, borderRadius: 52, opacity: 0.12 },

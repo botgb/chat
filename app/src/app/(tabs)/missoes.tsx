@@ -5,7 +5,7 @@ import { Art } from '../../illustrations/Art';
 import { dayKey } from '../../lib/gamification';
 import { CHEST_REWARD, missionStatus } from '../../lib/missions';
 import { useApp } from '../../state/AppState';
-import { Colors, fonts, space, type } from '../../theme';
+import { Colors, fonts, radius, space, type } from '../../theme';
 import { useColors, useStyles } from '../../theme/ThemeContext';
 
 function hoursLeft(): number {
@@ -105,7 +105,7 @@ const createStyles = (colors: Colors) =>
   hero: { backgroundColor: '#9B5CFF', borderRadius: 18, borderBottomWidth: 6, borderBottomColor: '#7438DB', padding: space(5), gap: space(1) },
   heroTitle: { fontFamily: fonts.display, fontSize: type.title, color: colors.onColor },
   heroSub: { fontFamily: fonts.ui, fontSize: type.body - 1, color: 'rgba(255,255,255,0.9)' },
-  card: { flexDirection: 'row', alignItems: 'center', gap: space(3), padding: space(4), borderRadius: 16, borderWidth: 2, borderBottomWidth: 4, borderColor: colors.line },
+  card: { flexDirection: 'row', alignItems: 'center', gap: space(3), padding: space(4), backgroundColor: colors.card, borderRadius: radius.card, borderCurve: 'continuous', boxShadow: colors.cardShadow },
   chest: { borderColor: colors.gold, backgroundColor: colors.goldBg },
   goalCard: { borderColor: colors.streak, backgroundColor: colors.streakBg },
   rewardRow: { flexDirection: 'row', alignItems: 'center', gap: 4 },

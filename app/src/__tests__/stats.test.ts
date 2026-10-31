@@ -34,3 +34,12 @@ describe('acertos por matéria e assunto', () => {
     expect(backfillTopics(old, [{ id: 'a' }])).toBe(old);
   });
 });
+
+import { shouldShowPromo } from '../lib/plus';
+
+describe('frequência do vídeo do Plus', () => {
+  it('nunca no primeiro dia, a cada 2 lições e no máximo 3 por dia', () => {
+    expect([1, 2, 3, 4].map((n) => shouldShowPromo(1, n))).toEqual([false, false, false, false]);
+    expect([1, 2, 3, 4, 5, 6, 7, 8].map((n) => shouldShowPromo(3, n))).toEqual([false, true, false, true, false, true, false, false]);
+  });
+});

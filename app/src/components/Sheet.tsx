@@ -59,7 +59,7 @@ export function SheetOption({
 const createStyles = (colors: Colors) =>
   StyleSheet.create({
   backdrop: { flex: 1, backgroundColor: 'rgba(20,22,35,0.45)' },
-  sheet: { backgroundColor: colors.bg, borderTopLeftRadius: 24, borderTopRightRadius: 24, paddingHorizontal: space(4), paddingTop: space(2), gap: space(3) },
+  sheet: { backgroundColor: colors.card, borderCurve: 'continuous', borderTopLeftRadius: 24, borderTopRightRadius: 24, paddingHorizontal: space(4), paddingTop: space(2), gap: space(3) },
   handle: { alignSelf: 'center', width: 44, height: 5, borderRadius: 3, backgroundColor: colors.line },
   title: { fontFamily: fonts.display, fontSize: type.lead + 2, color: colors.ink },
   option: { flexDirection: 'row', alignItems: 'center', gap: space(3), padding: space(3), borderRadius: 14, borderWidth: 2, borderBottomWidth: 4, borderColor: colors.line },

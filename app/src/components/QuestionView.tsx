@@ -21,11 +21,11 @@ function ContentImage({ src, w, h }: { src: string; w?: number; h?: number }) {
 type AltState = 'idle' | 'selected' | 'right' | 'wrong' | 'dim';
 
 const altColors = (colors: Colors): Record<AltState, { border: string; bg: string; letterBg: string; letter: string }> => ({
-  idle: { border: colors.line, bg: colors.bg, letterBg: colors.surface, letter: colors.inkSoft },
+  idle: { border: colors.line, bg: colors.card, letterBg: colors.surface, letter: colors.inkSoft },
   selected: { border: colors.primary, bg: colors.selectedBg, letterBg: colors.primary, letter: colors.onColor },
   right: { border: colors.right, bg: colors.rightBg, letterBg: colors.right, letter: colors.onColor },
   wrong: { border: colors.wrong, bg: colors.wrongBg, letterBg: colors.wrong, letter: colors.onColor },
-  dim: { border: colors.line, bg: colors.bg, letterBg: colors.surface, letter: colors.lockedDark },
+  dim: { border: colors.line, bg: colors.card, letterBg: colors.surface, letter: colors.lockedDark },
 });
 
 export function QuestionView({
@@ -101,10 +101,10 @@ export function QuestionView({
 
 const createStyles = (colors: Colors) =>
   StyleSheet.create({
-  statement: { fontFamily: fonts.body, fontSize: type.body + 1, lineHeight: (type.body + 1) * 1.5, color: colors.ink },
+  statement: { fontFamily: fonts.reading, fontSize: type.body + 1, lineHeight: (type.body + 1) * 1.5, color: colors.ink },
   image: { width: '100%', borderRadius: 12, backgroundColor: colors.surface },
   alt: { flexDirection: 'row', alignItems: 'center', gap: space(3), padding: space(3), borderRadius: 16, borderWidth: 2 },
   letter: { width: 34, height: 34, borderRadius: 10, alignItems: 'center', justifyContent: 'center' },
   letterText: { fontFamily: fonts.display, fontSize: type.body },
-  altText: { fontFamily: fonts.body, fontSize: type.body, lineHeight: type.body * 1.4, color: colors.ink },
+  altText: { fontFamily: fonts.reading, fontSize: type.body, lineHeight: type.body * 1.4, color: colors.ink },
 });

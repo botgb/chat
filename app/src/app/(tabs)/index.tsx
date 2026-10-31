@@ -171,7 +171,7 @@ const createStyles = (colors: Colors) =>
   bannerSep: { width: 2, alignSelf: 'stretch', marginVertical: 0 },
   guideBtn: { width: 64, alignSelf: 'stretch', alignItems: 'center', justifyContent: 'center' },
   offline: { fontFamily: fonts.body, fontSize: type.small, color: colors.inkSoft, textAlign: 'center', marginTop: space(4) },
-  fab: { position: 'absolute', bottom: space(4), borderRadius: 16, borderWidth: 2, borderBottomWidth: 5, backgroundColor: colors.bg, alignItems: 'center', justifyContent: 'center' },
+  fab: { position: 'absolute', bottom: space(4), borderRadius: 16, borderWidth: 2, borderBottomWidth: 5, backgroundColor: colors.card, alignItems: 'center', justifyContent: 'center' },
   fabJump: { right: space(4), width: 52, height: 52, borderColor: colors.line },
   jump: { fontFamily: fonts.display, fontSize: 26, color: colors.primary },
   fabReview: { left: space(4), height: 52, flexDirection: 'row', gap: space(2), paddingHorizontal: space(3), borderColor: colors.right, backgroundColor: colors.rightBg },
