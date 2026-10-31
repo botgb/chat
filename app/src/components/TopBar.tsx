@@ -17,27 +17,23 @@ import { Sheet, SheetOption } from './Sheet';
 
 type Panel = 'exam' | 'subject' | 'streak' | 'diamonds' | 'hearts' | null;
 
-function Counter({ icon, value, color, label, onPress }: { icon: string; value: string | number; color: string; label: string; onPress: () => void }) {
+function Item({ icon, value, color, label, onPress }: { icon: string; value: string | number; color: string; label: string; onPress: () => void }) {
   return (
-    <Pressable onPress={onPress} style={styles.counter} accessibilityRole="button" accessibilityLabel={`${value} ${label}`} hitSlop={6}>
+    <Pressable onPress={onPress} style={styles.item} accessibilityRole="button" accessibilityLabel={label} hitSlop={4}>
       <Text style={styles.icon}>{icon}</Text>
-      <Text style={[styles.value, { color }]}>{value}</Text>
-    </Pressable>
-  );
-}
-
-function Selector({ label, onPress, a11y }: { label: string; onPress: () => void; a11y: string }) {
-  return (
-    <Pressable onPress={onPress} style={styles.selector} accessibilityRole="button" accessibilityLabel={a11y}>
-      <Text style={styles.selectorText} numberOfLines={1}>
-        {label}
+      <Text style={[styles.value, { color }]} numberOfLines={1}>
+        {value}
       </Text>
-      <Text style={styles.caret}>▾</Text>
     </Pressable>
   );
 }
 
-const shortExam = (title: string) => title.replace(/\s*\(.*\)\s*/, '').replace(/,?\s*dia\s*/i, ' D');
+// "ENEM 2023, dia 2" vira "23 D2" para caber na barra.
+const shortExam = (title: string) => {
+  const year = title.match(/\b(19|20)(\d{2})\b/)?.[2];
+  const day = title.match(/dia\s*(\d)/i)?.[1];
+  return [year, day && `D${day}`].filter(Boolean).join(' ') || title.slice(0, 5);
+};
 
 export function TopBar() {
   const app = useApp();
@@ -52,23 +48,22 @@ export function TopBar() {
   const examShort = study.examId
     ? shortExam(study.exams.find((e) => e.id === study.examId)?.title ?? '')
     : study.vestibularInfo?.name ?? 'Provas';
-  const subjectLabel =
-    study.activeSubjects.length === 1 ? subjectIcon(study.activeSubjects[0]) : study.activeSubjects.length > 1 ? `${study.activeSubjects.length}` : '📚';
+  const subjectCount = study.activeSubjects.length || study.subjects.length;
   const nextHeartMin = hearts < MAX_HEARTS ? Math.ceil((HEART_REFILL_MS - ((now - progress.heartsUpdatedAt) % HEART_REFILL_MS)) / 60000) : 0;
 
   return (
     <View style={styles.bar}>
-      <View style={styles.selectors}>
-        <Selector label={examShort} onPress={() => setPanel('exam')} a11y={`Prova: ${study.examLabel}. Trocar`} />
-        <Selector
-          label={subjectLabel}
-          onPress={() => setPanel('subject')}
-          a11y={`Matérias: ${study.activeSubjects.length ? study.activeSubjects.join(', ') : 'todas'}. Trocar`}
-        />
-      </View>
-      <Counter icon="🔥" value={streak} color={streak > 0 ? colors.streak : colors.lockedDark} label="dias seguidos" onPress={() => setPanel('streak')} />
-      <Counter icon="💎" value={progress.diamonds} color={colors.gem} label="diamantes" onPress={() => setPanel('diamonds')} />
-      <Counter icon="❤️" value={hearts} color={hearts > 0 ? colors.heart : colors.lockedDark} label="vidas" onPress={() => setPanel('hearts')} />
+      <Item icon="📝" value={examShort} color={colors.ink} label={`Prova: ${study.examLabel}. Trocar`} onPress={() => setPanel('exam')} />
+      <Item
+        icon="📚"
+        value={subjectCount}
+        color={colors.primary}
+        label={`Matérias: ${study.activeSubjects.length ? study.activeSubjects.join(', ') : 'todas'}. Trocar`}
+        onPress={() => setPanel('subject')}
+      />
+      <Item icon="🔥" value={streak} color={streak > 0 ? colors.streak : colors.lockedDark} label={`${streak} dias seguidos`} onPress={() => setPanel('streak')} />
+      <Item icon="💎" value={progress.diamonds} color={colors.gem} label={`${progress.diamonds} diamantes`} onPress={() => setPanel('diamonds')} />
+      <Item icon="❤️" value={hearts} color={hearts > 0 ? colors.heart : colors.lockedDark} label={`${hearts} vidas`} onPress={() => setPanel('hearts')} />
 
       <Sheet visible={panel === 'exam'} title="Escolha a prova" onClose={close}>
         {study.vestibulares.map((v) => (
@@ -155,31 +150,15 @@ const styles = StyleSheet.create({
   bar: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: space(3),
-    paddingHorizontal: space(3),
-    paddingVertical: space(2.5),
+    paddingHorizontal: space(2),
+    paddingVertical: space(3),
     borderBottomWidth: 2,
     borderBottomColor: colors.line,
     backgroundColor: colors.bg,
   },
-  selectors: { flex: 1, flexDirection: 'row', gap: space(1.5), minWidth: 0 },
-  selector: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 2,
-    paddingHorizontal: space(2),
-    paddingVertical: space(1.5),
-    borderRadius: 10,
-    borderWidth: 2,
-    borderBottomWidth: 3,
-    borderColor: colors.line,
-    flexShrink: 1,
-    minWidth: 0,
-  },
-  selectorText: { fontFamily: fonts.display, fontSize: type.body - 1, color: colors.ink, flexShrink: 1 },
-  caret: { fontSize: 12, color: colors.inkSoft },
-  counter: { flexDirection: 'row', alignItems: 'center', gap: 2 },
+  // Cinco itens com a mesma largura: espaçamento igual entre eles.
+  item: { flex: 1, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 3, minWidth: 0 },
   icon: { fontSize: type.lead - 2 },
-  value: { fontFamily: fonts.display, fontSize: type.lead - 2 },
+  value: { fontFamily: fonts.display, fontSize: type.body - 1, flexShrink: 1 },
   info: { fontFamily: fonts.body, fontSize: type.body, lineHeight: type.body * 1.45, color: colors.inkSoft },
 });
