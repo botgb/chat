@@ -3,7 +3,7 @@
  "vestibular": "enem",
  "title": "ENEM 2018, dia 1",
  "year": 2018,
- "version": 1,
+ "version": 2,
  "source": "Questões: INEP, ENEM 2018. Transcrição: ENEM API (enem.dev).",
  "questions": [
   {
@@ -46,7 +46,9 @@
      "text": "Presença recorrente de elementos sombrios que se revelam nos sonhos de Santiago."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2018-q1-ingles",
@@ -92,7 +94,9 @@
      "text": "Abrigar dois mil moradores de rua em ônibus que foram adaptados."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2018-q2-espanhol",
@@ -138,7 +142,9 @@
      "text": "Otimiza os custos da construção de edifícios."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2018-q3-espanhol",
@@ -188,7 +194,9 @@
      "text": "Seleciona vários programas para beneficiar cidadãos vulneráveis socialmente."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2018-q3-ingles",
@@ -230,7 +238,9 @@
      "text": "Reconhece a incompreensão na sua maneira de falar inglês."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2018-q4-espanhol",
@@ -276,7 +286,9 @@
      "text": "Debater as práticas sobre multilinguismo para formar melhor os professores de línguas."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2018-q4-ingles",
@@ -338,7 +350,9 @@
      "text": "Criticar a concepção de educação em que se baseia a organização."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2018-q5-espanhol",
@@ -384,7 +398,9 @@
      "text": "Instaurar dúvidas sobre a legitimidade da causa."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2018-q5-ingles",
@@ -426,7 +442,9 @@
      "text": "Manipulação de pensamentos individuais."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2018-q6",
@@ -468,7 +486,9 @@
      "text": "Promoção da dignidade humana em todos os lugares."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2018-q8",
@@ -510,7 +530,9 @@
      "text": "Conhecimento compartilhado na comunicação."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Variação linguística"
   },
   {
    "id": "enem-2018-q9",
@@ -552,7 +574,9 @@
      "text": "Expõe a ineficácia dos estudos para alterar tal comportamento."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2018-q10",
@@ -598,7 +622,9 @@
      "text": "Acredita esporadicamente na utopia de uma sociedade igualitária."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2018-q12",
@@ -640,7 +666,9 @@
      "text": "Objetivam manter um diálogo com o leitor, recorrendo a uma indagação."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2018-q14",
@@ -682,7 +710,9 @@
      "text": "Subverte a função social da fala das candidatas a miss."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2018-q15",
@@ -728,7 +758,9 @@
      "text": "Revela a fragmentação das relações humanas."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2018-q16",
@@ -770,7 +802,9 @@
      "text": "Imobilizada pela escassez e pela opressão do ambiente."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2018-q17",
@@ -812,7 +846,9 @@
      "text": "Verbos no tempo pretérito para enfatizar uma aproximação com os fatos abordados ao longo do texto."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2018-q18",
@@ -858,7 +894,9 @@
      "text": "Sequências descritivas, para promover a identificação do leitor com as situações apresentadas."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2018-q20",
@@ -900,7 +938,9 @@
      "text": "Apego aos protocolos de conduta segundo os gêneros."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2018-q21",
@@ -942,7 +982,9 @@
      "text": "Artefato cultural respeitado por todo o povo brasileiro."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2018-q23",
@@ -984,7 +1026,9 @@
      "text": "Vínculo entre as transformações urbanas e os papéis femininos."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2018-q24",
@@ -1034,7 +1078,9 @@
      "text": "Adjetivação, organizada para criar uma terminologia antirracista, como em “ética da diversidade” e “descolonização estética”."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2018-q26",
@@ -1076,7 +1122,9 @@
      "text": "Inclui em suas ações o fair play (jogo limpo), a honestidade, o sentimento positivo de consideração por outra pessoa, o conhecimento dos seus limites, a valorização de sua própria saúde e o combate ao doping, o que caracteriza o valor do respeito."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2018-q27",
@@ -1122,7 +1170,9 @@
      "text": "Condensar a conclusão de que a explosão de matéria e energia ocorre em um ponto microscópico."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2018-q30",
@@ -1164,7 +1214,9 @@
      "text": "Transgressão à razão, ecoada na desconstrução de referências temporais."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2018-q31",
@@ -1206,7 +1258,9 @@
      "text": "Contribuíram para esse esporte ter mais jogadores, bem como acompanhado de torcedores."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2018-q33",
@@ -1248,7 +1302,9 @@
      "text": "Resenha, pois apresenta uma produção intelectual de forma crítica."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2018-q35",
@@ -1290,7 +1346,9 @@
      "text": "Valorização da sensibilidade como característica de gênero."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2018-q36",
@@ -1332,7 +1390,9 @@
      "text": "Definição modifica o significado do termo no dicionário."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Português",
+   "assunto": "Gramática e uso da língua"
   },
   {
    "id": "enem-2018-q37",
@@ -1382,7 +1442,9 @@
      "text": "Ser comum em conversas no ambiente de trabalho."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Variação linguística"
   },
   {
    "id": "enem-2018-q38",
@@ -1424,7 +1486,9 @@
      "text": "Recorrência de expressões adverbiais que organizam temporalmente a narrativa."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Português",
+   "assunto": "Gramática e uso da língua"
   },
   {
    "id": "enem-2018-q40",
@@ -1470,7 +1534,9 @@
      "text": "Dinâmica da sequência narrativa."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2018-q42",
@@ -1516,7 +1582,9 @@
      "text": "Sobreposição das manifestações populares pelo discurso oficial para destacar o autoritarismo do momento histórico."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Funções e figuras de linguagem"
   },
   {
    "id": "enem-2018-q43",
@@ -1558,7 +1626,9 @@
      "text": "Receio de que sua inserção subverta o “esporte-rei” ao demonstrarem suas capacidades de jogo."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2018-q44",
@@ -1600,7 +1670,9 @@
      "text": "Identificação de sequência de fonemas."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2018-q46",
@@ -1642,7 +1714,9 @@
      "text": "Consolidação do conhecimento topográfico como campo acadêmico."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Filosofia",
+   "assunto": "Conhecimento e ciência"
   },
   {
    "id": "enem-2018-q47",
@@ -1684,7 +1758,9 @@
      "text": "Criação das faculdades de medicina, promovida pelo renascimento urbano."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "História",
+   "assunto": "Brasil República"
   },
   {
    "id": "enem-2018-q48",
@@ -1726,7 +1802,9 @@
      "text": "Gestão coletiva e obrigações tributárias."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Sociologia",
+   "assunto": "Estado, poder e instituições"
   },
   {
    "id": "enem-2018-q49",
@@ -1768,7 +1846,9 @@
      "text": "Compatibilizar as estruturas do pensamento aos princípios fundamentais."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Filosofia",
+   "assunto": "Conhecimento e ciência"
   },
   {
    "id": "enem-2018-q51",
@@ -1810,7 +1890,9 @@
      "text": "Justificar pragmaticamente crença livre de dogmas."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Relevo, solos e hidrografia"
   },
   {
    "id": "enem-2018-q52",
@@ -1860,7 +1942,9 @@
      "text": "Vocação política."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Filosofia",
+   "assunto": "Filosofia moderna"
   },
   {
    "id": "enem-2018-q53",
@@ -1902,7 +1986,9 @@
      "text": "Redefinição de regiões administrativas."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2018-q54",
@@ -1952,7 +2038,9 @@
      "text": "Expropriação de riquezas locais."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "História",
+   "assunto": "Brasil Colônia"
   },
   {
    "id": "enem-2018-q55",
@@ -1994,7 +2082,9 @@
      "text": "Compartilhamento de pesquisas científicas."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "História",
+   "assunto": "Brasil República"
   },
   {
    "id": "enem-2018-q57",
@@ -2036,7 +2126,9 @@
      "text": "Abolicionista."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2018-q58",
@@ -2078,7 +2170,9 @@
      "text": "Incrementar o processo de desestatização para diminuir a pressão da opinião pública."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Sociologia",
+   "assunto": "Cidadania e movimentos sociais"
   },
   {
    "id": "enem-2018-q59",
@@ -2120,7 +2214,9 @@
      "text": "Interesse econômico dos senhores de engenho."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "História",
+   "assunto": "Brasil Colônia"
   },
   {
    "id": "enem-2018-q60",
@@ -2162,7 +2258,9 @@
      "text": "Desterritorialização forçada de populações afetadas por conflitos armados."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "População e migração"
   },
   {
    "id": "enem-2018-q61",
@@ -2208,7 +2306,9 @@
      "text": "Captação de recursos do exterior."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Clima e atmosfera"
   },
   {
    "id": "enem-2018-q64",
@@ -2250,7 +2350,9 @@
      "text": "Instrumento para minimizar o sentimento de desamparo social."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "História",
+   "assunto": "Povos indígenas e africanos"
   },
   {
    "id": "enem-2018-q65",
@@ -2292,7 +2394,9 @@
      "text": "Superação da especialização dos cargueiros."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2018-q66",
@@ -2334,7 +2438,9 @@
      "text": "Contraposição entre clericalismo e liberdade de pensamento."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Filosofia",
+   "assunto": "Conhecimento e ciência"
   },
   {
    "id": "enem-2018-q68",
@@ -2376,7 +2482,9 @@
      "text": "Comprar terras para o enfraquecimento das teocracias autóctones."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Relevo, solos e hidrografia"
   },
   {
    "id": "enem-2018-q69",
@@ -2418,7 +2526,9 @@
      "text": "Representação social das agremiações partidárias."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Sociologia",
+   "assunto": "Cultura e identidade"
   },
   {
    "id": "enem-2018-q70",
@@ -2460,7 +2570,9 @@
      "text": "Reconhecimento na esfera artística."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2018-q71",
@@ -2502,7 +2614,9 @@
      "text": "Manutenção da mentalidade escravocrata da oficialidade após a queda do regime imperial."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Geopolítica"
   },
   {
    "id": "enem-2018-q72",
@@ -2544,7 +2658,9 @@
      "text": "Predominância de práticas agropecuárias."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Meio ambiente e energia"
   },
   {
    "id": "enem-2018-q73",
@@ -2594,7 +2710,9 @@
      "text": "Domínio cognitivo da configuração espacial."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Relevo, solos e hidrografia"
   },
   {
    "id": "enem-2018-q75",
@@ -2636,7 +2754,9 @@
      "text": "Formação de espaços superpovoados."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "População e migração"
   },
   {
    "id": "enem-2018-q76",
@@ -2678,7 +2798,9 @@
      "text": "Condenação pela ciência dos conhecimentos populares de cura."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "História",
+   "assunto": "Brasil República"
   },
   {
    "id": "enem-2018-q77",
@@ -2720,7 +2842,9 @@
      "text": "Equatorial, com pluviosidade abundante."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Clima e atmosfera"
   },
   {
    "id": "enem-2018-q78",
@@ -2762,7 +2886,9 @@
      "text": "Campanha de extensão da cidadania."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Sociologia",
+   "assunto": "Cidadania e movimentos sociais"
   },
   {
    "id": "enem-2018-q79",
@@ -2804,7 +2930,9 @@
      "text": "Prudência, caracterizada pelo correto uso da razão."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Filosofia",
+   "assunto": "Filosofia antiga"
   },
   {
    "id": "enem-2018-q80",
@@ -2846,7 +2974,9 @@
      "text": "Globalização das tecnologias de comunicação."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Sociologia",
+   "assunto": "Desigualdade e exclusão"
   },
   {
    "id": "enem-2018-q81",
@@ -2896,7 +3026,9 @@
      "text": "Seletividade dos mecanismos segregadores."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Geopolítica"
   },
   {
    "id": "enem-2018-q83",
@@ -2938,7 +3070,9 @@
      "text": "Interpretações da realidade circundante."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Filosofia",
+   "assunto": "Conhecimento e ciência"
   },
   {
    "id": "enem-2018-q84",
@@ -2980,7 +3114,9 @@
      "text": "Cerceamento policial dos operários sindicalizados."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "História",
+   "assunto": "Brasil República"
   },
   {
    "id": "enem-2018-q85",
@@ -3022,7 +3158,9 @@
      "text": "Ocupação de região fronteiriça como contenção do avanço mongol."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "População e migração"
   },
   {
    "id": "enem-2018-q86",
@@ -3064,7 +3202,9 @@
      "text": "Regulamentar o uso de sementes selecionadas."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Agropecuária e questão agrária"
   },
   {
    "id": "enem-2018-q89",
@@ -3106,7 +3246,9 @@
      "text": "Padrão de preservação construído por experimentação dirigida."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2018-q90",
@@ -3148,7 +3290,9 @@
      "text": "Centralidade do indivíduo na sociedade."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Sociologia",
+   "assunto": "Cidadania e movimentos sociais"
   }
  ]
 }

@@ -3,7 +3,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { TopBar } from '../../components/TopBar';
 import { Art } from '../../illustrations/Art';
 import { dayKey } from '../../lib/gamification';
-import { CHEST_ID, CHEST_REWARD, missionStatus } from '../../lib/missions';
+import { CHEST_REWARD, missionStatus } from '../../lib/missions';
 import { useApp } from '../../state/AppState';
 import { Colors, fonts, space, type } from '../../theme';
 import { useColors, useStyles } from '../../theme/ThemeContext';
@@ -22,6 +22,20 @@ export default function Missoes() {
   const status = missionStatus(app.progress, day);
   const goal = app.progress.dailyGoal;
   const doneToday = Math.min(goal, app.progress.dayCounts[day] ?? 0);
+
+  if (status.allClaimed) {
+    return (
+      <SafeAreaView style={styles.screen} edges={['top']}>
+        <TopBar />
+        <View style={styles.allDone}>
+          <Text style={styles.allDoneText}>Você já completou todas as missões diárias</Text>
+        </View>
+      </SafeAreaView>
+    );
+  }
+
+  // Missões resgatadas somem da lista.
+  const open = status.missions.filter((m) => !m.claimed);
 
   return (
     <SafeAreaView style={styles.screen} edges={['top']}>
@@ -46,7 +60,7 @@ export default function Missoes() {
           </View>
         </View>
 
-        {status.missions.map(({ mission, value, done, claimed }) => (
+        {open.map(({ mission, value, done }) => (
           <View key={mission.id} style={styles.card}>
             <Art name={mission.icon} size={40} />
             <View style={{ flex: 1, gap: space(2) }}>
@@ -58,43 +72,27 @@ export default function Missoes() {
                 </Text>
               </View>
             </View>
-            {claimed ? (
-              <Text style={styles.claimed}>✓</Text>
-            ) : (
-              <Pressable
-                disabled={!done}
-                onPress={() => app.claimMission(mission.id)}
-                accessibilityRole="button"
-                accessibilityLabel={done ? `Resgatar ${mission.reward} diamantes` : `Recompensa: ${mission.reward} diamantes`}
-                style={[styles.reward, done && styles.rewardReady]}
-              >
-                <View style={styles.rewardRow}>
-                  <Text style={[styles.rewardText, done && { color: colors.onColor }]}>{mission.reward}</Text>
-                  <Art name="diamantes" size={18} />
-                </View>
-              </Pressable>
-            )}
+            <Pressable
+              disabled={!done}
+              onPress={() => app.claimMission(mission.id)}
+              accessibilityRole="button"
+              accessibilityLabel={done ? `Resgatar ${mission.reward} diamantes` : `Recompensa: ${mission.reward} diamantes`}
+              style={[styles.reward, done && styles.rewardReady]}
+            >
+              <View style={styles.rewardRow}>
+                <Text style={[styles.rewardText, done && { color: colors.onColor }]}>{mission.reward}</Text>
+                <Art name="diamantes" size={18} />
+              </View>
+            </Pressable>
           </View>
         ))}
 
         <View style={[styles.card, styles.chest]}>
-          <Art name="bau" size={40} opacity={status.chestClaimed ? 0.4 : 1} />
+          <Art name="bau" size={40} />
           <View style={{ flex: 1 }}>
             <Text style={styles.title}>Baú do dia</Text>
-            <Text style={styles.muted}>
-              {status.chestClaimed ? 'Resgatado. Volte amanhã!' : `Resgate as 3 missões para abrir: +${CHEST_REWARD} diamantes`}
-            </Text>
+            <Text style={styles.muted}>Resgate todas as missões e ele abre sozinho: +{CHEST_REWARD} diamantes</Text>
           </View>
-          {!status.chestClaimed && (
-            <Pressable
-              disabled={!status.chestReady}
-              onPress={() => app.claimMission(CHEST_ID)}
-              accessibilityRole="button"
-              style={[styles.reward, status.chestReady && styles.rewardReady]}
-            >
-              <Text style={[styles.rewardText, status.chestReady && { color: colors.onColor }]}>Abrir</Text>
-            </Pressable>
-          )}
         </View>
       </ScrollView>
     </SafeAreaView>
@@ -119,5 +117,6 @@ const createStyles = (colors: Colors) =>
   reward: { paddingHorizontal: space(3), paddingVertical: space(2), borderRadius: 12, borderWidth: 2, borderBottomWidth: 4, borderColor: colors.line },
   rewardReady: { backgroundColor: colors.btnSuccess, borderColor: colors.btnSuccess, borderBottomColor: colors.btnSuccessEdge },
   rewardText: { fontFamily: fonts.display, fontSize: type.body - 1, color: colors.inkSoft },
-  claimed: { fontFamily: fonts.display, fontSize: type.title, color: colors.right, paddingHorizontal: space(2) },
+  allDone: { flex: 1, alignItems: 'center', justifyContent: 'center', padding: space(8) },
+  allDoneText: { fontFamily: fonts.displayMedium, fontSize: type.body, color: colors.inkSoft, textAlign: 'center' },
 });

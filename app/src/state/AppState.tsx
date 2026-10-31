@@ -10,6 +10,7 @@ import {
   Progress,
   openPathChest,
   recordAnswer,
+  backfillTopics,
   refillHearts,
 } from '../lib/gamification';
 import { claim } from '../lib/missions';
@@ -82,7 +83,11 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
         AsyncStorage.getItem(SETTINGS_KEY),
       ]);
       setSettings(mergeSettings(st ? JSON.parse(st) : null));
-      if (p) setProgress({ ...initialProgress(Date.now()), ...JSON.parse(p) });
+      if (p) {
+        const saved = JSON.parse(p);
+        // Progresso de antes do motor de assuntos: conta o histórico nos assuntos depois.
+        setProgress({ ...initialProgress(Date.now()), ...saved, ...(saved.topicStats ? {} : { topicStats: {}, topicsBackfilled: false }) });
+      }
       if (pr) setPrefsState({ vestibular: null, examId: null, subjects: [], ...JSON.parse(pr) });
       await reloadPacks();
       setReady(true);
@@ -94,6 +99,13 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
     setProgress(next);
     AsyncStorage.setItem(PROGRESS_KEY, JSON.stringify(next));
   }, []);
+
+  // Uma vez: conta nos assuntos as respostas antigas, assim que houver pacotes com assuntos.
+  useEffect(() => {
+    if (!ready || progress.topicsBackfilled) return;
+    const next = backfillTopics(progress, packs.flatMap((pk) => pk.questions));
+    if (next !== progress) save(next);
+  }, [ready, packs, progress, save]);
 
   const answer = useCallback(
     (input: AnswerInput) => {

@@ -3,7 +3,7 @@
  "vestibular": "enem",
  "title": "ENEM 2013, dia 1",
  "year": 2013,
- "version": 1,
+ "version": 2,
  "source": "Questões: INEP, ENEM 2013. Transcrição: ENEM API (enem.dev).",
  "questions": [
   {
@@ -46,7 +46,9 @@
      "text": "Reurbanização de moradias nas áreas centrais, mantendo o trabalhador próximo ao seu emprego, diminuindo os deslocamentos para a periferia."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2013-q3",
@@ -88,7 +90,9 @@
      "text": "Relação sociedade-natureza de caráter singular."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Sociologia",
+   "assunto": "Cultura e identidade"
   },
   {
    "id": "enem-2013-q4",
@@ -142,7 +146,9 @@
      "text": "Encontrar ideias e pensamentos evidentes que dispensam ser questionados."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Filosofia",
+   "assunto": "Conhecimento e ciência"
   },
   {
    "id": "enem-2013-q5",
@@ -184,7 +190,9 @@
      "text": "Criticar o modo de vida dos povos autóctones para evidenciar a ausência de trabalho."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "História",
+   "assunto": "Brasil Colônia"
   },
   {
    "id": "enem-2013-q6",
@@ -230,7 +238,9 @@
      "text": "Profetização das consequências da colonização da América."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "História",
+   "assunto": "Povos indígenas e africanos"
   },
   {
    "id": "enem-2013-q8",
@@ -272,7 +282,9 @@
      "text": "Adesão ao anarquismo."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "História",
+   "assunto": "Brasil República"
   },
   {
    "id": "enem-2013-q9",
@@ -314,7 +326,9 @@
      "text": "Diminuição dos fluxos materiais em detrimento de fluxos imateriais."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2013-q10",
@@ -356,7 +370,9 @@
      "text": "Sociável por natureza, mantendo relações pacíficas com seus pares."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Filosofia",
+   "assunto": "Filosofia moderna"
   },
   {
    "id": "enem-2013-q11",
@@ -398,7 +414,9 @@
      "text": "Isonomia do governo federal no tratamento das disputas locais."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Sociologia",
+   "assunto": "Estado, poder e instituições"
   },
   {
    "id": "enem-2013-q12",
@@ -440,7 +458,9 @@
      "text": "Perseguições policiais tinham caráter xenófobo por repudiarem tradições estrangeiras."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Sociologia",
+   "assunto": "Cultura e identidade"
   },
   {
    "id": "enem-2013-q14",
@@ -482,7 +502,9 @@
      "text": "Homogeneização da cobertura perenifólia."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Relevo, solos e hidrografia"
   },
   {
    "id": "enem-2013-q15",
@@ -524,7 +546,9 @@
      "text": "A burguesia revolucione o processo social de formação da consciência de classe."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2013-q16",
@@ -566,7 +590,9 @@
      "text": "Os mecanismos de controle sejam deslocados dos processos para os resultados do trabalho."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Sociologia",
+   "assunto": "Trabalho e sociedade"
   },
   {
    "id": "enem-2013-q18",
@@ -608,7 +634,9 @@
      "text": "A diversidade e a política."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "História",
+   "assunto": "Povos indígenas e africanos"
   },
   {
    "id": "enem-2013-q19",
@@ -690,7 +718,9 @@
      "text": "Expansão do protecionismo comercial e descaracterização de identidades nacionais."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "História",
+   "assunto": "Antiguidade"
   },
   {
    "id": "enem-2013-q21",
@@ -732,7 +762,9 @@
      "text": "Estabelecimento de fronteiras nacionais."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Geopolítica"
   },
   {
    "id": "enem-2013-q22",
@@ -774,7 +806,9 @@
      "text": "Reunião das funções de legislar, julgar e executar nas mãos de um governante eleito."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2013-q23",
@@ -816,7 +850,9 @@
      "text": "Amadurecimento da consciência ligada à civilização moderna."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "História",
+   "assunto": "Idade Média"
   },
   {
    "id": "enem-2013-q24",
@@ -858,7 +894,9 @@
      "text": "Consensuais, que pactuam acordos com base na compreensão dos benefícios gerais de se ter as próprias ações controladas."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2013-q26",
@@ -900,7 +938,9 @@
      "text": "Tripartição dos poderes políticos."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "História",
+   "assunto": "Antiguidade"
   },
   {
    "id": "enem-2013-q27",
@@ -942,7 +982,9 @@
      "text": "Expressão do sucesso individual e reconhecimento público."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Filosofia",
+   "assunto": "Filosofia antiga"
   },
   {
    "id": "enem-2013-q29",
@@ -984,7 +1026,9 @@
      "text": "Ressignificação cultural."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "História",
+   "assunto": "Brasil Colônia"
   },
   {
    "id": "enem-2013-q30",
@@ -1042,7 +1086,9 @@
      "text": "Correção de distorções históricas e ao prejuízo ao agronegócio."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Agropecuária e questão agrária"
   },
   {
    "id": "enem-2013-q31",
@@ -1084,7 +1130,9 @@
      "text": "Fundamentalista, que engendrava conflitos religiosos."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "História",
+   "assunto": "Povos indígenas e africanos"
   },
   {
    "id": "enem-2013-q32",
@@ -1126,7 +1174,9 @@
      "text": "Financiar a fixação de famílias camponesas para estímulo da agricultura de subsistência."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Agropecuária e questão agrária"
   },
   {
    "id": "enem-2013-q34",
@@ -1168,7 +1218,9 @@
      "text": "Econômico, em função da revolução agrícola que transformou o campo e a cidade e contribuiu para fixação do homem ao lugar."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2013-q35",
@@ -1210,7 +1262,9 @@
      "text": "Imunidade parlamentar."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2013-q36",
@@ -1252,7 +1306,9 @@
      "text": "Refutam-se mutuamente quanto à natureza do nosso conhecimento e são ambas recusadas por Kant."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Filosofia",
+   "assunto": "Conhecimento e ciência"
   },
   {
    "id": "enem-2013-q37",
@@ -1294,7 +1350,9 @@
      "text": "Formação de uma infraestrutura de torres que permitem a comunicação móvel na região."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Geopolítica"
   },
   {
    "id": "enem-2013-q38",
@@ -1336,7 +1394,9 @@
      "text": "Demonstram a maior complexidade cultural dos africanos em relação aos europeus."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Sociologia",
+   "assunto": "Cultura e identidade"
   },
   {
    "id": "enem-2013-q40",
@@ -1390,7 +1450,9 @@
      "text": "Valorização do casamento cristão, respaldado pelos interesses vinculados à herança."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Sociologia",
+   "assunto": "Cultura e identidade"
   },
   {
    "id": "enem-2013-q41",
@@ -1432,7 +1494,9 @@
      "text": "Explicar a dinâmica presente entre os fenômenos naturais e impor limites aos debates acadêmicos."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Filosofia",
+   "assunto": "Filosofia moderna"
   },
   {
    "id": "enem-2013-q43",
@@ -1474,7 +1538,9 @@
      "text": "Intensificação da dependência geotérmica."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2013-q44",
@@ -1516,7 +1582,9 @@
      "text": "Antecipava a libertação paternalista dos cativos."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2013-q45",
@@ -1558,7 +1626,9 @@
      "text": "Alteração da composição étnica da população."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Sociologia",
+   "assunto": "Estado, poder e instituições"
   },
   {
    "id": "enem-2013-q47",
@@ -1600,7 +1670,9 @@
      "text": "4,8 × 1025"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Química",
+   "assunto": "Estequiometria e mol"
   },
   {
    "id": "enem-2013-q50",
@@ -1642,7 +1714,9 @@
      "text": "A explicação de que alguns vírus de animais podem ser transmitidos para os humanos."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Biologia",
+   "assunto": "Microbiologia e doenças"
   },
   {
    "id": "enem-2013-q51",
@@ -1684,7 +1758,9 @@
      "text": "Fontes de energia eólica."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Física",
+   "assunto": "Energia e trabalho"
   },
   {
    "id": "enem-2013-q52",
@@ -1722,7 +1798,9 @@
      "text": "Terem frequências próximas"
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Física",
+   "assunto": "Ondas e som"
   },
   {
    "id": "enem-2013-q53",
@@ -1760,7 +1838,9 @@
      "text": "Processo de digestão para diminuir o tempo de permanência do alimento no intestino."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Física",
+   "assunto": "Termologia"
   },
   {
    "id": "enem-2013-q59",
@@ -1798,7 +1878,9 @@
      "text": "Menor, pois haverá redução de O2 pela falta da fotossíntese realizada pelas árvores mortas."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Biologia",
+   "assunto": "Botânica"
   },
   {
    "id": "enem-2013-q60",
@@ -1840,7 +1922,9 @@
      "text": "Reduz a variabilidade genética da população."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2013-q61",
@@ -1878,7 +1962,9 @@
      "text": "5 000 N."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2013-q62",
@@ -1916,7 +2002,9 @@
      "text": "Retículo endoplasmático."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Biologia",
+   "assunto": "Citologia"
   },
   {
    "id": "enem-2013-q63",
@@ -1958,7 +2046,9 @@
      "text": "Extinção de nichos ecológicos."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Física",
+   "assunto": "Ondas e som"
   },
   {
    "id": "enem-2013-q64",
@@ -2004,7 +2094,9 @@
      "text": "14"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Química",
+   "assunto": "Ácidos, bases e pH"
   },
   {
    "id": "enem-2013-q67",
@@ -2046,7 +2138,9 @@
      "text": "Atenuando a concentração de resíduos vegetais do solo."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2013-q69",
@@ -2092,7 +2186,9 @@
      "text": "Carbonato de cálcio."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2013-q71",
@@ -2126,7 +2222,9 @@
      "text": "6,7 mL"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Química",
+   "assunto": "Soluções e concentração"
   },
   {
    "id": "enem-2013-q74",
@@ -2168,7 +2266,9 @@
      "text": "Obtenção de amônia a partir de hidrogênio e nitrogênio."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Física",
+   "assunto": "Eletricidade e magnetismo"
   },
   {
    "id": "enem-2013-q75",
@@ -2206,7 +2306,9 @@
      "text": "Quarta parte da área da seção reta do fio."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Física",
+   "assunto": "Eletricidade e magnetismo"
   },
   {
    "id": "enem-2013-q76",
@@ -2244,7 +2346,9 @@
      "text": "Vertical e sentido para cima."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2013-q77",
@@ -2286,7 +2390,9 @@
      "text": "303."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2013-q78",
@@ -2328,7 +2434,9 @@
      "text": "São mais suscetíveis a esse vírus que as mulheres."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Biologia",
+   "assunto": "Fisiologia humana e saúde"
   },
   {
    "id": "enem-2013-q79",
@@ -2366,7 +2474,9 @@
      "text": "As cargas positivas e negativas se chocam no filamento da lâmpada."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Física",
+   "assunto": "Eletricidade e magnetismo"
   },
   {
    "id": "enem-2013-q80",
@@ -2404,7 +2514,9 @@
      "text": "Caranguejos."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Física",
+   "assunto": "Ondas e som"
   },
   {
    "id": "enem-2013-q81",
@@ -2442,7 +2554,9 @@
      "text": "Centrifugação."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Química",
+   "assunto": "Ácidos, bases e pH"
   },
   {
    "id": "enem-2013-q84",
@@ -2484,7 +2598,9 @@
      "text": "Apresentarem características fisiológicas que lhes conferem maior tamanho corporal que o das espécies nativas."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Biologia",
+   "assunto": "Ecologia"
   },
   {
    "id": "enem-2013-q88",
@@ -2522,7 +2638,9 @@
      "text": "Avô materno."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2013-q89",
@@ -2560,7 +2678,9 @@
      "text": "0,833."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Física",
+   "assunto": "Termologia"
   }
  ]
 }

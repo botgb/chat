@@ -3,7 +3,7 @@
  "vestibular": "enem",
  "title": "ENEM 2022, dia 1",
  "year": 2022,
- "version": 1,
+ "version": 2,
  "source": "Questões: INEP, ENEM 2022. Transcrição: ENEM API (enem.dev).",
  "questions": [
   {
@@ -46,7 +46,9 @@
      "text": "Fortalecimento do elo familiar em comunidades estadunidenenses."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2022-q2-espanhol",
@@ -96,7 +98,9 @@
      "text": "Falta de informação sobre a configuração de alertas no celular"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2022-q2-ingles",
@@ -134,7 +138,9 @@
      "text": "Valorizar a importância da aparência física na seleção de pretendentes."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2022-q3-espanhol",
@@ -176,7 +182,9 @@
      "text": "Dos graus de intimidade entre os amigos"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2022-q4-espanhol",
@@ -238,7 +246,9 @@
      "text": "Falta de serviços de saúde adequados"
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2022-q4-ingles",
@@ -288,7 +298,9 @@
      "text": "Aproximar pessoas ao redor do mundo."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2022-q5-ingles",
@@ -354,7 +366,9 @@
      "text": "Insatisfação com uma forma de comunicação."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2022-q6",
@@ -400,7 +414,9 @@
      "text": "Emprego de metáforas, como em: “a vida engata uma primeira e sai em disparada”."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Funções e figuras de linguagem"
   },
   {
    "id": "enem-2022-q8",
@@ -454,7 +470,9 @@
      "text": "Desenvolver conhecimentos lúdicos específicos dos tempos atuais."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2022-q10",
@@ -496,7 +514,9 @@
      "text": "Compartilhamento das obras artísticas."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2022-q11",
@@ -542,7 +562,9 @@
      "text": "Rapidez no aprendizado do manuseio das novas invenções."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2022-q12",
@@ -588,7 +610,9 @@
      "text": "Nível social dos participantes da situação."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Português",
+   "assunto": "Gramática e uso da língua"
   },
   {
    "id": "enem-2022-q13",
@@ -630,7 +654,9 @@
      "text": "Condicionam a expansão da rede à elaboração de politicas inclusivas."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2022-q14",
@@ -680,7 +706,9 @@
      "text": "Recurso de expressão marcado pela objetividade que se requer na comunicação diária."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2022-q16",
@@ -726,7 +754,9 @@
      "text": "Avaliar, por meio de análise crítica, o filme em referência."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2022-q17",
@@ -772,7 +802,9 @@
      "text": "Apresenta informações pertinentes acerca do conceito de \"palavra\", como em \"As gramáticas classificam as palavras\"."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Português",
+   "assunto": "Gramática e uso da língua"
   },
   {
    "id": "enem-2022-q18",
@@ -814,7 +846,9 @@
      "text": "Inter-relação entre orações por elementos linguisticos lógicos."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2022-q19",
@@ -856,7 +890,9 @@
      "text": "Consequência da insatisfação dos clubes com a organização dos jogos."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2022-q20",
@@ -898,7 +934,9 @@
      "text": "Estimulem o incentivo fiscal para a iniciativa privada destinar verbas aos programas nacionais de promoção da saúde pelo esporte."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2022-q21",
@@ -952,7 +990,9 @@
      "text": "Ironizar o comportamento dos proprietários de terra na exploração do trabalho."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2022-q22",
@@ -1026,7 +1066,9 @@
      "text": "Têm como objetivo a disseminação do conhecimento."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2022-q23",
@@ -1068,7 +1110,9 @@
      "text": "Marca de antigos sofrimentos no fluxo de consciência."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2022-q24",
@@ -1122,7 +1166,9 @@
      "text": "Adequação da linguagem à situação de comunicação."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Gramática e uso da língua"
   },
   {
    "id": "enem-2022-q25",
@@ -1164,7 +1210,9 @@
      "text": "Conquista de medalha nos Jogos Olímpicos de Tóquio."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2022-q26",
@@ -1210,7 +1258,9 @@
      "text": "“Ó Manuel, Miguilim”."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Funções e figuras de linguagem"
   },
   {
    "id": "enem-2022-q28",
@@ -1256,7 +1306,9 @@
      "text": "Aumenta o número de línguas indígenas faladas no Brasil."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2022-q29",
@@ -1310,7 +1362,9 @@
      "text": "Interesse do narrador pelas figuras femininas ambíguas."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Português",
+   "assunto": "Funções e figuras de linguagem"
   },
   {
    "id": "enem-2022-q30",
@@ -1360,7 +1414,9 @@
      "text": "Afetivo, manifesto na determinação de acolher familiares e no respeito mútuo"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2022-q31",
@@ -1426,7 +1482,9 @@
      "text": "Contemplação lírica da paisagem transformada em alegoria."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2022-q33",
@@ -1472,7 +1530,9 @@
      "text": "Presença de léxico do campo semântico de funerais"
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Literatura",
+   "assunto": "Escolas literárias"
   },
   {
    "id": "enem-2022-q34",
@@ -1514,7 +1574,9 @@
      "text": "Necessidade de espaços definidos para a sua realização."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2022-q35",
@@ -1568,7 +1630,9 @@
      "text": "Público leitor exclusivo."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2022-q36",
@@ -1618,7 +1682,9 @@
      "text": "Responsabilizar os agentes públicos pela demora na tomara de decisões."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2022-q37",
@@ -1668,7 +1734,9 @@
      "text": "Padrões idealizados e nocivos de beleza física."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2022-q40",
@@ -1714,7 +1782,9 @@
      "text": "Preocupação do vaqueiro em demostrar sua virilidade."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2022-q41",
@@ -1764,7 +1834,9 @@
      "text": "Reconhecimento da festa como manifestação cultural."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2022-q42",
@@ -1814,7 +1886,9 @@
      "text": "Necessidade de revelar seus anseios mais íntimos."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2022-q43",
@@ -1864,7 +1938,9 @@
      "text": "Representação anedótica de atos de violência."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2022-q45",
@@ -1906,7 +1982,9 @@
      "text": "Integração de referenciais culturais de diferentes origens, criando uma nova combinação estética."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2022-q46",
@@ -1948,7 +2026,9 @@
      "text": "Próximo à vegetação ao identificar espécies arbustivas."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Clima e atmosfera"
   },
   {
    "id": "enem-2022-q47",
@@ -1990,7 +2070,9 @@
      "text": "Construção da sociabilidade."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2022-q48",
@@ -2032,7 +2114,9 @@
      "text": "Precariedade da educação."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "História",
+   "assunto": "Brasil Império"
   },
   {
    "id": "enem-2022-q50",
@@ -2078,7 +2162,9 @@
      "text": "Contradição entre desenvolvimento nacional e respeito aos trabalhadores"
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Meio ambiente e energia"
   },
   {
    "id": "enem-2022-q51",
@@ -2120,7 +2206,9 @@
      "text": "Desterritorialização da produção."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2022-q52",
@@ -2162,7 +2250,9 @@
      "text": "Garantir a moradia básica."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2022-q53",
@@ -2204,7 +2294,9 @@
      "text": "Aparecimento de diversas editoras comerciais."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Sociologia",
+   "assunto": "Cultura e identidade"
   },
   {
    "id": "enem-2022-q54",
@@ -2246,7 +2338,9 @@
      "text": "Contestação dos princípios monárquicos."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2022-q55",
@@ -2288,7 +2382,9 @@
      "text": "Aplicar fertilizantes de origem orgânica, modificando a química da terra."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Relevo, solos e hidrografia"
   },
   {
    "id": "enem-2022-q57",
@@ -2330,7 +2426,9 @@
      "text": "Hierarquização da burocracia estatal."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Sociologia",
+   "assunto": "Estado, poder e instituições"
   },
   {
    "id": "enem-2022-q58",
@@ -2380,7 +2478,9 @@
      "text": "Criação de lugares místicos e experiências do catolicismo popular."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Geopolítica"
   },
   {
    "id": "enem-2022-q59",
@@ -2422,7 +2522,9 @@
      "text": "Negociação na bolsa de valores."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Agropecuária e questão agrária"
   },
   {
    "id": "enem-2022-q60",
@@ -2464,7 +2566,9 @@
      "text": "Cognitiva, favorecendo ferramentas virtuais."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2022-q61",
@@ -2506,7 +2610,9 @@
      "text": "Ampliação do desemprego estrutural."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2022-q62",
@@ -2548,7 +2654,9 @@
      "text": "Equivalência da legislação trabalhista."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2022-q63",
@@ -2590,7 +2698,9 @@
      "text": "Das corporações, procedente do padrão assistencialista previsto nas normas estatutárias."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "História",
+   "assunto": "Idade Média"
   },
   {
    "id": "enem-2022-q64",
@@ -2632,7 +2742,9 @@
      "text": "Dobramentos modernos."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Relevo, solos e hidrografia"
   },
   {
    "id": "enem-2022-q66",
@@ -2686,7 +2798,9 @@
      "text": "Exclusão de competências e participação política."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Sociologia",
+   "assunto": "Cultura e identidade"
   },
   {
    "id": "enem-2022-q67",
@@ -2728,7 +2842,9 @@
      "text": "Incentivar a especulação imobiliária."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2022-q69",
@@ -2770,7 +2886,9 @@
      "text": "Expulsão das forças navais ocidentais garantiria a soberania nacional."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Geopolítica"
   },
   {
    "id": "enem-2022-q71",
@@ -2812,7 +2930,9 @@
      "text": "Regulamentação das relações de trabalho pelo Legislativo."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Sociologia",
+   "assunto": "Estado, poder e instituições"
   },
   {
    "id": "enem-2022-q72",
@@ -2858,7 +2978,9 @@
      "text": "Deslocamento forçado."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Sociologia",
+   "assunto": "Trabalho e sociedade"
   },
   {
    "id": "enem-2022-q73",
@@ -2900,7 +3022,9 @@
      "text": "Definir uma tradição popular."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Sociologia",
+   "assunto": "Cultura e identidade"
   },
   {
    "id": "enem-2022-q75",
@@ -2942,7 +3066,9 @@
      "text": "Patrimônio cultural e afetivo."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Relevo, solos e hidrografia"
   },
   {
    "id": "enem-2022-q76",
@@ -2984,7 +3110,9 @@
      "text": "Negociantes na organização de redes comerciais."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Clima e atmosfera"
   },
   {
    "id": "enem-2022-q77",
@@ -3026,7 +3154,9 @@
      "text": "Emancipadores das metrópoles."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "História",
+   "assunto": "Brasil Colônia"
   },
   {
    "id": "enem-2022-q79",
@@ -3068,7 +3198,9 @@
      "text": "Competências econômica e financeira dos comerciantes."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Sociologia",
+   "assunto": "Cultura e identidade"
   },
   {
    "id": "enem-2022-q80",
@@ -3110,7 +3242,9 @@
      "text": "Os poetas rapsodos, responsáveis pela narrativa do mito."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Filosofia",
+   "assunto": "Conhecimento e ciência"
   },
   {
    "id": "enem-2022-q81",
@@ -3160,7 +3294,9 @@
      "text": "Privatização dos meios de comunicação"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "História",
+   "assunto": "Brasil República"
   },
   {
    "id": "enem-2022-q83",
@@ -3202,7 +3338,9 @@
      "text": "Clandestinas."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "População e migração"
   },
   {
    "id": "enem-2022-q84",
@@ -3252,7 +3390,9 @@
      "text": "Estabelecendo a inteligência como implicação das representações."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Filosofia",
+   "assunto": "Conhecimento e ciência"
   },
   {
    "id": "enem-2022-q85",
@@ -3302,7 +3442,9 @@
      "text": "Ordenar cultos de heresia."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Sociologia",
+   "assunto": "Estado, poder e instituições"
   },
   {
    "id": "enem-2022-q86",
@@ -3344,7 +3486,9 @@
      "text": "Corresponde à explicação mitológica."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Filosofia",
+   "assunto": "Filosofia antiga"
   },
   {
    "id": "enem-2022-q87",
@@ -3386,7 +3530,9 @@
      "text": "Crescimento da taxa de fecundidade"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2022-q88",
@@ -3428,7 +3574,9 @@
      "text": "Moderação das paixões"
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Sociologia",
+   "assunto": "Estado, poder e instituições"
   },
   {
    "id": "enem-2022-q89",
@@ -3470,7 +3618,9 @@
      "text": "Práticas medicinais alicerçadas no conhecimento científico."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Sociologia",
+   "assunto": "Cultura e identidade"
   },
   {
    "id": "enem-2022-q90",
@@ -3512,7 +3662,9 @@
      "text": "Especialização nas etapas de produção."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "História",
+   "assunto": "Brasil Colônia"
   }
  ]
 }

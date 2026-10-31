@@ -3,7 +3,7 @@
  "vestibular": "enem",
  "title": "ENEM 2012, dia 1",
  "year": 2012,
- "version": 1,
+ "version": 2,
  "source": "Questões: INEP, ENEM 2012. Transcrição: ENEM API (enem.dev).",
  "questions": [
   {
@@ -46,7 +46,9 @@
      "text": "A emancipação da subjetividade humana de ideologias produzidas pela própria razão."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Filosofia",
+   "assunto": "Filosofia moderna"
   },
   {
    "id": "enem-2012-q3",
@@ -104,7 +106,9 @@
      "text": "Incapacidade das instituições político-legislativas em formular mecanismos de controle social específicos à realidade social brasileira."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Sociologia",
+   "assunto": "Desigualdade e exclusão"
   },
   {
    "id": "enem-2012-q5",
@@ -146,7 +150,9 @@
      "text": "Resistência à incorporação de elementos culturais indígenas."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "História",
+   "assunto": "Povos indígenas e africanos"
   },
   {
    "id": "enem-2012-q6",
@@ -188,7 +194,9 @@
      "text": "A aceitação da cultura negra como representante do modo de vida americano."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2012-q7",
@@ -230,7 +238,9 @@
      "text": "Ao direito do cidadão exercer sua vontade de acordo com seus valores pessoais."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2012-q9",
@@ -272,7 +282,9 @@
      "text": "O desaparecimento de quaisquer limitações, tais como linguagem política ou distintas convenções de comportamento, para compor a arena política a ser compartilhada."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Sociologia",
+   "assunto": "Cultura e identidade"
   },
   {
    "id": "enem-2012-q10",
@@ -314,7 +326,9 @@
      "text": "Fundação de cidades para controlar a circulação de riquezas."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "História",
+   "assunto": "Povos indígenas e africanos"
   },
   {
    "id": "enem-2012-q11",
@@ -364,7 +378,9 @@
      "text": "Restrição da competência do congresso – Presidencialismo."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Sociologia",
+   "assunto": "Estado, poder e instituições"
   },
   {
    "id": "enem-2012-q13",
@@ -406,7 +422,9 @@
      "text": "Determinar as responsabilidades pela destruição do patrimônio nacional, de acordo com a  legislação brasileira."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Sociologia",
+   "assunto": "Cultura e identidade"
   },
   {
    "id": "enem-2012-q14",
@@ -448,7 +466,9 @@
      "text": "Estagnação da indústria de alta tecnologia em função da concentração de investimentos na infraestrutura de circulação."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2012-q15",
@@ -490,7 +510,9 @@
      "text": "Expectativa da investigação dos culpados."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2012-q17",
@@ -532,7 +554,9 @@
      "text": "Questionamentos ao autoritarismo."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "História",
+   "assunto": "Brasil Colônia"
   },
   {
    "id": "enem-2012-q18",
@@ -574,7 +598,9 @@
      "text": "Simbólica de relação subjetiva do indivíduo com o espaço."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2012-q20",
@@ -616,7 +642,9 @@
      "text": "Concentração das áreas cultiváveis no setor agroexportador – Aumento da ocupação da população pobre em territórios agrícolas marginais."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "História",
+   "assunto": "Povos indígenas e africanos"
   },
   {
    "id": "enem-2012-q21",
@@ -674,7 +702,9 @@
      "text": "A crise de 1929 decorreu da política intervencionista norte-americana sobre o sistema de comércio mundial e a atual crise resultou do excesso de regulação do governo desse país sobre o sistema monetário."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Sociologia",
+   "assunto": "Estado, poder e instituições"
   },
   {
    "id": "enem-2012-q23",
@@ -716,7 +746,9 @@
      "text": "O aumento da longevidade, resultando no crescimento populacional."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Sociologia",
+   "assunto": "Cultura e identidade"
   },
   {
    "id": "enem-2012-q25",
@@ -758,7 +790,9 @@
      "text": "Rejeitando a posição de Parmênides de que a sensação é superior à razão."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Filosofia",
+   "assunto": "Conhecimento e ciência"
   },
   {
    "id": "enem-2012-q26",
@@ -800,7 +834,9 @@
      "text": "Elevação das temperaturas médias – criminalização da emissão de gás carbônico."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Meio ambiente e energia"
   },
   {
    "id": "enem-2012-q27",
@@ -842,7 +878,9 @@
      "text": "Dificuldade imposta pelos fazendeiros e posseiros no acesso aos babaçuais localizados no interior de suas propriedades."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Sociologia",
+   "assunto": "Estado, poder e instituições"
   },
   {
    "id": "enem-2012-q28",
@@ -896,7 +934,9 @@
      "text": "Defendiam que Deus é o princípio de todas as coisas."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "História",
+   "assunto": "Idade Média"
   },
   {
    "id": "enem-2012-q29",
@@ -938,7 +978,9 @@
      "text": "Acúmulo de depósitos sedimentares."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Relevo, solos e hidrografia"
   },
   {
    "id": "enem-2012-q30",
@@ -992,7 +1034,9 @@
      "text": "Atribuem diferentes lugares ao papel dos sentidos no processo de obtenção do conhecimento."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Filosofia",
+   "assunto": "Filosofia moderna"
   },
   {
    "id": "enem-2012-q31",
@@ -1034,7 +1078,9 @@
      "text": "Redefinir a ação política com base na unidade entre fé e razão."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Filosofia",
+   "assunto": "Filosofia moderna"
   },
   {
    "id": "enem-2012-q32",
@@ -1076,7 +1122,9 @@
      "text": "Introduz tecnologias à produção agrícola."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Clima e atmosfera"
   },
   {
    "id": "enem-2012-q33",
@@ -1118,7 +1166,9 @@
      "text": "A ampliação do poder de planejamento dos Estados nacionais."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2012-q34",
@@ -1160,7 +1210,9 @@
      "text": "Povoados interligados próximos a grandes rios."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Meio ambiente e energia"
   },
   {
    "id": "enem-2012-q35",
@@ -1202,7 +1254,9 @@
      "text": "Da necessidade de controle dos brancos sobre a população indígena, objetivando sua adaptação às exigências do trabalho regular."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "História",
+   "assunto": "Povos indígenas e africanos"
   },
   {
    "id": "enem-2012-q36",
@@ -1244,7 +1298,9 @@
      "text": "Desenvolvimento dos meios de comunicação."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2012-q37",
@@ -1286,7 +1342,9 @@
      "text": "Serem esculpidas pela ação do intemperismo físico, decorrente da variação de temperatura."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Relevo, solos e hidrografia"
   },
   {
    "id": "enem-2012-q38",
@@ -1328,7 +1386,9 @@
      "text": "Redirecionamento dos cursos fluviais."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Agropecuária e questão agrária"
   },
   {
    "id": "enem-2012-q39",
@@ -1386,7 +1446,9 @@
      "text": "Desorganizam o modo tradicional de vida impelindo-as à busca por melhores condições no espaço urbano ou em outros países em situações muitas vezes precárias."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Agropecuária e questão agrária"
   },
   {
    "id": "enem-2012-q40",
@@ -1428,7 +1490,9 @@
      "text": "O trabalho dos escravos na produção de açúcar."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "História",
+   "assunto": "Brasil Colônia"
   },
   {
    "id": "enem-2012-q41",
@@ -1470,7 +1534,9 @@
      "text": "Desobriga o Estado quanto aos direitos e deveres da classe trabalhadora."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2012-q42",
@@ -1512,7 +1578,9 @@
      "text": "Criação de incentivos fiscais para o cultivo de produtos orgânicos."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "População e migração"
   },
   {
    "id": "enem-2012-q43",
@@ -1582,7 +1650,9 @@
      "text": "Discriminação dos nordestinos nos grandes centros urbanos."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Sociologia",
+   "assunto": "Desigualdade e exclusão"
   },
   {
    "id": "enem-2012-q44",
@@ -1624,7 +1694,9 @@
      "text": "Harmonizava as relações sociais entre escravos e senhores."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "História",
+   "assunto": "Brasil Colônia"
   },
   {
    "id": "enem-2012-q46",
@@ -1662,7 +1734,9 @@
      "text": "Garrafas PET recortadas em tiras para fabricação de cerdas de vassouras."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Química",
+   "assunto": "Química ambiental"
   },
   {
    "id": "enem-2012-q47",
@@ -1700,7 +1774,9 @@
      "text": "Altos, reduzindo a pressão sobre o solo."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2012-q48",
@@ -1738,7 +1814,9 @@
      "text": "Da tradução do RNA mensageiro sintetizado a partir do DNA recombinante."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2012-q50",
@@ -1776,7 +1854,9 @@
      "text": "Uma atiradeira (estilingue)."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Química",
+   "assunto": "Estequiometria e mol"
   },
   {
    "id": "enem-2012-q51",
@@ -1814,7 +1894,9 @@
      "text": "Metabolizar o contaminante, liberando subprodutos menos tóxicos ou atóxicos."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Física",
+   "assunto": "Ondas e som"
   },
   {
    "id": "enem-2012-q52",
@@ -1856,7 +1938,9 @@
      "text": "Meningite meningocócica."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Química",
+   "assunto": "Química ambiental"
   },
   {
    "id": "enem-2012-q54",
@@ -1894,7 +1978,9 @@
      "text": "Igual a 25 cm e igual a 1,0 m/s."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2012-q57",
@@ -1932,7 +2018,9 @@
      "text": "Raízes superficiais, em geral, aéreas."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Biologia",
+   "assunto": "Botânica"
   },
   {
    "id": "enem-2012-q59",
@@ -1974,7 +2062,9 @@
      "text": "3,0 kg."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Física",
+   "assunto": "Ondas e som"
   },
   {
    "id": "enem-2012-q61",
@@ -2016,7 +2106,9 @@
      "text": "Igual a de uma lâmpada fluorescente de 40 W, que consome a mesma quantidade de energia."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Física",
+   "assunto": "Eletricidade e magnetismo"
   },
   {
    "id": "enem-2012-q62",
@@ -2058,7 +2150,9 @@
      "text": "Produzir descendentes com o código genético modificado."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2012-q63",
@@ -2096,7 +2190,9 @@
      "text": "Liberação de calor."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2012-q64",
@@ -2134,7 +2230,9 @@
      "text": "Refletidos pelo peixe desviam sua trajetória quando passam da água para o ar."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2012-q65",
@@ -2172,7 +2270,9 @@
      "text": "Possui genes transcritos diferentemente de acordo com cada necessidade."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2012-q68",
@@ -2214,7 +2314,9 @@
      "text": "Potencial biótico."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Física",
+   "assunto": "Ondas e som"
   },
   {
    "id": "enem-2012-q70",
@@ -2252,7 +2354,9 @@
      "text": "O reagente adicionado provoca uma solidificação do hidrocarboneto, o que facilita sua retirada do ambiente."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2012-q71",
@@ -2290,7 +2394,9 @@
      "text": "Eólica, pelas características do país e por não gerar gases do efeito estufa nem resíduos de operação."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Química",
+   "assunto": "Ácidos, bases e pH"
   },
   {
    "id": "enem-2012-q72",
@@ -2328,7 +2434,9 @@
      "text": "3,0."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2012-q75",
@@ -2366,7 +2474,9 @@
      "text": "Vermes e microrganismos são gerados pela matéria existente nos cadáveres e nos caldos nutritivos, respectivamente."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Biologia",
+   "assunto": "Microbiologia e doenças"
   },
   {
    "id": "enem-2012-q76",
@@ -2404,7 +2514,9 @@
      "text": "Água desmineralizada."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Biologia",
+   "assunto": "Ecologia"
   },
   {
    "id": "enem-2012-q77",
@@ -2442,7 +2554,9 @@
      "text": "0,750 kg."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2012-q81",
@@ -2480,7 +2594,9 @@
      "text": "Evitaram a precipitação de água até a superfície da Terra, causando uma grande seca que impediu a retroalimentação do ciclo hidrológico."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2012-q83",
@@ -2522,7 +2638,9 @@
      "text": "A temperatura em que eles trabalham. Para atingir o plasma, é necessária uma temperatura maior que a de fusão do aço com que se fazem os motores."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Física",
+   "assunto": "Termologia"
   },
   {
    "id": "enem-2012-q84",
@@ -2564,7 +2682,9 @@
      "text": "O intervalo de tempo após a esterilização é suficiente para que o material não emita mais radiação."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2012-q86",
@@ -2602,7 +2722,9 @@
      "text": "Transferência de moléculas de água do interior da célula para a solução."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Química",
+   "assunto": "Soluções e concentração"
   },
   {
    "id": "enem-2012-q87",
@@ -2640,7 +2762,9 @@
      "text": "O desmatamento que provoca a migração ou o desaparecimento dos animais silvestres dos quais o barbeiro se alimenta."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Microbiologia e doenças"
   },
   {
    "id": "enem-2012-q88",
@@ -2678,7 +2802,9 @@
      "text": "Curto comprimento de onda."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Física",
+   "assunto": "Óptica"
   },
   {
    "id": "enem-2012-q90",
@@ -2720,7 +2846,9 @@
      "text": "823."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Química",
+   "assunto": "Estequiometria e mol"
   }
  ]
 }

@@ -50,6 +50,10 @@ export type Progress = {
   heartsUpdatedAt: number;
   questions: Record<string, QuestionStat>;
   subjectStats: Record<string, { attempts: number; correct: number }>;
+  /** Acertos por matéria e assunto, com a chave "Matéria|Assunto" (motor de assuntos). */
+  topicStats: Record<string, { attempts: number; correct: number }>;
+  /** Respostas antigas já contadas nos assuntos (preenchido uma vez pelos pacotes baixados). */
+  topicsBackfilled?: boolean;
   levels: Record<string, LevelResult>;
 };
 
@@ -70,9 +74,13 @@ export function initialProgress(now: number): Progress {
     heartsUpdatedAt: now,
     questions: {},
     subjectStats: {},
+    topicStats: {},
+    topicsBackfilled: true,
     levels: {},
   };
 }
+
+export const topicKey = (materia: string, assunto: string) => `${materia}|${assunto}`;
 
 export function dayKey(date: Date): string {
   const y = date.getFullYear();
@@ -112,6 +120,8 @@ export function visibleStreak(p: Progress, today: string): number {
 export type AnswerInput = {
   questionId: string;
   subject: string;
+  materia?: string;
+  assunto?: string;
   correct: boolean;
   inTime: boolean;
   useHearts: boolean;
@@ -119,6 +129,31 @@ export type AnswerInput = {
 };
 
 export type AnswerResult = { progress: Progress; xpGained: number; goalJustMet: boolean };
+
+function bump(m: Record<string, { attempts: number; correct: number }>, key: string, correct: boolean) {
+  const cur = m[key] ?? { attempts: 0, correct: 0 };
+  return { ...m, [key]: { attempts: cur.attempts + 1, correct: cur.correct + (correct ? 1 : 0) } };
+}
+
+/**
+ * Conta nos assuntos as respostas dadas antes do motor de assuntos existir, usando o
+ * histórico de cada questão e os pacotes baixados (que agora trazem matéria e assunto).
+ * Roda uma vez; questões de provas não baixadas ficam de fora.
+ */
+export function backfillTopics(p: Progress, questions: { id: string; materia?: string; assunto?: string }[]): Progress {
+  if (p.topicsBackfilled) return p;
+  const byId = new Map(questions.filter((q) => q.materia && q.assunto).map((q) => [q.id, q]));
+  if (byId.size === 0) return p;
+  const topicStats: Progress['topicStats'] = {};
+  for (const [id, st] of Object.entries(p.questions)) {
+    const q = byId.get(id);
+    if (!q) continue;
+    const k = topicKey(q.materia!, q.assunto!);
+    const cur = topicStats[k] ?? { attempts: 0, correct: 0 };
+    topicStats[k] = { attempts: cur.attempts + st.attempts, correct: cur.correct + st.correct };
+  }
+  return { ...p, topicStats, topicsBackfilled: true };
+}
 
 export function recordAnswer(p: Progress, input: AnswerInput, now: Date): AnswerResult {
   const today = dayKey(now);
@@ -192,6 +227,7 @@ export function recordAnswer(p: Progress, input: AnswerInput, now: Date): Answer
       heartsUpdatedAt,
       dayCounts: { ...p.dayCounts, [today]: countToday },
       questions: { ...p.questions, [input.questionId]: stat },
+      topicStats: input.materia && input.assunto ? bump(p.topicStats ?? {}, topicKey(input.materia, input.assunto), input.correct) : p.topicStats ?? {},
       subjectStats: {
         ...p.subjectStats,
         [input.subject]: {

@@ -3,7 +3,7 @@
  "vestibular": "enem",
  "title": "ENEM 2021, dia 2",
  "year": 2021,
- "version": 1,
+ "version": 2,
  "source": "Questões: INEP, ENEM 2021. Transcrição: ENEM API (enem.dev).",
  "questions": [
   {
@@ -42,7 +42,9 @@
      "text": "250,0 g."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2021-q97",
@@ -84,7 +86,9 @@
      "text": "Saponificação."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Química",
+   "assunto": "Química ambiental"
   },
   {
    "id": "enem-2021-q98",
@@ -122,7 +126,9 @@
      "text": "Anfíbios, porque pressões diferenciais isolam temporalmente o sangue venoso do arterial."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Biologia",
+   "assunto": "Fisiologia humana e saúde"
   },
   {
    "id": "enem-2021-q100",
@@ -176,7 +182,9 @@
      "text": "Aceleração da gravidade."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2021-q104",
@@ -218,7 +226,9 @@
      "text": "Algas macroscópicas."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Química",
+   "assunto": "Soluções e concentração"
   },
   {
    "id": "enem-2021-q107",
@@ -256,7 +266,9 @@
      "text": "Como a versão a gasolina fica com o motor trabalhando por mais tempo para atingir os 100 km/h, esta é a que desenvolve a maior potência."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Física",
+   "assunto": "Energia e trabalho"
   },
   {
    "id": "enem-2021-q108",
@@ -326,7 +338,9 @@
      "text": "Netuno"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Biologia",
+   "assunto": "Ecologia"
   },
   {
    "id": "enem-2021-q110",
@@ -364,7 +378,9 @@
      "text": "Fosforilação oxidativa."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2021-q111",
@@ -414,7 +430,9 @@
      "text": "Colocar recipientes coletores de lixo reciclável fora da escola para entrega voluntária pela população."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Biologia",
+   "assunto": "Ecologia"
   },
   {
    "id": "enem-2021-q112",
@@ -456,7 +474,9 @@
      "text": "Mapeamento genético."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2021-q114",
@@ -494,7 +514,9 @@
      "text": "Neuro-hipófise."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Física",
+   "assunto": "Óptica"
   },
   {
    "id": "enem-2021-q117",
@@ -536,7 +558,9 @@
      "text": "Biodiesel"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Física",
+   "assunto": "Energia e trabalho"
   },
   {
    "id": "enem-2021-q118",
@@ -578,7 +602,9 @@
      "text": "Repelência da forma transmissora da doença."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Biologia",
+   "assunto": "Microbiologia e doenças"
   },
   {
    "id": "enem-2021-q121",
@@ -620,7 +646,9 @@
      "text": "Dengue, cuja baixa letalidade indica maior eficiência do vírus em parasitar seus hospedeiros, estabelecida ao longo da coevolução patógeno-hospedeiro."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Microbiologia e doenças"
   },
   {
    "id": "enem-2021-q123",
@@ -658,7 +686,9 @@
      "text": "Produção de compostos energéticos."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Biologia",
+   "assunto": "Botânica"
   },
   {
    "id": "enem-2021-q127",
@@ -700,7 +730,9 @@
      "text": "Dos hábitats disponíveis para as plantas."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Biologia",
+   "assunto": "Botânica"
   },
   {
    "id": "enem-2021-q128",
@@ -742,7 +774,9 @@
      "text": "8,0"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Física",
+   "assunto": "Eletricidade e magnetismo"
   },
   {
    "id": "enem-2021-q129",
@@ -780,7 +814,9 @@
      "text": "Vascularização para a planta jovem."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Biologia",
+   "assunto": "Botânica"
   },
   {
    "id": "enem-2021-q132",
@@ -822,7 +858,9 @@
      "text": "Polialélico."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2021-q141",
@@ -860,7 +898,9 @@
      "text": "P= d.n + L +s"
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Matemática",
+   "assunto": "Matemática financeira"
   },
   {
    "id": "enem-2021-q142",
@@ -898,7 +938,9 @@
      "text": "10"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Probabilidade e contagem"
   },
   {
    "id": "enem-2021-q146",
@@ -936,7 +978,9 @@
      "text": "15,0."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Estatística"
   },
   {
    "id": "enem-2021-q158",
@@ -974,7 +1018,9 @@
      "text": "11% maior"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2021-q159",
@@ -1012,7 +1058,9 @@
      "text": "4,4"
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2021-q160",
@@ -1062,7 +1110,9 @@
      "text": "V"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2021-q165",
@@ -1100,7 +1150,9 @@
      "text": "18,0"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Grandezas, medidas e escalas"
   },
   {
    "id": "enem-2021-q166",
@@ -1166,7 +1218,9 @@
      "text": "V"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Geometria plana"
   },
   {
    "id": "enem-2021-q171",
@@ -1216,7 +1270,9 @@
      "text": "Círculo"
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Geometria plana"
   },
   {
    "id": "enem-2021-q173",
@@ -1254,7 +1310,9 @@
      "text": "20"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2021-q176",
@@ -1300,7 +1358,9 @@
      "text": "601"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   },
   {
    "id": "enem-2021-q178",
@@ -1338,7 +1398,9 @@
      "text": "2 800 000"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Geometria plana"
   },
   {
    "id": "enem-2021-q180",
@@ -1388,7 +1450,9 @@
      "text": "2,95 mil reais"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   }
  ]
 }

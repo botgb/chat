@@ -3,7 +3,7 @@
  "vestibular": "enem",
  "title": "ENEM 2016, dia 1",
  "year": 2016,
- "version": 1,
+ "version": 2,
  "source": "Questões: INEP, ENEM 2016. Transcrição: ENEM API (enem.dev).",
  "questions": [
   {
@@ -46,7 +46,9 @@
      "text": "Busca de prazeres efêmeros."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Sociologia",
+   "assunto": "Cultura e identidade"
   },
   {
    "id": "enem-2016-q2",
@@ -88,7 +90,9 @@
      "text": "Estabilidade da economia com o congelamento anual de preços."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "História",
+   "assunto": "Brasil República"
   },
   {
    "id": "enem-2016-q4",
@@ -130,7 +134,9 @@
      "text": "Periferia metropolitana."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2016-q5",
@@ -188,7 +194,9 @@
      "text": "Visão utópica configurada a partir de fantasias de riqueza."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "História",
+   "assunto": "Povos indígenas e africanos"
   },
   {
    "id": "enem-2016-q6",
@@ -230,7 +238,9 @@
      "text": "Dependência paterna e impossibilidade de ação."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Filosofia",
+   "assunto": "Filosofia contemporânea"
   },
   {
    "id": "enem-2016-q8",
@@ -272,7 +282,9 @@
      "text": "Entrada de imigrantes portugueses nas atividades ligadas ao pequeno comércio urbano."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "História",
+   "assunto": "Povos indígenas e africanos"
   },
   {
    "id": "enem-2016-q9",
@@ -314,7 +326,9 @@
      "text": "Adequação do dinheiro como elemento padrão das transações."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2016-q10",
@@ -356,7 +370,9 @@
      "text": "Extinguir o absolutismo monárquico."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "História",
+   "assunto": "Brasil Colônia"
   },
   {
    "id": "enem-2016-q12",
@@ -398,7 +414,9 @@
      "text": "Embargo da produção industrial."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Geopolítica"
   },
   {
    "id": "enem-2016-q13",
@@ -440,7 +458,9 @@
      "text": "Implantação de governos nacionalistas."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "História",
+   "assunto": "Brasil República"
   },
   {
    "id": "enem-2016-q14",
@@ -482,7 +502,9 @@
      "text": "Unificar os salários profissionais."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Sociologia",
+   "assunto": "Estado, poder e instituições"
   },
   {
    "id": "enem-2016-q15",
@@ -524,7 +546,9 @@
      "text": "Ilusão da contemporaneidade."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2016-q18",
@@ -566,7 +590,9 @@
      "text": "Decréscimo dos Índices de desenvolvimento econômico."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2016-q19",
@@ -608,7 +634,9 @@
      "text": "Desconcentração espacial da produção."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "População e migração"
   },
   {
    "id": "enem-2016-q20",
@@ -650,7 +678,9 @@
      "text": "Liberdade do agente moral."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Filosofia",
+   "assunto": "Conhecimento e ciência"
   },
   {
    "id": "enem-2016-q21",
@@ -692,7 +722,9 @@
      "text": "Libertação do domínio etrusco."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "História",
+   "assunto": "Antiguidade"
   },
   {
    "id": "enem-2016-q23",
@@ -742,7 +774,9 @@
      "text": "Verdades do mundo sensível."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Filosofia",
+   "assunto": "Filosofia antiga"
   },
   {
    "id": "enem-2016-q24",
@@ -784,7 +818,9 @@
      "text": "A imposição de resistência e o monitoramento da liberdade."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2016-q25",
@@ -826,7 +862,9 @@
      "text": "Promoção da inclusão social."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2016-q27",
@@ -868,7 +906,9 @@
      "text": "Simpatia de membros da burocracia pelo projeto totalitário alemão."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "População e migração"
   },
   {
    "id": "enem-2016-q28",
@@ -910,7 +950,9 @@
      "text": "Agir de forma virtuosa e sábia a fim de enaltecer o homem bom e belo."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Filosofia",
+   "assunto": "Conhecimento e ciência"
   },
   {
    "id": "enem-2016-q29",
@@ -952,7 +994,9 @@
      "text": "Desregulamentação do setor imobiliário em áreas favelizadas."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2016-q30",
@@ -994,7 +1038,9 @@
      "text": "Expansão da fronteira agrícola."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Cartografia"
   },
   {
    "id": "enem-2016-q31",
@@ -1052,7 +1098,9 @@
      "text": "Fortalecimento das práticas de discriminação."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "População e migração"
   },
   {
    "id": "enem-2016-q32",
@@ -1094,7 +1142,9 @@
      "text": "Incorporação de um conhecimento alimentado pelo engajamento político."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Sociologia",
+   "assunto": "Estado, poder e instituições"
   },
   {
    "id": "enem-2016-q34",
@@ -1136,7 +1186,9 @@
      "text": "Obstáculo climático para o estabelecimento da civilização."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Relevo, solos e hidrografia"
   },
   {
    "id": "enem-2016-q35",
@@ -1178,7 +1230,9 @@
      "text": "Centralização de decisões administrativas."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "História",
+   "assunto": "Brasil República"
   },
   {
    "id": "enem-2016-q37",
@@ -1220,7 +1274,9 @@
      "text": "Amplifica o sentimento de ansiedade."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Clima e atmosfera"
   },
   {
    "id": "enem-2016-q39",
@@ -1266,7 +1322,9 @@
      "text": "Vulnerabilidade social de áreas pobres."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "História",
+   "assunto": "Povos indígenas e africanos"
   },
   {
    "id": "enem-2016-q40",
@@ -1308,7 +1366,9 @@
      "text": "Diminuição do tempo de trabalho e a necessidade do diploma superior."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2016-q41",
@@ -1350,7 +1410,9 @@
      "text": "Processo histórico homogeneizador."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Meio ambiente e energia"
   },
   {
    "id": "enem-2016-q42",
@@ -1392,7 +1454,9 @@
      "text": "Equiparar uma ferramenta digital à tecnologia analógica."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2016-q44",
@@ -1434,7 +1498,9 @@
      "text": "Fortalecimento do modelo de organização cooperativa"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Agropecuária e questão agrária"
   },
   {
    "id": "enem-2016-q46",
@@ -1476,7 +1542,9 @@
      "text": "Ardência faz evaporar rapidamente a água, não permitindo que haja contato entre o óleo e o solvente."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2016-q47",
@@ -1514,7 +1582,9 @@
      "text": "13 183,04"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Física",
+   "assunto": "Energia e trabalho"
   },
   {
    "id": "enem-2016-q50",
@@ -1548,7 +1618,9 @@
      "text": "+470."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2016-q51",
@@ -1590,7 +1662,9 @@
      "text": "Volatilização de gás cloro."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Química",
+   "assunto": "Soluções e concentração"
   },
   {
    "id": "enem-2016-q54",
@@ -1624,7 +1698,9 @@
      "text": "500."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Física",
+   "assunto": "Energia e trabalho"
   },
   {
    "id": "enem-2016-q56",
@@ -1662,7 +1738,9 @@
      "text": "Retículo endoplasmático."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Biologia",
+   "assunto": "Citologia"
   },
   {
    "id": "enem-2016-q57",
@@ -1696,7 +1774,9 @@
      "text": "Intensidade aumentada, o tempo de retorno aumentado e a frequência percebida aumentada."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2016-q60",
@@ -1730,7 +1810,9 @@
      "text": "Interações dipolo permanente – dipolo permanente."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Biologia",
+   "assunto": "Ecologia"
   },
   {
    "id": "enem-2016-q62",
@@ -1764,7 +1846,9 @@
      "text": "Peixes."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Química",
+   "assunto": "Estequiometria e mol"
   },
   {
    "id": "enem-2016-q64",
@@ -1830,7 +1914,9 @@
      "text": "15"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Física",
+   "assunto": "Eletricidade e magnetismo"
   },
   {
    "id": "enem-2016-q65",
@@ -1868,7 +1954,9 @@
      "text": "Mosquitos hematófagos."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Microbiologia e doenças"
   },
   {
    "id": "enem-2016-q67",
@@ -1914,7 +2002,9 @@
      "text": "Alteração nas proporções dos diferentes isótopos de cada elemento presente no material."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Química",
+   "assunto": "Átomos, ligações e tabela periódica"
   },
   {
    "id": "enem-2016-q68",
@@ -1956,7 +2046,9 @@
      "text": "1000."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Química",
+   "assunto": "Soluções e concentração"
   },
   {
    "id": "enem-2016-q69",
@@ -1998,7 +2090,9 @@
      "text": "Proteínas."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2016-q70",
@@ -2040,7 +2134,9 @@
      "text": "Transformação do carbono-12 em carbono-14 ao longo dos anos."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2016-q71",
@@ -2078,7 +2174,9 @@
      "text": "Mata de Cocais."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Biologia",
+   "assunto": "Botânica"
   },
   {
    "id": "enem-2016-q73",
@@ -2120,7 +2218,9 @@
      "text": "Cria condições para o estabelecimento de espécies pioneiras com a diminuição da insolação sobre o solo."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2016-q80",
@@ -2162,7 +2262,9 @@
      "text": "Criação de diques de contenção em regiões costeiras."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Evolução"
   },
   {
    "id": "enem-2016-q83",
@@ -2204,7 +2306,9 @@
      "text": "Variação do número de cromossomos característico da espécie."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2016-q84",
@@ -2238,7 +2342,9 @@
      "text": "Com a mesma rapidez nas duas bandejas, pois apresentarão a mesma variação de temperatura."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Física",
+   "assunto": "Termologia"
   },
   {
    "id": "enem-2016-q87",
@@ -2272,7 +2378,9 @@
      "text": "Desidratação."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Fisiologia humana e saúde"
   },
   {
    "id": "enem-2016-q88",
@@ -2306,7 +2414,9 @@
      "text": "As nanopartículas são aceleradas em um único sentido em razão da interação com o campo magnético, fazendo-as colidir com as células e transferir calor."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Física",
+   "assunto": "Termologia"
   },
   {
    "id": "enem-2016-q90",
@@ -2340,7 +2450,9 @@
      "text": "Síntese proteica."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Fisiologia humana e saúde"
   }
  ]
 }

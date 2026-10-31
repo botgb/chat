@@ -3,7 +3,7 @@
  "vestibular": "enem",
  "title": "ENEM 2017, dia 2",
  "year": 2017,
- "version": 1,
+ "version": 2,
  "source": "Questões: INEP, ENEM 2017. Transcrição: ENEM API (enem.dev).",
  "questions": [
   {
@@ -42,7 +42,9 @@
      "text": "Danificando estruturas específicas da célula bacteriana."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Microbiologia e doenças"
   },
   {
    "id": "enem-2017-q94",
@@ -84,7 +86,9 @@
      "text": "Captação de dióxido de carbono."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Biologia",
+   "assunto": "Botânica"
   },
   {
    "id": "enem-2017-q96",
@@ -126,7 +130,9 @@
      "text": "Fixação biológica do N2."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2017-q97",
@@ -164,7 +170,9 @@
      "text": "Excitação das moléculas de proteínas, com formação de luz amarela."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Física",
+   "assunto": "Óptica"
   },
   {
    "id": "enem-2017-q100",
@@ -206,7 +214,9 @@
      "text": "Síndrome da imunodeficiência adquirida."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Biologia",
+   "assunto": "Fisiologia humana e saúde"
   },
   {
    "id": "enem-2017-q102",
@@ -252,7 +262,9 @@
      "text": "Ligações covalentes."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Química",
+   "assunto": "Ácidos, bases e pH"
   },
   {
    "id": "enem-2017-q104",
@@ -294,7 +306,9 @@
      "text": "27 000."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Biologia",
+   "assunto": "Evolução"
   },
   {
    "id": "enem-2017-q106",
@@ -332,7 +346,9 @@
      "text": "Liberação das moléculas de óleo durante o processo de fotossíntese."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Biologia",
+   "assunto": "Botânica"
   },
   {
    "id": "enem-2017-q109",
@@ -374,7 +390,9 @@
      "text": "Número de espécies de peixes no local."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Biologia",
+   "assunto": "Ecologia"
   },
   {
    "id": "enem-2017-q111",
@@ -416,7 +434,9 @@
      "text": "Estão no topo da cadeia alimentar"
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Química",
+   "assunto": "Química ambiental"
   },
   {
    "id": "enem-2017-q115",
@@ -458,7 +478,9 @@
      "text": "Da diferente coesão molecular de cada substância."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2017-q117",
@@ -500,7 +522,9 @@
      "text": "Origem paterna do cromossomo portador do alelo mutante em uma das gêmeas e origem materna na outra."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2017-q120",
@@ -538,7 +562,9 @@
      "text": "Sentidos opostos e maior intensidade da pressão mecânica."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2017-q123",
@@ -580,7 +606,9 @@
      "text": "Comunidade que vive em seu interior."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Biologia",
+   "assunto": "Botânica"
   },
   {
    "id": "enem-2017-q124",
@@ -626,7 +654,9 @@
      "text": "-100"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Química",
+   "assunto": "Estequiometria e mol"
   },
   {
    "id": "enem-2017-q126",
@@ -668,7 +698,9 @@
      "text": "Temperatura de ebulição."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Química",
+   "assunto": "Átomos, ligações e tabela periódica"
   },
   {
    "id": "enem-2017-q128",
@@ -710,7 +742,9 @@
      "text": "Acarretar a perda da capacidade de alterar o diâmetro da pupila."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Biologia",
+   "assunto": "Citologia"
   },
   {
    "id": "enem-2017-q129",
@@ -748,7 +782,9 @@
      "text": "Da ordem de 10 vezes menor."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Física",
+   "assunto": "Eletricidade e magnetismo"
   },
   {
    "id": "enem-2017-q131",
@@ -786,7 +822,9 @@
      "text": "17,4 m."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Citologia"
   },
   {
    "id": "enem-2017-q132",
@@ -824,7 +862,9 @@
      "text": "A grande concentração de sal no meio extracelular provoca a saída de água de dentro delas."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Citologia"
   },
   {
    "id": "enem-2017-q133",
@@ -870,7 +910,9 @@
      "text": "Diâmetro do fio."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Física",
+   "assunto": "Eletricidade e magnetismo"
   },
   {
    "id": "enem-2017-q135",
@@ -908,7 +950,9 @@
      "text": "Transfusão de sangue."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Citologia"
   },
   {
    "id": "enem-2017-q141",
@@ -954,7 +998,9 @@
      "text": "0,30"
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   },
   {
    "id": "enem-2017-q142",
@@ -1000,7 +1046,9 @@
      "text": "5."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   },
   {
    "id": "enem-2017-q144",
@@ -1038,7 +1086,9 @@
      "text": "49,50."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Geometria plana"
   },
   {
    "id": "enem-2017-q146",
@@ -1076,7 +1126,9 @@
      "text": "25."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2017-q158",
@@ -1114,7 +1166,9 @@
      "text": "10000"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   },
   {
    "id": "enem-2017-q162",
@@ -1188,7 +1242,9 @@
      "text": "Ramo de hipérbole."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Geometria plana"
   },
   {
    "id": "enem-2017-q164",
@@ -1230,7 +1286,9 @@
      "text": "3/4"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2017-q173",
@@ -1272,7 +1330,9 @@
      "text": "20 x 0,75"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   },
   {
    "id": "enem-2017-q176",
@@ -1314,7 +1374,9 @@
      "text": "672."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Geometria plana"
   },
   {
    "id": "enem-2017-q179",
@@ -1348,7 +1410,9 @@
      "text": "0,800"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Probabilidade e contagem"
   },
   {
    "id": "enem-2017-q180",
@@ -1382,7 +1446,9 @@
      "text": "18 h 40 min e 19 h."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   }
  ]
 }

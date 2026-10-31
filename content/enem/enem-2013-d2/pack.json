@@ -3,7 +3,7 @@
  "vestibular": "enem",
  "title": "ENEM 2013, dia 2",
  "year": 2013,
- "version": 1,
+ "version": 2,
  "source": "Questões: INEP, ENEM 2013. Transcrição: ENEM API (enem.dev).",
  "questions": [
   {
@@ -54,7 +54,9 @@
      "text": "Causa da morte de doze detentos em um presídio superlotado ao norte de Honduras."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2013-q92-espanhol",
@@ -112,7 +114,9 @@
      "text": "Exaltar liricamente a voz materna na formação cidadã do filho."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2013-q92-ingles",
@@ -162,7 +166,9 @@
      "text": "A produção de morfina é um traço incomum entre os animais."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2013-q93-espanhol",
@@ -204,7 +210,9 @@
      "text": "Maldição dos astecas, infundindo a corrupção no governo de Montezuma."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2013-q93-ingles",
@@ -254,7 +262,9 @@
      "text": "Discutir o impacto de seu trabalho para a geração digital."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2013-q94-espanhol",
@@ -300,7 +310,9 @@
      "text": "Capaz de transformar mau humor em pranto."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2013-q94-ingles",
@@ -358,7 +370,9 @@
      "text": "“Pesquisei em sites de culinária e preparei uma festa árabe para uns amigos da escola. Eles adoraram, principalmente, os doces!”"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2013-q95-espanhol",
@@ -404,7 +418,9 @@
      "text": "A unificação da língua enriquece a competência linguística dos falantes."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2013-q97",
@@ -446,7 +462,9 @@
      "text": "Uso tecnológico, que amplia as opções de lazer."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2013-q98",
@@ -492,7 +510,9 @@
      "text": "Demonstrar ao leitor sua parcela de responsabilidade por deixar que as novas tecnologias controlem as pessoas."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2013-q99",
@@ -538,7 +558,9 @@
      "text": "Antagonismo entre grupos de trabalhadores e lacunas de hereditariedade."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2013-q100",
@@ -584,7 +606,9 @@
      "text": "Originalidade, pela concisão da linguagem."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Português",
+   "assunto": "Variação linguística"
   },
   {
    "id": "enem-2013-q101",
@@ -630,7 +654,9 @@
      "text": "Correlação entre os retalhos da manta e as muitas histórias de tradição oral que os formavam."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2013-q102",
@@ -676,7 +702,9 @@
      "text": "Modelo de leitura baseado nas informações da superfície do texto."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2013-q104",
@@ -726,7 +754,9 @@
      "text": "Valorização do efeito de estranhamento causado no público, o que faz a obra ser reconhecida."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2013-q105",
@@ -768,7 +798,9 @@
      "text": "Exemplificações que auxiliem a compreensão dos conceitos formulados."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2013-q106",
@@ -810,7 +842,9 @@
      "text": "Os sistemas de comunicação são mecanismos importantes, de adesão e compartilhamento de valores sociais."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2013-q107",
@@ -864,7 +898,9 @@
      "text": "Congratulações! O patrimônio histórico da cidade merece todo empenho para ser preservado."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Gramática e uso da língua"
   },
   {
    "id": "enem-2013-q108",
@@ -918,7 +954,9 @@
      "text": "A prática regular de atividade física é um importante fator de controle da diabetes entre a população adolescente, por provocar um constante aumento da pressão arterial sistólica."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2013-q111",
@@ -968,7 +1006,9 @@
      "text": "Acontecer em salões e festas e ser influenciada por diversos gêneros musicais."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2013-q112",
@@ -1014,7 +1054,9 @@
      "text": "Prejudica a sequência do texto, provocando estranheza no leitor ao não desenvolver explicitamente o raciocínio a partir de argumentos."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2013-q113",
@@ -1060,7 +1102,9 @@
      "text": "Defende um ponto de vista relativo ao exercício teatral."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2013-q115",
@@ -1106,7 +1150,9 @@
      "text": "Informação crítica e jornalística, que gera indignação entre os meninos."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2013-q116",
@@ -1164,7 +1210,9 @@
      "text": "A transfiguração da angústia em alegria é um artifício nocivo ao convívio social."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2013-q117",
@@ -1206,7 +1254,9 @@
      "text": "Pois há menos peixinhos a nadar no mar / Do que os beijinhos que eu darei / Na sua boca. (Chega de saudade, Tom Jobim e Vinicius de Moraes)"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2013-q118",
@@ -1256,7 +1306,9 @@
      "text": "“Pela admiração por um de seus colegas de clube daquele ano.”"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2013-q121",
@@ -1298,7 +1350,9 @@
      "text": "“Supõe-se que fizesse referência ao modo violento como o vírus se apossa do organismo infectado.”"
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Gramática e uso da língua"
   },
   {
    "id": "enem-2013-q122",
@@ -1352,7 +1406,9 @@
      "text": "O narrador compara a duração do sabor do beijo à perpetuidade do relógio."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Português",
+   "assunto": "Funções e figuras de linguagem"
   },
   {
    "id": "enem-2013-q123",
@@ -1402,7 +1458,9 @@
      "text": "Garante a empresas a obtenção de mais lucro com a recente fragilidade de nossa atenção."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2013-q124",
@@ -1444,7 +1502,9 @@
      "text": "Propõe-se a discutir questões de natureza filosófica e metafísica, incomuns na narrativa de ficção."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Literatura",
+   "assunto": "Escolas literárias"
   },
   {
    "id": "enem-2013-q125",
@@ -1502,7 +1562,9 @@
      "text": "Levanta a possibilidade de o corpo humano produzir artificialmente a vitamina D."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2013-q126",
@@ -1548,7 +1610,9 @@
      "text": "Fornecer base essencial para o progresso das tecnologias de comunicação e informação."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2013-q130",
@@ -1590,7 +1654,9 @@
      "text": "Apresentar informações pouco divulgadas a respeito dos indígenas no Brasil, para defender o caráter desses povos como civilizações, em contraposição a visões preconcebidas."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2013-q132",
@@ -1636,7 +1702,9 @@
      "text": "Apresenta duas possibilidades de sentido para a mesma palavra."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2013-q134",
@@ -1682,7 +1750,9 @@
      "text": "Proporcionar o uso de uma variedade de ferramentas da internet."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2013-q139",
@@ -1716,7 +1786,9 @@
      "text": "64,8"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   },
   {
    "id": "enem-2013-q148",
@@ -1758,7 +1830,9 @@
      "text": "600 tijolos"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   },
   {
    "id": "enem-2013-q150",
@@ -1800,7 +1874,9 @@
      "text": "5/14"
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Matemática",
+   "assunto": "Estatística"
   },
   {
    "id": "enem-2013-q155",
@@ -1838,7 +1914,9 @@
      "text": "9"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   },
   {
    "id": "enem-2013-q156",
@@ -1880,7 +1958,9 @@
      "text": "9N"
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Matemática",
+   "assunto": "Geometria plana"
   },
   {
    "id": "enem-2013-q158",
@@ -1922,7 +2002,9 @@
      "text": "R$ 5 100,00."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2013-q159",
@@ -1960,7 +2042,9 @@
      "text": "8,00"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2013-q163",
@@ -2002,7 +2086,9 @@
      "text": "4,00"
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2013-q166",
@@ -2040,7 +2126,9 @@
      "text": "100"
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2013-q167",
@@ -2082,7 +2170,9 @@
      "text": "96%"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Geometria plana"
   },
   {
    "id": "enem-2013-q170",
@@ -2124,7 +2214,9 @@
      "text": "120,34"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   },
   {
    "id": "enem-2013-q171",
@@ -2158,7 +2250,9 @@
      "text": "3X − 2Y + 10 = 0"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2013-q173",
@@ -2200,7 +2294,9 @@
      "text": "31"
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   }
  ]
 }

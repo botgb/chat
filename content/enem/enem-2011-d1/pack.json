@@ -3,7 +3,7 @@
  "vestibular": "enem",
  "title": "ENEM 2011, dia 1",
  "year": 2011,
- "version": 1,
+ "version": 2,
  "source": "Questões: INEP, ENEM 2011. Transcrição: ENEM API (enem.dev).",
  "questions": [
   {
@@ -46,7 +46,9 @@
      "text": "Difundir ideias revolucionárias que mobilizaram a população."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2011-q2",
@@ -88,7 +90,9 @@
      "text": "Cumpridas por aqueles que se dedicam inteiramente a observar as normas jurídicas."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2011-q4",
@@ -130,7 +134,9 @@
      "text": "Ampliação do polo industrial da Zona Franca de Manaus, visando atrair empresas nacionais e estrangeiras."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Meio ambiente e energia"
   },
   {
    "id": "enem-2011-q5",
@@ -172,7 +178,9 @@
      "text": "Extrativismo na região pantaneira."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2011-q7",
@@ -214,7 +222,9 @@
      "text": "Reduzir o impacto ambiental pela não emissão de gases do efeito estufa para a atmosfera."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Meio ambiente e energia"
   },
   {
    "id": "enem-2011-q8",
@@ -256,7 +266,9 @@
      "text": "O desmatamento."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Relevo, solos e hidrografia"
   },
   {
    "id": "enem-2011-q9",
@@ -298,7 +310,9 @@
      "text": "Pela construção de vias expressas e gerenciamento de tráfego terrestre."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2011-q10",
@@ -340,7 +354,9 @@
      "text": "Redução na proporção de jovens na sociedade."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "População e migração"
   },
   {
    "id": "enem-2011-q12",
@@ -382,7 +398,9 @@
      "text": "A redução das áreas de agricultura irrigada."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Relevo, solos e hidrografia"
   },
   {
    "id": "enem-2011-q13",
@@ -424,7 +442,9 @@
      "text": "Possibilita a ampliação da quantidade de rejeitos que podem ser destinados a associações e cooperativas de catadores de materiais recicláveis, financiados por instituições da sociedade civil ou pelo poder público."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2011-q15",
@@ -466,7 +486,9 @@
      "text": "A degradação da terra nas regiões semiáridas, localizadas, em sua maioria, no Nordeste do nosso país."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Clima e atmosfera"
   },
   {
    "id": "enem-2011-q16",
@@ -508,7 +530,9 @@
      "text": "O fortalecimento do diálogo entre operários, gerentes, executivos e clientes com a garantia de harmonização das relações de trabalho."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2011-q17",
@@ -550,7 +574,9 @@
      "text": "Agrária, marcada pela concentração da terra e do poder político local e regional."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Sociologia",
+   "assunto": "Cidadania e movimentos sociais"
   },
   {
    "id": "enem-2011-q18",
@@ -592,7 +618,9 @@
      "text": "Propiciam a adoção de valores éticos pelos órgãos do Estado."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Sociologia",
+   "assunto": "Cidadania e movimentos sociais"
   },
   {
    "id": "enem-2011-q19",
@@ -646,7 +674,9 @@
      "text": "A diminuição da interferência da Igreja Católica nas decisões político-administrativas."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2011-q20",
@@ -688,7 +718,9 @@
      "text": "A justiça tem esbarrado na precária existência de jurisprudência a respeito da tortura, o que a impede de atuar nesses casos."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Cartografia"
   },
   {
    "id": "enem-2011-q21",
@@ -742,7 +774,9 @@
      "text": "Promoverem a unidade cultural, por meio das transmissões esportivas."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2011-q22",
@@ -784,7 +818,9 @@
      "text": "A diversificação da produção e a preocupação com o mercado interno unificavam os interesses das oligarquias."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "História",
+   "assunto": "Brasil República"
   },
   {
    "id": "enem-2011-q23",
@@ -826,7 +862,9 @@
      "text": "Tenha gestão própria, com o objetivo de melhor apropriação da natureza."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2011-q24",
@@ -868,7 +906,9 @@
      "text": "Pela manutenção de estoques de larga escala em função da alta produtividade."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2011-q26",
@@ -910,7 +950,9 @@
      "text": "Destacar a ampla participação popular obtida no processo da Proclamação."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "História",
+   "assunto": "Brasil República"
   },
   {
    "id": "enem-2011-q27",
@@ -952,7 +994,9 @@
      "text": "Apreendem modelos de sociedade pautados na observância das leis."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Sociologia",
+   "assunto": "Desigualdade e exclusão"
   },
   {
    "id": "enem-2011-q28",
@@ -994,7 +1038,9 @@
      "text": "O isolamento socioeconômico dos moradores ocupantes desses espaços com a resultante multiplicação de políticas que tentam reverter esse quadro."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2011-q30",
@@ -1036,7 +1082,9 @@
      "text": "Monarquia Constitucional Brasileira no século XIX."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2011-q31",
@@ -1078,7 +1126,9 @@
      "text": "Da preocupação com o armazenamento de madeira para os períodos de inverno."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "História",
+   "assunto": "Povos indígenas e africanos"
   },
   {
    "id": "enem-2011-q32",
@@ -1120,7 +1170,9 @@
      "text": "Impulsiona o reconhecimento da pluralidade étnico-racial do país."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "História",
+   "assunto": "Povos indígenas e africanos"
   },
   {
    "id": "enem-2011-q33",
@@ -1162,7 +1214,9 @@
      "text": "Os nativos da América dominarem uma técnica de cultivo semelhante."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "História",
+   "assunto": "Brasil Colônia"
   },
   {
    "id": "enem-2011-q34",
@@ -1204,7 +1258,9 @@
      "text": "Rebelar-se contra as representações metropolitanas, isolando politicamente o Príncipe Regente, instalando um governo conservador para controlar o povo."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "História",
+   "assunto": "Brasil Colônia"
   },
   {
    "id": "enem-2011-q35",
@@ -1246,7 +1302,9 @@
      "text": "A contenção das epidemias e doenças."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "História",
+   "assunto": "Idade Média"
   },
   {
    "id": "enem-2011-q37",
@@ -1288,7 +1346,9 @@
      "text": "Poluição do ar pelo consumo de combustíveis fósseis pelas máquinas."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Meio ambiente e energia"
   },
   {
    "id": "enem-2011-q38",
@@ -1330,7 +1390,9 @@
      "text": "Astronomia e religião."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "História",
+   "assunto": "Idade Moderna"
   },
   {
    "id": "enem-2011-q39",
@@ -1372,7 +1434,9 @@
      "text": "Pela presença de um número cada vez maior de diplomatas, o que pode levar à formação de um Mercado Comum Sino-Africano, ameaçando os interesses ocidentais."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "História",
+   "assunto": "Povos indígenas e africanos"
   },
   {
    "id": "enem-2011-q40",
@@ -1414,7 +1478,9 @@
      "text": "Protestantismo."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "História",
+   "assunto": "Brasil Império"
   },
   {
    "id": "enem-2011-q41",
@@ -1464,7 +1530,9 @@
      "text": "Limitação da propriedade privada."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2011-q42",
@@ -1506,7 +1574,9 @@
      "text": "Diminuía a força dos operários urbanos, ao substituir os sindicatos como instituição de pressão política sobre o governo."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Sociologia",
+   "assunto": "Cultura e identidade"
   },
   {
    "id": "enem-2011-q45",
@@ -1548,7 +1618,9 @@
      "text": "A fuga decorrente de conflitos políticos e o fortalecimento de políticas sociais."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2011-q48",
@@ -1590,7 +1662,9 @@
      "text": "Problemas no transporte de oxigênio."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Química",
+   "assunto": "Soluções e concentração"
   },
   {
    "id": "enem-2011-q51",
@@ -1628,7 +1702,9 @@
      "text": "Coleta de carvão de regiões mais distantes, onde existe menor intensidade de fiscalização do Ibama."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2011-q52",
@@ -1666,7 +1742,9 @@
      "text": "Decantação."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Biologia",
+   "assunto": "Ecologia"
   },
   {
    "id": "enem-2011-q53",
@@ -1708,7 +1786,9 @@
      "text": "Presença de células de memória que atuam na resposta secundária."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Microbiologia e doenças"
   },
   {
    "id": "enem-2011-q55",
@@ -1746,7 +1826,9 @@
      "text": "Hiperpolarização."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2011-q56",
@@ -1788,7 +1870,9 @@
      "text": "Oscila com uma frequência menor do que a que pode ser percebida pelo captador."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Física",
+   "assunto": "Eletricidade e magnetismo"
   },
   {
    "id": "enem-2011-q57",
@@ -1826,7 +1910,9 @@
      "text": "Aplicação de inseticidas a fim de diminuir o número de indivíduos que se deseja combater."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Biologia",
+   "assunto": "Ecologia"
   },
   {
    "id": "enem-2011-q59",
@@ -1868,7 +1954,9 @@
      "text": "Vaporização, pois a cal facilita a volatilização da água para a atmosfera, eliminando os seres vivos do microambiente."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Física",
+   "assunto": "Óptica"
   },
   {
    "id": "enem-2011-q61",
@@ -1910,7 +1998,9 @@
      "text": "A replicação é semiconservativa, isto é, as fitas filhas consistem de uma fita molde e uma fita codificadora."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2011-q65",
@@ -1952,7 +2042,9 @@
      "text": "Inativação de genes por meio de modificações nas bases nitrogenadas."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2011-q66",
@@ -1994,7 +2086,9 @@
      "text": "Utilização de energia potencial do combustível ser incontrolável."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Física",
+   "assunto": "Energia e trabalho"
   },
   {
    "id": "enem-2011-q68",
@@ -2036,7 +2130,9 @@
      "text": "Capacidade da bactéria Mycoplasma capricolum de expressar suas proteínas na bactéria sintética e estas serem usadas na indústria."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2011-q69",
@@ -2074,7 +2170,9 @@
      "text": "Estimula a produção de anticorpos contra o agente causador da doença."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Microbiologia e doenças"
   },
   {
    "id": "enem-2011-q71",
@@ -2116,7 +2214,9 @@
      "text": "Sendo de primeira e segunda geração, são produzidos por tecnologias que devem passar por uma avaliação criteriosa quanto ao uso, pois uma enfrenta o problema da falta de espaço para plantio da matéria-prima e a outra impede a geração de novas fontes de emprego."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Química",
+   "assunto": "Química ambiental"
   },
   {
    "id": "enem-2011-q74",
@@ -2158,7 +2258,9 @@
      "text": "Reflexão da luz nas camadas de sedimento é menos intensa do que a reflexão do som neste material."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Física",
+   "assunto": "Óptica"
   },
   {
    "id": "enem-2011-q76",
@@ -2196,7 +2298,9 @@
      "text": "Especificidade pelas plantas da família Solanaceae existentes nesses locais."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Botânica"
   },
   {
    "id": "enem-2011-q79",
@@ -2238,7 +2342,9 @@
      "text": "Pela conversão, por oxidação química, do gás carbônico sob condições aeróbias."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2011-q80",
@@ -2280,7 +2386,9 @@
      "text": "Alternativa, tomando-se por referência a grande emissão de gases de efeito estufa das demais fontes geradoras."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2011-q82",
@@ -2322,7 +2430,9 @@
      "text": "Mutualismo."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Química",
+   "assunto": "Ácidos, bases e pH"
   },
   {
    "id": "enem-2011-q83",
@@ -2360,7 +2470,9 @@
      "text": "A diminuição da oxigenação do solo, uma vez que o nitrogênio ativo forma espécies químicas do tipo NO2, NO− , N2O."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2011-q85",
@@ -2398,7 +2510,9 @@
      "text": "Diminuir a temperatura de incineração do lixo para produzir maior quantidade de energia elétrica."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Química",
+   "assunto": "Química ambiental"
   },
   {
    "id": "enem-2011-q87",
@@ -2444,7 +2558,9 @@
      "text": "A espécie."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Biologia",
+   "assunto": "Microbiologia e doenças"
   },
   {
    "id": "enem-2011-q88",
@@ -2486,7 +2602,9 @@
      "text": "As algas aproveitam os resíduos do metabolismo dos animais e, durante a quimiossíntese de compostos orgânicos, liberam oxigênio para o ambiente."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Química",
+   "assunto": "Química ambiental"
   },
   {
    "id": "enem-2011-q89",
@@ -2524,7 +2642,9 @@
      "text": "Colocação de filtros de água nas casas, visto que a reprodução do mosquito acontece em águas contaminadas."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Biologia",
+   "assunto": "Microbiologia e doenças"
   }
  ]
 }

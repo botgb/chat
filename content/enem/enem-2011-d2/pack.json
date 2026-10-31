@@ -3,7 +3,7 @@
  "vestibular": "enem",
  "title": "ENEM 2011, dia 2",
  "year": 2011,
- "version": 1,
+ "version": 2,
  "source": "Questões: INEP, ENEM 2011. Transcrição: ENEM API (enem.dev).",
  "questions": [
   {
@@ -46,7 +46,9 @@
      "text": "Maior nível de estudo reduz riscos de ataques do coração."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2011-q91-espanhol",
@@ -96,7 +98,9 @@
      "text": "À falta de atrativos turísticos em Arequipa."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2011-q92-espanhol",
@@ -150,7 +154,9 @@
      "text": "Apresentar os defeitos mais comuns de softwares em aparelhos médicos."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2011-q93-espanhol",
@@ -200,7 +206,9 @@
      "text": "Estruturação da próxima reunião do Comitê do Patrimônio Mundial."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2011-q94",
@@ -258,7 +266,9 @@
      "text": "A fragilidade das diferenças raciais e sociais como justificativas para o início de uma guerra."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Artes",
+   "assunto": "Artes visuais"
   },
   {
    "id": "enem-2011-q94-espanhol",
@@ -316,7 +326,9 @@
      "text": "Ignorar a influência de países europeus, como Inglaterra e França."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2011-q95",
@@ -374,7 +386,9 @@
      "text": "Alertar a população mexicana para os perigos causados pelos consumidores de matéria-prima reciclável."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2011-q96",
@@ -416,7 +430,9 @@
      "text": "Dietas que preconizam a ingestão excessiva ou restrita de um ou mais macronutrientes (carboidratos, gorduras ou proteínas), bem como exercícios que permitem um aumento de massa muscular e/ou modelar o corpo."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2011-q98",
@@ -458,7 +474,9 @@
      "text": "Possibilita ao leitor escolher seu próprio percurso de leitura, sem seguir sequência predeterminada, constituindo-se em atividade mais coletiva e colaborativa."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2011-q99",
@@ -516,7 +534,9 @@
      "text": "Descrição de Severino, que, apesar de humilde, orgulha-se de ser descendente do coronel Zacarias."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2011-q101",
@@ -586,7 +606,9 @@
      "text": "Da insistência em promover eventos beneficentes."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2011-q102",
@@ -628,7 +650,9 @@
      "text": "Mantém o distanciamento narrativo condizente com sua posição social, de proprietário de terras."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2011-q103",
@@ -670,7 +694,9 @@
      "text": "Os livros impressos desaparecerão e, com eles, a possibilidade de se ler obras literárias dos mais diversos gêneros."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2011-q104",
@@ -716,7 +742,9 @@
      "text": "Ironizar a malandragem carioca, aculturada pela invasão de valores étnicos de sociedades mais desenvolvidas."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2011-q105",
@@ -758,7 +786,9 @@
      "text": "Lendas, que se sustentam em inverdades históricas, uma vez que são inventadas, e servem apenas para a vivência lúdica de um povo."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2011-q106",
@@ -800,7 +830,9 @@
      "text": "O termo “fatores” retoma coesivamente “níveis de colesterol e de glicose no sangue”."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Português",
+   "assunto": "Gramática e uso da língua"
   },
   {
    "id": "enem-2011-q108",
@@ -850,7 +882,9 @@
      "text": "Se disseminaram pela necessidade de luta pela sobrevivência ou como filosofia pessoal de vida."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2011-q109",
@@ -892,7 +926,9 @@
      "text": "Mostrar às pessoas que é possível aceitar, sem angústia, o envelhecimento."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2011-q111",
@@ -946,7 +982,9 @@
      "text": "Reportagem, pelo registro impessoal de situações reais."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2011-q113",
@@ -992,7 +1030,9 @@
      "text": "A profunda sensação de medo gerada pela reflexão acerca da morte."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2011-q115",
@@ -1034,7 +1074,9 @@
      "text": "Define instrumentos eficazes para elevar a condição social da população do Brasil."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2011-q116",
@@ -1080,7 +1122,9 @@
      "text": "Explora a construção da essência feminina, a partir da polissemia de “língua”, e inova o léxico."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2011-q117",
@@ -1122,7 +1166,9 @@
      "text": "Atribui aos brasileiros uma habilidade maior com instrumentos musicais."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2011-q118",
@@ -1168,7 +1214,9 @@
      "text": "Revela a superioridade da escrita poética como forma ideal de preservação da memória cultural."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2011-q119",
@@ -1214,7 +1262,9 @@
      "text": "Interação pacífica no uso da língua portuguesa e da língua tupi."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2011-q120",
@@ -1260,7 +1310,9 @@
      "text": "Objetiva verificar ou fortalecer a eficiência da mensagem veiculada."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2011-q121",
@@ -1306,7 +1358,9 @@
      "text": "Os aspectos subjetivos da mencionada pesquisa."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2011-q125",
@@ -1352,7 +1406,9 @@
      "text": "Diversidade étnica e linguística existente no território nacional."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Artes",
+   "assunto": "Artes visuais"
   },
   {
    "id": "enem-2011-q126",
@@ -1410,7 +1466,9 @@
      "text": "Impossibilidade de o homem agir de forma eficaz ou preventiva diante das ações da natureza."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2011-q128",
@@ -1452,7 +1510,9 @@
      "text": "Necessidade de se rejeitar a ideia de que os usos frequentes de uma língua devem ser aceitos."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Variação linguística"
   },
   {
    "id": "enem-2011-q130",
@@ -1502,7 +1562,9 @@
      "text": "A planta é nomeada conforme as particularidades que apresenta."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Português",
+   "assunto": "Variação linguística"
   },
   {
    "id": "enem-2011-q131",
@@ -1544,7 +1606,9 @@
      "text": "Usuários que desvendam os mistérios e sutilezas da língua portuguesa empregam formas do verbo ter quando, na verdade, deveriam usar formas do verbo haver, contrariando as regras gramaticais."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Português",
+   "assunto": "Gramática e uso da língua"
   },
   {
    "id": "enem-2011-q132",
@@ -1606,7 +1670,9 @@
      "text": "A apropriação da nova tecnologia de forma gradual, evidente quando os guaranis incorporaram a novidade tecnológica ao seu estilo de vida com a possibilidade de acesso à internet."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2011-q135",
@@ -1656,7 +1722,9 @@
      "text": "Estimula a produção de frases com clareza e objetividade, fatores que potencializam a comunicação interativa."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2011-q136",
@@ -1694,7 +1762,9 @@
      "text": "68,001 mm."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2011-q141",
@@ -1740,7 +1810,9 @@
      "text": "170 minutos."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2011-q143",
@@ -1778,7 +1850,9 @@
      "text": "30,0 e 70,0"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Grandezas, medidas e escalas"
   },
   {
    "id": "enem-2011-q145",
@@ -1824,7 +1898,9 @@
      "text": "48 bilhões de litros."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   },
   {
    "id": "enem-2011-q146",
@@ -1862,7 +1938,9 @@
      "text": "1 : 25 000 000."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Grandezas, medidas e escalas"
   },
   {
    "id": "enem-2011-q148",
@@ -1912,7 +1990,9 @@
      "text": "50 800 pés"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Grandezas, medidas e escalas"
   },
   {
    "id": "enem-2011-q153",
@@ -1962,7 +2042,9 @@
      "text": "7,5 kg de carne, 7 copos americanos e meio de arroz arroz, 120 colheres de sopa de farofa, 5 garrafas de vinho, 15 de cerveja e 10 de espumante."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2011-q156",
@@ -2004,7 +2086,9 @@
      "text": "Y = 880 605 + 4 300x"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Grandezas, medidas e escalas"
   },
   {
    "id": "enem-2011-q159",
@@ -2042,7 +2126,9 @@
      "text": "350(n + 100 000) = 150(n + 120 000)"
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2011-q160",
@@ -2080,7 +2166,9 @@
      "text": "R$ 17 100,00."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2011-q161",
@@ -2122,7 +2210,9 @@
      "text": "0,025."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Grandezas, medidas e escalas"
   },
   {
    "id": "enem-2011-q162",
@@ -2160,7 +2250,9 @@
      "text": "48 000"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2011-q164",
@@ -2198,7 +2290,9 @@
      "text": "33,6"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2011-q166",
@@ -2244,7 +2338,9 @@
      "text": "39 mil."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2011-q167",
@@ -2290,7 +2386,9 @@
      "text": "600 mL."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   },
   {
    "id": "enem-2011-q168",
@@ -2336,7 +2434,9 @@
      "text": "Caio, pois a soma que escolheu é a maior."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Probabilidade e contagem"
   },
   {
    "id": "enem-2011-q174",
@@ -2374,7 +2474,9 @@
      "text": "89"
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2011-q180",
@@ -2408,7 +2510,9 @@
      "text": "5"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Probabilidade e contagem"
   }
  ]
 }

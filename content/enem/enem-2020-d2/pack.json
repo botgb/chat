@@ -3,7 +3,7 @@
  "vestibular": "enem",
  "title": "ENEM 2020, dia 2",
  "year": 2020,
- "version": 1,
+ "version": 2,
  "source": "Questões: INEP, ENEM 2020. Transcrição: ENEM API (enem.dev).",
  "questions": [
   {
@@ -42,7 +42,9 @@
      "text": "Apresentam propriedades mecânicas semelhantes aos convencionais."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2020-q95",
@@ -76,7 +78,9 @@
      "text": "Introdução de novas espécies de animais e vegetais."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Biologia",
+   "assunto": "Ecologia"
   },
   {
    "id": "enem-2020-q96",
@@ -114,7 +118,9 @@
      "text": "4,27 x 10–1 mol L–1"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Química",
+   "assunto": "Estequiometria e mol"
   },
   {
    "id": "enem-2020-q97",
@@ -152,7 +158,9 @@
      "text": "Fósforo, devido à liberação dos fosfatos acumulados no ambiente marinho."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2020-q98",
@@ -190,7 +198,9 @@
      "text": "Resistência interna do condutor que constitui as bobinas, por meio de um aumento na espessura dos terminais."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Física",
+   "assunto": "Eletricidade e magnetismo"
   },
   {
    "id": "enem-2020-q103",
@@ -228,7 +238,9 @@
      "text": "Retração dos oceanos pelo congelamento do gás nos polos."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Física",
+   "assunto": "Ondas e som"
   },
   {
    "id": "enem-2020-q104",
@@ -266,7 +278,9 @@
      "text": "Refazer a camada de cera impermeabilizante das penas."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2020-q105",
@@ -304,7 +318,9 @@
      "text": "As correntes de convecção nas proximidades do condensador ocorrem com maior dificuldade."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Física",
+   "assunto": "Termologia"
   },
   {
    "id": "enem-2020-q108",
@@ -346,7 +362,9 @@
      "text": "Facilitar a liberação do fármaco pela ação dos sais biliares sobre o revestimento."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Química",
+   "assunto": "Ácidos, bases e pH"
   },
   {
    "id": "enem-2020-q109",
@@ -384,7 +402,9 @@
      "text": "Consumo de gás desnecessário."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2020-q110",
@@ -422,7 +442,9 @@
      "text": "Elevada energia de ativação."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2020-q111",
@@ -464,7 +486,9 @@
      "text": "Difração."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Química",
+   "assunto": "Ácidos, bases e pH"
   },
   {
    "id": "enem-2020-q114",
@@ -502,7 +526,9 @@
      "text": "159 Hz"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Física",
+   "assunto": "Ondas e som"
   },
   {
    "id": "enem-2020-q115",
@@ -544,7 +570,9 @@
      "text": "Melhoramento genético."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2020-q117",
@@ -586,7 +614,9 @@
      "text": "Terapia magnética."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Química",
+   "assunto": "Estequiometria e mol"
   },
   {
    "id": "enem-2020-q118",
@@ -624,7 +654,9 @@
      "text": "Sistema nervoso ganglionar que promove a coordenação central do movimento corporal."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2020-q120",
@@ -674,7 +706,9 @@
      "text": "120."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Química",
+   "assunto": "Estequiometria e mol"
   },
   {
    "id": "enem-2020-q124",
@@ -708,7 +742,9 @@
      "text": "Têm cadeia pequena e elevada volatilidade, conta - minando a atmosfera local e regional em função dos ventos nas orlas marítimas."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2020-q126",
@@ -742,7 +778,9 @@
      "text": "Decaimento radioativo do carbono, provocado por partículas beta."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Química",
+   "assunto": "Átomos, ligações e tabela periódica"
   },
   {
    "id": "enem-2020-q127",
@@ -784,7 +822,9 @@
      "text": "Liberação de oxigênio."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Biologia",
+   "assunto": "Botânica"
   },
   {
    "id": "enem-2020-q128",
@@ -822,7 +862,9 @@
      "text": "0,3°C"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Física",
+   "assunto": "Termologia"
   },
   {
    "id": "enem-2020-q131",
@@ -860,7 +902,9 @@
      "text": "A + 1/2 B → C (a reação ocorre com o uso de um catalisador contendo um metal não tóxico)."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Química",
+   "assunto": "Soluções e concentração"
   },
   {
    "id": "enem-2020-q132",
@@ -902,7 +946,9 @@
      "text": "O material particulado gerado se deposita na superfície das folhas das plantas impedindo os processos de respiração celular."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Química",
+   "assunto": "Química ambiental"
   },
   {
    "id": "enem-2020-q133",
@@ -944,7 +990,9 @@
      "text": "Aterramento pelo fio terra da bateria."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Física",
+   "assunto": "Óptica"
   },
   {
    "id": "enem-2020-q135",
@@ -982,7 +1030,9 @@
      "text": "Deleções durante as primeiras mitoses zigóticas na planta descendente C. arabica"
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2020-q138",
@@ -1024,7 +1074,9 @@
      "text": "1 : 100 000"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   },
   {
    "id": "enem-2020-q140",
@@ -1070,7 +1122,9 @@
      "text": "6 caixas do tipo B."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Geometria plana"
   },
   {
    "id": "enem-2020-q141",
@@ -1108,7 +1162,9 @@
      "text": "60"
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2020-q151",
@@ -1146,7 +1202,9 @@
      "text": "2 retângulos, 2 quadrados e 2 trapézios retângulos."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Geometria plana"
   },
   {
    "id": "enem-2020-q160",
@@ -1184,7 +1242,9 @@
      "text": "21."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   },
   {
    "id": "enem-2020-q165",
@@ -1222,7 +1282,9 @@
      "text": "2,08"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Estatística"
   },
   {
    "id": "enem-2020-q169",
@@ -1272,7 +1334,9 @@
      "text": "100."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Estatística"
   },
   {
    "id": "enem-2020-q178",
@@ -1318,7 +1382,9 @@
      "text": "V."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Matemática",
+   "assunto": "Probabilidade e contagem"
   }
  ]
 }

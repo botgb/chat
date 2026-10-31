@@ -3,7 +3,7 @@
  "vestibular": "enem",
  "title": "ENEM 2009, dia 1",
  "year": 2009,
- "version": 1,
+ "version": 2,
  "source": "Questões: INEP, ENEM 2009. Transcrição: ENEM API (enem.dev).",
  "questions": [
   {
@@ -46,7 +46,9 @@
      "text": "Remover moléculas orgânicas polares da atmosfera, diminuindo a capacidade delas de reter calor."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Biologia",
+   "assunto": "Ecologia"
   },
   {
    "id": "enem-2009-q3",
@@ -88,7 +90,9 @@
      "text": "Estimular a imunidade, minimizando a transmissão do vírus por gotículas de saliva."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Biologia",
+   "assunto": "Microbiologia e doenças"
   },
   {
    "id": "enem-2009-q4",
@@ -126,7 +130,9 @@
      "text": "O mesmo fenótipo e grande variedade de genótipos."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Biologia",
+   "assunto": "Botânica"
   },
   {
    "id": "enem-2009-q5",
@@ -164,7 +170,9 @@
      "text": "Kepler apresentou uma teoria científica que, graças aos métodos aplicados, pôde ser testada e generalizada."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2009-q6",
@@ -202,7 +210,9 @@
      "text": "Redução da quantidade global de carbono armazenado nos oceanos."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2009-q7",
@@ -244,7 +254,9 @@
      "text": "A criação de animais transgênicos."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2009-q8",
@@ -286,7 +298,9 @@
      "text": "O aprofundamento no leito do rio, com a menor deposição de resíduos no trecho de rio anterior à represa."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Física",
+   "assunto": "Energia e trabalho"
   },
   {
    "id": "enem-2009-q9",
@@ -328,7 +342,9 @@
      "text": "Florestas tropicais como a amazônica apresentam distribuição geográfica mais ampla, uma vez que são densas e diminuem a ação da radiação solar sobre o solo e reduzem os efeitos da aridez."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Biologia",
+   "assunto": "Botânica"
   },
   {
    "id": "enem-2009-q10",
@@ -366,7 +382,9 @@
      "text": "A produção de biomassa e de combustível fóssil, por si, é responsável pelo aumento de CO2 atmosférico."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Biologia",
+   "assunto": "Citologia"
   },
   {
    "id": "enem-2009-q11",
@@ -404,7 +422,9 @@
      "text": "Endócrino, pois fabrica anticorpos que, por sua vez, atuam na variação do diâmetro dos vasos periféricos."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Física",
+   "assunto": "Termologia"
   },
   {
    "id": "enem-2009-q13",
@@ -446,7 +466,9 @@
      "text": "Permitir a abertura e a pavimentação de rodovias, haja vista que os impactos ao meio ambiente são temporários e podem ser facilmente revertidos com as tecnologias existentes para recuperação de áreas degradadas."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Biologia",
+   "assunto": "Ecologia"
   },
   {
    "id": "enem-2009-q17",
@@ -488,7 +510,9 @@
      "text": "6.400 m."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2009-q23",
@@ -530,7 +554,9 @@
      "text": "Exigir que fabricantes invistam em pesquisa para a substituição desses metais tóxicos por substâncias menos nocivas ao homem e ao ambiente, e que não sejam bioacumulativas."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Física",
+   "assunto": "Eletricidade e magnetismo"
   },
   {
    "id": "enem-2009-q26",
@@ -568,7 +594,9 @@
      "text": "H2CO3 e H2SO3."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Química",
+   "assunto": "Ácidos, bases e pH"
   },
   {
    "id": "enem-2009-q30",
@@ -606,7 +634,9 @@
      "text": "A quantidade de gasolina consumida pelo gerador é sete vezes menor que a consumida na combustão."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Física",
+   "assunto": "Termologia"
   },
   {
    "id": "enem-2009-q31",
@@ -644,7 +674,9 @@
      "text": "Qualquer uma das duas, pois nesse caso as intensidades decaem igualmente da mesma forma, independentemente da frequência."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Citologia"
   },
   {
    "id": "enem-2009-q34",
@@ -686,7 +718,9 @@
      "text": "Apenas microrganismos que independem de oxigênio poderiam agir sobre a matéria orgânica e transformá-la em adubo."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2009-q37",
@@ -724,7 +758,9 @@
      "text": "Um objeto vermelho, pois a retina capta a luz refletida pelo objeto, transformando-a em vermelho."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Física",
+   "assunto": "Óptica"
   },
   {
    "id": "enem-2009-q38",
@@ -762,7 +798,9 @@
      "text": "R$ 7.000,00 e R$ 7.950,00."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2009-q40",
@@ -804,7 +842,9 @@
      "text": "O organismo humano apresenta imunidade contra partículas tão pequenas, já que apresentam a mesma dimensão das bactérias (um bilionésimo de metro)."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2009-q41",
@@ -842,7 +882,9 @@
      "text": "De marcadores genéticos em cromossomos autossômicos, pois estes, além de serem transmitidos pelo pai e pela mãe, estão presentes em 44 cópias por célula, e os demais, em apenas uma."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2009-q42",
@@ -884,7 +926,9 @@
      "text": "O impedimento da penetração da luz pelas partículas em suspensão venha a comprometer a produtividade primária do ambiente marinho, que resulta da atividade metabólica do fitoplâncton."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Física",
+   "assunto": "Ondas e som"
   },
   {
    "id": "enem-2009-q44",
@@ -922,7 +966,9 @@
      "text": "Entre 13% e 14%."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2009-q46",
@@ -960,7 +1006,9 @@
      "text": "Significava um peso para a população egípcia, que condenava o luxo faraônico e a religião baseada em crenças e superstições."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "História",
+   "assunto": "Antiguidade"
   },
   {
    "id": "enem-2009-q47",
@@ -1002,7 +1050,9 @@
      "text": "A pirâmide do faraó Quéops."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Sociologia",
+   "assunto": "Cultura e identidade"
   },
   {
    "id": "enem-2009-q48",
@@ -1040,7 +1090,9 @@
      "text": "No período posterior à Revolução Francesa, devido as grandes perturbações sociais, abandona-se a prática do luto."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2009-q49",
@@ -1078,7 +1130,9 @@
      "text": "A tradição heroica da cavalaria medieval, que foi afetada negativamente pelas produções cinematográficas de Hollywood."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "História",
+   "assunto": "Idade Média"
   },
   {
    "id": "enem-2009-q50",
@@ -1116,7 +1170,9 @@
      "text": "A Revolução Bolchevique, o imperialismo e a unificação da Alemanha."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Geopolítica"
   },
   {
    "id": "enem-2009-q51",
@@ -1154,7 +1210,9 @@
      "text": "Pelos métodos políticos populistas e pela organização de comícios multitudinários."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "História",
+   "assunto": "Idade Contemporânea"
   },
   {
    "id": "enem-2009-q52",
@@ -1192,7 +1250,9 @@
      "text": "Conferência de Estocolmo."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Geopolítica"
   },
   {
    "id": "enem-2009-q53",
@@ -1234,7 +1294,9 @@
      "text": "Inspiraram futuras mobilizações, como o pacifismo, o ambientalismo, a promoção da equidade de gêneros e a defesa dos direitos das minorias."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2009-q54",
@@ -1276,7 +1338,9 @@
      "text": "Wixia é a capacidade que tem a floresta de se sustentar por meio de processos vitais."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "História",
+   "assunto": "Povos indígenas e africanos"
   },
   {
    "id": "enem-2009-q55",
@@ -1310,7 +1374,9 @@
      "text": "A condição dos EUA como única superpotência, mas que se submetem às decisões da ONU no que concerne às ações militares."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Geopolítica"
   },
   {
    "id": "enem-2009-q56",
@@ -1348,7 +1414,9 @@
      "text": "Defender a obrigação de que todos os indivíduos tenham propriedades."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Sociologia",
+   "assunto": "Cidadania e movimentos sociais"
   },
   {
    "id": "enem-2009-q57",
@@ -1390,7 +1458,9 @@
      "text": "Acreditavam que o comportamento casto perturbava a harmonia doméstica."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2009-q58",
@@ -1432,7 +1502,9 @@
      "text": "Vivida pelos atenienses era, de fato, restrita àqueles que se dedicavam à política e que tinham tempo para resolver os problemas da cidade."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2009-q59",
@@ -1474,7 +1546,9 @@
      "text": "Brasil, gigante pela própria natureza."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "História",
+   "assunto": "Brasil Colônia"
   },
   {
    "id": "enem-2009-q60",
@@ -1524,7 +1598,9 @@
      "text": "A Constituição de 1891 considerava eleitores apenas indivíduos do sexo masculino."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "História",
+   "assunto": "Brasil República"
   },
   {
    "id": "enem-2009-q61",
@@ -1566,7 +1642,9 @@
      "text": "Vargas seria o homem capaz de exercer o poder de modo inteligente e correto."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Sociologia",
+   "assunto": "Estado, poder e instituições"
   },
   {
    "id": "enem-2009-q62",
@@ -1608,7 +1686,9 @@
      "text": "Aumentar os grupos de discussão política dos trabalhadores, estimulados pelas palavras do ministro."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2009-q63",
@@ -1650,7 +1730,9 @@
      "text": "Os cristãos deviam preservar a instituição do casamento recorrendo exclusivamente aos ensinamentos da Igreja."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "História",
+   "assunto": "Brasil Colônia"
   },
   {
    "id": "enem-2009-q64",
@@ -1692,7 +1774,9 @@
      "text": "O modelo histórico da formação do Estado asiático equipara-se ao brasileiro, pois em ambos se manteve o espírito das formas de organização anteriores à conquista."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Sociologia",
+   "assunto": "Estado, poder e instituições"
   },
   {
    "id": "enem-2009-q65",
@@ -1750,7 +1834,9 @@
      "text": "Da expulsão de vários líderes negros independentistas, que defendiam a implantação de uma república negra, a exemplo do Haiti."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "História",
+   "assunto": "Brasil Império"
   },
   {
    "id": "enem-2009-q66",
@@ -1792,7 +1878,9 @@
      "text": "A atuação do Brasil em termos de política externa evidencia que o país tem capacidade decisória própria, mesmo diante dos constrangimentos internacionais."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "História",
+   "assunto": "Brasil República"
   },
   {
    "id": "enem-2009-q67",
@@ -1834,7 +1922,9 @@
      "text": "Os trabalhadores não especializados se apropriaram dos lugares dos antigos artesãos nas fábricas."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "História",
+   "assunto": "Idade Moderna"
   },
   {
    "id": "enem-2009-q68",
@@ -1872,7 +1962,9 @@
      "text": "O contínuo aumento da oferta de emprego no setor primário da economia, em face da mecanização."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2009-q69",
@@ -1914,7 +2006,9 @@
      "text": "Espaço arruinado, onde os objetos perderam seu esplendor e sobre os quais a vida repousa como lembrança de um passado que está em vias de desaparecer completamente."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Agropecuária e questão agrária"
   },
   {
    "id": "enem-2009-q70",
@@ -1956,7 +2050,9 @@
      "text": "As notícias de terras acessíveis atraíram para São Paulo grande quantidade de imigrantes, que adquiriram vastas propriedades produtivas."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "História",
+   "assunto": "Brasil Império"
   },
   {
    "id": "enem-2009-q71",
@@ -1998,7 +2094,9 @@
      "text": "Terem sua origem diretamente relacionadas ao processo de colonização ocidental do século XIX."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2009-q72",
@@ -2040,7 +2138,9 @@
      "text": "A intensificação do fluxo de comunicação por meios eletrônicos, característica do processo de globalização, está dissociada do desenvolvimento social e cultural que ocorre no meio rural."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2009-q74",
@@ -2086,7 +2186,9 @@
      "text": "As cidades do Xingu dedicavam-se à arte e à filosofia tal como na Grécia."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "História",
+   "assunto": "Antiguidade"
   },
   {
    "id": "enem-2009-q75",
@@ -2128,7 +2230,9 @@
      "text": "A falta de especialização dos migrantes é positiva para os empregadores, pois significa maior versatilidade profissional."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "População e migração"
   },
   {
    "id": "enem-2009-q76",
@@ -2166,7 +2270,9 @@
      "text": "Os sistemas de cultivo mecanizado voltados para o abastecimento do mercado interno."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Agropecuária e questão agrária"
   },
   {
    "id": "enem-2009-q79",
@@ -2208,7 +2314,9 @@
      "text": "Fortalecem a administração pública ao ministrarem aulas aos seus servidores."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Sociologia",
+   "assunto": "Cidadania e movimentos sociais"
   },
   {
    "id": "enem-2009-q80",
@@ -2250,7 +2358,9 @@
      "text": "O aumento demográfico mundial, sobretudo nos países mais desenvolvidos, que apresentam altas taxas de crescimento vegetativo."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Filosofia",
+   "assunto": "Conhecimento e ciência"
   },
   {
    "id": "enem-2009-q81",
@@ -2284,7 +2394,9 @@
      "text": "Necessidade de se satisfazer as demandas atuais colocadas pelo desenvolvimento sem comprometer a capacidade de as gerações futuras atenderem suas próprias necessidades nos campos econômico, social e ambiental."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Meio ambiente e energia"
   },
   {
    "id": "enem-2009-q82",
@@ -2326,7 +2438,9 @@
      "text": "Promover a participação dos combustíveis fósseis na matriz energética mundial, dominada, majoritariamente, pelas fontes renováveis, de maior custo."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Meio ambiente e energia"
   },
   {
    "id": "enem-2009-q88",
@@ -2360,7 +2474,9 @@
      "text": "A origem da chuva está diretamente relacionada com a temperatura do ar, sendo que atividades antropogênicas são capazes de provocar interferências em escala local e global."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Clima e atmosfera"
   },
   {
    "id": "enem-2009-q89",
@@ -2402,7 +2518,9 @@
      "text": "A primeira entende que as cidades devem ser organismos vivos, que nascem de forma espontânea, e a segunda mostra que há exemplos históricos que demonstram o contrário."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2009-q90",
@@ -2444,7 +2562,9 @@
      "text": "A construção de barragens, para que o nível das águas dos rios seja mantido, sobretudo na estiagem, sem prejudicar os ecossistemas."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Relevo, solos e hidrografia"
   }
  ]
 }

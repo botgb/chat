@@ -3,7 +3,7 @@
  "vestibular": "enem",
  "title": "ENEM 2018, dia 2",
  "year": 2018,
- "version": 1,
+ "version": 2,
  "source": "Questões: INEP, ENEM 2018. Transcrição: ENEM API (enem.dev).",
  "questions": [
   {
@@ -42,7 +42,9 @@
      "text": "Estimular a utilização do glicogênio."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Citologia"
   },
   {
    "id": "enem-2018-q96",
@@ -80,7 +82,9 @@
      "text": "Estimular o trânsito intestinal dos lipídios."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Química",
+   "assunto": "Ácidos, bases e pH"
   },
   {
    "id": "enem-2018-q97",
@@ -122,7 +126,9 @@
      "text": "Magnético da onda de rádio diminui a ressonância no interior da bobina."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Física",
+   "assunto": "Eletricidade e magnetismo"
   },
   {
    "id": "enem-2018-q98",
@@ -164,7 +170,9 @@
      "text": "Favorece a formação de ilhas de proteção integral."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Biologia",
+   "assunto": "Ecologia"
   },
   {
    "id": "enem-2018-q100",
@@ -206,7 +214,9 @@
      "text": "Proliferação celular exagerada, resultando na formação de um tumor."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Citologia"
   },
   {
    "id": "enem-2018-q101",
@@ -244,7 +254,9 @@
      "text": "Respiração realizada por pulmões foliáceos."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Biologia",
+   "assunto": "Ecologia"
   },
   {
    "id": "enem-2018-q102",
@@ -286,7 +298,9 @@
      "text": "Absorvendo a energia da luz visível."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Física",
+   "assunto": "Óptica"
   },
   {
    "id": "enem-2018-q103",
@@ -332,7 +346,9 @@
      "text": "4 860 hertz."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Física",
+   "assunto": "Ondas e som"
   },
   {
    "id": "enem-2018-q105",
@@ -374,7 +390,9 @@
      "text": "Estarem localizados na família dos alcalinos terrosos e alcalinos, respectivamente."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Física",
+   "assunto": "Ondas e som"
   },
   {
    "id": "enem-2018-q107",
@@ -412,7 +430,9 @@
      "text": "Modificação do genoma decorrente da transgenia."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Biologia",
+   "assunto": "Botânica"
   },
   {
    "id": "enem-2018-q110",
@@ -450,7 +470,9 @@
      "text": "Todas as sequências de pares de bases presentes em um organismo."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2018-q111",
@@ -488,7 +510,9 @@
      "text": "Aumento do número de estames."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Botânica"
   },
   {
    "id": "enem-2018-q113",
@@ -530,7 +554,9 @@
      "text": "Associar ação bactericida ao clareamento."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2018-q119",
@@ -568,7 +594,9 @@
      "text": "Aids."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Biologia",
+   "assunto": "Microbiologia e doenças"
   },
   {
    "id": "enem-2018-q122",
@@ -606,7 +634,9 @@
      "text": "Elevar a posição do centro de massa do veículo tornando-o mais estável e diminuir a velocidade do automóvel em relação à indicada no velocímetro."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2018-q124",
@@ -648,7 +678,9 @@
      "text": "Separação dos diferentes componentes do petróleo em função de suas temperaturas de ebulição."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2018-q132",
@@ -690,7 +722,9 @@
      "text": "Identificaçáo dos grupos funcionais."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Química",
+   "assunto": "Átomos, ligações e tabela periódica"
   },
   {
    "id": "enem-2018-q133",
@@ -728,7 +762,9 @@
      "text": "Utilização do mesmo alimento em todas as fases, otimizando a nutrição do organismo."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Biologia",
+   "assunto": "Ecologia"
   },
   {
    "id": "enem-2018-q134",
@@ -766,7 +802,9 @@
      "text": "Pressão no interior da boca assume praticamente o mesmo valor daquela que atua sobre o suco."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2018-q135",
@@ -808,7 +846,9 @@
      "text": "A necessidade das plantas de absorverem sais de nitrogênio disponíveis no solo."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Física",
+   "assunto": "Ondas e som"
   },
   {
    "id": "enem-2018-q141",
@@ -846,7 +886,9 @@
      "text": "R$584 000,00."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Grandezas, medidas e escalas"
   },
   {
    "id": "enem-2018-q143",
@@ -884,7 +926,9 @@
      "text": "25,00 e 5,00"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2018-q150",
@@ -922,7 +966,9 @@
      "text": "5."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Probabilidade e contagem"
   },
   {
    "id": "enem-2018-q156",
@@ -960,7 +1006,9 @@
      "text": "8/21"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Estatística"
   },
   {
    "id": "enem-2018-q158",
@@ -998,7 +1046,9 @@
      "text": "21"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Geometria plana"
   },
   {
    "id": "enem-2018-q161",
@@ -1036,7 +1086,9 @@
      "text": "68."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Grandezas, medidas e escalas"
   },
   {
    "id": "enem-2018-q162",
@@ -1074,7 +1126,9 @@
      "text": "64 + 32 + 16 + 8+ 4 + 2+ 1"
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Probabilidade e contagem"
   },
   {
    "id": "enem-2018-q163",
@@ -1116,7 +1170,9 @@
      "text": "4 anos e 2 meses a 12 anos e 6 meses."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2018-q164",
@@ -1154,7 +1210,9 @@
      "text": "32º"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2018-q166",
@@ -1192,7 +1250,9 @@
      "text": "84,0."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2018-q167",
@@ -1234,7 +1294,9 @@
      "text": "45."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2018-q169",
@@ -1272,7 +1334,9 @@
      "text": "2 250 < X < 3 000."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Grandezas, medidas e escalas"
   },
   {
    "id": "enem-2018-q174",
@@ -1314,7 +1378,9 @@
      "text": "2146"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2018-q175",
@@ -1352,7 +1418,9 @@
      "text": "58"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Matemática financeira"
   },
   {
    "id": "enem-2018-q178",
@@ -1390,7 +1458,9 @@
      "text": "79"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   }
  ]
 }

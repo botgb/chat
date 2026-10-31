@@ -3,7 +3,7 @@
  "vestibular": "enem",
  "title": "ENEM 2019, dia 2",
  "year": 2019,
- "version": 1,
+ "version": 2,
  "source": "Questões: INEP, ENEM 2019. Transcrição: ENEM API (enem.dev).",
  "questions": [
   {
@@ -42,7 +42,9 @@
      "text": "Utilizar fios encapados com isolante na rede de alta tensão."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Física",
+   "assunto": "Eletricidade e magnetismo"
   },
   {
    "id": "enem-2019-q93",
@@ -84,7 +86,9 @@
      "text": "Eliminar o esquistossomo dentro do organismo antes da manifestação de sintomas."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Microbiologia e doenças"
   },
   {
    "id": "enem-2019-q94",
@@ -126,7 +130,9 @@
      "text": "Aquecer a casa e reduzir a perda de calor pelos corpos."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Física",
+   "assunto": "Termologia"
   },
   {
    "id": "enem-2019-q97",
@@ -168,7 +174,9 @@
      "text": "Comensalismo."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Biologia",
+   "assunto": "Botânica"
   },
   {
    "id": "enem-2019-q99",
@@ -210,7 +218,9 @@
      "text": "Apresenta efeitos inibidores de crescimento para a maioria das espécies vegetais pela cafeína."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Biologia",
+   "assunto": "Botânica"
   },
   {
    "id": "enem-2019-q101",
@@ -252,7 +262,9 @@
      "text": "Vitamina C, para aumento da integridade dos vasos sanguíneos."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Biologia",
+   "assunto": "Fisiologia humana e saúde"
   },
   {
    "id": "enem-2019-q102",
@@ -294,7 +306,9 @@
      "text": "2,00."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Física",
+   "assunto": "Termologia"
   },
   {
    "id": "enem-2019-q104",
@@ -336,7 +350,9 @@
      "text": "Reúso dos lodos provenientes das estações de tratamento de esgoto na agricultura."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Química",
+   "assunto": "Química ambiental"
   },
   {
    "id": "enem-2019-q105",
@@ -374,7 +390,9 @@
      "text": "Promoção dos elétrons que se encontram no estado fundamental de energia para níveis mais energéticos."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Física",
+   "assunto": "Óptica"
   },
   {
    "id": "enem-2019-q107",
@@ -412,7 +430,9 @@
      "text": "Quimiotropismo negativo."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Física",
+   "assunto": "Termologia"
   },
   {
    "id": "enem-2019-q108",
@@ -450,7 +470,9 @@
      "text": "14"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Química",
+   "assunto": "Átomos, ligações e tabela periódica"
   },
   {
    "id": "enem-2019-q110",
@@ -492,7 +514,9 @@
      "text": "O cromossomo que contém dois determinados genes pode não sofrer a disjunção na primeira fase da meiose."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2019-q111",
@@ -530,7 +554,9 @@
      "text": "50"
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2019-q114",
@@ -568,7 +594,9 @@
      "text": "Desenvolvimento de antirretrovirais que dificultam a reprodução desses vírus."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Microbiologia e doenças"
   },
   {
    "id": "enem-2019-q115",
@@ -610,7 +638,9 @@
      "text": "Fabricação de cimento."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Química",
+   "assunto": "Eletroquímica"
   },
   {
    "id": "enem-2019-q119",
@@ -648,7 +678,9 @@
      "text": "PA > pB e mA > mB"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2019-q123",
@@ -690,7 +722,9 @@
      "text": "Ósseo."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2019-q127",
@@ -732,7 +766,9 @@
      "text": "Redução da produção de ATP, resultando em maior gasto celular de nutrientes."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Citologia"
   },
   {
    "id": "enem-2019-q130",
@@ -770,7 +806,9 @@
      "text": "Difusão, porque o transporte ocorreu a favor do gradiente de concentração."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Química",
+   "assunto": "Ácidos, bases e pH"
   },
   {
    "id": "enem-2019-q132",
@@ -812,7 +850,9 @@
      "text": "Das reflexões dos feixes luminosos no interior do olho."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Química",
+   "assunto": "Eletroquímica"
   },
   {
    "id": "enem-2019-q133",
@@ -854,7 +894,9 @@
      "text": "Fabricação de aldosterona."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Biologia",
+   "assunto": "Citologia"
   },
   {
    "id": "enem-2019-q135",
@@ -896,7 +938,9 @@
      "text": "A ideia defendida pelos gregos de que a luz era produzida pelos olhos."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Física",
+   "assunto": "Óptica"
   },
   {
    "id": "enem-2019-q137",
@@ -938,7 +982,9 @@
      "text": "Valores maiores que 10^{-8}10​−8​​ e menores que 10^{-7}10​−7​​."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2019-q138",
@@ -980,7 +1026,9 @@
      "text": "80%"
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2019-q140",
@@ -1026,7 +1074,9 @@
      "text": "1,1x10​−5​​"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2019-q141",
@@ -1068,7 +1118,9 @@
      "text": "24."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2019-q142",
@@ -1114,7 +1166,9 @@
      "text": "Não será suficiente, pois a área da nova região a ser pavimentada mede 120 m²."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Geometria plana"
   },
   {
    "id": "enem-2019-q146",
@@ -1192,7 +1246,9 @@
      "text": "1, 12 e 13."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2019-q148",
@@ -1234,7 +1290,9 @@
      "text": "134."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   },
   {
    "id": "enem-2019-q150",
@@ -1272,7 +1330,9 @@
      "text": "406,02"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Matemática financeira"
   },
   {
    "id": "enem-2019-q151",
@@ -1314,7 +1374,9 @@
      "text": "12,96 e 13,89."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Matemática",
+   "assunto": "Matemática financeira"
   },
   {
    "id": "enem-2019-q152",
@@ -1368,7 +1430,9 @@
      "text": "R$ 15.500,00"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2019-q153",
@@ -1410,7 +1474,9 @@
      "text": "R$ 1.474,00."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2019-q155",
@@ -1472,7 +1538,9 @@
      "text": "Caixa de direção."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2019-q156",
@@ -1514,7 +1582,9 @@
      "text": "105"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Probabilidade e contagem"
   },
   {
    "id": "enem-2019-q158",
@@ -1560,7 +1630,9 @@
      "text": "3"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   },
   {
    "id": "enem-2019-q159",
@@ -1602,7 +1674,9 @@
      "text": "1"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Probabilidade e contagem"
   },
   {
    "id": "enem-2019-q160",
@@ -1640,7 +1714,9 @@
      "text": "1,82."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Estatística"
   },
   {
    "id": "enem-2019-q168",
@@ -1678,7 +1754,9 @@
      "text": "Y = 160X + 1000."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2019-q170",
@@ -1724,7 +1802,9 @@
      "text": "500"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   },
   {
    "id": "enem-2019-q173",
@@ -1766,7 +1846,9 @@
      "text": "0,5000"
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2019-q176",
@@ -1820,7 +1902,9 @@
      "text": "100,0%."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   }
  ]
 }

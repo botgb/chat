@@ -3,7 +3,7 @@
  "vestibular": "enem",
  "title": "ENEM 2010, dia 2",
  "year": 2010,
- "version": 1,
+ "version": 2,
  "source": "Questões: INEP, ENEM 2010. Transcrição: ENEM API (enem.dev).",
  "questions": [
   {
@@ -50,7 +50,9 @@
      "text": "Vacinar o animal e depois solicitar o passaporte dele."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2010-q92-espanhol",
@@ -104,7 +106,9 @@
      "text": "O bilinguismo na maneira de ensinar o guarani tem causado estragos contra a língua, a cultura e a lealdade dos paraguaios ao guarani."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2010-q92-ingles",
@@ -158,7 +162,9 @@
      "text": "Tinha a chave para todos os castelos nos quais desejava morar."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2010-q93-espanhol",
@@ -212,7 +218,9 @@
      "text": "Continuísmo do ensino do castelhano nos centros urbanos."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2010-q93-ingles",
@@ -258,7 +266,9 @@
      "text": "O conflito entre diferentes ideias e opiniões ao se comunicar em inglês."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2010-q94-espanhol",
@@ -304,7 +314,9 @@
      "text": "Tabagismo como fator de emagrecimento."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2010-q97",
@@ -346,7 +358,9 @@
      "text": "Referencial, porque o texto trata de noções e informações conceituais."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2010-q98",
@@ -392,7 +406,9 @@
      "text": "Aconselhar sobre amor, família, saúde, trabalho."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2010-q99",
@@ -438,7 +454,9 @@
      "text": "Oral, por meio do uso de expressões típicas da oralidade."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Variação linguística"
   },
   {
    "id": "enem-2010-q102",
@@ -488,7 +506,9 @@
      "text": "“Fiquei radiante: eu havia realizado uma consulta paranormal com o pai da psicanálise”."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2010-q103",
@@ -538,7 +558,9 @@
      "text": "Encaminhar as pessoas para a mudança de hábitos alimentícios."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2010-q104",
@@ -580,7 +602,9 @@
      "text": "Mostra oposição e acrescenta ideias."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2010-q106",
@@ -622,7 +646,9 @@
      "text": "O Carnaval, em que o samba derivado do batuque africano é utilizado com o objetivo de contar ou recriar uma história nos desfiles."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2010-q107",
@@ -672,7 +698,9 @@
      "text": "Termo técnico, dado que designa elemento de área a de atividade."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2010-q109",
@@ -718,7 +746,9 @@
      "text": "Limita a quantidade de participantes conectados nas salas de bate-papo, a fim de garantir a qualidade e eficiência dos diálogos, evitando mal-entendidos."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2010-q112",
@@ -764,7 +794,9 @@
      "text": "Introduz um fato com a finalidade de incentivar movimentos sociais em defesa do meio ambiente."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2010-q113",
@@ -806,7 +838,9 @@
      "text": "Assume funções discursivas distintas nos dois contextos de uso."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Gramática e uso da língua"
   },
   {
    "id": "enem-2010-q114",
@@ -864,7 +898,9 @@
      "text": "Questiona a existência de comportamentos culturais brasileiros marcados pela herança da Inquisição"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2010-q115",
@@ -910,7 +946,9 @@
      "text": "O egípcio e o grego apresentavam letras e palavras similares, o que possibilitou a comparação linguística, o mesmo que aconteceu com as línguas indígenas brasileiras e o português do Brasil."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2010-q117",
@@ -968,7 +1006,9 @@
      "text": "O gosto pela escuridão como solução para o sofrimento."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2010-q118",
@@ -1018,7 +1058,9 @@
      "text": "A crítica à indiferença da sociedade pelos marginalizados é direta."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2010-q119",
@@ -1076,7 +1118,9 @@
      "text": "Revela o desconhecimento do usuário, impedindo-o de formar um juízo de valor sobre as informações."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2010-q121",
@@ -1118,7 +1162,9 @@
      "text": "“Se é para ter uma lusofonia, o conceito [unificação da língua] deve ser mais abrangente e temos de estar em paridade. Unidade não significa que temos que andar todos ao mesmo passo. Não é necessário que nos tornemos homogéneos. Até porque o que enriquece a língua portuguesa são as diversas literaturas e formas de utilização.” RODRIGUES, M. H. Presidente do Instituto Português do Oriente, sediado em Macau. Disponível em: http://taichungpou.blogspot.com. Acesso em: 10 nov. 2008 (adaptado)."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2010-q123",
@@ -1160,7 +1206,9 @@
      "text": "Da expressão e intensidade entre o consciente e a liberdade, declarando o amor pela forma de conduzir o enredo histórico dos personagens retratados."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Artes",
+   "assunto": "Artes visuais"
   },
   {
    "id": "enem-2010-q124",
@@ -1206,7 +1254,9 @@
      "text": "Exercitar a ironia ao empregar “avenida congestionada”; “tráfego celeste tão intenso”; “montanha de lixo”."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2010-q125",
@@ -1264,7 +1314,9 @@
      "text": "Uma exposição numérica realizada com o fim de mostrar que o negócio do narcotráfico é vantajoso e sem riscos."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2010-q126",
@@ -1322,7 +1374,9 @@
      "text": "Números que comparam os valores pagos entre os programas de governo e o crime organizado."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2010-q127",
@@ -1364,7 +1418,9 @@
      "text": "Informal, pressupondo o grau de escolaridade de seu interlocutor."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2010-q128",
@@ -1410,7 +1466,9 @@
      "text": "Na resistência de Rubião aos criados estrangeiros, que reproduz o sentimento de xenofobia."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2010-q129",
@@ -1456,7 +1514,9 @@
      "text": "Rejeição aos criados por parte da senhora, que preferia tratá-los com castigos."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2010-q130",
@@ -1502,7 +1562,9 @@
      "text": "Por causa de indica consequência, porque as tentativas de ataque do Flamengo motivaram o Botafogo a fazer um bloqueio."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2010-q131",
@@ -1536,7 +1598,9 @@
      "text": "Buscaram a liberdade na composição de suas figuras, respeitando limites de temas abordados."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Literatura",
+   "assunto": "Escolas literárias"
   },
   {
    "id": "enem-2010-q133",
@@ -1582,7 +1646,9 @@
      "text": "Revelar o receio das pessoas em experimentar novos meios de comunicação, com medo de sentirem retrógradas."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Artes",
+   "assunto": "Artes visuais"
   },
   {
    "id": "enem-2010-q134",
@@ -1640,7 +1706,9 @@
      "text": "Promove o anonimato e a segregação social."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2010-q135",
@@ -1690,7 +1758,9 @@
      "text": "Romances românticos, pois os eventos ocorrem em diversos cenários."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2010-q137",
@@ -1736,7 +1806,9 @@
      "text": "1 : 2 000"
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2010-q139",
@@ -1774,7 +1846,9 @@
      "text": "25 cm."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   },
   {
    "id": "enem-2010-q150",
@@ -1812,7 +1886,9 @@
      "text": "Igual ao valor da primeira encomenda, porque o custo de entrega será o mesmo."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Geometria plana"
   },
   {
    "id": "enem-2010-q154",
@@ -1850,7 +1926,9 @@
      "text": "Excelente."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2010-q155",
@@ -1888,7 +1966,9 @@
      "text": "1538"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2010-q157",
@@ -1926,7 +2006,9 @@
      "text": "R$ 49,60."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   },
   {
    "id": "enem-2010-q169",
@@ -1968,7 +2050,9 @@
      "text": "8,0 m e 9,0 m."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Estatística"
   },
   {
    "id": "enem-2010-q171",
@@ -2006,7 +2090,9 @@
      "text": "64%"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2010-q172",
@@ -2048,7 +2134,9 @@
      "text": "77,5%."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2010-q176",
@@ -2090,7 +2178,9 @@
      "text": "28 014"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   },
   {
    "id": "enem-2010-q177",
@@ -2136,7 +2226,9 @@
      "text": "10^9"
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   }
  ]
 }

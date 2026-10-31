@@ -3,7 +3,7 @@
  "vestibular": "enem",
  "title": "ENEM 2015, dia 1",
  "year": 2015,
- "version": 1,
+ "version": 2,
  "source": "Questões: INEP, ENEM 2015. Transcrição: ENEM API (enem.dev).",
  "questions": [
   {
@@ -46,7 +46,9 @@
      "text": "Ampliação do período disponível para a jornada de trabalho."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Sociologia",
+   "assunto": "Trabalho e sociedade"
   },
   {
    "id": "enem-2015-q3",
@@ -88,7 +90,9 @@
      "text": "Aumento da renda familiar."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Relevo, solos e hidrografia"
   },
   {
    "id": "enem-2015-q5",
@@ -130,7 +134,9 @@
      "text": "Questionar a ordem divina / Reforma Católica."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Sociologia",
+   "assunto": "Estado, poder e instituições"
   },
   {
    "id": "enem-2015-q6",
@@ -172,7 +178,9 @@
      "text": "Dificuldade experimentada pelos portugueses no aprendizado da língua nativa."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "História",
+   "assunto": "Brasil Colônia"
   },
   {
    "id": "enem-2015-q7",
@@ -214,7 +222,9 @@
      "text": "Extinção gradual das classes sociais."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "História",
+   "assunto": "Idade Contemporânea"
   },
   {
    "id": "enem-2015-q8",
@@ -256,7 +266,9 @@
      "text": "Austeridade fiscal dos países em desenvolvimento."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2015-q9",
@@ -322,7 +334,9 @@
      "text": "Conclamar as populações negras de diferentes países a apoiar as lutas por igualdade e independência."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "História",
+   "assunto": "Povos indígenas e africanos"
   },
   {
    "id": "enem-2015-q10",
@@ -364,7 +378,9 @@
      "text": "Destacava a presença do indígena no desbravamento do território colonial."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "História",
+   "assunto": "Brasil Colônia"
   },
   {
    "id": "enem-2015-q12",
@@ -406,7 +422,9 @@
      "text": "Realocação da atividade industrial."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2015-q13",
@@ -448,7 +466,9 @@
      "text": "Sentimentos experimentados diante de determinadas atitudes humanas."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Filosofia",
+   "assunto": "Filosofia antiga"
   },
   {
    "id": "enem-2015-q14",
@@ -490,7 +510,9 @@
      "text": "Estabilidade das estruturas políticas."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2015-q15",
@@ -532,7 +554,9 @@
      "text": "Implantação de modernos projetos agroindustriais."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Cartografia"
   },
   {
    "id": "enem-2015-q16",
@@ -574,7 +598,9 @@
      "text": "As ideias têm como fonte específica o sentimento cujos dados são colhidos na empiria."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Filosofia",
+   "assunto": "Filosofia moderna"
   },
   {
    "id": "enem-2015-q17",
@@ -616,7 +642,9 @@
      "text": "Dissociar a relação política entre os poderes temporal e espiritual."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Sociologia",
+   "assunto": "Cultura e identidade"
   },
   {
    "id": "enem-2015-q18",
@@ -658,7 +686,9 @@
      "text": "Expandiu a participação com o fim do critério censitário."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2015-q20",
@@ -700,7 +730,9 @@
      "text": "Defesa da unidade do território nacional, ameaçado por movimentos separatistas contrários à política varguista."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Sociologia",
+   "assunto": "Cultura e identidade"
   },
   {
    "id": "enem-2015-q21",
@@ -742,7 +774,9 @@
      "text": "Segurança dos dados."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2015-q22",
@@ -804,7 +838,9 @@
      "text": "Bravura e loucura."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "História",
+   "assunto": "Brasil República"
   },
   {
    "id": "enem-2015-q23",
@@ -862,7 +898,9 @@
      "text": "Significado político da Abolição."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "História",
+   "assunto": "Brasil Império"
   },
   {
    "id": "enem-2015-q24",
@@ -904,7 +942,9 @@
      "text": "Colonialismo / imposição da missão civilizatória."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "História",
+   "assunto": "Idade Contemporânea"
   },
   {
    "id": "enem-2015-q25",
@@ -946,7 +986,9 @@
      "text": "Fragmentar as lutas políticas dos diversos atores sociais frente ao Estado."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Sociologia",
+   "assunto": "Cidadania e movimentos sociais"
   },
   {
    "id": "enem-2015-q26",
@@ -988,7 +1030,9 @@
      "text": "Exerciam a solidariedade."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Filosofia",
+   "assunto": "Filosofia moderna"
   },
   {
    "id": "enem-2015-q28",
@@ -1030,7 +1074,9 @@
      "text": "Congregar a comunidade para eleger representantes com direito a pronunciar-se em assembleias."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2015-q29",
@@ -1072,7 +1118,9 @@
      "text": "Automatização dos processos fabris e aumento dos níveis de desemprego."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2015-q30",
@@ -1114,7 +1162,9 @@
      "text": "Média pluviométrica elevada."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Relevo, solos e hidrografia"
   },
   {
    "id": "enem-2015-q32",
@@ -1156,7 +1206,9 @@
      "text": "Constituem um sistema represador da água na chapada."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Clima e atmosfera"
   },
   {
    "id": "enem-2015-q33",
@@ -1198,7 +1250,9 @@
      "text": "Estabilização da fertilidade do solo."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2015-q34",
@@ -1240,7 +1294,9 @@
      "text": "A tentativa de justificar, a partir de elementos empíricos, o que existe no real."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Filosofia",
+   "assunto": "Filosofia contemporânea"
   },
   {
    "id": "enem-2015-q35",
@@ -1282,7 +1338,9 @@
      "text": "Conquista da autodeterminação."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Filosofia",
+   "assunto": "Conhecimento e ciência"
   },
   {
    "id": "enem-2015-q37",
@@ -1324,7 +1382,9 @@
      "text": "Acúmulo de trabalho dos professores e eruditos."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2015-q38",
@@ -1366,7 +1426,9 @@
      "text": "Gestão centralizada e protecionismo econômico."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2015-q39",
@@ -1408,7 +1470,9 @@
      "text": "Os mecanismos de convergência tecnológica."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2015-q40",
@@ -1450,7 +1514,9 @@
      "text": "Fim do monoteísmo como condição para a consolidação da ciência."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Sociologia",
+   "assunto": "Estado, poder e instituições"
   },
   {
    "id": "enem-2015-q41",
@@ -1492,7 +1558,9 @@
      "text": "Romper o equilíbrio entre benefícios e riscos do avanço tecnológico e científico."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2015-q42",
@@ -1534,7 +1602,9 @@
      "text": "Estabelecimento de políticas governamentais para promover ações afirmativas."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Filosofia",
+   "assunto": "Filosofia contemporânea"
   },
   {
    "id": "enem-2015-q43",
@@ -1576,7 +1646,9 @@
      "text": "Domínio das línguas universaliza o conhecimento."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Filosofia",
+   "assunto": "Conhecimento e ciência"
   },
   {
    "id": "enem-2015-q44",
@@ -1618,7 +1690,9 @@
      "text": "Religião oficial."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Sociologia",
+   "assunto": "Estado, poder e instituições"
   },
   {
    "id": "enem-2015-q45",
@@ -1660,7 +1734,9 @@
      "text": "Definição de áreas prioritárias para a exploração econômica"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Meio ambiente e energia"
   },
   {
    "id": "enem-2015-q47",
@@ -1694,7 +1770,9 @@
      "text": "Aumento da quantidade de gases dissolvidos."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2015-q51",
@@ -1736,7 +1814,9 @@
      "text": "Dissolução fracionada e magnetização."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Física",
+   "assunto": "Eletricidade e magnetismo"
   },
   {
    "id": "enem-2015-q52",
@@ -1770,7 +1850,9 @@
      "text": "Reação do hidróxido de sódio com o gás nitrogênio presente no ar."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Física",
+   "assunto": "Termologia"
   },
   {
    "id": "enem-2015-q54",
@@ -1812,7 +1894,9 @@
      "text": "As nossas células corporais provêm de um único zigoto."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2015-q55",
@@ -1846,7 +1930,9 @@
      "text": "82"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Química",
+   "assunto": "Soluções e concentração"
   },
   {
    "id": "enem-2015-q56",
@@ -1884,7 +1970,9 @@
      "text": "Manutenção do fluxo gênico entre as raças."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Evolução"
   },
   {
    "id": "enem-2015-q57",
@@ -1926,7 +2014,9 @@
      "text": "Liberação de calor do nitrogênio para a vizinhança durante a liquefação"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Física",
+   "assunto": "Termologia"
   },
   {
    "id": "enem-2015-q58",
@@ -1968,7 +2058,9 @@
      "text": "Desprender camadas de verniz, que se dissolverão no meio aquoso, contaminando o alimento."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Química",
+   "assunto": "Eletroquímica"
   },
   {
    "id": "enem-2015-q61",
@@ -2010,7 +2102,9 @@
      "text": "Protocooperação com microrganismos fixadores de nitrogênio."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2015-q62",
@@ -2052,7 +2146,9 @@
      "text": "Aumento do pH da solução no interior do frasco."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Química",
+   "assunto": "Soluções e concentração"
   },
   {
    "id": "enem-2015-q63",
@@ -2090,7 +2186,9 @@
      "text": "Temperatura no interior da geladeira é inferior ao valor existente antes de ela ser aberta."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2015-q64",
@@ -2132,7 +2230,9 @@
      "text": "3,2 x 104 J."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2015-q66",
@@ -2170,7 +2270,9 @@
      "text": "Numérica, do tipo aneuploidia."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2015-q67",
@@ -2208,7 +2310,9 @@
      "text": "Reduziu a reabsorção de glicose e aminoácidos."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Química",
+   "assunto": "Soluções e concentração"
   },
   {
    "id": "enem-2015-q70",
@@ -2246,7 +2350,9 @@
      "text": "4."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Química",
+   "assunto": "Estequiometria e mol"
   },
   {
    "id": "enem-2015-q72",
@@ -2288,7 +2394,9 @@
      "text": "Baixa capacidade de indução da resposta imunológica pelo vírus da dengue em relação ao da febre amarela."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Biologia",
+   "assunto": "Microbiologia e doenças"
   },
   {
    "id": "enem-2015-q73",
@@ -2330,7 +2438,9 @@
      "text": "Fusão do 235U com 238U ocorre formação de outros elementos radioativos mais pesados, que desencadeiam novos processos de fusão."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2015-q74",
@@ -2372,7 +2482,9 @@
      "text": "Um cromossomo da espécie humana."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Biologia",
+   "assunto": "Microbiologia e doenças"
   },
   {
    "id": "enem-2015-q75",
@@ -2414,7 +2526,9 @@
      "text": "Difusão."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Física",
+   "assunto": "Óptica"
   },
   {
    "id": "enem-2015-q76",
@@ -2452,7 +2566,9 @@
      "text": "54"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Química",
+   "assunto": "Estequiometria e mol"
   },
   {
    "id": "enem-2015-q78",
@@ -2494,7 +2610,9 @@
      "text": "Cobrir a flictena com gazes molhadas para evitar a desidratação."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Física",
+   "assunto": "Termologia"
   },
   {
    "id": "enem-2015-q79",
@@ -2532,7 +2650,9 @@
      "text": "Alto coeficiente de dilatação térmica."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Física",
+   "assunto": "Termologia"
   },
   {
    "id": "enem-2015-q80",
@@ -2570,7 +2690,9 @@
      "text": "Presença de hidroxilas nas cadeias."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Química",
+   "assunto": "Estequiometria e mol"
   },
   {
    "id": "enem-2015-q83",
@@ -2608,7 +2730,9 @@
      "text": "Locomoção por membros anteriores e posteriores desenvolvidos."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Física",
+   "assunto": "Termologia"
   },
   {
    "id": "enem-2015-q86",
@@ -2646,7 +2770,9 @@
      "text": "Altura do som, que possui diferentes frequências para diferentes instrumentos musicais."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Física",
+   "assunto": "Ondas e som"
   },
   {
    "id": "enem-2015-q87",
@@ -2684,7 +2810,9 @@
      "text": "Terem um número distinto de cromossomos."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Biologia",
+   "assunto": "Citologia"
   },
   {
    "id": "enem-2015-q89",
@@ -2726,7 +2854,9 @@
      "text": "Esquistossomose."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Química",
+   "assunto": "Estequiometria e mol"
   }
  ]
 }

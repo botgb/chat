@@ -3,7 +3,7 @@
  "vestibular": "demo",
  "title": "Exemplo (não é prova real)",
  "year": 2026,
- "version": 1,
+ "version": 2,
  "questions": [
   {
    "id": "demo-q1",
@@ -37,7 +37,9 @@
      "text": "16"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Funções e gráficos"
   },
   {
    "id": "demo-q2",
@@ -77,7 +79,9 @@
      "text": "Logarítmica"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Funções e gráficos"
   },
   {
    "id": "demo-q3",
@@ -247,7 +251,9 @@
      "text": "R$ 48,00"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   }
  ]
 }

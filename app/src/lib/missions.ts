@@ -15,15 +15,19 @@ export type Mission = {
 
 type Template = Omit<Mission, 'id' | 'title'> & { title: (n: number) => string };
 
+// Cada tipo tem várias versões (fácil, média, difícil): o sorteio do dia escolhe 3 tipos
+// diferentes e uma versão de cada, então as missões mudam todo dia.
+const T = (kind: MissionKind, icon: ArtName, title: (n: number) => string, levels: [number, number][]): Template[] =>
+  levels.map(([target, reward]) => ({ kind, target, reward, icon, title }));
+
 const TEMPLATES: Template[] = [
-  { kind: 'answered', target: 10, reward: 10, icon: 'prova', title: (n) => `Responda ${n} questões` },
-  { kind: 'answered', target: 20, reward: 20, icon: 'prova', title: (n) => `Responda ${n} questões` },
-  { kind: 'correct', target: 8, reward: 15, icon: 'missoes', title: (n) => `Acerte ${n} questões` },
-  { kind: 'inTime', target: 5, reward: 15, icon: 'cronometro', title: (n) => `Acerte ${n} dentro do tempo da prova` },
-  { kind: 'levels', target: 2, reward: 15, icon: 'trilha', title: (n) => `Conclua ${n} fases da trilha` },
-  { kind: 'stars', target: 3, reward: 15, icon: 'estrela', title: (n) => `Ganhe ${n} estrelas novas` },
-  { kind: 'reviews', target: 3, reward: 10, icon: 'revisar', title: (n) => `Revise ${n} questões que você errou` },
-  { kind: 'xp', target: 100, reward: 15, icon: 'raio', title: (n) => `Ganhe ${n} XP` },
+  ...T('answered', 'prova', (n) => `Responda ${n} questões`, [[5, 5], [10, 10], [15, 15], [20, 20], [30, 30]]),
+  ...T('correct', 'missoes', (n) => `Acerte ${n} questões`, [[5, 10], [8, 15], [12, 20], [15, 25]]),
+  ...T('inTime', 'cronometro', (n) => `Acerte ${n} dentro do tempo da prova`, [[3, 10], [5, 15], [8, 20]]),
+  ...T('levels', 'trilha', (n) => (n === 1 ? 'Conclua 1 fase da trilha' : `Conclua ${n} fases da trilha`), [[1, 10], [2, 15], [3, 20]]),
+  ...T('stars', 'estrela', (n) => `Ganhe ${n} estrelas novas`, [[2, 10], [3, 15], [5, 25]]),
+  ...T('reviews', 'revisar', (n) => `Revise ${n} questões que você errou`, [[2, 10], [3, 10], [5, 15]]),
+  ...T('xp', 'raio', (n) => `Ganhe ${n} XP`, [[50, 10], [100, 15], [150, 20]]),
 ];
 
 export const MISSIONS_PER_DAY = 3;
@@ -56,7 +60,7 @@ const CHEST_ID = 'bau';
 
 export type MissionStatus = { mission: Mission; value: number; done: boolean; claimed: boolean };
 
-export function missionStatus(p: Progress, day: string): { missions: MissionStatus[]; chestReady: boolean; chestClaimed: boolean } {
+export function missionStatus(p: Progress, day: string): { missions: MissionStatus[]; chestReady: boolean; chestClaimed: boolean; allClaimed: boolean } {
   const claimed = p.claimed[day] ?? [];
   const missions = dailyMissions(day).map((m) => {
     const value = missionProgress(m, p.daily[day]);
@@ -65,6 +69,7 @@ export function missionStatus(p: Progress, day: string): { missions: MissionStat
   return {
     missions,
     chestReady: missions.every((m) => m.claimed),
+    allClaimed: missions.every((m) => m.claimed),
     chestClaimed: claimed.includes(CHEST_ID),
   };
 }
@@ -83,7 +88,13 @@ export function claim(p: Progress, day: string, id: string): Progress | null {
     if (!m || !m.done) return null;
     reward = m.mission.reward;
   }
-  return { ...p, diamonds: p.diamonds + reward, claimed: { ...p.claimed, [day]: [...already, id] } };
+  let ids = [...already, id];
+  // Ao resgatar a última missão do dia, o baú abre junto.
+  if (id !== CHEST_ID && !ids.includes(CHEST_ID) && status.missions.every((m) => ids.includes(m.mission.id))) {
+    ids = [...ids, CHEST_ID];
+    reward += CHEST_REWARD;
+  }
+  return { ...p, diamonds: p.diamonds + reward, claimed: { ...p.claimed, [day]: ids } };
 }
 
 export { CHEST_ID };

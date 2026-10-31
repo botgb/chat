@@ -3,7 +3,7 @@
  "vestibular": "enem",
  "title": "ENEM 2019, dia 1",
  "year": 2019,
- "version": 1,
+ "version": 2,
  "source": "Questões: INEP, ENEM 2019. Transcrição: ENEM API (enem.dev).",
  "questions": [
   {
@@ -50,7 +50,9 @@
      "text": "De sua identificação com os elementos da natureza."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2019-q1-ingles",
@@ -116,7 +118,9 @@
      "text": "Esclarecer sobre o modo como idosos devem se relacionar com animais de estimação."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2019-q2-espanhol",
@@ -162,7 +166,9 @@
      "text": "Conquistar boas colocações no mundo do trabalho."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2019-q2-ingles",
@@ -216,7 +222,9 @@
      "text": "Enfatiza a redução de ingestão de calorias pelos americanos."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2019-q3-espanhol",
@@ -266,7 +274,9 @@
      "text": "Descrever a relação social entre formigas e cigarras na natureza."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2019-q3-ingles",
@@ -340,7 +350,9 @@
      "text": "Pela traição por parte de pessoa próxima."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2019-q4-espanhol",
@@ -482,7 +494,9 @@
      "text": "Evidencia a relevância de alguns condimentos na cozinha hispânica."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2019-q4-ingles",
@@ -568,7 +582,9 @@
      "text": "Ridicularizam quem as intimida."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2019-q5-espanhol",
@@ -614,7 +630,9 @@
      "text": "Alertar sobre as escolhas tecnológicas da população."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2019-q7",
@@ -656,7 +674,9 @@
      "text": "Naturalização de situações opressivas, que fazem parte da vida de mulheres que vivem em uma sociedade patriarcal."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2019-q8",
@@ -698,7 +718,9 @@
      "text": "Apresentar o vigia, incluindo-o entre os suspeitos do assassinato."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2019-q9",
@@ -744,7 +766,9 @@
      "text": "Equiparação entre a forma e o conteúdo."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2019-q11",
@@ -790,7 +814,9 @@
      "text": "Preservação dos significados próprios das práticas corporais em cada cultura."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2019-q13",
@@ -844,7 +870,9 @@
      "text": "Eclética, ao aceitar diversos estilos poéticos."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2019-q14",
@@ -878,7 +906,9 @@
      "text": "Revelação de rumos projetada pela vivência da solidão."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2019-q15",
@@ -912,7 +942,9 @@
      "text": "Enaltecer a arte, buscando popularizá-la por meio da possibilidade de visualização on-line."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2019-q16",
@@ -946,7 +978,9 @@
      "text": "Seleção lexical na qual predominam informações redundantes."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2019-q18",
@@ -980,7 +1014,9 @@
      "text": "Insere profissionalmente os hackers na área de inovação tecnológica."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2019-q19",
@@ -1014,7 +1050,9 @@
      "text": "Desrespeito à intimidade das crianças cujas imagens têm sido divulgadas nas redes sociais."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2019-q20",
@@ -1048,7 +1086,9 @@
      "text": "Comunicação entre órgãos administrativos."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2019-q21",
@@ -1082,7 +1122,9 @@
      "text": "Expressão de dúvidas existenciais intensificadas pela percepção do abandono."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2019-q22",
@@ -1188,7 +1230,9 @@
      "text": "Desconfiança consumada pela intolerância."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2019-q24",
@@ -1234,7 +1278,9 @@
      "text": "Argumentativa, por incitar o leitor a uma tomada de atitude."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2019-q25",
@@ -1276,7 +1322,9 @@
      "text": "Criatividade em compor um samba-enredo em homenagem a uma pessoa."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2019-q27",
@@ -1310,7 +1358,9 @@
      "text": "Realização de atividades físicas regulares."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2019-q28",
@@ -1352,7 +1402,9 @@
      "text": "Experiência do cotidiano marcado pelas necessidades e urgências."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2019-q29",
@@ -1394,7 +1446,9 @@
      "text": "Colaboração de intelectuais."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2019-q30",
@@ -1456,7 +1510,9 @@
      "text": "A influência de outras línguas no português ocorreu de maneira uniforme ao longo da história."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2019-q32",
@@ -1514,7 +1570,9 @@
      "text": "Se produzem outros hormônios e há outros benefícios com o exercício."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2019-q33",
@@ -1564,7 +1622,9 @@
      "text": "Plasticidade verbal vinculada à cadência melódica."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2019-q34",
@@ -1610,7 +1670,9 @@
      "text": "Resulta da padronização do calendário antes da fundação de Roma."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2019-q35",
@@ -1644,7 +1706,9 @@
      "text": "Sedentarismo e obesidade."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2019-q37",
@@ -1678,7 +1742,9 @@
      "text": "Evidencia que as redes sociais são usadas inadequadamente pelos adolescentes, que, imaturos, não utilizam a ferramenta como forma de mudança social."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2019-q38",
@@ -1712,7 +1778,9 @@
      "text": "Qualidade artística de textos produzidos por computadores."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2019-q39",
@@ -1746,7 +1814,9 @@
      "text": "Arrependimento dos erros cometidos."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2019-q40",
@@ -1808,7 +1878,9 @@
      "text": "Manutenção das tradições."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Literatura",
+   "assunto": "Escolas literárias"
   },
   {
    "id": "enem-2019-q41",
@@ -1854,7 +1926,9 @@
      "text": "Valorizar as experiências hedonistas do presente."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Gramática e uso da língua"
   },
   {
    "id": "enem-2019-q42",
@@ -1908,7 +1982,9 @@
      "text": "Comprovação das diferenças entre a constituição física do homem e da aranha por meio de dados numéricos."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2019-q44",
@@ -2034,7 +2110,9 @@
      "text": "Está a serviço do projeto poético, auxiliando na distinção dos referentes."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2019-q45",
@@ -2128,7 +2206,9 @@
      "text": "Predomínio de regionalismos lexicais nordestinos."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Português",
+   "assunto": "Gramática e uso da língua"
   },
   {
    "id": "enem-2019-q46",
@@ -2170,7 +2250,9 @@
      "text": "Metamórficos."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Meio ambiente e energia"
   },
   {
    "id": "enem-2019-q48",
@@ -2212,7 +2294,9 @@
      "text": "Existencialismo fenomenológico."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2019-q49",
@@ -2254,7 +2338,9 @@
      "text": "Intensificação da drenagem do solo de várzea."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Agropecuária e questão agrária"
   },
   {
    "id": "enem-2019-q50",
@@ -2288,7 +2374,9 @@
      "text": "Verificação da proveniência."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2019-q51",
@@ -2322,7 +2410,9 @@
      "text": "Representação da autoridade constituída."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Geopolítica"
   },
   {
    "id": "enem-2019-q52",
@@ -2356,7 +2446,9 @@
      "text": "Diversificação de oferendas religiosas."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "História",
+   "assunto": "Brasil Colônia"
   },
   {
    "id": "enem-2019-q53",
@@ -2390,7 +2482,9 @@
      "text": "Disponibilidade de recursos minerais."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Geopolítica"
   },
   {
    "id": "enem-2019-q54",
@@ -2432,7 +2526,9 @@
      "text": "Proibição das atividades artesanais."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Relevo, solos e hidrografia"
   },
   {
    "id": "enem-2019-q55",
@@ -2474,7 +2570,9 @@
      "text": "Receptividade metropolitana aos ideais emancipatórios."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "História",
+   "assunto": "Brasil Colônia"
   },
   {
    "id": "enem-2019-q56",
@@ -2516,7 +2614,9 @@
      "text": "Compartilhamento de lucros."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2019-q58",
@@ -2558,7 +2658,9 @@
      "text": "Violação dos preceitos do Velho Testamento."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2019-q60",
@@ -2600,7 +2702,9 @@
      "text": "Permanência dos elementos arquitetônicos de proteção."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2019-q61",
@@ -2658,7 +2762,9 @@
      "text": "Idealização e mercantilização."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Relevo, solos e hidrografia"
   },
   {
    "id": "enem-2019-q62",
@@ -2700,7 +2806,9 @@
      "text": "Restringem a liberdade de credo."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "História",
+   "assunto": "Povos indígenas e africanos"
   },
   {
    "id": "enem-2019-q63",
@@ -2758,7 +2866,9 @@
      "text": "Eliminação das tarifas alfandegárias — incentivo ao livre-cambismo."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "História",
+   "assunto": "Idade Moderna"
   },
   {
    "id": "enem-2019-q64",
@@ -2800,7 +2910,9 @@
      "text": "Universalização de conclusões."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Filosofia",
+   "assunto": "Conhecimento e ciência"
   },
   {
    "id": "enem-2019-q65",
@@ -2842,7 +2954,9 @@
      "text": "Objetividade e subjetividade do conhecimento."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Filosofia",
+   "assunto": "Filosofia moderna"
   },
   {
    "id": "enem-2019-q66",
@@ -2884,7 +2998,9 @@
      "text": "Revolucionarismo e coparticipação."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Sociologia",
+   "assunto": "Cidadania e movimentos sociais"
   },
   {
    "id": "enem-2019-q67",
@@ -2942,7 +3058,9 @@
      "text": "Configurado na percepção etnocêntrica."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Filosofia",
+   "assunto": "Conhecimento e ciência"
   },
   {
    "id": "enem-2019-q68",
@@ -2984,7 +3102,9 @@
      "text": "Benefícios assistenciais públicos."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "História",
+   "assunto": "Povos indígenas e africanos"
   },
   {
    "id": "enem-2019-q69",
@@ -3026,7 +3146,9 @@
      "text": "Expansão de frentes pioneiras."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Agropecuária e questão agrária"
   },
   {
    "id": "enem-2019-q70",
@@ -3068,7 +3190,9 @@
      "text": "Contestação dos estereótipos consolidados."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "História",
+   "assunto": "Idade Contemporânea"
   },
   {
    "id": "enem-2019-q71",
@@ -3110,7 +3234,9 @@
      "text": "Regulamentação funcional."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Sociologia",
+   "assunto": "Trabalho e sociedade"
   },
   {
    "id": "enem-2019-q72",
@@ -3176,7 +3302,9 @@
      "text": "Caráter liberal e sistema parlamentar."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2019-q73",
@@ -3218,7 +3346,9 @@
      "text": "Ressignificação de rituais fundamentalistas."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "História",
+   "assunto": "Idade Média"
   },
   {
    "id": "enem-2019-q74",
@@ -3260,7 +3390,9 @@
      "text": "Essencial, fundamentada em parâmetros substancialistas."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2019-q75",
@@ -3318,7 +3450,9 @@
      "text": "Formação da cosmovisão holística."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Meio ambiente e energia"
   },
   {
    "id": "enem-2019-q76",
@@ -3360,7 +3494,9 @@
      "text": "Enquadramento cultural, que favorece os comportamentos punitivos."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Agropecuária e questão agrária"
   },
   {
    "id": "enem-2019-q78",
@@ -3418,7 +3554,9 @@
      "text": "Interioridade da norma e fenomenalidade do mundo."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Filosofia",
+   "assunto": "Filosofia moderna"
   },
   {
    "id": "enem-2019-q79",
@@ -3460,7 +3598,9 @@
      "text": "Exigência da alfabetização."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2019-q80",
@@ -3502,7 +3642,9 @@
      "text": "As práticas eleitorais."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Sociologia",
+   "assunto": "Cidadania e movimentos sociais"
   },
   {
    "id": "enem-2019-q81",
@@ -3544,7 +3686,9 @@
      "text": "Exploração da lavoura de tabaco."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Relevo, solos e hidrografia"
   },
   {
    "id": "enem-2019-q82",
@@ -3586,7 +3730,9 @@
      "text": "Perspectiva democrática e eficácia dos transportes."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2019-q83",
@@ -3628,7 +3774,9 @@
      "text": "Complementaridade comercial."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2019-q84",
@@ -3670,7 +3818,9 @@
      "text": "Inibição dos choques civilizacionais."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Sociologia",
+   "assunto": "Cidadania e movimentos sociais"
   },
   {
    "id": "enem-2019-q86",
@@ -3712,7 +3862,9 @@
      "text": "Fortalecer as rotas do comércio marítimo."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "História",
+   "assunto": "Brasil Colônia"
   },
   {
    "id": "enem-2019-q87",
@@ -3754,7 +3906,9 @@
      "text": "Financiar as pesquisas acadêmicas."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Sociologia",
+   "assunto": "Trabalho e sociedade"
   },
   {
    "id": "enem-2019-q88",
@@ -3796,7 +3950,9 @@
      "text": "Concessão de aposentadorias."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "População e migração"
   },
   {
    "id": "enem-2019-q89",
@@ -3842,7 +3998,9 @@
      "text": "Altitude."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2019-q90",
@@ -3884,7 +4042,9 @@
      "text": "Custo de escoamento dos produtos."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   }
  ]
 }

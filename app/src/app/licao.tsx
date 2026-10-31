@@ -89,7 +89,7 @@ export default function Licao() {
   const confirm = () => {
     if (!selected || !question) return;
     const correct = selected === question.answer;
-    const r = app.answer({ questionId: question.id, subject: question.subject, correct, inTime: timer.inTime, useHearts, review: mode === 'revisao' });
+    const r = app.answer({ questionId: question.id, subject: question.subject, materia: question.materia, assunto: question.assunto, correct, inTime: timer.inTime, useHearts, review: mode === 'revisao' });
     setResults((rs) => [...rs, { correct, xp: r.xpGained }]);
     feedback(app.settings, correct ? 'right' : 'wrong');
     setRevealed(true);

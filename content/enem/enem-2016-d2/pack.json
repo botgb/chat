@@ -3,7 +3,7 @@
  "vestibular": "enem",
  "title": "ENEM 2016, dia 2",
  "year": 2016,
- "version": 1,
+ "version": 2,
  "source": "Questões: INEP, ENEM 2016. Transcrição: ENEM API (enem.dev).",
  "questions": [
   {
@@ -46,7 +46,9 @@
      "text": "Enfatizar a determinação judicial como algo consolidado."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2016-q91-ingles",
@@ -96,7 +98,9 @@
      "text": "Extração de glóbulos do fígado para serem reproduzidos em laboratório."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2016-q92-espanhol",
@@ -142,7 +146,9 @@
      "text": "Criticando o leitor por ignorar os malefícios do relógio."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2016-q93",
@@ -196,7 +202,9 @@
      "text": "Estabelecer metas para melhorar a qualidade do ensino de italiano."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2016-q93-espanhol",
@@ -242,7 +250,9 @@
      "text": "Cautela no trato com inimigos e pessoas traiçoeiras."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2016-q94-espanhol",
@@ -292,7 +302,9 @@
      "text": "Permanência da inconstância em uma sociedade marcada por contínuas mudanças."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2016-q94-ingles",
@@ -338,7 +350,9 @@
      "text": "O respeito étnico."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2016-q95-ingles",
@@ -388,7 +402,9 @@
      "text": "Chamar alguém em voz alta."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2016-q96",
@@ -430,7 +446,9 @@
      "text": "Focar a participação do leitor."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2016-q97",
@@ -476,7 +494,9 @@
      "text": "Desprezar mensagens que causem comoção."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2016-q99",
@@ -542,7 +562,9 @@
      "text": "Demonstrar o tom autoritário da fala de uma das personagens."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2016-q100",
@@ -600,7 +622,9 @@
      "text": "Empatia entre os sofrimentos do eu e  a agonia da terra."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2016-q101",
@@ -646,7 +670,9 @@
      "text": "Proporção, já que à medida que se lesiona o cérebro não é mais possível que haja vocalização dos ratos."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Gramática e uso da língua"
   },
   {
    "id": "enem-2016-q102",
@@ -688,7 +714,9 @@
      "text": "Contraste cultural."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2016-q103",
@@ -746,7 +774,9 @@
      "text": "Resulta de um apelo do mercado em determinadas datas."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2016-q104",
@@ -788,7 +818,9 @@
      "text": "Assinalar uma consequência hipotética."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2016-q106",
@@ -830,7 +862,9 @@
      "text": "Ampliação do acesso a obras de autores reconhecidos."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2016-q107",
@@ -872,7 +906,9 @@
      "text": "O lugar à mesa metaforiza uma estrutura de poder"
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2016-q108",
@@ -922,7 +958,9 @@
      "text": "Demonstrar a importância de parcerias para a realização da pesquisa."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2016-q110",
@@ -972,7 +1010,9 @@
      "text": "Destaca o efeito introspectivo gerado pelo contato com o inusitado e com o desconhecido."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2016-q111",
@@ -1018,7 +1058,9 @@
      "text": "Narrativa autorreflexiva."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2016-q112",
@@ -1064,7 +1106,9 @@
      "text": "Fragmentação do conflito gerador, distendido como apoio à emotividade."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2016-q113",
@@ -1110,7 +1154,9 @@
      "text": "Conflituosa relação com a inspiração, presente em “sentindo falta dos acompanhamentos/ e figuras sem força de expressão”."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2016-q115",
@@ -1152,7 +1198,9 @@
      "text": "Restrição ao uso de um vocábulo pouco aceito socialmente."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2016-q116",
@@ -1202,7 +1250,9 @@
      "text": "Referência a gêneros poéticos clássicos expressa a adesão do eu lírico às tradições literárias."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2016-q117",
@@ -1248,7 +1298,9 @@
      "text": "Convencer o leitor sobre a veracidade de fatos relativos à vida no passado."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2016-q118",
@@ -1290,7 +1342,9 @@
      "text": "Classificar a obra como uma referência para estudiosos da matemática."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2016-q119",
@@ -1336,7 +1390,9 @@
      "text": "Sentimento de solidão alimentado pelo processo de envelhecimento."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Literatura",
+   "assunto": "Escolas literárias"
   },
   {
    "id": "enem-2016-q120",
@@ -1394,7 +1450,9 @@
      "text": "Crueldade atribuída à forma de punição praticada pelos mais velhos."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2016-q121",
@@ -1436,7 +1494,9 @@
      "text": "Um tecido, visto que sua composição depende de elementos intrínsecos ao eu lírico."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2016-q122",
@@ -1482,7 +1542,9 @@
      "text": "Ampliar o número de doadores para manter o banco de sangue."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2016-q123",
@@ -1528,7 +1590,9 @@
      "text": "São amostras do português culto urbano."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2016-q124",
@@ -1570,7 +1634,9 @@
      "text": "Inadequação vocabular, demonstrada pela seleção de palavras desconhecidas por parte de um dos interlocutores do diálogo."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2016-q125",
@@ -1612,7 +1678,9 @@
      "text": "Utiliza linguagem figurada na construção do poema."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2016-q127",
@@ -1658,7 +1726,9 @@
      "text": "Seu potencial como objeto de investigação."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2016-q128",
@@ -1700,7 +1770,9 @@
      "text": "Naturalização de barreiras socioculturais responsáveis pela exclusão da mulher no boxe."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2016-q129",
@@ -1754,7 +1826,9 @@
      "text": "Acompanhamento psicológico."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2016-q130",
@@ -1796,7 +1870,9 @@
      "text": "Impedimento do avanço adversário."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2016-q131",
@@ -1842,7 +1918,9 @@
      "text": "Veículo de produção de fatos da realidade."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2016-q133",
@@ -1888,7 +1966,9 @@
      "text": "As analogias sobre a solidão feitas pela personagem."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2016-q134",
@@ -1930,7 +2010,9 @@
      "text": "Aproximação entre a cultura brasileira e a argentina."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2016-q135",
@@ -1972,7 +2054,9 @@
      "text": "A interrupção de uma ação."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Português",
+   "assunto": "Gramática e uso da língua"
   },
   {
    "id": "enem-2016-q137",
@@ -2006,7 +2090,9 @@
      "text": "44,00 cm, 24,00 cm e 10,00 cm."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2016-q145",
@@ -2056,7 +2142,9 @@
      "text": "53"
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2016-q146",
@@ -2090,7 +2178,9 @@
      "text": "R$ 1,56"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2016-q154",
@@ -2136,7 +2226,9 @@
      "text": "E"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2016-q156",
@@ -2170,7 +2262,9 @@
      "text": "860"
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2016-q159",
@@ -2204,7 +2298,9 @@
      "text": "288"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2016-q160",
@@ -2238,7 +2334,9 @@
      "text": "400"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2016-q163",
@@ -2272,7 +2370,9 @@
      "text": "DC < dB < dA"
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2016-q165",
@@ -2306,7 +2406,9 @@
      "text": "120"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2016-q167",
@@ -2340,7 +2442,9 @@
      "text": "54"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Geometria plana"
   },
   {
    "id": "enem-2016-q174",
@@ -2374,7 +2478,9 @@
      "text": "40"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2016-q175",
@@ -2408,7 +2514,9 @@
      "text": "Triângulos, quadrados, trapézios, quadriláteros irregulares e pentágonos, apenas."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Geometria plana"
   },
   {
    "id": "enem-2016-q177",
@@ -2458,7 +2566,9 @@
      "text": "V"
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Matemática",
+   "assunto": "Probabilidade e contagem"
   },
   {
    "id": "enem-2016-q179",
@@ -2492,7 +2602,9 @@
      "text": "F5."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   }
  ]
 }

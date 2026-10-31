@@ -187,7 +187,7 @@ describe('missões e diamantes', () => {
     expect(dailyMissions(day)).toEqual(a);
   });
 
-  it('só resgata missão concluída, uma vez, e libera o baú no fim', () => {
+  it('só resgata missão concluída, uma vez, e a última abre o baú junto', () => {
     let p: Progress = initialProgress(0);
     const [m0] = dailyMissions(day);
     expect(claim(p, day, m0.id)).toBeNull();
@@ -195,14 +195,21 @@ describe('missões e diamantes', () => {
     p = { ...p, daily: { [day]: { answered: 99, correct: 99, inTime: 99, reviews: 99, levels: 99, stars: 99, xp: 999 } } };
     let total = 0;
     for (const { mission } of missionStatus(p, day).missions) {
-      expect(missionStatus(p, day).chestReady).toBe(false);
+      expect(missionStatus(p, day).allClaimed).toBe(false);
       p = claim(p, day, mission.id)!;
       total += mission.reward;
       expect(claim(p, day, mission.id)).toBeNull();
     }
-    p = claim(p, day, CHEST_ID)!;
     expect(p.diamonds).toBe(total + CHEST_REWARD);
+    expect(missionStatus(p, day).allClaimed).toBe(true);
     expect(missionStatus(p, day).chestClaimed).toBe(true);
+    expect(claim(p, day, CHEST_ID)).toBeNull();
+  });
+
+  it('as missões variam de um dia para o outro', () => {
+    const days = Array.from({ length: 14 }, (_, i) => `2026-03-${String(i + 1).padStart(2, '0')}`);
+    const sets = new Set(days.map((d) => dailyMissions(d).map((m) => m.title).join('|')));
+    expect(sets.size).toBeGreaterThanOrEqual(10);
   });
 
   it('dá diamantes por estrela nova e gasta para recarregar vidas', () => {

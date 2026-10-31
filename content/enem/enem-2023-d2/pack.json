@@ -3,7 +3,7 @@
  "vestibular": "enem",
  "title": "ENEM 2023, dia 2",
  "year": 2023,
- "version": 1,
+ "version": 2,
  "source": "Questões: INEP, ENEM 2023. Transcrição: ENEM API (enem.dev).",
  "questions": [
   {
@@ -46,7 +46,9 @@
      "text": "Aumenta os locais de reprodução"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Biologia",
+   "assunto": "Botânica"
   },
   {
    "id": "enem-2023-q92",
@@ -84,7 +86,9 @@
      "text": "Combater a febre amarela."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Biologia",
+   "assunto": "Ecologia"
   },
   {
    "id": "enem-2023-q93",
@@ -118,7 +122,9 @@
      "text": "Produzir calor sem o consumo de combustíveis fósseis."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Física",
+   "assunto": "Termologia"
   },
   {
    "id": "enem-2023-q95",
@@ -152,7 +158,9 @@
      "text": "Capacidade de voo em grandes altitudes."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Biologia",
+   "assunto": "Microbiologia e doenças"
   },
   {
    "id": "enem-2023-q96",
@@ -186,7 +194,9 @@
      "text": "75%"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Química",
+   "assunto": "Estequiometria e mol"
   },
   {
    "id": "enem-2023-q97",
@@ -220,7 +230,9 @@
      "text": "Isolamento do contato com O2 atmosférico."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2023-q98",
@@ -262,7 +274,9 @@
      "text": "Lipídios."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Biologia",
+   "assunto": "Citologia"
   },
   {
    "id": "enem-2023-q99",
@@ -296,7 +310,9 @@
      "text": "Secreção ocular."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Biologia",
+   "assunto": "Microbiologia e doenças"
   },
   {
    "id": "enem-2023-q101",
@@ -330,7 +346,9 @@
      "text": "Elevação nos níveis sorológicos de adrenalina."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Biologia",
+   "assunto": "Fisiologia humana e saúde"
   },
   {
    "id": "enem-2023-q102",
@@ -364,7 +382,9 @@
      "text": "Ácido hexanoico."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Química",
+   "assunto": "Estequiometria e mol"
   },
   {
    "id": "enem-2023-q103",
@@ -398,7 +418,9 @@
      "text": "Vaso condutor."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Biologia",
+   "assunto": "Botânica"
   },
   {
    "id": "enem-2023-q104",
@@ -440,7 +462,9 @@
      "text": "Reação do alumínio com gluconato de cálcio for endotérmica."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2023-q105",
@@ -478,7 +502,9 @@
      "text": "Nutrição das raízes."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Botânica"
   },
   {
    "id": "enem-2023-q106",
@@ -520,7 +546,9 @@
      "text": "Incorporação do RNAm viral ao genoma do hospedeiro. gerando novo fenótipo."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2023-q107",
@@ -558,7 +586,9 @@
      "text": "Fusão das membranas plasmáticas do ovócito e do espermatozoide."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Física",
+   "assunto": "Termologia"
   },
   {
    "id": "enem-2023-q108",
@@ -592,7 +622,9 @@
      "text": "Ressonância eletromagnética."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Física",
+   "assunto": "Eletricidade e magnetismo"
   },
   {
    "id": "enem-2023-q112",
@@ -626,7 +658,9 @@
      "text": "Infravermelho."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Física",
+   "assunto": "Óptica"
   },
   {
    "id": "enem-2023-q115",
@@ -660,7 +694,9 @@
      "text": "Utilizados como fonte energética."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Biologia",
+   "assunto": "Botânica"
   },
   {
    "id": "enem-2023-q117",
@@ -694,7 +730,9 @@
      "text": "1000"
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Física",
+   "assunto": "Ondas e som"
   },
   {
    "id": "enem-2023-q122",
@@ -728,7 +766,9 @@
      "text": "Do calor latente de condensação e do calor latente de vaporização."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Química",
+   "assunto": "Soluções e concentração"
   },
   {
    "id": "enem-2023-q124",
@@ -762,7 +802,9 @@
      "text": "360"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2023-q125",
@@ -808,7 +850,9 @@
      "text": "Normais, trissômicos ou tetrassômicos."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2023-q128",
@@ -846,7 +890,9 @@
      "text": "Propagarem-se com velocidades diferentes."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Biologia",
+   "assunto": "Citologia"
   },
   {
    "id": "enem-2023-q130",
@@ -888,7 +934,9 @@
      "text": "Ter alta condutividade térmica e possibilitar a degradação do material no meio ambiente."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Química",
+   "assunto": "Química orgânica"
   },
   {
    "id": "enem-2023-q131",
@@ -930,7 +978,9 @@
      "text": "Maior temperatura de congelamento."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Biologia",
+   "assunto": "Fisiologia humana e saúde"
   },
   {
    "id": "enem-2023-q134",
@@ -976,7 +1026,9 @@
      "text": "Cromossomos"
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Citologia"
   },
   {
    "id": "enem-2023-q138",
@@ -1018,7 +1070,9 @@
      "text": "80"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2023-q142",
@@ -1052,7 +1106,9 @@
      "text": "150"
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Matemática",
+   "assunto": "Estatística"
   },
   {
    "id": "enem-2023-q143",
@@ -1090,7 +1146,9 @@
      "text": "33"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Probabilidade e contagem"
   },
   {
    "id": "enem-2023-q147",
@@ -1124,7 +1182,9 @@
      "text": "8"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2023-q150",
@@ -1166,7 +1226,9 @@
      "text": "C = q − 10"
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2023-q153",
@@ -1204,7 +1266,9 @@
      "text": "V."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2023-q158",
@@ -1242,7 +1306,9 @@
      "text": "5"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2023-q159",
@@ -1280,7 +1346,9 @@
      "text": "18"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   },
   {
    "id": "enem-2023-q161",
@@ -1326,7 +1394,9 @@
      "text": "23,3%"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Matemática financeira"
   },
   {
    "id": "enem-2023-q162",
@@ -1364,7 +1434,9 @@
      "text": "Y = 500x + 250"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Matemática financeira"
   },
   {
    "id": "enem-2023-q167",
@@ -1402,7 +1474,9 @@
      "text": "(3,5 ; 4,0)."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2023-q171",
@@ -1444,7 +1518,9 @@
      "text": "5 200"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2023-q175",
@@ -1482,7 +1558,9 @@
      "text": "10,65"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Grandezas, medidas e escalas"
   },
   {
    "id": "enem-2023-q180",
@@ -1524,7 +1602,9 @@
      "text": "Fevereiro."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Estatística"
   }
  ]
 }

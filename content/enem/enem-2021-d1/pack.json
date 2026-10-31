@@ -3,7 +3,7 @@
  "vestibular": "enem",
  "title": "ENEM 2021, dia 1",
  "year": 2021,
- "version": 1,
+ "version": 2,
  "source": "Questões: INEP, ENEM 2021. Transcrição: ENEM API (enem.dev).",
  "questions": [
   {
@@ -46,7 +46,9 @@
      "text": "Criticar o interesse do entrevistado por particularidades da vida humana."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2021-q1-ingles",
@@ -88,7 +90,9 @@
      "text": "Valoriar o marketing pessoal das celebridades."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2021-q2-espanhol",
@@ -134,7 +138,9 @@
      "text": "Dificuldades de comunicação entre patrão e empregada."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2021-q2-ingles",
@@ -188,7 +194,9 @@
      "text": "A questão da intolerância linguística."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2021-q3-espanhol",
@@ -230,7 +238,9 @@
      "text": "Assumir utilidade jurídica."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2021-q3-ingles",
@@ -276,7 +286,9 @@
      "text": "O comportamento parental era irresponsável."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2021-q4-espanhol",
@@ -318,7 +330,9 @@
      "text": "Narrar a perenidade da velhice"
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2021-q5-ingles",
@@ -364,7 +378,9 @@
      "text": "Finalidade da viagem do visitante."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2021-q6",
@@ -406,7 +422,9 @@
      "text": "A comparação com a distância da Lua à Terra."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Português",
+   "assunto": "Gramática e uso da língua"
   },
   {
    "id": "enem-2021-q7",
@@ -452,7 +470,9 @@
      "text": "Defende novas regras gramaticais."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Português",
+   "assunto": "Variação linguística"
   },
   {
    "id": "enem-2021-q8",
@@ -502,7 +522,9 @@
      "text": "Importância da parceria entre brasileiros e britânicos para a realização das filmagens"
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Artes",
+   "assunto": "Artes visuais"
   },
   {
    "id": "enem-2021-q9",
@@ -544,7 +566,9 @@
      "text": "Às descrições de costumes regionais que desmistificam crenças e superstições."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Português",
+   "assunto": "Gramática e uso da língua"
   },
   {
    "id": "enem-2021-q10",
@@ -590,7 +614,9 @@
      "text": "\"[...] premiar uma abordagem tão ousada e radical como Son of Saul não deixaria de ser um passo à frente dos votantes\"."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2021-q11",
@@ -640,7 +666,9 @@
      "text": "Problematizam as diferentes visões de mundo na sociedade durante o período colonial."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2021-q15",
@@ -698,7 +726,9 @@
      "text": "Importância atribuída à música clássica a sociedade brasileira do século XIX."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2021-q16",
@@ -744,7 +774,9 @@
      "text": "Apresenta soluções para a cultura da correria que as pessoas vivenciam hoje."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2021-q17",
@@ -778,7 +810,9 @@
      "text": "Atitude contestadora de um \"jogador-problema\"."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2021-q19",
@@ -820,7 +854,9 @@
      "text": "Contribuíram para o aumento do tempo dedicado para brincar."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2021-q20",
@@ -862,7 +898,9 @@
      "text": "Redefinir a extensão e o propósito do espetáculo para adaptá-lo ao perfil de diferentes usuários"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2021-q21",
@@ -924,7 +962,9 @@
      "text": "Equalizar a distribuição de água doce nas diferentes regiões"
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2021-q22",
@@ -966,7 +1006,9 @@
      "text": "O emprego de \"você\" em documentos escritos demonstra que a língua tende a se manter inalterada."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Português",
+   "assunto": "Gramática e uso da língua"
   },
   {
    "id": "enem-2021-q23",
@@ -1012,7 +1054,9 @@
      "text": "A interpretação, por homens, de coreografias originalmente concebidas para mulheres exige uma adaptação complexa."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2021-q24",
@@ -1054,7 +1098,9 @@
      "text": "Recorrem ao absurdo como forma de traduzir a realidade."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2021-q25",
@@ -1096,7 +1142,9 @@
      "text": "Exaltar relações de poder estereotipadas."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2021-q26",
@@ -1138,7 +1186,9 @@
      "text": "\"o imperador Dom Pedro II\" e \"O bruxo do Cosme Velho\"."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2021-q28",
@@ -1180,7 +1230,9 @@
      "text": "Evoluem para ficar mais parecidas umas com as outras."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2021-q29",
@@ -1226,7 +1278,9 @@
      "text": "Valorizarem reportagem redigidas com imparcialidade diante dos fatos."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2021-q30",
@@ -1268,7 +1322,9 @@
      "text": "Desconsiderar diferentes níveis de formalidade nas situações de comunicação."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Variação linguística"
   },
   {
    "id": "enem-2021-q31",
@@ -1310,7 +1366,9 @@
      "text": "Indicaram a autonomia dos praticantes de skate."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2021-q32",
@@ -1356,7 +1414,9 @@
      "text": "Interlocutor, considerando-o responsável pelo direcionamemento dado à narrativa pelo enunciador."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2021-q35",
@@ -1402,7 +1462,9 @@
      "text": "Renuncia à sua participação no mercado de trabalho."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2021-q37",
@@ -1456,7 +1518,9 @@
      "text": "Defender uma postura coletiva indiferente aos valores dominantes."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2021-q38",
@@ -1498,7 +1562,9 @@
      "text": "Questionamento sobre o significado do amor ausente."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2021-q39",
@@ -1556,7 +1622,9 @@
      "text": "\"curar e \"falso moralista\"."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2021-q40",
@@ -1602,7 +1670,9 @@
      "text": "Demarcada por uma linguagem alinhada à busca da lucidez."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2021-q41",
@@ -1660,7 +1730,9 @@
      "text": "Expressa uma visão de mundo mística e espiritualizada."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2021-q44",
@@ -1702,7 +1774,9 @@
      "text": "Serviços de utilidade pública."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2021-q45",
@@ -1744,7 +1818,9 @@
      "text": "Constatar a impopularidade do choro diante da preferência do público por músicas populares."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2021-q46",
@@ -1786,7 +1862,9 @@
      "text": "Desobrigação de afazeres domésticos."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2021-q47",
@@ -1828,7 +1906,9 @@
      "text": "Eficiência dos mercados."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2021-q48",
@@ -1870,7 +1950,9 @@
      "text": "Mercados consumidores internos."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2021-q49",
@@ -1928,7 +2010,9 @@
      "text": "Medidas de salvaguarda de peças museológicas."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2021-q50",
@@ -1986,7 +2070,9 @@
      "text": "Protecionismo alfandegário dos Estados."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2021-q51",
@@ -2028,7 +2114,9 @@
      "text": "Geração de produtos recicláveis."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Cartografia"
   },
   {
    "id": "enem-2021-q52",
@@ -2070,7 +2158,9 @@
      "text": "Promover o negócio familiar."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "História",
+   "assunto": "Brasil Império"
   },
   {
    "id": "enem-2021-q53",
@@ -2112,7 +2202,9 @@
      "text": "Argumentações literárias interligadas às catástrofes ambientais."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Clima e atmosfera"
   },
   {
    "id": "enem-2021-q54",
@@ -2154,7 +2246,9 @@
      "text": "Aplicação dos conhecimentos da ciência."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2021-q55",
@@ -2196,7 +2290,9 @@
      "text": "Desenraizamento cultural e insegurança legal."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "População e migração"
   },
   {
    "id": "enem-2021-q56",
@@ -2238,7 +2334,9 @@
      "text": "Substituição das atividades domésticas."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Agropecuária e questão agrária"
   },
   {
    "id": "enem-2021-q57",
@@ -2280,7 +2378,9 @@
      "text": "Repressões racionalizadas do narcisismo."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2021-q58",
@@ -2322,7 +2422,9 @@
      "text": "Alteração da organização da paisagem geográfica."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2021-q59",
@@ -2364,7 +2466,9 @@
      "text": "Uniformização das informações."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Clima e atmosfera"
   },
   {
    "id": "enem-2021-q60",
@@ -2406,7 +2510,9 @@
      "text": "Inconformismo eleitoral."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Relevo, solos e hidrografia"
   },
   {
    "id": "enem-2021-q61",
@@ -2448,7 +2554,9 @@
      "text": "Priorização da gestão participativa."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2021-q62",
@@ -2490,7 +2598,9 @@
      "text": "Incentivo à política de modernização."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2021-q63",
@@ -2532,7 +2642,9 @@
      "text": "Enriquecimento das comunidades autóctones."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Geopolítica"
   },
   {
    "id": "enem-2021-q64",
@@ -2574,7 +2686,9 @@
      "text": "Hierarquizações de origem biológica."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Sociologia",
+   "assunto": "Estado, poder e instituições"
   },
   {
    "id": "enem-2021-q65",
@@ -2616,7 +2730,9 @@
      "text": "Domínios do fetichismo da mercadoria."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Filosofia",
+   "assunto": "Conhecimento e ciência"
   },
   {
    "id": "enem-2021-q66",
@@ -2658,7 +2774,9 @@
      "text": "Expansão do período de reclusão."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "População e migração"
   },
   {
    "id": "enem-2021-q67",
@@ -2700,7 +2818,9 @@
      "text": "Reconfiguração dos espaços ocupados e das dinâmicas comunitárias."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2021-q68",
@@ -2742,7 +2862,9 @@
      "text": "Angariar o apoio de segmentos étnicos externos."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "História",
+   "assunto": "Povos indígenas e africanos"
   },
   {
    "id": "enem-2021-q69",
@@ -2784,7 +2906,9 @@
      "text": "Propor a criação de novas unidades da federação."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Sociologia",
+   "assunto": "Estado, poder e instituições"
   },
   {
    "id": "enem-2021-q70",
@@ -2826,7 +2950,9 @@
      "text": "Reflorestamento comercial para a produção orgânica."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "História",
+   "assunto": "Povos indígenas e africanos"
   },
   {
    "id": "enem-2021-q71",
@@ -2868,7 +2994,9 @@
      "text": "Compactação superficial."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Relevo, solos e hidrografia"
   },
   {
    "id": "enem-2021-q72",
@@ -2910,7 +3038,9 @@
      "text": "Fortalecimento das associações de bairro."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2021-q73",
@@ -2952,7 +3082,9 @@
      "text": "Radicalização oposicionista."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "História",
+   "assunto": "Brasil República"
   },
   {
    "id": "enem-2021-q74",
@@ -2994,7 +3126,9 @@
      "text": "Controlar manifestações artísticas de comunidades autóctones."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Sociologia",
+   "assunto": "Cultura e identidade"
   },
   {
    "id": "enem-2021-q75",
@@ -3036,7 +3170,9 @@
      "text": "Conjugação de saberes empíricos."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "História",
+   "assunto": "Brasil Colônia"
   },
   {
    "id": "enem-2021-q76",
@@ -3082,7 +3218,9 @@
      "text": "Universidades medievais."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Sociologia",
+   "assunto": "Cultura e identidade"
   },
   {
    "id": "enem-2021-q77",
@@ -3128,7 +3266,9 @@
      "text": "Protagonismo assumido pelos meios de comunicação no desenvolvimento das nações alfabetizadas."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "História",
+   "assunto": "Brasil Colônia"
   },
   {
    "id": "enem-2021-q78",
@@ -3186,7 +3326,9 @@
      "text": "Superioridade dos aspectos econômicos."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2021-q79",
@@ -3228,7 +3370,9 @@
      "text": "Importação de mão de obra qualificada."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2021-q80",
@@ -3270,7 +3414,9 @@
      "text": "Vagarosidade na dinâmica de aperfeiçoamento dos programas partidários."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2021-q81",
@@ -3316,7 +3462,9 @@
      "text": "Remuneração de professores e extinção do analfabetismo."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "História",
+   "assunto": "Brasil República"
   },
   {
    "id": "enem-2021-q82",
@@ -3358,7 +3506,9 @@
      "text": "Suspensão judicativa"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Filosofia",
+   "assunto": "Filosofia antiga"
   },
   {
    "id": "enem-2021-q83",
@@ -3400,7 +3550,9 @@
      "text": "Etnografia das celebrações religiosas."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Sociologia",
+   "assunto": "Cultura e identidade"
   },
   {
    "id": "enem-2021-q84",
@@ -3442,7 +3594,9 @@
      "text": "Modernizar o comércio tradicional."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "História",
+   "assunto": "Povos indígenas e africanos"
   },
   {
    "id": "enem-2021-q86",
@@ -3484,7 +3638,9 @@
      "text": "Incentivar a suspensão dos juízos."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Filosofia",
+   "assunto": "Conhecimento e ciência"
   },
   {
    "id": "enem-2021-q87",
@@ -3526,7 +3682,9 @@
      "text": "Consagra a realização humana ao campo transcendental."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Filosofia",
+   "assunto": "Filosofia contemporânea"
   },
   {
    "id": "enem-2021-q88",
@@ -3568,7 +3726,9 @@
      "text": "Desvalorização da materialidade corpórea."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "História",
+   "assunto": "Idade Média"
   },
   {
    "id": "enem-2021-q90",
@@ -3614,7 +3774,9 @@
      "text": "Ressignificação das heranças religiosas."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Relevo, solos e hidrografia"
   }
  ]
 }

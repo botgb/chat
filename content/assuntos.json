@@ -1,0 +1,383 @@
+{
+ "version": 1,
+ "materias": [
+  {
+   "area": "Matemática",
+   "materia": "Matemática",
+   "assuntos": [
+    {
+     "nome": "Porcentagem e proporção",
+     "questoes": 41
+    },
+    {
+     "nome": "Matemática financeira",
+     "questoes": 9
+    },
+    {
+     "nome": "Estatística",
+     "questoes": 12
+    },
+    {
+     "nome": "Probabilidade e contagem",
+     "questoes": 18
+    },
+    {
+     "nome": "Geometria plana",
+     "questoes": 25
+    },
+    {
+     "nome": "Geometria espacial",
+     "questoes": 35
+    },
+    {
+     "nome": "Funções e gráficos",
+     "questoes": 4
+    },
+    {
+     "nome": "Grandezas, medidas e escalas",
+     "questoes": 13
+    },
+    {
+     "nome": "Aritmética e números",
+     "questoes": 73
+    },
+    {
+     "nome": "Trigonometria",
+     "questoes": 0
+    }
+   ]
+  },
+  {
+   "area": "Ciências da Natureza",
+   "materia": "Física",
+   "assuntos": [
+    {
+     "nome": "Mecânica",
+     "questoes": 36
+    },
+    {
+     "nome": "Energia e trabalho",
+     "questoes": 9
+    },
+    {
+     "nome": "Termologia",
+     "questoes": 24
+    },
+    {
+     "nome": "Óptica",
+     "questoes": 13
+    },
+    {
+     "nome": "Ondas e som",
+     "questoes": 20
+    },
+    {
+     "nome": "Eletricidade e magnetismo",
+     "questoes": 17
+    }
+   ]
+  },
+  {
+   "area": "Ciências da Natureza",
+   "materia": "Química",
+   "assuntos": [
+    {
+     "nome": "Química orgânica",
+     "questoes": 33
+    },
+    {
+     "nome": "Estequiometria e mol",
+     "questoes": 19
+    },
+    {
+     "nome": "Soluções e concentração",
+     "questoes": 13
+    },
+    {
+     "nome": "Ácidos, bases e pH",
+     "questoes": 14
+    },
+    {
+     "nome": "Eletroquímica",
+     "questoes": 3
+    },
+    {
+     "nome": "Termoquímica, cinética e equilíbrio",
+     "questoes": 0
+    },
+    {
+     "nome": "Átomos, ligações e tabela periódica",
+     "questoes": 5
+    },
+    {
+     "nome": "Química ambiental",
+     "questoes": 12
+    }
+   ]
+  },
+  {
+   "area": "Ciências da Natureza",
+   "materia": "Biologia",
+   "assuntos": [
+    {
+     "nome": "Ecologia",
+     "questoes": 18
+    },
+    {
+     "nome": "Genética",
+     "questoes": 30
+    },
+    {
+     "nome": "Evolução",
+     "questoes": 4
+    },
+    {
+     "nome": "Citologia",
+     "questoes": 24
+    },
+    {
+     "nome": "Fisiologia humana e saúde",
+     "questoes": 11
+    },
+    {
+     "nome": "Microbiologia e doenças",
+     "questoes": 26
+    },
+    {
+     "nome": "Botânica",
+     "questoes": 25
+    },
+    {
+     "nome": "Biotecnologia",
+     "questoes": 0
+    }
+   ]
+  },
+  {
+   "area": "Ciências Humanas",
+   "materia": "História",
+   "assuntos": [
+    {
+     "nome": "Brasil Colônia",
+     "questoes": 27
+    },
+    {
+     "nome": "Brasil Império",
+     "questoes": 9
+    },
+    {
+     "nome": "Brasil República",
+     "questoes": 26
+    },
+    {
+     "nome": "Antiguidade",
+     "questoes": 13
+    },
+    {
+     "nome": "Idade Média",
+     "questoes": 8
+    },
+    {
+     "nome": "Idade Moderna",
+     "questoes": 5
+    },
+    {
+     "nome": "Idade Contemporânea",
+     "questoes": 8
+    },
+    {
+     "nome": "Povos indígenas e africanos",
+     "questoes": 30
+    }
+   ]
+  },
+  {
+   "area": "Ciências Humanas",
+   "materia": "Geografia",
+   "assuntos": [
+    {
+     "nome": "Cartografia",
+     "questoes": 8
+    },
+    {
+     "nome": "Clima e atmosfera",
+     "questoes": 12
+    },
+    {
+     "nome": "Relevo, solos e hidrografia",
+     "questoes": 33
+    },
+    {
+     "nome": "Urbanização",
+     "questoes": 42
+    },
+    {
+     "nome": "Agropecuária e questão agrária",
+     "questoes": 25
+    },
+    {
+     "nome": "Economia, indústria e globalização",
+     "questoes": 68
+    },
+    {
+     "nome": "População e migração",
+     "questoes": 17
+    },
+    {
+     "nome": "Meio ambiente e energia",
+     "questoes": 17
+    },
+    {
+     "nome": "Geopolítica",
+     "questoes": 16
+    }
+   ]
+  },
+  {
+   "area": "Ciências Humanas",
+   "materia": "Filosofia",
+   "assuntos": [
+    {
+     "nome": "Filosofia antiga",
+     "questoes": 9
+    },
+    {
+     "nome": "Filosofia moderna",
+     "questoes": 11
+    },
+    {
+     "nome": "Ética e política",
+     "questoes": 60
+    },
+    {
+     "nome": "Filosofia contemporânea",
+     "questoes": 6
+    },
+    {
+     "nome": "Conhecimento e ciência",
+     "questoes": 25
+    }
+   ]
+  },
+  {
+   "area": "Ciências Humanas",
+   "materia": "Sociologia",
+   "assuntos": [
+    {
+     "nome": "Trabalho e sociedade",
+     "questoes": 10
+    },
+    {
+     "nome": "Cultura e identidade",
+     "questoes": 30
+    },
+    {
+     "nome": "Cidadania e movimentos sociais",
+     "questoes": 17
+    },
+    {
+     "nome": "Desigualdade e exclusão",
+     "questoes": 7
+    },
+    {
+     "nome": "Estado, poder e instituições",
+     "questoes": 23
+    }
+   ]
+  },
+  {
+   "area": "Linguagens",
+   "materia": "Português",
+   "assuntos": [
+    {
+     "nome": "Interpretação de texto",
+     "questoes": 79
+    },
+    {
+     "nome": "Gramática e uso da língua",
+     "questoes": 35
+    },
+    {
+     "nome": "Variação linguística",
+     "questoes": 23
+    },
+    {
+     "nome": "Gêneros textuais",
+     "questoes": 54
+    },
+    {
+     "nome": "Funções e figuras de linguagem",
+     "questoes": 6
+    }
+   ]
+  },
+  {
+   "area": "Linguagens",
+   "materia": "Literatura",
+   "assuntos": [
+    {
+     "nome": "Escolas literárias",
+     "questoes": 10
+    },
+    {
+     "nome": "Poesia e prosa",
+     "questoes": 96
+    }
+   ]
+  },
+  {
+   "area": "Linguagens",
+   "materia": "Artes",
+   "assuntos": [
+    {
+     "nome": "Artes visuais",
+     "questoes": 10
+    },
+    {
+     "nome": "Música, dança e teatro",
+     "questoes": 45
+    }
+   ]
+  },
+  {
+   "area": "Linguagens",
+   "materia": "Educação Física",
+   "assuntos": [
+    {
+     "nome": "Corpo, esporte e saúde",
+     "questoes": 59
+    }
+   ]
+  },
+  {
+   "area": "Linguagens",
+   "materia": "Tecnologias e comunicação",
+   "assuntos": [
+    {
+     "nome": "Mídias e tecnologia",
+     "questoes": 45
+    }
+   ]
+  },
+  {
+   "area": "Inglês",
+   "materia": "Inglês",
+   "assuntos": [
+    {
+     "nome": "Interpretação de texto em inglês",
+     "questoes": 44
+    }
+   ]
+  },
+  {
+   "area": "Espanhol",
+   "materia": "Espanhol",
+   "assuntos": [
+    {
+     "nome": "Interpretação de texto em espanhol",
+     "questoes": 58
+    }
+   ]
+  }
+ ]
+}

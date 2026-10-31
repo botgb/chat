@@ -3,7 +3,7 @@
  "vestibular": "enem",
  "title": "ENEM 2017, dia 1",
  "year": 2017,
- "version": 1,
+ "version": 2,
  "source": "Questões: INEP, ENEM 2017. Transcrição: ENEM API (enem.dev).",
  "questions": [
   {
@@ -62,7 +62,9 @@
      "text": "Evidencia a extrema devoção do carpinteiro ao seu ofício."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2017-q1-ingles",
@@ -104,7 +106,9 @@
      "text": "Recriar-se por meio da pintura."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2017-q2-espanhol",
@@ -150,7 +154,9 @@
      "text": "Classificado como um problema superável pela facilidade com que se enfrenta a infecção."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2017-q2-ingles",
@@ -196,7 +202,9 @@
      "text": "Anunciará os nomes dos jovens a serem contratados pelas agências de inteligência."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2017-q3-espanhol",
@@ -238,7 +246,9 @@
      "text": "Vergonha perante os filhos de viver ilegalmente em outro país."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2017-q4-espanhol",
@@ -296,7 +306,9 @@
      "text": "Tenham melhores condições de vida."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2017-q4-ingles",
@@ -342,7 +354,9 @@
      "text": "Reforçar a necessidade de proibição do uso de armas por crianças."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2017-q5-espanhol",
@@ -388,7 +402,9 @@
      "text": "Os conhecimentos acadêmicos de Arrazola são insuficientes para salvá-lo da morte, ante a sabedoria astronômica da cultura maia."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Espanhol",
+   "assunto": "Interpretação de texto em espanhol"
   },
   {
    "id": "enem-2017-q5-ingles",
@@ -434,7 +450,9 @@
      "text": "Apresenta aspectos gerais da cultura do país para continuar a atrair turistas estrangeiros."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Inglês",
+   "assunto": "Interpretação de texto em inglês"
   },
   {
    "id": "enem-2017-q6",
@@ -488,7 +506,9 @@
      "text": "Perfil social dos envolvidos na troca comunicativa."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2017-q7",
@@ -530,7 +550,9 @@
      "text": "Superação do ciúme pela comoção decorrente da morte."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2017-q8",
@@ -572,7 +594,9 @@
      "text": "Dificuldade de acesso aos sites de pesquisa."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2017-q9",
@@ -626,7 +650,9 @@
      "text": "Reforça comportamentos e padrões culturais."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2017-q10",
@@ -668,7 +694,9 @@
      "text": "\"Em geral\"."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2017-q12",
@@ -722,7 +750,9 @@
      "text": "Expandiu-se paralelamente ao português falado pelo colonizador, e juntos originaram a língua dos bandeirantes paulistas."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Português",
+   "assunto": "Variação linguística"
   },
   {
    "id": "enem-2017-q13",
@@ -828,7 +858,9 @@
      "text": "Promove inovações no repertório linguístico."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2017-q14",
@@ -870,7 +902,9 @@
      "text": "Identificação dos interesses do responsável pelo produto divulgado."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2017-q15",
@@ -940,7 +974,9 @@
      "text": "Reafirmar discursivamente a forte relação do falante com seu lugar de origem."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2017-q17",
@@ -986,7 +1022,9 @@
      "text": "Leva ao isolamento do mundo real e ao uso exclusivo do computador se a navegação for desmedida."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2017-q18",
@@ -1044,7 +1082,9 @@
      "text": "Lapso no fluxo temporal dos eventos trazidos à cena."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2017-q19",
@@ -1094,7 +1134,9 @@
      "text": "Despreocupação dos sujeitos com uma formação paralela à esportiva, para habilitá-los a atuar em Outros setores da vida."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2017-q20",
@@ -1152,7 +1194,9 @@
      "text": "“Eu até queria não ter aprendido outras línguas: só para que a minha abordagem do português fosse Virgem e límpida.”"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Literatura",
+   "assunto": "Escolas literárias"
   },
   {
    "id": "enem-2017-q22",
@@ -1222,7 +1266,9 @@
      "text": "Fato de motivarem o desaparecimento de línguas minoritárias."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2017-q23",
@@ -1376,7 +1422,9 @@
      "text": "“É natural que toda atriz Presentemente represente/ Muito para mim”."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2017-q24",
@@ -1418,7 +1466,9 @@
      "text": "Interrupção do espetáculo em virtude do comportamento inadequado do público."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2017-q25",
@@ -1468,7 +1518,9 @@
      "text": "Opinião a respeito de uma obra sobre cena musical de 1967."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2017-q26",
@@ -1526,7 +1578,9 @@
      "text": "Influência mercadológica na construção de uma auto imagem positiva do corpo feminino"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2017-q27",
@@ -1596,7 +1650,9 @@
      "text": "Categorias gramaticais das palavras."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2017-q29",
@@ -1654,7 +1710,9 @@
      "text": "Enfatiza sobre “o quê” versa a mensagem, apresentada com palavras precisas e objetivas."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2017-q30",
@@ -1700,7 +1758,9 @@
      "text": "Impossibilidade de vivenciar experiências de pertencimento."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2017-q31",
@@ -1742,7 +1802,9 @@
      "text": "Nas modalidades esportivas adaptadas, cujo objetivo é o maior engajamento dos cidadãos."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2017-q32",
@@ -1804,7 +1866,9 @@
      "text": "Questionar o apoio irrestrito de agentes públicos aos gestores governamentais."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Português",
+   "assunto": "Gêneros textuais"
   },
   {
    "id": "enem-2017-q33",
@@ -1846,7 +1910,9 @@
      "text": "O uso do pronome de terceira pessoa “ele” ao longo do texto para fazer referência ao protagonista \"João/Zero\"."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Português",
+   "assunto": "Gramática e uso da língua"
   },
   {
    "id": "enem-2017-q35",
@@ -1888,7 +1954,9 @@
      "text": "Construção de comparações, como em: “[...] libertando aí os pés das meias e dos sapatos, tirando a roupa do corpo como se retirasse a importância das coisas [...]”."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2017-q38",
@@ -1930,7 +1998,9 @@
      "text": "Caracterização das preferências linguísticas da personagem masculina."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Português",
+   "assunto": "Variação linguística"
   },
   {
    "id": "enem-2017-q39",
@@ -1980,7 +2050,9 @@
      "text": "Valorizadora do conteúdo em detrimento da forma."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2017-q40",
@@ -2022,7 +2094,9 @@
      "text": "Rancor com a ingratidão e a hipocrisia geradas pelas mudanças nas regras da casa."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2017-q42",
@@ -2068,7 +2142,9 @@
      "text": "Aponta para o predomínio do lazer contemplativo, nas classes favorecidas economicamente; e do prático, nas menos favorecidas."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2017-q44",
@@ -2110,7 +2186,9 @@
      "text": "Colabora para a construção da identidade do narrador pouco escolarizado."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Gramática e uso da língua"
   },
   {
    "id": "enem-2017-q46",
@@ -2152,7 +2230,9 @@
      "text": "Competição econômica dos reinos da região."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2017-q47",
@@ -2194,7 +2274,9 @@
      "text": "Lançamento de bombas atômicas em Hiroshima e Nagasaki pelas forças norte-americanas."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Sociologia",
+   "assunto": "Desigualdade e exclusão"
   },
   {
    "id": "enem-2017-q48",
@@ -2236,7 +2318,9 @@
      "text": "Inclinação de natureza passional."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2017-q49",
@@ -2278,7 +2362,9 @@
      "text": "Universalização do princípio da igualdade civil."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Sociologia",
+   "assunto": "Cidadania e movimentos sociais"
   },
   {
    "id": "enem-2017-q50",
@@ -2320,7 +2406,9 @@
      "text": "Bem-estar e modernização econômica."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "História",
+   "assunto": "Povos indígenas e africanos"
   },
   {
    "id": "enem-2017-q52",
@@ -2362,7 +2450,9 @@
      "text": "Desregulamentação comercial."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2017-q53",
@@ -2404,7 +2494,9 @@
      "text": "Reduzir a fiscalização alfandegária para incentivar o consumo."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2017-q55",
@@ -2446,7 +2538,9 @@
      "text": "Intensificação do escoamento superficial."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Relevo, solos e hidrografia"
   },
   {
    "id": "enem-2017-q56",
@@ -2488,7 +2582,9 @@
      "text": "Intensificação do policiamento das rodovias."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Agropecuária e questão agrária"
   },
   {
    "id": "enem-2017-q57",
@@ -2530,7 +2626,9 @@
      "text": "Primarização das exportações globais."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2017-q58",
@@ -2572,7 +2670,9 @@
      "text": "Padronização da cultura e repressão aos particularismos."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "População e migração"
   },
   {
    "id": "enem-2017-q60",
@@ -2614,7 +2714,9 @@
      "text": "Ajuste de políticas econômicas e incentivos fiscais."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2017-q61",
@@ -2656,7 +2758,9 @@
      "text": "Incorporação da China à Organização do Tratado do Atlântico Norte (Otan)."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Sociologia",
+   "assunto": "Estado, poder e instituições"
   },
   {
    "id": "enem-2017-q62",
@@ -2698,7 +2802,9 @@
      "text": "Recompor os mecanismos de acumulação econômica por meio da intervenção estatal."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2017-q63",
@@ -2740,7 +2846,9 @@
      "text": "A memória é um elemento crucial da identidade cultural."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Sociologia",
+   "assunto": "Cultura e identidade"
   },
   {
    "id": "enem-2017-q64",
@@ -2782,7 +2890,9 @@
      "text": "A contraposição entre bondade e condições selvagem do Naturalismo."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2017-q65",
@@ -2824,7 +2934,9 @@
      "text": "Átomo, que explica o surgimento dos entes."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Filosofia",
+   "assunto": "Filosofia antiga"
   },
   {
    "id": "enem-2017-q66",
@@ -2866,7 +2978,9 @@
      "text": "Investigação dos fundamentos da natureza."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Filosofia",
+   "assunto": "Filosofia antiga"
   },
   {
    "id": "enem-2017-q67",
@@ -2908,7 +3022,9 @@
      "text": "Profissionalização do quadro de funcionários da Justiça."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2017-q68",
@@ -2950,7 +3066,9 @@
      "text": "Semidecídua e clima tropical úmido."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Geografia",
+   "assunto": "Relevo, solos e hidrografia"
   },
   {
    "id": "enem-2017-q69",
@@ -2992,7 +3110,9 @@
      "text": "Espaços com infraestrutura de circulação"
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Meio ambiente e energia"
   },
   {
    "id": "enem-2017-q70",
@@ -3034,7 +3154,9 @@
      "text": "Desconcentração da estrutura fundiária."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "História",
+   "assunto": "Idade Média"
   },
   {
    "id": "enem-2017-q72",
@@ -3076,7 +3198,9 @@
      "text": "Desertificação de ecossistemas."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Geografia",
+   "assunto": "Meio ambiente e energia"
   },
   {
    "id": "enem-2017-q73",
@@ -3118,7 +3242,9 @@
      "text": "Saturação de empregabilidade do setor terciário."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Urbanização"
   },
   {
    "id": "enem-2017-q74",
@@ -3160,7 +3286,9 @@
      "text": "Apoio financeiro às lideranças femininas."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2017-q75",
@@ -3202,7 +3330,9 @@
      "text": "Equiparação da condição política com a dos demais países."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Geopolítica"
   },
   {
    "id": "enem-2017-q76",
@@ -3244,7 +3374,9 @@
      "text": "Limites da concessão de alforria."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   },
   {
    "id": "enem-2017-q78",
@@ -3286,7 +3418,9 @@
      "text": "Alargar o entendimento da população sobre as intenções do novo governo."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2017-q79",
@@ -3344,7 +3478,9 @@
      "text": "Criação de normas coletivas diminuiu as desigualdades de tratamento."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "História",
+   "assunto": "Antiguidade"
   },
   {
    "id": "enem-2017-q80",
@@ -3386,7 +3522,9 @@
      "text": "Mecanização da produção."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Agropecuária e questão agrária"
   },
   {
    "id": "enem-2017-q81",
@@ -3428,7 +3566,9 @@
      "text": "Resgatar a representatividade dos sindicatos sob controle social."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "História",
+   "assunto": "Brasil República"
   },
   {
    "id": "enem-2017-q82",
@@ -3470,7 +3610,9 @@
      "text": "Representação eclesiástica e dogmatismo ideológico."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "História",
+   "assunto": "Brasil República"
   },
   {
    "id": "enem-2017-q83",
@@ -3512,7 +3654,9 @@
      "text": "Manipulação ideológica é favorecida pela privação material."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "História",
+   "assunto": "Brasil República"
   },
   {
    "id": "enem-2017-q84",
@@ -3554,7 +3698,9 @@
      "text": "Controle do poder político por cidadãos mais esclarecidos."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Sociologia",
+   "assunto": "Cidadania e movimentos sociais"
   },
   {
    "id": "enem-2017-q85",
@@ -3596,7 +3742,9 @@
      "text": "Permite que a ação individual produza a mais ampla felicidade para as pessoas envolvidas."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Filosofia",
+   "assunto": "Ética e política"
   },
   {
    "id": "enem-2017-q86",
@@ -3638,7 +3786,9 @@
      "text": "Áreas de bacias sedimentares antigas, localizadas no centro das placas tectônicas, em regiões conhecidas como pontos quentes."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Geografia",
+   "assunto": "Cartografia"
   },
   {
    "id": "enem-2017-q88",
@@ -3680,7 +3830,9 @@
      "text": "A democracia protege as atividades políticas necessárias para o bem comum."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Filosofia",
+   "assunto": "Conhecimento e ciência"
   },
   {
    "id": "enem-2017-q89",
@@ -3722,7 +3874,9 @@
      "text": "Manutenção das preferências de consumo."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Geografia",
+   "assunto": "Economia, indústria e globalização"
   }
  ]
 }

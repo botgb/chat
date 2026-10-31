@@ -3,7 +3,7 @@
  "vestibular": "enem",
  "title": "ENEM 2009, dia 2",
  "year": 2009,
- "version": 1,
+ "version": 2,
  "source": "Questões: INEP, ENEM 2009. Transcrição: ENEM API (enem.dev).",
  "questions": [
   {
@@ -46,7 +46,9 @@
      "text": "Ao seu interesse profissional em financiar o veículo de Júlio."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2009-q95",
@@ -88,7 +90,9 @@
      "text": "Uma narrativa com encadeamentos claramente lógicos e lineares."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2009-q98",
@@ -146,7 +150,9 @@
      "text": "“Tease me, tease me outra vez” (v. 14)"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2009-q99",
@@ -204,7 +210,9 @@
      "text": "A liberdade formal da estrutura poética que dispensa a rima e a métrica tradicionais em favor de temas do cotidiano."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2009-q102",
@@ -246,7 +254,9 @@
      "text": "A iluminação e o som de um espetáculo cênico independem do processo de produção/recepção do espetáculo teatral, já que se trata de linguagens artísticas diferentes, agregadas posteriormente à cena teatral."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2009-q103",
@@ -284,7 +294,9 @@
      "text": "Pode exercer atividades físicas no final do dia, mas suas reservas de energia são insuficientes para atividades intelectuais."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2009-q104",
@@ -326,7 +338,9 @@
      "text": "Só o autor conhece o que eletronicamente se dispõe para o leitor."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2009-q106",
@@ -368,7 +382,9 @@
      "text": "Estão em estágio experimental, particularmente na educação, área em que ainda não demonstraram potencial produtivo."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2009-q107",
@@ -418,7 +434,9 @@
      "text": "Recorrem à informação, por meio de constatações, para convencer o leitor a evitar o uso de sacolas plásticas."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2009-q108",
@@ -468,7 +486,9 @@
      "text": "O texto I apresenta um alerta a respeito da possibilidade de contaminação de produtos orgânicos e industrializados decorrente do uso de plástico em suas embalagens; o texto II apresenta vantagens do consumo de sacolas plásticas: leves, descartáveis e gratuitas."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2009-q110",
@@ -510,7 +530,9 @@
      "text": "A produção de repertório cultural direcionado a acadêmicos e educadores."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2009-q111",
@@ -564,7 +586,9 @@
      "text": "Padronização de palavras que variam regionalmente, mas possuem mesmo significado."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2009-q113",
@@ -598,7 +622,9 @@
      "text": "Uma proposta de educação para o uso de novas pedagogias com a finalidade de acompanhar a evolução das mídias e orientar a produção de material pedagógico com apoio de computadores e outras técnicas digitais."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Tecnologias e comunicação",
+   "assunto": "Mídias e tecnologia"
   },
   {
    "id": "enem-2009-q115",
@@ -640,7 +666,9 @@
      "text": "Preservação de uma identidade entre a gestualidade ancestral e a novidade dos cantos a serem entoados."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2009-q116",
@@ -690,7 +718,9 @@
      "text": "Poética, pois chama-se a atenção para a elaboração especial e artística da estrutura do texto."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2009-q117",
@@ -740,7 +770,9 @@
      "text": "A inversão da ordem sintática das palavras."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2009-q118",
@@ -782,7 +814,9 @@
      "text": "A metodologia teatral do Teatro do Oprimido segue a concepção do teatro clássico aristotélico, que visa à desautomação física e intelectual de seus praticantes."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Artes",
+   "assunto": "Música, dança e teatro"
   },
   {
    "id": "enem-2009-q119",
@@ -832,7 +866,9 @@
      "text": "O primeiro texto prega a rigidez gramatical no uso da língua, enquanto o segundo defende uma adequação da língua escrita ao padrão atual brasileiro."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2009-q120",
@@ -874,7 +910,9 @@
      "text": "Érico Veríssimo, Rachel de Queiroz, Simões Lopes Neto e Jorge Amado são romancistas das décadas de 30 e 40 do século XX, cuja obra retrata a problemática do homem urbano em confronto com a modernização do país promovida pelo Estado Novo."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2009-q121",
@@ -916,7 +954,9 @@
      "text": "A um grupo sociocultural formado por brasileiros naturalizados e imigrantes."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2009-q122",
@@ -958,7 +998,9 @@
      "text": "Ressaltar a importância do código linguístico que adotamos como língua nacional."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Português",
+   "assunto": "Variação linguística"
   },
   {
    "id": "enem-2009-q123",
@@ -1004,7 +1046,9 @@
      "text": "Evidencia a dinâmica social do trabalho coletivo em que os mais fortes colaboram com os mais fracos, de modo a guiá-los na realização de tarefas."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2009-q124",
@@ -1046,7 +1090,9 @@
      "text": "“O bisturi e o verso.  Dois instrumentos  entre as minhas mãos” (p. 95)."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2009-q128",
@@ -1092,7 +1138,9 @@
      "text": "“Deveria fugir ou falar com ela? Ora, algumas palavras...” (ℓ. 14-15)."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2009-q129",
@@ -1142,7 +1190,9 @@
      "text": "À existência de delimitações dialetais geográficas pouco marcadas no Brasil, embora cada um enfatize aspectos diferentes da questão."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Português",
+   "assunto": "Variação linguística"
   },
   {
    "id": "enem-2009-q130",
@@ -1184,7 +1234,9 @@
      "text": "O novo estilo cultural brasileiro se caracteriza por uma união bastante significativa entre as diversas matrizes culturais advindas das várias regiões do país, como se pode comprovar na obra de Paulo Coelho."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2009-q131",
@@ -1234,7 +1286,9 @@
      "text": "Atitude crítica, que se estende à própria língua portuguesa, por se tratar de sistema que não disporia de elementos necessários para a plena inserção sociocultural de falantes não nativos do português."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Português",
+   "assunto": "Variação linguística"
   },
   {
    "id": "enem-2009-q132",
@@ -1284,7 +1338,9 @@
      "text": "Traduz, em linguagem subjetiva e intimista, a partir do ponto de vista interno, os dramas psicológicos da mulher moderna, às voltas com a questão da priorização do trabalho em detrimento da vida familiar e amorosa."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2009-q133",
@@ -1334,7 +1390,9 @@
      "text": "Contraditório, ao acusar a sua interlocutora de compactuar com o regime repressor da ditadura militar, por meio da defesa de instituições como a família e a Igreja."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Português",
+   "assunto": "Interpretação de texto"
   },
   {
    "id": "enem-2009-q134",
@@ -1376,7 +1434,9 @@
      "text": "Existe desde a Idade Média, entretanto esse acontecimento se intensificou a partir da Revolução Industrial no século XIX e se estendeu até os nossos dias."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Educação Física",
+   "assunto": "Corpo, esporte e saúde"
   },
   {
    "id": "enem-2009-q135",
@@ -1434,7 +1494,9 @@
      "text": "Apresenta influências românticas, uma vez que trata da individualidade, da saudade da infância e do amor pela terra natal, por meio de recursos retóricos pomposos."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Literatura",
+   "assunto": "Poesia e prosa"
   },
   {
    "id": "enem-2009-q141",
@@ -1476,7 +1538,9 @@
      "text": "888,00 milhões de litros."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   },
   {
    "id": "enem-2009-q145",
@@ -1510,7 +1574,9 @@
      "text": "6 × (0,2%) × (99,8%)."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2009-q151",
@@ -1548,7 +1614,9 @@
      "text": "R$ 57,00."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2009-q152",
@@ -1594,7 +1662,9 @@
      "text": "1,5 x 109 vezes a capacidade do reservatório novo."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   },
   {
    "id": "enem-2009-q154",
@@ -1632,7 +1702,9 @@
      "text": "7,04 metros."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Grandezas, medidas e escalas"
   },
   {
    "id": "enem-2009-q155",
@@ -1670,7 +1742,9 @@
      "text": "V = 15.000 – 50x + x²."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   },
   {
    "id": "enem-2009-q156",
@@ -1708,7 +1782,9 @@
      "text": "0 e 1."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2009-q157",
@@ -1746,7 +1822,9 @@
      "text": "32."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   },
   {
    "id": "enem-2009-q160",
@@ -1784,7 +1862,9 @@
      "text": "Reduzir em R$ 400,00 o valor do aluguel diário de uma máquina."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2009-q161",
@@ -1822,7 +1902,9 @@
      "text": "Empataria com a equipe Ômega na primeira colocação se o aluno obtivesse nota 9."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Estatística"
   },
   {
    "id": "enem-2009-q162",
@@ -1860,7 +1942,9 @@
      "text": "570 kg."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2009-q163",
@@ -1898,7 +1982,9 @@
      "text": "717 kg."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   },
   {
    "id": "enem-2009-q165",
@@ -1936,7 +2022,9 @@
      "text": "Dois arranjos."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Matemática",
+   "assunto": "Probabilidade e contagem"
   },
   {
    "id": "enem-2009-q170",
@@ -1974,7 +2062,9 @@
      "text": "Um cartão de memória de 64 MB."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2009-q171",
@@ -2020,7 +2110,9 @@
      "text": "14 vezes menor."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Probabilidade e contagem"
   },
   {
    "id": "enem-2009-q175",
@@ -2062,7 +2154,9 @@
      "text": "3.000."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2009-q176",
@@ -2100,7 +2194,9 @@
      "text": "Não poderia fazer todas as 3 séries dos exercícios especificados em seu programa; em alguma dessas séries deveria ter feito uma série a menos e não deveria ter cumprido um dos períodos de descanso."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2009-q177",
@@ -2138,7 +2234,9 @@
      "text": "O número de lados de qualquer polígono obtido interceptando-se uma pirâmide por um plano é igual ao número de arestas laterais da pirâmide. Como a pirâmide tem 4 arestas laterais, o polígono tem 4 lados."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Geometria plana"
   },
   {
    "id": "enem-2009-q178",
@@ -2176,7 +2274,9 @@
      "text": "Pegar emprestado de José o dinheiro referente à quitação do cartão de crédito e pagar as parcelas do cheque especial."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Matemática financeira"
   },
   {
    "id": "enem-2009-q179",
@@ -2226,7 +2326,9 @@
      "text": "110 metros por 30 metros, pois assim teria uma área de 3.300 m² ."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Geometria plana"
   },
   {
    "id": "enem-2009-q180",
@@ -2264,7 +2366,9 @@
      "text": "10 doses."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   }
  ]
 }

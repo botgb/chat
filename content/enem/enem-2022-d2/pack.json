@@ -3,7 +3,7 @@
  "vestibular": "enem",
  "title": "ENEM 2022, dia 2",
  "year": 2022,
- "version": 1,
+ "version": 2,
  "source": "Questões: INEP, ENEM 2022. Transcrição: ENEM API (enem.dev).",
  "questions": [
   {
@@ -42,7 +42,9 @@
      "text": "Consumo de carnes vermelhas bem cozidas."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Biologia",
+   "assunto": "Microbiologia e doenças"
   },
   {
    "id": "enem-2022-q93",
@@ -84,7 +86,9 @@
      "text": "20 000 m²"
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Física",
+   "assunto": "Energia e trabalho"
   },
   {
    "id": "enem-2022-q97",
@@ -126,7 +130,9 @@
      "text": "Separação magnética."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2022-q98",
@@ -168,7 +174,9 @@
      "text": "Expressão do gene responsável pela produção da enzima normal."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2022-q99",
@@ -206,7 +214,9 @@
      "text": "Diminuem a relação de competição entre os polinizadores e facilitam a ação de dispersores de sementes de espécies nativas."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Biologia",
+   "assunto": "Ecologia"
   },
   {
    "id": "enem-2022-q102",
@@ -244,7 +254,9 @@
      "text": "Obter moléculas de cDNAviral por meio da transcrição reversa."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2022-q104",
@@ -282,7 +294,9 @@
      "text": "Taxa de transporte de oxigênio pelo sangue."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Fisiologia humana e saúde"
   },
   {
    "id": "enem-2022-q105",
@@ -320,7 +334,9 @@
      "text": "A força é maior na colisão com a barreira de blocos, e a energia dissipada é maior na colisão com a barreira de blocos."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2022-q110",
@@ -358,7 +374,9 @@
      "text": "O ambiente induz modificação na produção do número de gametas femininos."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Biologia",
+   "assunto": "Evolução"
   },
   {
    "id": "enem-2022-q112",
@@ -408,7 +426,9 @@
      "text": "900 N"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2022-q114",
@@ -446,7 +466,9 @@
      "text": "Murchamento da célula com expulsão do pigmento do vacúolo."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Biologia",
+   "assunto": "Citologia"
   },
   {
    "id": "enem-2022-q119",
@@ -484,7 +506,9 @@
      "text": "1,33 A"
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Física",
+   "assunto": "Eletricidade e magnetismo"
   },
   {
    "id": "enem-2022-q122",
@@ -526,7 +550,9 @@
      "text": "Regular a oscilação da pressão arterial, característica dos quadros de hipertensão."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Biologia",
+   "assunto": "Genética"
   },
   {
    "id": "enem-2022-q123",
@@ -568,7 +594,9 @@
      "text": "Eles manteriam suas órbitas inalteradas."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Física",
+   "assunto": "Mecânica"
   },
   {
    "id": "enem-2022-q124",
@@ -610,7 +638,9 @@
      "text": "Base."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Química",
+   "assunto": "Química ambiental"
   },
   {
    "id": "enem-2022-q126",
@@ -648,7 +678,9 @@
      "text": "Fluoretação."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Química",
+   "assunto": "Química ambiental"
   },
   {
    "id": "enem-2022-q127",
@@ -690,7 +722,9 @@
      "text": "Fosforilação oxidativa."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Biologia",
+   "assunto": "Citologia"
   },
   {
    "id": "enem-2022-q130",
@@ -728,7 +762,9 @@
      "text": "Fazer uma pequena distinção de cores em ambientes iluminados."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Biologia",
+   "assunto": "Citologia"
   },
   {
    "id": "enem-2022-q132",
@@ -770,7 +806,9 @@
      "text": "Inserção de material genético do vírus na bactéria"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Biologia",
+   "assunto": "Microbiologia e doenças"
   },
   {
    "id": "enem-2022-q133",
@@ -812,7 +850,9 @@
      "text": "Desencadeamento de processo anti-inflamatório."
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Biologia",
+   "assunto": "Microbiologia e doenças"
   },
   {
    "id": "enem-2022-q139",
@@ -850,7 +890,9 @@
      "text": "2,00 e 1,00."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Matemática",
+   "assunto": "Grandezas, medidas e escalas"
   },
   {
    "id": "enem-2022-q140",
@@ -892,7 +934,9 @@
      "text": "64."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2022-q142",
@@ -930,7 +974,9 @@
      "text": "24."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2022-q145",
@@ -968,7 +1014,9 @@
      "text": "400 000."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2022-q146",
@@ -1010,7 +1058,9 @@
      "text": "16"
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2022-q147",
@@ -1064,7 +1114,9 @@
      "text": "Excelente."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2022-q151",
@@ -1106,7 +1158,9 @@
      "text": "70 minutos ou mais."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2022-q154",
@@ -1148,7 +1202,9 @@
      "text": "448 568."
     }
    ],
-   "answer": "C"
+   "answer": "C",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2022-q163",
@@ -1186,7 +1242,9 @@
      "text": "37,5"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2022-q164",
@@ -1224,7 +1282,9 @@
      "text": "12,000."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2022-q165",
@@ -1262,7 +1322,9 @@
      "text": "53 290,0"
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Matemática",
+   "assunto": "Funções e gráficos"
   },
   {
    "id": "enem-2022-q167",
@@ -1300,7 +1362,9 @@
      "text": "R$ 80,00 maior."
     }
    ],
-   "answer": "A"
+   "answer": "A",
+   "materia": "Matemática",
+   "assunto": "Porcentagem e proporção"
   },
   {
    "id": "enem-2022-q169",
@@ -1346,7 +1410,9 @@
      "text": "V."
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Geometria plana"
   },
   {
    "id": "enem-2022-q172",
@@ -1392,7 +1458,9 @@
      "text": "V."
     }
    ],
-   "answer": "B"
+   "answer": "B",
+   "materia": "Matemática",
+   "assunto": "Geometria plana"
   },
   {
    "id": "enem-2022-q174",
@@ -1430,7 +1498,9 @@
      "text": "6400"
     }
    ],
-   "answer": "D"
+   "answer": "D",
+   "materia": "Matemática",
+   "assunto": "Geometria espacial"
   },
   {
    "id": "enem-2022-q175",
@@ -1468,7 +1538,9 @@
      "text": "1 350 000 000,00"
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   },
   {
    "id": "enem-2022-q178",
@@ -1506,7 +1578,9 @@
      "text": "24"
     }
    ],
-   "answer": "E"
+   "answer": "E",
+   "materia": "Matemática",
+   "assunto": "Aritmética e números"
   }
  ]
 }
