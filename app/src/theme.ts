@@ -24,6 +24,17 @@ export const lightColors = {
   heart: '#FF4B6E',
   gem: '#2EB8E6',
 
+  // Versões com contraste suficiente (WCAG AA) para texto branco em cima e para números
+  btnPrimary: '#2F6FE8',
+  btnSuccess: '#178A42',
+  btnDanger: '#D93030',
+  btnPrimaryEdge: '#1F4FB8',
+  btnSuccessEdge: '#0E6630',
+  btnDangerEdge: '#A32121',
+  streakText: '#B85A00',
+  gemText: '#0A7AA3',
+  heartText: '#C9284E',
+
   selectedBg: '#EAF1FF', // fundo de chips, alternativas e abas selecionados
   goldBg: '#FFF8E1',
   streakBg: '#FFF1E3',
@@ -55,6 +66,16 @@ export const darkColors: Colors = {
   streak: '#FF9A3D',
   heart: '#FF5C7C',
   gem: '#45C6F0',
+
+  btnPrimary: '#2F6FE8',
+  btnSuccess: '#178A42',
+  btnDanger: '#D93030',
+  btnPrimaryEdge: '#1F4FB8',
+  btnSuccessEdge: '#0E6630',
+  btnDangerEdge: '#A32121',
+  streakText: '#FF9A3D',
+  gemText: '#45C6F0',
+  heartText: '#FF5C7C',
 
   selectedBg: '#1F2D52',
   goldBg: '#33291A',

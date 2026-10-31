@@ -3,13 +3,14 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { Animated, Pressable, ScrollView, ScrollViewInstance, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Button } from '../components/Button';
+import { Sheet } from '../components/Sheet';
 import { QuestionView } from '../components/QuestionView';
 import { Timer, useCountdown } from '../components/Timer';
 import { Art } from '../illustrations/Art';
 import { currentHearts, dayKey, HEART_REFILL_COST, XP_LESSON_COMPLETE } from '../lib/gamification';
 import { buildLesson, filterQuestions, LessonMode } from '../lib/lesson';
 import { Question } from '../lib/types';
-import { feedback } from '../lib/settings';
+import { feedback, TEXT_SCALE, TEXT_SIZES } from '../lib/settings';
 import { useApp } from '../state/AppState';
 import { Colors, fonts, space, type } from '../theme';
 import { useColors, useStyles } from '../theme/ThemeContext';
@@ -74,6 +75,7 @@ export default function Licao() {
   const [revealed, setRevealed] = useState(false);
   const [results, setResults] = useState<{ correct: boolean; xp: number }[]>([]);
   const [finished, setFinished] = useState<{ stars: number } | null>(null);
+  const [confirmExit, setConfirmExit] = useState(false);
   const scroll = useRef<ScrollViewInstance>(null);
 
   const question = lesson[index];
@@ -129,13 +131,13 @@ export default function Licao() {
           </Text>
           <View style={styles.summary}>
             <View style={[styles.summaryBox, { borderColor: colors.right }]}>
-              <Text style={[styles.summaryLabel, { backgroundColor: colors.right }]}>Acertos</Text>
-              <Text style={[styles.summaryValue, { color: colors.right }]}>
+              <Text style={[styles.summaryLabel, { backgroundColor: colors.btnSuccess }]}>Acertos</Text>
+              <Text style={[styles.summaryValue, { color: colors.rightDark }]}>
                 {right}/{results.length}
               </Text>
             </View>
             <View style={[styles.summaryBox, { borderColor: colors.gold }]}>
-              <Text style={[styles.summaryLabel, { backgroundColor: colors.gold }]}>XP</Text>
+              <Text style={[styles.summaryLabel, { backgroundColor: colors.gold, color: '#3D2C00' }]}>XP</Text>
               <Text style={[styles.summaryValue, { color: colors.goldDark }]}>+{xp}</Text>
             </View>
           </View>
@@ -179,12 +181,31 @@ export default function Licao() {
   return (
     <SafeAreaView style={styles.screen}>
       <View style={styles.header}>
-        <Pressable onPress={() => router.back()} accessibilityRole="button" accessibilityLabel="Sair da lição" hitSlop={12}>
+        <Pressable
+          // Sair no meio pede confirmação: a fase não é concluída e não ganha estrelas.
+          onPress={() => (results.length > 0 || selected ? setConfirmExit(true) : router.back())}
+          accessibilityRole="button"
+          accessibilityLabel="Sair da lição"
+          hitSlop={12}
+        >
           <Text style={styles.close}>✕</Text>
         </Pressable>
         <View style={styles.progressTrack}>
           <View style={[styles.progressBar, { width: `${((index + (revealed ? 1 : 0)) / lesson.length) * 100}%` }]} />
         </View>
+        <Pressable
+          onPress={() => {
+            const next = TEXT_SIZES[(TEXT_SIZES.indexOf(app.settings.textSize) + 1) % TEXT_SIZES.length];
+            app.updateSettings({ ...app.settings, textSize: next });
+          }}
+          accessibilityRole="button"
+          accessibilityLabel={`Tamanho do texto: ${app.settings.textSize}. Tocar para mudar`}
+          hitSlop={8}
+          style={styles.textSizeBtn}
+        >
+          <Text style={styles.textSizeSmall}>A</Text>
+          <Text style={styles.textSizeBig}>A</Text>
+        </Pressable>
         {useHearts && (
           <View style={styles.heartsRow}>
             <Art name="vidas" size={26} />
@@ -201,7 +222,7 @@ export default function Licao() {
           </Text>
           <Timer remaining={timer.remaining} total={seconds} />
         </View>
-        <QuestionView question={question} selected={selected} revealed={revealed} onSelect={setSelected} />
+        <QuestionView question={question} selected={selected} revealed={revealed} onSelect={setSelected} scale={TEXT_SCALE[app.settings.textSize]} />
         {exam?.source ? <Text style={styles.credit}>{exam.source}</Text> : null}
       </ScrollView>
 
@@ -220,6 +241,11 @@ export default function Licao() {
           <Button label="Verificar" variant="success" onPress={confirm} disabled={!selected} />
         )}
       </View>
+      <Sheet visible={confirmExit} title="Sair da fase?" onClose={() => setConfirmExit(false)}>
+        <Text style={styles.muted}>As respostas já dadas ficam salvas, mas a fase não é concluída e não ganha estrelas.</Text>
+        <Button label="Continuar estudando" variant="success" onPress={() => setConfirmExit(false)} />
+        <Button label="Sair" variant="ghost" onPress={() => router.back()} />
+      </Sheet>
     </SafeAreaView>
   );
 }
@@ -240,6 +266,9 @@ const createStyles = (colors: Colors) =>
   close: { fontSize: type.title, color: colors.lockedDark, fontFamily: fonts.display },
   progressTrack: { flex: 1, height: 16, borderRadius: 8, backgroundColor: colors.surface, overflow: 'hidden' },
   progressBar: { height: 16, borderRadius: 8, backgroundColor: colors.right },
+  textSizeBtn: { flexDirection: 'row', alignItems: 'flex-end', paddingHorizontal: space(2), paddingVertical: space(1), borderRadius: 10, borderWidth: 2, borderColor: colors.line },
+  textSizeSmall: { fontFamily: fonts.display, fontSize: 14, color: colors.inkSoft },
+  textSizeBig: { fontFamily: fonts.display, fontSize: 20, color: colors.ink },
   heartsRow: { flexDirection: 'row', alignItems: 'center', gap: 4 },
   hearts: { fontFamily: fonts.display, fontSize: type.lead, color: colors.heart },
   metaRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', gap: space(3) },

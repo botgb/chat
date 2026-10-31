@@ -1,14 +1,14 @@
 import { router } from 'expo-router';
 import { useRef, useState } from 'react';
-import { Pressable, ScrollView, ScrollViewInstance, StyleSheet, Text, View } from 'react-native';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Button } from '../../components/Button';
-import { LevelMap, unitColor } from '../../components/LevelMap';
+import { LevelMap, LevelMapHandle, unitColor } from '../../components/LevelMap';
 import { Sheet } from '../../components/Sheet';
 import { TopBar } from '../../components/TopBar';
 import { Art } from '../../illustrations/Art';
 import { dayKey, dueQuestionIds, PATH_CHEST_DIAMONDS } from '../../lib/gamification';
-import { LEVEL_SIZE } from '../../lib/levels';
+import { Level, LEVEL_SIZE } from '../../lib/levels';
 import { useApp } from '../../state/AppState';
 import { useStudy } from '../../state/useStudy';
 import { Colors, fonts, space, type } from '../../theme';
@@ -19,10 +19,9 @@ export default function Trilha() {
   const app = useApp();
   const study = useStudy();
   const { progress } = app;
-  const scroll = useRef<ScrollViewInstance>(null);
-  const unitTops = useRef<number[]>([]);
-  const currentY = useRef<number | null>(null);
+  const map = useRef<LevelMapHandle>(null);
   const [unitIndex, setUnitIndex] = useState(0);
+  const [locked, setLocked] = useState<string | null>(null);
   const [showJump, setShowJump] = useState(false);
   const [guide, setGuide] = useState(false);
   const [chestOpened, setChestOpened] = useState(false);
@@ -52,15 +51,21 @@ export default function Trilha() {
   const unitStars = unit ? unit.levels.reduce((s, l) => s + l.stars, 0) : 0;
   const st = unit ? progress.subjectStats[unit.subject] : undefined;
 
-  const onScroll = (y: number) => {
-    // A faixa mostra a unidade que está passando pelo topo da tela.
-    let idx = 0;
-    unitTops.current.forEach((top, i) => {
-      if (top <= y + 40) idx = i;
+  const play = (l: Level) => {
+    if (!l.unlocked) {
+      const u = units.find((x) => x.levels.some((y) => y.id === l.id));
+      const prev = u?.levels[l.index - 1];
+      setLocked(
+        prev
+          ? `Conclua a fase ${prev.index + 1} de ${u!.subject} com pelo menos 1 estrela (3 acertos de 5) para liberar esta.`
+          : 'Esta fase ainda está bloqueada.',
+      );
+      return;
+    }
+    router.push({
+      pathname: '/licao',
+      params: { mode: 'pratica', vestibular: study.vestibular ?? '', level: l.id, ids: l.questionIds.join('|') },
     });
-    if (idx !== unitIndex) setUnitIndex(idx);
-    const cy = currentY.current;
-    setShowJump(cy !== null && Math.abs(cy - y - 200) > 400);
   };
 
   return (
@@ -85,31 +90,18 @@ export default function Trilha() {
         </View>
       )}
 
-      <ScrollView
-        ref={scroll}
-        onScroll={(e) => onScroll(e.nativeEvent.contentOffset.y)}
-        scrollEventThrottle={32}
-        contentContainerStyle={{ paddingBottom: space(24) }}
-      >
-        <LevelMap
-          units={units}
-          openedChests={progress.chests}
-          onUnitLayout={(i, y) => {
-            unitTops.current[i] = y;
-          }}
-          onCurrentLayout={(y) => {
-            currentY.current = y;
-          }}
-          onPlay={(l) =>
-            router.push({
-              pathname: '/licao',
-              params: { mode: 'pratica', vestibular: study.vestibular ?? '', level: l.id, ids: l.questionIds.join('|') },
-            })
-          }
-          onOpenChest={(id) => app.openChest(id) && setChestOpened(true)}
-        />
-        {app.offline && <Text style={styles.offline}>Sem internet: usando as provas já baixadas.</Text>}
-      </ScrollView>
+      <LevelMap
+        ref={map}
+        units={units}
+        openedChests={progress.chests}
+        onUnitChange={setUnitIndex}
+        onCurrentVisible={(v) => setShowJump(!v)}
+        onPlay={play}
+        onOpenChest={(id, unlocked) =>
+          unlocked ? app.openChest(id) && setChestOpened(true) : setLocked('Conclua a fase anterior para abrir este baú.')
+        }
+        footer={app.offline ? <Text style={styles.offline}>Sem internet: usando as provas já baixadas.</Text> : null}
+      />
 
       {due > 0 && (
         <Pressable
@@ -127,7 +119,7 @@ export default function Trilha() {
           style={[styles.fab, styles.fabJump]}
           accessibilityRole="button"
           accessibilityLabel="Ir para a fase atual"
-          onPress={() => currentY.current !== null && scroll.current?.scrollTo({ y: Math.max(0, currentY.current - 200), animated: true })}
+          onPress={() => map.current?.scrollToCurrent()}
         >
           <Text style={styles.jump}>↑</Text>
         </Pressable>
@@ -148,6 +140,11 @@ export default function Trilha() {
             <Text style={styles.info}>Acerte 3 de 5 para passar de fase, 4 para 2 estrelas e 5 para 3 estrelas. Os baús no caminho dão diamantes.</Text>
           </View>
         )}
+      </Sheet>
+
+      <Sheet visible={!!locked} title="Fase bloqueada" onClose={() => setLocked(null)}>
+        <Text style={styles.info}>{locked}</Text>
+        <Button label="Entendi" onPress={() => setLocked(null)} />
       </Sheet>
 
       <Sheet visible={chestOpened} title="Baú aberto!" onClose={() => setChestOpened(false)}>

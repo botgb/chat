@@ -33,11 +33,13 @@ export function QuestionView({
   selected,
   revealed,
   onSelect,
+  scale = 1,
 }: {
   question: Question;
   selected: string | null;
   revealed: boolean;
   onSelect: (letter: string) => void;
+  scale?: number; // tamanho do texto escolhido pelo aluno
 }) {
   const colors = useColors();
   const styles = useStyles(createStyles);
@@ -46,7 +48,7 @@ export function QuestionView({
       <View style={{ gap: space(3) }}>
         {question.statement.map((b, i) =>
           b.type === 'text' ? (
-            <Text key={i} style={styles.statement}>
+            <Text key={i} style={[styles.statement, scale !== 1 && { fontSize: (type.body + 1) * scale, lineHeight: (type.body + 1) * scale * 1.5 }]}>
               {b.text}
             </Text>
           ) : (
@@ -83,7 +85,7 @@ export function QuestionView({
                       <Text style={[styles.letterText, { color: c.letter }]}>{alt.letter}</Text>
                     </View>
                     <View style={{ flex: 1, gap: space(2) }}>
-                      {alt.text ? <Text style={[styles.altText, state === 'dim' && { color: colors.inkSoft }]}>{alt.text}</Text> : null}
+                      {alt.text ? <Text style={[styles.altText, scale !== 1 && { fontSize: type.body * scale, lineHeight: type.body * scale * 1.4 }, state === 'dim' && { color: colors.inkSoft }]}>{alt.text}</Text> : null}
                       {alt.image ? <ContentImage src={alt.image} w={alt.imageW} h={alt.imageH} /> : null}
                     </View>
                   </View>

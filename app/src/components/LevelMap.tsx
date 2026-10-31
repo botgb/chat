@@ -1,5 +1,5 @@
-import { useEffect, useRef } from 'react';
-import { Animated, Pressable, StyleSheet, Text, View } from 'react-native';
+import { forwardRef, useEffect, useImperativeHandle, useMemo, useRef } from 'react';
+import { Animated, FlatList, ListViewToken, Pressable, StyleSheet, Text, View } from 'react-native';
 import { buildPath, Level, PathItem, Unit } from '../lib/levels';
 import { Art, ArtName, subjectArt } from '../illustrations/Art';
 import { Colors, fonts, space, type, unitColors } from '../theme';
@@ -94,7 +94,6 @@ function LevelNode({
       )}
       <Pressable
         onPress={onPress}
-        disabled={!level.unlocked}
         accessibilityRole="button"
         accessibilityLabel={`${level.last ? 'Desafio da unidade' : `Fase ${level.index + 1}`}${level.unlocked ? '' : ', bloqueada'}`}
       >
@@ -119,7 +118,7 @@ function LevelNode({
 function ChestNode({ item, onOpen }: { item: Extract<PathItem, { kind: 'chest' }>; onOpen: () => void }) {
   const ready = item.unlocked && !item.opened;
   const chest = (
-    <Pressable onPress={onOpen} disabled={!ready} accessibilityRole="button" accessibilityLabel={item.opened ? 'Baú aberto' : ready ? 'Abrir baú' : 'Baú bloqueado'}>
+    <Pressable onPress={onOpen} disabled={item.opened} accessibilityRole="button" accessibilityLabel={item.opened ? 'Baú aberto' : ready ? 'Abrir baú' : 'Baú bloqueado'}>
       <Art name="bau" size={60} opacity={!item.unlocked ? 0.35 : item.opened ? 0.4 : 1} />
     </Pressable>
   );
@@ -137,68 +136,116 @@ function Decoration({ art, side, color }: { art: ArtName; side: 'left' | 'right'
   );
 }
 
-export function LevelMap({
-  units,
-  openedChests,
-  onPlay,
-  onOpenChest,
-  onUnitLayout,
-  onCurrentLayout,
-}: {
+type Row =
+  | { kind: 'start'; key: string; ui: number; subject: string }
+  | { kind: 'item'; key: string; ui: number; i: number; item: PathItem };
+
+const START_FIRST = 32; // espaço antes da primeira unidade
+const START_NEXT = 120; // divisória com o nome da matéria entre unidades
+
+const rowHeight = (r: Row) => (r.kind === 'item' ? ROW : r.ui === 0 ? START_FIRST : START_NEXT);
+
+export type LevelMapHandle = { scrollToCurrent: () => void };
+
+/**
+ * Trilha como lista virtualizada: só as fases perto da tela são desenhadas,
+ * para continuar leve com centenas de fases (várias provas baixadas).
+ */
+export const LevelMap = forwardRef<LevelMapHandle, {
   units: Unit[];
   openedChests: string[];
   onPlay: (level: Level) => void;
-  onOpenChest: (id: string) => void;
-  onUnitLayout?: (index: number, y: number) => void;
-  onCurrentLayout?: (y: number) => void;
-}) {
+  onOpenChest: (id: string, unlocked: boolean) => void;
+  onUnitChange?: (index: number) => void;
+  onCurrentVisible?: (visible: boolean) => void;
+  footer?: React.ReactElement | null;
+}>(function LevelMap({ units, openedChests, onPlay, onOpenChest, onUnitChange, onCurrentVisible, footer }, ref) {
   const styles = useStyles(createStyles);
+  const list = useRef<FlatList<Row>>(null);
   const firstCurrent = units.flatMap((u) => u.levels).find((l) => l.current)?.id;
+
+  const { rows, offsets, currentIndex } = useMemo(() => {
+    const rows: Row[] = [];
+    units.forEach((u, ui) => {
+      rows.push({ kind: 'start', key: `start:${u.subject}`, ui, subject: u.subject });
+      buildPath(u, openedChests).forEach((item, i) =>
+        rows.push({ kind: 'item', key: item.kind === 'level' ? item.level.id : item.id, ui, i, item }),
+      );
+    });
+    const offsets: number[] = [];
+    let y = 0;
+    for (const r of rows) {
+      offsets.push(y);
+      y += rowHeight(r);
+    }
+    const currentIndex = rows.findIndex((r) => r.kind === 'item' && r.item.kind === 'level' && r.item.level.id === firstCurrent);
+    return { rows, offsets, currentIndex };
+  }, [units, openedChests, firstCurrent]);
+
+  useImperativeHandle(ref, () => ({
+    scrollToCurrent: () => {
+      if (currentIndex >= 0) list.current?.scrollToIndex({ index: currentIndex, viewPosition: 0.4, animated: true });
+    },
+  }));
+
+  // Os callbacks de visibilidade precisam ser estáveis para a FlatList.
+  const cb = useRef({ onUnitChange, onCurrentVisible, currentIndex });
+  cb.current = { onUnitChange, onCurrentVisible, currentIndex };
+  const onViewable = useRef(({ viewableItems }: { viewableItems: ListViewToken[] }) => {
+    const first = viewableItems[0]?.item;
+    if (first) cb.current.onUnitChange?.(first.ui);
+    cb.current.onCurrentVisible?.(viewableItems.some((v) => v.index === cb.current.currentIndex));
+  }).current;
+
+  const renderItem = ({ item: r }: { item: Row }) => {
+    const color = unitColor(r.ui);
+    if (r.kind === 'start') {
+      return r.ui === 0 ? (
+        <View style={{ height: START_FIRST }} />
+      ) : (
+        <View style={[styles.divider, { height: START_NEXT }]}>
+          <View style={styles.dividerLine} />
+          <Text style={styles.dividerText}>{r.subject}</Text>
+          <View style={styles.dividerLine} />
+        </View>
+      );
+    }
+    const phase = r.i % 8;
+    const art = subjectArt(units[r.ui].subject);
+    const it = r.item;
+    return (
+      <View style={styles.row}>
+        {phase === 2 && <Decoration art={art} side="left" color={color.main} />}
+        {phase === 6 && <Decoration art={art} side="right" color={color.main} />}
+        <View style={{ transform: [{ translateX: offsetX(r.i) }] }}>
+          {it.kind === 'level' ? (
+            <LevelNode level={it.level} color={color} highlight={it.level.id === firstCurrent} onPress={() => onPlay(it.level)} />
+          ) : (
+            <ChestNode item={it} onOpen={() => onOpenChest(it.id, it.unlocked)} />
+          )}
+        </View>
+      </View>
+    );
+  };
+
   return (
-    <View>
-      {units.map((u, ui) => {
-        const color = unitColor(ui);
-        const path = buildPath(u, openedChests);
-        const art = subjectArt(u.subject);
-        return (
-          <View key={u.subject} onLayout={(e) => onUnitLayout?.(ui, e.nativeEvent.layout.y)} style={{ paddingTop: space(6) }}>
-            {ui > 0 && (
-              <View style={styles.divider}>
-                <View style={styles.dividerLine} />
-                <Text style={styles.dividerText}>{u.subject}</Text>
-                <View style={styles.dividerLine} />
-              </View>
-            )}
-            <View style={{ paddingTop: space(8) }}>
-              {path.map((item, i) => {
-                const x = offsetX(i);
-                const phase = i % 8;
-                const isCurrent = item.kind === 'level' && item.level.id === firstCurrent;
-                return (
-                  <View
-                    key={item.kind === 'level' ? item.level.id : item.id}
-                    style={styles.row}
-                    onLayout={isCurrent ? (e) => onCurrentLayout?.(e.nativeEvent.layout.y) : undefined}
-                  >
-                    {phase === 2 && <Decoration art={art} side="left" color={color.main} />}
-                    {phase === 6 && <Decoration art={art} side="right" color={color.main} />}
-                    <View style={{ transform: [{ translateX: x }] }}>
-                      {item.kind === 'level' ? (
-                        <LevelNode level={item.level} color={color} highlight={isCurrent} onPress={() => onPlay(item.level)} />
-                      ) : (
-                        <ChestNode item={item} onOpen={() => onOpenChest(item.id)} />
-                      )}
-                    </View>
-                  </View>
-                );
-              })}
-            </View>
-          </View>
-        );
-      })}
-    </View>
+    <FlatList
+      ref={list}
+      style={{ flex: 1 }}
+      data={rows}
+      keyExtractor={(r) => r.key}
+      renderItem={renderItem}
+      getItemLayout={(_, index) => ({ length: rowHeight(rows[index]), offset: offsets[index], index })}
+      onViewableItemsChanged={onViewable}
+      viewabilityConfig={{ itemVisiblePercentThreshold: 30 }}
+      initialNumToRender={12}
+      windowSize={7}
+      removeClippedSubviews
+      ListFooterComponent={footer ?? undefined}
+      contentContainerStyle={{ paddingBottom: space(24) }}
+    />
   );
-}
+});
 
 const createStyles = (colors: Colors) =>
   StyleSheet.create({

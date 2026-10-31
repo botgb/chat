@@ -65,7 +65,7 @@ function Field({
         value={value}
         onChangeText={onChange}
         style={[styles.input, error && { borderColor: colors.wrong }]}
-        placeholderTextColor={colors.lockedDark}
+        placeholderTextColor={colors.inkSoft}
         accessibilityLabel={label}
         autoCorrect={false}
         {...input}

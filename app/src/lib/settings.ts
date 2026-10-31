@@ -10,8 +10,13 @@ export type Profile = {
   telefone: string;
 };
 
+export type TextSize = 'normal' | 'grande' | 'maior';
+export const TEXT_SCALE: Record<TextSize, number> = { normal: 1, grande: 1.15, maior: 1.3 };
+export const TEXT_SIZES: TextSize[] = ['normal', 'grande', 'maior'];
+
 export type Settings = {
   theme: ThemeMode;
+  textSize: TextSize;
   sound: boolean;
   vibration: boolean;
   notifications: {
@@ -27,6 +32,7 @@ export const STREAK_REMINDER_HOUR = 21;
 
 export const defaultSettings = (): Settings => ({
   theme: 'system',
+  textSize: 'normal',
   sound: true,
   vibration: true,
   notifications: { daily: false, dailyHour: 18, streak: false },

@@ -5,9 +5,9 @@ import { useColors, useStyles } from '../theme/ThemeContext';
 type Variant = 'primary' | 'success' | 'danger' | 'ghost';
 
 const palette = (colors: Colors): Record<Variant, { bg: string; edge: string; text: string }> => ({
-  primary: { bg: colors.primary, edge: colors.primaryDark, text: colors.onColor },
-  success: { bg: colors.right, edge: colors.rightDark, text: colors.onColor },
-  danger: { bg: colors.wrong, edge: colors.wrongDark, text: colors.onColor },
+  primary: { bg: colors.btnPrimary, edge: colors.btnPrimaryEdge, text: colors.onColor },
+  success: { bg: colors.btnSuccess, edge: colors.btnSuccessEdge, text: colors.onColor },
+  danger: { bg: colors.btnDanger, edge: colors.btnDangerEdge, text: colors.onColor },
   ghost: { bg: colors.bg, edge: colors.line, text: colors.inkSoft },
 });
 

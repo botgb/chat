@@ -66,9 +66,9 @@ export function TopBar() {
         label={`Matérias: ${study.activeSubjects.length ? study.activeSubjects.join(', ') : 'todas'}. Trocar`}
         onPress={() => setPanel('subject')}
       />
-      <Item icon="ofensiva" value={streak} color={streak > 0 ? colors.streak : colors.lockedDark} label={`${streak} dias seguidos`} onPress={() => setPanel('streak')} />
-      <Item icon="diamantes" value={progress.diamonds} color={colors.gem} label={`${progress.diamonds} diamantes`} onPress={() => setPanel('diamonds')} />
-      <Item icon="vidas" value={hearts} color={hearts > 0 ? colors.heart : colors.lockedDark} label={`${hearts} vidas`} onPress={() => setPanel('hearts')} />
+      <Item icon="ofensiva" value={streak} color={streak > 0 ? colors.streakText : colors.inkSoft} label={`${streak} dias seguidos`} onPress={() => setPanel('streak')} />
+      <Item icon="diamantes" value={progress.diamonds} color={colors.gemText} label={`${progress.diamonds} diamantes`} onPress={() => setPanel('diamonds')} />
+      <Item icon="vidas" value={hearts} color={hearts > 0 ? colors.heartText : colors.inkSoft} label={`${hearts} vidas`} onPress={() => setPanel('hearts')} />
 
       <Sheet visible={panel === 'exam'} title="Escolha a prova" onClose={close}>
         {study.vestibulares.map((v) => (

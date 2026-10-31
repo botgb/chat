@@ -117,7 +117,7 @@ const createStyles = (colors: Colors) =>
   fill: { position: 'absolute', left: 0, top: 0, bottom: 0, borderRadius: 10, backgroundColor: colors.gold },
   trackText: { fontFamily: fonts.display, fontSize: type.small, color: colors.ink, textAlign: 'center' },
   reward: { paddingHorizontal: space(3), paddingVertical: space(2), borderRadius: 12, borderWidth: 2, borderBottomWidth: 4, borderColor: colors.line },
-  rewardReady: { backgroundColor: colors.right, borderColor: colors.right, borderBottomColor: colors.rightDark },
+  rewardReady: { backgroundColor: colors.btnSuccess, borderColor: colors.btnSuccess, borderBottomColor: colors.btnSuccessEdge },
   rewardText: { fontFamily: fonts.display, fontSize: type.body - 1, color: colors.inkSoft },
   claimed: { fontFamily: fonts.display, fontSize: type.title, color: colors.right, paddingHorizontal: space(2) },
 });
