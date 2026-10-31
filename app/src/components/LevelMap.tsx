@@ -315,7 +315,7 @@ function StarNode({ row, highlight, onPress }: { row: ItemRow; highlight: boolea
 
 const de = (subject: string) => (/[ae]$/.test(subject) && !/ês$/.test(subject) ? 'da' : 'de');
 
-export type LevelMapHandle = { scrollToCurrent: () => void };
+export type LevelMapHandle = { scrollToCurrent: () => void; scrollToLevel: (id: string) => void };
 
 export const LevelMap = forwardRef<LevelMapHandle, {
   units: Unit[];
@@ -335,6 +335,10 @@ export const LevelMap = forwardRef<LevelMapHandle, {
     scrollToCurrent: () => {
       if (L.currentIndex >= 0) list.current?.scrollToIndex({ index: L.currentIndex, viewPosition: 0.45, animated: true });
     },
+    scrollToLevel: (id: string) => {
+      const index = L.rows.findIndex((r) => r.kind === 'item' && r.item.kind === 'level' && r.item.level.id === id);
+      if (index >= 0) list.current?.scrollToIndex({ index, viewPosition: 0.45, animated: true });
+    },
   }));
 
   const cb = useRef({ onUnitChange, onCurrentVisible, currentIndex: L.currentIndex });
@@ -352,13 +356,6 @@ export const LevelMap = forwardRef<LevelMapHandle, {
         <View style={{ height: row.h }}>
           {bg}
           <LinkPieces links={L.links} top={row.top} h={row.h} w={W} />
-          {row.prev && (
-            <View style={styles.passage} pointerEvents="none">
-              <Text style={styles.passageText}>
-                {row.prev}  ➜  {row.subject}
-              </Text>
-            </View>
-          )}
           <View style={styles.head} pointerEvents="none">
             <Text style={styles.headTitle} numberOfLines={1}>
               Constelação {de(row.subject)} {row.subject}
@@ -381,7 +378,7 @@ export const LevelMap = forwardRef<LevelMapHandle, {
         <LinkPieces links={L.links} top={row.top} h={row.h} w={W} />
         <StarNode
           row={row}
-          highlight={row.item.kind === 'level' && row.item.level.id === firstCurrent}
+          highlight={row.item.kind === 'level' && row.item.level.current}
           onPress={() => (row.item.kind === 'level' ? onPlay(row.item.level) : onOpenChest(row.item.id, row.item.unlocked))}
         />
       </View>
@@ -415,6 +412,4 @@ const styles = StyleSheet.create({
   head: { position: 'absolute', left: 20, right: 20, bottom: 14 },
   headTitle: { fontFamily: fonts.display, fontSize: 22, color: '#FFFFFF' },
   headSub: { fontSize: 12, color: 'rgba(255,255,255,0.65)', marginTop: 2 },
-  passage: { position: 'absolute', top: 30, alignSelf: 'center', backgroundColor: 'rgba(0,0,0,0.35)', borderRadius: 18, paddingHorizontal: 16, paddingVertical: 8 },
-  passageText: { fontFamily: fonts.display, fontSize: 14, color: '#FFFFFF' },
 });

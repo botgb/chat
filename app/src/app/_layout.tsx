@@ -8,15 +8,14 @@ import { useEffect } from 'react';
 import { Platform } from 'react-native';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
-import { AppStateProvider, useApp } from '../state/AppState';
-import { ThemeProvider, useColors, useIsDark } from '../theme/ThemeContext';
+import { AppStateProvider } from '../state/AppState';
+import { ThemeProvider, useColors } from '../theme/ThemeContext';
 
 function Screens() {
   const colors = useColors();
-  const dark = useIsDark();
   return (
     <>
-      <StatusBar style={dark ? 'light' : 'dark'} />
+      <StatusBar style="light" />
       <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: colors.bg } }}>
         <Stack.Screen name="(tabs)" />
         <Stack.Screen name="licao" options={{ gestureEnabled: false, animation: 'slide_from_bottom' }} />
@@ -27,11 +26,13 @@ function Screens() {
   );
 }
 
-/** Aplica o tema escolhido nas configurações (claro, escuro ou o do celular). */
+/**
+ * A interface do app é sempre escura. A preferência de tema das configurações vale só para a
+ * área da questão (texto e fundo), aplicada na tela da lição.
+ */
 function Themed() {
-  const { settings } = useApp();
   return (
-    <ThemeProvider mode={settings.theme}>
+    <ThemeProvider mode="dark">
       <Screens />
     </ThemeProvider>
   );

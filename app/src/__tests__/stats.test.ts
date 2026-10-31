@@ -43,3 +43,20 @@ describe('frequência do vídeo do Plus', () => {
     expect([1, 2, 3, 4, 5, 6, 7, 8].map((n) => shouldShowPromo(3, n))).toEqual([false, true, false, true, false, true, false, false]);
   });
 });
+
+import { isSource, splitSources } from '../lib/sources';
+
+describe('fontes das questões', () => {
+  it('reconhece referências e deixa o texto e o comando no enunciado', () => {
+    expect(isSource('FURTADO, C. Formação econômica do Brasil. São Paulo: Cia. Editora Nacional, 1997 (adaptado).')).toBe(true);
+    expect(isSource('CONNOR, S. Disponível em: www.independent.co.uk. Acesso em: 14 ago. 2012 (adaptado).')).toBe(true);
+    expect(isSource('As redes de alta tensão para transmissão de energia elétrica geram campo magnético.')).toBe(false);
+    const { body, sources } = splitSources([
+      { type: 'text', text: 'Texto base da questão.' },
+      { type: 'text', text: 'SILVA, F. L. Descartes. São Paulo: Moderna, 2001 (adaptado).' },
+      { type: 'text', text: 'Fragmento.' },
+    ]);
+    expect(sources).toEqual(['SILVA, F. L. Descartes. São Paulo: Moderna, 2001 (adaptado).']);
+    expect(body.map((b) => (b.type === 'text' ? b.text : ''))).toEqual(['Texto base da questão.', 'Fragmento.']);
+  });
+});

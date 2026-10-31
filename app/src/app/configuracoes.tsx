@@ -86,8 +86,8 @@ function DangerButton({ label, onPress }: { label: string; onPress: () => void }
 
 const THEMES: { mode: ThemeMode; label: string }[] = [
   { mode: 'system', label: 'Automático' },
-  { mode: 'light', label: 'Desligado' },
-  { mode: 'dark', label: 'Ligado' },
+  { mode: 'light', label: 'Claro' },
+  { mode: 'dark', label: 'Escuro' },
 ];
 
 const SUBSCRIPTIONS_URL = Platform.select({
@@ -142,13 +142,13 @@ export default function Configuracoes() {
         <ScrollView contentContainerStyle={{ padding: space(4), gap: space(6), paddingBottom: space(16) }} keyboardShouldPersistTaps="handled">
           <Section title="Preferências">
             <View style={[styles.field, styles.rowLine]}>
-              <Text style={styles.rowLabel}>Modo escuro</Text>
+              <Text style={styles.rowLabel}>Fundo das questões</Text>
               <View style={styles.themes}>
                 {THEMES.map((t) => (
                   <Chip key={t.mode} label={t.label} active={s.theme === t.mode} onPress={() => update({ theme: t.mode })} />
                 ))}
               </View>
-              <Text style={styles.muted}>Automático segue o tema do seu celular.</Text>
+              <Text style={styles.muted}>O app é sempre escuro; isto muda só o texto e o fundo das questões. Automático segue o celular.</Text>
             </View>
             <ToggleRow label="Efeitos sonoros" value={s.sound} onChange={(v) => update({ sound: v })} />
             <ToggleRow label="Vibração" detail="Ao acertar e ao errar uma questão" value={s.vibration} onChange={(v) => update({ vibration: v })} last />

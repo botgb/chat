@@ -15,7 +15,9 @@ import { shouldShowPromo } from '../lib/plus';
 import { feedback, TEXT_SCALE, TEXT_SIZES } from '../lib/settings';
 import { useApp } from '../state/AppState';
 import { Colors, fonts, space, type } from '../theme';
-import { useColors, useStyles } from '../theme/ThemeContext';
+import { ThemeProvider, useColors, useStyles } from '../theme/ThemeContext';
+import { splitSources } from '../lib/sources';
+import type { ExamPack } from '../lib/types';
 
 type Params = { mode: LessonMode; vestibular: string; exam?: string; level?: string; ids?: string };
 
@@ -219,17 +221,19 @@ export default function Licao() {
         )}
       </View>
 
-      <ScrollView ref={scroll} contentContainerStyle={{ padding: space(5), paddingBottom: space(8), gap: space(4) }}>
-        <View style={styles.metaRow}>
-          <Text style={styles.source}>
-            {question.subject}
-            {exam ? `, ${exam.title}, questão ${question.number}` : ''}
-          </Text>
-          <Timer remaining={timer.remaining} total={seconds} />
-        </View>
-        <QuestionView question={question} selected={selected} revealed={revealed} onSelect={setSelected} scale={TEXT_SCALE[app.settings.textSize]} />
-        {exam?.source ? <Text style={styles.credit}>{exam.source}</Text> : null}
-      </ScrollView>
+      {/* Só a área da questão segue o tema claro/escuro escolhido; o resto do app é escuro. */}
+      <ThemeProvider mode={app.settings.theme}>
+        <ReadingArea
+          scrollRef={scroll}
+          question={question}
+          exam={exam}
+          selected={selected}
+          revealed={revealed}
+          onSelect={setSelected}
+          scale={TEXT_SCALE[app.settings.textSize]}
+          timer={<Timer remaining={timer.remaining} total={seconds} />}
+        />
+      </ThemeProvider>
 
       <View style={[styles.footer, revealed && { backgroundColor: correct ? colors.rightBg : colors.wrongBg, borderTopColor: 'transparent' }]}>
         {revealed && (
@@ -254,6 +258,66 @@ export default function Licao() {
     </SafeAreaView>
   );
 }
+
+/** Enunciado e alternativas, com as fontes dos textos e a prova de origem no fim. */
+function ReadingArea({
+  scrollRef,
+  question,
+  exam,
+  selected,
+  revealed,
+  onSelect,
+  scale,
+  timer,
+}: {
+  scrollRef: React.RefObject<ScrollViewInstance | null>;
+  question: Question;
+  exam: ExamPack | undefined;
+  selected: string | null;
+  revealed: boolean;
+  onSelect: (letter: string) => void;
+  scale: number;
+  timer: React.ReactNode;
+}) {
+  const styles = useStyles(createReadingStyles);
+  const { body, sources } = splitSources(question.statement);
+  const topic = [question.materia ?? question.subject, question.assunto].filter(Boolean).join(' · ');
+  return (
+    <ScrollView ref={scrollRef} style={styles.area} contentContainerStyle={{ padding: space(5), paddingBottom: space(8), gap: space(4) }}>
+      <View style={styles.metaRow}>
+        <Text style={styles.topic}>{topic}</Text>
+        {timer}
+      </View>
+      {sources.length > 0 && <Text style={styles.notice}>As fontes dos textos estão depois das alternativas.</Text>}
+      <QuestionView question={{ ...question, statement: body }} selected={selected} revealed={revealed} onSelect={onSelect} scale={scale} />
+      <View style={styles.sources}>
+        <Text style={styles.sourcesTitle}>Fontes</Text>
+        {sources.map((t, i) => (
+          <Text key={i} style={styles.sourceText} selectable>
+            {t}
+          </Text>
+        ))}
+        {exam && (
+          <Text style={styles.sourceText} selectable>
+            Questão {question.number} do {exam.title}.
+          </Text>
+        )}
+        {exam?.source ? <Text style={styles.sourceText}>{exam.source}</Text> : null}
+      </View>
+    </ScrollView>
+  );
+}
+
+const createReadingStyles = (colors: Colors) =>
+  StyleSheet.create({
+    area: { flex: 1, backgroundColor: colors.bg },
+    metaRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: space(3) },
+    topic: { flex: 1, fontFamily: fonts.displayMedium, fontSize: type.small + 1, color: colors.primary },
+    notice: { fontSize: type.small - 1, color: colors.inkSoft, opacity: 0.75 },
+    sources: { gap: space(1.5), paddingTop: space(3), borderTopWidth: StyleSheet.hairlineWidth, borderTopColor: colors.separator },
+    sourcesTitle: { fontFamily: fonts.displayMedium, fontSize: type.small, color: colors.inkSoft },
+    sourceText: { fontSize: type.small - 1, lineHeight: (type.small - 1) * 1.45, color: colors.inkSoft },
+  });
 
 const createStyles = (colors: Colors) =>
   StyleSheet.create({

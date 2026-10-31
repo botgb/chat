@@ -3,6 +3,7 @@ import { useRef, useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Button } from '../../components/Button';
+import { Chip } from '../../components/Chip';
 import { LevelMap, LevelMapHandle } from '../../components/LevelMap';
 import { SKY, SKY_DEFAULT } from '../../illustrations/sky';
 import { Sheet } from '../../components/Sheet';
@@ -26,6 +27,8 @@ export default function Trilha() {
   const [showJump, setShowJump] = useState(false);
   const [guide, setGuide] = useState(false);
   const [chestOpened, setChestOpened] = useState(false);
+  const [picker, setPicker] = useState(false);
+  const [pickMateria, setPickMateria] = useState<string | null>(null);
 
   const poolIds = new Set(study.pool.map((q) => q.id));
   const due = dueQuestionIds(progress, dayKey(new Date())).filter((id) => poolIds.has(id)).length;
@@ -77,14 +80,25 @@ export default function Trilha() {
       {unit && (
         <View style={styles.bannerWrap}>
           <View style={[styles.banner, { backgroundColor: color.main, borderBottomColor: color.dark }]}>
-            <View style={{ flex: 1 }}>
+            <Pressable
+              style={{ flex: 1, alignSelf: 'stretch', justifyContent: 'center' }}
+              onPress={() => {
+                setPickMateria(unit.subject);
+                setPicker(true);
+              }}
+              accessibilityRole="button"
+              accessibilityLabel={`${unit.subject}, ${unitDone} de ${unit.levels.length} fases. Tocar para escolher matéria e assunto`}
+            >
               <Text style={styles.bannerSmall}>
-                Unidade {unitIndex + 1}, {unitDone} de {unit.levels.length} fases
+                {unitDone} de {unit.levels.length} fases
               </Text>
-              <Text style={styles.bannerTitle} numberOfLines={1}>
-                {unit.subject}
-              </Text>
-            </View>
+              <View style={{ flexDirection: 'row', alignItems: 'center', gap: space(2) }}>
+                <Text style={styles.bannerTitle} numberOfLines={1}>
+                  {unit.subject}
+                </Text>
+                <Text style={styles.bannerChevron}>▾</Text>
+              </View>
+            </Pressable>
             <View style={[styles.bannerSep, { backgroundColor: color.dark }]} />
             <Pressable onPress={() => setGuide(true)} accessibilityRole="button" accessibilityLabel="Guia da unidade" style={styles.guideBtn}>
               <Art name="guia" size={34} />
@@ -132,7 +146,7 @@ export default function Trilha() {
         {unit && (
           <View style={{ gap: space(3) }}>
             <Text style={styles.info}>
-              {unit.levels.length} fases de até {LEVEL_SIZE} questões. A última é o desafio da unidade, com o troféu.
+              {unit.levels.length} fases de até {LEVEL_SIZE} questões. A última é o desafio da matéria.
             </Text>
             <Text style={styles.info}>
               Fases concluídas: {unitDone} de {unit.levels.length}. Estrelas: {unitStars} de {unit.levels.length * 3}.
@@ -143,6 +157,50 @@ export default function Trilha() {
             <Text style={styles.info}>Acerte 3 de 5 para passar de fase, 4 para 2 estrelas e 5 para 3 estrelas. Os baús no caminho dão diamantes.</Text>
           </View>
         )}
+      </Sheet>
+
+      <Sheet visible={picker} title="Escolha matéria e assunto" onClose={() => setPicker(false)}>
+        <View style={styles.wrap}>
+          {units.map((u) => (
+            <Chip key={u.subject} label={u.subject} active={u.subject === pickMateria} onPress={() => setPickMateria(u.subject)} />
+          ))}
+        </View>
+        {(() => {
+          const u = units.find((x) => x.subject === pickMateria);
+          if (!u) return null;
+          // Assuntos da matéria nas provas baixadas, na ordem do caminho.
+          const assuntos: { nome: string; levels: Level[] }[] = [];
+          for (const l of u.levels) {
+            const nome = l.assunto ?? 'Geral';
+            const g = assuntos.find((a) => a.nome === nome);
+            if (g) g.levels.push(l);
+            else assuntos.push({ nome, levels: [l] });
+          }
+          const go = (l: Level) => {
+            setPicker(false);
+            setTimeout(() => map.current?.scrollToLevel(l.id), 250);
+          };
+          return (
+            <View style={{ gap: space(2) }}>
+              <Pressable style={styles.pickRow} onPress={() => go(u.levels.find((l) => l.current) ?? u.levels[0])} accessibilityRole="button">
+                <Text style={styles.pickTitle}>Continuar de onde parei</Text>
+                <Text style={styles.pickSub}>{u.levels.filter((l) => l.stars > 0).length} de {u.levels.length} fases</Text>
+              </Pressable>
+              {assuntos.map((a) => {
+                const done = a.levels.filter((l) => l.stars > 0).length;
+                const target = a.levels.find((l) => l.unlocked && l.stars === 0) ?? a.levels.find((l) => l.stars === 0) ?? a.levels[0];
+                return (
+                  <Pressable key={a.nome} style={styles.pickRow} onPress={() => go(target)} accessibilityRole="button">
+                    <Text style={styles.pickTitle} numberOfLines={1}>{a.nome}</Text>
+                    <Text style={styles.pickSub}>
+                      {done} de {a.levels.length} {a.levels.length === 1 ? 'fase' : 'fases'}
+                    </Text>
+                  </Pressable>
+                );
+              })}
+            </View>
+          );
+        })()}
       </Sheet>
 
       <Sheet visible={!!locked} title="Fase bloqueada" onClose={() => setLocked(null)}>
@@ -172,6 +230,11 @@ const createStyles = (colors: Colors) =>
   bannerSmall: { fontFamily: fonts.ui, fontSize: type.small, color: 'rgba(255,255,255,0.85)' },
   bannerTitle: { fontFamily: fonts.display, fontSize: type.lead + 2, color: colors.onColor },
   bannerSep: { width: 2, alignSelf: 'stretch', marginVertical: 0 },
+  bannerChevron: { fontFamily: fonts.display, fontSize: type.body, color: 'rgba(255,255,255,0.8)' },
+  wrap: { flexDirection: 'row', flexWrap: 'wrap', gap: space(2) },
+  pickRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: space(3), paddingVertical: space(3), paddingHorizontal: space(4), borderRadius: 14, borderCurve: 'continuous', backgroundColor: colors.surface },
+  pickTitle: { flex: 1, fontFamily: fonts.displayMedium, fontSize: type.body, color: colors.ink },
+  pickSub: { fontSize: type.small, color: colors.inkSoft },
   guideBtn: { width: 64, alignSelf: 'stretch', alignItems: 'center', justifyContent: 'center' },
   offline: { fontFamily: fonts.body, fontSize: type.small, color: colors.inkSoft, textAlign: 'center', marginTop: space(4) },
   fab: { position: 'absolute', bottom: space(4), borderRadius: 16, borderWidth: 2, borderBottomWidth: 5, backgroundColor: colors.card, alignItems: 'center', justifyContent: 'center' },
