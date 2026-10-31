@@ -5,9 +5,14 @@ import type { SceneName } from '../illustrations/scenes';
 import type { Sfx } from '../lib/promoAudio';
 import falas from './falas.json';
 import { VOICE_MS } from './vozes';
+import type { MouthName } from '../rig/library';
+import { LipTrack, lipTrack, mouthAt } from '../rig/lipsync';
 
-/** Quadros por segundo: animação de recorte, propositalmente "travada". */
-export const FPS = 12;
+/**
+ * 24 quadros por segundo. Os movimentos de recorte (balanço, tremida, respiração) trocam
+ * de posição a cada 2 ou mais quadros, como na animação de papel; a boca segue a fala.
+ */
+export const FPS = 24;
 export const FRAME_MS = 1000 / FPS;
 /** Tempo extra depois de cada fala antes da próxima. */
 export const GAP_MS = 200;
@@ -103,6 +108,7 @@ export type ActorState = {
   expr: ExpressionName | null;
   talking: boolean;
   mouthOpen: boolean;
+  mouth: MouthName; // boca da sincronia labial (repouso quando calado)
   rot: number;
   shakeX: number;
 };
@@ -117,6 +123,14 @@ export type FrameState = {
   line: Line | null;
   ending: boolean;
 };
+
+const tracks = new Map<string, LipTrack>();
+const trackFor = (l: Line) => {
+  let tr = tracks.get(l.id);
+  if (!tr) tracks.set(l.id, (tr = lipTrack(l.text, l.to - l.from)));
+  return tr;
+};
+const isShout = (text: string) => /[A-ZÀ-Ý]{3}/.test(text) && text === text.toUpperCase();
 
 /** Estado de um instante do vídeo, já arredondado para o quadro (12 por segundo). */
 export function frameAt(tl: Timeline, ms: number): FrameState {
@@ -162,11 +176,12 @@ export function frameAt(tl: Timeline, ms: number): FrameState {
   const out: ActorState[] = [];
   for (const [name, st] of actors) {
     const talking = !!line && line.who === name && t < line.to - 150;
+    const mouth: MouthName = talking && line ? mouthAt(trackFor(line), t - line.from, isShout(line.text)) : 'repouso';
     // Pulo: parábola de 4 quadros por pulo.
     const hopT = st.hopAt >= 0 ? (t - st.hopAt) / 330 : -1;
     const hop = hopT >= 0 && hopT < st.hopN ? -26 * Math.sin(Math.PI * (hopT % 1)) : 0;
     // Respiração em degraus, cada personagem no seu ritmo.
-    const breathe = (Math.floor(frame / 6) + name.length) % 2 === 0 ? 0 : -2;
+    const breathe = (Math.floor(frame / 12) + name.length) % 2 === 0 ? 0 : -2;
     const shaking = t < st.shakeUntil;
     out.push({
       name,
@@ -176,10 +191,11 @@ export function frameAt(tl: Timeline, ms: number): FrameState {
       z: st.z,
       expr: st.expr,
       talking,
-      mouthOpen: talking && frame % 2 === 0,
+      mouthOpen: mouth !== 'MBP' && mouth !== 'repouso',
+      mouth,
       // Ao falar, o corpo inteiro balança como recorte de papel.
-      rot: talking ? (Math.floor(frame / 2) % 2 === 0 ? -2 : 2) : 0,
-      shakeX: shaking ? (frame % 2 === 0 ? -5 : 5) : 0,
+      rot: talking ? (Math.floor(frame / 4) % 2 === 0 ? -2 : 2) : 0,
+      shakeX: shaking ? (Math.floor(frame / 2) % 2 === 0 ? -5 : 5) : 0,
     });
   }
   out.sort((a, b) => a.z - b.z);

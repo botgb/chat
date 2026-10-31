@@ -285,10 +285,13 @@ describe('vídeos do Plus', () => {
   it('quem fala mexe a boca; os outros não', () => {
     const tl = buildTimeline(PROMOS.find((p) => p.id === 'vidas')!);
     const line = tl.lines[3]; // Gabaritatu: "Já pensou em... errar infinitamente?"
-    const frames = [0, 1, 2, 3].map((n) => frameAt(tl, line.from + 200 + n * FRAME_MS));
+    const n = Math.floor((line.to - line.from - 400) / FRAME_MS);
+    const frames = Array.from({ length: n }, (_, i) => frameAt(tl, line.from + 100 + i * FRAME_MS));
     const tatu = frames.map((f) => f.actors.find((a) => a.name === 'gabaritatu')!);
     expect(tatu.every((a) => a.talking)).toBe(true);
+    // a boca segue a fala: abre e fecha, com várias formas diferentes
     expect(new Set(tatu.map((a) => a.mouthOpen)).size).toBe(2);
+    expect(new Set(tatu.map((a) => a.mouth)).size).toBeGreaterThanOrEqual(4);
     expect(frames.every((f) => !f.actors.find((a) => a.name === 'gabamico')!.talking)).toBe(true);
     expect(frames[0].line?.who).toBe('gabaritatu');
   });
