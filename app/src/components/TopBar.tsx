@@ -10,14 +10,14 @@ import {
   visibleStreak,
 } from '../lib/gamification';
 import { useApp } from '../state/AppState';
-import { Art, ArtName, subjectArt } from '../illustrations/Art';
+import { Art, ArtName } from '../illustrations/Art';
 import { useStudy } from '../state/useStudy';
 import { Colors, fonts, space, type } from '../theme';
 import { useColors, useStyles } from '../theme/ThemeContext';
 import { Button } from './Button';
 import { Sheet, SheetOption } from './Sheet';
 
-type Panel = 'exam' | 'subject' | 'streak' | 'diamonds' | 'hearts' | null;
+type Panel = 'exam' | 'streak' | 'diamonds' | 'hearts' | null;
 
 function Item({ icon, value, color, label, onPress }: { icon: ArtName; value: string | number; color: string; label: string; onPress: () => void }) {
   const styles = useStyles(createStyles);
@@ -38,6 +38,13 @@ const shortExam = (title: string) => {
   return [year, day && `D${day}`].filter(Boolean).join(' ') || title.slice(0, 5);
 };
 
+/** "ENEM 2023, dia 1" vira "2023 · 1º dia". */
+export const examLabel = (title: string) => {
+  const year = title.match(/\b(19|20)\d{2}\b/)?.[0];
+  const day = title.match(/dia\s*(\d)/i)?.[1];
+  return year && day ? `${year} · ${day}º dia` : title;
+};
+
 export function TopBar() {
   const colors = useColors();
   const styles = useStyles(createStyles);
@@ -45,6 +52,7 @@ export function TopBar() {
   const study = useStudy();
   const { progress } = app;
   const [panel, setPanel] = useState<Panel>(null);
+  const [openGroup, setOpenGroup] = useState<string | null>(null);
   const now = Date.now();
   const streak = visibleStreak(progress, dayKey(new Date()));
   const hearts = currentHearts(progress, now);
@@ -53,53 +61,67 @@ export function TopBar() {
   const examShort = study.examId
     ? shortExam(study.exams.find((e) => e.id === study.examId)?.title ?? '')
     : study.vestibularInfo?.name ?? 'Provas';
-  const subjectCount = study.activeSubjects.length || study.subjects.length;
   const nextHeartMin = hearts < MAX_HEARTS ? Math.ceil((HEART_REFILL_MS - ((now - progress.heartsUpdatedAt) % HEART_REFILL_MS)) / 60000) : 0;
 
   return (
     <View style={styles.bar}>
       <Item icon="prova" value={examShort} color={colors.ink} label={`Prova: ${study.examLabel}. Trocar`} onPress={() => setPanel('exam')} />
-      <Item
-        icon="materias"
-        value={subjectCount}
-        color={colors.primary}
-        label={`Matérias: ${study.activeSubjects.length ? study.activeSubjects.join(', ') : 'todas'}. Trocar`}
-        onPress={() => setPanel('subject')}
-      />
       <Item icon="ofensiva" value={streak} color={streak > 0 ? colors.streakText : colors.inkSoft} label={`${streak} dias seguidos`} onPress={() => setPanel('streak')} />
       <Item icon="diamantes" value={progress.diamonds} color={colors.gemText} label={`${progress.diamonds} diamantes`} onPress={() => setPanel('diamonds')} />
       <Item icon="vidas" value={hearts} color={hearts > 0 ? colors.heartText : colors.inkSoft} label={`${hearts} vidas`} onPress={() => setPanel('hearts')} />
 
       <Sheet visible={panel === 'exam'} title="Escolha a prova" onClose={close}>
-        {study.vestibulares.map((v) => (
-          <View key={v.id} style={{ gap: space(2) }}>
-            <SheetOption
-              icon="materias"
-              label={`${v.name}: todas as provas`}
-              detail="Mistura todas as provas baixadas deste vestibular"
-              selected={study.vestibular === v.id && !study.examId}
-              onPress={() => {
-                study.selectExam(v.id, null);
-                close();
-              }}
-            />
-            {app.packs
-              .filter((p) => p.vestibular === v.id)
-              .map((p) => (
-                <SheetOption
-                  key={p.id}
-                  icon="prova"
-                  label={p.title}
-                  detail={`${p.questions.length} questões`}
-                  selected={study.examId === p.id}
-                  onPress={() => {
-                    study.selectExam(v.id, p.id);
-                    close();
-                  }}
-                />
-              ))}
-          </View>
-        ))}
+        <SheetOption
+          icon="materias"
+          label="Todas as provas"
+          detail="Mistura todas as provas baixadas"
+          selected={!study.examId}
+          onPress={() => {
+            if (study.vestibulares[0]) study.selectExam(study.vestibular ?? study.vestibulares[0].id, null);
+            close();
+          }}
+        />
+        {study.vestibulares.map((v) => {
+          const packs = app.packs
+            .filter((p) => p.vestibular === v.id)
+            .sort((a, b) => b.year - a.year || a.title.localeCompare(b.title));
+          const open = openGroup === v.id;
+          return (
+            <View key={v.id} style={{ gap: space(2) }}>
+              <SheetOption
+                icon="prova"
+                label={`${v.name} ${open ? '▾' : '▸'}`}
+                detail={`${packs.length} ${packs.length === 1 ? 'prova baixada' : 'provas baixadas'}`}
+                selected={study.vestibular === v.id && !!study.examId && !open}
+                onPress={() => setOpenGroup(open ? null : v.id)}
+              />
+              {open && (
+                <View style={{ gap: space(2), paddingLeft: space(4) }}>
+                  <SheetOption
+                    label={`Todas do ${v.name}`}
+                    selected={study.vestibular === v.id && !study.examId}
+                    onPress={() => {
+                      study.selectExam(v.id, null);
+                      close();
+                    }}
+                  />
+                  {packs.map((p) => (
+                    <SheetOption
+                      key={p.id}
+                      label={examLabel(p.title)}
+                      detail={`${p.questions.length} questões`}
+                      selected={study.examId === p.id}
+                      onPress={() => {
+                        study.selectExam(v.id, p.id);
+                        close();
+                      }}
+                    />
+                  ))}
+                </View>
+              )}
+            </View>
+          );
+        })}
         <SheetOption
           icon="prova"
           label="Baixar outras provas"
@@ -108,16 +130,6 @@ export function TopBar() {
             router.push('/provas');
           }}
         />
-      </Sheet>
-
-      <Sheet visible={panel === 'subject'} title="Escolha as matérias" onClose={close}>
-        <SheetOption icon="materias" label="Todas as matérias" selected={study.activeSubjects.length === 0} onPress={() => study.setSubjects([])} />
-        {study.subjects.map((s) => (
-          <SheetOption key={s} icon={subjectArt(s)} label={s} selected={study.activeSubjects.includes(s)} onPress={() => study.toggleSubject(s)} />
-        ))}
-        <View style={{ marginTop: space(2) }}>
-          <Button label="Pronto" onPress={close} />
-        </View>
       </Sheet>
 
       <Sheet visible={panel === 'streak'} title={`${streak} ${streak === 1 ? 'dia seguido' : 'dias seguidos'}`} onClose={close}>
@@ -156,14 +168,15 @@ const createStyles = (colors: Colors) =>
   bar: {
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'space-between',
+    justifyContent: 'center',
+    gap: space(8),
     paddingHorizontal: space(4),
     paddingVertical: space(3),
     borderBottomWidth: StyleSheet.hairlineWidth,
     borderBottomColor: colors.separator,
     backgroundColor: colors.bar,
   },
-  // Cinco itens com o mesmo espaço entre eles; cada um ocupa só a largura que precisa.
+  // Quatro itens centralizados, com o mesmo espaço entre eles.
   item: { flexDirection: 'row', alignItems: 'center', gap: 3, flexShrink: 1, minWidth: 0 },
   value: { fontFamily: fonts.display, fontSize: type.body + 1, flexShrink: 1 },
   info: { fontFamily: fonts.body, fontSize: type.body, lineHeight: type.body * 1.45, color: colors.inkSoft },

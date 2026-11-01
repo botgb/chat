@@ -5,8 +5,8 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Button } from '../../components/Button';
 import { Chip } from '../../components/Chip';
 import { LevelMap, LevelMapHandle } from '../../components/LevelMap';
-import { SKY, SKY_DEFAULT } from '../../illustrations/sky';
 import { Sheet } from '../../components/Sheet';
+import { ShootingStars } from '../../components/ShootingStars';
 import { TopBar } from '../../components/TopBar';
 import { Art } from '../../illustrations/Art';
 import { dayKey, dueQuestionIds, PATH_CHEST_DIAMONDS } from '../../lib/gamification';
@@ -15,6 +15,8 @@ import { useApp } from '../../state/AppState';
 import { useStudy } from '../../state/useStudy';
 import { Colors, fonts, space, type } from '../../theme';
 import { useStyles } from '../../theme/ThemeContext';
+
+const BANNER_H = 100; // altura da faixa da matéria, que fica por cima do céu
 
 export default function Trilha() {
   const styles = useStyles(createStyles);
@@ -51,8 +53,6 @@ export default function Trilha() {
   const units = study.units;
   const unit = units[Math.min(unitIndex, units.length - 1)];
   // A faixa do topo usa o céu da matéria, para combinar com a constelação.
-  const sky = unit ? SKY[unit.subject] ?? SKY_DEFAULT : SKY_DEFAULT;
-  const color = { main: sky.base, dark: sky.top };
   const unitDone = unit ? unit.levels.filter((l) => l.stars > 0).length : 0;
   const unitStars = unit ? unit.levels.reduce((s, l) => s + l.stars, 0) : 0;
   const st = unit ? progress.subjectStats[unit.subject] : undefined;
@@ -77,9 +77,24 @@ export default function Trilha() {
   return (
     <SafeAreaView style={styles.screen} edges={['top']}>
       <TopBar />
+      <View style={{ flex: 1 }}>
+      <LevelMap
+        ref={map}
+        topInset={BANNER_H}
+        units={units}
+        openedChests={progress.chests}
+        onUnitChange={setUnitIndex}
+        onCurrentVisible={(v) => setShowJump(!v)}
+        onPlay={play}
+        onOpenChest={(id, unlocked) =>
+          unlocked ? app.openChest(id) && setChestOpened(true) : setLocked('Conclua a fase anterior para abrir este baú.')
+        }
+        footer={app.offline ? <Text style={styles.offline}>Sem internet: usando as provas já baixadas.</Text> : null}
+      />
+      <ShootingStars />
       {unit && (
         <View style={styles.bannerWrap}>
-          <View style={[styles.banner, { backgroundColor: color.main, borderBottomColor: color.dark }]}>
+          <View style={styles.banner}>
             <Pressable
               style={{ flex: 1, alignSelf: 'stretch', justifyContent: 'center' }}
               onPress={() => {
@@ -99,7 +114,7 @@ export default function Trilha() {
                 <Text style={styles.bannerChevron}>▾</Text>
               </View>
             </Pressable>
-            <View style={[styles.bannerSep, { backgroundColor: color.dark }]} />
+            <View style={styles.bannerSep} />
             <Pressable onPress={() => setGuide(true)} accessibilityRole="button" accessibilityLabel="Guia da unidade" style={styles.guideBtn}>
               <Art name="guia" size={34} />
             </Pressable>
@@ -107,18 +122,7 @@ export default function Trilha() {
         </View>
       )}
 
-      <LevelMap
-        ref={map}
-        units={units}
-        openedChests={progress.chests}
-        onUnitChange={setUnitIndex}
-        onCurrentVisible={(v) => setShowJump(!v)}
-        onPlay={play}
-        onOpenChest={(id, unlocked) =>
-          unlocked ? app.openChest(id) && setChestOpened(true) : setLocked('Conclua a fase anterior para abrir este baú.')
-        }
-        footer={app.offline ? <Text style={styles.offline}>Sem internet: usando as provas já baixadas.</Text> : null}
-      />
+      </View>
 
       {due > 0 && (
         <Pressable
@@ -225,11 +229,11 @@ const createStyles = (colors: Colors) =>
   empty: { flex: 1, justifyContent: 'center', padding: space(6), gap: space(4) },
   hero: { fontFamily: fonts.display, fontSize: type.hero, lineHeight: type.hero * 1.1, color: colors.ink },
   lead: { fontFamily: fonts.body, fontSize: type.lead - 2, lineHeight: (type.lead - 2) * 1.4, color: colors.inkSoft },
-  bannerWrap: { paddingHorizontal: space(4), paddingTop: space(3), paddingBottom: space(1), backgroundColor: colors.bg, zIndex: 2 },
-  banner: { flexDirection: 'row', alignItems: 'center', borderRadius: 16, borderBottomWidth: 5, paddingLeft: space(4), minHeight: 72 },
+  bannerWrap: { position: 'absolute', top: 0, left: 0, right: 0, paddingHorizontal: space(4), paddingTop: space(3), paddingBottom: space(1), backgroundColor: 'transparent', zIndex: 2 },
+  banner: { flexDirection: 'row', alignItems: 'center', borderRadius: 16, borderWidth: 1, borderColor: 'rgba(255,255,255,0.16)', backgroundColor: 'transparent', paddingLeft: space(4), minHeight: 72 },
   bannerSmall: { fontFamily: fonts.ui, fontSize: type.small, color: 'rgba(255,255,255,0.85)' },
   bannerTitle: { fontFamily: fonts.display, fontSize: type.lead + 2, color: colors.onColor },
-  bannerSep: { width: 2, alignSelf: 'stretch', marginVertical: 0 },
+  bannerSep: { width: 1, alignSelf: 'stretch', marginVertical: space(3), backgroundColor: 'rgba(255,255,255,0.16)' },
   bannerChevron: { fontFamily: fonts.display, fontSize: type.body, color: 'rgba(255,255,255,0.8)' },
   wrap: { flexDirection: 'row', flexWrap: 'wrap', gap: space(2) },
   pickRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: space(3), paddingVertical: space(3), paddingHorizontal: space(4), borderRadius: 14, borderCurve: 'continuous', backgroundColor: colors.surface },

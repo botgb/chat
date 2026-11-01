@@ -30,10 +30,8 @@ export function useStudy() {
   );
   const subjects = useMemo(() => [...new Set(all.map((q) => q.subject))].sort((a, b) => a.localeCompare(b, 'pt-BR')), [all]);
   const activeSubjects = useMemo(() => prefs.subjects.filter((s) => subjects.includes(s)), [prefs.subjects, subjects]);
-  const pool = useMemo(
-    () => all.filter((q) => activeSubjects.length === 0 || activeSubjects.includes(q.subject)),
-    [all, activeSubjects],
-  );
+  // A escolha de matéria agora é feita pela faixa da trilha; o filtro antigo por área não vale mais.
+  const pool = all;
   // As fases de uma prova específica são diferentes das de "todas as provas".
   const scope = examId ?? vestibular ?? '';
   const units = useMemo(() => (vestibular ? buildMap(pool, scope, progress.levels) : []), [pool, scope, vestibular, progress.levels]);

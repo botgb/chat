@@ -35,8 +35,8 @@ export default function TabsLayout() {
       }}
     >
       <Tabs.Screen name="index" options={{ title: 'Trilha', tabBarAccessibilityLabel: 'Trilha', tabBarIcon: icon('inicio') }} />
-      <Tabs.Screen name="missoes" options={{ title: 'Missões', tabBarAccessibilityLabel: 'Missões', tabBarIcon: icon('missoes') }} />
       <Tabs.Screen name="ranking" options={{ title: 'Ranking', tabBarAccessibilityLabel: 'Ranking', tabBarIcon: icon('ranking') }} />
+      <Tabs.Screen name="missoes" options={{ title: 'Missões', tabBarAccessibilityLabel: 'Missões', tabBarIcon: icon('missoes') }} />
       <Tabs.Screen name="assinatura" options={{ title: 'Assinatura', tabBarAccessibilityLabel: 'Assinatura', tabBarIcon: icon('assinatura') }} />
       <Tabs.Screen name="perfil" options={{ title: 'Perfil', tabBarAccessibilityLabel: 'Perfil', tabBarIcon: icon('perfil') }} />
     </Tabs>

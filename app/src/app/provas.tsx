@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { ActivityIndicator, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Button } from '../components/Button';
+import { examLabel } from '../components/TopBar';
 import { FREE_EXAM_LIMIT, hasUltra } from '../lib/plus';
 import { useApp } from '../state/AppState';
 import { Colors, fonts, radius, space, type } from '../theme';
@@ -14,6 +15,7 @@ export default function Provas() {
   const app = useApp();
   const [busy, setBusy] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [open, setOpen] = useState<string | null>(null);
 
   const run = async (id: string, fn: (id: string) => Promise<void>) => {
     setBusy(id);
@@ -60,46 +62,62 @@ export default function Provas() {
             <Button label="Tentar de novo" variant="ghost" onPress={app.refreshManifest} />
           </View>
         )}
-        {manifest?.vestibulares.map((v) => (
-          <View key={v.id} style={{ gap: space(3) }}>
-            <View>
-              <Text style={styles.section}>{v.name}</Text>
-              <Text style={styles.muted}>{Math.round(v.secondsPerQuestion / 60)} min por questão</Text>
-            </View>
-            {manifest.exams
-              .filter((e) => e.vestibular === v.id)
-              .sort((a, b) => b.year - a.year || a.title.localeCompare(b.title))
-              .map((e) => {
-                const installed = app.installed[e.id];
-                const outdated = installed !== undefined && installed < e.packVersion;
-                return (
-                  <View key={e.id} style={styles.card}>
-                    <View style={styles.rowBetween}>
-                      <Text style={styles.title}>{e.title}</Text>
-                      {installed !== undefined && !outdated && <Text style={styles.badge}>Baixada</Text>}
-                    </View>
-                    <Text style={styles.muted}>
-                      {e.questionCount} questões: {e.subjects.join(', ')}
-                    </Text>
-                    {busy === e.id ? (
-                      <ActivityIndicator color={colors.primary} />
-                    ) : installed === undefined ? (
-                      atLimit ? (
-                        <Button label="Limite de 5 provas: veja o Ultra" variant="ghost" onPress={() => router.push('/assinatura')} />
-                      ) : (
-                        <Button label="Baixar prova" onPress={() => run(e.id, app.install)} />
-                      )
-                    ) : (
-                      <View style={{ gap: space(2) }}>
-                        {outdated && <Button label="Atualizar prova" onPress={() => run(e.id, app.install)} />}
-                        <Button label="Remover do celular" variant="ghost" onPress={() => run(e.id, app.uninstall)} />
+        {manifest?.vestibulares.map((v) => {
+          const exams = manifest.exams
+            .filter((e) => e.vestibular === v.id)
+            .sort((a, b) => b.year - a.year || a.title.localeCompare(b.title));
+          const have = exams.filter((e) => app.installed[e.id] !== undefined).length;
+          const expanded = open === v.id;
+          return (
+            <View key={v.id} style={{ gap: space(3) }}>
+              <Pressable
+                onPress={() => setOpen(expanded ? null : v.id)}
+                accessibilityRole="button"
+                accessibilityState={{ expanded }}
+                accessibilityLabel={`${v.name}: ${exams.length} provas, ${have} baixadas`}
+                style={({ pressed }) => [styles.card, styles.rowBetween, pressed && { opacity: 0.7 }]}
+              >
+                <View style={{ flexShrink: 1, gap: 2 }}>
+                  <Text style={styles.section}>{v.name}</Text>
+                  <Text style={styles.muted}>
+                    {exams.length} {exams.length === 1 ? 'prova' : 'provas'} · {have} {have === 1 ? 'baixada' : 'baixadas'} · {Math.round(v.secondsPerQuestion / 60)} min por questão
+                  </Text>
+                </View>
+                <Text style={styles.chevron}>{expanded ? '▾' : '▸'}</Text>
+              </Pressable>
+              {expanded &&
+                exams.map((e) => {
+                  const installed = app.installed[e.id];
+                  const outdated = installed !== undefined && installed < e.packVersion;
+                  return (
+                    <View key={e.id} style={[styles.card, styles.inner]}>
+                      <View style={styles.rowBetween}>
+                        <Text style={styles.title}>{examLabel(e.title)}</Text>
+                        {installed !== undefined && !outdated && <Text style={styles.badge}>Baixada</Text>}
                       </View>
-                    )}
-                  </View>
-                );
-              })}
-          </View>
-        ))}
+                      <Text style={styles.muted}>
+                        {e.questionCount} questões: {e.subjects.join(', ')}
+                      </Text>
+                      {busy === e.id ? (
+                        <ActivityIndicator color={colors.primary} />
+                      ) : installed === undefined ? (
+                        atLimit ? (
+                          <Button label="Limite de 5 provas: veja o Ultra" variant="ghost" onPress={() => router.push('/assinatura')} />
+                        ) : (
+                          <Button label="Baixar prova" onPress={() => run(e.id, app.install)} />
+                        )
+                      ) : (
+                        <View style={{ gap: space(2) }}>
+                          {outdated && <Button label="Atualizar prova" onPress={() => run(e.id, app.install)} />}
+                          <Button label="Remover do celular" variant="ghost" onPress={() => run(e.id, app.uninstall)} />
+                        </View>
+                      )}
+                    </View>
+                  );
+                })}
+            </View>
+          );
+        })}
         {retired.length > 0 && (
           <View style={{ gap: space(3) }}>
             <View>
@@ -136,5 +154,7 @@ const createStyles = (colors: Colors) =>
   card: { backgroundColor: colors.card, borderRadius: radius.card, borderCurve: 'continuous', boxShadow: colors.cardShadow, padding: space(4), gap: space(3) },
   rowBetween: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', gap: space(2) },
   badge: { fontFamily: fonts.display, fontSize: type.small, color: colors.right, backgroundColor: colors.rightBg, paddingHorizontal: space(2), paddingVertical: 2, borderRadius: 8, overflow: 'hidden' },
+  chevron: { fontSize: 22, color: colors.inkSoft },
+  inner: { marginLeft: space(4) },
   error: { fontFamily: fonts.bodyBold, fontSize: type.body, color: colors.wrong },
 });

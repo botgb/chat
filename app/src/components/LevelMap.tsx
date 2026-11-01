@@ -68,7 +68,7 @@ export function linkX(l: Link, y: number) {
   return l.xa + (l.xb - l.xa) * s;
 }
 
-export function layout(units: Unit[], openedChests: string[], W: number, firstCurrent: string | undefined) {
+export function layout(units: Unit[], openedChests: string[], W: number, firstCurrent: string | undefined, topInset = 0) {
   const rows: Row[] = [];
   const links: Link[] = [];
   let y = 0;
@@ -76,7 +76,7 @@ export function layout(units: Unit[], openedChests: string[], W: number, firstCu
   units.forEach((u, ui) => {
     const theme = themeOf(u.subject);
     const items = buildPath(u, openedChests);
-    const h = ui === 0 ? HEAD_FIRST : HEAD_NEXT;
+    const h = ui === 0 ? HEAD_FIRST + topInset : HEAD_NEXT;
     rows.push({
       kind: 'head', key: `head:${u.subject}`, ui, subject: u.subject, prev: ui === 0 ? null : units[ui - 1].subject, top: y, h,
       done: u.levels.filter((l) => l.stars > 0).length, total: u.levels.length,
@@ -325,11 +325,12 @@ export const LevelMap = forwardRef<LevelMapHandle, {
   onUnitChange?: (index: number) => void;
   onCurrentVisible?: (visible: boolean) => void;
   footer?: React.ReactElement | null;
-}>(function LevelMap({ units, openedChests, onPlay, onOpenChest, onUnitChange, onCurrentVisible, footer }, ref) {
+  topInset?: number; // espaço no topo para a faixa da matéria, que fica por cima do céu
+}>(function LevelMap({ units, openedChests, onPlay, onOpenChest, onUnitChange, onCurrentVisible, footer, topInset = 0 }, ref) {
   const { width: W } = useWindowDimensions();
   const list = useRef<FlatList<Row>>(null);
   const firstCurrent = units.flatMap((u) => u.levels).find((l) => l.current)?.id;
-  const L = useMemo(() => layout(units, openedChests, W, firstCurrent), [units, openedChests, W, firstCurrent]);
+  const L = useMemo(() => layout(units, openedChests, W, firstCurrent, topInset), [units, openedChests, W, firstCurrent, topInset]);
 
   useImperativeHandle(ref, () => ({
     scrollToCurrent: () => {
