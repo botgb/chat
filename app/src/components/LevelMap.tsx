@@ -8,7 +8,7 @@
 //  - as ilustrações só entram onde o caminho deixa espaço, sem sobrepor estrelas e ligações.
 // A lista é virtualizada: só as linhas perto da tela são desenhadas.
 import { forwardRef, memo, useEffect, useImperativeHandle, useMemo, useRef } from 'react';
-import { Animated, FlatList, ListViewToken, Pressable, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
+import { Animated, FlatList, ListViewToken, NativeScrollEvent, NativeSyntheticEvent, Pressable, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
 import Svg, { Circle, Defs, LinearGradient, Polygon, Polyline, RadialGradient, Rect, Stop, SvgXml } from 'react-native-svg';
 import { Art } from '../illustrations/Art';
 import { SKY, SKY_DEFAULT, SkyDeco, SkyTheme } from '../illustrations/sky';
@@ -137,14 +137,18 @@ export function layout(units: Unit[], openedChests: string[], W: number, firstCu
     const left = lo - 10;
     const right = W - hi - 10;
     const n = decoCount.get(row.subject) ?? 0;
-    const d = decos[n % decos.length];
     const room = Math.max(left, right);
-    const scale = Math.min(1, (ROW - 14) / d.h, room / d.w);
-    if (d.w * scale < 62) return;
-    const w = d.w * scale;
-    const h = d.h * scale;
-    row.deco = { d, w, h, y: (ROW - h) / 2, x: left >= right ? Math.max(6, left - w) : W - right + (right - w) };
-    decoCount.set(row.subject, n + 1);
+    // Tenta as ilustrações em sequência: uma que não cabe aqui não pode travar as outras.
+    for (let k = 0; k < decos.length; k++) {
+      const d = decos[(n + k) % decos.length];
+      const scale = Math.min(1, (ROW - 14) / d.h, room / d.w);
+      if (d.w * scale < 62) continue;
+      const w = d.w * scale;
+      const h = d.h * scale;
+      row.deco = { d, w, h, y: (ROW - h) / 2, x: left >= right ? Math.max(6, left - w) : W - right + (right - w) };
+      decoCount.set(row.subject, n + k + 1);
+      return;
+    }
   });
 
   // Cor do céu em cada altura: degradê dentro da matéria e passagem suave entre matérias.
@@ -345,10 +349,21 @@ export const LevelMap = forwardRef<LevelMapHandle, {
   const cb = useRef({ onUnitChange, onCurrentVisible, currentIndex: L.currentIndex });
   cb.current = { onUnitChange, onCurrentVisible, currentIndex: L.currentIndex };
   const onViewable = useRef(({ viewableItems }: { viewableItems: ListViewToken[] }) => {
-    const first = viewableItems.find((v) => (v.item as Row).kind === 'item')?.item as Row | undefined;
-    if (first) cb.current.onUnitChange?.(first.ui);
     cb.current.onCurrentVisible?.(viewableItems.some((v) => v.index === cb.current.currentIndex));
   }).current;
+
+  // Matéria da faixa do topo: a que aparece logo abaixo dela (não a que está escondida atrás).
+  const lastUnit = useRef(-1);
+  const onScroll = (e: NativeSyntheticEvent<NativeScrollEvent>) => {
+    const y = e.nativeEvent.contentOffset.y + topInset + 60;
+    let i = 0;
+    while (i + 1 < L.rows.length && L.offsets[i + 1] <= y) i++;
+    const ui = L.rows[i]?.ui;
+    if (ui !== undefined && ui !== lastUnit.current) {
+      lastUnit.current = ui;
+      cb.current.onUnitChange?.(ui);
+    }
+  };
 
   const renderItem = ({ item: row }: { item: Row }) => {
     const bg = <Background id={row.key.replace(/\W/g, '')} w={W} h={row.h} c1={L.colorAt(row.top)} c2={L.colorAt(row.top + row.h)} seed={row.key} />;
@@ -395,6 +410,8 @@ export const LevelMap = forwardRef<LevelMapHandle, {
       renderItem={renderItem}
       getItemLayout={(_, index) => ({ length: L.rows[index].h, offset: L.offsets[index], index })}
       onViewableItemsChanged={onViewable}
+      onScroll={onScroll}
+      scrollEventThrottle={64}
       viewabilityConfig={{ itemVisiblePercentThreshold: 30 }}
       initialNumToRender={10}
       windowSize={7}

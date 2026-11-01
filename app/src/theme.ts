@@ -49,28 +49,28 @@ export const lightColors = {
 
 export type Colors = typeof lightColors;
 
-// Escuro no padrão da Apple (preto e cinzas), com as cores de destaque mais claras.
+// Escuro no estilo Duolingo: azul-petróleo acinzentado (não preto), cartões com contorno.
 export const darkColors: Colors = {
-  bg: '#000000',
-  card: '#1C1C1E',
-  cardShadow: '0 0 0 1px rgba(255, 255, 255, 0.04)',
-  bar: 'rgba(22, 22, 24, 0.94)',
-  separator: 'rgba(84, 84, 88, 0.6)',
-  surface: '#2C2C2E',
-  line: '#38383A',
-  ink: '#FFFFFF',
-  inkSoft: '#9A9AA1',
-  locked: '#2C3248',
-  lockedDark: '#4E5674',
+  bg: '#131F24',
+  card: '#1B2A31',
+  cardShadow: '0 0 0 1.5px #37464F',
+  bar: '#131F24',
+  separator: '#37464F',
+  surface: '#2A3A42',
+  line: '#37464F',
+  ink: '#F1F7FB',
+  inkSoft: '#A3B5BE',
+  locked: '#37464F',
+  lockedDark: '#52656D',
 
   primary: '#5B8FFF',
   primaryDark: '#3D6BE0',
   right: '#3BD16F',
   rightDark: '#24A653',
-  rightBg: '#163626',
+  rightBg: '#1B3A2A',
   wrong: '#FF5C5C',
   wrongDark: '#E04444',
-  wrongBg: '#3D1E25',
+  wrongBg: '#432228',
   gold: '#FFC531',
   goldDark: '#DB9C00',
   streak: '#FF9A3D',
@@ -87,9 +87,9 @@ export const darkColors: Colors = {
   gemText: '#45C6F0',
   heartText: '#FF5C7C',
 
-  selectedBg: '#1F2D52',
-  goldBg: '#33291A',
-  streakBg: '#36261A',
+  selectedBg: '#1D3A52',
+  goldBg: '#3A3220',
+  streakBg: '#3D2A1C',
   onColor: '#FFFFFF',
 };
 

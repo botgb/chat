@@ -1,4 +1,5 @@
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { useEffect, useRef } from 'react';
+import { AccessibilityInfo, Animated, Easing, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Button } from '../../components/Button';
 import { TopBar } from '../../components/TopBar';
@@ -62,21 +63,22 @@ export default function Assinatura() {
 function PlanCard({ crown, name, tagline, benefits, tone, active }: { crown: ArtName; name: string; tagline: string; benefits: Benefit[]; tone: 'plus' | 'ultra'; active: boolean }) {
   const styles = useStyles(createStyles);
   return (
-    <View style={[styles.card, tone === 'ultra' ? styles.cardUltra : styles.cardPlus]}>
+    <View style={styles.card}>
+      {tone === 'ultra' && <PulseFrame />}
       <View style={styles.head}>
         <Art name={crown} size={64} />
         <View style={{ flex: 1 }}>
           <Text style={[styles.name, tone === 'ultra' && { color: '#FFC531' }]}>{name}</Text>
-          <Text style={[styles.tagline, tone === 'ultra' && { color: 'rgba(255,255,255,0.85)' }]}>{tagline}</Text>
+          <Text style={styles.tagline}>{tagline}</Text>
         </View>
       </View>
       <View style={{ gap: space(3) }}>
         {benefits.map((b) => (
-          <View key={b.title} style={[styles.benefit, tone === 'ultra' && styles.benefitUltra]}>
+          <View key={b.title} style={styles.benefit}>
             <Art name={b.icon} size={32} />
             <View style={{ flex: 1 }}>
-              <Text style={[styles.benefitTitle, tone === 'ultra' && { color: '#FFFFFF' }]}>{b.title}</Text>
-              <Text style={[styles.benefitText, tone === 'ultra' && { color: 'rgba(255,255,255,0.75)' }]}>{b.text}</Text>
+              <Text style={styles.benefitTitle}>{b.title}</Text>
+              <Text style={styles.benefitText}>{b.text}</Text>
             </View>
           </View>
         ))}
@@ -86,18 +88,47 @@ function PlanCard({ crown, name, tagline, benefits, tone, active }: { crown: Art
   );
 }
 
+// Moldura amarela que pulsa como um LED (fica acesa e parada com "reduzir movimento").
+function PulseFrame() {
+  const styles = useStyles(createStyles);
+  const glow = useRef(new Animated.Value(1)).current;
+  useEffect(() => {
+    let loop: Animated.CompositeAnimation | null = null;
+    let alive = true;
+    AccessibilityInfo.isReduceMotionEnabled().then((reduce) => {
+      if (!alive || reduce) return;
+      loop = Animated.loop(
+        Animated.sequence([
+          Animated.timing(glow, { toValue: 0.25, duration: 900, easing: Easing.inOut(Easing.sin), useNativeDriver: true }),
+          Animated.timing(glow, { toValue: 1, duration: 900, easing: Easing.inOut(Easing.sin), useNativeDriver: true }),
+        ]),
+      );
+      loop.start();
+    });
+    return () => {
+      alive = false;
+      loop?.stop();
+    };
+  }, [glow]);
+  return (
+    <>
+      <View pointerEvents="none" style={styles.frameBase} />
+      <Animated.View pointerEvents="none" style={[styles.frameGlow, { opacity: glow }]} />
+    </>
+  );
+}
+
 const createStyles = (colors: Colors) =>
   StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.bg },
   current: { fontFamily: fonts.displayMedium, fontSize: type.body, color: colors.inkSoft, textAlign: 'center' },
-  card: { borderRadius: radius.card, borderCurve: 'continuous', borderWidth: 2, borderBottomWidth: 6, padding: space(5), gap: space(4) },
-  cardPlus: { backgroundColor: colors.goldBg, borderColor: colors.gold, borderBottomColor: colors.goldDark },
-  cardUltra: { backgroundColor: '#2B2D42', borderColor: '#2B2D42', borderBottomColor: '#14151F' },
+  card: { backgroundColor: colors.card, borderRadius: radius.card, borderCurve: 'continuous', borderWidth: 2, borderColor: colors.line, borderBottomWidth: 6, padding: space(5), gap: space(4) },
+  frameBase: { position: 'absolute', top: -2, left: -2, right: -2, bottom: -6, borderRadius: radius.card, borderCurve: 'continuous', borderWidth: 3, borderColor: 'rgba(255, 197, 49, 0.35)' },
+  frameGlow: { position: 'absolute', top: -2, left: -2, right: -2, bottom: -6, borderRadius: radius.card, borderCurve: 'continuous', borderWidth: 3, borderColor: '#FFC531', boxShadow: '0 0 16px 3px rgba(255, 197, 49, 0.75), inset 0 0 10px 1px rgba(255, 197, 49, 0.35)' },
   head: { flexDirection: 'row', alignItems: 'center', gap: space(3) },
   name: { fontFamily: fonts.display, fontSize: type.title, color: colors.ink },
   tagline: { fontFamily: fonts.ui, fontSize: type.body - 1, color: colors.inkSoft },
-  benefit: { flexDirection: 'row', alignItems: 'center', gap: space(3), padding: space(3), borderRadius: radius.row, borderCurve: 'continuous', backgroundColor: colors.card },
-  benefitUltra: { backgroundColor: 'rgba(255,255,255,0.08)' },
+  benefit: { flexDirection: 'row', alignItems: 'center', gap: space(3), padding: space(3), borderRadius: radius.row, borderCurve: 'continuous', backgroundColor: colors.surface },
   benefitTitle: { fontFamily: fonts.displayMedium, fontSize: type.body, color: colors.ink },
   benefitText: { fontFamily: fonts.body, fontSize: type.small, color: colors.inkSoft, lineHeight: type.small * 1.4 },
   muted: { fontFamily: fonts.body, fontSize: type.small + 1, color: colors.inkSoft, lineHeight: (type.small + 1) * 1.4 },

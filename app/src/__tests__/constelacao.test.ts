@@ -46,6 +46,17 @@ describe('trilha em constelações', () => {
     }
   });
 
+  it('toda matéria com ilustrações ganha ilustrações na trilha', () => {
+    const { SKY } = require('../illustrations/sky');
+    for (const m of Object.keys(SKY)) {
+      if (!SKY[m].decos.length) continue;
+      const units = buildMap(pool([m]), 'enem', {});
+      const L = layout(units, [], 390, units[0].levels[0].id);
+      const n = L.rows.filter((r) => r.kind === 'item' && r.deco).length;
+      expect([m, n > 2]).toEqual([m, true]);
+    }
+  });
+
   it('as próximas estrelas ficam mais apagadas quanto mais longe da atual', () => {
     const units = buildMap(pool(['Física']), 'enem', {});
     const L = layout(units, [], 390, units[0].levels[0].id);

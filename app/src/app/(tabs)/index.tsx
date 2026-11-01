@@ -166,7 +166,17 @@ export default function Trilha() {
       <Sheet visible={picker} title="Escolha matéria e assunto" onClose={() => setPicker(false)}>
         <View style={styles.wrap}>
           {units.map((u) => (
-            <Chip key={u.subject} label={u.subject} active={u.subject === pickMateria} onPress={() => setPickMateria(u.subject)} />
+            <Chip
+              key={u.subject}
+              label={u.subject}
+              active={u.subject === pickMateria}
+              onPress={() => {
+                // Tocou na matéria: vai direto para onde parou nela.
+                const l = u.levels.find((x) => x.current) ?? u.levels.find((x) => x.unlocked && x.stars === 0) ?? u.levels[0];
+                setPicker(false);
+                setTimeout(() => map.current?.scrollToLevel(l.id), 250);
+              }}
+            />
           ))}
         </View>
         {(() => {
@@ -186,10 +196,7 @@ export default function Trilha() {
           };
           return (
             <View style={{ gap: space(2) }}>
-              <Pressable style={styles.pickRow} onPress={() => go(u.levels.find((l) => l.current) ?? u.levels[0])} accessibilityRole="button">
-                <Text style={styles.pickTitle}>Continuar de onde parei</Text>
-                <Text style={styles.pickSub}>{u.levels.filter((l) => l.stars > 0).length} de {u.levels.length} fases</Text>
-              </Pressable>
+              <Text style={styles.pickSub}>Assuntos de {u.subject}</Text>
               {assuntos.map((a) => {
                 const done = a.levels.filter((l) => l.stars > 0).length;
                 const target = a.levels.find((l) => l.unlocked && l.stars === 0) ?? a.levels.find((l) => l.stars === 0) ?? a.levels[0];
@@ -230,10 +237,10 @@ const createStyles = (colors: Colors) =>
   hero: { fontFamily: fonts.display, fontSize: type.hero, lineHeight: type.hero * 1.1, color: colors.ink },
   lead: { fontFamily: fonts.body, fontSize: type.lead - 2, lineHeight: (type.lead - 2) * 1.4, color: colors.inkSoft },
   bannerWrap: { position: 'absolute', top: 0, left: 0, right: 0, paddingHorizontal: space(4), paddingTop: space(3), paddingBottom: space(1), backgroundColor: 'transparent', zIndex: 2 },
-  banner: { flexDirection: 'row', alignItems: 'center', borderRadius: 16, borderWidth: 1, borderColor: 'rgba(255,255,255,0.16)', backgroundColor: 'transparent', paddingLeft: space(4), minHeight: 72 },
+  banner: { flexDirection: 'row', alignItems: 'center', borderRadius: 16, borderWidth: 1, borderColor: 'rgba(255,255,255,0.28)', backgroundColor: 'rgba(255,255,255,0.14)', paddingLeft: space(4), minHeight: 72 },
   bannerSmall: { fontFamily: fonts.ui, fontSize: type.small, color: 'rgba(255,255,255,0.85)' },
   bannerTitle: { fontFamily: fonts.display, fontSize: type.lead + 2, color: colors.onColor },
-  bannerSep: { width: 1, alignSelf: 'stretch', marginVertical: space(3), backgroundColor: 'rgba(255,255,255,0.16)' },
+  bannerSep: { width: 1, alignSelf: 'stretch', marginVertical: space(3), backgroundColor: 'rgba(255,255,255,0.28)' },
   bannerChevron: { fontFamily: fonts.display, fontSize: type.body, color: 'rgba(255,255,255,0.8)' },
   wrap: { flexDirection: 'row', flexWrap: 'wrap', gap: space(2) },
   pickRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: space(3), paddingVertical: space(3), paddingHorizontal: space(4), borderRadius: 14, borderCurve: 'continuous', backgroundColor: colors.surface },
